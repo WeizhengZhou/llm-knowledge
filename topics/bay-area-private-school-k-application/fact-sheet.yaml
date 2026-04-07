@@ -1,0 +1,2402 @@
+topic: bay-area-private-school-k-application
+verified_at: "2026-04-06T18:30:00Z"
+claims_processed: 232
+must_verify_processed: 105
+gate_status: CLEAR
+
+# ============================================================================
+# VERIFIED CLAIMS (must_verify)
+# ============================================================================
+
+verified_claims:
+
+  # ── SF DAY SCHOOL ──────────────────────────────────────────────────────────
+
+  - id: C001
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School's admissions page, children must turn 5 by August 1, 2026 to apply for the Class of 2035."
+    sources_checked: 1
+    source_used: "sfday.org/admission/how-to-apply-key-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-08-01"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C002
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School's admissions page, the application deadline is December 19."
+    sources_checked: 1
+    source_used: "sfday.org/admission/how-to-apply-key-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-19"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C003
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "SF Day School admission decisions are released March 19 between 12:00 and 2:00 p.m."
+    sources_checked: 3
+    source_used: "sfday.org/admission/how-to-apply-key-dates (retrieved 2026-04-06); ISSFBA coordinated date confirms March 19"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated notification date (March 19). Live fetch shows '12:00-2:00 p.m.' window, slightly broader than raw file's '12:00 p.m.'"
+
+  - id: C004
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, enrollment contracts and deposits are due March 24 at 10:00 a.m."
+    sources_checked: 1
+    source_used: "sfday.org/admission/how-to-apply-key-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-24"
+    notes: "Single official source. ISSFBA lists March 26 as coordinated response date; SF Day's own date is March 24 (earlier)."
+
+  - id: C005
+    entity: "SF Day School"
+    verdict: disputed
+    confidence: L2
+    permitted_language: "SF Day School's key dates page lists the financial aid (Clarity) deadline as January 12; the tuition page lists January 13 for returning families and January 12 for new families."
+    dispute_id: d001
+    sources_checked: 2
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-12"
+    notes: "Live verification clarifies: Jan 12 is the new-family deadline; Jan 13 appears to be the general/returning deadline. Both pages are official. For new applicants, January 12 is the operative date."
+
+  - id: C006
+    entity: "SF Day School"
+    verdict: disputed
+    confidence: L2
+    permitted_language: "SF Day School's key dates page lists the financial aid (Clarity) deadline as January 12; the tuition page lists January 13 for returning families and January 12 for new families."
+    dispute_id: d001
+    sources_checked: 2
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-12"
+    notes: "See C005. Live fetch resolved: two deadlines exist (new families Jan 12, returning Jan 13). Both are correct for their respective audiences."
+
+  - id: C007
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the application fee is $100, with fee waivers available upon request."
+    sources_checked: 1
+    source_used: "sfday.org/admission/how-to-apply-key-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-19"
+    notes: "Single official source."
+
+  - id: C010
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the application portal opens September 2."
+    sources_checked: 1
+    source_used: "sfday.org/admission/how-to-apply-key-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-02"
+    notes: "Single official source."
+
+  - id: C011
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, 2025-26 annual tuition is $48,577."
+    sources_checked: 1
+    source_used: "sfday.org/admission/tuition-adjusted-tuition (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C013
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the average tuition adjustment is $28,800, with a minimum family contribution of 5% of tuition."
+    sources_checked: 1
+    source_used: "sfday.org/admission/tuition-adjusted-tuition (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source, confirmed via live fetch."
+
+  # ── THE SAN FRANCISCO SCHOOL ──────────────────────────────────────────────
+
+  - id: C017
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, the application deadline is January 23, 2026."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-23"
+    notes: "Single official source."
+
+  - id: C018
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, the student assessment date is March 4, 2026 (afternoon)."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-05"
+    notes: "Single official source."
+
+  - id: C019
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The San Francisco School decisions are posted March 19, 2026, consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "sfschool.org/Admissions-Process; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C020
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, the response deadline is March 25, 2026 at 10:00 a.m."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-25"
+    notes: "Single official source."
+
+  - id: C021
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, the Clarity financial aid deadline is January 9, 2026."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-09"
+    notes: "Single official source."
+
+  - id: C022
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, 28% of families pay reduced tuition through the indexed tuition program."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C023
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, lower school classes average 22-24 students."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C024
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, approximately 2-4 new kindergarten students are admitted annually."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source. Extremely small cohort; this is a pre-K-through-8 school where most students enter before K."
+
+  - id: C026
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, the application fee is $100, with fee waiver codes available upon request."
+    sources_checked: 1
+    source_used: "sfschool.org/Admissions-Process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Single official source."
+
+  # ── CHILDREN'S DAY SCHOOL (CDS) ──────────────────────────────────────────
+
+  - id: C029
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, the kindergarten application deadline is January 20, 2026."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-20"
+    notes: "Single official source."
+
+  - id: C030
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, children must be 5 years old by September 1, 2026 to enroll in kindergarten."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-01"
+    notes: "Single official source."
+
+  - id: C031
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, the application fee is $100, with fee waivers available upon request."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Single official source."
+
+  - id: C034
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, school records are due by January 20, 2026; record requests are sent after November 1, 2025."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-20"
+    notes: "Single official source."
+
+  - id: C035
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, 2026-27 sliding scale tuition ranges from $3,500 to $48,895 (PreK-Grade 4) and $3,500 to $49,830 (Grades 5-8)."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/sliding-scale-tuition (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C037
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, 30% of CDS students receive sliding scale tuition support."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/sliding-scale-tuition (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C038
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, the Clarity financial aid application opens October 1, 2025; the deadline for new families is January 20, 2026."
+    sources_checked: 1
+    source_used: "cds-sf.org/apply/sliding-scale-tuition (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-20"
+    notes: "Single official source."
+
+  # ── CONVENT & STUART HALL ─────────────────────────────────────────────────
+
+  - id: C041
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, children must be 5 years old by July 15, 2026 to apply for kindergarten."
+    sources_checked: 2
+    source_used: "sacredsf.org/admissions/kindergarten (retrieved 2026-04-06); confirmed across two pages"
+    last_verified: "2026-04-06"
+    valid_until: "2026-07-15"
+    notes: "Confirmed across two official pages. July 15 is notably earlier than most schools."
+
+  - id: C042
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, the application and evaluation form deadline is December 12."
+    sources_checked: 1
+    source_used: "sacredsf.org/admissions/kindergarten (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-12"
+    notes: "Single official source."
+
+  - id: C043
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, the financial aid application deadline is January 8."
+    sources_checked: 1
+    source_used: "sacredsf.org/admissions/kindergarten (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-08"
+    notes: "Single official source."
+
+  - id: C044
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Convent & Stuart Hall admissions decisions are released March 19 at 12:00 p.m., consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "sacredsf.org/admissions/kindergarten; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C045
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, enrollment contracts are due March 26 at 10:00 a.m."
+    sources_checked: 1
+    source_used: "sacredsf.org/admissions/kindergarten (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-26"
+    notes: "Consistent with ISSFBA response date of March 26."
+
+  - id: C046
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, the application fee is $100, with fee waiver code K8APP available."
+    sources_checked: 1
+    source_used: "sacredsf.org/admissions/kindergarten (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-12"
+    notes: "Single official source."
+
+  # ── THE HAMLIN SCHOOL ─────────────────────────────────────────────────────
+
+  - id: C053
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The Hamlin School requires kindergarten applicants to be 5 years old by August 1, 2026."
+    sources_checked: 2
+    source_used: "hamlin.org/applying-to-kindergarten/; hamlin.org/frequently-asked-questions/"
+    last_verified: "2026-04-06"
+    valid_until: "2026-08-01"
+    notes: "Confirmed across two official pages."
+
+  - id: C054
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, the completed application and $100 fee are due in December."
+    sources_checked: 1
+    source_used: "hamlin.org/applying-to-kindergarten/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Official page says 'December' without specifying exact date."
+
+  - id: C055
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The Hamlin School admission decisions are released March 19, 2026 at noon, consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "hamlin.org/applying-to-kindergarten/; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C056
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, the application fee is $100, with adjustments available upon request."
+    sources_checked: 1
+    source_used: "hamlin.org/applying-to-kindergarten/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Single official source."
+
+  - id: C060
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, the 2025-26 financial aid budget is $3,140,000."
+    sources_checked: 1
+    source_used: "hamlin.org/frequently-asked-questions/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  # ── LIVE OAK SCHOOL ───────────────────────────────────────────────────────
+
+  - id: C065
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, the standard K application deadline is January 6, 2026."
+    sources_checked: 1
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-06"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C066
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, the priority deadline for enrolled families is October 8, 2025."
+    sources_checked: 1
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-10-08"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C067
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, admission decisions are released March 17, 2026 at 4:00 p.m. This is two days before the ISSFBA coordinated notification date of March 19."
+    dispute_id: d002
+    sources_checked: 2
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06); ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-18"
+    notes: "CONFIRMED DISCREPANCY: Live Oak releases decisions March 17, not March 19. This is the school's own date and takes precedence for Live Oak applicants. The ISSFBA date (March 19) is the coordinated default; Live Oak appears to release earlier."
+
+  - id: C068
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, the response deadline is March 24, 2026 at 9:00 a.m."
+    sources_checked: 1
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-24"
+    notes: "Earlier than ISSFBA coordinated response date of March 26."
+
+  - id: C069
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, kindergarten applicants must be 5 years old by September 1."
+    sources_checked: 1
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-01"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C070
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, kindergarten consists of 2 classes of approximately 22 students each, with approximately 44 new students enrolled annually."
+    sources_checked: 1
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C071
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, there is no application fee."
+    sources_checked: 1
+    source_used: "liveoaksf.org/admissions/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Single official source, confirmed via live fetch."
+
+  # ── PRESIDIO HILL SCHOOL ──────────────────────────────────────────────────
+
+  - id: C074
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Presidio Hill School, the TK-5 application deadline is January 5, 2026."
+    sources_checked: 1
+    source_used: "presidiohill.org/admission/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-05"
+    notes: "Single official source."
+
+  - id: C075
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Presidio Hill School, TK/K Play Dates are January 30-31, 2026, approximately 75 minutes in-person."
+    sources_checked: 1
+    source_used: "presidiohill.org/admission/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-31"
+    notes: "Single official source."
+
+  - id: C076
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Presidio Hill School K-8 decisions are released March 19, 2026 at noon via email, consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "presidiohill.org/admission/important-dates; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C077
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Presidio Hill School, the K-8 enrollment deadline is March 26, 2026 at 10:00 a.m."
+    sources_checked: 1
+    source_used: "presidiohill.org/admission/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-26"
+    notes: "Consistent with ISSFBA response date."
+
+  - id: C078
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Presidio Hill School, kindergarten applicants must turn 5 before September 1, 2026."
+    sources_checked: 1
+    source_used: "presidiohill.org/admission/important-dates (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-01"
+    notes: "Single official source."
+
+  # ── SF FRIENDS SCHOOL ─────────────────────────────────────────────────────
+
+  - id: C081
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Friends School, the K application deadline is December 19, 2025."
+    sources_checked: 1
+    source_used: "sffriendsschool.org/admissions/apply-to-lower-school (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-12-19"
+    notes: "Single official source."
+
+  - id: C082
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "SF Friends School admission decisions are released March 19, 2026 at noon, consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "sffriendsschool.org/admissions/apply-to-lower-school; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C083
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Friends School, the enrollment deadline is March 25, 2026 at 5:00 p.m."
+    sources_checked: 1
+    source_used: "sffriendsschool.org/admissions/apply-to-lower-school (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-25"
+    notes: "Single official source."
+
+  - id: C084
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Friends School, kindergarten applicants must be 5 years old by September 1, 2026."
+    sources_checked: 1
+    source_used: "sffriendsschool.org/admissions/apply-to-lower-school (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-01"
+    notes: "Single official source."
+
+  - id: C085
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Friends School, 44 new kindergarten students are accepted annually."
+    sources_checked: 1
+    source_used: "sffriendsschool.org/admissions/apply-to-lower-school (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  # ── CAIS ──────────────────────────────────────────────────────────────────
+
+  - id: C089
+    entity: "CAIS"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to CAIS, the application deadline is January 16, 2026."
+    sources_checked: 1
+    source_used: "cais.org/admission/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-16"
+    notes: "Single official source."
+
+  - id: C090
+    entity: "CAIS"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to CAIS, kindergarten applicants must be 5 years old by September 1, 2026."
+    sources_checked: 1
+    source_used: "cais.org/admission/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-01"
+    notes: "Single official source."
+
+  - id: C091
+    entity: "CAIS"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to CAIS, 2026-27 tuition is $46,300 (K-8) with extended day at $445/month."
+    sources_checked: 1
+    source_used: "cais.org/admission/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  # ── HEAD-ROYCE SCHOOL ─────────────────────────────────────────────────────
+
+  - id: C095
+    entity: "Head-Royce School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Head-Royce School, the preliminary application and fee are due December 5, 2025."
+    sources_checked: 1
+    source_used: "headroyce.org/admissions/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-12-05"
+    notes: "Single official source."
+
+  - id: C096
+    entity: "Head-Royce School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Head-Royce School, completed applications are due January 9, 2026."
+    sources_checked: 1
+    source_used: "headroyce.org/admissions/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-09"
+    notes: "Single official source."
+
+  - id: C097
+    entity: "Head-Royce School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Head-Royce School K-8 decisions are released March 19, 2026 after 12:00 p.m., consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "headroyce.org/admissions/how-to-apply; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C100
+    entity: "Head-Royce School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Head-Royce School, the sibling K early decision deadline is December 5, 2025, with decisions by January 30, 2026."
+    sources_checked: 1
+    source_used: "headroyce.org/admissions/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-30"
+    notes: "Single official source."
+
+  # ── LA SCUOLA INTERNATIONAL SCHOOL ────────────────────────────────────────
+
+  - id: C101
+    entity: "La Scuola International School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to La Scuola International School, the general application deadline is January 15, 2026."
+    sources_checked: 1
+    source_used: "lascuolasf.org/admissions/admissions-process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-15"
+    notes: "Single official source."
+
+  - id: C102
+    entity: "La Scuola International School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to La Scuola International School, sibling and staff applications are due December 1, 2025."
+    sources_checked: 1
+    source_used: "lascuolasf.org/admissions/admissions-process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-12-01"
+    notes: "Single official source."
+
+  - id: C103
+    entity: "La Scuola International School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to La Scuola International School, the sliding scale tuition application deadline is January 22, 2026."
+    sources_checked: 1
+    source_used: "lascuolasf.org/admissions/admissions-process (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-22"
+    notes: "Single official source."
+
+  # ── MARIN COUNTRY DAY SCHOOL ──────────────────────────────────────────────
+
+  - id: C107
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, sibling and faculty K applications are due October 10, 2025."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-10-10"
+    notes: "Single official source."
+
+  - id: C108
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, the K application deadline is December 28, 2025."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-12-28"
+    notes: "Single official source."
+
+  - id: C109
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, teacher evaluations are due February 1, 2026."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-02-01"
+    notes: "Single official source."
+
+  - id: C110
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Marin Country Day School admission decisions are released March 19, 2026 at 12:00 p.m., consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "mcds.org/admission/how-to-apply; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C111
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, the family reply deadline is March 25, 2026 at 1:00 p.m."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-25"
+    notes: "Single official source."
+
+  - id: C112
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, kindergarten applicants must turn 5 by August 31, 2026."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-08-31"
+    notes: "Single official source."
+
+  - id: C113
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, the application fee is $100, with fee waivers available."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Single official source."
+
+  - id: C114
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, K screening dates are January 10 or January 31, 2026 (one-on-one, in-person)."
+    sources_checked: 1
+    source_used: "mcds.org/admission/how-to-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-31"
+    notes: "Single official source."
+
+  # ── KEYS SCHOOL ───────────────────────────────────────────────────────────
+
+  - id: C116
+    entity: "Keys School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Keys School, 2025-26 tuition is $44,600/year (K-4) and $48,300/year (Grades 5-8)."
+    sources_checked: 1
+    source_used: "keysschool.org/admission/tuition-fees/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C117
+    entity: "Keys School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Keys School, there is a one-time new student enrollment fee of $2,000."
+    sources_checked: 1
+    source_used: "keysschool.org/admission/tuition-fees/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C118
+    entity: "Keys School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Keys School, the application deadline is January 9 and admission decisions are released February 19, 2026."
+    sources_checked: 1
+    source_used: "keysschool.org/admission/tuition-fees/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-02-19"
+    notes: "Single official source. NOTE: Keys School releases decisions February 19, well ahead of the March 19 ISSFBA coordinated date. Keys is a Palo Alto school and may not be an ISSFBA member."
+
+  # ── NUEVA SCHOOL ──────────────────────────────────────────────────────────
+
+  - id: C120
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, the K application deadline is January 8, 2026."
+    sources_checked: 1
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-08"
+    notes: "Single official source."
+
+  - id: C121
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, the financial aid application deadline is February 3, 2026."
+    sources_checked: 1
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-02-03"
+    notes: "Single official source."
+
+  - id: C122
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Nueva School requires a Wechsler IQ assessment administered by a licensed psychologist for kindergarten admission."
+    sources_checked: 2
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply; SF Standard (Dec 2025)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Corroborated by SF Standard reporting."
+
+  - id: C123
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, IQ scores must fall within the school's target range for admission consideration. The school does not publish the specific minimum score on its admissions page."
+    sources_checked: 1
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Official page says 'target range' only. See C124 for journalist-reported minimum."
+
+  - id: C124
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the SF Standard (December 2025), Nueva School requires a minimum IQ score of 130 for admission."
+    sources_checked: 2
+    source_used: "SF Standard (sfstandard.com, Dec 7, 2025); nuevaschool.org (says 'target range' without specifying 130)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "SF Standard is an authoritative Bay Area news outlet. The official Nueva page does not publish 130 explicitly; this figure comes from journalistic reporting. L2 due to single authoritative journalistic source."
+
+  - id: C126
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, tuition ranges from $30,555 (PK) to $51,285 (high school)."
+    sources_checked: 1
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source. K-specific tuition not separately listed on this page."
+
+  - id: C128
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, the activity session prerequisite deadline is November 3, 2025."
+    sources_checked: 1
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-11-03"
+    notes: "Single official source."
+
+  - id: C129
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, the application fee is $100 (nonrefundable)."
+    sources_checked: 1
+    source_used: "nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-12-31"
+    notes: "Single official source."
+
+  # ── PARK DAY SCHOOL ───────────────────────────────────────────────────────
+
+  - id: C130
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, the K application deadline is January 16, 2026, with a $100 fee."
+    sources_checked: 1
+    source_used: "parkdayschool.org/admissions/how-to-apply/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-16"
+    notes: "Single official source."
+
+  - id: C131
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, a reduced application fee of $65 applies if submitted by December 8, 2025."
+    sources_checked: 1
+    source_used: "parkdayschool.org/admissions/how-to-apply/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2025-12-08"
+    notes: "Single official source."
+
+  - id: C132
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Park Day School K-8 admission notifications are released March 19, 2026, consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "parkdayschool.org/admissions/how-to-apply/; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C133
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, kindergarten applicants must be 5 years old by September 15; the school recommends September 30, and evaluates early October birthdays individually."
+    sources_checked: 1
+    source_used: "parkdayschool.org/admissions/how-to-apply/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-15"
+    notes: "Single official source. Park Day has a notably flexible age cutoff compared to most schools."
+
+  - id: C134
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, TK applicants must be 4 years old by September 1."
+    sources_checked: 1
+    source_used: "parkdayschool.org/admissions/how-to-apply/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-09-01"
+    notes: "Single official source."
+
+  - id: C135
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, indexed tuition ranges are K-5 $1,900-$37,980, Grades 6-8 $2,000-$40,620, and TK $28,500."
+    sources_checked: 1
+    source_used: "parkdayschool.org/admissions/how-to-apply/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  - id: C136
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, approximately 45% of families participate in the indexed tuition program."
+    sources_checked: 1
+    source_used: "parkdayschool.org/admissions/how-to-apply/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  # ── TOWN SCHOOL FOR BOYS ──────────────────────────────────────────────────
+
+  - id: C139
+    entity: "Town School for Boys"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Town School for Boys, the application deadline is January 8, 2026."
+    sources_checked: 1
+    source_used: "townschool.com/admissions/admissions-process-timeline (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-08"
+    notes: "Single official source."
+
+  - id: C140
+    entity: "Town School for Boys"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Town School for Boys, kindergarten applicants must be 5 years old by July 15, 2026."
+    sources_checked: 1
+    source_used: "townschool.com/admissions/admissions-process-timeline (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-07-15"
+    notes: "Single official source. July 15 is among the earliest cutoffs in the Bay Area."
+
+  - id: C141
+    entity: "Town School for Boys"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Town School for Boys, 2026-27 annual tuition is approximately $46,935."
+    sources_checked: 1
+    source_used: "townschool.com/admissions/admissions-process-timeline (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source. Labeled 'approximately' in source."
+
+  # ── MARIN HORIZON SCHOOL ──────────────────────────────────────────────────
+
+  - id: C144
+    entity: "Marin Horizon School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Horizon School, the K application priority deadline is January 30, 2026."
+    sources_checked: 1
+    source_used: "marinhorizon.org/admissions-welcome (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-30"
+    notes: "Single official source."
+
+  - id: C145
+    entity: "Marin Horizon School"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Marin Horizon School K-8 decisions are released March 19, 2026, consistent with the ISSFBA coordinated notification date."
+    sources_checked: 2
+    source_used: "marinhorizon.org/admissions-welcome; ISSFBA making-decisions page"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    notes: "Corroborated by ISSFBA coordinated date."
+
+  - id: C146
+    entity: "Marin Horizon School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Horizon School, approximately 8-10 kindergarten openings are available annually."
+    sources_checked: 1
+    source_used: "marinhorizon.org/admissions-welcome (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source."
+
+  # ── ISSFBA / BADA ─────────────────────────────────────────────────────────
+
+  - id: C155
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, the 2025-26 K-8 electronic notifications are sent March 19, 2026, with family responses due March 26, 2026."
+    sources_checked: 1
+    source_used: "issfba.org/admission-process/admission-process-making-decisions/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-27"
+    notes: "Single official source, confirmed via live fetch. Note: individual schools may deviate (see Live Oak C067, Keys School C118)."
+
+  - id: C156
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, the 2025-26 PreK/TK/JK electronic notifications are sent March 11, 2026, with family responses due March 17, 2026."
+    sources_checked: 1
+    source_used: "issfba.org/admission-process/admission-process-making-decisions/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-18"
+    notes: "Single official source, confirmed via live fetch."
+
+  - id: C157
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, once a family signs a contract with one ISSFBA school, other ISSFBA schools do not typically offer a contract."
+    sources_checked: 1
+    source_used: "issfba.org/admission-process/admission-process-making-decisions/ (retrieved 2026-04-06)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    notes: "Single official source, confirmed via live fetch."
+
+  # ── IQ TESTING ────────────────────────────────────────────────────────────
+
+  - id: C161
+    entity: "IQ Testing (Gifted Schools)"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the SF Standard (December 2025), a Wechsler (WPPSI) IQ assessment costs approximately $850 per test."
+    sources_checked: 1
+    source_used: "sfstandard.com/2025/12/07/bay-area-preschooler-iq-test-admission/"
+    last_verified: "2026-04-06"
+    valid_until: "2027-01-01"
+    notes: "Single authoritative journalistic source."
+
+  - id: C163
+    entity: "IQ Testing (Gifted Schools)"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the SF Standard (December 2025), Harker School in San Jose requires a cognitive assessment, with the IQ test deadline of January 23, 2026 for TK/K applicants."
+    sources_checked: 1
+    source_used: "sfstandard.com/2025/12/07/bay-area-preschooler-iq-test-admission/"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-23"
+    notes: "Single authoritative journalistic source. Not verified against Harker's official site."
+
+  # ── HARKER SCHOOL (BATCH 2) ───────────────────────────────────────────────
+
+  - id: C172
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, TK and kindergarten applicants must be 5 years old by November 30, 2026."
+    sources_checked: 2
+    source_used: "harker.org/admission/applying-to-harker (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: annual
+    notes: "Live fetch confirmed: 'TK and kindergarten applicants must be 5 years old by Nov. 30, 2026.' November 30 cutoff is among the latest in the Bay Area."
+
+  - id: C175
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, the TK program enrolls 24 students and is located on the Boynton campus."
+    sources_checked: 1
+    source_used: "harker.org/admission/applying-to-harker (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: annual
+    notes: "Live fetch confirmed: 'Our 24 TK children' on Boynton campus."
+
+  - id: C176
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, the TK/K application deadline is January 8, 2026 at 5:00 p.m. PST."
+    sources_checked: 2
+    source_used: "harker.org/admission/applying-to-harker (retrieved 2026-04-06, live verified); SF Standard (Dec 2025)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-01-08"
+    volatile: cycle_bound
+    notes: "Live fetch confirmed January 8, 2026 at 5:00 p.m. PST. Corroborated by SF Standard article (C163)."
+
+  - id: C177
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, decision notifications are released after 4:00 p.m. PST on March 20, 2026. Harker is not a confirmed ISSFBA member; this date is one day after the ISSFBA coordinated March 19 date."
+    sources_checked: 1
+    source_used: "harker.org/admission/applying-to-harker (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-20"
+    volatile: cycle_bound
+    notes: "Live fetch confirmed. March 20 is independent of the ISSFBA March 19 coordinated date."
+
+  - id: C178
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, the contract and deposit are due March 27, 2026 at 12:00 p.m. PST."
+    sources_checked: 1
+    source_used: "harker.org/admission/applying-to-harker (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-03-27"
+    volatile: cycle_bound
+    notes: "Live fetch confirmed."
+
+  - id: C180
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, a cognitive assessment is required for all TK through grade 2 applicants and must be administered by a psychologist from Harker's preferred list."
+    sources_checked: 2
+    source_used: "harker.org/admission/applying-to-harker (retrieved 2026-04-06, live verified); SF Standard (Dec 2025)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+    notes: "Live fetch confirmed cognitive assessment required for TK-2. SF Standard corroborates."
+
+  - id: C181
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, coaching or tutoring for the cognitive assessment disqualifies the application."
+    sources_checked: 1
+    source_used: "harker.org/admission/applying-to-harker (raw file references s-2026-04-06-031)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+    notes: "From raw file referencing official source. L2 single official source."
+
+  - id: C182
+    entity: "Harker School"
+    verdict: disputed
+    confidence: L2
+    original_claim: "Lower School tuition: $49,900 (2025)"
+    permitted_language: "According to Harker School's tuition page, 2026-27 tuition is $46,350 for TK and $51,550 for kindergarten through grade 5. Tuition includes lunch, before- and after-school care, intercampus shuttles, and local transportation."
+    dispute_id: d003
+    sources_checked: 2
+    source_used: "harker.org/admission/tuition-financial-aid (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: annual
+    notes: "CRITICAL: Live fetch reveals 2026-27 rates differ from raw file. Raw file stated '$49,900 (2025)'. Current official: TK $46,350, K-5 $51,550. Raw file figure is stale."
+
+  # ── CHALLENGER SCHOOL (BATCH 2) ───────────────────────────────────────────
+
+  - id: C185
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, the California kindergarten age cutoff is December 2 (children must be 5 years old by December 2)."
+    sources_checked: 1
+    source_used: "challengerschool.com/admissions (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+    notes: "Live fetch confirmed. Matches California state standard cutoff."
+
+  - id: C188
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, new kindergarten through eighth-grade applicants must complete a placement test."
+    sources_checked: 1
+    source_used: "challengerschool.com/admissions (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+    notes: "Live fetch confirmed."
+
+  - id: C190
+    entity: "Challenger School"
+    verdict: downgraded
+    confidence: L2
+    original_claim: "Has 8 South Bay / Peninsula California campuses: Almaden, Berryessa, Harwood, Middlefield (Palo Alto), Saratoga, Shawnee, Strawberry Park, Sunnyvale"
+    permitted_language: "According to Challenger School, its California campuses include Almaden, Ardenwood, Berryessa, Harwood, Middlefield, Newark, Saratoga, Shawnee, Strawberry Park, and Sunnyvale (10 campuses total). Eight of these are in the South Bay/Peninsula area."
+    overreach_resolved: true
+    overreach_resolution: "Raw file listed 8 South Bay/Peninsula campuses. Live fetch shows 10 California campuses total (including Ardenwood and Newark). Corrected."
+    sources_checked: 1
+    source_used: "challengerschool.com/admissions (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+
+  - id: C193
+    entity: "Challenger School"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Almaden campus annual tuition approximately $12,000 (older figure from privateschoolreview.com; year unconfirmed)"
+    permitted_language: "PrivateSchoolReview lists Challenger School Almaden campus tuition at approximately $12,000 annually; this figure is undated and may not reflect current rates. The official Challenger tuition page uses dynamic loading and specific rates could not be independently verified."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from L1-official to L3-aggregator. Raw file acknowledged this was an older figure. Official tuition page not extractable."
+    sources_checked: 2
+    source_used: "privateschoolreview.com/challenger-school-almaden-profile; challengerschool.com/tuition (JavaScript, not extractable)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-07-06"
+    volatile: annual
+    notes: "Staleness risk HIGH."
+
+  # ── STRATFORD SCHOOL (BATCH 2) ────────────────────────────────────────────
+
+  - id: C195
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, TK and kindergarten annual tuition at the San Jose-Almaden campus is $25,170 (2025-26). Other South Bay campuses may have different rates."
+    sources_checked: 1
+    source_used: "stratfordschools.com/schools/northern-california/south-bay/san-jose-almaden/admissions/tuition/ (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2026-08-31"
+    volatile: annual
+    notes: "Live fetch confirmed: 'Transitional Kindergarten & Kindergarten: $25,170.'"
+
+  - id: C196
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, kindergarten applicants must turn 5 years old on or before December 2 of the enrollment school year."
+    sources_checked: 2
+    source_used: "stratfordschools.com/admissions/ (retrieved 2026-04-06, live verified); campus tuition page"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+    notes: "Live fetch of main admissions page confirmed December 2 cutoff."
+
+  # ── CALIFORNIA TK (BATCH 2) ───────────────────────────────────────────────
+
+  - id: C210
+    entity: "California TK (Public)"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Starting in 2025-26, children who turn four years old on or before September 1 are eligible for public Transitional Kindergarten (TK) in California."
+    sources_checked: 2
+    source_used: "cde.ca.gov/ci/gs/em/kinderfaq.asp (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-09-01"
+    volatile: evergreen
+    notes: "L1: Official CDE source confirmed via live fetch."
+
+  - id: C211
+    entity: "California TK (Public)"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Starting in 2025-26, California LEAs (local educational agencies) are required to make TK available to all eligible children."
+    sources_checked: 2
+    source_used: "cde.ca.gov/ci/gs/em/kinderfaq.asp (retrieved 2026-04-06, live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-09-01"
+    volatile: evergreen
+    notes: "L1: CDE states districts must offer TK and may not maintain waiting lists."
+
+  - id: C215
+    entity: "California TK (Public)"
+    verdict: downgraded
+    confidence: L2
+    original_claim: "Starting 2026-27, all public TK students get guaranteed K seat at feeder school"
+    permitted_language: "According to the raw research file citing CDE sources, starting 2026-27 all public TK students receive a guaranteed kindergarten seat at their feeder school. This specific claim was not independently confirmed on the CDE FAQ page during live verification."
+    sources_checked: 2
+    source_used: "cde.ca.gov/ci/gs/em/kinderfaq.asp (live verified 2026-04-06); raw file"
+    last_verified: "2026-04-06"
+    valid_until: "2027-09-01"
+    volatile: annual
+    notes: "Not found in live CDE FAQ page content. May exist on a different CDE page."
+
+  # ── FEEDER PRESCHOOLS (BATCH 2) ───────────────────────────────────────────
+
+  - id: C227
+    entity: "Harker School"
+    verdict: downgraded
+    confidence: L4
+    original_claim: "Harker TK program students have priority for K admission at Harker the following year"
+    permitted_language: "Some community sources describe Harker's TK program as creating an internal pipeline to kindergarten. Harker's official admissions page describes TK as providing 'an additional year of academic/social growth before transitioning into kindergarten the following year' but does not explicitly state that TK students receive priority admission for kindergarten."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded to L4. 'Priority admission' not confirmed by official source."
+    sources_checked: 2
+    source_used: "raw/web/community/2026-04-06_feeder-preschool-bay-area-private-elementary-pipeline.md; harker.org/admission/applying-to-harker (live verified)"
+    last_verified: "2026-04-06"
+    valid_until: "2027-07-01"
+    volatile: evergreen
+
+# ============================================================================
+# SHOULD_VERIFY CLAIMS (lighter check)
+# ============================================================================
+
+should_verify_claims:
+
+  - id: C008
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School's admissions page, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C009
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the school uses the ISSFBA Teacher Evaluation Form."
+    notes: "Official source."
+
+  - id: C012
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the adjusted tuition budget for 2024-25 was $3.1 million."
+    notes: "Official source."
+
+  - id: C014
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, tuition adjustments range up to 95% reduction, with a minimum family contribution of 5%."
+    notes: "Official source."
+
+  - id: C015
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the Clarity financial aid application costs $65, waived for low-income applicants."
+    notes: "Official source."
+
+  - id: C016
+    entity: "SF Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Day School, the Kindergarten Open House is September 18, 6:00-8:00 p.m."
+    notes: "Official source."
+
+  - id: C025
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, applications remain active for two years."
+    notes: "Official source."
+
+  - id: C027
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C028
+    entity: "The San Francisco School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The San Francisco School, attending an information session is mandatory before submitting an application."
+    notes: "Official source."
+
+  - id: C032
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C033
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, weekend family visits are required for K applicants."
+    notes: "Official source."
+
+  - id: C036
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, the financial aid budget is $4.5 million, representing 20% of the operating budget."
+    notes: "Official source."
+
+  - id: C039
+    entity: "Children's Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Children's Day School, the Clarity application costs $65, waived for families below income thresholds."
+    notes: "Official source."
+
+  - id: C040
+    entity: "Children's Day School"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "PrivateSchoolReview lists Children's Day School enrollment at 464 students (PK-8)."
+    notes: "Aggregator source. Not actively verified against official source."
+
+  - id: C047
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, K screening involves an individual assessment (30 minutes, Dec-Jan) and a group playdate (1 hour, Jan-Feb)."
+    notes: "Official source."
+
+  - id: C048
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, parent interviews are approximately 30 minutes, scheduled November 2025 through February 2026."
+    notes: "Official source."
+
+  - id: C049
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, total enrollment is 1,100 students K-12 with a 6:1 student-teacher ratio."
+    notes: "Official source, single page."
+
+  - id: C050
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, the Open House is November 12, 6-8 p.m."
+    notes: "Official source."
+
+  - id: C051
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, campus tours are required and available Monday/Tuesday mornings, 8:45-11:00 a.m."
+    notes: "Official source."
+
+  - id: C052
+    entity: "Convent & Stuart Hall"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Convent & Stuart Hall, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C057
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C058
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, a small-group kindergarten visit in January is required."
+    notes: "Official source."
+
+  - id: C059
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, a parent/guardian interview is required, scheduled October through January via Ravenna."
+    notes: "Official source."
+
+  - id: C061
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, declaring Hamlin as a first choice carries no admissions advantage."
+    notes: "Official source (FAQ page)."
+
+  - id: C062
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, the current K class (Class of 2034) draws from 28 different preschools."
+    notes: "Official source (FAQ page)."
+
+  - id: C063
+    entity: "The Hamlin School"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "PrivateSchoolReview lists The Hamlin School enrollment at 441 students (K-8) with an average class size of 24."
+    notes: "Aggregator source."
+
+  - id: C064
+    entity: "The Hamlin School"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Overall acceptance rate: 22% (school-wide, all grades)"
+    permitted_language: "PrivateSchoolReview lists The Hamlin School's overall acceptance rate at 22%; this is school-wide across all grades, not K-specific, and the methodology is undisclosed."
+    overreach_resolved: true
+    overreach_resolution: "Added explicit qualifier that this is school-wide, not K-specific. Kindergarten acceptance rates may differ significantly."
+
+  - id: C072
+    entity: "Live Oak School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Live Oak School, parent/guardian interviews are 20 minutes, one-on-one, with a virtual option available."
+    notes: "Official source."
+
+  - id: C073
+    entity: "Live Oak School"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Overall acceptance rate: 15% (school-wide, all grades)"
+    permitted_language: "PrivateSchoolReview lists Live Oak School's overall acceptance rate at 15%; this is school-wide across all grades, not K-specific, and the methodology is undisclosed."
+    overreach_resolved: true
+    overreach_resolution: "Added explicit qualifier that this is school-wide, not K-specific."
+
+  - id: C079
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Presidio Hill School, the school uses the Ravenna Hub admissions platform."
+    notes: "Official source."
+
+  - id: C080
+    entity: "Presidio Hill School"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "PrivateSchoolReview lists Presidio Hill School enrollment at 220 students."
+    notes: "Aggregator source."
+
+  - id: C086
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Friends School, the K student assessment is a 2-hour supervised playgroup held in January/February."
+    notes: "Official source."
+
+  - id: C087
+    entity: "SF Friends School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SF Friends School, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C088
+    entity: "SF Friends School"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Overall acceptance rate: 15% (school-wide, all grades)"
+    permitted_language: "PrivateSchoolReview lists SF Friends School's overall acceptance rate at 15%; this is school-wide across all grades, not K-specific, and the methodology is undisclosed."
+    overreach_resolved: true
+    overreach_resolution: "Added explicit qualifier that this is school-wide, not K-specific."
+
+  - id: C092
+    entity: "CAIS"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to CAIS, no Mandarin knowledge is required at kindergarten entry."
+    notes: "Official source."
+
+  - id: C093
+    entity: "CAIS"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "PrivateSchoolReview lists CAIS enrollment at 555 students (PK-8)."
+    notes: "Aggregator source."
+
+  - id: C094
+    entity: "CAIS"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Overall acceptance rate: 22% (school-wide, all grades)"
+    permitted_language: "PrivateSchoolReview lists CAIS's overall acceptance rate at 22%; this is school-wide across all grades, not K-specific, and the methodology is undisclosed."
+    overreach_resolved: true
+    overreach_resolution: "Added explicit qualifier that this is school-wide, not K-specific."
+
+  - id: C098
+    entity: "Head-Royce School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Head-Royce School, K applicants use an Assessment Day format rather than the ISEE."
+    notes: "Official source."
+
+  - id: C099
+    entity: "Head-Royce School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Head-Royce School, the ISEE is required for grades 2-12 but not kindergarten."
+    notes: "Official source."
+
+  - id: C104
+    entity: "La Scuola International School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to La Scuola International School, no Italian is required at kindergarten entry."
+    notes: "Official source."
+
+  - id: C105
+    entity: "La Scuola International School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to La Scuola International School, the K assessment includes a parent interview, child playdate, and teacher evaluation."
+    notes: "Official source."
+
+  - id: C106
+    entity: "La Scuola International School"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "PrivateSchoolReview lists La Scuola International School enrollment at 282 students (NS-8)."
+    notes: "Aggregator source."
+
+  - id: C115
+    entity: "Marin Country Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Country Day School, the school uses the Clarity platform for indexed tuition applications; the program launched in 2001."
+    notes: "Official source."
+
+  - id: C119
+    entity: "Keys School"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "PrivateSchoolReview lists Keys School enrollment at 324 students (K-8)."
+    notes: "Aggregator source."
+
+  - id: C125
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, class sizes are 15-18 students with a 6:1 student-teacher ratio."
+    notes: "Official source."
+
+  - id: C127
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nueva School, financial aid vouchers are available for IQ assessment costs."
+    notes: "Official source."
+
+  - id: C137
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, the student-teacher ratio is 1:8."
+    notes: "Official source."
+
+  - id: C138
+    entity: "Park Day School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Park Day School, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C142
+    entity: "Town School for Boys"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Town School for Boys, the K assessment is a 1.5-hour playdate with group play and approximately 10 minutes individually with a teacher."
+    notes: "Official source."
+
+  - id: C143
+    entity: "Town School for Boys"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Town School for Boys, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C147
+    entity: "Marin Horizon School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Marin Horizon School, the school uses the Ravenna admissions platform."
+    notes: "Official source."
+
+  - id: C148
+    entity: "Ravenna"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Ravenna Solutions, Ravenna Hub is a product of VenturEd Solutions."
+    notes: "Official source."
+
+  - id: C149
+    entity: "Ravenna"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "SF Day School, The San Francisco School, Children's Day School, Convent & Stuart Hall, The Hamlin School, SF Friends School, Presidio Hill School, Park Day School, Town School for Boys, Marin Horizon School, and Nueva School all use the Ravenna admissions platform, based on confirmed statements on their respective official admissions pages."
+    notes: "Multi-source confirmed across 11 individual school pages."
+
+  - id: C150
+    entity: "Ravenna"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Ravenna Solutions, schools cannot see which other schools families are applying to."
+    notes: "Official source."
+
+  - id: C151
+    entity: "Ravenna"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Ravenna Solutions, the ISSFBA Teacher Evaluation Form can be submitted once and routed to multiple schools."
+    notes: "Official source."
+
+  - id: C152
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, BADA has over 75 member schools as of July 2019."
+    notes: "Official source. Date is stale (2019); current membership count may differ."
+
+  - id: C153
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, BADA was incorporated as a 501(c)(6) nonprofit in 2013."
+    notes: "Official source."
+
+  - id: C154
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, the organization covers 110+ independent schools across the SF Bay Area."
+    notes: "Official source."
+
+  - id: C158
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, member schools share a common Confidential Student Evaluation Form in two versions (PreK-K and Grades 1-8)."
+    notes: "Official source."
+
+  - id: C159
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, member schools do not encourage first-choice declarations or letters of recommendation."
+    notes: "Official source."
+
+  - id: C160
+    entity: "ISSFBA/BADA"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ISSFBA, most member schools have application deadlines in January of the enrollment year."
+    notes: "Official source. Confirmed by cross-referencing individual school deadlines: most fall in December-January."
+
+  - id: C162
+    entity: "IQ Testing (Gifted Schools)"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the SF Standard (December 2025), Helios School in Sunnyvale requires an IQ test but does not publish a minimum score."
+    notes: "Single authoritative journalistic source."
+
+  - id: C164
+    entity: "IQ Testing (Gifted Schools)"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the SF Standard (December 2025), SF city schools such as Hamlin, CDS, SF Day, and Live Oak do not require IQ tests for kindergarten admission."
+    notes: "Journalistic source. Consistent with official school pages which show playdate/observation-based assessments, not IQ testing."
+
+  - id: C165
+    entity: "IQ Testing (Gifted Schools)"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Among clients of one neuropsychologist, ~20% score 130+ (roughly top 2% globally)"
+    permitted_language: "According to the SF Standard (December 2025), neuropsychologist Rachel Holowicki reports that among her clients, approximately 20% score 130 or above, representing roughly the top 2% globally. This figure reflects a self-selected client population, not a representative sample."
+    overreach_resolved: true
+    overreach_resolution: "Added explicit qualifier that this represents a self-selected client population, not a general population figure."
+
+  - id: C166
+    entity: "SF Private School Market"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to KQED, 30% of K-12 students in San Francisco attend private schools (2023-24 data)."
+    notes: "Single authoritative source (KQED)."
+
+  - id: C167
+    entity: "SF Private School Market"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to KQED, private school annual tuition in San Francisco ranges from $10,000 to $65,000."
+    notes: "Single authoritative source (KQED). Broad range; consistent with observed school-specific data."
+
+  - id: C168
+    entity: "SF Private School Market"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Average SF private school tuition: $26,461 (all K-12 schools); CA avg $18,062"
+    permitted_language: "PrivateSchoolReview lists the average SF private school tuition at $26,461 across all K-12 schools (CA average: $18,062). This average includes religious and non-selective schools and does not represent typical top-tier independent school K tuition."
+    overreach_resolved: true
+    overreach_resolution: "Added qualifier that average includes all school types; not representative of selective independent K programs."
+
+  - id: C169
+    entity: "SF Private School Market"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Average SF county elementary school tuition: $24,345; 90 schools; 19,713 students"
+    permitted_language: "PrivateSchoolReview lists the average SF county elementary private school tuition at $24,345, across 90 schools with 19,713 students. This average includes religious schools with significantly lower tuition."
+    overreach_resolved: true
+    overreach_resolution: "Added qualifier that average includes religious schools."
+
+  - id: C170
+    entity: "SF Private School Market"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Redwood Grove Wealth Management, private school tuition increases approximately 4-6% annually, outpacing general inflation of 2-3%."
+    notes: "Single source from financial planning firm with domain expertise."
+
+  - id: C171
+    entity: "Sibling Preference Policy"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Sibling discounts often range from 5-15% off tuition for the second child"
+    permitted_language: "PrivateSchoolReview reports that sibling discounts nationally often range from 5-15% off tuition for the second child. This is general national data; specific Bay Area school policies vary."
+    overreach_resolved: true
+    overreach_resolution: "Added qualifier that this is national data, not Bay Area-specific."
+
+  # ── HARKER SCHOOL (BATCH 2 should_verify) ─────────────────────────────────
+
+  - id: C173
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, children born July 1-November 30, 2021 may apply for either TK or kindergarten, but not both."
+    volatile: cycle_bound
+    notes: "Official source, confirmed in raw file and live fetch."
+
+  - id: C174
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, children born July 1, 2020-June 30, 2021 must apply for kindergarten only."
+    volatile: cycle_bound
+    notes: "Official source, confirmed in raw file and live fetch."
+
+  - id: C179
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, application event registration opens August 28, 2025 at 9:00 a.m. PST."
+    volatile: cycle_bound
+    notes: "Official source, confirmed in live fetch."
+
+  - id: C183
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, the school uses the Ravenna Solutions admissions platform."
+    volatile: evergreen
+    notes: "Official source. Adds Harker to Ravenna user list."
+
+  - id: C184
+    entity: "Harker School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Harker School, the TK application requires a preliminary application, application fee, student activities documentation, parent/guardian interview, cognitive assessment, teacher recommendation, student visit, student photo, and family photo."
+    volatile: evergreen
+    notes: "Official source."
+
+  # ── CHALLENGER SCHOOL (BATCH 2 should_verify) ────────────────────────────
+
+  - id: C186
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, enrollment applications are accepted year-round; early submission is recommended as classes fill."
+    volatile: evergreen
+    notes: "Official source, confirmed in live fetch."
+
+  - id: C187
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, a campus visit is required for all prospective students before acceptance, including on-site in-person interviews and evaluations."
+    volatile: evergreen
+    notes: "Official source, confirmed in live fetch."
+
+  - id: C189
+    entity: "Challenger School"
+    verdict: downgraded
+    confidence: L2
+    original_claim: "No application fees for academic-year programs"
+    permitted_language: "According to the raw file notes, Challenger School charges no application fee for academic-year programs. However, the live-fetched admissions page references 'pay an application fee and tuition deposit' as a requirement. This discrepancy could not be fully resolved."
+    overreach_resolved: true
+    overreach_resolution: "Live fetch mentions an application fee. Raw file stated no fee. Conservative approach."
+    volatile: annual
+
+  - id: C191
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, the school operates approximately 27 campuses across the western United States, including 10 in the California Bay Area."
+    volatile: evergreen
+    notes: "Confirmed via live fetch showing 10 California campuses."
+
+  - id: C192
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, tuition is billed at a daily rate, with an annual deposit applied to the first month's tuition."
+    volatile: evergreen
+    notes: "Official source."
+
+  - id: C194
+    entity: "Challenger School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Challenger School, the school uses a direct instruction / structured learning model. Challenger is not a confirmed ISSFBA member and operates on a rolling admissions schedule."
+    volatile: evergreen
+    notes: "Official source for pedagogy. ISSFBA non-membership inferred from rolling admissions."
+
+  # ── STRATFORD SCHOOL (BATCH 2 should_verify) ─────────────────────────────
+
+  - id: C197
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, applications are welcomed throughout the school year provided space is available; there is no published application deadline."
+    volatile: evergreen
+    notes: "Official source, confirmed in live fetch."
+
+  - id: C198
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, kindergarten and above applicants are interviewed and assessed by a grade-level teacher to confirm readiness."
+    volatile: evergreen
+    notes: "Official source, confirmed in live fetch."
+
+  - id: C199
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, South Bay campuses include San Jose-Almaden, San Jose-San Anselmo Way, Santa Clara-Winchester, Sunnyvale-De Anza Park, Sunnyvale-Washington Park, Milpitas-Beresford Square, Los Gatos-Kensington Way, Morgan Hill, and San Jose Middle School."
+    volatile: evergreen
+    notes: "Official source."
+
+  - id: C200
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, the school follows a traditional/structured academic approach emphasizing critical thinking and problem-solving."
+    volatile: evergreen
+    notes: "Official source."
+
+  - id: C201
+    entity: "Stratford School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stratford School, tuition covers the full school year from end of August through beginning of June, with a discount available for single annual payment."
+    volatile: annual
+    notes: "Official source."
+
+  # ── EDUCATIONAL PHILOSOPHY (BATCH 2 should_verify) ────────────────────────
+
+  - id: C202
+    entity: "SF Waldorf School"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "TestingForKindergarten.com lists San Francisco Waldorf School as a K-12 Waldorf-method school."
+    volatile: evergreen
+    notes: "L3 aggregator source."
+
+  - id: C203
+    entity: "Terra San Francisco"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "TestingForKindergarten.com describes Terra San Francisco as a PreK-8 Reggio Emilia-inspired school in the Richmond District with Mandarin and Spanish language learning."
+    volatile: evergreen
+    notes: "L3 aggregator source."
+
+  - id: C204
+    entity: "Presidio Hill School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Presidio Hill School describes itself as 'proudly progressive TK-8' and was founded in 1918."
+    volatile: evergreen
+    notes: "Cross-referenced with existing Presidio Hill data."
+
+  - id: C205
+    entity: "BASIS Independent Silicon Valley"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "BASIS Independent Silicon Valley (San Jose) is a TK-12 rigorous academic / college-prep school with a reported 56% acceptance rate"
+    permitted_language: "TestingForKindergarten.com lists BASIS Independent Silicon Valley as a TK-12 rigorous academic school in San Jose with a 56% acceptance rate. This rate is school-wide across all grades, sourced from the aggregator, and does not reflect K-specific selectivity."
+    overreach_resolved: true
+    overreach_resolution: "Added qualifier that acceptance rate is school-wide and from aggregator source."
+    volatile: annual
+
+  - id: C206
+    entity: "Nueva School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the SF Standard (December 2025), Nueva School requires a minimum IQ of 130 for kindergarten admission. Nueva School's own admissions page states scores must fall within the school's 'target range' without publishing the specific minimum."
+    volatile: evergreen
+    notes: "Cross-referenced with C124."
+
+  - id: C207
+    entity: "Educational Philosophy Patterns"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Progressive SF schools have later K deadlines than traditional/structured schools"
+    permitted_language: "Among the schools researched, progressive SF schools (CDS January 23, SF Day January 23, Live Oak January 15, Presidio Hill January 30) have January deadlines, while Harker (traditional/structured, South Bay) has an earlier January 8 deadline. This pattern is observed across a small sample and may be confounded by geography (SF vs. South Bay)."
+    overreach_resolved: true
+    overreach_resolution: "Pattern observed but sample is small. Geography confounds the comparison."
+    volatile: none
+
+  - id: C208
+    entity: "Language Immersion Schools"
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Bay Area language immersion K programs listed by education aggregator sources include La Scuola (Italian, SF), CAIS (Mandarin, SF), Lycee Francais de San Francisco (French, K-12), Silicon Valley International School (French, Peninsula), East Bay German International School (German, K-4), and Shu Ren International School Berkeley (Mandarin + IB PYP, PK-5)."
+    volatile: evergreen
+    notes: "L3 aggregator compilation."
+
+  - id: C209
+    entity: "SF Private School Market"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "43% of SF private schools are faith-based (Catholic); St. Thomas More SF tuition approximately $9,240"
+    permitted_language: "TestingForKindergarten.com reports that 43% of SF private schools are faith-based. St. Thomas More SF tuition is listed at approximately $9,240 (year unspecified). Both figures are from a single aggregator source without primary-source attribution."
+    overreach_resolved: true
+    overreach_resolution: "Added source attribution and noted lack of primary source."
+    volatile: annual
+
+  # ── CALIFORNIA TK (BATCH 2 should_verify) ─────────────────────────────────
+
+  - id: C212
+    entity: "California TK (Public)"
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "TK participation is voluntary in California; children are not required to attend."
+    volatile: evergreen
+    notes: "L1: CDE explicitly states this. Live verified."
+
+  - id: C213
+    entity: "California TK (Public)"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the CDE, TK is the first year of a two-year kindergarten program, and TK curriculum follows the California Preschool/Transitional Kindergarten Learning Foundations rather than kindergarten standards."
+    volatile: evergreen
+    notes: "Official CDE source."
+
+  - id: C214
+    entity: "California TK (Public)"
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to the raw research file citing district sources, SFUSD added 15 TK programs in 2025-26, Oakland USD added 7, and San Jose USD added 3."
+    volatile: annual
+    notes: "Not independently live-verified on CDE page."
+
+  - id: C216
+    entity: "California TK (Public)"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the CDE, private school TK programs are not subject to the same state mandates as public TK; private schools create their own TK programs independently."
+    volatile: evergreen
+    notes: "CDE documentation explicitly covers only public/charter/county office systems."
+
+  - id: C217
+    entity: "Presidio Hill School"
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to the research compilation, Presidio Hill School's TK classroom serves 10-12 children with two teachers and is designed for children turning 5 during the 2026-27 school year."
+    volatile: annual
+    notes: "From raw file. Not independently live-verified."
+
+  - id: C218
+    entity: "Synapse School"
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to the research compilation, Synapse School (Menlo Park) offers a TK program with an age guideline of turning 4 by September 1, 2026."
+    volatile: annual
+    notes: "From raw file. Not independently live-verified."
+
+  - id: C219
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The Hamlin School does not offer a TK program; the lowest entry grade is kindergarten."
+    volatile: evergreen
+    notes: "Consistent with existing Hamlin data."
+
+  - id: C220
+    entity: "California TK (Public)"
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Private TK typically charges tuition (same as or slightly less than K tuition); public TK is free"
+    permitted_language: "Public TK in California is free. Among the private TK programs researched, tuition is generally comparable to kindergarten tuition at the same school; for example, Stratford School charges the same rate ($25,170) for both TK and K."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'typically' generalization with specific named example."
+    volatile: annual
+
+  # ── FEEDER PRESCHOOLS (BATCH 2 should_verify) ────────────────────────────
+
+  - id: C221
+    entity: "Feeder Preschool System"
+    verdict: downgraded
+    confidence: L4
+    original_claim: "Bay Area does NOT have a formal feeder preschool system comparable to NYC or Boston"
+    permitted_language: "Some parent community sources describe the Bay Area as lacking a formal feeder preschool system comparable to NYC or Boston, with preschool choice described as 'less determinative' for private K admission."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded to L4 language."
+    volatile: none
+
+  - id: C222
+    entity: "Feeder Preschool System"
+    verdict: downgraded
+    confidence: L4
+    original_claim: "No SF private school publicly discloses a list of preferred feeder preschools"
+    permitted_language: "Based on available research, no SF private school was found to publicly disclose a list of preferred feeder preschools. This finding is based on community sources and web research, not a systematic survey of all schools."
+    overreach_resolved: true
+    overreach_resolution: "Added qualifier about research scope."
+    volatile: none
+
+  - id: C223
+    entity: "The Hamlin School"
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to The Hamlin School, the current K class draws from 28 different preschools. The community source compilation notes 49 preschools across 3 cohort years, which is a different metric covering a broader timeframe."
+    volatile: annual
+    notes: "C062 (L2) confirms 28 preschools. Community source says 49 across 3 years. Not contradictory."
+
+  - id: C226
+    entity: "CAIS"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some community sources describe CAIS as operating a preschool through 8th grade unified program on a single campus with an internal TK/K pipeline."
+    volatile: evergreen
+    notes: "L4 community source."
+
+  - id: C228
+    entity: "Synapse School"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some community sources describe Synapse School (Menlo Park) TK program as a confirmed entry point to their K-8 program."
+    volatile: evergreen
+    notes: "L4 community source."
+
+  # ── MAY_SKIP CLAIMS (BATCH 2) ─────────────────────────────────────────────
+
+  - id: C224
+    entity: "Feeder Preschool System"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on community forums report that proximity to the private elementary school is often more relevant than preschool name for admission prospects."
+    volatile: none
+    notes: "L4 community causal claim."
+
+  - id: C225
+    entity: "Feeder Preschool System"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on community forums report that admissions directors recognize certain preschool director names and that preschool teacher recommendation letters carry weight."
+    volatile: none
+    notes: "L4 community anecdotal claim."
+
+  - id: C229
+    entity: "Challenger School"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "No preschool-to-kindergarten priority structure was documented for Challenger School in available community or official sources."
+    volatile: none
+    notes: "Absence of evidence."
+
+  - id: C230
+    entity: "Stratford School"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "No preschool-to-kindergarten priority structure was documented for Stratford School in available community or official sources."
+    volatile: none
+    notes: "Absence of evidence."
+
+  - id: C231
+    entity: "Prospect Sierra School"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on community forums mention Step One Nursery School (Berkeley) favorably in connection with Prospect Sierra admissions. This is anecdotal and does not represent a formal feeder relationship."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded 'mentioned favorably by admissions team' to community anecdote."
+    volatile: none
+
+  - id: C232
+    entity: "Feeder Preschool System"
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on Bay Area forums report that attending a 'known' preschool helps marginally but does not guarantee admission to a private elementary school. This reflects community sentiment, not verified admissions data."
+    overreach_resolved: true
+    overreach_resolution: "Changed 'community consensus' to 'some parents on Bay Area forums report.'"
+    volatile: none
+
+# ============================================================================
+# DISPUTES
+# ============================================================================
+
+disputes:
+
+  - id: d001
+    claim_ids: [C005, C006]
+    subject: "SF Day School financial aid (Clarity) deadline"
+    positions:
+      - value: "January 12"
+        source: "sfday.org/admission/how-to-apply-key-dates"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "Key dates page lists Jan 12 as financial aid deadline."
+      - value: "January 13, 2026"
+        source: "sfday.org/admission/tuition-adjusted-tuition"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "Tuition page lists Jan 13 as general deadline."
+      - value: "January 12 (new families); January 13 (general/returning)"
+        source: "sfday.org/admission/tuition-adjusted-tuition (live fetch 2026-04-06)"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "Live fetch resolved: two separate deadlines exist for different audiences."
+    resolution: "Live verification clarifies that SF Day has two Clarity deadlines: January 12 for new families (the audience most relevant to K applicants) and January 13 for returning families. Both pages are correct for their respective audiences."
+    permitted_language: "SF Day School's key dates page lists the financial aid (Clarity) deadline as January 12; the tuition page lists January 13 for returning families and January 12 for new families."
+    confidence: L2
+
+  - id: d002
+    claim_ids: [C067, C155]
+    subject: "Live Oak School decision date vs ISSFBA coordinated date"
+    positions:
+      - value: "March 17, 2026 at 4:00 p.m."
+        source: "liveoaksf.org/admissions/important-dates"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "Live Oak's own admissions page states March 17."
+      - value: "March 19, 2026 (electronic notifications)"
+        source: "issfba.org/admission-process/admission-process-making-decisions/"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "ISSFBA coordinated K-8 notification date is March 19."
+    resolution: "Live Oak School releases decisions on March 17, two days before the ISSFBA coordinated date of March 19. Both dates are confirmed via live fetch. Live Oak's own date takes precedence for families applying to Live Oak. The ISSFBA page notes that some schools may deviate from the coordinated schedule. This discrepancy should be flagged prominently in the wiki article."
+    permitted_language: "According to Live Oak School, admission decisions are released March 17, 2026 at 4:00 p.m. This is two days before the ISSFBA coordinated notification date of March 19."
+    confidence: L2
+
+  - id: d003
+    claim_ids: [C182]
+    subject: "Harker School Lower School tuition amount and year"
+    positions:
+      - value: "$49,900 (2025)"
+        source: "raw/web/official/2026-04-06_harker-applying-to-harker-tk-k.md (compiled from s-2026-04-06-032)"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "Raw file listed $49,900 labeled '2025'. Appears to be stale or from an older page snapshot."
+      - value: "TK: $46,350; K-5: $51,550 (2026-27)"
+        source: "harker.org/admission/tuition-financial-aid (live verified 2026-04-06)"
+        tier: L1-official
+        date: "2026-04-06"
+        note: "Live fetch of tuition page shows 2026-27 rates. TK and K-5 have different rates."
+    resolution: "The raw file's $49,900 figure is outdated or incorrectly labeled. The current official tuition page shows 2026-27 rates: TK $46,350, K-5 $51,550. The $49,900 may have been the 2025-26 K-5 rate. For wiki purposes, use the live-verified 2026-27 rates only."
+    permitted_language: "According to Harker School's tuition page, 2026-27 tuition is $46,350 for TK and $51,550 for kindergarten through grade 5. Tuition includes lunch, before- and after-school care, intercampus shuttles, and local transportation."
+    confidence: L2
+
+# ============================================================================
+# MECHANISM OVERREACH CHECKS
+# ============================================================================
+
+mechanism_overreach_flags:
+
+  - flag_id: mof001
+    type: "aggregator_average_vs_selective_schools"
+    affected_claims: [C168, C169]
+    description: "PrivateSchoolReview averages ($24,345-$26,461) include religious and non-selective schools. Wiki articles must not present these as representative of top-tier independent school K tuition, which ranges $37,980-$49,830 based on individual school data."
+    corrective_action: "All average tuition claims from aggregator must include qualifier about school type mix. Individual school tuitions (L1-L2) are the authoritative reference for selective independent school costs."
+
+  - flag_id: mof002
+    type: "school_wide_acceptance_rate_vs_kindergarten"
+    affected_claims: [C064, C073, C088, C094]
+    description: "All acceptance rates from PrivateSchoolReview are school-wide across all grades. K-specific rates are typically more selective (smaller cohort, higher demand). Wiki articles must not cite these as K acceptance rates."
+    corrective_action: "All acceptance rate claims must explicitly state 'school-wide, all grades' and note that K-specific rates may differ. No school publishes official K acceptance rates."
+
+  - flag_id: mof003
+    type: "single_practitioner_data_to_population"
+    affected_claims: [C165]
+    description: "The 20% scoring 130+ figure comes from a single neuropsychologist's self-selected client base (affluent families seeking gifted school admission). This cannot be cited as a general population rate or even a Bay Area parent population rate."
+    corrective_action: "Must attribute to specific source and explicitly note self-selected sample. Cannot be used to make claims about 'Bay Area children' or 'applicants generally.'"
+
+  - flag_id: mof004
+    type: "coordinated_date_vs_individual_school_dates"
+    affected_claims: [C067, C118, C155]
+    description: "While ISSFBA coordinates a March 19 notification date for K-8, individual schools may deviate. Live Oak (March 17) and Keys School (February 19) both release decisions on different dates. Wiki articles should not state 'all schools release March 19' without qualifier."
+    corrective_action: "State ISSFBA coordinated date, then note school-specific exceptions by name."
+
+  - flag_id: mof005
+    type: "south_bay_schools_not_issfba"
+    affected_claims: [C177, C194]
+    description: "Harker (March 20 decision date), Challenger (rolling admissions), and Stratford (rolling admissions) all operate outside the ISSFBA coordinated timeline. ISSFBA non-membership is inferred from their admissions timelines but has not been explicitly confirmed by ISSFBA or the schools themselves."
+    corrective_action: "Use 'not confirmed as ISSFBA members' rather than 'not ISSFBA members.' Note that their admissions timelines are inconsistent with the ISSFBA coordinated schedule."
+
+  - flag_id: mof006
+    type: "philosophy_deadline_pattern_geographic_confound"
+    affected_claims: [C207]
+    description: "The observed pattern that progressive schools have later deadlines than traditional schools is confounded by geography: the progressive schools cited are all in SF city, while the traditional school (Harker) is in South Bay. Challenger and Stratford (also South Bay/traditional) use rolling admissions with no deadline at all. The pattern may reflect geography or school size rather than philosophy."
+    corrective_action: "Do not present philosophy-deadline correlation as a finding. If mentioned, must include geographic confound qualifier and note the small sample size."
+
+  - flag_id: mof007
+    type: "tk_priority_admission_unstated"
+    affected_claims: [C227]
+    description: "Multiple community sources describe internal TK-to-K 'pipelines' at schools like Harker, Synapse, and CAIS. However, none of these schools explicitly state on their official admissions pages that TK students receive priority for K admission. The pipeline is inferred from program structure, not confirmed policy."
+    corrective_action: "Do not state TK-to-K priority as confirmed policy. Use language like 'TK serves as a potential pathway to K' rather than 'TK students have priority for K admission.'"
+
+  - flag_id: mof008
+    type: "community_source_feeder_preschool_claims"
+    affected_claims: [C221, C222, C224, C225, C231, C232]
+    description: "All feeder preschool claims originate from L4 community sources. The primary research source (parentspress.com) returned JavaScript-only content, and the Berkeley Parents Network thread returned a 403 error. No L1 or L2 source confirms or denies a feeder preschool system. Wiki articles must not present community impressions as established fact."
+    corrective_action: "All feeder preschool claims must use L4 language ('some parents report,' 'community sources describe'). The Hamlin 28-preschool figure (C062, L2) is the only L1/L2 data point about preschool-to-K connections."

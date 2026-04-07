@@ -1,0 +1,14 @@
+topic: Bay Area private school K application
+slug: bay-area-private-school-k-application
+status: active
+created: '2026-04-06'
+user_context: ''
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.3
+    depth: 0.5
+    gap_fill: 0.15
+    verification: 0.05

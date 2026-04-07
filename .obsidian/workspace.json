@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "1d34889c4e934c84",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a60dfcfe45c0ac2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a96ec806bbcf97dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "topics/bay-area-private-school-k-application/wiki/school-profiles-sf.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "school-profiles-sf"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a754bf45311f12b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd22e1a9984295d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47d00d6c43c1b416",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e97597ffde69246f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "559b6af21d677653",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 308.5
+  },
+  "right": {
+    "id": "4af24227ce0a5bdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "500c14f1b6d490fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf54735927c7fd94",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "topics/bay-area-private-school-k-application/wiki/school-profiles-sf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for school-profiles-sf"
+            }
+          },
+          {
+            "id": "fa333c07eb362224",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "topics/bay-area-private-school-k-application/wiki/school-profiles-sf.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from school-profiles-sf"
+            }
+          },
+          {
+            "id": "60a2ddb699440276",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "936d5dc051a3a9d1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f067367cd49c8793",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "topics/bay-area-private-school-k-application/wiki/school-profiles-sf.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of school-profiles-sf"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a96ec806bbcf97dc",
+  "lastOpenFiles": [
+    "topics/bay-area-private-school-k-application/output/lint-report-2026-04-06-v2.md",
+    "topics/bay-area-private-school-k-application/wiki/south-bay-schools.md",
+    "topics/bay-area-private-school-k-application/wiki/transitional-kindergarten.md",
+    "topics/bay-area-private-school-k-application/wiki/pedagogy-philosophy.md",
+    "topics/bay-area-private-school-k-application/wiki/stratford-school.md",
+    "topics/bay-area-private-school-k-application/wiki/challenger-school.md",
+    "topics/bay-area-private-school-k-application/wiki/harker-school.md",
+    "topics/bay-area-private-school-k-application/wiki/overview.md",
+    "topics/bay-area-private-school-k-application/CHANGELOG.md",
+    "topics/bay-area-private-school-k-application/fact-sheet-batch2-disputes.yaml",
+    "topics/bay-area-private-school-k-application/fact-sheet-batch2-append.yaml",
+    "topics/bay-area-private-school-k-application/splice_claims.py",
+    "topics/bay-area-private-school-k-application/claims-register-append.yaml",
+    "topics/bay-area-private-school-k-application/wiki/issfba-bada.md",
+    "topics/bay-area-private-school-k-application/raw/web/community/2026-04-06_feeder-preschool-bay-area-private-elementary-pipeline.md",
+    "topics/bay-area-private-school-k-application/raw/web/official/2026-04-06_california-tk-overview-cde-private-school-comparison.md",
+    "topics/bay-area-private-school-k-application/raw/web/aggregator/2026-04-06_bay-area-educational-philosophies-montessori-waldorf-progressive.md",
+    "topics/bay-area-private-school-k-application/raw/web/official/2026-04-06_stratford-school-south-bay-tuition-admissions.md",
+    "topics/bay-area-private-school-k-application/raw/web/official/2026-04-06_challenger-school-admissions-tuition.md",
+    "topics/bay-area-private-school-k-application/raw/web/official/2026-04-06_harker-applying-to-harker-tk-k.md",
+    "topics/bay-area-private-school-k-application/wiki/financial-aid.md",
+    "topics/bay-area-private-school-k-application/wiki/school-profiles-sf.md",
+    "topics/bay-area-private-school-k-application/wiki/ravenna-hub.md",
+    "topics/bay-area-private-school-k-application/wiki/language-immersion.md",
+    "topics/bay-area-private-school-k-application/wiki/assessment-playdate.md",
+    "docs/v3_improvements.md",
+    "topics/bay-area-private-school-k-application/output/evolution-suggestions.md",
+    "topics/bay-area-private-school-k-application/wiki/application-timeline.md",
+    "topics/bay-area-private-school-k-application/wiki/admissions-strategy.md",
+    "assessment-playdate.md",
+    "Untitled 1.canvas",
+    "topics/bay-area-private-school-k-application/fact-sheet.yaml",
+    "Untitled.canvas",
+    "topics/bay-area-private-school-k-application/claims-register.yaml",
+    "topics/bay-area-private-school-k-application/raw/search-log.jsonl",
+    "topics/bay-area-private-school-k-application/raw/web/aggregator",
+    "topics/bay-area-private-school-k-application/raw/web/news",
+    "topics/bay-area-private-school-k-application/raw/web/review"
+  ]
+}
