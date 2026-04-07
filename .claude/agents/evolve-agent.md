@@ -36,9 +36,11 @@ Read before analysis:
 - `topics/{slug}/research-plan.yaml` — question tree and coverage status
 - `topics/{slug}/wiki/_index.md` — current wiki structure
 - All `topics/{slug}/wiki/**/*.md` files
-- `topics/{slug}/fact-sheet.yaml` — confidence levels and valid_until dates
+- `topics/{slug}/fact-sheet.yaml` — confidence levels and volatile classes
 - `topics/{slug}/output/lint-report-*.md` (most recent) — existing findings to avoid duplicate suggestions
+- `topics/{slug}/output/eval-report.yaml` (if exists) — helpfulness eval scores and gap list
 - `topics/{slug}/log.md` — recent activity to understand what has already changed
+- `topics/{slug}/landscape.yaml` (if exists) — pain points and source ecosystem from Phase 0
 
 ---
 
@@ -153,14 +155,65 @@ Find articles with significant content overlap. Suggest merges when:
 
 ---
 
-## Analysis 4: New Question Generation
+## Analysis 4: Helpfulness Gap Analysis
 
-Based on all three analyses, generate new questions for `gap_fill` phase.
+If `topics/{slug}/output/eval-report.yaml` exists, read it and run a focused gap analysis based on eval scores.
+
+### A. Reader Outcome Coverage Gaps
+
+For each reader outcome in the eval report with score < 2 (partially enabled or blocked):
+- Identify which `must_answer` items are uncovered
+- For each missing item: generate a specific research question
+- Prioritize by dimension weight: D1 (reader outcomes, 30%) gaps outrank D2 (coverage, 20%) gaps
+
+### B. Test Question Failures
+
+If the eval report contains test question scores, identify questions that scored 0 or 1 (not answerable or partially answerable from the wiki). These represent concrete holes in coverage:
+
+```yaml
+# From eval-report.yaml
+failed_questions:
+  - id: TQ03
+    text: "What should I tell my 4-year-old before his playdate?"
+    score: 0
+    reason: "No article covers playdate preparation from the child's perspective"
+```
+
+Generate research questions that would enable each failed test question to score 2 (fully answerable).
+
+### C. Perspective Balance Gaps (D5)
+
+If D5 score < 2: community/UGC perspective is underrepresented. Flag this as a source diversity gap. Generate questions targeting L4 sources (Reddit threads, parent forums) specifically.
+
+## Analysis 5: Pipeline Retrospective
+
+After reviewing the log.md and research history, produce a retrospective section that identifies what should change in the pipeline itself — not just the wiki content.
+
+```markdown
+## Pipeline Retrospective
+
+### What Worked
+- [Specific observations: which agents performed well, which questions were well-answered, which source types yielded high-quality claims]
+
+### What Didn't Work
+- [Specific observations: budget exhaustion, wrong source tiers, compilation quality issues, overreach patterns]
+
+### Proposed Agent/Skill Changes
+1. {agent or skill filename}: {specific proposed change}
+   Reason: {what happened that warrants this change}
+2. ...
+```
+
+These are proposals for the human to review, not automatic changes. They accumulate over time and should be reviewed when planning a system improvement cycle. Only include genuinely non-obvious findings — do not propose changes that are already in the agent definitions.
+
+## Analysis 6: New Question Generation (was Analysis 4)
+
+Based on all analyses (gaps, freshness, patterns, helpfulness, pipeline retrospective), generate new questions for `gap_fill` phase.
 
 ### Question Quality Requirements
 
 New questions must:
-1. Fill a specific, identified gap from Analysis 1, 2, or 3 — cite the source gap
+1. Fill a specific, identified gap from Analysis 1, 2, 3, 4, or 5 — cite the source gap
 2. Be answerable via web search (not purely experiential or private)
 3. Pass 3-layer deduplication against existing questions:
    - Layer 1: text similarity < 0.85 against all existing questions
@@ -195,8 +248,10 @@ Write `topics/{slug}/output/evolution-suggestions-{YYYY-MM-DD}.md`:
 | Freshness | {N} expired, {N} approaching, {N} untagged | {N} |
 | Pattern discovery | {N} confirmed, {N} hypothetical | {N} |
 | Concept gaps (backlinks) | {N} missing | {N} |
+| Helpfulness gaps (eval) | {N} ROs blocked/partial, {N} test Qs failing | {N} |
 | Merge candidates | {N} pairs | 0 (no new research needed) |
 | **Total new questions** | | **{N}** |
+| **Round** | | **{N}** (increments from research-plan) |
 
 ---
 
@@ -379,4 +434,4 @@ After writing the evolution-suggestions file, directly update `topics/{slug}/res
 
 ---
 
-*LLM Knowledge Base | Evolve Agent | v1.0*
+*LLM Knowledge Base | Evolve Agent | v2.0*

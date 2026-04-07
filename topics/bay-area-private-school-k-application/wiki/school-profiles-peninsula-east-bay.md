@@ -30,7 +30,7 @@ backlinks: []
 
 | School | Region | Age Cutoff | App Deadline | Tuition (annual) | Decision Date | IQ Test Required? |
 |--------|--------|-----------|-------------|-------------------|--------------|-------------------|
-| Keys School | Peninsula (Palo Alto) | -- | Jan 9 | $44,600 (2025-26, K-4) | Feb 19, 2026 | -- |
+| Keys School | Peninsula (Palo Alto) | ~5 by Sep 1 | Jan 9 | $44,600 (2025-26, K-4) | Mar 20 (2024-25 cycle, L3) | -- |
 | Nueva School | Peninsula (Hillsborough) | -- | Jan 8, 2026 | $30,555-$51,285 range | -- | Yes (Wechsler, min 130) |
 | Head-Royce School | East Bay (Oakland) | -- | Jan 9, 2026 (completed) | -- | Mar 19, 2026 | No (Assessment Day) |
 | Park Day School | East Bay (Oakland) | 5 by Sep 15 | Jan 16, 2026 | $1,900-$37,980 (K-5) | Mar 19, 2026 | -- |
@@ -53,11 +53,15 @@ Note: "--" indicates data not available from verified sources. [[challenger-scho
 | Application Deadline | January 9 |
 | Tuition (2025-26) | $44,600/year (K-4); $48,300/year (Grades 5-8) |
 | New Student Fee | $2,000 one-time |
-| Decision Date | February 19, 2026 |
+| Decision Date | March 20 (2024-25 cycle, L3) |
 
 ### Details
 
-According to Keys School, the application deadline is January 9 and admission decisions are released February 19, 2026. This is notably earlier than the March 19 [[issfba-bada]] coordinated date; Keys School is a Palo Alto school and may not be an ISSFBA member.
+Cardinal Education reports that Keys School's 2024-25 application deadline was January 9 and decisions were released March 20, 2025. The official Keys School tuition page does not list admissions dates. The February 19 date previously cited was a data extraction error. Cardinal Education reports a March 20 decision date for Keys School in the 2024-25 cycle. This is one day after the ISSFBA coordinated March 19 date, which may indicate Keys School is not an ISSFBA member, though this has not been directly confirmed.
+
+Cardinal Education reports that Keys School strongly recommends kindergarten applicants turn 5 by September 1. Cardinal Education reports that Keys School's primary entry points are Kindergarten and sixth grade, with other grades considered based on available openings.
+
+Cardinal Education reports that Keys School K applications require a campus playdate assessing social and academic readiness, and a Parent/Guardian Conversation with the admissions team. Cardinal Education reports that the Keys School application includes a $100 non-refundable fee, Parent/Guardian Questionnaire, teacher recommendations (math and English), transcripts, and family photographs, submitted via Ravenna.
 
 According to Keys School, 2025-26 tuition is $44,600/year (K-4) and $48,300/year (Grades 5-8). According to Keys School, there is a one-time new student enrollment fee of $2,000.
 

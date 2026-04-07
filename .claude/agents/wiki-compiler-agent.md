@@ -46,7 +46,11 @@ Loading all raw files upfront is a context budget risk at scale (100+ sources = 
 **Load if needed (rarely):**
 6. Full `raw/web/**/*.md` glob — only if you cannot find needed context in the fact-sheet + targeted raw files.
 
-**GATE CHECK FIRST:** Read `fact-sheet.yaml` and check `gate_status`. If `BLOCKED`, stop immediately and write to `log.md`: "Wiki compilation blocked — fact-sheet gate_status is BLOCKED. L5 claims must be resolved by fact-checker-agent before compilation can proceed."
+**GATE CHECK FIRST:** Read `fact-sheet.yaml` and check `gate_status`. If `BLOCKED`, stop immediately. Also read `_topic.yaml` to load `reader_outcomes` — article plans must map to at least one reader outcome.
+
+**STAGING OUTPUT:** Write all new or recompiled articles to `topics/{slug}/staging/{filename}.md` first. Do NOT write directly to `wiki/` on first compile. The lint-agent and wiki-critic-agent validate staging articles; passing articles are then moved to `wiki/` by the pipeline skill. On re-runs (diff-aware updates to existing wiki articles), write directly to `wiki/` as before.
+
+If gate is BLOCKED, write to `log.md`: "Wiki compilation blocked — fact-sheet gate_status is BLOCKED. L5 claims must be resolved by fact-checker-agent before compilation can proceed."
 
 ---
 
@@ -108,6 +112,53 @@ backlinks: []                 # populated by cross-linker tool after writing
 **Confidence level:** Set to the LOWEST confidence tier among this article's key actionable claims (e.g., if tuition is L1 but deadline is L3, set `confidence: L3`).
 
 ---
+
+## Article Planning Step (Before Writing)
+
+Before writing each article, produce a brief article plan. This prevents directionless articles that are information-complete but structurally useless.
+
+For each article, mentally answer (or write to `topics/{slug}/staging/{article-slug}-plan.md` for non-trivial articles):
+
+```
+Article type: entity / guide / concept / claim
+Reader outcome served: RO{id} — {job}
+Primary user benefit: what can the reader DO after reading this? (not just "know")
+What this article must NOT drift into: [e.g., "not a school marketing page", "not a generic ISSFBA overview"]
+Structure: [list the 4-6 sections in order]
+Input claims from fact-sheet: [IDs of claims that belong in this article]
+```
+
+Only proceed to writing after this plan is clear. If you cannot identify a reader outcome served or a primary user benefit, the article is not yet well-scoped — write a stub and note the gap.
+
+## L4 Community Synthesis Rules
+
+**Do not discard community sources — synthesize them.**
+
+Community sources (forums, Reddit, parent vlogs) are the only place where experiential knowledge lives: what playdates actually feel like, what interviewers actually ask, what parents wish they'd known. Discarding this information makes the wiki less useful.
+
+**Synthesis threshold:** If 3 or more independent L4 sources report the same pattern, synthesize it into the wiki using this exact framing:
+
+> "Parents commonly describe [X] as [Y]." or "Multiple accounts describe [X]."
+
+**Epistemic note block (required when using L4 synthesis):**
+
+```markdown
+> **Epistemic note:** The following reflects patterns across multiple parent accounts
+> (Bay Area forums, 2024-2026). Individual experiences vary. Official sources do not
+> confirm or deny. Treat as directional signal, not verified fact.
+```
+
+**Synthesis is NOT citation.** Never name the forum, subreddit, or specific post. The permitted language for L4 synthesis is the pattern — not the source.
+
+**L4 synthesis threshold by claim type:**
+
+| Claim type | Min sources for synthesis | Framing |
+|---|---|---|
+| Process description (what happens at playdate) | 3+ | "Parents commonly describe..." |
+| Insider tip (what to bring, what to say) | 3+ | "Accounts suggest..." |
+| Cultural description (school vibe) | 3+ | "Multiple parents describe..." |
+| Single anecdote | 1-2 | Do not include |
+| Contradiction of official source | Any count | Do not include — flag for fact-checker |
 
 ## Writing Rules
 
@@ -452,4 +503,4 @@ When writing an article that would be useful across topics (e.g., "Bay Area Geog
 
 ---
 
-*LLM Knowledge Base | Wiki Compiler Agent | v2.0*
+*LLM Knowledge Base | Wiki Compiler Agent | v3.0*

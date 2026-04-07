@@ -20,7 +20,16 @@ Run these steps in order. Each agent uses its own Read/Write/WebSearch/WebFetch 
 
 Check `{topic_dir}/research-plan.yaml`. If it has fewer than 5 questions or no pending questions, invoke **research-planner-agent**:
 
-> "Read `{topic_dir}/_topic.yaml` for topic and context. Update `{topic_dir}/research-plan.yaml` with a full question tree: 8 facets (WHO/WHAT/WHEN/WHERE/HOW/WHY/COMPARE/META), scored on user_value/dependency_count/searchability/novelty, phased as breadth/depth/gap_fill, with dependencies. Save the completed plan."
+> "Read `{topic_dir}/_topic.yaml` for topic and context.
+>
+> **Phase 0 first:** Before writing the question tree, run the landscape scan:
+> 1. Search Reddit/forums for '{topic}' to extract real human questions and pain points
+> 2. Search for books, podcasts, and YouTube channels covering this topic
+> 3. Identify the expert ecosystem (consultants, journalists, researchers)
+> 4. Write `{topic_dir}/landscape.yaml` with entities_discovered, source_ecosystem, common_pain_points, preliminary_question_seeds
+> 5. Write reader_personas and reader_outcomes to `{topic_dir}/_topic.yaml`
+>
+> **Then generate the question tree:** Use Phase 0 pain points as high-priority seeds. Apply the budget formula: max_searches = 30 + (question_count × 1.5). Write search_clusters to reduce redundant searches. Save the completed plan to `{topic_dir}/research-plan.yaml`."
 
 ### Step 2 — Research: breadth phase
 
@@ -72,11 +81,27 @@ Invoke **fact-checker-agent** in batch mode:
 
 Invoke **wiki-compiler-agent**:
 
-> "Read `{topic_dir}/fact-sheet.yaml` first (gate check), then `{topic_dir}/research-plan.yaml`, then `{topic_dir}/wiki/_index.md`. For each article: load only the raw source files relevant to that entity/theme on demand — do NOT load all raw files upfront. For existing articles: use diff-aware compilation — only rewrite sections where fact-sheet claims changed; preserve unchanged sections verbatim. For new articles: write from scratch. Synthesize into thematic wiki articles. Use volatile: classes in frontmatter (not valid_until dates). Use permitted_language from fact-sheet VERBATIM. Insert [[wikilinks]]. Check shared/ namespace before writing entity articles — link to shared articles if they exist. Write articles to `{topic_dir}/wiki/`, update `{topic_dir}/wiki/_index.md` and `{topic_dir}/index.md`, append to `{topic_dir}/log.md`."
+> "Read `{topic_dir}/fact-sheet.yaml` first (gate check + reader_outcomes), then `{topic_dir}/research-plan.yaml`, then `{topic_dir}/wiki/_index.md`. For each article:
+>
+> 1. Write a brief article plan first: article type, reader outcome served, primary user benefit, what the article must NOT drift into, section structure, input claims from fact-sheet.
+> 2. Load only raw source files relevant to that entity/theme on demand.
+> 3. Apply L4 synthesis rules: if 3+ independent community sources report the same pattern, synthesize with epistemic note block. Do NOT discard all L4 data.
+> 4. For new articles: write to `{topic_dir}/staging/` first (not wiki/ directly).
+> 5. For existing articles being updated (diff-aware re-runs): write directly to wiki/.
+>
+> Use volatile: classes in frontmatter. Use permitted_language VERBATIM. Insert [[wikilinks]]. Check shared/ namespace first. Update `{topic_dir}/wiki/_index.md`, `{topic_dir}/index.md`, and `CHANGELOG.md`. Append to `{topic_dir}/log.md`."
 
-### Step 7.5 — Cross-linker (automatic)
+### Step 7.5 — Wiki critic (per staged article)
 
-After wiki-compiler-agent completes, run:
+After wiki-compiler-agent writes to staging/, invoke **wiki-critic-agent**:
+
+> "Review all articles in `{topic_dir}/staging/` that do not yet have a corresponding `-critic.md` file. For each article: score D1 (reader outcome alignment), D2 (decision framing), D3 (common mistakes quality), D4 (L4 synthesis presence), D5 (scope discipline). Write critic reports to `{topic_dir}/staging/{article-slug}-critic.md`. Flag any article as NEEDS-REVISION or BLOCKED."
+
+**After critic runs:** Move articles with READY status from staging/ to the correct wiki/ subdirectory. Articles with NEEDS-REVISION must be returned to wiki-compiler-agent with the critic report. Do not move BLOCKED articles — report the block to the user.
+
+### Step 7.6 — Cross-linker (automatic)
+
+After articles move from staging/ to wiki/, run:
 
 ```bash
 python -m backend.tools.cross_linker topics/{topic_slug}/wiki/
@@ -88,7 +113,13 @@ This populates all `backlinks: []` arrays in article frontmatter. Do not skip th
 
 Invoke **lint-agent**:
 
-> "Read all files in `{topic_dir}/wiki/`, `{topic_dir}/fact-sheet.yaml`, and `{topic_dir}/research-plan.yaml`. Run structural checks (broken wikilinks, orphans, missing frontmatter, volatility class staleness), content checks (contradictions, missing sources, permitted-language violations), and coverage checks (entities without articles, unanswered questions, thin articles). Write the severity-tiered report directly to `{topic_dir}/output/lint-report-YYYY-MM-DD.md` using your Write tool."
+> "Read all files in `{topic_dir}/wiki/`, `{topic_dir}/fact-sheet.yaml`, `{topic_dir}/claims-register.yaml`, `{topic_dir}/research-plan.yaml`, and `{topic_dir}/_topic.yaml`. Run all checks including: hard quality gate (L1+L2 density), wrong directory placement, reader outcome coverage (CV5), structural checks, and content checks. Write the severity-tiered report with quality gate section to `{topic_dir}/output/lint-report-YYYY-MM-DD.md`."
+
+### Step 9 — Helpfulness eval
+
+Invoke **helpfulness-eval-agent**:
+
+> "Evaluate the full wiki at `{topic_dir}`. Read reader_outcomes from `_topic.yaml`. Run or bootstrap the test question suite at `{topic_dir}/eval/test-questions.yaml`. Score D1-D6 rubric. Write `{topic_dir}/eval/eval-report.yaml` and append to `{topic_dir}/eval/eval-history.jsonl`."
 
 ---
 
@@ -107,6 +138,20 @@ After the single phase, ask: *"Continue with extraction and compilation? Run `/k
 Report:
 - Questions answered / total
 - Raw sources collected
-- Wiki articles created / updated
-- Lint errors / warnings
+- Wiki articles created / updated (staging → wiki)
+- Articles returned to compiler (NEEDS-REVISION from critic)
+- Lint gate status (TRUSTED / DEGRADED / BLOCKED)
+- Helpfulness eval score (composite /100, test question pass rate)
 - Suggested next: `/kb-query {slug} "..."` or `/kb-evolve {slug}`
+
+Then commit:
+```bash
+git add topics/{topic_slug}/
+git commit -m "kb: {topic_slug} — {phase} pipeline run {YYYY-MM-DD}
+
+- Questions answered: N
+- Articles created/updated: N
+- Claims verified: N
+- Lint gate: TRUSTED/DEGRADED/BLOCKED
+- Eval score: N/100 (test pass rate: N%)"
+```

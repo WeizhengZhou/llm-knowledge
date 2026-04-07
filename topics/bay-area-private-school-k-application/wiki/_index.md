@@ -1,7 +1,7 @@
 # Bay Area Private School K Application -- Wiki Index
 
 Updated: 2026-04-06
-Articles: 16
+Articles: 18
 
 ## Overview
 - [[overview|Bay Area Private School K Application -- Overview]] -- Comprehensive entry point for parents: regions, ISSFBA framework, assessment models, timeline summary
@@ -15,24 +15,21 @@ Articles: 16
 - [[issfba-bada|ISSFBA / BADA]] -- Coordinating body for 75+ Bay Area independent school admissions
 
 ## Guides
-- [[application-timeline|Application Timeline (2025-26 Cycle)]] -- Month-by-month calendar, deadlines, decision dates, enrollment response dates
+- [[application-timeline|Application Timeline (2025-26 Cycle)]] -- Month-by-month calendar, deadlines, decision dates, enrollment response dates; includes South Bay and immersion school dates
 - [[financial-aid|Financial Aid]] -- Clarity platform, indexed tuition models, school-specific aid data, tuition comparison
 - [[assessment-playdate|K Assessments and Playdates]] -- Playdate formats vs. IQ testing, school-specific assessment details
 - [[admissions-strategy|Admissions Strategy]] -- Building a school list, sibling preference, consultants, waitlist navigation, South Bay vs. SF differences
-- [[south-bay-schools|South Bay Schools -- Regional Guide]] -- Harker, Challenger, Stratford, Helios, BASIS, Gideon Hausner; comparison table; how South Bay differs from SF
+- [[south-bay-schools|South Bay Schools -- Regional Guide]] -- Harker, Challenger, Stratford, Helios, Gideon Hausner, Almaden Country Day, BASIS SV; comparison table; how South Bay differs from SF
 - [[pedagogy-philosophy|Educational Philosophy Guide]] -- Montessori, Waldorf, progressive, traditional, immersion, gifted; comparison table
+- [[guides/public-vs-private|Public vs. Private K Decision Framework]] -- $500K lifetime cost model; parochial vs. independent price spread; SFUSD lottery; Basic Fund for low-income families
 
 ## Concepts
-- [[language-immersion|Language Immersion Programs]] -- CAIS (Mandarin), La Scuola (Italian); stubs for Lycee Francais, Terra SF, SVIS, EBGIS
+- [[language-immersion|Language Immersion Programs]] -- CAIS (Mandarin), La Scuola (Italian), Lycee Francais (French), SVIS (French/Mandarin/German); tuition and admissions details
 - [[ravenna-hub|Ravenna Hub]] -- Common admissions platform used by 11+ schools
 - [[transitional-kindergarten|Transitional Kindergarten (TK)]] -- Public TK (free, universal) vs. private TK (tuition, pipeline to K); Harker, Presidio Hill, Synapse, Stratford
+- [[concepts/assessment-prep|K Assessment Preparation]] -- IQ testing logistics (WPPSI-IV/WISC-V), which schools require it, providers ($850-$950), no-coaching policy, playdate observation criteria, parent interview questions
 
 ## Stubs (Not Yet Researched)
-- Helios School (Sunnyvale) -- IQ-test school; stub in [[south-bay-schools]]
-- BASIS Independent Silicon Valley (San Jose) -- TK-12 rigorous academic; stub in [[south-bay-schools]]
-- Gideon Hausner Jewish Day School (Palo Alto) -- stub in [[south-bay-schools]]
 - Redwood Day School (Oakland) -- mentioned in research plan
-- Lycee Francais de San Francisco -- French immersion, mentioned in research plan
 - Terra School SF -- trilingual immersion, mentioned in research plan
-- Silicon Valley International School -- French/Mandarin immersion, mentioned in research plan
 - East Bay German International School -- German immersion, mentioned in research plan

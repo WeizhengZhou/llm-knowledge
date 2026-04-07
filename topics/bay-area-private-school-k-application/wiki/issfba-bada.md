@@ -11,7 +11,6 @@ sources:
 tags: [issfba, bada, coordinating-body, admissions-policy, nonprofit]
 epistemic_status: confirmed
 confidence: L2
-valid_until: 2027-07-01
 volatile: annual
 backlinks: []
 ---
@@ -43,7 +42,7 @@ According to ISSFBA, the 2025-26 K-8 electronic notifications are sent March 19,
 
 According to ISSFBA, the 2025-26 PreK/TK/JK electronic notifications are sent March 11, 2026, with family responses due March 17, 2026.
 
-**Exceptions:** Not all member schools follow the coordinated date exactly. According to Live Oak School, admission decisions are released March 17, 2026 at 4:00 p.m. This is two days before the ISSFBA coordinated notification date of March 19. According to Keys School, the application deadline is January 9 and admission decisions are released February 19, 2026. Keys School may not be an ISSFBA member.
+**Exceptions:** Not all schools follow the coordinated date exactly. According to Live Oak School, admission decisions are released March 17, 2026 at 4:00 p.m. This is two days before the ISSFBA coordinated notification date of March 19. Cardinal Education reports a March 20 decision date for Keys School in the 2024-25 cycle. This is one day after the ISSFBA coordinated March 19 date, which may indicate Keys School is not an ISSFBA member, though this has not been directly confirmed. According to BASIS Independent Silicon Valley, the school's notification date of March 18, 2026, is one day before the ISSFBA coordinated March 19 date. BASIS Independent SV does not appear to be an ISSFBA member based on its independent admissions timeline. Nueva School K-8 admissions decisions are released March 20, 2026 at approximately 4 p.m. via Ravenna. This is one day after the ISSFBA coordinated date, confirming Nueva operates independently from ISSFBA.
 
 ### Contract Exclusivity
 

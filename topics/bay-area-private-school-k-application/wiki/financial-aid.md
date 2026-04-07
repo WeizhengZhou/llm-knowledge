@@ -16,7 +16,6 @@ sources:
 tags: [financial-aid, tuition, clarity, indexed-tuition, sliding-scale]
 epistemic_status: confirmed
 confidence: L2
-valid_until: 2027-07-01
 volatile: annual
 backlinks: []
 ---

@@ -34,7 +34,33 @@ You receive:
 1. **Topic string** — e.g., "Bay Area private school K application"
 2. **User context** (optional) — e.g., "Parent of 4yo in SF, interested in progressive schools, not considering South Bay"
 
-If user context is provided, use it to bias question scoring: questions highly relevant to the user's specific situation should receive elevated `user_value` scores.
+If user context is provided, use it to:
+- Bias question scoring (questions relevant to the user's situation get elevated `user_value`)
+- Draft initial `reader_personas` and `reader_outcomes` for `_topic.yaml`
+
+### Reader Personas and Outcomes
+
+After Phase 0, draft `reader_personas` and `reader_outcomes` and write them to `topics/{slug}/_topic.yaml`. These drive what the wiki is actually for — not just what it covers.
+
+```yaml
+reader_personas:
+  - id: P1
+    label: "Brief description of this reader type"
+    needs: [outcome-id-list]
+  - id: P2
+    label: "..."
+    needs: [...]
+
+reader_outcomes:
+  - id: RO1
+    job: "What decision this reader needs to make"
+    must_answer:
+      - "specific question that must be answerable from the wiki"
+      - "another specific question"
+    personas: [P1, P2]
+```
+
+Generate 3-6 reader outcomes that cover the full decision lifecycle: pre-decision ("should I even do this?"), core execution ("how do I do this?"), and post-decision ("what happens next?"). The question tree must cover all `must_answer` items across all outcomes.
 
 ---
 
@@ -121,16 +147,118 @@ Mark circular dependencies as an error — flatten the question tree.
 
 ---
 
-## Initial Landscape Scan
+## Phase 0: Landscape Scan (MANDATORY — runs before question tree)
 
-Before writing the plan, run 1-2 web searches to:
-1. Confirm the topic is researchable (not too niche, sources exist)
-2. Identify 3-5 key entities or concepts that should anchor the question tree
-3. Calibrate scope: is this a 30-question topic or a 50-question topic?
+Do not generate the question tree until Phase 0 is complete. This scan grounds the question tree in what real people actually want to know, not what the LLM imagines they want to know.
 
-Do not deep-dive during planning. This scan is orientation only.
+### Phase 0 Steps
+
+**Step 1: UGC mining (2-3 searches)**
+
+Search for what real people ask about this topic:
+- `site:reddit.com "{topic}"` — find the most upvoted threads
+- `"{topic}" forum OR community OR "anyone else"` — broader community signal
+- Extract from top threads: what questions appear repeatedly? What do people say they wish they'd known? What caused the most confusion?
+
+**Step 2: Resource ecosystem (1-2 searches)**
+
+Search for `"best books about {topic}"` and `"{topic}" podcast OR youtube channel`. Identify:
+- Books or longform resources that exist (for manual ingestion later)
+- Expert ecosystem: consultants, journalists, practitioners who write about this
+- YouTube channels or podcasts with relevant content
+
+**Step 3: Source tier assessment**
+
+Decide which source tiers are available for this topic (annotate the question tree with target tiers):
+
+| Source tier | Available? | Key sources found |
+|---|---|---|
+| Official/primary (L1-L2) | yes/no | list domains |
+| Expert synthesis (L2-L3) | yes/no | list consultant/journalist sources |
+| Community/UGC (L4) | yes/no | list forums/subreddits |
+| Books/longform | yes/no | list titles |
+| Video/audio | yes/no | list channels |
+| Academic/research | yes/no | list databases if applicable |
+| Government data | yes/no | list agencies if applicable |
+
+**Step 4: Write landscape.yaml**
+
+Write `topics/{slug}/landscape.yaml` before writing the research plan:
+
+```yaml
+topic: "Bay Area private school K application"
+scanned_at: 2026-04-06
+
+entities_discovered:
+  - name: "SF School"
+    type: school
+    mentions: 14
+  - name: "Testing Mom (book)"
+    type: book
+    mentions: 7
+
+source_ecosystem:
+  reddit_threads:
+    - url: "https://reddit.com/r/SFparents/..."
+      relevance: high
+      pain_points: ["deadline confusion", "playdate anxiety"]
+  books:
+    - title: "Testing Mom"
+      author: "..."
+      secondary_sources: ["NYT review", "author interview on YouTube"]
+  experts:
+    - name: "Cardinal Education"
+      type: consultant
+      url: "cardinaleducation.com/blog"
+
+common_pain_points:
+  - "Which schools can my August-birthday kid apply to?"
+  - "Is private school worth $50k/year?"
+  - "What do they actually evaluate at playdates?"
+
+preliminary_question_seeds:
+  - text: "What do schools actually evaluate during playdates?"
+    source: "reddit (12 threads)"
+    urgency: high
+  - text: "Which preschools pipeline into which K schools?"
+    source: "reddit (8 threads)"
+    urgency: high
+```
+
+**Step 5: Extract pain points as question seeds**
+
+The `common_pain_points` and `preliminary_question_seeds` from the landscape scan become HIGH-PRIORITY seeds for the question tree. Ensure the question tree directly answers everything on the pain points list — these are questions real people are confused about, not questions the AI imagines they should have.
+
+**Important:** After Phase 0, you should confirm the topic scope is correct before writing the full question tree. Run 1-2 additional searches if needed to calibrate entity count and geographic scope.
 
 ---
+
+## Budget Formula
+
+Calculate `max_searches` dynamically based on question volume:
+
+```
+base_budget = 30
+question_count = total questions in plan (breadth + depth, not gap_fill)
+max_searches = base_budget + (question_count × 1.5)
+gap_fill_reserve = question_count × 0.5  # pre-allocated for evolve-agent gap questions
+```
+
+Annotate the budget in the plan. When evolve-agent adds gap-fill questions, budget should scale: `max_searches += new_gap_questions × 2`.
+
+## Search Clustering
+
+Group questions that can be answered by the same search into clusters. Write these to the plan to reduce redundant searches:
+
+```yaml
+search_clusters:
+  - search: "SF School kindergarten admissions 2026-27"
+    answers_questions: [q3, q7, q12]  # deadline, tuition, age cutoff
+  - search: "Live Oak School kindergarten application"
+    answers_questions: [q4, q8, q13]
+```
+
+Aim to reduce total searches by 20-30% via clustering. Research-agent reads clusters and runs the shared search once, tagging the result as covering all listed question IDs.
 
 ## Output Format
 
@@ -142,12 +270,18 @@ slug: private-school-k
 created: 2026-04-06
 user_context: "Parent of 4yo in SF, interested in progressive schools"
 status: pending  # pending | in_progress | complete
+round: 1         # increments when evolve-agent triggers a new research cycle
 
 budget:
-  max_searches: 50
-  max_fetches: 100
+  max_searches: 87   # base_budget(30) + question_count(38) × 1.5
+  max_fetches: 150
+  gap_fill_reserve: 19  # question_count(38) × 0.5
   breadth_budget_pct: 30   # stop breadth when 30% of searches consumed
   depth_budget_pct: 80     # stop depth when 80% of total searches consumed
+
+search_clusters:
+  - search: "SF School kindergarten admissions 2026-27"
+    answers_questions: [q3, q7, q12]
 
 phases:
   breadth:
@@ -176,7 +310,12 @@ questions:
     dependencies: []
     status: pending          # pending | in_progress | answered | skipped
     search_queries: []       # populated by research-agent
-    discovered_from: seed    # seed | concept_extraction | gap_detection | user_query
+    discovered_from: seed    # seed | concept_extraction | gap_detection | user_query | landscape_scan
+    spawned_by: research-planner-agent
+    round: 1                 # research round (increments after each evolve cycle)
+    cycle: init-2026-04-06   # what triggered this question
+    reader_outcomes: [RO1, RO2]  # which reader outcomes this question serves
+    target_source_tiers: [L1, L2, L3]  # which source tiers to hit for this question
     children: []             # sub-question IDs discovered during research
 
   - id: q2
@@ -248,4 +387,4 @@ You do not interact with these agents directly. The pipeline orchestrator sequen
 
 ---
 
-*LLM Knowledge Base | Research Planner Agent | v1.0*
+*LLM Knowledge Base | Research Planner Agent | v2.0*

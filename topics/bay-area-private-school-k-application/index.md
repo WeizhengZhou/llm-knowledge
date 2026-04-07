@@ -12,7 +12,7 @@ _Auto-maintained by wiki-compiler-agent. Do not edit manually._
 - [Financial Aid](wiki/financial-aid.md) -- Clarity platform, indexed tuition, school-specific aid data
 - [K Assessments and Playdates](wiki/assessment-playdate.md) -- Playdate formats vs. IQ testing
 - [Admissions Strategy](wiki/admissions-strategy.md) -- School list building, sibling preference, consultants, waitlist, South Bay vs. SF
-- [South Bay Schools -- Regional Guide](wiki/south-bay-schools.md) -- Harker, Challenger, Stratford, and stubs
+- [South Bay Schools -- Regional Guide](wiki/south-bay-schools.md) -- Harker, Challenger, Stratford, Helios, Gideon Hausner, Almaden Country Day, BASIS SV
 - [Educational Philosophy Guide](wiki/pedagogy-philosophy.md) -- Progressive, traditional, gifted, immersion, Waldorf, Reggio
 
 ### Entity Profiles
@@ -24,9 +24,38 @@ _Auto-maintained by wiki-compiler-agent. Do not edit manually._
 - [ISSFBA / BADA](wiki/issfba-bada.md) -- Coordinating body for Bay Area independent school admissions
 
 ### Concepts
-- [Language Immersion Programs](wiki/language-immersion.md) -- CAIS (Mandarin), La Scuola (Italian), stubs for others
+- [Language Immersion Programs](wiki/language-immersion.md) -- CAIS (Mandarin), La Scuola (Italian), Lycee Francais (French), SVIS (French/Mandarin/German)
 - [Ravenna Hub](wiki/ravenna-hub.md) -- Common admissions platform
 - [Transitional Kindergarten (TK)](wiki/transitional-kindergarten.md) -- Public vs. private TK, strategic considerations
+
+### Staging (pending wiki-critic review)
+- [Assessment Preparation](staging/assessment-prep.md) -- IQ testing logistics, providers, costs, playdate criteria, parent interview prep
+- [Public vs. Private](staging/public-vs-private.md) -- $500K decision framework, parochial vs independent, SFUSD lottery, Basic Fund
+
+## Research Run: 2026-04-06 (Compile 3 -- Gap-Fill Pass 2)
+
+Phase completed: compile (gap-fill pass 2 data: C233-C329)
+New articles: 2 (staging: 1 concept, 1 guide)
+Updated articles: 4 (south-bay-schools, language-immersion, application-timeline, _index)
+Sources used: 66 raw files (cumulative)
+Fact-sheet gate: CLEAR
+
+Key additions:
+- Helios School full profile in south-bay-schools (confidence: L2, WPPSI-IV required, $46,360 K-5 2026-27)
+- Gideon Hausner full profile (confidence: L2, decision date corrected to Mar 19, K-4 tuition $42,480)
+- Almaden Country Day full profile (confidence: L2, need-blind, $39,340 K 2026-27)
+- BASIS Independent SV full profile (confidence: L3, tuition unconfirmed, Mar 18 notification independent of ISSFBA)
+- Lycee Francais full profile in language-immersion (confidence: L2, CP requires age 6 by Sep 1)
+- SVIS full profile in language-immersion (confidence: L2, ISSFBA confirmed, $42,630 K-5 2025-26)
+- La Scuola tuition update ($48,850 SF, $39,775 SV)
+- Assessment prep concept article (staging) -- IQ testing logistics, providers, costs, playdate criteria, parent interview
+- Public vs. private guide (staging) -- $500K decision framework, parochial vs independent, Basic Fund
+- Keys School Feb 19 decision date CORRECTED to Mar 20 (C118)
+- Application timeline expanded with 7 new school deadlines and second-round dates
+
+Disputes referenced: d004 (BASIS SV acceptance rate -- no official figure published)
+Mechanism overreach flags honored: mof009 (playdate criteria attributed to L3), mof010 (partial fetch sources at L3), mof011 (ISSFBA inference qualified), mof012 ($500K as modeled estimate), mof013 (South Bay ISSFBA nuanced)
+Stubs remaining: 3 (Redwood Day, Terra SF, EBGIS)
 
 ## Research Run: 2026-04-06 (Compile 2 -- South Bay, Philosophy, TK, Overview)
 

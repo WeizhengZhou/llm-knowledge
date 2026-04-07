@@ -39,7 +39,7 @@ Inspired by [Karpathy's LLM Knowledge Bases](https://gist.github.com/karpathy/44
 **Claude Code-native.** Skills orchestrate agents. Agents use their own tools (Read, Write, WebSearch, WebFetch) autonomously. No Python LLM-calling orchestrator.
 
 - **Skills** (`.claude/skills/`) — slash commands that invoke the right agents in the right order with file-path context
-- **Agents** (`.claude/agents/`) — specialized roles with system prompts; each reads its own inputs and writes its own outputs
+- **Agents** (`.claude/agents/`) — 10 specialized roles with system prompts; each reads its own inputs and writes its own outputs
 - **`backend/pipeline.py`** — directory scaffolding only (`init` command); no LLM calls
 - **`backend/tools/`** — Python data tools used by tests and optionally by agents via Bash
 
@@ -63,17 +63,30 @@ llm_knowledge/
 │       └── cross_linker.py      # Wikilink & backlink management
 ├── topics/                      # Per-topic knowledge bases
 │   └── {topic-slug}/
-│       ├── _topic.yaml          # Topic metadata & budget
-│       ├── research-plan.yaml   # Question tree
-│       ├── claims-register.yaml # Extracted claims
-│       ├── fact-sheet.yaml      # Verified claims with permitted language
+│       ├── _topic.yaml          # Topic metadata, reader_personas, reader_outcomes
+│       ├── landscape.yaml       # Phase 0 scan: entities, source ecosystem, pain points
+│       ├── research-plan.yaml   # Question tree with round/cycle metadata + search_clusters
+│       ├── claims-register.jsonl # Extracted claims (JSONL, appendable)
+│       ├── fact-sheet.jsonl     # Verified claims with permitted language (JSONL)
 │       ├── index.md             # Topic index
 │       ├── log.md               # Operation log
-│       ├── manifest.json        # Source tracking
+│       ├── CHANGELOG.md         # Append-only wiki modification log
+│       ├── manifest.json        # Source tracking with content hashes
 │       ├── raw/                 # Immutable source material
-│       ├── wiki/                # LLM-compiled articles
-│       ├── staging/             # Draft articles pending review
-│       └── output/              # Reports, slides, etc.
+│       │   ├── web/             # Fetched web pages (official/, news/, review/, community/)
+│       │   ├── manual/          # Human-provided notes (books, interviews)
+│       │   └── search-log.jsonl # Dedup log of all searches run
+│       ├── wiki/                # LLM-compiled articles (graduated from staging)
+│       │   ├── entities/        # School/person/org profiles
+│       │   ├── guides/          # Process and how-to articles
+│       │   ├── concepts/        # Term and framework explanations
+│       │   └── claims/          # Disputed claim documentation
+│       ├── staging/             # Draft articles pending wiki-critic review
+│       ├── eval/                # Helpfulness evaluation artifacts
+│       │   ├── test-questions.yaml  # Fixed test suite (built from reader_outcomes)
+│       │   ├── eval-report.yaml     # Latest rubric scores
+│       │   └── eval-history.jsonl   # Score trend across pipeline runs
+│       └── output/              # Lint reports, evolution suggestions
 ├── shared/                      # Cross-topic knowledge
 ├── docs/                        # Design documents
 └── tests/                       # Test suite
@@ -85,21 +98,35 @@ Every task has a designated agent. Do NOT use generic agents for knowledge work.
 
 | Task | Agent | NOT |
 |------|-------|-----|
-| Plan research questions | `research-planner-agent` | research-agent |
+| Landscape scan + plan research questions | `research-planner-agent` | research-agent |
 | Execute web searches | `research-agent` | wiki-compiler-agent |
 | Extract claims from sources | `claim-extractor-agent` | fact-checker-agent |
 | Verify facts, assign confidence | `fact-checker-agent` | research-agent |
 | Write/update wiki articles | `wiki-compiler-agent` | research-agent |
-| Health checks | `lint-agent` | wiki-compiler-agent |
+| Critique individual staged articles | `wiki-critic-agent` | lint-agent |
+| Structural health checks (entire wiki) | `lint-agent` | wiki-compiler-agent |
+| Helpfulness evaluation (rubric + test suite) | `helpfulness-eval-agent` | lint-agent |
 | Answer user questions | `query-agent` | research-agent |
-| Suggest improvements | `evolve-agent` | lint-agent |
+| Gap analysis + pipeline retrospective | `evolve-agent` | lint-agent |
 
 ## Pipeline Flow
 
 ```
-research-planner → research-agent (breadth → depth → gap-fill)
-  → claim-extractor → fact-checker → wiki-compiler → lint-agent
-  → [optional] evolve-agent → loop back to research-agent
+Phase 0: research-planner (landscape scan → reader outcomes → question tree)
+  ↓
+research-agent (breadth → [checkpoint] → depth → gap-fill)
+  ↓
+claim-extractor → fact-checker
+  ↓
+wiki-compiler → staging/
+  ↓
+wiki-critic-agent (per article → READY/NEEDS-REVISION/BLOCKED)
+  ↓
+staging/ → wiki/  [articles that pass critic]
+  ↓
+cross-linker → lint-agent → helpfulness-eval-agent
+  ↓
+[optional] evolve-agent (reads eval report) → loop back to research-agent
 ```
 
 ## Evidence Discipline
@@ -183,13 +210,13 @@ When modifying `.claude/agents/*.md`, `.claude/skills/**/*.md`, `SCHEMA.md`, or 
 | Skill | What It Does | Agents Invoked |
 |-------|-------------|----------------|
 | `/kb-init "<topic>"` | Scaffold directory + generate question tree | `research-planner-agent` |
-| `/kb-research <slug>` | Full research pipeline | `research-planner` → `research-agent` × 3 → `claim-extractor` → `fact-checker` → `wiki-compiler` → `lint-agent` |
+| `/kb-research <slug>` | Full research pipeline | `research-planner` → `research-agent` × 3 → `claim-extractor` → `fact-checker` → `wiki-compiler` → `wiki-critic` → `lint-agent` → `helpfulness-eval-agent` |
 | `/kb-research <slug> --phase breadth\|depth\|gap` | Single research phase only | `research-agent` |
-| `/kb-ingest <slug> --url <url>` | Add one web source | `research-agent` → `claim-extractor` → `fact-checker` → `wiki-compiler` |
-| `/kb-ingest <slug> --file <path>` | Add one local file | `claim-extractor` → `fact-checker` → `wiki-compiler` |
+| `/kb-ingest <slug> --url <url>` | Add one web source | `research-agent` → `claim-extractor` → `fact-checker` → `wiki-compiler` → `wiki-critic` |
+| `/kb-ingest <slug> --file <path>` | Add one local file | `claim-extractor` → `fact-checker` → `wiki-compiler` → `wiki-critic` |
 | `/kb-query <slug> "<question>"` | Answer from wiki (+ optional web) | `query-agent` |
-| `/kb-lint <slug>` | Health check report | `lint-agent` |
-| `/kb-evolve <slug>` | Gap + freshness + pattern analysis | `evolve-agent` |
+| `/kb-lint <slug>` | Structural health check + quality gate | `lint-agent` |
+| `/kb-evolve <slug>` | Gap + freshness + pattern + pipeline retrospective | `evolve-agent` (reads eval-report.yaml) |
 | `/kb-update <slug>` | Re-verify volatile claims; update wiki (annual refresh) | `fact-checker-agent` → `wiki-compiler-agent` |
 | `/kb-verify <slug> "<claim>"` | Real-time re-verification before acting | `fact-checker-agent` (user-action mode) |
 

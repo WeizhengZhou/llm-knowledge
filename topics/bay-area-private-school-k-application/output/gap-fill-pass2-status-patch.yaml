@@ -1,0 +1,263 @@
+# Gap-Fill Pass 2 — Status Patch for research-plan.yaml
+# Generated: 2026-04-06T19:00:00Z by research-agent
+# Purpose: Documents all status changes and new questions from the gap-fill second pass.
+#          Apply these changes to research-plan.yaml.
+#
+# HEADER CHANGES:
+#   status: gap_fill_complete  (was: gap_fill_in_progress)
+#   budget.searches_used: 62   (was: 50; 12 additional authorized searches run)
+#   budget.fetches_used: 66    (was: 52; 14 additional fetches)
+#   phases.gap_fill.status: complete  (was: budget_exhausted)
+#   phases.gap_fill.questions: add qE020, qE021 to list
+#   phases.gap_fill.second_pass_completed_at: '2026-04-06'
+#
+# QUESTION STATUS CHANGES:
+
+question_updates:
+
+  - id: qE002
+    old_status: partially_answered
+    new_status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-052
+        query: "Helios School Sunnyvale kindergarten admissions requirements tuition 2025 2026 gifted IQ"
+    raw_files:
+      - raw/web/official/2026-04-06_helios-admissions-steps.md
+      - raw/web/official/2026-04-06_helios-assessments.md
+      - raw/web/official/2026-04-06_helios-tuition-financial-aid.md
+    notes: >
+      Helios preliminary application deadline: January 8, 2026 (12pm noon).
+      Supplemental documents (IQ report, family photo): February 2, 2026.
+      Admission decisions: March 19, 2026 (12pm noon) — ISSFBA coordinated date.
+      Enrollment contract due: March 26, 2026 (12pm noon).
+      Tuition 2025-26: Lower School (K-5) $44,575; Middle School $48,625.
+      Tuition 2026-27: Lower School (K-5) $46,360; Middle School $50,570.
+      K age cutoff: 5 by September 1, 2026.
+      WPPSI-IV required (under age 6); no published minimum FSIQ (holistic review across all 7 indices).
+      Financial aid: Clarity platform; need-blind admissions.
+      Application fee: $100 (waiver available).
+      Platform: Ravenna Solutions.
+      Helios uses ISSFBA March 19 coordinated decision date despite being a South Bay (Sunnyvale) school.
+
+  - id: qE004
+    old_status: partially_answered
+    new_status: answered
+    answered_at: '2026-04-06'
+    correction_note: >
+      IMPORTANT: Prior data from s-2026-04-06-022 showed Gideon Hausner decision date February 19, 2026.
+      Official Ravenna fetch (s-2026-04-06-053) of hausnerschool.org/admissions/applying-to-hausner
+      for 2026-27 cycle shows first-round decision date March 19, 2026 (ISSFBA coordinated).
+      The February 19 date was likely from a prior cycle (2024-25) or different grade level.
+      Gideon Hausner IS an ISSFBA member with March 19 coordinated decisions.
+      All prior wiki notes referencing Hausner as "independent, February 19" should be corrected.
+    search_queries:
+      - id: s-2026-04-06-053
+        query: "Gideon Hausner Jewish Day School Palo Alto kindergarten admissions tuition deadline 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md
+      - raw/web/official/2026-04-06_hausner-tuition-fees.md
+    notes: >
+      First-round deadline: January 29, 2026. First-round decisions: March 19, 2026. Deposits due: March 30.
+      Second round: April 16 deadline; April 27 decisions; May 6 deposits.
+      TK tuition 2026-27: $38,340. K-Grade 4: $42,480. Grades 5-8: $46,310.
+      Tuition includes: books, supplies, lunch, snacks, iPad (lower), MacBook (upper), field trips (TK-3), sports (5-8).
+      Enrollment deposit: $2,800 ($1,000 with financial assistance).
+      Financial aid: Clarity; max 75% of tuition; annual reapplication required.
+      Sibling Savings Program: $1,000-$2,000 discount (income < $650K gross, assets < $500K).
+      Professional Partner Program: 40% discount for JCC/Kehillah employees; 30% for other Jewish nonprofits.
+      Jewish identity requirement: NONE. Non-Jewish families accepted. Pluralistic community school.
+      Application platform: Ravenna.
+      Process: Ravenna application ($100 fee) + supplementals + one-hour K visit (Feb-March) + admissions staff visits applicant at current preschool.
+
+  - id: qE006
+    old_status: skipped
+    new_status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-054
+        query: "Almaden Country School kindergarten admissions tuition San Jose 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md
+      - raw/web/official/2026-04-06_almaden-country-day-tuition.md
+    notes: >
+      Official name: Almaden Country Day School (ACDS). Location: San Jose (Almaden Valley neighborhood).
+      K tuition 2026-27: $39,340 (grades K-5). Pre-K (5-day full): $37,330.
+      K age cutoff: September 1 (standard CA).
+      K application process: online application ($100 fee) + family 30-min conversation + decision + deposit.
+      K does NOT require shadow visit (shadow is grades 1-7 only).
+      First-round deadline: February 1. Decisions: March 19 (ISSFBA confirmed — uses ISSFBA evaluation form).
+      Need-blind admissions. Financial aid via Clarity; FA deadline February 23, 2026.
+      Enrollment deposit: $2,500 (non-refundable).
+      ISSFBA member confirmed: uses ISSFBA Confidential Student Evaluation form + March 19 decisions.
+
+  - id: qE007
+    old_status: partially_answered
+    new_status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-058
+        query: "BASIS Independent Silicon Valley kindergarten admissions deadline decision date assessment 2026-27"
+    raw_files:
+      - raw/web/official/2026-04-06_basis-independent-sv-admissions.md
+      - raw/web/official/2026-04-06_nueva-faq-decision-dates.md
+      - raw/web/official/2026-04-06_nueva-iq-assessment-requirements.md
+    notes: >
+      BASIS Independent Silicon Valley:
+      Application opens August 1, 2025. Submission deadline: January 28, 2026.
+      Completion deadline: February 13, 2026. Notification: March 18, 2026 (independent — one day BEFORE ISSFBA March 19).
+      Commitment deadline: March 27, 2026. Non-refundable deposit: $3,000.
+      Rolling admissions opens January 29, 2026 (notification within 10 business days).
+      K age cutoff: September 1. No IQ test requirement for K admission.
+      Platform: Ravenna Hub. ISSFBA membership: NO (March 18 independent date confirms non-ISSFBA).
+      Tuition: approximately $39,795 (from prior research; verify on 2026-27 tuition page).
+      [Also captures Nueva decision dates: March 20, 2026 Round I; April 1, 2026 Round II pre-K]
+      [Nueva FSIQ requirement: approximately 130 (98th percentile); confirmed from official IQ page]
+
+  - id: qE009
+    old_status: partially_answered
+    new_status: answered
+    answered_at: '2026-04-06'
+    notes: >
+      Comprehensive South Bay + non-ISSFBA Peninsula decision date mapping (2026-27 cycle):
+      ISSFBA members (March 19, 2026):
+        - Almaden Country Day School: March 19 (confirmed)
+        - Gideon Hausner Jewish Day School: March 19 (confirmed — correction from prior Feb 19 data)
+        - Helios School (Sunnyvale): March 19 (confirmed — South Bay ISSFBA member)
+        - Silicon Valley International School (Palo Alto): March 19 (confirmed)
+      Independent (non-ISSFBA) dates:
+        - Harker School: March 20, 2026 (independent; one day after ISSFBA)
+        - BASIS Independent Silicon Valley: March 18, 2026 (independent; one day before ISSFBA)
+        - Nueva School (Hillsborough): March 20, 2026 (independent)
+        - Keys School (Palo Alto): March 20, 2026 (independent; prior cycle data)
+        - Challenger School: rolling/no published date
+        - Stratford School: rolling/no published date
+      REVISED CONCLUSION: South Bay ISSFBA membership is more widespread than previously thought.
+      Helios and Hausner ARE ISSFBA members. Harker, BASIS, Nueva, Keys are NOT.
+      Pattern C (non-ISSFBA schools don't follow March 19) still holds for confirmed non-members.
+
+  - id: qE015
+    old_status: skipped
+    new_status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-055
+        query: "La Scuola International School San Francisco tuition 2025 2026 Italian immersion kindergarten"
+      - id: s-2026-04-06-056
+        query: "Lycee Francais San Francisco kindergarten admissions tuition immersion percentage 2025 2026"
+      - id: s-2026-04-06-057
+        query: "Silicon Valley International School SVIS kindergarten admissions tuition French immersion 2025 2026 formerly ISTP"
+    raw_files:
+      - raw/web/official/2026-04-06_lascuola-tuition-affordability.md
+      - raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md
+      - raw/web/official/2026-04-06_svis-admissions-process.md
+    notes: >
+      La Scuola International School (SF):
+        K-5 tuition 2026-27: $48,850 (SF campus). Silicon Valley campus K-5: $39,775 (2025-26).
+        Sliding scale: 30% of families use it; Clarity platform; prospective deadline Feb 1 2026.
+        Immersion: approximately 80% Italian / 20% English at elementary level.
+        Decision: March 2026 (ISSFBA aligned). Deadline: January 15, 2026.
+      Lycée Français de San Francisco:
+        K equivalent = CP (Cours Préparatoire); age cutoff: 6 by September 1 (one year older than US standard).
+        La Petite École (LPE) from age 2; Grande Section (GS = US Pre-K) for age 5.
+        Application platform: Veracross (NOT Ravenna). Application fee: $150.
+        Tuition 2025-26: $35,900-$45,900 (first year ~$37,900 with enrollment fees).
+        Decisions: early March (ISSFBA aligned). Financial aid: $2.48M total 2024-25.
+        Post-K: French Track or International Track (bilingual IB).
+      Silicon Valley International School (SVIS, formerly ISTP):
+        K-5 tuition 2025-26: $42,630. New student enrollment fee: $2,000.
+        Application deadline: January 13, 2026. Decisions: March 19, 2026 (ISSFBA member confirmed).
+        K age cutoff: September 1 (German program may consider December 31 births).
+        Programs: French/English, Mandarin/English, German/English — no language required for K admission.
+        Playdate assessment: January/February. Platform: direct (not Ravenna confirmed).
+
+  - id: qE017
+    old_status: partially_answered
+    notes_append: >
+      Correction based on s-2026-04-06-053 data: Gideon Hausner deadline January 29 (NOT December).
+      Progressive SF schools: Live Oak Jan 6, Presidio Hill Jan 5, CDS Jan 23, SF Day Jan 23.
+      Traditional SF schools: Hamlin Jan 8, Town School Jan 8.
+      Helios (traditional/gifted, South Bay): Jan 8.
+      Almaden Country Day (progressive/project-based): Feb 1 — LATER than SF traditional schools.
+      Gideon Hausner (Jewish/pluralistic): Jan 29 — later than most.
+      Pattern A still supported for core SF ISSFBA schools. South Bay schools don't fit cleanly.
+
+  - id: qE019
+    old_status: partially_answered
+    new_status: answered
+    answered_at: '2026-04-06'
+    correction_note: >
+      CRITICAL CORRECTION: Research-plan qE019 states Gideon Hausner Feb 19 and Keys School Feb 19.
+      Official fetch (s-053) confirms Hausner first-round decision is March 19, 2026 (ISSFBA).
+      Keys School (Cardinal Education guide): March 20, 2026 (prior cycle 2024-25 data).
+      Updated decision date map documented in qE009 correction above.
+
+# NEW QUESTIONS ADDED IN PASS 2:
+
+new_questions:
+
+  - id: qE020
+    facet: HOW
+    phase: gap_fill
+    text: "What are the practical logistics for obtaining an IQ assessment for Bay Area private K admissions (providers, cost, scheduling, child preparation), and how should parents prepare for their own admission interview?"
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 7.50
+    dependencies: [Q031, Q021, qE002, Q002b]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-060
+        query: "Nueva School Helios private school kindergarten IQ test psychologist Bay Area licensed providers cost how to schedule 2025"
+      - id: s-2026-04-06-061
+        query: "Bay Area private school kindergarten parent interview questions what to expect preparation tips 2025"
+    raw_files:
+      - raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md
+      - raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md
+    discovered_from: user_priority_request
+    notes: >
+      IQ Testing Providers:
+        Shelley Sinclair, LEP (Los Altos): $950 per assessment; WISC-V and WPPSI-IV; bayareaiqtest.com; (650) 204-0542.
+        Dr. Ginny Estupinian, PhD ABPP (Los Gatos): approximately $850; serves Nueva, Helios, Harker families.
+      Scheduling: Book September-October for November 3 guarantee deadline (Nueva). Peak season book 2-3 weeks ahead.
+      Test format: 45-60 minutes, one-on-one with psychologist; child told it's "puzzles with a doctor."
+      Do NOT coach child with commercial test prep (schools will disqualify coached applications).
+      Nueva vouchers: Available for families with demonstrated financial need; only valid with listed psychologists.
+      Parent interview questions: "Describe your child in 3 adjectives"; "What environments does your child thrive in?"; "What brings you to our school?".
+      Schools assess: philosophy alignment, realistic expectations, collaborative style, honest child awareness.
+      Child playdate prep: maintain routines; read daily; do puzzles; do NOT rehearse scripted answers.
+      Schools observe: instruction-following, curiosity, peer interaction, emotional regulation — NOT academic skills at K.
+
+  - id: qE021
+    facet: COMPARE
+    phase: gap_fill
+    text: "What is the decision framework for Bay Area families choosing between public and private kindergarten, and what are the key cost, quality, and practical trade-offs?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.95
+    dependencies: [Q004, Q012, Q026]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-062
+        query: "private school kindergarten public vs private decision framework Bay Area considerations cost benefit factors 2025"
+    raw_files:
+      - raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md
+    discovered_from: user_priority_request
+    notes: >
+      Total K-12 private cost per child in Bay Area: approximately $500,000-$700,000.
+      Public school quality varies by district: Palo Alto, Berkeley, Piedmont strong; SFUSD more variable.
+      SFUSD lottery uncertainty (public school assignment by lottery in SF) drives private applications as hedge.
+      Key decision factors: financial capacity; educational philosophy fit; public school alternative quality; class size preferences; sibling continuity planning.
+      ISSFBA recommends: complete financial analysis BEFORE applying to any private schools.
+      Public schools: more ethnic/socioeconomic diversity on average.
+      Private schools: smaller classes, more resources, enrichment options, extended care.
+      Religious/parochial option: $6,000-$10,000/year (much lower than independent schools).
+      Basic Fund: provides private school scholarships to low-income families; 92% are families of color.
+      Fetch note: Primary source (basicfund.org) JS-rendered; content captured via search result summary. Chrome MCP unavailable.

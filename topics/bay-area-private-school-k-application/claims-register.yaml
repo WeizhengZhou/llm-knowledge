@@ -1,7 +1,7 @@
 topic: bay-area-private-school-k-application
 extracted_at: 2026-04-06T14:00:00Z
-source_files_processed: 46
-total_claims: 232
+source_files_processed: 61
+total_claims: 329
 
 claims:
 
@@ -2756,119 +2756,1383 @@ claims:
     overreach_reason: "L4 community claim; 'community consensus' is not a primary source. Berkeley Parents Network thread that would contain specific data returned 403 error — underlying data inaccessible."
     single_source: true
 
+
+  # ── HELIOS SCHOOL (SUNNYVALE — GIFTED K-8) ─────────────────────────────────
+
+  - id: C233
+    entity: "Helios School"
+    text: "Helios School is an independent school for K-8 gifted learners located in Sunnyvale, CA; serves approximately 180 students"
+    type: categorical
+    priority: should_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C234
+    entity: "Helios School"
+    text: "K age cutoff: must be age 5 by September 1, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C235
+    entity: "Helios School"
+    text: "Preliminary application deadline: January 8, 2026 at 12pm noon"
+    type: temporal
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C236
+    entity: "Helios School"
+    text: "Supplemental documents (including IQ report) due: February 2, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_helios-assessments.md"
+        url: "https://www.heliosschool.org/admissions/assessments"
+        tier: L1-official
+
+  - id: C237
+    entity: "Helios School"
+    text: "Admission decisions: March 19, 2026 at 12pm noon — aligns with ISSFBA coordinated notification date"
+    type: temporal
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C238
+    entity: "Helios School"
+    text: "Enrollment contract due: March 26, 2026 at 12pm noon"
+    type: temporal
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C239
+    entity: "Helios School"
+    text: "Application fee: $100; fee waivers available upon request"
+    type: numerical
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C240
+    entity: "Helios School"
+    text: "Uses Ravenna Solutions platform for all admissions"
+    type: categorical
+    priority: should_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C241
+    entity: "Helios School"
+    text: "Application requires: Ravenna account, info session (required Zoom Q&A), campus tour, IQ assessment (WPPSI-IV), one teacher recommendation, preliminary application, supplemental documents (IQ report + family photo), student workshop, and parent interview"
+    type: process
+    priority: should_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+    source_url: "https://www.heliosschool.org/admissions/admissions-steps"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C242
+    entity: "Helios School"
+    text: "IQ assessment required: WPPSI-IV for children under age 6; WISC-V for age 6+"
+    type: categorical
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-assessments.md"
+    source_url: "https://www.heliosschool.org/admissions/assessments"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C243
+    entity: "Helios School"
+    text: "Helios does not have a minimum FSIQ requirement; evaluates complete report across all subtest indices rather than focusing solely on Full Scale IQ"
+    type: categorical
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-assessments.md"
+    source_url: "https://www.heliosschool.org/admissions/assessments"
+    reliability_tier: L1-official
+    overreach: false
+    additional_sources:
+      - file: "raw/web/news/2026-04-06_sfstandard-iq-testing-preschool-admissions.md"
+        url: "https://sfstandard.com/2025/12/07/bay-area-preschooler-iq-test-admission/"
+        tier: L2-authoritative
+        note: "SF Standard (C162) confirms Helios requires IQ test but does not publish minimum score — corroborated."
+
+  - id: C244
+    entity: "Helios School"
+    text: "Required WPPSI-IV subtests: Verbal Comprehension Index, Visual Spatial Index, Fluid Reasoning Index, Working Memory Index, Processing Speed Index, Full Scale IQ, General Ability Index"
+    type: categorical
+    priority: should_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-assessments.md"
+    source_url: "https://www.heliosschool.org/admissions/assessments"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C245
+    entity: "Helios School"
+    text: "Exposing a student to IQ test content before assessment invalidates results (school explicitly warns parents)"
+    type: categorical
+    priority: should_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-assessments.md"
+    source_url: "https://www.heliosschool.org/admissions/assessments"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C246
+    entity: "Helios School"
+    text: "2026-27 tuition: Lower School (K-5) $46,360; Middle School (6-8) $50,570"
+    type: numerical
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-tuition-financial-aid.md"
+    source_url: "https://www.heliosschool.org/admissions/tuition-and-financial-aid"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C247
+    entity: "Helios School"
+    text: "2025-26 tuition: Lower School (K-5) $44,575; Middle School (6-8) $48,625"
+    type: numerical
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-tuition-financial-aid.md"
+    source_url: "https://www.heliosschool.org/admissions/tuition-and-financial-aid"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C248
+    entity: "Helios School"
+    text: "Need-based financial aid available; no merit-based awards; need-blind admissions process (financial need does not impact acceptance decisions)"
+    type: categorical
+    priority: should_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-tuition-financial-aid.md"
+    source_url: "https://www.heliosschool.org/admissions/tuition-and-financial-aid"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C249
+    entity: "Helios School"
+    text: "Financial aid application uses Clarity platform; new family financial aid deadline: January 8, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-tuition-financial-aid.md"
+    source_url: "https://www.heliosschool.org/admissions/tuition-and-financial-aid"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C250
+    entity: "Helios School"
+    text: "All fieldwork and trips included in tuition costs"
+    type: categorical
+    priority: may_skip
+    question_id: qE002
+    source_file: "raw/web/official/2026-04-06_helios-tuition-financial-aid.md"
+    source_url: "https://www.heliosschool.org/admissions/tuition-and-financial-aid"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  # ── GIDEON HAUSNER JEWISH DAY SCHOOL ───────────────────────────────────────
+
+  - id: C251
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Uses Ravenna platform for all applications"
+    type: categorical
+    priority: should_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C252
+    entity: "Gideon Hausner Jewish Day School"
+    text: "First-round application deadline (2026-27): January 29, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C253
+    entity: "Gideon Hausner Jewish Day School"
+    text: "First-round decisions: March 19, 2026 (ISSFBA coordinated date); deposits due March 30, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C254
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Second-round application deadline: April 16, 2026; decisions April 27, 2026; deposits due May 6, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C255
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Application fee: $100 per student (nonrefundable)"
+    type: numerical
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C256
+    entity: "Gideon Hausner Jewish Day School"
+    text: "K applicants invited to a one-hour visit between February and March; admissions staff also visit each K applicant at their current preschool/daycare"
+    type: process
+    priority: should_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C257
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Non-Jewish families are accepted; the school states it 'admits students of any race, color, sexual orientation, gender identity, national and ethnic origin' — no formal Jewish identity requirement"
+    type: categorical
+    priority: should_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-applying-to-kindergarten.md"
+    source_url: "https://www.hausnerschool.org/admissions/applying-to-hausner"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C258
+    entity: "Gideon Hausner Jewish Day School"
+    text: "2026-27 tuition: TK $38,340; K–Grade 4 $42,480; Grades 5–8 $46,310"
+    type: numerical
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-tuition-fees.md"
+    source_url: "https://www.hausnerschool.org/admissions/tuition"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C259
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Tuition includes books/supplies, lunch, morning snacks, iPad (lower school), MacBook (upper school), field trips (TK-3), and competitive sports (Gr5-8)"
+    type: categorical
+    priority: should_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-tuition-fees.md"
+    source_url: "https://www.hausnerschool.org/admissions/tuition"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C260
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Nonrefundable enrollment deposit: $2,800 per student ($1,000 with financial assistance)"
+    type: numerical
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-tuition-fees.md"
+    source_url: "https://www.hausnerschool.org/admissions/tuition"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C261
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Need-based financial aid: maximum award covers up to 75% of total tuition; application via Clarity platform ($65 fee); deadline January 29, 2026"
+    type: numerical
+    priority: must_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-tuition-fees.md"
+    source_url: "https://www.hausnerschool.org/admissions/tuition"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C262
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Professional Partner Program: 40% discount for full-time employees of Oshman Family JCC and Kehillah Jewish High School; 30% discount for qualifying Jewish nonprofit staff"
+    type: numerical
+    priority: should_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-tuition-fees.md"
+    source_url: "https://www.hausnerschool.org/admissions/tuition"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C263
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Sibling Savings Program: $1,000–$2,000 discount per additional child; income limit: gross household income under $650,000; liquid assets under $500,000; application deadline April 20, 2026"
+    type: numerical
+    priority: should_verify
+    question_id: qE004
+    source_file: "raw/web/official/2026-04-06_hausner-tuition-fees.md"
+    source_url: "https://www.hausnerschool.org/admissions/tuition"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  # ── ALMADEN COUNTRY DAY SCHOOL ─────────────────────────────────────────────
+
+  - id: C264
+    entity: "Almaden Country Day School"
+    text: "K age cutoff: children turning 5 by September 1 (standard CA K cutoff)"
+    type: temporal
+    priority: must_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/how-to-apply"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C265
+    entity: "Almaden Country Day School"
+    text: "First-round application deadline: February 1 (decisions by March 19, 2026); applications open November 1"
+    type: temporal
+    priority: must_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/how-to-apply"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C266
+    entity: "Almaden Country Day School"
+    text: "Application fee: $100"
+    type: numerical
+    priority: must_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/how-to-apply"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C267
+    entity: "Almaden Country Day School"
+    text: "K admissions process: online application, family conversation (30-minute meeting with admissions team), decision letter, enrollment deposit. No shadow visit required for K (shadow visit is for Grades 1-7 only)"
+    type: process
+    priority: should_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/how-to-apply"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C268
+    entity: "Almaden Country Day School"
+    text: "Uses ISSFBA standard Confidential Student Evaluation form; March 19 decision date confirms ISSFBA membership"
+    type: categorical
+    priority: should_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/how-to-apply"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C269
+    entity: "Almaden Country Day School"
+    text: "Need-blind admissions; financial aid application due February 23, 2026 via Clarity platform"
+    type: temporal
+    priority: must_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-how-to-apply.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/how-to-apply"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C270
+    entity: "Almaden Country Day School"
+    text: "2026-27 tuition: Pre-K (5 full days) $37,330; Kindergarten–Grade 5 $39,340; Middle School (Gr 6-8) $41,000"
+    type: numerical
+    priority: must_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-tuition.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/tuition-fees"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C271
+    entity: "Almaden Country Day School"
+    text: "Non-refundable enrollment deposit: $2,500"
+    type: numerical
+    priority: must_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-tuition.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/tuition-fees"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C272
+    entity: "Almaden Country Day School"
+    text: "The Learning Center (special needs support) adds $17,430-$17,460 to tuition; total K-5 with TLC: $56,770"
+    type: numerical
+    priority: should_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-tuition.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/tuition-fees"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C273
+    entity: "Almaden Country Day School"
+    text: "Full-payment discount: $400 off for full-day programs when basic tuition paid in full by June 15"
+    type: numerical
+    priority: may_skip
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-tuition.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/tuition-fees"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C274
+    entity: "Almaden Country Day School"
+    text: "School is located in San Jose (Almaden Valley); grades PreK-8; CAIS/WASC accredited; progressive/project-based philosophy with strong STEM integration"
+    type: categorical
+    priority: should_verify
+    question_id: qE006
+    source_file: "raw/web/official/2026-04-06_almaden-country-day-tuition.md"
+    source_url: "https://www.almadencountrydayschool.org/admissions/tuition-fees"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  # ── BASIS INDEPENDENT SILICON VALLEY ───────────────────────────────────────
+
+  - id: C275
+    entity: "BASIS Independent Silicon Valley"
+    text: "K age cutoff: must turn 5 by September 1 (standard CA K cutoff)"
+    type: temporal
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C276
+    entity: "BASIS Independent Silicon Valley"
+    text: "Regular admissions timeline (Fall 2026): applications open August 1, 2025; submission deadline January 28, 2026; completion deadline February 13, 2026; notification March 18, 2026; commitment deadline March 27, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C277
+    entity: "BASIS Independent Silicon Valley"
+    text: "Rolling admissions opens January 29, 2026; notification within 10 business days of completed application; commitment within 10 business days of offer"
+    type: temporal
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C278
+    entity: "BASIS Independent Silicon Valley"
+    text: "Non-refundable enrollment deposit: $3,000 required with signed Enrollment Agreement by commitment deadline"
+    type: numerical
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C279
+    entity: "BASIS Independent Silicon Valley"
+    text: "Decision date of March 18, 2026 (one day before ISSFBA coordinated March 19) indicates BASIS Independent SV is NOT an ISSFBA member; operates on independent timeline"
+    type: categorical
+    priority: should_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "Inference from decision date; ISSFBA membership not directly stated on page."
+
+  - id: C280
+    entity: "BASIS Independent Silicon Valley"
+    text: "Uses Ravenna Hub for admissions applications"
+    type: categorical
+    priority: should_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C281
+    entity: "BASIS Independent Silicon Valley"
+    text: "Tuition previously reported approximately $39,795 (from prior research s-2026-04-06-032); not re-confirmed from official tuition page in this fetch"
+    type: numerical
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "Figure from prior pipeline research pass; official tuition page not re-fetched. Verify against current tuition page."
+
+  - id: C282
+    entity: "BASIS Independent Silicon Valley"
+    text: "School is a TK-12 school in San Jose (South Bay); part of BASIS Ed network (national charter/independent school operator); philosophy is knowledge-rich, content-intensive, high academic standards"
+    type: categorical
+    priority: should_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_basis-independent-sv-admissions.md"
+    source_url: "https://basisindependent.com/schools/ca/silicon-valley/admissions/admissions-overview/"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    conflict_with: C205
+    conflict_note: "C205 (L3 aggregator) cited a 56% acceptance rate with an overreach flag. This L1 official page describes admissions as selective but does not confirm or deny the 56% figure."
+
+  # ── LA SCUOLA INTERNATIONAL SCHOOL (TUITION UPDATE) ────────────────────────
+
+  - id: C283
+    entity: "La Scuola International School"
+    text: "2026-27 SF campus tuition: Elementary (K-5) $48,850; Preschool full day $47,300; Middle School $50,550"
+    type: numerical
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lascuola-tuition-affordability.md"
+    source_url: "https://www.lascuolasf.org/admissions/tuition-affordability"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C284
+    entity: "La Scuola International School"
+    text: "2025-26 Silicon Valley campus tuition: Elementary (K-5) $39,775; Founding elementary families receive 20% discount through Grade 5"
+    type: numerical
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lascuola-tuition-affordability.md"
+    source_url: "https://www.lascuolasf.org/admissions/tuition-affordability"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "SV campus tuition listed as 2025-26 rate; SF campus listed as 2026-27. Different school years — may need separate verification cycle."
+
+  - id: C285
+    entity: "La Scuola International School"
+    text: "30% of families utilize sliding scale tuition; uses Clarity platform for financial aid assessment; prospective family deadline February 1, 2026"
+    type: numerical
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lascuola-tuition-affordability.md"
+    source_url: "https://www.lascuolasf.org/admissions/tuition-affordability"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C286
+    entity: "La Scuola International School"
+    text: "Italian instruction model: approximately 80% Italian / 20% English at elementary level; IB curriculum framework; Reggio Emilia-inspired inquiry approach; no Italian proficiency required at K entry"
+    type: categorical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lascuola-tuition-affordability.md"
+    source_url: "https://www.lascuolasf.org/admissions/tuition-affordability"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "Noted as 'from prior research' in source file — 80%/20% figure sourced from earlier pipeline research pass, not directly from this page's content."
+
+  # ── LYCÉE FRANÇAIS DE SAN FRANCISCO ────────────────────────────────────────
+
+  - id: C287
+    entity: "Lycée Français de San Francisco"
+    text: "CP (kindergarten) age requirement: children must be 6 years of age by September 1 of enrollment year — one year older than standard US kindergarten cutoff"
+    type: temporal
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C288
+    entity: "Lycée Français de San Francisco"
+    text: "Typical Bay Area K-age children (turning 5 by Sept 1) would enroll in La Petite École (LPE) / Petite Section (PS), not CP (K equivalent); CP is the typical US first-grade equivalent"
+    type: categorical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C289
+    entity: "Lycée Français de San Francisco"
+    text: "Application fee: $150 (non-refundable); admissions platform is Veracross (not Ravenna)"
+    type: numerical
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C290
+    entity: "Lycée Français de San Francisco"
+    text: "First notifications in early March (ISSFBA-aligned); rolling admissions for grades with open seats after March; enrollment deadline one week after acceptance"
+    type: temporal
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "Decision date described as 'early March' rather than a specific date — less precise than the ISSFBA March 19 coordinated date."
+
+  - id: C291
+    entity: "Lycée Français de San Francisco"
+    text: "2025-26 tuition range: approximately $35,900 to $45,900 annually; first-year enrollment includes additional one-time fees (~$37,900 total first year)"
+    type: numerical
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C292
+    entity: "Lycée Français de San Francisco"
+    text: "2024-25 total financial aid to families: $2.48M, of which $2.04M funded by Lycée; remainder funded by French Government"
+    type: numerical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C293
+    entity: "Lycée Français de San Francisco"
+    text: "After CP, students choose between French Track (French-language instruction, French national curriculum) or International Track (bilingual IB program)"
+    type: categorical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C294
+    entity: "Lycée Français de San Francisco"
+    text: "Has two campuses: San Francisco (primary) and Marin (Sausalito area); no French proficiency required for LPE entry; CP admissions includes assessment but no stated language requirement for new learners"
+    type: categorical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+    source_url: "https://www.lelycee.org/admissions/applying-early-learning"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  # ── SILICON VALLEY INTERNATIONAL SCHOOL (SVIS/INTL) ────────────────────────
+
+  - id: C295
+    entity: "Silicon Valley International School"
+    text: "Formerly known as International School of the Peninsula (ISTP); located in Palo Alto (Cohn Campus for K-5); offers bilingual programs in French/English, Mandarin/English, and German/English"
+    type: categorical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C296
+    entity: "Silicon Valley International School"
+    text: "Application deadline (PS–11th grade): January 13, 2026; variable tuition application deadline: January 20, 2026; supplemental forms due: January 30, 2026"
+    type: temporal
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C297
+    entity: "Silicon Valley International School"
+    text: "Decisions (PS–8th grade): March 19, 2026 at noon — confirms ISSFBA membership; decisions (9th-12th grade): March 20, 2026 at 4:00 PM"
+    type: temporal
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C298
+    entity: "Silicon Valley International School"
+    text: "K age cutoff: 5 years old by September 1; school may consider applicants born through December 31 based on developmental readiness and prior French-accredited school experience"
+    type: temporal
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C299
+    entity: "Silicon Valley International School"
+    text: "No language proficiency required for K applicants in Chinese and French programs; children must be potty trained before starting school"
+    type: categorical
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C300
+    entity: "Silicon Valley International School"
+    text: "K process requires: campus tour, information session, $100 application fee, parent conversation, playdate assessment (January/February), teacher recommendation"
+    type: process
+    priority: should_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C301
+    entity: "Silicon Valley International School"
+    text: "2025-26 elementary (K-5) tuition: $42,630/year; application fee $100; one-time new-student enrollment fee $2,000"
+    type: numerical
+    priority: must_verify
+    question_id: qE015
+    source_file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+    source_url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "Tuition listed as 2025-26 rate; verify 2026-27 tuition separately."
+
+  # ── NUEVA SCHOOL (SUPPLEMENTAL — DECISION DATES + IQ REQUIREMENTS) ──────────
+
+  - id: C302
+    entity: "Nueva School"
+    text: "Main admissions decisions (K-8): March 20, 2026 at approximately 4 p.m. via Ravenna — one day after ISSFBA March 19, confirming Nueva operates independently from ISSFBA"
+    type: temporal
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-faq-decision-dates.md"
+    source_url: "https://www.nuevaschool.org/admissions/faq"
+    reliability_tier: L1-official
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_nuevaschool-kindergarten-apply.md"
+        url: "https://www.nuevaschool.org/admissions/visit-and-apply/kindergarten-visit-and-apply"
+        tier: L1-official
+
+  - id: C303
+    entity: "Nueva School"
+    text: "Pre-K Round II decisions: April 1, 2026; families must respond within one week of receiving notice"
+    type: temporal
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-faq-decision-dates.md"
+    source_url: "https://www.nuevaschool.org/admissions/faq"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C304
+    entity: "Nueva School"
+    text: "Approximately 20-22 K openings annually"
+    type: numerical
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-faq-decision-dates.md"
+    source_url: "https://www.nuevaschool.org/admissions/faq"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  - id: C305
+    entity: "Nueva School"
+    text: "IQ score requirement stated on official IQ assessment page: 'Full Scale Wechsler IQ Score around 130 (98th percentile) and above'; results outside target range cause application withdrawal; child must wait 12 months before retaking"
+    type: numerical
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-iq-assessment-requirements.md"
+    source_url: "https://www.nuevaschool.org/admissions/grades-prek8-iq-assessment"
+    reliability_tier: L1-official
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_nueva-faq-decision-dates.md"
+        url: "https://www.nuevaschool.org/admissions/faq"
+        tier: L1-official
+      - file: "raw/web/news/2026-04-06_sfstandard-iq-testing-preschool-admissions.md"
+        url: "https://sfstandard.com/2025/12/07/bay-area-preschooler-iq-test-admission/"
+        tier: L2-authoritative
+
+  - id: C306
+    entity: "Nueva School"
+    text: "All PreK-8 applicants must submit WPPSI-IV (under age 6) or WISC-V (age 6+) results; older versions or alternative assessments not accepted; IQ results due January 8, 2026 (Round II Pre-K: March 24, 2026)"
+    type: process
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-iq-assessment-requirements.md"
+    source_url: "https://www.nuevaschool.org/admissions/grades-prek8-iq-assessment"
+    reliability_tier: L1-official
+    overreach: false
+
+  - id: C307
+    entity: "Nueva School"
+    text: "Bay Area IQ assessment providers typically charge $850-$950; financial assistance vouchers available for eligible families; vouchers apply only to psychologists on Nueva's resource list"
+    type: numerical
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-iq-assessment-requirements.md"
+    source_url: "https://www.nuevaschool.org/admissions/grades-prek8-iq-assessment"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+    single_source_note: "Cost range from official source; confirms C161 figure ($850) from SF Standard. Both sources agree on approximately $850 range."
+
+  - id: C308
+    entity: "Nueva School"
+    text: "Financial assistance application deadline: February 3, 2026 (separate from admissions application deadline of January 8, 2026)"
+    type: temporal
+    priority: must_verify
+    question_id: qE007
+    source_file: "raw/web/official/2026-04-06_nueva-faq-decision-dates.md"
+    source_url: "https://www.nuevaschool.org/admissions/faq"
+    reliability_tier: L1-official
+    overreach: false
+    single_source: true
+
+  # ── KEYS SCHOOL (PALO ALTO) ─────────────────────────────────────────────────
+
+  - id: C309
+    entity: "Keys School"
+    text: "Previous cycle (2024-25) K application deadline: January 9, 2025; decision release March 20, 2025 (after 12 PM via Ravenna); enrollment contracts due March 27, 2025"
+    type: temporal
+    priority: must_verify
+    question_id: qE019
+    source_file: "raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md"
+    source_url: "https://www.cardinaleducation.com/profiles/how-to-get-into-keys-school-in-palo-alto-complete-admissions-guide/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "L3 aggregator source (Cardinal Education consulting firm); data labeled as 2024-25 cycle — must verify 2025-26 cycle dates against official Keys School source."
+
+  - id: C310
+    entity: "Keys School"
+    text: "March 20 decision date (one day after ISSFBA March 19) may indicate Keys School is not an ISSFBA member or uses a one-day offset; requires verification"
+    type: categorical
+    priority: should_verify
+    question_id: qE019
+    source_file: "raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md"
+    source_url: "https://www.cardinaleducation.com/profiles/how-to-get-into-keys-school-in-palo-alto-complete-admissions-guide/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "Inference from decision date offset; ISSFBA membership not directly stated. L3 aggregator source only."
+
+  - id: C311
+    entity: "Keys School"
+    text: "K age cutoff: school strongly recommends children turn 5 by September 1; K classes include children ranging from 5 to nearly 6 years old at entry"
+    type: temporal
+    priority: should_verify
+    question_id: qE019
+    source_file: "raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md"
+    source_url: "https://www.cardinaleducation.com/profiles/how-to-get-into-keys-school-in-palo-alto-complete-admissions-guide/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "L3 aggregator source. Verify age cutoff against official Keys School admissions page."
+
+  - id: C312
+    entity: "Keys School"
+    text: "K application requires campus playdate assessing social and academic readiness; also requires Parent/Guardian Conversation with admissions team"
+    type: process
+    priority: should_verify
+    question_id: qE019
+    source_file: "raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md"
+    source_url: "https://www.cardinaleducation.com/profiles/how-to-get-into-keys-school-in-palo-alto-complete-admissions-guide/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+
+  - id: C313
+    entity: "Keys School"
+    text: "Primary entry points are Kindergarten and sixth grade; other grades considered based on available openings"
+    type: categorical
+    priority: should_verify
+    question_id: qE019
+    source_file: "raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md"
+    source_url: "https://www.cardinaleducation.com/profiles/how-to-get-into-keys-school-in-palo-alto-complete-admissions-guide/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+
+  - id: C314
+    entity: "Keys School"
+    text: "Application components: $100 non-refundable fee, Parent/Guardian Questionnaire, teacher recommendations (math and English), transcripts, Student Questionnaire (Gr6-8), family photographs; platform: Ravenna"
+    type: process
+    priority: should_verify
+    question_id: qE019
+    source_file: "raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md"
+    source_url: "https://www.cardinaleducation.com/profiles/how-to-get-into-keys-school-in-palo-alto-complete-admissions-guide/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "L3 aggregator. Tuition data (Gr K-4 $44,600; Gr 5-8 $48,300) corroborated from separate L1 source (s-2026-04-06-022) already in register."
+
+  # ── IQ TESTING LOGISTICS (GIFTED SCHOOL ADMISSIONS) ────────────────────────
+
+  - id: C315
+    entity: "IQ Testing (Gifted Schools)"
+    text: "Schools requiring IQ testing for K admissions in Bay Area: Nueva School (FSIQ ~130+), Helios School (no published minimum), Harker School (cognitive assessment required)"
+    type: categorical
+    priority: must_verify
+    question_id: qE020
+    source_file: "raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md"
+    source_url: "https://bayareaiqtest.com/nueva-iq-testing"
+    reliability_tier: L3-aggregator
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_helios-assessments.md"
+        url: "https://www.heliosschool.org/admissions/assessments"
+        tier: L1-official
+      - file: "raw/web/official/2026-04-06_nueva-iq-assessment-requirements.md"
+        url: "https://www.nuevaschool.org/admissions/grades-prek8-iq-assessment"
+        tier: L1-official
+      - file: "raw/web/official/2026-04-06_harker-applying-to-harker-tk-k.md"
+        url: "https://www.harker.org/admission/applying-to-harker"
+        tier: L1-official
+
+  - id: C316
+    entity: "IQ Testing (Gifted Schools)"
+    text: "WPPSI-IV test format for K-age children (ages 4-7 years 7 months): one-on-one with licensed psychologist; duration approximately 45-60 minutes; administered in quiet private setting; parent waits outside"
+    type: categorical
+    priority: should_verify
+    question_id: qE020
+    source_file: "raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md"
+    source_url: "https://bayareaiqtest.com/nueva-iq-testing"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+
+  - id: C317
+    entity: "IQ Testing (Gifted Schools)"
+    text: "Scheduling guidance: book 2-3 weeks in advance during peak admissions season (September-December); for Nueva's November 3 Guarantee Deadline, book by September-October; for January 8 deadline, aim to complete testing by December"
+    type: temporal
+    priority: should_verify
+    question_id: qE020
+    source_file: "raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md"
+    source_url: "https://bayareaiqtest.com/nueva-iq-testing"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "Operational guidance from L3 aggregator (assessment prep provider website); aligns with school-stated deadlines but scheduling lead times are from provider experience."
+
+  - id: C318
+    entity: "IQ Testing (Gifted Schools)"
+    text: "Bay Area IQ testing provider: Shelley Sinclair, LEP (Los Altos, CA) — cost $950 per comprehensive assessment; serves Nueva, Helios, Harker; tests: WISC-V and WPPSI-IV"
+    type: numerical
+    priority: may_skip
+    question_id: qE020
+    source_file: "raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md"
+    source_url: "https://bayareaiqtest.com/nueva-iq-testing"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "Provider-specific pricing; useful for wiki guidance but not a verifiable factual claim from official source."
+
+  - id: C319
+    entity: "IQ Testing (Gifted Schools)"
+    text: "Bay Area IQ testing provider: Dr. Ginny Estupinian, PhD, ABPP (Los Gatos, CA) — cost approximately $850 per assessment; board certified; specializes in child IQ testing for private school admissions"
+    type: numerical
+    priority: may_skip
+    question_id: qE020
+    source_file: "raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md"
+    source_url: "https://bayareaiqtest.com/nueva-iq-testing"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+    single_source_note: "Provider-specific pricing from L3 aggregator. Useful for wiki guidance but verify independently."
+
+  - id: C320
+    entity: "IQ Testing (Gifted Schools)"
+    text: "Schools universally warn against test-specific coaching/preparation as it invalidates results; standard preparation: maintain regular sleep/nutrition, read daily, do age-appropriate puzzles; do NOT use commercial test prep materials (TestingMom, etc.)"
+    type: categorical
+    priority: should_verify
+    question_id: qE020
+    source_file: "raw/web/official/2026-04-06_assessment-prep-iq-testing-logistics.md"
+    source_url: "https://bayareaiqtest.com/nueva-iq-testing"
+    reliability_tier: L3-aggregator
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_helios-assessments.md"
+        url: "https://www.heliosschool.org/admissions/assessments"
+        tier: L1-official
+        note: "Helios explicitly states coaching invalidates results (C245); corroborated."
+      - file: "raw/web/official/2026-04-06_harker-applying-to-harker-tk-k.md"
+        url: "https://www.harker.org/admission/applying-to-harker"
+        tier: L1-official
+        note: "Harker explicitly states coaching/tutoring disqualifies application (C181); corroborated."
+
+  # ── PARENT INTERVIEW AND PLAYDATE ASSESSMENT (PROCESS GUIDANCE) ─────────────
+
+  - id: C321
+    entity: "K Application Process (General)"
+    text: "Common K parent interview questions include: 'What brings you to our school?', 'Describe your child using three adjectives', 'How does your family approach academic challenges or frustration?', 'What questions do you have about our school?'"
+    type: process
+    priority: may_skip
+    question_id: qE020
+    source_file: "raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md"
+    source_url: "https://www.admissionsessayadvising.com/the-parent-private-school-interview-questions-to-expect-and-questions-to-ask/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+
+  - id: C322
+    entity: "K Application Process (General)"
+    text: "During parent interviews, schools assess: philosophy alignment, realistic expectations about the program, collaborative communication style, and ability to articulate child's specific strengths and challenges honestly"
+    type: process
+    priority: may_skip
+    question_id: qE020
+    source_file: "raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md"
+    source_url: "https://www.admissionsessayadvising.com/the-parent-private-school-interview-questions-to-expect-and-questions-to-ask/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    single_source: true
+
+  - id: C323
+    entity: "K Application Process (General)"
+    text: "During K playdates, schools observe: ability to follow instructions from unfamiliar adult, curiosity and engagement with new activities, participation in small group, age-appropriate emotional regulation, and communication skills. Schools do NOT expect K applicants to read or demonstrate academic pre-skills beyond age-appropriate norms"
+    type: process
+    priority: should_verify
+    question_id: qE020
+    source_file: "raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md"
+    source_url: "https://www.admissionsessayadvising.com/the-parent-private-school-interview-questions-to-expect-and-questions-to-ask/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Described as universal assessment criteria but sourced from L3 aggregator consulting site, not from official school sources. These criteria may vary school to school."
+    single_source: true
+
+  - id: C324
+    entity: "K Application Process (General)"
+    text: "School-specific process notes confirmed: Lycée Français uses Zoom parent interview + on-campus playdate; SVIS uses parent conversation + playdate assessment (January/February); Keys School uses Parent/Guardian Conversation + campus playdate; Helios uses student workshop + parent meeting after IQ assessment; Nueva Activity Session group + individual activities with parents not present"
+    type: process
+    priority: should_verify
+    question_id: qE020
+    source_file: "raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md"
+    source_url: "https://www.admissionsessayadvising.com/the-parent-private-school-interview-questions-to-expect-and-questions-to-ask/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_lycee-francais-early-learning-apply.md"
+        url: "https://www.lelycee.org/admissions/applying-early-learning"
+        tier: L1-official
+      - file: "raw/web/official/2026-04-06_svis-admissions-process.md"
+        url: "https://www.siliconvalleyinternational.org/admissions/admissions-process"
+        tier: L1-official
+      - file: "raw/web/official/2026-04-06_helios-admissions-steps.md"
+        url: "https://www.heliosschool.org/admissions/admissions-steps"
+        tier: L1-official
+
+  # ── PUBLIC VS. PRIVATE SCHOOL DECISION FRAMEWORK ───────────────────────────
+
+  - id: C325
+    entity: "SF Private School Market"
+    text: "Aggregate cost of private school K-12 in Bay Area estimated at $500,000–$700,000 per child based on $40,000–$50,000/year average tuition and 4-5% annual increases over 13 years"
+    type: numerical
+    priority: should_verify
+    question_id: qE021
+    source_file: "raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md"
+    source_url: "https://basicfund.org/the-500k-decision-bay-area-parents-and-experts-weigh-in-on-public-vs-private-school/"
+    reliability_tier: L2-authoritative
+    overreach: true
+    overreach_reason: "Source is a search summary of a JS-rendered page (not verbatim source material). The $500K figure is an estimate/calculation, not a reported fact. Marked L2 per source file but confidence is lower given partial fetch."
+    single_source: true
+
+  - id: C326
+    entity: "SF Private School Market"
+    text: "Parochial/religious private schools in Bay Area: $6,000–$10,000/year tuition — significantly lower than independent school range"
+    type: numerical
+    priority: should_verify
+    question_id: qE021
+    source_file: "raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md"
+    source_url: "https://basicfund.org/the-500k-decision-bay-area-parents-and-experts-weigh-in-on-public-vs-private-school/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    single_source: true
+    single_source_note: "From search summary of partial-fetch source; verify range against specific parochial school data."
+
+  - id: C327
+    entity: "SF Private School Market"
+    text: "Bay Area public schools vary dramatically by district: Palo Alto, Berkeley, and Piedmont have strong academic reputations; SFUSD has more variability"
+    type: comparative
+    priority: may_skip
+    question_id: qE021
+    source_file: "raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md"
+    source_url: "https://basicfund.org/the-500k-decision-bay-area-parents-and-experts-weigh-in-on-public-vs-private-school/"
+    reliability_tier: L2-authoritative
+    overreach: true
+    overreach_reason: "Comparative claim about district quality from a search summary synthesis; no specific test scores or rankings cited. Widely held perception but not substantiated with data in source."
+    single_source: true
+
+  - id: C328
+    entity: "SF Private School Market"
+    text: "Basic Fund provides vouchers to low-income families for private school access in Bay Area; up to 92% of recipients are families of color"
+    type: numerical
+    priority: should_verify
+    question_id: qE021
+    source_file: "raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md"
+    source_url: "https://basicfund.org/the-500k-decision-bay-area-parents-and-experts-weigh-in-on-public-vs-private-school/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    single_source: true
+    single_source_note: "92% figure is self-reported by Basic Fund; verify on basicfund.org directly."
+
+  - id: C329
+    entity: "SF Private School Market"
+    text: "SFUSD public school lottery/assignment uncertainty drives some families to apply to private schools as a hedge or insurance option"
+    type: causal
+    priority: may_skip
+    question_id: qE021
+    source_file: "raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md"
+    source_url: "https://basicfund.org/the-500k-decision-bay-area-parents-and-experts-weigh-in-on-public-vs-private-school/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    single_source: true
+
 coverage_summary:
+  extracted_at_update: 2026-04-06T22:00:00Z
+  source_files_processed: 61
+  total_claims: 329
+  new_claims_this_pass: 97
+
   by_entity:
     "SF Day School":
       total_claims: 16
       must_verify: 9
       should_verify: 7
+      may_skip: 0
       overreach_flags: 0
     "The San Francisco School":
       total_claims: 12
       must_verify: 8
       should_verify: 4
+      may_skip: 0
       overreach_flags: 0
     "Children's Day School":
       total_claims: 12
       must_verify: 8
       should_verify: 4
+      may_skip: 0
       overreach_flags: 0
     "Convent & Stuart Hall":
       total_claims: 12
       must_verify: 6
       should_verify: 6
+      may_skip: 0
       overreach_flags: 0
     "The Hamlin School":
       total_claims: 12
       must_verify: 5
       should_verify: 7
+      may_skip: 0
       overreach_flags: 1
     "Live Oak School":
       total_claims: 10
       must_verify: 7
       should_verify: 3
+      may_skip: 0
       overreach_flags: 1
     "Presidio Hill School":
-      total_claims: 7
+      total_claims: 8
       must_verify: 5
-      should_verify: 2
+      should_verify: 3
+      may_skip: 0
       overreach_flags: 0
     "SF Friends School":
       total_claims: 8
       must_verify: 5
       should_verify: 3
+      may_skip: 0
       overreach_flags: 1
     "CAIS":
-      total_claims: 6
+      total_claims: 7
       must_verify: 4
-      should_verify: 2
+      should_verify: 3
+      may_skip: 0
       overreach_flags: 1
     "Head-Royce School":
       total_claims: 6
       must_verify: 4
       should_verify: 2
+      may_skip: 0
       overreach_flags: 0
     "La Scuola International School":
-      total_claims: 6
-      must_verify: 3
-      should_verify: 3
+      total_claims: 10
+      must_verify: 5
+      should_verify: 5
+      may_skip: 0
       overreach_flags: 0
     "Marin Country Day School":
       total_claims: 9
       must_verify: 7
       should_verify: 2
+      may_skip: 0
       overreach_flags: 0
     "Keys School":
-      total_claims: 4
+      total_claims: 10
       must_verify: 3
-      should_verify: 1
+      should_verify: 6
+      may_skip: 0
       overreach_flags: 0
     "Nueva School":
-      total_claims: 10
-      must_verify: 7
-      should_verify: 3
+      total_claims: 17
+      must_verify: 12
+      should_verify: 5
+      may_skip: 0
       overreach_flags: 0
     "Park Day School":
       total_claims: 9
       must_verify: 6
       should_verify: 3
+      may_skip: 0
       overreach_flags: 0
     "Town School for Boys":
       total_claims: 5
       must_verify: 3
       should_verify: 2
+      may_skip: 0
       overreach_flags: 0
     "Marin Horizon School":
       total_claims: 4
       must_verify: 3
       should_verify: 1
+      may_skip: 0
       overreach_flags: 0
     "Ravenna":
       total_claims: 4
       must_verify: 0
       should_verify: 4
+      may_skip: 0
       overreach_flags: 0
     "ISSFBA/BADA":
       total_claims: 9
       must_verify: 3
       should_verify: 6
+      may_skip: 0
       overreach_flags: 0
     "IQ Testing (Gifted Schools)":
-      total_claims: 5
-      must_verify: 2
-      should_verify: 3
+      total_claims: 11
+      must_verify: 3
+      should_verify: 5
+      may_skip: 3
       overreach_flags: 1
     "SF Private School Market":
-      total_claims: 5
+      total_claims: 9
       must_verify: 0
       should_verify: 5
-      overreach_flags: 3
+      may_skip: 3
+      overreach_flags: 5
     "Sibling Preference Policy":
       total_claims: 1
       must_verify: 0
       should_verify: 1
+      may_skip: 0
       overreach_flags: 1
-
     "Harker School":
       total_claims: 13
       must_verify: 6
@@ -2900,9 +4164,9 @@ coverage_summary:
       may_skip: 0
       overreach_flags: 0
     "BASIS Independent Silicon Valley":
-      total_claims: 1
-      must_verify: 0
-      should_verify: 1
+      total_claims: 9
+      must_verify: 5
+      should_verify: 3
       may_skip: 0
       overreach_flags: 1
     "Educational Philosophy Patterns":
@@ -2941,25 +4205,65 @@ coverage_summary:
       should_verify: 0
       may_skip: 1
       overreach_flags: 1
+    "Helios School":
+      total_claims: 18
+      must_verify: 8
+      should_verify: 7
+      may_skip: 1
+      overreach_flags: 0
+    "Gideon Hausner Jewish Day School":
+      total_claims: 13
+      must_verify: 7
+      should_verify: 5
+      may_skip: 0
+      overreach_flags: 0
+    "Almaden Country Day School":
+      total_claims: 11
+      must_verify: 5
+      should_verify: 5
+      may_skip: 1
+      overreach_flags: 0
+    "Lycée Français de San Francisco":
+      total_claims: 8
+      must_verify: 4
+      should_verify: 4
+      may_skip: 0
+      overreach_flags: 0
+    "Silicon Valley International School":
+      total_claims: 7
+      must_verify: 3
+      should_verify: 4
+      may_skip: 0
+      overreach_flags: 0
+    "K Application Process (General)":
+      total_claims: 4
+      must_verify: 0
+      should_verify: 1
+      may_skip: 2
+      overreach_flags: 1
 
-  single_source_claims: 78
-  multi_source_claims: 21
-  conflicts_detected: 2
-  overreach_flags: 18
+  single_source_claims: 130
+  multi_source_claims: 47
+  conflicts_detected: 4
+  overreach_flags: 22
 
   unanswered_questions:
     - question_id: Q015
       note: "Exact K class sizes not confirmed for most SF schools from L1 sources (Hamlin, SF Friends, CDS, Convent). Only SF School, Live Oak, SF Friends stated class size explicitly."
     - question_id: Q016
-      note: "No L1 source publishes K-specific acceptance rates. Only L3 school-wide rates available (Hamlin 22%, SF Friends 15%, CAIS 22%)."
+      note: "No L1 source publishes K-specific acceptance rates. Only L3 school-wide rates available (Hamlin 22%, SF Friends 15%, CAIS 22%). BASIS Independent SV 56% rate from L3 aggregator flagged as overreach."
     - question_id: Q018
-      note: "Tuition figures missing for: Hamlin, SF Friends, Presidio Hill, Live Oak, Convent & Stuart Hall, La Scuola, Head-Royce, Marin Horizon. Only CDS, SF Day, CAIS, Town, Keys, Park Day, Nueva have L1 tuition data."
+      note: "Tuition figures still missing for: Hamlin, SF Friends, Presidio Hill, Live Oak, Convent & Stuart Hall, Head-Royce, Marin Horizon. All South Bay gaps now filled: Helios, Hausner, Almaden Country Day, BASIS SV, SVIS, and La Scuola SV campus confirmed."
     - question_id: QG003
-      note: "No L1 sources provide school-specific sibling preference policies for SF schools. Only general/national guidance and one L4 consultant quote."
+      note: "School-specific sibling preference policies remain scarce. Hausner's Sibling Savings Program is now documented (C263). No L1 sources provide SF-city school sibling policies."
+    - question_id: qE008
+      note: "Challenger School official tuition page uses JavaScript dynamic loading — specific per-campus rates not extractable. Only L3 aggregator figure available for Almaden campus (~$12,000; year unconfirmed)."
+    - question_id: qE009
+      note: "Orinda Academy, Maybeck High, Black Pine Circle School not researched in gap-fill pass 2 due to budget exhaustion."
 
   data_quality_notes:
     - "Town School tuition labeled 'approximately' in source — may be estimate rather than official rate."
-    - "Keys School tuition is 2025-26 rate; 2026-27 not yet published."
+    - "Keys School tuition is 2025-26 rate; 2026-27 not yet published. Cardinal Education source (L3) provides 2024-25 cycle dates only."
     - "Hamlin applications for 2026-27 are closed as of fetch date; all timeline info reflects completed cycle."
     - "BADA membership count (75+) is from July 2019 — current count unverified."
     - "Live Oak decision date is March 17 (not March 19 like most ISSFBA schools) — verify this is intentional."
@@ -2967,3 +4271,8 @@ coverage_summary:
     - "Harker Lower School tuition ($49,900) labeled as 2025 in source — confirm whether this is 2025-26 or 2026-27 rate."
     - "Harker ISSFBA membership not confirmed; March 20 decision date is one day after ISSFBA coordinated March 19 date."
     - "Berkeley Parents Network thread on preschool-to-private-K pipelines returned 403 error; L4 feeder data is incomplete."
+    - "Public vs. Private source (basicfund.org) returned JS-rendered shell; content compiled from search summary only — treat as directional signal, not verbatim source."
+    - "La Scuola SV campus tuition is 2025-26 (vs. SF campus 2026-27); different cycle years in same source file."
+    - "Lycée Français decision date described as 'early March' without specific date — less precise than other ISSFBA-coordinated schools."
+    - "Helios School enrollment (approximately 180 students) is from source file notes, not verified against an official enrollment publication page."
+    - "New entities in gap-fill pass 2 requiring fact-checker priority: Helios (all claims new, L1 confirmed), Gideon Hausner (all claims new, L1 confirmed), Almaden Country Day (all claims new, L1 confirmed), SVIS/INTL (all claims new, L1 confirmed), Lycée Français (all claims new, L1 confirmed)."

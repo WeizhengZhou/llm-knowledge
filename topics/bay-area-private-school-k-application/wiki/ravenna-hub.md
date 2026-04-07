@@ -9,7 +9,6 @@ sources:
 tags: [ravenna, admissions-platform, application-portal]
 epistemic_status: confirmed
 confidence: L1
-valid_until: 2027-07-01
 volatile: annual
 backlinks: []
 ---

@@ -25,7 +25,6 @@ sources:
 tags: [sf, private-school, kindergarten, school-profiles, comparison]
 epistemic_status: confirmed
 confidence: L2
-valid_until: 2027-07-01
 volatile: annual
 backlinks: []
 ---
