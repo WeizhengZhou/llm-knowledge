@@ -1,0 +1,1226 @@
+topic: Bay Area private school K application
+slug: bay-area-private-school-k-application
+generated: '2026-04-06'
+round: 3
+user_context: null
+status: gap_fill_complete
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  breadth_budget_pct: 30
+  depth_budget_pct: 50
+  gap_fill_budget_pct: 15
+  verification_budget_pct: 5
+  searches_used: 83
+  fetches_used: 96
+
+phases:
+  breadth:
+    description: >
+      Landscape overview — which schools exist across Bay Area sub-regions,
+      general admissions timelines, common application platforms, cost ranges,
+      and the ecosystem of consultants and resources.
+    budget_fraction: 0.30
+    questions: [Q001, Q002, Q003, Q004, Q005, Q006, Q007, Q008, Q009, Q010, Q011, Q012]
+    status: complete
+    completed_at: '2026-04-06'
+  depth:
+    description: >
+      Per-entity deep dives — specific school requirements, comparative analyses,
+      financial aid mechanics, interview/playdate details, and philosophical differences.
+    budget_fraction: 0.50
+    depends_on: breadth
+    questions: [Q014, Q013, Q002b, Q015, Q019, Q032, Q024, Q030, Q018, Q038, Q021, Q017, Q016, Q031, Q023, Q022, Q033, Q020, Q035, Q027, Q028, Q029, Q034, Q025, Q026, Q037, Q036]
+    status: complete
+    completed_at: '2026-04-06'
+  gap_fill:
+    description: >
+      Targeted follow-ups to fill remaining gaps discovered during breadth and depth phases.
+      Populated by research-agent after breadth and depth are complete.
+      Reopened 2026-04-06 by evolve-agent: 19 new questions added (qE001-qE019) for
+      South Bay school profiles, missing concept articles, and pattern verification.
+      Second pass 2026-04-06: qE020-qE021 added (IQ logistics, public vs. private decision).
+      Third pass 2026-04-07: qE022-qE035 added (landscape seeds — cost transparency,
+      financial aid admission impact, working parent logistics, playdate evaluation,
+      rejection recovery, hidden costs, waitlist strategy, parent essays, etc.).
+      Guidebook gap-fill 2026-04-07: qG001-qG020 added — 20 questions targeting
+      IQ test dimension explanations, child readiness benchmarks, assessment day
+      logistics, coaching line, shy-child handling, recommendation letter process,
+      preschool-school relationships, "good fit" language, learning differences,
+      opt-out reasons, and retesting policies.
+    budget_fraction: 0.15
+    depends_on: depth
+    questions: [QG001, QG002, QG003, QG004, qE001, qE002, qE003, qE004, qE005, qE006, qE007, qE008, qE009, qE010, qE011, qE012, qE013, qE014, qE015, qE016, qE017, qE018, qE019, qE020, qE021, qE022, qE023, qE024, qE025, qE026, qE027, qE028, qE029, qE030, qE031, qE032, qE033, qE034, qE035, qG001, qG002, qG003, qG004, qG005, qG006, qG007, qG008, qG009, qG010, qG011, qG012, qG013, qG014, qG015, qG016, qG017, qG018, qG019, qG020]
+    status: complete
+    completed_at: '2026-04-06'
+    reopened_at: '2026-04-06'
+    second_pass_completed_at: '2026-04-06'
+    reopened_at_round3: '2026-04-07'
+    guidebook_pass_completed_at: '2026-04-07'
+
+# ============================================================
+# Composite formula:
+#   user_value * 0.4 + dependency_count * 0.3 + searchability * 0.2 + novelty * 0.1
+# NOTE: evolve-agent questions (qE prefix) use:
+#   user_value * 0.35 + dependency_count * 0.25 + searchability * 0.20 + novelty * 0.20
+# ============================================================
+
+questions:
+
+  # ============================================================
+  # BREADTH PHASE (12 questions) — all answered
+  # ============================================================
+
+  - id: Q001
+    facet: WHAT
+    phase: breadth
+    text: "What are the major private elementary schools in the San Francisco Bay Area that offer Kindergarten entry, organized by sub-region (SF, East Bay, Peninsula, Marin, South Bay)?"
+    scores:
+      user_value: 10
+      dependency_count: 10
+      searchability: 9
+      novelty: 3
+    composite: 8.1
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-002
+        query: "San Francisco Bay Area private elementary schools kindergarten list by region niche.com"
+      - id: s-2026-04-06-013
+        query: "list private elementary schools Bay Area kindergarten SF Peninsula East Bay Marin South Bay 2025 comprehensive"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-san-francisco.md
+      - raw/web/aggregator/2026-04-06_privateschoolreview-sf-county-elementary.md
+      - raw/web/aggregator/2026-04-06_privateschoolreview-palo-alto.md
+    discovered_from: seed
+    children: [Q001a, Q001b, Q001c]
+
+  - id: Q002
+    facet: WHEN
+    phase: breadth
+    text: "What is the typical annual timeline for Bay Area private school Kindergarten admissions (open houses, application opens, deadlines, interviews, decisions, enrollment deposits)?"
+    scores:
+      user_value: 10
+      dependency_count: 8
+      searchability: 8
+      novelty: 4
+    composite: 8.4
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-001
+        query: "Bay Area private school kindergarten admissions timeline 2025 2026 open house deadlines decisions"
+      - id: s-2026-04-06-008
+        query: "private school kindergarten San Francisco Bay Area admissions open house parent interview playdate 2025 2026 guide"
+    raw_files:
+      - raw/web/official/2026-04-06_sfschool-admissions-process.md
+      - raw/web/official/2026-04-06_sfday-how-to-apply-key-dates.md
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions.md
+      - raw/web/official/2026-04-06_cds-sf-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q003
+    facet: HOW
+    phase: breadth
+    text: "What is the general application process for Bay Area private Kindergarten programs (common steps, required materials, platforms like Ravenna)?"
+    scores:
+      user_value: 9
+      dependency_count: 8
+      searchability: 9
+      novelty: 3
+    composite: 8.1
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-003
+        query: "SF private school kindergarten admissions process Ravenna application requirements parent essay preschool report"
+    raw_files:
+      - raw/web/official/2026-04-06_sfschool-admissions-process.md
+      - raw/web/official/2026-04-06_sfday-how-to-apply-key-dates.md
+      - raw/web/official/2026-04-06_cds-sf-how-to-apply.md
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions.md
+      - raw/web/official/2026-04-06_ravennasolutions-families.md
+      - raw/web/news/2026-04-06_cardinaleducation-kindergarten-admissions.md
+    discovered_from: seed
+    children: []
+
+  - id: Q007
+    facet: WHY
+    phase: breadth
+    text: "What are the main educational philosophies represented among Bay Area private K schools (Montessori, Waldorf, Reggio Emilia, progressive, traditional, religious)?"
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 4
+    composite: 7.9
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-006
+        query: "Bay Area private school kindergarten educational philosophies Montessori Waldorf Reggio progressive 2025"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-sf-county-elementary.md
+    discovered_from: seed
+    children: [Q007a]
+
+  - id: Q004
+    facet: WHAT
+    phase: breadth
+    text: "What are the typical tuition ranges for Bay Area private Kindergarten programs, and how do they vary by sub-region and school type?"
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 8
+      novelty: 4
+    composite: 7.4
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-004
+        query: "Bay Area private school kindergarten tuition cost 2025 2026 ranges San Francisco Peninsula East Bay"
+      - id: s-2026-04-06-014
+        query: "top private elementary schools Peninsula Palo Alto Menlo Park Marin kindergarten tuition 2025 2026"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-san-francisco.md
+      - raw/web/aggregator/2026-04-06_privateschoolreview-sf-county-elementary.md
+      - raw/web/aggregator/2026-04-06_privateschoolreview-palo-alto.md
+    discovered_from: seed
+    children: []
+
+  - id: Q010
+    facet: WHAT
+    phase: breadth
+    text: "What age cutoff dates do Bay Area private schools use for Kindergarten entry, and how do they differ from public school TK/K cutoffs?"
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 8
+      novelty: 5
+    composite: 7.3
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-012
+        query: "Bay Area private school kindergarten age cutoff September 1 vs August 1 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_sfday-how-to-apply-key-dates.md
+      - raw/web/official/2026-04-06_cds-sf-how-to-apply.md
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions.md
+    discovered_from: seed
+    children: [Q010a]
+
+  - id: Q011
+    facet: HOW
+    phase: breadth
+    text: "What is the Ravenna admissions platform, how does it work, and which Bay Area schools use it vs. other application systems?"
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 9
+      novelty: 4
+    composite: 7.1
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-005
+        query: "Ravenna admissions platform Bay Area private schools list how it works kindergarten application"
+    raw_files:
+      - raw/web/official/2026-04-06_ravennasolutions-families.md
+      - raw/web/official/2026-04-06_sfschool-admissions-process.md
+      - raw/web/official/2026-04-06_sfday-how-to-apply-key-dates.md
+      - raw/web/official/2026-04-06_cds-sf-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q006
+    facet: WHERE
+    phase: breadth
+    text: "How are Bay Area private Kindergarten schools distributed geographically, and which sub-regions have the highest concentration of options?"
+    scores:
+      user_value: 8
+      dependency_count: 6
+      searchability: 7
+      novelty: 5
+    composite: 7.0
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-013
+        query: "list private elementary schools Bay Area kindergarten SF Peninsula East Bay Marin South Bay 2025 comprehensive"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-sf-county-elementary.md
+      - raw/web/aggregator/2026-04-06_privateschoolreview-palo-alto.md
+    discovered_from: seed
+    children: []
+
+  - id: Q012
+    facet: WHAT
+    phase: breadth
+    text: "What financial aid and tuition assistance programs are generally available at Bay Area private Kindergarten schools, and what percentage of families receive aid?"
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 7
+      novelty: 5
+    composite: 6.9
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-010
+        query: "Bay Area private kindergarten financial aid FAST SSS Clarity percentage families receive aid 2025"
+    raw_files:
+      - raw/web/official/2026-04-06_sfschool-admissions-process.md
+    discovered_from: seed
+    children: []
+
+  - id: Q009
+    facet: META
+    phase: breadth
+    text: "What are the most reliable data sources and parent communities for Bay Area private school K admissions information (websites, forums, Facebook groups, review platforms like Niche)?"
+    scores:
+      user_value: 7
+      dependency_count: 5
+      searchability: 7
+      novelty: 6
+    composite: 6.5
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-009
+        query: "Reddit parents forum Bay Area private school kindergarten admissions advice community tips 2025"
+    raw_files:
+      - raw/web/community/2026-04-06_ruthkrishnan-sf-private-school-guide.md
+    discovered_from: seed
+    children: []
+
+  - id: Q005
+    facet: WHO
+    phase: breadth
+    text: "Who are the key admissions consultants and educational placement services specializing in Bay Area private school K admissions (e.g., Bay Area School Choice, Aquino Admissions, Live Oak EC, Cardinal Education)?"
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 6.3
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-007
+        query: "Bay Area private school admissions consultants Cardinal Education Aquino school choice kindergarten Bay Area 2025"
+    raw_files:
+      - raw/web/news/2026-04-06_cardinaleducation-kindergarten-admissions.md
+    discovered_from: seed
+    children: []
+
+  - id: Q008
+    facet: WHO
+    phase: breadth
+    text: "What professional associations and directories organize Bay Area independent schools (ISSFBA, CAIS, NAIS) and what do their memberships signal about school quality?"
+    scores:
+      user_value: 6
+      dependency_count: 5
+      searchability: 8
+      novelty: 5
+    composite: 6.1
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-011
+        query: "ISSFBA CAIS NAIS Bay Area independent schools membership accreditation list 2025"
+    raw_files: []
+    discovered_from: seed
+    children: []
+
+  # ============================================================
+  # DEPTH PHASE (26 questions) — all answered
+  # ============================================================
+
+  - id: Q014
+    facet: WHEN
+    phase: depth
+    text: "What are the specific 2026-2027 application deadlines for each major Bay Area private Kindergarten school?"
+    scores:
+      user_value: 10
+      dependency_count: 3
+      searchability: 9
+      novelty: 6
+    composite: 8.3
+    dependencies: [Q001, Q002]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-016
+        query: "SF private school kindergarten application deadlines 2026 2027 Hamlin CDS SF Day Live Oak Presidio Hill"
+      - id: s-2026-04-06-018
+        query: "Brandeis Hillel Day School CAIS Chinese American International School kindergarten admissions deadline 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_hamlin-applying-to-kindergarten.md
+      - raw/web/official/2026-04-06_liveoaksf-admissions-dates.md
+      - raw/web/official/2026-04-06_presidiohill-admission-dates.md
+      - raw/web/official/2026-04-06_sffriendsschool-apply-lower-school.md
+      - raw/web/official/2026-04-06_cais-admission.md
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions-detail.md
+      - raw/web/official/2026-04-06_townschool-admissions.md
+    discovered_from: seed
+    children: []
+
+  - id: Q013
+    facet: HOW
+    phase: depth
+    text: "What are the specific application requirements (parent essays, recommendations, preschool reports, testing) for the top-ranked SF private Kindergarten programs?"
+    scores:
+      user_value: 10
+      dependency_count: 5
+      searchability: 8
+      novelty: 5
+    composite: 8.1
+    dependencies: [Q001, Q003]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-017
+        query: "San Francisco private elementary school kindergarten admissions requirements parent essay teacher recommendation 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_sffriendsschool-apply-lower-school.md
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions-detail.md
+      - raw/web/official/2026-04-06_lascuolasf-admissions-process.md
+      - raw/web/official/2026-04-06_hamlin-applying-to-kindergarten.md
+      - raw/web/official/2026-04-06_liveoaksf-admissions-dates.md
+    discovered_from: seed
+    children: []
+
+  - id: Q015
+    facet: HOW
+    phase: depth
+    text: "What do Kindergarten applicant assessments and playdates look like at Bay Area private schools, and what are schools evaluating in a 4-5 year old?"
+    scores:
+      user_value: 10
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 7.9
+    dependencies: [Q001, Q003]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-028
+        query: "Bay Area private school kindergarten parent interview questions what to expect 2025 admissions"
+    raw_files:
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions-detail.md
+      - raw/web/official/2026-04-06_sffriendsschool-apply-lower-school.md
+      - raw/web/official/2026-04-06_townschool-admissions.md
+      - raw/web/official/2026-04-06_presidiohill-admission-dates.md
+    discovered_from: seed
+    children: []
+
+  - id: Q019
+    facet: WHY
+    phase: depth
+    text: "What drives selectivity at top Bay Area private K schools — sibling priority, legacy, diversity goals, feeder preschool relationships, geographic preferences?"
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 5
+      novelty: 9
+    composite: 7.6
+    dependencies: [Q001, Q016]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-030
+        query: "private school kindergarten admissions SF Bay Area sibling preference legacy diversity feeder preschool selectivity factors"
+    raw_files:
+      - raw/web/official/2026-04-06_hamlin-faq.md
+    discovered_from: seed
+    children: []
+
+  - id: Q032
+    facet: WHEN
+    phase: depth
+    text: "When do Bay Area private K schools hold open houses and campus tours for the 2026-2027 admissions cycle, and are they required?"
+    scores:
+      user_value: 9
+      dependency_count: 1
+      searchability: 8
+      novelty: 6
+    composite: 7.5
+    dependencies: [Q001, Q002]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-039
+        query: "SF private school kindergarten admissions open house 2025 2026 required optional community events visits"
+    raw_files:
+      - raw/web/official/2026-04-06_sacredsf-kindergarten-admissions-detail.md
+      - raw/web/official/2026-04-06_mcds-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q024
+    facet: WHAT
+    phase: depth
+    text: "What are the specific Kindergarten programs and curricula at top-tier SF schools (Hamlin, Burke's, CDS, Town School, Live Oak, SF Friends, Cathedral, Presidio Hill)?"
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 5
+    composite: 7.2
+    dependencies: [Q001, Q007]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-030
+        query: "Hamlin Town School SF Day single sex co-ed kindergarten San Francisco comparison culture curriculum outcomes"
+    raw_files:
+      - raw/web/official/2026-04-06_hamlin-applying-to-kindergarten.md
+      - raw/web/official/2026-04-06_liveoaksf-admissions-dates.md
+      - raw/web/official/2026-04-06_sffriendsschool-apply-lower-school.md
+    discovered_from: seed
+    children: []
+
+  - id: Q030
+    facet: HOW
+    phase: depth
+    text: "What strategies do admissions consultants recommend for strengthening a Bay Area private K application?"
+    scores:
+      user_value: 9
+      dependency_count: 1
+      searchability: 5
+      novelty: 8
+    composite: 7.1
+    dependencies: [Q005]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-026
+        query: "Bay Area private kindergarten application strategies admissions consultant tips parent essay open house 2025 2026"
+    raw_files:
+      - raw/web/news/2026-04-06_cardinaleducation-kindergarten-admissions.md
+      - raw/web/community/2026-04-06_ruthkrishnan-sf-private-school-guide.md
+    discovered_from: seed
+    children: []
+
+  - id: Q018
+    facet: HOW
+    phase: depth
+    text: "How does the financial aid application process work (FAST, SSS/Clarity by NAIS), what documentation is required, and what are typical aid award ranges at Bay Area private K schools?"
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 6
+    composite: 7.1
+    dependencies: [Q012]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-025
+        query: "SF Day School Children's Day School Town School SF kindergarten tuition 2025 2026 financial aid percent"
+      - id: s-2026-04-06-024
+        query: "Bay Area private school financial aid indexed tuition Clarity SSS how much aid kindergarten families receive percent"
+    raw_files:
+      - raw/web/official/2026-04-06_sfday-tuition-adjusted.md
+      - raw/web/official/2026-04-06_cds-sliding-scale-tuition.md
+    discovered_from: seed
+    children: []
+
+  - id: Q038
+    facet: HOW
+    phase: depth
+    text: "How should families approach applying to multiple Bay Area private K schools simultaneously — how many is typical, and how do schools view multiple applications?"
+    scores:
+      user_value: 9
+      dependency_count: 1
+      searchability: 5
+      novelty: 7
+    composite: 7.0
+    dependencies: [Q003, Q005]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-029
+        query: "Bay Area private kindergarten how many schools apply waitlist movement tips 2025 2026"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-ca-acceptance-rates.md
+    discovered_from: seed
+    children: []
+
+  - id: Q021
+    facet: HOW
+    phase: depth
+    text: "What is the parent interview process like at Bay Area private K schools, and what questions are commonly asked?"
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 5
+      novelty: 8
+    composite: 7.0
+    dependencies: [Q003]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-028
+        query: "Bay Area private school kindergarten parent interview questions what to expect 2025 admissions"
+    raw_files:
+      - raw/web/official/2026-04-06_liveoaksf-admissions-dates.md
+      - raw/web/official/2026-04-06_sffriendsschool-apply-lower-school.md
+      - raw/web/official/2026-04-06_mcds-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q017
+    facet: COMPARE
+    phase: depth
+    text: "How do Bay Area private K schools compare on tuition costs, and what is the relationship between tuition level and school characteristics (size, endowment, programs)?"
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 5
+    composite: 7.0
+    dependencies: [Q001, Q004]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-033
+        query: "Bay Area private school kindergarten after school extended day programs costs enrichment 2025 2026"
+      - id: s-2026-04-06-022
+        query: "Keys School Gideon Hausner Peninsula School Palo Alto kindergarten admissions tuition deadline 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_keysschool-tuition-fees.md
+      - raw/web/news/2026-04-06_redwoodgrovewm-cost-private-school-bay-area.md
+      - raw/web/official/2026-04-06_sfday-tuition-adjusted.md
+      - raw/web/official/2026-04-06_cds-sliding-scale-tuition.md
+      - raw/web/official/2026-04-06_cais-admission.md
+    discovered_from: seed
+    children: []
+
+  - id: Q016
+    facet: COMPARE
+    phase: depth
+    text: "How do the most selective SF private K schools compare on acceptance rates, class sizes, and applicant-to-seat ratios?"
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 5
+      novelty: 8
+    composite: 7.4
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-019
+        query: "Convent Stuart Hall Town School SF Day kindergarten class size acceptance rate seats available 2025 2026"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-ca-acceptance-rates.md
+      - raw/web/official/2026-04-06_hamlin-faq.md
+      - raw/web/official/2026-04-06_liveoaksf-admissions-dates.md
+      - raw/web/official/2026-04-06_sffriendsschool-apply-lower-school.md
+    discovered_from: seed
+    children: []
+
+  - id: Q031
+    facet: WHAT
+    phase: depth
+    text: "What standardized or developmental assessments (ERB, WPPSI, readiness screenings) are used in Bay Area private K admissions, and how should families prepare?"
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 7
+    composite: 6.9
+    dependencies: [Q003, Q015]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-031
+        query: "ERB WPPSI testing private school kindergarten Bay Area what is assessed preparation 2025 2026"
+    raw_files:
+      - raw/web/news/2026-04-06_sfstandard-iq-testing-preschool-admissions.md
+      - raw/web/official/2026-04-06_nuevaschool-kindergarten-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q023
+    facet: WHO
+    phase: depth
+    text: "Which preschools in the Bay Area are considered strong feeders to competitive private Kindergartens, and does preschool choice materially affect admissions outcomes?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 4
+      novelty: 9
+    composite: 6.9
+    dependencies: [Q001, Q019]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-036
+        query: "Bay Area private school kindergarten feeder preschool list which preschools send children to competitive elementary 2025"
+    raw_files:
+      - raw/web/official/2026-04-06_hamlin-faq.md
+    discovered_from: seed
+    children: []
+
+  - id: Q022
+    facet: COMPARE
+    phase: depth
+    text: "How do progressive vs. traditional private K schools in the Bay Area differ in curriculum approach, assessment methods, homework, and daily schedule?"
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 6
+    composite: 6.7
+    dependencies: [Q007]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-027
+        query: "Redwood Day School Park Day School East Bay kindergarten tuition admissions 2026 progressive curriculum"
+    raw_files:
+      - raw/web/official/2026-04-06_parkday-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q033
+    facet: META
+    phase: depth
+    text: "What information about Bay Area private K admissions is hardest to find publicly (acceptance rates, wait list statistics, legacy preference weight, diversity data)?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 4
+      novelty: 9
+    composite: 6.3
+    dependencies: [Q009]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-019
+        query: "SF private school kindergarten acceptance rate selectivity applicant ratio seats 2025 2026"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-ca-acceptance-rates.md
+    discovered_from: seed
+    children: []
+    notes: "Acceptance rates publicly available only from aggregators (not school-reported). Waitlist statistics, legacy preference weight, and diversity percentages are not publicly disclosed by any SF private school found in depth research."
+
+  - id: Q020
+    facet: WHAT
+    phase: depth
+    text: "Which Bay Area private K schools offer language immersion programs (Mandarin, Spanish, French, Italian), and what are their immersion structures?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 5
+    composite: 6.4
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-021
+        query: "CAIS La Scuola SF Lycee Francais language immersion kindergarten San Francisco admissions structure 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_lascuolasf-admissions-process.md
+      - raw/web/official/2026-04-06_cais-admission.md
+    discovered_from: seed
+    children: []
+
+  - id: Q035
+    facet: HOW
+    phase: depth
+    text: "How do Bay Area private K schools handle wait lists, what is typical wait list movement, and what can families do while on a wait list?"
+    scores:
+      user_value: 8
+      dependency_count: 1
+      searchability: 4
+      novelty: 8
+    composite: 6.3
+    dependencies: [Q003]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-029
+        query: "Bay Area private kindergarten how many schools apply waitlist movement tips 2025 2026"
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-ca-acceptance-rates.md
+    discovered_from: seed
+    children: []
+
+  - id: Q027
+    facet: WHERE
+    phase: depth
+    text: "What are the top private Kindergarten options in the East Bay (Oakland, Berkeley, Piedmont), and how do they differ from SF schools in culture, cost, and competitiveness?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.0
+    dependencies: [Q001, Q006]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-020
+        query: "Park Day School Head-Royce Bentley School East Bay kindergarten admissions deadline tuition 2026"
+      - id: s-2026-04-06-027
+        query: "Redwood Day School Park Day School East Bay kindergarten tuition admissions 2026 progressive curriculum"
+      - id: s-2026-04-06-036
+        query: "Prospect Sierra Black Pine Circle School Aurora School Berkeley East Bay kindergarten admissions 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_headroyce-how-to-apply.md
+      - raw/web/official/2026-04-06_parkday-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q028
+    facet: WHERE
+    phase: depth
+    text: "What are the top private Kindergarten options on the Peninsula (Hillsborough, Menlo Park, Palo Alto, Woodside), and how do they compare?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.0
+    dependencies: [Q001, Q006]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-022
+        query: "Keys School Gideon Hausner Peninsula School Palo Alto kindergarten admissions tuition deadline 2026"
+      - id: s-2026-04-06-023
+        query: "Nueva School kindergarten admissions process Hillsborough deadline tuition class size 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_keysschool-tuition-fees.md
+      - raw/web/official/2026-04-06_nuevaschool-kindergarten-apply.md
+    discovered_from: seed
+    children: []
+
+  - id: Q029
+    facet: WHERE
+    phase: depth
+    text: "What are the top private Kindergarten options in Marin County, and what distinguishes them from schools in other sub-regions?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.0
+    dependencies: [Q001, Q006]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-022
+        query: "Marin Country Day School Branson School Marin private kindergarten admissions tuition open house 2026"
+      - id: s-2026-04-06-040-budget-stop
+        query: "Marin private school kindergarten Reed Union Marin Horizon School Ring Mountain Day School 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_mcds-how-to-apply.md
+      - raw/web/official/2026-04-06_marinhorizon-admissions.md
+    discovered_from: seed
+    children: []
+
+  - id: Q034
+    facet: COMPARE
+    phase: depth
+    text: "How do religious (Catholic, Episcopal, Jewish) private K schools in the Bay Area compare to secular independent schools on admissions selectivity, cost, and curriculum?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 5
+    composite: 5.8
+    dependencies: [Q001, Q007]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-038
+        query: "Bay Area Catholic Episcopal Jewish private school kindergarten admissions selectivity comparison secular independent 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_cais-admission.md
+    discovered_from: seed
+    children: []
+
+  - id: Q025
+    facet: COMPARE
+    phase: depth
+    text: "How do co-ed vs. single-sex private K schools in the Bay Area compare on culture, outcomes, and admissions competitiveness?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 6
+    composite: 5.8
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-034
+        query: "Town School for Boys SF kindergarten admissions deadline tuition acceptance rate 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_hamlin-applying-to-kindergarten.md
+      - raw/web/official/2026-04-06_townschool-admissions.md
+    discovered_from: seed
+    children: []
+
+  - id: Q026
+    facet: WHY
+    phase: depth
+    text: "Why do Bay Area families choose private K over public K or charter K, and what are the perceived trade-offs (academics, community, diversity, cost, convenience)?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 5
+    composite: 5.8
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-024
+        query: "Bay Area private school financial aid indexed tuition Clarity SSS how much aid kindergarten families receive percent"
+    raw_files:
+      - raw/web/news/2026-04-06_kqed-private-school-popularity-bay-area.md
+    discovered_from: seed
+    children: []
+
+  - id: Q037
+    facet: WHY
+    phase: depth
+    text: "What role does diversity, equity, and inclusion play in Bay Area private K admissions decisions and school marketing?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 6
+    composite: 5.8
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-039
+        query: "Bay Area private school diversity equity inclusion kindergarten admissions demographics financial aid 2025 2026"
+    raw_files:
+      - raw/web/news/2026-04-06_kqed-private-school-popularity-bay-area.md
+    discovered_from: seed
+    children: []
+
+  - id: Q036
+    facet: WHAT
+    phase: depth
+    text: "What after-school, extended day, and enrichment programs do Bay Area private K schools typically offer, and what are the additional costs?"
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 7
+      novelty: 4
+    composite: 5.5
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-033
+        query: "Bay Area private school kindergarten after school extended day programs costs enrichment 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_keysschool-tuition-fees.md
+      - raw/web/official/2026-04-06_cais-admission.md
+    discovered_from: seed
+    children: []
+
+  # ============================================================
+  # DEPTH PHASE — missing from original plan
+  # ============================================================
+
+  - id: Q002b
+    facet: WHEN
+    phase: depth
+    text: "What are the specific 2025-2026 admissions cycle timelines for Nueva School, BASIS Independent Silicon Valley, and other major non-SF Bay Area private K schools?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 5
+    composite: 6.5
+    dependencies: [Q001, Q002]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-023
+        query: "Nueva School kindergarten admissions process Hillsborough deadline tuition class size 2026"
+      - id: s-2026-04-06-032
+        query: "BASIS Independent Silicon Valley Harker School Stratford School South Bay kindergarten admissions tuition 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_nuevaschool-kindergarten-apply.md
+      - raw/web/official/2026-04-06_headroyce-how-to-apply.md
+    discovered_from: seed
+    children: []
+
+  # ============================================================
+  # DISCOVERED CHILD QUESTIONS (from breadth concept extraction)
+  # ============================================================
+
+  - id: Q001a
+    facet: WHAT
+    phase: depth
+    text: "What are the major private elementary schools in the East Bay (Oakland, Berkeley, Piedmont, Alameda) with Kindergarten programs, including school profile, tuition, and philosophy?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 5
+    composite: 6.5
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-020
+        query: "Park Day School Head-Royce Bentley School East Bay kindergarten admissions deadline tuition 2026"
+      - id: s-2026-04-06-027
+        query: "Redwood Day School Park Day School East Bay kindergarten tuition admissions 2026 progressive curriculum"
+      - id: s-2026-04-06-035
+        query: "510families.com East Bay private school guide 2025 2026 Oakland Berkeley schools comparison"
+    raw_files:
+      - raw/web/official/2026-04-06_headroyce-how-to-apply.md
+      - raw/web/official/2026-04-06_parkday-how-to-apply.md
+    discovered_from: Q001
+    children: []
+
+  - id: Q001b
+    facet: WHAT
+    phase: depth
+    text: "What are the major private elementary schools in Marin County with Kindergarten programs, including school profile, tuition, and philosophy?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 5
+    composite: 6.0
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-022
+        query: "Marin Country Day School Branson School Marin private kindergarten admissions tuition open house 2026"
+      - id: s-2026-04-06-040-budget-stop
+        query: "Marin private school kindergarten Reed Union Marin Horizon School Ring Mountain Day School 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_mcds-how-to-apply.md
+      - raw/web/official/2026-04-06_marinhorizon-admissions.md
+    discovered_from: Q001
+    children: []
+
+  - id: Q001c
+    facet: WHAT
+    phase: depth
+    text: "What are the major private elementary schools in the South Bay (San Jose, Saratoga, Los Altos) with Kindergarten programs, including school profile, tuition, and philosophy?"
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 5
+    composite: 6.0
+    dependencies: [Q001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-032
+        query: "BASIS Independent Silicon Valley Harker School Stratford School South Bay kindergarten admissions tuition 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_nuevaschool-kindergarten-apply.md
+    discovered_from: Q001
+    children: []
+    notes: >
+      BUDGET BLOCKED — research query ran but only fetched Nueva School (Hillsborough, Peninsula).
+      No official source fetched for Harker, Helios, Challenger, Stratford, Gideon Hausner, or Almaden Country School.
+      Q001c is marked answered but the wiki contains zero South Bay content beyond SF Standard mentions of Harker/Helios.
+      Superseded by qE001-qE010 which target each South Bay school individually.
+
+  - id: Q007a
+    facet: WHAT
+    phase: depth
+    text: "Which specific Bay Area private K schools are Montessori, which are Waldorf, which are Reggio-inspired, which are progressive, and what distinguishes each in practice?"
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 6
+    composite: 6.7
+    dependencies: [Q007]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-021
+        query: "SF Waldorf School Synergy School Brightworks kindergarten admissions SF progressive philosophy 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_lascuolasf-admissions-process.md
+      - raw/web/official/2026-04-06_parkday-how-to-apply.md
+    discovered_from: Q007
+    children: []
+
+  - id: Q010a
+    facet: WHAT
+    phase: depth
+    text: "How do Bay Area private schools handle 'fall baby' kindergarten applicants (children born September-December), and which schools are most flexible about late birthdays?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 6.5
+    dependencies: [Q010]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-037
+        query: "Bay Area private school kindergarten fall birthday late birthday September October admissions flexibility holdback 2025"
+    raw_files:
+      - raw/web/official/2026-04-06_parkday-how-to-apply.md
+    discovered_from: Q010
+    children: []
+
+  # ============================================================
+  # GAP-FILL PHASE — original 4 questions (answered)
+  # ============================================================
+
+  - id: QG001
+    facet: WHO
+    phase: gap_fill
+    text: "What is ISSFBA (Independent Schools of the San Francisco Bay Area / BADA), what does it do, how many schools are members, and what coordinated policies does it set?"
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 9
+      novelty: 7
+    composite: 7.3
+    dependencies: [Q008]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-041
+        query: "ISSFBA Independent Schools San Francisco Bay Area member schools list coordinated admissions policies"
+    raw_files:
+      - raw/web/official/2026-04-06_issfba-about-bada.md
+      - raw/web/official/2026-04-06_issfba-admission-process-applying.md
+    discovered_from: gap_analysis
+    children: []
+    notes: >
+      ISSFBA operates through BADA (Bay Area Directors of Admission), a 501(c)(6) nonprofit founded in the early 1990s by 7 K-8 admission directors.
+      As of 2019: 75+ member schools (up from ~50 in 2012). Total ecosystem referenced as 110+ schools.
+      Key coordinated policies: shared decision notification dates, shared Confidential Student Evaluation Form (PreK-K and Grades 1-8),
+      no encouragement of first-choice declarations or extra recommendation letters.
+      Founder of Aquino Admissions Consulting (Lisa Lau Aquino) was founding President of ISSFBA.
+
+  - id: QG002
+    facet: HOW
+    phase: gap_fill
+    text: "How does the waitlist process work at SF Bay Area private schools after the March 19 decision day — when do waitlists move, what drives movement, and what should waitlisted families do?"
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 7.8
+    dependencies: [Q035, QG001]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-042
+        query: "SF Bay Area private school kindergarten waitlist process after March decision day how waitlists move 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-06_issfba-making-decisions-waitlist.md
+      - raw/web/community/2026-04-06_ruthkrishnan-sibling-waitlist-consultant.md
+    discovered_from: gap_analysis
+    children: []
+    notes: >
+      ISSFBA official 2025-26 K-8 notification dates: electronic March 19 2026, family response due March 26 2026.
+      Preschool/TK/JK: electronic March 11, response due March 17.
+      Waitlist mechanism: once a family signs with one ISSFBA school, other ISSFBA schools "do not typically offer a contract."
+      This means waitlists move primarily in the week between notification (March 19) and response deadline (March 26).
+      After response deadline, families should contact waitlisted schools directly — some schools keep active waitlists, others close them.
+      Schools consider zip code, cultural/ethnic/socioeconomic diversity when filling waitlist spots (community source).
+
+  - id: QG003
+    facet: HOW
+    phase: gap_fill
+    text: "How strong is sibling preference at Bay Area private K schools — does it effectively guarantee admission, and what are the conditions and exceptions?"
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 7.5
+    dependencies: [Q019]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-043
+        query: "SF Bay Area private school kindergarten sibling preference policy how strong sibling priority guarantee admission"
+      - id: s-2026-04-06-043b
+        query: '"sibling preference" OR "sibling priority" San Francisco private school kindergarten admissions "not a guarantee" FAQ 2025'
+    raw_files:
+      - raw/web/aggregator/2026-04-06_privateschoolreview-sibling-preference.md
+      - raw/web/community/2026-04-06_ruthkrishnan-sibling-waitlist-consultant.md
+    discovered_from: gap_analysis
+    children: []
+    notes: >
+      National standard (PrivateSchoolReview): sibling preference is priority, not a guarantee. Siblings must meet academic/behavioral/developmental standards.
+      Preference varies by school and grade level; competitive entry points (i.e., kindergarten) may limit sibling placements.
+      Bay Area-specific (community source, Paula Molligan): schools "do have strong sibling policies... it's not automatic, but there is a strong policy for acceptance."
+      Cypress School SF (official): siblings receive "top priority consideration" but admission is "not a guarantee."
+      Sibling discounts: 5-15% off tuition nationally; fewer schools offering automatic discounts in 2025.
+      Best timing: applying at natural expansion grades (kindergarten, grade 6, grade 9) increases sibling success.
+      No SF private school publicly discloses the exact weight given to sibling status in their admissions rubric.
+
+  - id: QG004
+    facet: WHO
+    phase: gap_fill
+    text: "What do Bay Area private school admissions consultants (Aquino, Bay Area School Choice, Live Oak EC, Cardinal Education) actually help with, what do they cost, and is there evidence of their effectiveness?"
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 7.1
+    dependencies: [Q005, Q030]
+    status: answered
+    answered_at: '2026-04-06'
+    search_queries:
+      - id: s-2026-04-06-044
+        query: "Bay Area private school admissions consultant worth it what they do help kindergarten application cost 2025"
+      - id: s-2026-04-06-044b
+        query: "Cardinal Education Live Oak Educational Consulting private school kindergarten Bay Area consultant fees services what consultants do review 2025"
+    raw_files:
+      - raw/web/official/2026-04-06_aquino-admissions-consulting.md
+      - raw/web/official/2026-04-06_cardinaleducation-bay-area-consulting.md
+      - raw/web/official/2026-04-06_bayareaschoolchoice-consulting.md
+      - raw/web/community/2026-04-06_ruthkrishnan-sibling-waitlist-consultant.md
+    discovered_from: gap_analysis
+    children: []
+    notes: >
+      Key consultants identified: Aquino Admissions Consulting (SF/Marin, founder Lisa Lau Aquino was Hamlin Admissions Director 20+ years and founding ISSFBA President),
+      Bay Area School Choice (SF/Marin/Peninsula, K-12), Live Oak Educational Consulting (Bay Area-wide, TK-8, founder Natalie has prior admissions team experience),
+      Cardinal Education (Bay Area, founded 2006 by Allen Koh, offices Burlingame/Woodside, primarily high school/college focus).
+      Services typically include: school list building, application process navigation, essay coaching, interview prep, deadline management, direct school liaison.
+      Pricing: none of the four consultants publicly lists fees. Cardinal states "we do not compete on cost."
+      Effectiveness: No independent data. Community sources cite value in insider knowledge of school culture/personality, emotional support, and organizational management.
+      Live Oak EC also offers a free online course (schoolselectionsuccess.com) covering Bay Area elementary/middle admissions.
+      Application fees (school-direct, not consultant): up to $150/school non-refundable; enrollment deposit $300-$2,500.

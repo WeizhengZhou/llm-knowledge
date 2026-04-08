@@ -28,12 +28,11 @@ This guide helps parents understand the total cost of ownership of Bay Area priv
 
 Financial planning sources model the total cost of Bay Area private K-12 education at $500,000-$700,000 per child, depending on starting tuition and assumed annual increases of 4-6%. These are modeled projections, not reported statistics.
 
-The raw research file from Redwood Grove Wealth Management references a total K-12 cost estimate of approximately $520,000 over 13 years assuming a 5% annual tuition increase. However, live verification of redwoodgrovewm.com (April 2026) did not return this specific figure on the page. This is a modeled projection, not a surveyed or reported statistic. A separate estimate from Basic Fund (basicfund.org) places the range at $500,000-$700,000 depending on assumptions.
+According to Basic Fund (basicfund.org), a Bay Area education nonprofit, total K-12 private school cost estimates range from $500,000-$700,000 depending on starting tuition and assumed annual increases. A separate Redwood Grove Wealth Management analysis references a similar modeled total, though the specific figure was not confirmed on live verification of their site (April 2026). Both are calculations with embedded assumptions about starting tuition and escalation rates — neither is a surveyed statistic.
 
-> **Epistemic note:** Both the $520K and $500K-$700K estimates are calculations
-> with embedded assumptions about starting tuition and escalation rates.
-> Different starting points yield very different totals. Neither is a surveyed
-> figure. See dispute d006 in the fact-sheet for full context.
+> **Epistemic note:** The $500K-$700K range is from Basic Fund reporting.
+> Different starting points and escalation assumptions yield different totals.
+> See dispute d006 in the fact-sheet for full context.
 
 ### Tuition Escalation
 

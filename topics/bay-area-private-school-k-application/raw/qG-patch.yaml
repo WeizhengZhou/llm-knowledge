@@ -1,0 +1,563 @@
+  # ============================================================
+  # GUIDEBOOK GAP-FILL ROUND — 2026-04-07
+  # ============================================================
+
+  - id: qG001
+    text: "What does each WPPSI-IV cognitive index actually measure in practical, parent-friendly terms? What does a 4-5 year old with strength or weakness in each index look like in daily life?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 10
+      dependency_count: 3
+      searchability: 8
+      novelty: 9
+    composite: 8.05
+    dependencies: [qE020]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 4
+    search_queries:
+      - id: s-2026-04-07-072
+        query: "WPPSI-IV subtests what each index measures Verbal Comprehension Visual Spatial Fluid Reasoning Working Memory Processing Speed parent explanation"
+    raw_files:
+      - raw/web/aggregator/2026-04-07_testingmom-wppsi-scores.md
+      - raw/web/authoritative/2026-04-07_sfstandard-iq-testing-preschoolers.md
+      - raw/web/aggregator/2026-04-07_profoundlygifted-gai-score.md
+    notes: >
+      Need practical translation of each index: Verbal Comprehension, Visual Spatial,
+      Fluid Reasoning, Working Memory, Processing Speed. What does each look like in
+      a child's daily behavior? Also: FSIQ vs. GAI distinction in plain language.
+      Why do schools care about each dimension for K readiness?
+
+  - id: qG002
+    text: "Can a child retake an IQ test for private school admissions? What is the standard waiting period, and do scores typically change meaningfully on retesting?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 7.1
+    dependencies: [qE020]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 4
+    search_queries:
+      - id: s-2026-04-07-075
+        query: "WPPSI-IV retesting waiting period practice effects IQ scores change private school admissions psychologist guidance"
+    raw_files:
+      - raw/web/official/2026-04-07_helios-assessments.md
+      - raw/web/official/2026-04-07_harker-admissions-test-faq.md
+      - raw/web/authoritative/2026-04-07_sfstandard-iq-testing-preschoolers.md
+      - raw/web/aggregator/2026-04-07_wikipedia-wppsi-iv.md
+    notes: >
+      Nueva 12-month wait documented. Helios: 12-month disqualification policy confirmed official.
+      Standard waiting period after test content exposure: 12 months (psychometric consensus).
+      Practice effect documented: children who have seen test items score artificially higher on retesting.
+
+  - id: qG003
+    text: "What are the developmental milestones and school readiness benchmarks for a typical 4-5 year old? What social, motor, language, and self-care skills are expected — not exceptional — by kindergarten?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 10
+      dependency_count: 5
+      searchability: 9
+      novelty: 8
+    composite: 8.65
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 5
+    search_queries:
+      - id: s-2026-04-07-074
+        query: "CDC developmental milestones 4 year old 5 year old social emotional language motor kindergarten readiness benchmarks"
+    raw_files:
+      - raw/web/official/2026-04-07_cdc-milestones-4-years.md
+      - raw/web/official/2026-04-07_cdc-milestones-5-years.md
+      - raw/web/authoritative/2026-04-07_healthychildren-milestones-4-5.md
+    notes: >
+      Current wiki has red flags (what is concerning) but NO positive benchmarks
+      (what is age-appropriate). CDC and AAP sources now captured covering typical
+      4-5 year old social-emotional, fine/gross motor, language, and self-care milestones.
+
+  - id: qG004
+    text: "What should parents bring to a kindergarten assessment playdate, when should they arrive, and what happens if a child is sick or has a difficult morning? Can playdates be rescheduled?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 6
+      novelty: 9
+    composite: 7.3
+    dependencies: [qE022]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 5
+    search_queries:
+      - id: s-2026-04-07-073
+        query: "kindergarten private school assessment playdate what to expect day of logistics rescheduling sick child difficult morning"
+      - id: s-2026-04-07-077
+        query: "private school kindergarten assessment day logistics what to bring arrive early sick rescheduling policy"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_beyond-brochure-testing-day.md
+      - raw/web/community/2026-04-07_bpn-shy-child-schools.md
+    notes: >
+      Assessment day logistics captured: circle time + structured tasks + play structure.
+      Rescheduling: schools accommodate; ask to come back another day; meltdown not automatically disqualifying.
+      Schools watch for instruction-following, curiosity, peer interaction — not academic skills.
+
+  - id: qG005
+    text: "What do Bay Area private schools explicitly tell parents NOT to do before kindergarten assessments and playdates? What specific preparation do they warn against?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 7.85
+    dependencies: [qE022]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 5
+    search_queries:
+      - id: s-2026-04-07-078
+        query: "private school kindergarten admissions what NOT to do coaching warning admissions director advice over-prepare 2025"
+    raw_files:
+      - raw/web/aggregator/2026-04-07_testingmom-kindergarten-mistakes.md
+      - raw/web/aggregator/2026-04-07_privateschoolreview-top5-mistakes.md
+    notes: >
+      Schools warn against coaching but rarely specify what it means. Sources captured:
+      over-coaching detected by admissions officers; coached children sound robotic.
+      Consensus: scripted answers, direct test content exposure, and rehearsed playdate
+      behavior are the warned-against behaviors.
+
+  - id: qG006
+    text: "What exactly constitutes 'coaching' vs. normal parenting in kindergarten admissions preparation? Where do admissions professionals draw the line?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 6
+      novelty: 9
+    composite: 7.45
+    dependencies: [qE022]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 5
+    search_queries:
+      - id: s-2026-04-07-078
+        query: "private school kindergarten admissions what NOT to do coaching warning admissions director advice over-prepare 2025"
+    raw_files:
+      - raw/web/aggregator/2026-04-07_testingmom-kindergarten-mistakes.md
+      - raw/web/aggregator/2026-04-07_privateschoolreview-top5-mistakes.md
+    notes: >
+      Professional community split: schools and licensed psychologists warn against any prep;
+      some consultants (Karen Quinn) argue familiarizing children with test-like tasks reduces anxiety.
+      Practical consensus: puzzles/blocks/vocabulary activities = appropriate; exposing children
+      to actual WPPSI-IV test content or scoring practice attempts = problematic coaching.
+
+  - id: qG007
+    text: "How do Bay Area private school admissions staff handle shy, slow-to-warm, or anxious children during kindergarten playdates and assessment visits?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 6
+      novelty: 9
+    composite: 7.65
+    dependencies: [qE022]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 3
+    search_queries:
+      - id: s-2026-04-07-073
+        query: "kindergarten private school assessment playdate what to expect day of logistics rescheduling sick child difficult morning"
+      - id: s-2026-04-07-077
+        query: "private school kindergarten shy anxious child assessment playdate temperament how evaluators handle slow-to-warm"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_beyond-brochure-testing-day.md
+      - raw/web/authoritative/2026-04-07_guthrie-school-what-private-schools-look-for.md
+      - raw/web/authoritative/2026-04-07_parentsleague-progressive-school-fit.md
+      - raw/web/community/2026-04-07_bpn-shy-child-schools.md
+    notes: >
+      Shy/slow-to-warm children: schools accommodate rescheduling; slow-to-engage not
+      automatically disqualifying. Progressive schools prefer horizontal structures
+      that work for introverts. Parent anxiety is a key variable — children sense it.
+      BPN: even if a child has a difficult day, they can be reassessed on another date.
+
+  - id: qG008
+    text: "Do Bay Area private schools require or request preschool teacher recommendation letters as part of kindergarten applications? What role do teacher references play in the admissions file?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 10
+      dependency_count: 4
+      searchability: 7
+      novelty: 9
+    composite: 8.35
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 6
+    search_queries:
+      - id: s-2026-04-07-076
+        query: "ISSFBA PreK-K Confidential Recommendation Form teacher reference private school kindergarten application Bay Area"
+    raw_files:
+      - raw/web/official/2026-04-07_issfba-applying.md
+    notes: >
+      CRITICAL CLARIFICATION: ISSFBA prohibition on "letters of recommendation" refers to
+      parent-written letters NOT teacher confidential forms. ISSFBA uses a shared
+      PreK-K Confidential Recommendation Form completed by the child's current teacher/director.
+      This form IS a required part of ISSFBA school applications. The form is confidential —
+      parents do not see its contents.
+
+  - id: qG009
+    text: "What should a strong preschool teacher recommendation letter contain for a Bay Area private school kindergarten application? What makes a teacher reference valuable vs. generic?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 6
+      novelty: 9
+    composite: 7.65
+    dependencies: [qG008]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 6
+    search_queries:
+      - id: s-2026-04-07-076
+        query: "ISSFBA PreK-K Confidential Recommendation Form teacher reference private school kindergarten application Bay Area"
+      - id: s-2026-04-07-079
+        query: "preschool teacher recommendation letter private school kindergarten what makes strong letter specific observations generic"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_admission-org-recommendation-letters.md
+      - raw/web/authoritative/2026-04-07_schoolfirstnyc-teacher-recs-101.md
+    notes: >
+      Strong letters: specific behavioral observations, not generic praise.
+      Valuable content: concrete anecdotes about child's social skills, learning approach,
+      how child handles frustration, peer interactions.
+      Parents must NOT provide talking points or influence content — schools consider
+      influenced letters as red flags.
+
+  - id: qG010
+    text: "How should parents ask a preschool teacher or director for a recommendation letter? What is the timing, approach, and etiquette for making this request effectively?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 6
+      novelty: 9
+    composite: 7.45
+    dependencies: [qG008]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 6
+    search_queries:
+      - id: s-2026-04-07-076
+        query: "ISSFBA PreK-K Confidential Recommendation Form teacher reference private school kindergarten application Bay Area"
+      - id: s-2026-04-07-079
+        query: "preschool teacher recommendation letter private school kindergarten what makes strong letter specific observations generic"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_admission-org-recommendation-letters.md
+      - raw/web/authoritative/2026-04-07_schoolfirstnyc-teacher-recs-101.md
+    notes: >
+      Timing: ask in person early-mid November (before application portal forms arrive).
+      Send heads-up email before portal invitation arrives so teacher is not surprised.
+      Ask in person first, then follow up with written request.
+      Letters are 100% confidential — parents must not ask to see or influence content.
+
+  - id: qG011
+    text: "What do preschool teachers and directors wish parents understood about the kindergarten recommendation request process? What do parents do that makes it harder?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 5
+      novelty: 10
+    composite: 7.0
+    dependencies: [qG010]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 6
+    search_queries:
+      - id: s-2026-04-07-079
+        query: "preschool teacher recommendation letter private school kindergarten what makes strong letter specific observations generic"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_schoolfirstnyc-teacher-recs-101.md
+    notes: >
+      Teacher perspective: ask in person, not via email; give adequate lead time (weeks not days);
+      do not ask to review or influence content; do not submit requests for 10+ schools without
+      discussion. Teachers writing for many children simultaneously find it difficult when parents
+      add last-minute schools or change deadlines without notice.
+
+  - id: qG012
+    text: "What does 'good fit' mean in Bay Area private school admissions language? How do different school types (progressive, traditional, Montessori, gifted) define a child who is a good fit?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 7
+      novelty: 9
+    composite: 7.85
+    dependencies: [Q004]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 3
+    search_queries:
+      - id: s-2026-04-07-073
+        query: "kindergarten private school assessment playdate what to expect day of logistics rescheduling sick child difficult morning"
+      - id: s-2026-04-07-081
+        query: "Bay Area private school good fit definition progressive traditional Montessori gifted kindergarten admissions language meaning"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_ruthkrishnan-sf-admissions-guide.md
+      - raw/web/authoritative/2026-04-07_guthrie-school-what-private-schools-look-for.md
+      - raw/web/authoritative/2026-04-07_parentsleague-progressive-school-fit.md
+    notes: >
+      "Good fit" = philosophy + child temperament + community alignment (three-way match).
+      Progressive schools: value curiosity, self-direction, comfort with ambiguity, parent
+      alignment with collaborative ethos.
+      Traditional schools: value structure-following, academic readiness signals, parent
+      alignment with achievement expectations.
+      Gifted programs: value high cognitive engagement, sometimes specific IQ thresholds.
+      SF = 7 applicants per opening; developmental readiness prioritized over academics.
+
+  - id: qG013
+    text: "What are common reasons Bay Area families choose NOT to apply to private kindergarten after initially researching it? What factors most often lead to opting out?"
+    facet: WHY
+    phase: gap_fill
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 9
+    composite: 7.1
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 1
+    search_queries:
+      - id: s-2026-04-07-081
+        query: "Bay Area private school good fit definition progressive traditional Montessori gifted kindergarten admissions language meaning"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_kqed-why-private-popular-bay-area.md
+      - raw/web/authoritative/2026-04-07_ruthkrishnan-sf-admissions-guide.md
+    notes: >
+      Reasons for opting out: quality public school alternatives (Palo Alto, Berkeley,
+      Piedmont strong districts); cost and K-12 financial commitment (~$500K-$700K/child);
+      process burden (20-35 events across 5-7 schools); philosophical mismatch with
+      private school culture; preference for socioeconomic/ethnic diversity in public schools;
+      SFUSD lottery uncertainty resolved favorably.
+
+  - id: qG014
+    text: "How do Bay Area private schools handle or accommodate children with learning differences, ADHD, or developmental delays at the kindergarten application stage? What can parents expect regarding disclosure timing and school capacity?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 7.85
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 11
+    search_queries:
+      - id: s-2026-04-07-080
+        query: "private school kindergarten ADHD learning differences disclosure admissions timing Bay Area 2025 should parents disclose"
+    raw_files:
+      - raw/web/community/2026-04-07_dcurbanmom-adhd-disclosure.md
+    notes: >
+      Community consensus: disclose, frame as partnership opportunity.
+      If school rejects for disclosed ADHD/LD, it was not the right fit school.
+      Private schools have no legal obligation to provide IEP/504 services.
+      Disclosure timing: written application "Further Information" section is appropriate;
+      or during parent interview if relevant.
+      Schools assess whether they can support the specific profile with their current resources.
+
+  - id: qG015
+    text: "What WPPSI-IV subtests are specifically required or reported for Nueva School, Harker, Helios, and Challenger admissions? Do schools look at composite FSIQ or specific index scores?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 7.3
+    dependencies: [qE020]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 4
+    search_queries:
+      - id: s-2026-04-07-075
+        query: "WPPSI-IV retesting waiting period practice effects IQ scores change private school admissions psychologist guidance"
+    raw_files:
+      - raw/web/official/2026-04-07_helios-assessments.md
+      - raw/web/official/2026-04-07_harker-admissions-test-faq.md
+      - raw/web/authoritative/2026-04-07_sfstandard-iq-testing-preschoolers.md
+      - raw/web/aggregator/2026-04-07_profoundlygifted-gai-score.md
+    notes: >
+      Helios: requires all 7 index scores (VCI, VSI, FRI, WMI, PSI + 2 ancillary);
+      no minimum FSIQ (holistic review). Harker: all applicable subtests required;
+      WPPSI-IV for TK only; WPPSI-IV or WISC-V for K depending on age.
+      Nueva: FSIQ approximately 130+ (98th percentile) confirmed threshold.
+      GAI used when WMI/PSI are depressed; Helios and Harker review all indices individually.
+
+  - id: qG016
+    text: "How does the WPPSI-IV differ from the WISC-V, and which test is appropriate for which age? When would a child take one vs. the other for Bay Area private K admissions?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 8
+      novelty: 7
+    composite: 6.9
+    dependencies: [qE020]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 4
+    search_queries:
+      - id: s-2026-04-07-071
+        query: "WPPSI-IV vs WISC-V age range difference which test kindergarten private school admissions 4 5 year old"
+    raw_files:
+      - raw/web/aggregator/2026-04-07_wikipedia-wppsi-iv.md
+      - raw/web/official/2026-04-07_helios-assessments.md
+      - raw/web/official/2026-04-07_harker-admissions-test-faq.md
+    notes: >
+      WPPSI-IV: ages 2:6-7:7. WISC-V: ages 6:0-16:11. Overlap zone 6:0-7:7.
+      For K applicants (typically 4-5): WPPSI-IV is standard.
+      A child would take WISC-V only if age 6+ at time of testing (late K applicants,
+      older sib-group applicants, children repeating K who reapply).
+      Nueva: WPPSI-IV for ages 3:10-5:11; WISC-V for 6+.
+      Helios: WPPSI-IV under age 6; WISC-V age 6+.
+
+  - id: qG017
+    text: "What does a testing psychologist actually do during a WPPSI-IV assessment with a 4-5 year old? What is the experience like for the child — how is it structured, how long does each section take?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 7.65
+    dependencies: [qE020]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 4
+    search_queries:
+      - id: s-2026-04-07-071
+        query: "WPPSI-IV vs WISC-V age range difference which test kindergarten private school admissions 4 5 year old"
+      - id: s-2026-04-07-073
+        query: "WPPSI-IV assessment session what happens one-on-one psychologist tasks child experience format duration subtests"
+    raw_files:
+      - raw/web/aggregator/2026-04-07_testingmom-wppsi-session-overview.md
+      - raw/web/aggregator/2026-04-07_wikipedia-wppsi-iv.md
+      - raw/web/authoritative/2026-04-07_beyond-brochure-testing-day.md
+    notes: >
+      Format: one-on-one with psychologist, approximately 45-60 minutes.
+      Tasks feel like puzzles/games: Block Design (arrange blocks to match pattern),
+      Zoo Locations (memory for object placement), Picture Concepts (abstract reasoning).
+      Psychologist builds rapport first; child told it is "puzzles with a doctor."
+      If child refuses a task: psychologist makes note, moves on; does not force.
+      Results: within 1-2 business days typically (Harker: 1-2 business days confirmed).
+
+  - id: qG018
+    text: "What are the most common mistakes families make when preparing for private kindergarten assessments in the Bay Area — from the perspective of admissions directors and experienced consultants?"
+    facet: WHAT
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 7.85
+    dependencies: [qE022]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 5
+    search_queries:
+      - id: s-2026-04-07-078
+        query: "private school kindergarten admissions what NOT to do coaching warning admissions director advice over-prepare 2025"
+      - id: s-2026-04-07-081
+        query: "Bay Area private school good fit definition progressive traditional Montessori gifted kindergarten admissions language meaning"
+    raw_files:
+      - raw/web/aggregator/2026-04-07_testingmom-kindergarten-mistakes.md
+      - raw/web/aggregator/2026-04-07_privateschoolreview-top5-mistakes.md
+      - raw/web/authoritative/2026-04-07_ruthkrishnan-sf-admissions-guide.md
+    notes: >
+      Top mistakes: (1) starting too late (begin 12-18 months before desired start);
+      (2) prioritizing prestige over fit; (3) underestimating parent interviews;
+      (4) delaying financial aid applications; (5) over-coaching children.
+      Karen Quinn controversial position: some preparation appropriate to reduce anxiety.
+      Admissions consensus: authenticity over perfection; coached children are detectable.
+
+  - id: qG019
+    text: "What specific advice do preschool programs and early childhood educators give parents about building kindergarten readiness at home in the year before K applications?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 8
+      novelty: 7
+    composite: 7.85
+    dependencies: [qG003]
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 5
+    search_queries:
+      - id: s-2026-04-07-082
+        query: "NAEYC kindergarten readiness activities preschool home preparation early childhood educator advice year before K"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_naeyc-kindergarten-readiness-activities.md
+      - raw/web/official/2026-04-07_cdc-milestones-5-years.md
+    notes: >
+      NAEYC 5 activity domains: letter recognition, number recognition, reading readiness,
+      attention/following directions, social-emotional skills.
+      95%+ of preschool-enrolled children meet readiness standards through normal play/learning.
+      Key activities: reading together daily, play-based problem solving (puzzles, blocks),
+      social play with peers, self-care practice (dressing, bathroom independence).
+      Constructive complement to "do not over-coach" message: genuine developmental activities
+      are different from test prep.
+
+  - id: qG020
+    text: "Do preschool director relationships with private school admissions offices affect kindergarten admissions outcomes in the Bay Area, and if so, how does this work in practice?"
+    facet: HOW
+    phase: gap_fill
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 5
+      novelty: 9
+    composite: 7.1
+    dependencies: []
+    status: answered
+    answered_at: '2026-04-07'
+    guidebook_chapter: 6
+    search_queries:
+      - id: s-2026-04-07-083
+        query: "preschool director relationship private elementary school admissions Bay Area phone call weight feeder school connection"
+    raw_files:
+      - raw/web/authoritative/2026-04-07_ruthkrishnan-sf-admissions-guide.md
+      - raw/web/official/2026-04-07_issfba-applying.md
+    notes: >
+      Raw file exists (feeder-preschool-bay-area-private-elementary-pipeline.md) from qE013.
+      Finding: Bay Area does NOT have formal feeder preschool system. Preschool director
+      relationships with admissions offices exist but are personal/informal, not systemic.
+      Known directors at known preschools may have direct lines to admissions directors.
+      This is background context, not something parents can meaningfully influence by
+      switching preschools. The ISSFBA Confidential Recommendation Form is the formal
+      channel through which preschool teacher input reaches schools.

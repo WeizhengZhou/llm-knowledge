@@ -32,9 +32,10 @@ sources:
   - raw/web/official/2026-04-06_nueva-faq-decision-dates.md
   - raw/web/official/2026-04-06_keys-school-admissions-cardinal-guide.md
 tags: [timeline, admissions, deadlines, 2025-26-cycle]
-epistemic_status: confirmed
-confidence: L1
+epistemic_status: historical
+confidence: L2
 volatile: cycle_bound
+stale_since: "2026-03-27"
 backlinks: []
 ---
 

@@ -1,11 +1,9 @@
 topic: bay-area-private-school-k-application
-generated: '2026-04-06'
-source: bootstrapped from research-plan.yaml question clusters and wiki reader_outcomes
-note: >
-  _topic.yaml does not contain reader_outcomes. These test questions were bootstrapped
-  from the research plan's high user_value questions (≥8.0 composite) and the
-  implicit must_answer items reflected in the wiki article structure. They are
-  organized by reader outcome cluster.
+generated: '2026-04-07'
+source: >
+  Bootstrapped from research-plan.yaml question clusters, wiki reader_outcomes,
+  and guidebook chapter coverage. Updated to version 2 with guidebook-aware questions.
+version: 2
 
 reader_outcomes:
   - id: RO1
@@ -35,13 +33,16 @@ reader_outcomes:
       - How does the Clarity financial aid platform work?
       - What tuition ranges and aid participation rates can families expect?
       - When are financial aid application deadlines?
+      - Is applying for aid need-blind or need-aware at specific schools?
 
   - id: RO5
-    title: Prepare for and succeed in assessments and parent interviews
+    title: Prepare for and succeed in assessments, parent interviews, essays, and recommendations
     must_answer:
       - What do schools observe during playdates?
       - How do IQ tests work, how much do they cost, and when must they be booked?
       - What do parent interviews assess?
+      - How should parent essays be structured and what mistakes to avoid?
+      - How should recommendation letters be managed (timing, logistics, ISSFBA form)?
 
   - id: RO6
     title: Understand special programs (language immersion, gifted, TK)
@@ -50,99 +51,168 @@ reader_outcomes:
       - What is Transitional Kindergarten and should families consider it?
       - Which schools are gifted-focused and what scores/assessments do they require?
 
+  - id: RO7
+    title: Handle decision day, waitlists, rejection, and special situations
+    must_answer:
+      - What happens on March 19 and what are the exact response deadlines?
+      - What should I do if waitlisted?
+      - What are my options if I receive no offers?
+      - How do I handle a late birthday, learning difference, relocation, or reapplication?
+
 test_questions:
-  # RO1 — Landscape navigation
+  # RO1 -- Landscape navigation
   - id: TQ01
     ro: RO1
     question: "What private K schools are available in San Francisco and what are their key differentiators?"
-    expected_coverage: school-profiles-sf, admissions-strategy, overview
-    answerability: 2  # Fully answerable — 11 SF school profiles with comparison table
+    difficulty: easy
+    expected_coverage: full
 
   - id: TQ02
     ro: RO1
     question: "How does the South Bay private K admissions process differ from San Francisco?"
-    expected_coverage: south-bay-schools, admissions-strategy, overview
-    answerability: 2  # Fully answerable — south-bay-schools has dedicated SF vs. South Bay comparison table
+    difficulty: medium
+    expected_coverage: full
 
   - id: TQ03
     ro: RO1
     question: "What is ISSFBA/BADA and how does the coordinated March 19 decision date work?"
-    expected_coverage: issfba-bada, application-timeline, overview
-    answerability: 2  # Fully answerable — issfba-bada article covers all coordinated policies
+    difficulty: easy
+    expected_coverage: full
 
-  # RO2 — Timeline
+  # RO2 -- Timeline
   - id: TQ04
     ro: RO2
     question: "What is the month-by-month admissions calendar for the 2025-26 cycle?"
-    expected_coverage: application-timeline
-    answerability: 2  # Fully answerable — application-timeline has detailed month-by-month calendar
+    difficulty: easy
+    expected_coverage: full
 
   - id: TQ05
     ro: RO2
     question: "Which schools have December deadlines rather than January deadlines?"
-    expected_coverage: application-timeline, school-profiles-sf
-    answerability: 2  # Fully answerable — article lists December deadline schools explicitly (Head-Royce, C&SH, SF Friends, SF Day, MCDS)
+    difficulty: medium
+    expected_coverage: full
 
   - id: TQ06
     ro: RO2
-    question: "My child was accepted on March 19 — how long do I have to accept and what happens if I'm waitlisted at another school?"
-    expected_coverage: application-timeline, issfba-bada, admissions-strategy
-    answerability: 2  # Fully answerable — enrollment response dates and waitlist mechanics both covered
+    question: "My child was accepted on March 19 -- how long do I have to accept and what happens if I'm waitlisted at another school?"
+    difficulty: medium
+    expected_coverage: full
 
-  # RO3 — School fit
+  # RO3 -- School fit
   - id: TQ07
     ro: RO3
-    question: "My child has an October birthday — which schools would they be age-eligible for?"
-    expected_coverage: admissions-strategy, school-profiles-sf, school-profiles-peninsula-east-bay, south-bay-schools
-    answerability: 2  # Fully answerable — admissions-strategy has complete age cutoff table
+    question: "My child has an October birthday -- which schools would they be age-eligible for?"
+    difficulty: medium
+    expected_coverage: full
 
   - id: TQ08
     ro: RO3
     question: "What is the difference between a progressive school and a traditional school, and which Bay Area private K schools are in each category?"
-    expected_coverage: pedagogy-philosophy, school-profiles-sf, south-bay-schools
-    answerability: 2  # Fully answerable — pedagogy-philosophy article covers all major philosophies with school examples
+    difficulty: easy
+    expected_coverage: full
 
   - id: TQ09
     ro: RO3
     question: "I want to avoid IQ testing. Which schools use playdates instead, and what do those playdates assess?"
-    expected_coverage: assessment-playdate, admissions-strategy, school-profiles-sf
-    answerability: 2  # Fully answerable — assessment-playdate clearly distinguishes playdate vs. IQ testing schools
+    difficulty: easy
+    expected_coverage: full
 
-  # RO4 — Financial aid
+  # RO4 -- Financial aid
   - id: TQ10
     ro: RO4
     question: "How does the Clarity financial aid platform work and what is the typical timeline for applying?"
-    expected_coverage: financial-aid, application-timeline
-    answerability: 2  # Fully answerable — financial-aid covers Clarity mechanics and multiple school-specific deadlines
+    difficulty: medium
+    expected_coverage: full
 
   - id: TQ11
     ro: RO4
     question: "What percentage of families receive financial aid and what is the actual tuition range I might pay at SF Day, CDS, or Park Day?"
-    expected_coverage: financial-aid, school-profiles-sf, school-profiles-peninsula-east-bay
-    answerability: 2  # Fully answerable — financial-aid has aid participation rates and tuition ranges for these schools
+    difficulty: medium
+    expected_coverage: full
 
-  # RO5 — Assessment prep
   - id: TQ12
-    ro: RO5
-    question: "My child is applying to Nueva School. What IQ test is required, how much does it cost, and when should I book?"
-    expected_coverage: assessment-playdate, school-profiles-peninsula-east-bay
-    answerability: 1  # Partially answerable — assessment-playdate covers cost ($850), WPPSI format, Nueva 130 minimum. Booking timeline detail lives in staging/assessment-prep.md (not yet promoted to wiki)
+    ro: RO4
+    question: "Is the admissions process at Bay Area private schools need-blind or need-aware, and which schools have confirmed their policy?"
+    difficulty: hard
+    expected_coverage: full
 
+  # RO5 -- Application preparation
   - id: TQ13
     ro: RO5
-    question: "What should I expect in the parent interview at SF private schools, and how do I prepare?"
-    expected_coverage: assessment-playdate, admissions-strategy
-    answerability: 1  # Partially answerable — assessment-playdate covers which schools have parent interviews and their format, but parent interview prep content is in staging/assessment-prep.md (not yet promoted)
+    question: "My child is applying to Nueva School. What IQ test is required, how much does it cost, and when should I book?"
+    difficulty: medium
+    expected_coverage: full
 
-  # RO6 — Special programs
   - id: TQ14
-    ro: RO6
-    question: "My family wants Mandarin immersion — what are our options and do we need prior Mandarin knowledge?"
-    expected_coverage: language-immersion, school-profiles-sf
-    answerability: 2  # Fully answerable — language-immersion covers CAIS and SVIS with explicit statement that no prior language required
+    ro: RO5
+    question: "What should I expect in the parent interview at SF private schools, and how do I prepare?"
+    difficulty: medium
+    expected_coverage: full
 
   - id: TQ15
+    ro: RO5
+    question: "How should I write the parent essay -- what are common mistakes and what do schools actually look for?"
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ16
+    ro: RO5
+    question: "When should I ask my preschool teacher for the recommendation letter, and how does the ISSFBA form work?"
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ17
+    ro: RO5
+    question: "What does a complete Bay Area private K application contain, and what are the two portal systems I need to know about?"
+    difficulty: easy
+    expected_coverage: full
+
+  # RO6 -- Special programs
+  - id: TQ18
+    ro: RO6
+    question: "My family wants Mandarin immersion -- what are our options and do we need prior Mandarin knowledge?"
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ19
     ro: RO6
     question: "Should I enroll my child in public TK or private TK, and does TK at Harker give priority for kindergarten admission?"
-    expected_coverage: transitional-kindergarten, harker-school
-    answerability: 2  # Fully answerable — transitional-kindergarten covers public vs. private TK decision framework and explicitly addresses the pipeline question with epistemic note
+    difficulty: medium
+    expected_coverage: full
+
+  # RO7 -- Decision day and special situations
+  - id: TQ20
+    ro: RO7
+    question: "It's March 19 at noon and I just got waitlisted at my top choice but admitted to my second choice. What specifically should I do this week?"
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ21
+    ro: RO7
+    question: "I received no offers on March 19. What are my concrete options right now?"
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ22
+    ro: RO7
+    question: "My child has a documented learning difference. Should I disclose it on the application, and how?"
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ23
+    ro: RO7
+    question: "We are relocating to the Bay Area from another state. What's different about our application process?"
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ24
+    ro: RO7
+    question: "We applied last year and were not admitted. Is it worth reapplying, and what should we do differently?"
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ25
+    ro: RO7
+    question: "It's January and I just learned about private school admissions. What can I still do this cycle?"
+    difficulty: medium
+    expected_coverage: full

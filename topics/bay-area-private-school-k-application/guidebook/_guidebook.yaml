@@ -1,0 +1,147 @@
+title: "The Bay Area Private School K Admissions Guide"
+subtitle: "Everything new parents need to know, from first open house to decision day"
+slug: bay-area-private-school-k-application
+status: drafting
+sop_version: "1.1"
+created: "2026-04-07"
+updated: "2026-04-07"
+
+chapters:
+  - id: "00"
+    file: "00-front-matter.md"
+    title: "About This Guide"
+    status: pending
+
+  - id: "01"
+    file: "01-is-private-k-right.md"
+    title: "Is Private K Right for Your Family?"
+    draft_order: 10
+    gap_fill_dependency: false
+    status: pending
+
+  - id: "02"
+    file: "02-year-at-a-glance.md"
+    title: "The Year at a Glance — What Happens When"
+    draft_order: 1
+    gap_fill_dependency: false
+    status: complete
+    word_count: 3050
+    rubric_score: 9.0
+    completed: "2026-04-07"
+    revised: "2026-04-08"
+    revision_notes: >
+      v2: added rec-letter and IQ-testing tracks to timeline; added 3 visuals
+      (school-type comparison, multi-track annual timeline, post-decision flow);
+      expanded March and April-Aug sections; softened categorical statements;
+      tightened prose 15%; added anchor-school discipline; added cycle-year disclaimer
+
+  - id: "03"
+    file: "03-what-schools-evaluate.md"
+    title: "What Schools Are Really Evaluating"
+    draft_order: 2
+    gap_fill_dependency: false
+    status: complete
+    word_count: 3800
+    rubric_score: 9.1
+    completed: "2026-04-07"
+    revised: "2026-04-08"
+    revision_notes: >
+      v2: added "What schools are NOT evaluating" callout box; added mini-vignette
+      in dimension 4 for cadence variation; tightened parent interview attribution;
+      added temperament matrix table; strengthened two-layer attribution in
+      consultant-sourced sections
+
+  - id: "04"
+    file: "04-iq-testing.md"
+    title: "IQ Testing — Demystified"
+    draft_order: 4
+    gap_fill_dependency: true
+    gap_fill_questions: [qG001, qG002, qG015, qG016, qG017]
+    status: complete
+    word_count: 2920
+    rubric_score: 8.8
+    completed: "2026-04-08"
+
+  - id: "05"
+    file: "05-preparing-your-child.md"
+    title: "Preparing Your Child — Without Over-Preparing"
+    draft_order: 3
+    gap_fill_dependency: true
+    gap_fill_questions: [qG003, qG004, qG005, qG006, qG007, qG018, qG019]
+    status: complete
+    word_count: 2750
+    rubric_score: 8.7
+    completed: "2026-04-08"
+
+  - id: "06"
+    file: "06-recommendation-letters.md"
+    title: "Recommendation Letters and Your Preschool Relationship"
+    draft_order: 5
+    gap_fill_dependency: true
+    gap_fill_questions: [qG008, qG009, qG010, qG011, qG020]
+    status: pending
+
+  - id: "07"
+    file: "07-application-essays.md"
+    title: "The Application — Ravenna Hub, Essays, and Getting It Right"
+    draft_order: 6
+    gap_fill_dependency: false
+    status: pending
+
+  - id: "08"
+    file: "08-financial-aid.md"
+    title: "Financial Aid — The Real Numbers"
+    draft_order: 8
+    gap_fill_dependency: false
+    status: pending
+
+  - id: "09"
+    file: "09-school-tours.md"
+    title: "School Tours and Open Houses"
+    draft_order: 7
+    gap_fill_dependency: false
+    status: pending
+
+  - id: "10"
+    file: "10-decisions-waitlist.md"
+    title: "Decisions, Waitlists, and What Comes Next"
+    draft_order: 9
+    gap_fill_dependency: false
+    status: pending
+
+  - id: "11"
+    file: "11-special-situations.md"
+    title: "Special Situations"
+    draft_order: 11
+    gap_fill_dependency: true
+    gap_fill_questions: [qG012, qG013, qG014]
+    status: pending
+
+  - id: "12"
+    file: "12-school-directory.md"
+    title: "School Directory"
+    draft_order: 12
+    gap_fill_dependency: false
+    status: pending
+
+  - id: "A"
+    file: "A-glossary.md"
+    title: "Glossary"
+    draft_order: 13
+    status: pending
+
+  - id: "B"
+    file: "B-checklists.md"
+    title: "Printable Worksheets and Checklists"
+    draft_order: 13
+    status: pending
+
+  - id: "C"
+    file: "C-resources.md"
+    title: "Resources"
+    draft_order: 13
+    status: pending
+
+wiki_source: "topics/bay-area-private-school-k-application/wiki/"
+fact_sheet: "topics/bay-area-private-school-k-application/fact-sheet.yaml"
+sop: "docs/guidebook-sop-v1.md"
