@@ -1,5 +1,15 @@
 # Operation Log
 
+## [2026-04-06] wiki-compiler-agent | Wiki-critic revision pass
+
+2026-04-06T23:30:00Z | wiki-compiler-agent | Revised 2 staging articles per wiki-critic feedback.
+  Articles revised: staging/parent-essay-guide.md (6/10 -> re-review), staging/school-tour-guide.md (5/10 -> re-review).
+  Fixes applied: 3 per article (D2 decision framework, D4 epistemic notes, D5 scope discipline).
+  parent-essay-guide: added essay theme decision framework, epistemic note for challenge-disclosure claim, removed thank-you section.
+  school-tour-guide: added tour-to-decision synthesis framework, epistemic note for thank-you claim, removed working-parent content.
+  No new claims added. All permitted language verified against fact-sheet.
+  Next recommended: wiki-critic-agent re-review of both articles.
+
 ## [2026-04-06] init | Topic initialized
 
 - Topic: Bay Area private school K application
@@ -164,3 +174,90 @@ Chrome MCP was not available during this session (connection refused at 127.0.0.
 - Fetches used: approximately 66 (14 new fetches + 52 prior)
 - Gap-fill phase: substantively complete for high-priority questions
 - Remaining skipped questions: qE010 (South Bay FA), qE014 (NAIS/CAIS detail), qE016 (Redwood Day detail), qE017-qE018 (pattern verification)
+
+## [2026-04-07] research-agent | Gap-fill phase round 3 (landscape seed questions qE022-qE035)
+
+2026-04-07T00:00:00Z | research-agent | Gap-fill round 3: 8 new searches (s-063 through s-070), 8 new raw files saved. 10 of 14 new questions answered. 4 questions remain pending (lower urgency).
+
+### Searches Run (s-063 through s-070)
+
+| Search ID | Questions | Query |
+|-----------|-----------|-------|
+| s-063 | qE022, qE029 | Bay Area private school total cost K-12 tuition escalation annual fund capital campaign true cost 2025 |
+| s-064 | qE023, qE027 | Bay Area private school kindergarten need-blind need-aware financial aid admissions impact does applying for aid hurt chances 2025 |
+| s-065 | qE024, qE029 | Bay Area private school kindergarten admissions working parents both work open houses tours scheduling tips 2025 |
+| s-066 | qE025 | private school kindergarten playdate red flags what schools evaluate social emotional readiness child behavior 2025 |
+| s-067 | qE026, qE035 | Bay Area private school kindergarten rejection all schools what to do next steps reapply public school 2025 |
+| s-068 | qE031 | private school kindergarten open house tour questions to ask admissions officers faculty parents beyond website 2025 |
+| s-069 | qE034 | private school kindergarten parent essay authenticity disclose challenges learning differences non-traditional family 2025 |
+| s-070 | qE035 | private school kindergarten waitlist concrete steps improve chances letter of continued interest LOCI Bay Area 2025 |
+
+### Raw Files Saved (8 new files)
+
+| File | Tier | Questions |
+|------|------|-----------|
+| raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md | L2-authoritative | qE022, qE029 |
+| raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md | L1-official | qE023, qE027 |
+| raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md | L4-community | qE024, qE029 |
+| raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md | L3-aggregator | qE025 |
+| raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md | L4-community | qE026, qE035 |
+| raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md | L3-aggregator | qE027, qE023 |
+| raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md | L3-aggregator | qE031 |
+| raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md | L3-aggregator | qE034 |
+| raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md | L3-aggregator | qE035 |
+
+### Question Status Updates
+
+| Question | Old Status | New Status | Key Findings |
+|----------|-----------|-----------|--------------|
+| qE022 (total K-12 cost) | pending | answered | SF K-12 total ~$520K over 13 years; 4-6%/yr escalation; annual fund $1K-$10K+; top schools $48K-$68K+/yr |
+| qE023 (need-blind vs. need-aware) | pending | answered | Nueva formally need-blind (separate committees); most Bay Area schools use blind approach; no income cutoff |
+| qE024 (working parents logistics) | pending | answered | 20-35 events across 5-7 schools typical; missing events does NOT disqualify; quality of engagement > quantity |
+| qE025 (playdate red flags) | pending | answered | Schools seek egregious signs only; evaluate social/emotional regulation; do NOT coach child |
+| qE026 (rejection next steps) | pending | answered | Enroll in public K + reapply for 1st grade; ask for feedback; expand school list; parochial as parallel track |
+| qE027 (FA income thresholds) | pending | answered | No income cutoff; Bay Area COL explicitly factored; brackets: <$100K full aid, $100K-$200K significant, $200K-$350K partial, $350K+ limited |
+| qE029 (hidden costs) | pending | answered | Annual fund $1K-$10K+; capital campaigns $5K-$50K+ periodic; enrollment deposit $300-$2,800; after-school $5K-$15K/yr |
+| qE031 (open house questions) | pending | answered | Questions for admissions officers, faculty, students, current parents; K-specific observations; beyond-the-brochure signals |
+| qE034 (parent essay authenticity) | pending | answered | Disclose challenges — schools expect it; financial constraints via Clarity not essays; 500-1500 character typical length |
+| qE035 (waitlist strategy) | pending | answered | 4 steps: confirm immediately, LOCI, ask ranked/pooled, attend invited events; acceptance rate 5-15% (selective) |
+
+### Questions Remaining Pending (lower urgency — budget not allocated)
+
+| Question | Reason Not Researched |
+|----------|----------------------|
+| qE028 (choosing between acceptances) | Lower urgency; budget prioritized to higher-value questions |
+| qE030 (bridge-to-public strategy) | Lower urgency; budget prioritized to higher-value questions |
+| qE032 (learning differences disclosure) | Lower urgency; partial coverage in qE025 and qE034 raw files |
+| qE033 (parent social culture) | Lower urgency; low searchability score (5); community-sourced only |
+
+### Chrome MCP Availability
+
+Chrome MCP was not available during this session (connection refused at 127.0.0.1:9222). Fetch fallbacks used: WebFetch for all 8 files. BPN financial aid page (403) resolved via search synthesis.
+
+### Budget Status Post Round 3
+
+- Searches used: 70 (20 over original 50-search budget; extended authorized run across 3 rounds)
+- Fetches used: approximately 76 (8 new fetches + 66 prior cumulative + 2 failed/synthesized)
+- Gap-fill phase: high-priority and medium-priority questions substantially answered
+- Remaining pending: qE028, qE030, qE032, qE033 (lower urgency); qE010 (South Bay FA, skipped), qE014 (NAIS/CAIS, skipped), qE016 (Redwood Day, skipped), qE017-qE018 (pattern verification, skipped)
+- Recommended next: claim-extractor-agent on new raw files, then wiki-compiler-agent for new guide articles (cost-transparency, waitlist-strategy, parent-essay-guide, financial-aid-thresholds)
+
+## [2026-04-06] wiki-compiler-agent | Compile run 4: 4 new staging + 2 updated wiki articles
+
+2026-04-06T23:30:00Z | wiki-compiler-agent | Compile run 4: 4 new staging articles + 2 updated wiki articles from C330-C408 (79 claims, batch 3).
+  Gate status: CLEAR. L5 claims: 0. Disputed claims: 5 (d001-d005, d006 referenced).
+  New staging articles:
+    - staging/financial-realities.md (guide, L3) -- true K-12 cost, hidden costs, need-blind/need-aware, Nueva brackets
+    - staging/admissions-strategy-advanced.md (guide, L3) -- application volume, working parent logistics, waitlist, rejection
+    - staging/parent-essay-guide.md (guide, L3) -- essay evaluation, challenges disclosure, format, mistakes
+    - staging/school-tour-guide.md (guide, L3) -- open house observations, 5 question categories, K-specific
+  Updated articles:
+    - wiki/guides/public-vs-private.md -- added decision framework section (wiki-critic D2 fix), private-as-bridge
+    - wiki/financial-aid.md -- added "Does applying for aid hurt chances?" section (C351 need-blind, mof015)
+    - wiki/_index.md -- added 4 staging articles to index
+  Verified claims used: C330-C408, plus cross-references to C269, C325, C329, C370
+  Disputes referenced: d006 (cost projections $520K vs $500K-$700K)
+  Mechanism overreach flags honored: mof012, mof014, mof015, mof016, mof017, mof018, mof019
+  L4 claims: all properly attributed with epistemic note blocks (Ruth Krishnan, BPN, xceedprep)
+  CHANGELOG.md updated.
+  Next recommended: wiki-critic-agent for 4 staging articles, then lint-agent.

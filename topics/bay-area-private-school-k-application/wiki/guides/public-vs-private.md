@@ -3,7 +3,7 @@ title: "Public vs. Private K -- The Bay Area Decision Framework"
 type: guide
 topic: bay-area-private-school-k-application
 created: '2026-04-06'
-updated: '2026-04-06'
+updated: '2026-04-06'  # Updated 2026-04-06 compile run 4: added decision framework, private-as-bridge
 sources:
   - raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md
 tags: [public-school, private-school, sfusd, cost, decision-framework, financial-planning]
@@ -47,6 +47,34 @@ Basic Fund (basicfund.org) states that it provides vouchers to low-income famili
 
 Some Bay Area education sources report that public school quality varies by district, with Palo Alto, Berkeley, and Piedmont frequently cited as having strong academic reputations. No specific test scores or rankings were cited in the source material to substantiate this claim.
 
+## Decision Framework: When Does Private K Make Clear Sense?
+
+Not every family benefits equally from private K. Use these decision signals:
+
+### Private K is clearly worth exploring if:
+
+- **Your child has specific needs that align with a particular school's model:** Gifted programs ([[school-profiles-peninsula-east-bay|Nueva School]], [[harker-school|Harker]]), language immersion ([[language-immersion|CAIS, La Scuola, SVIS]]), or a specific pedagogy ([[pedagogy-philosophy|progressive, Montessori, Waldorf]]) that SFUSD does not offer in your zone.
+- **You can sustain the full K-12 financial commitment:** Financial planning sources model the total cost of Bay Area private K-12 education at $500,000-$700,000 per child, depending on starting tuition and assumed annual increases of 4-6%. These are modeled projections, not reported statistics. Factor in annual fund expectations of $1,000-$10,000+ (see [[guides/financial-realities]]).
+- **You qualify for meaningful financial aid:** There is no income limit that automatically makes a family ineligible for financial aid at Bay Area private schools. Nueva School demonstrates this by providing meaningful aid to families earning above $250,000 (58% of aided families). Schools set their own guidelines.
+- **Class size and student-teacher ratio are a high priority:** Independent schools typically offer smaller classes (15-24 students) compared to SFUSD (25-30+).
+
+### SFUSD public K is the stronger call if:
+
+- **Your child is thriving in their current environment:** If your child is developing well and your local public school has a strong reputation, the marginal benefit of private K may not justify the cost.
+- **Budget uncertainty over 13 years:** If sustaining $40,000-$55,000/year (escalating 4-6% annually) creates significant financial stress, public school preserves financial flexibility.
+- **Your child has documented learning differences requiring IEP/504 services:** Berkeley Parents Network notes that public schools are legally required to provide learning differences accommodations (504 plans, IEPs) under federal law, while private schools are not subject to the same requirements. Some private schools do offer learning support services, but the legal obligation applies only to public schools.
+- **You received a strong SFUSD lottery placement:** If you get your first- or second-choice public school, the financial savings over 13 years are substantial.
+
+### The Private-as-Bridge Strategy
+
+For families uncertain about the 13-year commitment, private K can serve as a bridge year. Enroll in private kindergarten and reassess annually. This works because:
+
+1. Public school remains available at any point -- you are never locked out.
+2. Some parents on Berkeley Parents Network report that children who attend public K programs later gain private school admission for middle school (Grade 6 entry). No data on the frequency of this outcome is available.
+3. The SFUSD lottery runs concurrently with private school admissions, allowing families to pursue both tracks simultaneously.
+
+The risk: you invest one or more years of tuition ($40,000-$55,000 each) without committing to the full K-12 path, which means higher per-year cost without the "investment" framing of a complete private education.
+
 ## Key Considerations
 
 Before committing to a private K application process, families should consider:
@@ -68,5 +96,6 @@ Before committing to a private K application process, families should consider:
 - [[financial-aid]] -- Detailed tuition data and financial aid mechanics for Bay Area private K schools
 - [[transitional-kindergarten]] -- Free public TK as an alternative or bridge year
 - [[admissions-strategy]] -- How to build a school list balancing reach, match, and safety options
+- [[guides/financial-realities]] -- True cost of ownership: hidden fees, annual fund, need-blind vs. need-aware
 - [[south-bay-schools]] -- South Bay schools with a wider tuition range ($25,170-$51,550)
 - [[school-profiles-sf]] -- SF school profiles with tuition data

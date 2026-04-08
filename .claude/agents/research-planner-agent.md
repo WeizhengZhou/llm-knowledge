@@ -153,12 +153,30 @@ Do not generate the question tree until Phase 0 is complete. This scan grounds t
 
 ### Phase 0 Steps
 
-**Step 1: UGC mining (2-3 searches)**
+**Step 1: UGC mining (4-6 searches) — HARD GATE**
 
-Search for what real people ask about this topic:
-- `site:reddit.com "{topic}"` — find the most upvoted threads
-- `"{topic}" forum OR community OR "anyone else"` — broader community signal
-- Extract from top threads: what questions appear repeatedly? What do people say they wish they'd known? What caused the most confusion?
+Search for what real people ask about this topic. **Do not proceed to Step 2 until you have extracted at least 10 distinct pain points in real user language.**
+
+Known blocked sources (do not waste searches on these):
+- `reddit.com` — blocked by Anthropic's crawler; `site:reddit.com` searches return no results
+- `berkeleyparentsnetwork.org` — returns 403
+
+Use these search patterns instead to surface community signal:
+- `"{topic}" "wish I knew" OR "didn't know" OR "surprised" OR "biggest mistake" parents advice`
+- `"{topic}" "what to expect" OR "how to prepare" parent experience forum 2024 2025`
+- `"{topic}" questions parents ask site:cardinaleducation.com OR site:parentspress.com OR site:sfparents.org`
+- `"{topic}" anxiety OR stress OR confusing OR "didn't realize" parent blog OR guide`
+- Fetch the top 2-3 accessible URLs from each search and extract real parent language
+
+Extract from results: what questions appear repeatedly? What caused the most confusion? What do parents say they wish they'd known? What are the highest-anxiety decision points?
+
+**Phase 0 gate check — cannot proceed to question tree until:**
+- [ ] At least 10 distinct pain points extracted in real user language (not AI paraphrase)
+- [ ] At least 2 different source domains successfully fetched (not just search summaries)
+- [ ] Pain points span at least 3 of these categories: process/logistics, financial, emotional/strategic, assessment, post-decision
+- [ ] Community source access failure documented (which domains blocked, which accessible)
+
+If the gate cannot be cleared (all community sources blocked), document this explicitly in landscape.yaml under `source_access_failures` and flag to the human before proceeding.
 
 **Step 2: Resource ecosystem (1-2 searches)**
 
@@ -225,11 +243,31 @@ preliminary_question_seeds:
     urgency: high
 ```
 
-**Step 5: Extract pain points as question seeds**
+**Step 5: Extract pain points as question seeds + coverage mapping**
 
-The `common_pain_points` and `preliminary_question_seeds` from the landscape scan become HIGH-PRIORITY seeds for the question tree. Ensure the question tree directly answers everything on the pain points list — these are questions real people are confused about, not questions the AI imagines they should have.
+The `common_pain_points` and `preliminary_question_seeds` from the landscape scan become HIGH-PRIORITY seeds for the question tree.
 
-**Important:** After Phase 0, you should confirm the topic scope is correct before writing the full question tree. Run 1-2 additional searches if needed to calibrate entity count and geographic scope.
+Before writing the question tree, produce a **pain point coverage map**:
+
+```
+Pain point: "Does applying for financial aid hurt our admission chances?"
+  source: cardinaleducation.com (fetched)
+  urgency: high
+  covered_by_question: NONE  ← gap
+  action: must add to question tree
+
+Pain point: "Which preschools pipeline into which K schools?"
+  source: ruthkrishnan.com (fetched)
+  urgency: high
+  covered_by_question: q023 (feeder preschools)
+  action: adequate
+```
+
+Every pain point with `covered_by_question: NONE` must become a question in the tree. The question tree cannot be written until all high-urgency pain points are mapped to at least one question.
+
+The distinction that matters: **experiential/decision-making questions** (what do I actually do? what do I say? what happens if X?) must be represented alongside **informational/factual questions** (what exists? what are the deadlines?). A question tree with only factual questions produces a wiki that is accurate but not helpful.
+
+**Important:** After Phase 0, confirm the topic scope is correct before writing the full question tree. Run 1-2 additional searches if needed to calibrate entity count and geographic scope.
 
 ---
 
@@ -364,6 +402,8 @@ Before writing the plan, verify:
 5. Breadth phase has at least 5 and no more than 15 questions
 6. Every question has a concrete, searchable answer (not "how does this feel?" but "what are the requirements?")
 7. Budget is allocated: breadth ≤30%, depth ≤50% of remaining, gap-fill gets remainder
+8. **Every high-urgency pain point from Phase 0 maps to at least one question** — check the coverage map; any unmapped high-urgency pain point blocks writing
+9. **At least 30% of questions are experiential/decision-making type** — questions starting with "What should a parent do when...", "How do families decide between...", "What are the risks of...", "What happens if..." — not just "What are the requirements for..."
 
 ---
 
@@ -374,6 +414,8 @@ Before writing the plan, verify:
 - Do NOT set composite score > 9.0 for more than 3 questions in any plan
 - If user context explicitly excludes a sub-topic (e.g., "not South Bay"), questions about excluded sub-topic get `user_value: 1` (not removed — they may still be valuable for comparison)
 - Gap-fill phase MUST be left empty at plan creation — only research-agent populates it
+- **Do NOT start the question tree if Phase 0 gate check fails.** A question tree built without community pain points will systematically miss experiential and decision-making questions. Flag the failure, document which sources were blocked, and surface to the human.
+- **Do NOT silently substitute L3 sources when community sources fail.** If a search for Reddit/forum content returns only consulting blogs, record this as a community signal gap in landscape.yaml, not as community signal obtained. The distinction matters for downstream quality.
 
 ---
 
@@ -387,4 +429,4 @@ You do not interact with these agents directly. The pipeline orchestrator sequen
 
 ---
 
-*LLM Knowledge Base | Research Planner Agent | v2.0*
+*LLM Knowledge Base | Research Planner Agent | v2.1*

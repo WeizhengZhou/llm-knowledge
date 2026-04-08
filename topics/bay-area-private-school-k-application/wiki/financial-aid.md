@@ -79,6 +79,34 @@ According to Marin Country Day School, the school uses the Clarity platform for 
 
 According to Nueva School, financial aid vouchers are available for IQ assessment costs. According to Nueva School, the financial aid application deadline is February 3, 2026.
 
+## Does Applying for Aid Hurt My Chances?
+
+This is the highest-anxiety financial question for applicant families. The short answer: at most Bay Area schools, the impact is unknown because schools do not disclose their process. At one school, the answer is confirmed.
+
+### Confirmed Need-Blind: Nueva School
+
+Nueva School employs need-blind admissions: the admissions committee reviews applications without knowledge of financial assistance requests, and a separate committee determines financial assistance eligibility.
+
+However, there is an important nuance: According to Nueva School, budget constraints may prevent admitting otherwise qualified applicants when the school cannot meet their financial need, making this a modified need-blind approach at the margins.
+
+### The Wider Bay Area
+
+Berkeley Parents Network (BPN), a community forum, states that 'many Bay Area private schools have a policy of blind admissions.' However, the only Bay Area school confirmed to use need-blind admissions from an L1 official source is Nueva School. The claim that 'many' schools follow this practice is unverified beyond Nueva.
+
+> **Epistemic note:** The claim that most Bay Area schools are need-blind
+> appeared on Nueva School's official website as a BPN quotation. An L4
+> claim does not inherit L1 confidence by appearing on an L1 page (mof015).
+> Do NOT generalize Nueva's confirmed need-blind policy to other schools
+> without L1 confirmation from each school.
+
+According to Almaden Country Day School, admissions is need-blind (C269 -- single official source).
+
+### Practical Guidance
+
+There is no income limit that automatically makes a family ineligible for financial aid at Bay Area private schools. Nueva School demonstrates this by providing meaningful aid to families earning above $250,000 (58% of aided families). Schools set their own guidelines.
+
+The pragmatic advice: apply for aid if you need it. The risk of enrolling without aid and being unable to sustain tuition over 13 years is greater than any unquantified risk from a need-aware admissions process. For detailed cost planning and income bracket analysis, see [[guides/financial-realities]].
+
 ## Financial Aid Deadlines Summary
 
 | School | Platform | Deadline |
@@ -120,6 +148,7 @@ According to KQED, 30% of K-12 students in San Francisco attend private schools 
 
 ## See Also
 
+- [[guides/financial-realities]] -- True cost of ownership: hidden fees, annual fund, need-blind vs. need-aware, income brackets
 - [[school-profiles-sf]]
 - [[school-profiles-peninsula-east-bay]]
 - [[application-timeline]]

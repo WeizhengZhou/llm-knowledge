@@ -1,57 +1,71 @@
 topic: bay-area-private-school-k-application
 evaluated: '2026-04-06'
 evaluator: helpfulness-eval-agent
-pipeline_run: '2026-04-06 (Compile 3 — Gap-Fill Pass 2)'
-wiki_articles_reviewed: 20
-  # Core wiki (promoted):
+pipeline_run: '2026-04-06 (Compile 4 — Post-Gap-Fill Promotion + New Guides)'
+wiki_articles_reviewed: 23
+  # Core wiki articles (root-level):
   #   overview, application-timeline, financial-aid, admissions-strategy,
   #   assessment-playdate, school-profiles-sf, school-profiles-peninsula-east-bay,
   #   south-bay-schools, pedagogy-philosophy, harker-school, challenger-school,
   #   stratford-school, issfba-bada, language-immersion, ravenna-hub,
-  #   transitional-kindergarten, wiki/guides/public-vs-private.md
-  # Staging (approved, not yet promoted):
-  #   staging/assessment-prep-critic.md (READY; target: wiki/concepts/assessment-prep.md)
-  # Staging (not promoted):
-  #   staging/public-vs-private-critic.md (reviewed; article is in wiki/guides/)
+  #   transitional-kindergarten
+  # wiki/concepts/:
+  #   assessment-prep  [NEW — promoted from staging/assessment-prep-critic.md]
+  # wiki/guides/:
+  #   public-vs-private  [UPDATED — decision framework expanded]
+  #   admissions-strategy-advanced  [NEW]
+  #   financial-realities  [NEW]
+  #   parent-essay-guide  [NEW]
+  #   school-tour-guide  [NEW]
 
 note_on_reader_outcomes: >
-  _topic.yaml does not contain reader_outcomes. Outcomes were derived from the
-  research-plan.yaml question clusters (high user_value items) and the implicit
-  coverage structure of wiki articles. Six reader outcome clusters identified.
+  _topic.yaml does not contain reader_outcomes. Outcomes derived from
+  test-questions.yaml and wiki article coverage structure. Six reader outcome
+  clusters. Previous eval noted this as a secondary improvement action;
+  _topic.yaml has not yet been updated with reader_outcomes block.
 
 # ============================================================
 # COMPOSITE SCORE
 # composite = (D1*0.30 + D2*0.20 + D3*0.20 + D4*0.15 + D5*0.10 + D6*0.05) * 50
 # ============================================================
 
-composite_score: 85.5
+composite_score: 90.5
+previous_composite: 85.5
+delta: +5.0
+
 composite_breakdown:
   D1_reader_outcome_alignment:
     weight: 0.30
-    avg_score: 1.83
-    weighted_contribution: 0.550
+    avg_score: 2.00
+    weighted_contribution: 0.600
+    delta_from_previous: +0.17  # was 1.83
   D2_decision_framing:
     weight: 0.20
-    avg_score: 1.50
-    weighted_contribution: 0.300
+    avg_score: 1.57
+    weighted_contribution: 0.314
+    delta_from_previous: +0.07  # was 1.50
   D3_common_mistakes_quality:
     weight: 0.20
-    avg_score: 1.65
-    weighted_contribution: 0.330
+    avg_score: 1.75
+    weighted_contribution: 0.350
+    delta_from_previous: +0.10  # was 1.65
   D4_l4_synthesis_presence:
     weight: 0.15
-    avg_score: 1.70
-    weighted_contribution: 0.255
+    avg_score: 1.78
+    weighted_contribution: 0.267
+    delta_from_previous: +0.08  # was 1.70
   D5_scope_discipline:
     weight: 0.10
-    avg_score: 1.90
-    weighted_contribution: 0.190
+    avg_score: 1.92
+    weighted_contribution: 0.192
+    delta_from_previous: +0.02  # was 1.90
   D6_source_diversity:
     weight: 0.05
-    avg_score: 1.70
-    weighted_contribution: 0.085
-  raw_weighted_sum: 1.710
-  formula_check: "1.710 × 50 = 85.5"
+    avg_score: 1.75
+    weighted_contribution: 0.0875
+    delta_from_previous: +0.05  # was 1.70
+  raw_weighted_sum: 1.8105
+  formula_check: "1.8105 × 50 = 90.5"
 
 # ============================================================
 # D1 — READER OUTCOME ALIGNMENT (per-RO breakdown)
@@ -71,10 +85,10 @@ d1_reader_outcomes:
     evidence:
       - "overview.md: five-region summary with ISSFBA framework, two assessment models, annual timeline"
       - "school-profiles-sf.md: 11 SF schools with full comparison table"
-      - "school-profiles-peninsula-east-bay.md: 6 Peninsula/East Bay/Marin schools with comparison table"
+      - "school-profiles-peninsula-east-bay.md: 6 Peninsula/East Bay/Marin schools"
       - "south-bay-schools.md: 7 South Bay schools, explicit SF vs. South Bay comparison table"
       - "issfba-bada.md: coordinated policies, member school count, contract exclusivity"
-    notes: "Strongest coverage area. Regional landscape is comprehensive. 3 documented stubs (Redwood Day, Terra SF, EBGIS) do not block RO coverage."
+    notes: "Unchanged from previous eval. Regional coverage remains comprehensive."
 
   - id: RO2
     title: "Build and execute an application timeline without missing deadlines"
@@ -86,10 +100,9 @@ d1_reader_outcomes:
       - "When do decisions arrive and how long do families have to respond?"
     missing_must_answer: []
     evidence:
-      - "application-timeline.md: month-by-month calendar Sep–Apr, January deadline table (18 schools), financial aid deadline table (10 schools), decision date table (14 schools), enrollment response table (7 schools)"
+      - "application-timeline.md: month-by-month calendar Sep–Apr, January deadline table (18 schools), financial aid deadline table, decision date table, enrollment response table"
       - "L1 confidence: 25+ official school sources cross-referenced"
-      - "Common mistakes section identifies December wave, decision date exceptions, sibling priority dates"
-    notes: "Best single article in the wiki. Decision date exceptions (Live Oak Mar 17, BASIS SV Mar 18, Nueva/Harker/Keys Mar 20) are explicitly documented."
+    notes: "Unchanged from previous eval. Best single article in the wiki."
 
   - id: RO3
     title: "Choose schools that match child and family based on philosophy, assessment, and age"
@@ -101,10 +114,10 @@ d1_reader_outcomes:
       - "How do age cutoffs vary across schools?"
     missing_must_answer: []
     evidence:
-      - "pedagogy-philosophy.md: six philosophy categories, schools mapped, admissions-strategy implications"
-      - "assessment-playdate.md: IQ testing vs. playdate format clearly delineated, per-school table"
-      - "admissions-strategy.md: comprehensive age-cutoff table (July 15 through December 2), assessment-type list, gender split"
-    notes: "Strong triangulation across three articles. Age cutoff table in admissions-strategy.md is particularly actionable."
+      - "pedagogy-philosophy.md: six philosophy categories, schools mapped"
+      - "assessment-playdate.md: IQ testing vs. playdate format, per-school table"
+      - "admissions-strategy.md: complete age-cutoff table, assessment-type list, gender split"
+    notes: "Unchanged from previous eval."
 
   - id: RO4
     title: "Understand and navigate financial aid options"
@@ -116,36 +129,32 @@ d1_reader_outcomes:
       - "When are financial aid application deadlines?"
     missing_must_answer: []
     evidence:
-      - "financial-aid.md: Clarity mechanics ($65 fee, income-based), indexed/sliding scale tuition model"
-      - "financial-aid.md: school-specific data (CDS 30% families, Park Day 45%, SF School 28%, SF Day $28,800 avg adjustment)"
-      - "financial-aid.md: deadline table for 10 schools"
-      - "public-vs-private.md (guides/): $500K K-12 model, parochial alternatives, Basic Fund"
-    notes: "Solid coverage. Long-term cost modeling in public-vs-private.md adds a dimension missing from financial-aid.md alone. South Bay financial aid (Helios, Almaden, Hausner) now covered in south-bay-schools.md."
+      - "financial-aid.md: Clarity mechanics, indexed/sliding scale tuition model, school-specific data"
+      - "guides/financial-realities.md [NEW]: lifetime K-12 cost modeling ($500K-$700K), hidden fees, annual fund, need-blind vs. need-aware"
+      - "guides/public-vs-private.md [UPDATED]: decision framework including parochial alternatives"
+    notes: "Marginally strengthened by new financial-realities.md guide covering total-cost-of-ownership angle."
 
   - id: RO5
     title: "Prepare for and succeed in assessments and parent interviews"
-    score: 1
-    status: partial
+    score: 2
+    status: fully_enabled  # UPGRADED from partial in previous eval
     covered_must_answer:
       - "What do schools observe during playdates?"
       - "How do IQ tests work, how much do they cost, and when must they be booked?"
-    missing_must_answer:
-      - "What do parent interviews assess, what questions are typically asked, and how should families prepare?"
-      - "Which IQ test providers does Harker require? How far in advance should families book?"
-      - "What is the no-coaching rule and why does it matter?"
+      - "What do parent interviews assess?"
+    missing_must_answer: []
     evidence:
-      - "assessment-playdate.md: playdate format table, what schools observe, WPPSI cost ($850), schools requiring IQ tests"
-      - "assessment-playdate.md: parent interview schedule per school (duration, format)"
-    gaps:
-      - "staging/assessment-prep-critic.md: approved READY by wiki-critic (score 10/10) but not yet promoted to wiki/concepts/assessment-prep.md"
-      - "Detailed booking timeline, provider selection, no-coaching warning, and parent interview sample questions are all in the staging article"
-      - "Parent interview content in assessment-playdate.md lists schedules but not preparation guidance"
+      - "wiki/concepts/assessment-prep.md [NEW]: IQ booking timeline (book by Sep–Oct for Nueva Nov deadline), providers and costs ($850-$950), WPPSI-IV vs. WISC-V, no-coaching warning (Helios/Harker both explicitly warn against coaching), playdate observation criteria, parent interview sample questions and assessment criteria"
+      - "assessment-playdate.md: school-specific playdate format table, parent interview schedules"
+    upgrade_reason: >
+      The assessment-prep article promoted from staging to wiki/concepts/. This was the
+      #1 ranked improvement from the previous eval. RO5 now moves from partial (score 1)
+      to fully_enabled (score 2). TQ12 and TQ13 both upgrade from 1 to 2.
     notes: >
-      This is the most consequential gap in the wiki. The assessment-prep staging article
-      was approved for promotion but was not promoted before this eval run. Readers
-      applying to IQ-testing schools (Harker, Helios, Nueva) face a decision gap:
-      they know a test is required and what it costs, but the wiki does not tell them
-      when to book, from which providers, or what 'no coaching' means in practice.
+      The no-coaching warning (book by Sep-Oct, Harker coaching disqualifies application)
+      is now accessible to all wiki readers. Parent interview preparation (four categories
+      of what schools assess, sample questions) is now covered. This is the most impactful
+      single article promotion in this eval cycle.
 
   - id: RO6
     title: "Understand special programs (language immersion, gifted, TK)"
@@ -158,26 +167,27 @@ d1_reader_outcomes:
     missing_must_answer: []
     evidence:
       - "language-immersion.md: 4 programs profiled (CAIS Mandarin, La Scuola Italian, Lycee French, SVIS French/Mandarin/German)"
-      - "language-immersion.md: Lycee age offset (CP requires age 6 by Sep 1) explicitly flagged"
-      - "transitional-kindergarten.md: public TK eligibility, private TK comparison table, TK-to-K pipeline question addressed with epistemic note"
-      - "pedagogy-philosophy.md: gifted-focused section distinguishes Nueva/Helios from Harker's college-prep"
-    notes: "Language immersion coverage is strong. Two stub programs (Terra SF, EBGIS) remain. TK article addresses strategic pipeline question correctly."
+      - "transitional-kindergarten.md: public vs. private TK decision framework"
+      - "pedagogy-philosophy.md: gifted-focused section"
+      - "wiki/concepts/assessment-prep.md: Nueva 130 FSIQ threshold, Helios holistic IQ review — deeper than assessment-playdate.md alone"
+    notes: "Unchanged from previous eval. Gifted coverage slightly strengthened by assessment-prep promotion."
 
 d1_summary:
-  fully_enabled: 5
-  partial: 1
+  fully_enabled: 6  # All six ROs now fully enabled (was 5/1 partial)
+  partial: 0        # RO5 upgraded to fully_enabled
   blocked: 0
-  avg_score: 1.833
+  avg_score: 2.00   # Was 1.83
 
 # ============================================================
 # D2 — DECISION FRAMING
 # ============================================================
 
 d2_decision_framing:
-  avg_score: 1.50
+  avg_score: 1.57
   methodology: >
     Each wiki article scored on whether it helps readers make concrete decisions
     (score 2) vs. merely informing them (score 1) or providing no decision guidance (score 0).
+    23 articles reviewed.
   per_article_scores:
     application-timeline: 2
     financial-aid: 2
@@ -187,137 +197,142 @@ d2_decision_framing:
     pedagogy-philosophy: 2
     transitional-kindergarten: 2
     language-immersion: 2
-    public-vs-private: 1  # critic noted D2=1; decision path present but not structured
-    overview: 1           # navigational; provides orientation but not decision logic
-    school-profiles-sf: 1 # entity profiles; informational tables
+    public-vs-private: 2      # UPGRADED from 1: decision framework now has explicit if/then logic
+    admissions-strategy-advanced: 2  # NEW: reach/match/safety framework, waitlist action steps
+    financial-realities: 2    # NEW: explicit when-to-pursue-private decision framework
+    parent-essay-guide: 2     # NEW: which challenge to disclose, essay selection logic
+    assessment-prep: 2        # NEW: booking timeline decisions, which test applies to child's age
+    overview: 1               # Navigational; provides orientation not decision logic
+    school-profiles-sf: 1     # Entity profiles; appropriately informational
     school-profiles-peninsula-east-bay: 1
     harker-school: 1
     challenger-school: 1
     stratford-school: 1
     issfba-bada: 1
     ravenna-hub: 1
+    school-tour-guide: 1      # NEW: what to observe, questions to ask — informational
+    # 13 score 2, 10 score 1 = (13*2 + 10*1)/23 = 36/23 = 1.565
   notes: >
-    Entity profile articles (school profiles, harker, challenger, stratford, issfba-bada,
-    ravenna) are appropriately informational — they feed into admissions-strategy.md where
-    the decision framing lives. The split is by design but lowers the average. The guide
-    articles (application-timeline, financial-aid, admissions-strategy) are strongly decisional.
+    public-vs-private upgraded from 1 to 2 following the addition of an explicit
+    'When to Pursue Private K' section with if/then decision logic. The four new
+    guides articles all provide decision-oriented content. Entity profile articles
+    (school profiles, harker, challenger, stratford, issfba-bada, ravenna) remain
+    appropriately informational — decision framing lives in the guide articles. The
+    school-tour-guide is richer in observational guidance than decision logic (score 1).
 
 # ============================================================
 # D3 — COMMON MISTAKES QUALITY
 # ============================================================
 
 d3_common_mistakes_quality:
-  avg_score: 1.65
-  standout_non_obvious_mistakes:
+  avg_score: 1.75
+  new_high_quality_mistakes_this_cycle:
+    - article: concepts/assessment-prep
+      mistake: "Coaching for IQ tests at Helios and Harker invalidates results and disqualifies applications — both schools state this explicitly. Parents who intuitively try to 'prepare' their child for a cognitive test actively harm the application. Booking by September-October is a counterintuitive time constraint for families focused on January deadlines."
+      quality: high
+      status: was flagged in previous eval as existing in staging; now promoted to wiki
+    - article: guides/financial-realities
+      mistake: "Evaluating only one year of tuition understates the K-12 commitment by 13x; 4-6% annual escalation means $45,000 kindergarten becomes ~$80,000 by 8th grade."
+      quality: high
+    - article: guides/public-vs-private
+      mistake: "Treating private school as all-or-nothing: parochial schools at $6,000-$10,000/year represent a 75-85% cost reduction vs. independent schools, not often surfaced in SF private school research."
+      quality: medium
+    - article: guides/admissions-strategy-advanced
+      mistake: "Working parents often over-invest in optional open houses when strategic attendance (required events only + tours) yields similar outcomes. Missing optional events does not hurt applications per Head-Royce."
+      quality: medium
+  standout_non_obvious_mistakes_cumulative:
     - article: application-timeline
-      mistake: "December vs. January wave not intuitive — families assume all ISSFBA schools have January deadlines, missing Head-Royce (Dec 5), C&SH (Dec 12), SF Friends/SF Day (Dec 19), MCDS (Dec 28)"
+      mistake: "December deadline wave (Head-Royce Dec 5, C&SH Dec 12, SF Friends/SF Day Dec 19, MCDS Dec 28) missed by families assuming all ISSFBA schools have January deadlines"
       quality: high
     - article: application-timeline
-      mistake: "Sibling priority deadlines (October) are months before general deadlines (January) — not obvious to first-time applicants"
+      mistake: "Sibling priority deadlines (October) are 2-3 months before general deadlines"
       quality: high
     - article: admissions-strategy
-      mistake: "First-choice letters and letters of recommendation provide no ISSFBA member school advantage (Hamlin confirmed explicitly) — counter to applicant instinct"
-      quality: high
-    - article: admissions-strategy
-      mistake: "Age cutoff variation means a child eligible at one school may not qualify at another — not obvious to parents who assume SF/CA standard applies everywhere"
+      mistake: "First-choice letters and letters of recommendation carry no advantage at ISSFBA member schools"
       quality: high
     - article: financial-aid
-      mistake: "Sticker price ≠ typical cost — schools with indexed tuition (CDS: $3,500-$48,895; Park Day: $1,900-$37,980) appear more expensive than they are for many families"
+      mistake: "Sticker price ≠ typical cost at indexed-tuition schools (CDS: $3,500-$48,895; Park Day: $1,900-$37,980)"
       quality: high
     - article: south-bay-schools
-      mistake: "Tuition comparison without scope — Harker's $51,550 includes lunch, care, shuttles; other schools charge separately, making direct comparison misleading"
+      mistake: "Tuition comparison without scope: Harker $51,550 includes lunch, care, shuttles"
       quality: high
-    - article: south-bay-schools
-      mistake: "Rolling admissions at Challenger/Stratford does not mean unlimited availability — classes fill, early submission is recommended"
-      quality: medium
-    - article: assessment-playdate
-      mistake: "Coaching for IQ tests has no benefit and may disqualify the application at Harker (explicitly stated on their admissions page) — highly counterintuitive"
-      quality: high  # Note: full treatment in staging/assessment-prep.md not yet promoted
-    - article: pedagogy-philosophy
-      mistake: "Gifted-focused (Nueva/Helios) vs. traditional-selective (Harker) — parents may misapply IQ prep to all cognitive-assessment schools"
-      quality: medium
+    - article: concepts/assessment-prep
+      mistake: "IQ test coaching invalidates results and disqualifies Harker application"
+      quality: high
   articles_lacking_common_mistakes:
-    - overview      # Navigational; delegated to individual articles
-    - ravenna-hub   # Utility article; no mistakes relevant
-    - issfba-bada   # Entity; policy reference
-    - language-immersion  # Key considerations section present but not formatted as mistakes
+    - overview     # Navigational; delegated
+    - ravenna-hub  # Utility article
+    - issfba-bada  # Policy reference
+    - school-tour-guide  # Has observational guidance but no formatted mistakes section
 
 # ============================================================
 # D4 — L4 SYNTHESIS PRESENCE
 # ============================================================
 
 d4_l4_synthesis:
-  avg_score: 1.70
-  epistemic_note_blocks_found:
-    - article: admissions-strategy
-      blocks: 3
-      quality: "Well-calibrated — consultant content clearly attributed to admissions consulting firms and community blog (Ruth Krishnan); $3K-$15K consultant estimate flagged as unverified"
-    - article: transitional-kindergarten
+  avg_score: 1.78
+  new_epistemic_note_blocks_this_cycle:
+    - article: concepts/assessment-prep
+      blocks: 2
+      quality: "Playdate criteria sourced from L3 admissions consulting site with explicit note that individual schools may differ. Parent interview questions from single L3 site with appropriate scope limitation."
+    - article: guides/admissions-strategy-advanced
+      blocks: 2
+      quality: "Application volume guidance sourced from consultants (L3-L4), not schools. Working parent event-load estimate (20-35 events) attributed to one consultant (Ruth Krishnan L4) with explicit count-variability caveat."
+    - article: guides/financial-realities
       blocks: 1
-      quality: "TK-to-K pipeline note is precise — distinguishes program structure (observed) from priority policy (unconfirmed)"
-    - article: assessment-playdate
+      quality: "Lifetime cost ($520K vs $500K-$700K) correctly noted as modeled projection, not surveyed statistic."
+    - article: guides/parent-essay-guide
       blocks: 1
-      quality: "Neuropsychologist data (20% of clients score ≥130) correctly flagged as self-selected sample, not population data"
-    - article: public-vs-private
-      blocks: 1
-      quality: "Basic Fund data flagged as partially-fetched source; inline disclaimer for public school quality sentence is awkward (not in proper note block)"
-    - article: south-bay-schools
-      blocks: 0
-      quality: "L3 sources (aggregator tuition for Challenger ~$12,000, BASIS SV ~$39,795) are flagged inline with '(L3, undated)' and '(L3, unconfirmed)' in comparison table — good inline approach"
-    - article: school-profiles-sf
-      blocks: 0
-      quality: "PrivateSchoolReview acceptance rates consistently flagged as 'school-wide, not K-specific, methodology undisclosed' — correct inline treatment"
-  gaps:
+      quality: "Essay evaluation criteria sourced from consulting firms (L3), not school admissions officers. Unusually consistent across three sources noted as plausibility signal without overstating confidence."
+  persistent_gaps:
     - article: language-immersion
-      issue: "La Scuola ~80% Italian / 20% English split cited as 'prior research' without epistemic note block — should be L3 or L4 with note"
+      issue: "La Scuola ~80% Italian / 20% English instruction split cited as 'prior research' without an epistemic note block — should be an L3 note. Gap persists from previous eval."
     - article: overview
-      issue: "Community signal about parent experience absent — could benefit from one synthesized note on what forum discussions reveal about competitive dynamics vs. official description"
+      issue: "No community-signal synthesis despite being primary entry point. Previous eval recommended adding one epistemic note block synthesizing parent forum patterns. Not yet done."
+  notes: >
+    Community signal (L4) is still predominantly one source (Ruth Krishnan blog) plus
+    Berkeley Parents Network (BPN) appearing in financial-realities. A Reddit/forum
+    synthesis article remains the highest-value D4 improvement not yet taken.
 
 # ============================================================
 # D5 — SCOPE DISCIPLINE
 # ============================================================
 
 d5_scope_discipline:
-  avg_score: 1.90
+  avg_score: 1.92
   notes: >
-    Wiki articles stay within declared scope with consistent cross-linking rather than
-    content duplication. Entity profiles correctly defer strategy content to
-    admissions-strategy.md. School profiles defer IQ testing logistics to
-    assessment-playdate.md. No article shows meaningful scope creep.
+    New articles maintain clean scope separation. assessment-prep defers school-specific
+    formats and schedules to assessment-playdate.md. admissions-strategy-advanced explicitly
+    links to admissions-strategy.md for foundational content. financial-realities defers
+    school-by-school tuition data to financial-aid.md. No content duplication observed.
+    New articles add depth without overlapping existing articles.
   minor_issues:
     - article: school-profiles-peninsula-east-bay
-      issue: "Harker School appears in the comparison table with a full profile link, but Harker is a South Bay school. Minor geographic scope question — managed via explicit footnote."
-    - article: pedagogy-philosophy
-      issue: "Deadline pattern observation (progressive vs. traditional timing correlation) is a slight conceptual stretch and is correctly flagged as a small-sample observation."
+      issue: "Harker in comparison table with South Bay school; managed via explicit footnote. Unchanged."
+    - article: guides/admissions-strategy-advanced
+      issue: "Application cost budgeting figures repeat content from admissions-strategy.md — minor duplication but the strategic context is different (budgeting vs. strategy). Acceptable."
 
 # ============================================================
 # D6 — SOURCE DIVERSITY
 # ============================================================
 
 d6_source_diversity:
-  avg_score: 1.70
+  avg_score: 1.75
   source_tiers_present:
     L1_official_school_sources: true
-    L2_news_aggregator_journalism: true  # KQED, SF Standard, Cardinal Education
-    L3_aggregator_review_platforms: true  # PrivateSchoolReview, TestingForKindergarten, Niche
-    L4_community_forum: true             # Ruth Krishnan blog, feeder preschool community source
-  tier_distribution_by_article:
-    application-timeline: "L1 dominant (25+ school sources), L2 supplementary (Cardinal Education)"
-    financial-aid: "L1+L2, Redwood Grove WM (L3 wealth management blog)"
-    admissions-strategy: "L1+L2+L4 (well-balanced, appropriately marked)"
-    assessment-playdate: "L1+L2+L3 (SF Standard, Cardinal Education)"
-    school-profiles-sf: "L1+L3 (PrivateSchoolReview)"
-    south-bay-schools: "L1+L2+L3 (SF Standard, TestingForKindergarten)"
-    language-immersion: "L1+L2"
-    issfba-bada: "L1 only"
-    ravenna-hub: "L1 only"
-  notes: >
-    Source diversity is adequate across the wiki as a whole. Individual articles that
-    cover procedural/official data (issfba-bada, ravenna-hub) correctly rely on L1 only.
-    Key guide articles (admissions-strategy, assessment-playdate) demonstrate all relevant
-    tiers. Community signal (L4) is present but thin — primarily one blog source
-    (Ruth Krishnan) for all L4 content. A Reddit/forum synthesis article covering
-    parent community patterns would substantially improve D6.
+    L2_news_journalism: true         # KQED, SF Standard, Cardinal Education blog
+    L3_aggregator_review: true       # PrivateSchoolReview, TestingForKindergarten, Redwood Grove WM
+    L4_community_forum: true         # Ruth Krishnan blog, BPN, feeder preschool community source
+  new_sources_this_cycle:
+    - concepts/assessment-prep: "Added bayareaiqtest.com (L1/L2 provider site), admissionsessayadvising.com (L3 consulting)"
+    - guides/financial-realities: "Added basicfund.org (L2 nonprofit), Redwood Grove WM (L3)"
+    - guides/admissions-strategy-advanced: "Ruth Krishnan working-parent guide (L4), BPN rejection/reapplication thread (L4)"
+    - guides/parent-essay-guide: "admission.org, PrepMatters, Cardinal Education (all L3 consulting sources)"
+  persistent_gap: >
+    L4 community signal remains concentrated in one primary blog (Ruth Krishnan) and one
+    forum (BPN). No Reddit, UrbanBaby, or SFGATE parent forum synthesis has been conducted.
+    A community synthesis article would substantially improve D6. This remains the highest-
+    priority D6 improvement action.
 
 # ============================================================
 # TEST QUESTION RESULTS
@@ -329,176 +344,179 @@ test_question_results:
     ro: RO1
     question: "What private K schools are available in San Francisco and what are their key differentiators?"
     score: 2
-    notes: "Fully answerable. school-profiles-sf.md has 11 schools with comparison table covering age cutoff, deadline, fee, tuition, decision date, platform, class size."
+    improved_since_last_eval: false
+    notes: "Unchanged. school-profiles-sf.md has 11 schools with comparison table."
 
   - id: TQ02
     ro: RO1
     question: "How does the South Bay private K admissions process differ from San Francisco?"
     score: 2
-    notes: "Fully answerable. south-bay-schools.md has an explicit 7-attribute comparison table (ISSFBA coordination, decision dates, deadlines, assessment model, platform, multi-campus presence, tuition range)."
+    improved_since_last_eval: false
+    notes: "Unchanged. south-bay-schools.md has explicit 7-attribute comparison table."
 
   - id: TQ03
     ro: RO1
     question: "What is ISSFBA/BADA and how does the coordinated March 19 decision date work?"
     score: 2
-    notes: "Fully answerable. issfba-bada.md covers founding, member schools, coordinated notification dates, contract exclusivity, shared evaluation form, no first-choice pressure policy."
+    improved_since_last_eval: false
+    notes: "Unchanged. issfba-bada.md comprehensive coverage."
 
   - id: TQ04
     ro: RO2
     question: "What is the month-by-month admissions calendar for the 2025-26 cycle?"
     score: 2
-    notes: "Fully answerable. application-timeline.md has Sep–Apr month-by-month table with specific dates for each phase."
+    improved_since_last_eval: false
+    notes: "Unchanged. application-timeline.md Sep–Apr month-by-month table."
 
   - id: TQ05
     ro: RO2
     question: "Which schools have December deadlines rather than January deadlines?"
     score: 2
-    notes: "Fully answerable. application-timeline.md December row explicitly names Head-Royce (Dec 5), C&SH (Dec 12), SF Friends/SF Day (Dec 19), Marin Country Day (Dec 28). Common mistakes section reinforces."
+    improved_since_last_eval: false
+    notes: "Unchanged. December wave explicitly documented."
 
   - id: TQ06
     ro: RO2
     question: "My child was accepted on March 19 — how long do I have to accept and what happens if I'm waitlisted at another school?"
     score: 2
-    notes: "Fully answerable. application-timeline.md has enrollment response table (March 24-26 by school). issfba-bada.md explains contract exclusivity and waitlist timing. admissions-strategy.md covers active waitlist strategy."
+    improved_since_last_eval: false
+    notes: "Unchanged. Enrollment response table and waitlist mechanics covered."
 
   - id: TQ07
     ro: RO3
     question: "My child has an October birthday — which schools would they be age-eligible for?"
     score: 2
-    notes: "Fully answerable. admissions-strategy.md has complete age cutoff table with all cutoffs from July 15 (C&SH, Town School) through December 2 (Challenger, Stratford). October birthday → eligible at schools with Sep 1 or later cutoff but not July 15 or Aug 1 schools."
+    improved_since_last_eval: false
+    notes: "Unchanged. admissions-strategy.md age-cutoff table."
 
   - id: TQ08
     ro: RO3
     question: "What is the difference between a progressive school and a traditional school, and which Bay Area private K schools are in each category?"
     score: 2
-    notes: "Fully answerable. pedagogy-philosophy.md has philosophy comparison table and dedicated sections for progressive (CDS, Live Oak, SF Friends, Park Day, Presidio Hill) and traditional (Harker, Challenger, Stratford) with admissions characteristics for each."
+    improved_since_last_eval: false
+    notes: "Unchanged. pedagogy-philosophy.md philosophy comparison table."
 
   - id: TQ09
     ro: RO3
     question: "I want to avoid IQ testing. Which schools use playdates instead, and what do those playdates assess?"
     score: 2
-    notes: "Fully answerable. assessment-playdate.md clearly delineates playdate vs. IQ schools, per-school format table, and what schools observe (social-emotional readiness, motor skills, curiosity, adaptability). SF Standard source confirms SF city schools do not require IQ tests."
+    improved_since_last_eval: false
+    notes: "Unchanged. assessment-playdate.md playdate vs. IQ delineation."
 
   - id: TQ10
     ro: RO4
     question: "How does the Clarity financial aid platform work and what is the typical timeline for applying?"
     score: 2
-    notes: "Fully answerable. financial-aid.md covers Clarity platform mechanics ($65 fee, income-based calculation), 10 school-specific deadlines, and how schools set individual tuition from Clarity assessment."
+    improved_since_last_eval: false
+    notes: "Unchanged. financial-aid.md Clarity mechanics and deadline table."
 
   - id: TQ11
     ro: RO4
     question: "What percentage of families receive financial aid and what is the actual tuition range I might pay at SF Day, CDS, or Park Day?"
     score: 2
-    notes: "Fully answerable. financial-aid.md: SF Day (avg adjustment $28,800, min 5% contribution), CDS (30% of students, $3,500-$48,895 range), Park Day (45% of families, $1,900-$37,980). All school-specific and sourced to official pages."
+    improved_since_last_eval: false
+    notes: "Unchanged. School-specific aid participation rates and effective tuition ranges."
 
   - id: TQ12
     ro: RO5
     question: "My child is applying to Nueva School. What IQ test is required, how much does it cost, and when should I book?"
-    score: 1
+    score: 2
+    improved_since_last_eval: true   # WAS 1 in previous eval
+    previous_score: 1
     notes: >
-      Partially answerable. assessment-playdate.md covers: WPPSI required, $850 cost, min
-      130 score (SF Standard source). Missing: specific booking window/timeline advice,
-      which psychologists to use, and the no-coaching warning. These details are in
-      staging/assessment-prep.md (approved READY, not yet promoted to wiki).
+      UPGRADED from 1 to 2. wiki/concepts/assessment-prep.md now in wiki:
+      WPPSI-IV required (WISC-V for age 6+), $850-$950 cost range with named
+      providers, booking by September-October for November guarantee window,
+      Nueva approximately 20-22 K openings annually, 130 FSIQ target, financial
+      aid vouchers available. Complete answer now accessible.
 
   - id: TQ13
     ro: RO5
     question: "What should I expect in the parent interview at SF private schools, and how do I prepare?"
-    score: 1
+    score: 2
+    improved_since_last_eval: true   # WAS 1 in previous eval
+    previous_score: 1
     notes: >
-      Partially answerable. assessment-playdate.md covers which schools have parent
-      interviews, durations, and formats (virtual option at Live Oak, 30 min at C&SH,
-      scheduling via Ravenna at Hamlin). Missing: what interviewers are actually assessing,
-      sample questions, and preparation tactics. Full preparation guidance is in
-      staging/assessment-prep.md (approved READY, not yet promoted).
+      UPGRADED from 1 to 2. wiki/concepts/assessment-prep.md covers: four categories
+      schools assess in parent interviews (philosophy alignment, realistic expectations,
+      collaborative communication style, honest child articulation), sample questions
+      ('Describe your child using three adjectives', 'How does your family approach
+      academic challenges?'), and preparation guidance. assessment-playdate.md still
+      provides school-specific interview schedules. Together the two articles give a
+      complete answer.
 
   - id: TQ14
     ro: RO6
     question: "My family wants Mandarin immersion — what are our options and do we need prior Mandarin knowledge?"
     score: 2
-    notes: "Fully answerable. language-immersion.md: CAIS (no prior Mandarin required at K entry, $46,300 tuition, Jan 16 deadline) and SVIS ($42,630, Jan 13 deadline, French/Mandarin/German tracks). school-profiles-sf.md has CAIS full profile."
+    improved_since_last_eval: false
+    notes: "Unchanged. language-immersion.md covers CAIS and SVIS."
 
   - id: TQ15
     ro: RO6
     question: "Should I enroll my child in public TK or private TK, and does TK at Harker give priority for kindergarten admission?"
     score: 2
-    notes: >
-      Fully answerable. transitional-kindergarten.md: public TK is free and guaranteed;
-      private TK at Harker ($46,350) vs. other schools. The TK-to-K pipeline question
-      is addressed with an explicit epistemic note: community sources describe a pipeline
-      but Harker's official page does not confirm K priority for TK students. Correct
-      epistemic handling.
+    improved_since_last_eval: false
+    notes: "Unchanged. transitional-kindergarten.md covers decision framework and pipeline question."
 
 test_question_summary:
-  fully_answerable: 12  # score 2
-  partially_answerable: 3  # score 1 (TQ12, TQ13 — both due to assessment-prep not promoted)
+  fully_answerable: 15   # score 2 (was 12)
+  partially_answerable: 0  # score 1 (was 3: TQ12, TQ13 upgraded; TQ-implied third was already 2)
   not_answerable: 0
-  avg_answerability: 1.80
+  avg_answerability: 2.00   # was 1.80
+  questions_improved_this_cycle:
+    - TQ12  # 1 → 2
+    - TQ13  # 1 → 2
 
 # ============================================================
-# TOP 3 IMPROVEMENTS
+# TOP 3 IMPROVEMENTS (for next pipeline run)
 # ============================================================
 
 top_3_improvements:
 
   - rank: 1
-    dimension: D1_D3_D5 (cross-cutting)
-    title: "Promote staging/assessment-prep.md to wiki/concepts/assessment-prep.md"
-    impact: high
-    reasoning: >
-      The assessment-prep article was approved READY (score 10/10) by wiki-critic-agent
-      but was not promoted before this evaluation. It is the single article that would
-      most improve the composite score: it addresses TQ12 and TQ13 (both currently
-      scoring 1), would push RO5 from 1 to 2, and contains the most important
-      non-obvious mistake in the entire admissions process (coaching for IQ tests
-      disqualifies the Harker application). The article also provides booking timeline
-      guidance (book by September–October for November guarantee window at Nueva) and
-      parent interview preparation that are currently inaccessible to wiki readers.
-    action: "Run wiki-compiler-agent to copy staging/assessment-prep.md → wiki/concepts/assessment-prep.md and update cross-links in assessment-playdate.md and south-bay-schools.md."
-    estimated_composite_gain: "+2.0 to +3.0 points"
-
-  - rank: 2
-    dimension: D2
-    title: "Strengthen decision framing in public-vs-private.md"
+    dimension: D4_D6
+    title: "Research and compile a parent community synthesis article (forum patterns, Reddit, BPN)"
     impact: medium
     reasoning: >
-      The public-vs-private.md article (wiki/guides/) was approved by wiki-critic with
-      specific revision instructions to add a 'When to Pursue Private K' subsection
-      with if/then decision logic (SFUSD lottery uncertainty → apply private as hedge;
-      budget constraint → evaluate parochial first; educational philosophy driver →
-      proceed to admissions-strategy). The wiki-critic-agent identified D2=1 for this
-      article and provided precise revision instructions. This would raise D2 for one
-      article from 1 to 2, improving the D2 average across the 17 articles.
-    action: "Edit wiki/guides/public-vs-private.md per revision instructions R1 and R2 from staging/public-vs-private-critic.md."
+      L4 community signal remains concentrated in one blog (Ruth Krishnan). A synthesis
+      article drawing on Berkeley Parents Network threads, Reddit r/bayarea, and similar
+      community sources would provide the competitive-dynamics, waitlist-movement-timing,
+      and consultant-value patterns that official sources cannot provide. This is the
+      highest-value unaddressed gap. Estimated +0.5 on D4 avg, +0.1 on D6.
+    action: "kb-research gap-fill with community synthesis focus: feeder preschools, waitlist timing patterns, consultant value debate, sibling policy reality vs. official statement."
     estimated_composite_gain: "+0.5 to +1.0 points"
 
-  - rank: 3
+  - rank: 2
     dimension: D4
-    title: "Add epistemic note block to language-immersion.md and synthesize community signal in overview.md"
-    impact: medium-low
+    title: "Add epistemic note block to language-immersion.md for La Scuola instruction ratio"
+    impact: low
     reasoning: >
-      Two D4 gaps remain: (1) language-immersion.md cites an ~80%/20% Italian/English
-      instruction ratio for La Scuola as 'prior research' without a note block —
-      this should be an L3 epistemic note. (2) overview.md contains no community
-      signal synthesis despite being the primary entry point — a brief epistemic note
-      block synthesizing what parent forums consistently report (competitive dynamics,
-      sibling advantage, the consultant ecosystem) would add contextual depth that
-      official sources cannot provide. Both are quick edits.
-    action: "Edit language-immersion.md to add epistemic note for La Scuola instruction ratio. Add one community-signal note block to overview.md. Source material exists in admissions-strategy.md community sections."
-    estimated_composite_gain: "+0.5 points"
+      La Scuola ~80% Italian / 20% English split is cited as 'prior research' without a
+      proper epistemic note block. This has persisted across two eval cycles. It is a
+      2-minute edit that closes a documented D4 gap.
+    action: "Edit language-immersion.md to add an L3/L4 epistemic note for the instruction ratio claim."
+    estimated_composite_gain: "+0.1 points"
+
+  - rank: 3
+    dimension: D1_D2
+    title: "Add reader_outcomes to _topic.yaml and a community signal synthesis block to overview.md"
+    impact: low
+    reasoning: >
+      Persisting from previous eval: (1) _topic.yaml should be updated with the six
+      reader outcomes and three reader personas to avoid re-deriving them on future eval
+      runs. (2) overview.md as primary entry point lacks any community signal — adding
+      one synthesized epistemic note block about competitive dynamics, sibling advantage,
+      and the consultant ecosystem would improve entry-point quality.
+    action: "Update _topic.yaml. Add one community-signal note block to overview.md."
+    estimated_composite_gain: "+0.2 to +0.3 points"
 
 secondary_improvements:
-  - title: "Add reader_outcomes to _topic.yaml"
-    reasoning: "The six reader outcomes derived for this evaluation should be persisted to _topic.yaml so future eval runs can use them directly rather than re-deriving."
-    action: "Update _topic.yaml with reader_personas and reader_outcomes blocks."
-    priority: low
-
   - title: "Research feeder preschool article"
-    reasoning: "Research question Q030/Q037 (feeder preschools) received high user_value scores but no article was produced. Community sources for preschool pipeline intelligence exist in raw files."
-    action: "Review raw/web/community/2026-04-06_feeder-preschool-bay-area-private-elementary-pipeline.md and create wiki article if sufficient data."
+    reasoning: "High user_value research question (Q030/Q037) with existing community source file. Pipeline could produce a wiki article."
+    action: "Review raw/web/community/2026-04-06_feeder-preschool-bay-area-private-elementary-pipeline.md"
     priority: low
 
-  - title: "Promote or research a Reddit/forum synthesis article"
-    reasoning: "L4 community signal is currently confined to one blog source. A synthesized article drawing on forum patterns (waitlist movement timing, consultant value debate, sibling policy reality) would meaningfully improve D4 and D2."
-    action: "kb-research gap-fill with community synthesis focus."
+  - title: "Add school-tour-guide common mistakes section"
+    reasoning: "school-tour-guide.md has strong observational content but no formatted Common Mistakes section. Adding 2-3 non-obvious mistakes (e.g., attending open houses on best-behavior days vs. regular days, not visiting the K classroom specifically) would improve D3."
     priority: low

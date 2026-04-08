@@ -1,0 +1,525 @@
+# Landscape Scan — Bay Area Private School K Application
+# Phase 0 deliverable: UGC mining, resource ecosystem, source tier assessment
+# Generated: 2026-04-06
+# Agent: research-planner-agent
+
+topic: Bay Area private school K application
+slug: bay-area-private-school-k-application
+scan_date: "2026-04-06"
+searches_used: 8
+
+# =============================================================================
+# ENTITIES DISCOVERED
+# =============================================================================
+
+entities_discovered:
+
+  schools_sf:
+    - name: The Hamlin School
+      type: all-girls K-8
+      notes: "Selective; sibling priority but not guarantee; draws from 49+ preschools"
+    - name: "Burke's School"
+      type: all-girls K-8
+    - name: Town School for Boys
+      type: all-boys K-8
+    - name: Cathedral School for Boys
+      type: all-boys K-8
+    - name: San Francisco Day School (SF Day)
+      type: co-ed K-8
+      notes: "Adjusted/indexed tuition model"
+    - name: "Children's Day School (CDS)"
+      type: co-ed K-8
+      notes: "Sliding scale tuition"
+    - name: Live Oak School
+      type: co-ed K-8
+      notes: Progressive
+    - name: SF Friends School
+      type: co-ed K-8
+      notes: Quaker
+    - name: Presidio Hill School
+      type: co-ed TK-8
+      notes: Progressive; offers TK
+    - name: Sacred Heart Schools
+      type: co-ed K-12
+      notes: Catholic/Stuart Hall
+    - name: La Scuola
+      type: co-ed PreK-8
+      notes: Italian immersion / Reggio-inspired
+    - name: Chinese American International School (CAIS)
+      type: co-ed PreK-8
+      notes: Mandarin immersion
+    - name: Lycee Francais de San Francisco
+      type: co-ed PreK-12
+      notes: French immersion
+    - name: Brandeis Hillel Day School
+      type: Jewish day school K-8
+    - name: New School San Francisco
+      type: co-ed K-8
+    - name: Terra School SF
+      type: co-ed PreK-8
+      notes: Trilingual (Reggio-inspired)
+
+  schools_east_bay:
+    - name: Head-Royce School
+      type: co-ed K-12
+    - name: Park Day School
+      type: co-ed K-8
+      notes: "Progressive; ~40% of families receive financial aid"
+    - name: Redwood Day School
+      type: co-ed K-8
+      notes: "Tuition ~$37,510; deadline Jan 16"
+    - name: Prospect Sierra School
+      type: co-ed K-8
+    - name: Aurora School
+      type: co-ed K-8
+    - name: Black Pine Circle School
+      type: co-ed K-5
+    - name: The Berkeley School
+      type: co-ed K-8
+      notes: "Strong student-to-teacher ratio per BPN parents"
+    - name: Bentley School
+      type: co-ed K-12
+
+  schools_peninsula:
+    - name: Nueva School
+      type: co-ed K-12
+      notes: "Gifted focus; IQ 130+ for admission; Hillsborough campus"
+    - name: Keys School
+      type: co-ed K-8
+      notes: Palo Alto
+    - name: Peninsula School
+      type: co-ed K-8
+      notes: Progressive; Menlo Park
+    - name: Synapse School
+      type: co-ed TK-8
+      notes: Menlo Park; offers TK
+    - name: Silicon Valley International School
+      type: co-ed PreK-8
+      notes: "Formerly ISTP; French immersion"
+
+  schools_south_bay:
+    - name: The Harker School
+      type: co-ed TK-12
+      notes: "Tuition ~$49,900; IQ test required; deadline Jan 8; offers TK"
+    - name: Helios School
+      type: co-ed
+      notes: "Sunnyvale; gifted focus; IQ test required"
+    - name: Challenger School
+      type: co-ed PreK-8
+      notes: "8 South Bay campuses; rolling admissions; ~$12K tuition; structured/direct instruction"
+    - name: Stratford School
+      type: co-ed PreK-8
+      notes: "8+ South Bay campuses; rolling admissions; ~$25,170 tuition; traditional"
+    - name: Gideon Hausner Jewish Day School
+      type: Jewish day school PK-8
+      notes: "Palo Alto; decision Feb 19 (not ISSFBA)"
+    - name: BASIS Independent Silicon Valley
+      type: co-ed TK-12
+      notes: "Tuition ~$39,795; 56% acceptance rate"
+
+  schools_marin:
+    - name: Marin Country Day School
+      type: co-ed K-8
+    - name: Marin Horizon School
+      type: co-ed PreK-8
+    - name: Marin Waldorf School
+      type: Waldorf K-12
+    - name: Ring Mountain Day School
+      type: co-ed
+
+  coordinating_bodies:
+    - name: ISSFBA / BADA
+      role: "Coordinating body for 75+ member independent schools; sets shared notification dates (K-8: March 19 electronic, response March 26)"
+      notes: "Founded early 1990s by 7 K-8 admission directors. 501(c)(6) nonprofit."
+    - name: CAIS (California Association of Independent Schools)
+      role: State-level accrediting and membership body
+    - name: NAIS (National Association of Independent Schools)
+      role: National membership and accreditation
+
+  admissions_consultants:
+    - name: Aquino Admissions Consulting
+      principal: Lisa Lau Aquino
+      notes: "Former Hamlin admissions director 20+ years; founding ISSFBA president; SF/Marin focus"
+    - name: Bay Area School Choice
+      focus: "SF/Marin/Peninsula K-12"
+    - name: Live Oak Educational Consulting
+      principal: Natalie
+      notes: "Bay Area-wide TK-8; offers free online course (schoolselectionsuccess.com); 2.5hr video course"
+    - name: Cardinal Education
+      principal: Allen Koh
+      notes: "Founded 2006; offices Burlingame/Woodside; primarily high school/college but covers K admissions"
+    - name: Little and Molligan
+      principal: Paula Molligan
+      notes: "2,000+ families served since 2003; preschool through day school placement"
+    - name: AJ Tutoring
+      notes: "K-12 admission counseling as part of broader tutoring practice"
+
+  platforms:
+    - name: Ravenna Solutions
+      role: "Common application platform used by many ISSFBA member schools and Harker"
+    - name: FAST (Financial Aid for School Tuition)
+      role: Financial aid application platform
+    - name: SSS / Clarity by NAIS
+      role: Financial aid need-assessment platform
+
+  parent_communities:
+    - name: Berkeley Parents Network (BPN)
+      url: https://www.berkeleyparentsnetwork.org
+      notes: "Active forum with school-specific threads; covers waitlist, school choice, financial aid"
+    - name: SF Parents (sfparents.org)
+      notes: "Referenced but limited content found in scan"
+    - name: Parents Press
+      url: https://parentspress.com
+      notes: "Bay Area education publication; articles on interview prep, financial aid, school search"
+    - name: San Francisco Moms (SFMoms)
+      url: https://sanfranciscomoms.com
+      notes: "Articles on consultants and admissions advice"
+    - name: Reddit (r/bayarea, r/sanfrancisco)
+      notes: "BLOCKED by Anthropic crawler — cannot fetch content"
+
+  media_and_content:
+    - name: Ruth Krishnan (SF Realtor)
+      url: https://ruthkrishnan.com
+      notes: "Publishes comprehensive SF private school guides; working parent survival guide"
+    - name: KQED
+      notes: "Coverage of Bay Area private school popularity and cost trends"
+    - name: Marin Magazine
+      notes: "Annual SF Private School Guide"
+    - name: Bay Area Parent Magazine
+      url: https://www.bayareaparent.com
+      notes: "Best Private Elementary Schools listicles"
+    - name: Basic Fund
+      url: https://basicfund.org
+      notes: "Nonprofit providing private school scholarships; published '$500K decision' analysis"
+
+# =============================================================================
+# SOURCE ECOSYSTEM
+# =============================================================================
+
+source_ecosystem:
+
+  tier_1_official:
+    description: "Individual school admissions pages — most reliable for deadlines, requirements, tuition"
+    accessibility: high
+    examples:
+      - sfschool.org/Admissions-Process
+      - hamlin.org/admissions
+      - liveoaksf.org/admissions
+      - harker.org/admission
+      - nuevaschool.org/admissions
+    notes: "Generally scrapable. Some tuition pages use JS rendering (Challenger). Most schools publish detailed process pages with deadlines."
+
+  tier_2_coordinating:
+    description: "ISSFBA/BADA official policies — notification dates, shared forms, ethical guidelines"
+    accessibility: high
+    examples:
+      - issfba.org (BADA website)
+    notes: "Critical for understanding coordinated dates and waitlist mechanics. Surprisingly detailed."
+
+  tier_3_aggregators:
+    description: "School review/comparison platforms — useful for acceptance rates, tuition comparison, school counts"
+    accessibility: high
+    examples:
+      - privateschoolreview.com
+      - niche.com
+    notes: "Acceptance rates from aggregators are estimates, not school-reported. Useful for relative comparison."
+
+  tier_4_expert_content:
+    description: "Admissions consultant blogs, realtor guides, education publications"
+    accessibility: high
+    examples:
+      - cardinaleducation.com (blog posts on admissions)
+      - ruthkrishnan.com (SF private school guides)
+      - parentspress.com (interview prep, financial aid articles)
+      - sanfranciscomoms.com (consultant advice)
+      - bayareaparent.com (school listings)
+      - blog.fms.org (kindergarten options overview)
+    notes: "Rich with 'insider' advice but represents consultant/realtor perspectives. Ruth Krishnan guides are unusually detailed for a realtor blog — covers sibling policy, waitlist strategy, consultant recommendations."
+
+  tier_5_parent_forums:
+    description: "Direct parent experience — highest authenticity, lowest structure"
+    accessibility: mixed
+    reachable:
+      - name: Berkeley Parents Network
+        url: https://www.berkeleyparentsnetwork.org
+        notes: "Accessible; has dedicated threads for private school decisions, financial aid, waitlists, school-specific reviews. Covers East Bay well, SF moderately."
+      - name: Parents Press comments/forums
+        notes: "Articles accessible; limited comment threads"
+    blocked:
+      - name: Reddit (r/bayarea, r/sanfrancisco, r/SFBayHousing)
+        reason: "Blocked by Anthropic crawler. Confirmed unavailable."
+      - name: Private Facebook groups (SF/Bay Area parent groups)
+        reason: "Login-walled; not crawlable"
+      - name: NextDoor
+        reason: "Login-walled; not crawlable"
+    notes: "Reddit being blocked is a significant gap — it is the most active public forum for candid Bay Area parent discussions about private school admissions. Berkeley Parents Network partially compensates but skews East Bay."
+
+  tier_6_financial:
+    description: "Financial planning and aid-specific resources"
+    accessibility: medium
+    examples:
+      - redwoodgrovewm.com (cost-of-private-school analysis)
+      - basicfund.org (scholarship nonprofit; $500K decision article)
+    notes: "Financial planners provide rare long-term cost projections. Basic Fund serves low-income families."
+
+# =============================================================================
+# COMMON PAIN POINTS (real parent language from UGC mining)
+# =============================================================================
+
+common_pain_points:
+
+  - id: pp1
+    category: financial_shock
+    urgency: high
+    parent_language:
+      - "a huge sacrifice"
+      - "K-12 education for twin boys would cost $1 million"
+      - "factoring in a 5% annual increase"
+      - "tuition at some schools is more than $41,000 a year"
+    underlying_question: "What is the REAL total cost including tuition escalation, after-school, fees, and donations over K-8 or K-12?"
+    sources: [basicfund.org, berkeleyparentsnetwork.org]
+
+  - id: pp2
+    category: emotional_toll
+    urgency: high
+    parent_language:
+      - "the emotional toll on working parents cannot be understated"
+      - "stress, anxiety, and feelings of inadequacy"
+      - "comparing family involvement levels to non-working or part-time working families"
+      - "the admissions process is emotional"
+      - "rejection often reflects institutional needs rather than student inadequacy"
+    underlying_question: "How do working parents manage the admissions process without losing their minds, and how should they interpret rejection?"
+    sources: [ruthkrishnan.com, berkeleyparentsnetwork.org]
+
+  - id: pp3
+    category: school_fit_anxiety
+    urgency: high
+    parent_language:
+      - "heart racing episodes at drop off and basically panic attacks"
+      - "after transferring mid-year to a different school, the child no longer had these episodes"
+      - "it remains undetermined whether private school education will be worth it in the long run"
+    underlying_question: "How do you know if a school is actually a good fit for YOUR child, not just prestigious? What are the warning signs of poor fit?"
+    sources: [berkeleyparentsnetwork.org, basicfund.org]
+
+  - id: pp4
+    category: financial_aid_opacity
+    urgency: high
+    parent_language:
+      - "no income limit that automatically makes your family ineligible"
+      - "the financial aid office cannot tell you if your family will qualify until you submit"
+      - "a limited amount of financial aid is available for Kindergarten applicants"
+      - "financial assistance is based solely on demonstrated financial need and varies widely"
+    underlying_question: "Does applying for financial aid hurt my chances of admission? What income level actually qualifies? Is K financial aid less available than later grades?"
+    sources: [berkeleyparentsnetwork.org, parentspress.com, privateschoolreview.com]
+
+  - id: pp5
+    category: information_asymmetry
+    urgency: medium
+    parent_language:
+      - "acceptance rates publicly available only from aggregators, not school-reported"
+      - "waitlist statistics, legacy preference weight, and diversity percentages are not publicly disclosed"
+      - "no SF private school publicly discloses the exact weight given to sibling status"
+    underlying_question: "Why is the process so opaque? What are they actually evaluating, and how can I know where I really stand?"
+    sources: [privateschoolreview.com, research-plan notes]
+
+  - id: pp6
+    category: waitlist_helplessness
+    urgency: high
+    parent_language:
+      - "call the school right away and let admissions officials know that you are very interested"
+      - "sometimes children can be accepted off the waitlist just days before school begins"
+      - "be very clear with your 1st and maybe 2nd choice school that if a space opened up you would be there within the hour"
+      - "some schools rank their waiting list and others do not"
+    underlying_question: "What concrete actions actually improve your waitlist chances? Is there a realistic timeline? Should you just move on?"
+    sources: [berkeleyparentsnetwork.org, parentspress.com, privateschoolreview.com]
+
+  - id: pp7
+    category: playdate_preparation_anxiety
+    urgency: high
+    parent_language:
+      - "schools assess school readiness more than academic achievement"
+      - "think of kindergarten interviews as a playdate with an adult who wants to see your child succeed"
+      - "schools typically want you to sit quietly on the side of the room"
+      - "prepare yourself for the playdate because you will be there and form part of the dynamic"
+    underlying_question: "Can/should you 'prepare' a 4-year-old for a playdate assessment, or does that backfire? What specific behaviors sink an application?"
+    sources: [inspirica.com, admission.org, parentspress.com]
+
+  - id: pp8
+    category: portfolio_strategy
+    urgency: medium
+    parent_language:
+      - "apply to 5-7 schools including reach, likely, and safety options"
+      - "develop detailed spreadsheets tracking 15-20 data points per school"
+      - "competitive — while many parents visit open houses, not all ultimately apply"
+    underlying_question: "How many schools should I realistically apply to, and how do I categorize reach/match/safety when acceptance rates are not public?"
+    sources: [ruthkrishnan.com, berkeleyparentsnetwork.org]
+
+  - id: pp9
+    category: preschool_feeder_worry
+    urgency: medium
+    parent_language:
+      - "Bay Area does NOT have a formal feeder preschool system"
+      - "Hamlin draws from 49 preschools across 3 cohort years — no dominant feeder"
+      - "proximity and preschool teacher recommendation quality matter more than school name"
+    underlying_question: "Did we make a mistake not enrolling in a 'feeder' preschool? Is it too late? Does preschool choice actually matter?"
+    sources: [research-plan notes from Q023/qE013]
+
+  - id: pp10
+    category: working_parent_logistics
+    urgency: medium
+    parent_language:
+      - "working parent's survival guide"
+      - "feelings of inadequacy when comparing family involvement levels"
+    underlying_question: "How do dual-income families manage the tour/open-house/interview schedule? Do schools penalize families who can't attend everything?"
+    sources: [ruthkrishnan.com]
+
+  - id: pp11
+    category: application_authenticity
+    urgency: medium
+    parent_language:
+      - "admissions officers can identify heavily parent-edited applications"
+      - "triangulating between prepared application essays, in-school writing samples, and proctored writing"
+      - "overeddited applications hurt students"
+    underlying_question: "How honest/authentic should parent essays really be? Where is the line between polished and fake?"
+    sources: [ruthkrishnan.com, admission.org]
+
+  - id: pp12
+    category: public_vs_private_guilt
+    urgency: medium
+    parent_language:
+      - "the $500K decision"
+      - "concerns about socioeconomic diversity"
+      - "undetermined whether private school education will be worth it in the long run"
+    underlying_question: "Is private K actually worth it academically vs. a strong public school, or am I just paying for smaller classes and social signaling?"
+    sources: [basicfund.org, kqed.org, berkeleyparentsnetwork.org]
+
+  - id: pp13
+    category: fall_birthday_dilemma
+    urgency: medium
+    parent_language:
+      - "turns 5 in July"
+      - "private kindergarten, then BUSD?"
+    underlying_question: "My child has a fall birthday — should we do private K now and switch to public later, or wait a year? Which schools are flexible about late birthdays?"
+    sources: [berkeleyparentsnetwork.org]
+
+  - id: pp14
+    category: positive_discoveries
+    urgency: low
+    parent_language:
+      - "teachers are incredibly communicative"
+      - "your child is truly seen"
+      - "kids are genuinely excited to learn"
+      - "private kindergarten classes are typically capped at 15 kids with one teacher and one aide"
+    underlying_question: "What do parents who went through it say they LOVE about the private K experience?"
+    sources: [berkeleyparentsnetwork.org]
+
+# =============================================================================
+# PRELIMINARY QUESTION SEEDS (from UGC mining)
+# =============================================================================
+# These are questions surfaced from real parent discussions that may or may not
+# be covered by the existing research-plan.yaml questions.
+
+preliminary_question_seeds:
+
+  - id: qs1
+    text: "What is the true total cost of Bay Area private K-12 education including tuition escalation (historically ~5%/year), mandatory fees, after-school, donations, and capital campaigns?"
+    facet: WHAT
+    urgency: high
+    source: "basicfund.org ($500K decision article); BPN financial aid threads"
+    existing_coverage: "Q004 covers tuition ranges; Q017 compares tuition. Neither models cumulative K-12 cost with escalation."
+
+  - id: qs2
+    text: "Does applying for financial aid hurt your chances of admission at Bay Area private K schools, and which schools are genuinely need-blind vs. need-aware?"
+    facet: HOW
+    urgency: high
+    source: "BPN financial aid threads; parentspress.com financial aid article"
+    existing_coverage: "Q012 and Q018 cover aid mechanics. Neither addresses the need-blind vs. need-aware distinction or whether aid applications affect admissions decisions."
+
+  - id: qs3
+    text: "How do working parents (dual full-time income) manage the Bay Area private K admissions process — open houses during work hours, mid-week tours, multiple interviews — and do schools penalize lower involvement?"
+    facet: HOW
+    urgency: high
+    source: "ruthkrishnan.com working parent guide; BPN forum threads"
+    existing_coverage: "No existing question addresses working parent logistics specifically."
+
+  - id: qs4
+    text: "What specific behaviors or red flags during a kindergarten playdate/assessment can sink an application, and what are schools really evaluating in a 4-5 year old?"
+    facet: HOW
+    urgency: high
+    source: "Multiple admissions consultant blogs; parentspress.com interview prep"
+    existing_coverage: "Q015 asks 'what do playdates look like and what are schools evaluating' — covers the positive. Does NOT cover negative signals or deal-breakers."
+
+  - id: qs5
+    text: "How should parents interpret rejection from all or most schools they applied to — what are the most common reasons, and what should they do next (reapply, public school, different schools)?"
+    facet: HOW
+    urgency: high
+    source: "BPN 'not accepted at the private schools we applied to' thread; parentspress.com acceptance article"
+    existing_coverage: "No existing question addresses rejection/denial scenarios or recovery paths."
+
+  - id: qs6
+    text: "What is the realistic income range at which Bay Area private K financial aid becomes meaningful vs. token, and how does Bay Area cost-of-living factor into need calculations?"
+    facet: WHAT
+    urgency: high
+    source: "BPN financial aid threads; redwoodgrovewm.com cost analysis"
+    existing_coverage: "Q018 covers aid mechanics (FAST, SSS). Does NOT address Bay Area cost-of-living adjustments or realistic income thresholds."
+
+  - id: qs7
+    text: "How do parents decide between multiple private K acceptances, and what factors matter most after the initial admissions excitement fades?"
+    facet: WHY
+    urgency: medium
+    source: "BPN 'deciding which private school' thread; parentspress.com decision article"
+    existing_coverage: "No existing question addresses the post-acceptance decision-making process."
+
+  - id: qs8
+    text: "What is the experience of transferring a child between Bay Area private schools mid-year or between K and 1st grade if the fit is wrong?"
+    facet: HOW
+    urgency: medium
+    source: "BPN thread about child having panic attacks at one school, thriving after transfer"
+    existing_coverage: "No existing question addresses transfers or exit scenarios."
+
+  - id: qs9
+    text: "What are the hidden/undisclosed costs beyond tuition at Bay Area private K schools (mandatory fundraising, capital campaigns, annual fund expectations, supplies, uniforms, field trips)?"
+    facet: WHAT
+    urgency: medium
+    source: "BPN tuition/fees threads; redwoodgrovewm.com"
+    existing_coverage: "Q036 covers after-school/enrichment programs. Does NOT cover fundraising expectations, annual fund, or other hidden costs."
+
+  - id: qs10
+    text: "For families considering private K as a bridge (1-2 years before switching to public), which Bay Area private K schools are best suited for this, and does it affect admissions chances?"
+    facet: WHY
+    urgency: medium
+    source: "BPN 'private kindergarten then BUSD?' thread"
+    existing_coverage: "Q026 covers private vs. public trade-offs broadly. Does NOT address the bridge strategy specifically."
+
+  - id: qs11
+    text: "What questions should parents ask at open houses and tours to actually learn something useful about school fit (beyond what's on the website)?"
+    facet: META
+    urgency: medium
+    source: "admission.org interview guides; BPN threads"
+    existing_coverage: "Q032 covers open house timing. Q021 covers parent interview questions asked BY schools. Neither addresses questions parents should ASK."
+
+  - id: qs12
+    text: "How do Bay Area private K schools handle learning differences, ADHD, gifted learners, or kids who are 'twice exceptional' — and does disclosing these affect admission?"
+    facet: HOW
+    urgency: medium
+    source: "BPN special needs threads; consultant blogs"
+    existing_coverage: "No existing question addresses learning differences, neurodivergence, or disclosure strategy in admissions."
+
+  - id: qs13
+    text: "What is the parent social culture actually like at Bay Area private K schools — cliques, expected volunteering, wealth displays, community warmth?"
+    facet: WHAT
+    urgency: medium
+    source: "BPN 'about private schools' advice threads; basicfund.org"
+    existing_coverage: "No existing question addresses parent community culture or social dynamics."
+
+  - id: qs14
+    text: "How authentic should parent essays be — should you mention challenges, financial constraints, or non-traditional family structures, or does that hurt you?"
+    facet: HOW
+    urgency: medium
+    source: "ruthkrishnan.com; admission.org; consultant blogs"
+    existing_coverage: "Q030 covers consultant strategies for strengthening applications. Does NOT specifically address essay authenticity or what to disclose."
+
+# =============================================================================
+# GAP ANALYSIS (vs. existing research-plan.yaml)
+# =============================================================================
+# See companion text assessment below this file.

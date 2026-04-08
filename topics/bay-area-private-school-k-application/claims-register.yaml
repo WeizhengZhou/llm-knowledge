@@ -1,7 +1,7 @@
 topic: bay-area-private-school-k-application
 extracted_at: 2026-04-06T14:00:00Z
-source_files_processed: 61
-total_claims: 329
+source_files_processed: 70
+total_claims: 408
 
 claims:
 
@@ -3994,11 +3994,1179 @@ claims:
     overreach: false
     single_source: true
 
+# APPEND BLOCK — Insert after C329, replacing coverage_summary block in claims-register.yaml
+# New claims: C330–C408 (79 new claims from 9 source files dated 2026-04-07)
+# Update header: source_files_processed: 70, total_claims: 408
+
+  # ── FINANCIAL COSTS — TRUE TOTAL COST (qE022, qE029) ───────────────────────
+  # Source: raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md
+  # Tier: L2-authoritative | URL: https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/
+
+  - id: C330
+    entity: "SF Private School Market"
+    text: "Total K-12 cost estimate for Bay Area private school: approximately $520,000 over 13 years, assuming ~5% annual tuition increase"
+    type: numerical
+    priority: must_verify
+    question_id: qE022
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    additional_sources:
+      - file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+        url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+        tier: L4-community
+        note: "Ruth Krishnan post references same ~$520K figure"
+    extraction_context: "The average amount a family would spend on K-12 education at a private school in San Francisco is about $520,000 over the course of 13 years. When accounting for tuition increases, you have to factor in approximately a 5% increase every year."
+
+  - id: C331
+    entity: "SF Private School Market"
+    text: "Private school tuition increases have averaged around 4-6% annually, compared to 2-3% general inflation"
+    type: numerical
+    priority: must_verify
+    question_id: qE022
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    conflict_with: C170
+    conflict_note: "C170 (from 2026-04-06 version of same redwoodgrovewm.com article) states identical 4-6% figure; this is a duplicate confirming the same source claim. No conflict."
+    extraction_context: "Private school tuition increases have averaged around 4-6% annually, as compared to 2-3% general inflation."
+
+  - id: C332
+    entity: "SF Private School Market"
+    text: "Average annual 2025-26 cost for PreK, K, and elementary: approximately $22,000–$23,000 (average across religious and secular schools)"
+    type: numerical
+    priority: should_verify
+    question_id: qE022
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: true
+    overreach_reason: "Average blends religious ($6-10K) and independent ($45K+) schools — not representative of selective independent K tuition. Useful as market context, not as a planning number for competitive SF independents."
+    extraction_context: "NOTE from search results: The average annual 2025-26 cost for prekindergarten, kindergarten and elementary school is around $22,000 or $23,000 (average across religious and secular)."
+    single_source: true
+
+  - id: C333
+    entity: "SF Private School Market"
+    text: "Average SF elementary tuition: ~$23,000; average Marin County elementary: ~$26,600 (2025-26, SF Chronicle/Lee Associates data)"
+    type: numerical
+    priority: should_verify
+    question_id: qE022
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: true
+    overreach_reason: "Averages include all school types and grades. Marin figure from third-party source (Lee Associates) cited within article."
+    extraction_context: "From the SF Chronicle/Lee Associates data (2025-26 school year): Average SF elementary: ~$23,000; Average Marin County elementary: ~$26,600."
+    single_source: true
+
+  - id: C334
+    entity: "SF Private School Market"
+    text: "Top-tier Bay Area independent schools (Bay School, La Scuola) charge $48,000–$68,000+ annually; some schools exceed $60,000, a few exceed $70,000"
+    type: numerical
+    priority: should_verify
+    question_id: qE022
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    extraction_context: "Top-tier independent schools (Bay School, La Scuola): $48,000-$68,000+. A number of schools top out at more than $60,000 annually; a few reach over $70,000."
+    single_source: true
+    single_source_note: "Bay School cited as example; Bay School is a high school. La Scuola K-12 tuition already documented at $48,850 (C091 area). Fact-checker should verify La Scuola elementary is in this range."
+
+  - id: C335
+    entity: "SF Private School Market"
+    text: "Elementary tuition at religious schools: $3,000–$28,000/year (lower end); parochial elementary: $6,000–$10,000/year; private independent elementary: $16,000–$29,000/year"
+    type: numerical
+    priority: should_verify
+    question_id: qE022
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    additional_sources:
+      - file: "raw/web/news/2026-04-06_public-vs-private-bay-area-decision-framework.md"
+        url: "https://basicfund.org/the-500k-decision-bay-area-parents-and-experts-weigh-in-on-public-vs-private-school/"
+        tier: L2-authoritative
+        note: "C326 from prior pass cites same $6-10K parochial range — corroborated"
+    extraction_context: "Elementary school tuition spans $3,000-$28,000 per year, with religious schools on the lower end. Parochial elementary: $6-$10K; private independent elementary: $16-$29K."
+
+  - id: C336
+    entity: "SF Private School Market"
+    text: "Miscellaneous fees beyond tuition can reach $5,000 or more per year at some schools"
+    type: numerical
+    priority: should_verify
+    question_id: qE029
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    extraction_context: "Miscellaneous fees that can snowball at some schools to $5,000 or more per year."
+    single_source: true
+
+  - id: C337
+    entity: "SF Private School Market"
+    text: "Most Bay Area private schools seek 100% parent participation in the annual fund appeal; annual giving contributions typically range from $1,000–$10,000+ per family at top independents"
+    type: numerical
+    priority: should_verify
+    question_id: qE029
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: true
+    overreach_reason: "Claims 'most schools' seek 100% participation from a single wealth-management article, not from a systematic survey of Bay Area private schools. Directionally accurate but should be qualified as 'many schools' or 'top independents.'"
+    additional_sources:
+      - file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+        url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+        tier: L4-community
+        note: "Ruth Krishnan source cites same $1,000-$10,000+ annual fundraising range — corroborated"
+    extraction_context: "Schools seek '100% parent participation in the annual fund appeal.' Annual giving contributions typically range from $1,000-10,000+ per family at top Bay Area independent schools."
+
+  - id: C338
+    entity: "SF Private School Market"
+    text: "Some Bay Area private schools offer an all-inclusive annual fee covering virtually all educational expenses, eliminating unexpected costs"
+    type: categorical
+    priority: may_skip
+    question_id: qE029
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: false
+    extraction_context: "Some schools have an annual, one-time 'inclusive fee' that covers virtually all educational expenses, eliminating unexpected costs."
+    single_source: true
+    single_source_note: "No specific schools named. Harker tuition already confirmed to include lunch, transportation, before/after-school care (C182)."
+
+  - id: C339
+    entity: "SF Private School Market"
+    text: "Some Bay Area private schools report 88% of students receiving financial assistance, with some providing 50%+ tuition grants"
+    type: numerical
+    priority: should_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+    source_url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+    reliability_tier: L2-authoritative
+    overreach: true
+    overreach_reason: "Sourced from PrivateSchoolReview (L3 aggregator) cited within the article. '88%' appears for individual unnamed schools, not market-wide. Cannot verify which schools."
+    additional_sources:
+      - file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+        url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+        tier: L3-aggregator
+        note: "Same 88% figure cited in parentspress.com synthesis"
+    extraction_context: "PrivateSchoolReview (2025): Some Bay Area schools report 88% of students receiving assistance, with some providing 50%+ tuition grants to many families."
+
+  # ── WORKING PARENT LOGISTICS (qE024, qE029) ────────────────────────────────
+  # Source: raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md
+  # Tier: L4-community | URL: https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/
+
+  - id: C340
+    entity: "K Application Process (General)"
+    text: "Families should anticipate attending 20–35 events across 5–7 schools between August and January; each school requires approximately 4–6 visits including information sessions, open houses, tours, and community events"
+    type: numerical
+    priority: should_verify
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Specific event count (20-35) from a single consultant blog (L4). Number of events varies by school and applicant's choices. This is an estimate from one source, not a verified average."
+    extraction_context: "Families should anticipate attending 20-35 events across 5-7 schools between August and January, with each institution requiring 4-6 visits."
+    single_source: true
+
+  - id: C341
+    entity: "K Application Process (General)"
+    text: "Missing open houses does not automatically disqualify applicants; most schools do not track attendance at open houses or optional community events as admissions criteria"
+    type: categorical
+    priority: should_verify
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Generalization across 'most schools' from a single consultant source (L4). Schools may vary; this reflects consultant observation, not official school policy. Head-Royce is the only named school providing a corroborating statement."
+    extraction_context: "Missing events won't automatically disqualify applicants. Most schools don't track attendance at open houses or optional community activities."
+    single_source: true
+
+  - id: C342
+    entity: "Head-Royce School"
+    text: "Head-Royce admissions: open house events are 'for the family to make sure the school is a good fit for their child, not vice versa'; the school does not penalize families for missing optional events"
+    type: categorical
+    priority: should_verify
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "Head-Royce administrators: events are 'for the family to make sure the school is a good fit for their child, not vice versa.' The school does not penalize families for missing optional events."
+    single_source: true
+    single_source_note: "Attributed to Head-Royce administrator but sourced from L4 community blog; not directly from Head-Royce official source."
+
+  - id: C343
+    entity: "K Application Process (General)"
+    text: "At least one highly competitive Bay Area school opens tour registration at noon on a weekday and fills all slots within 15 minutes"
+    type: categorical
+    priority: may_skip
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "One school example: a highly competitive school opened tour registration at noon on a Wednesday, and all slots filled within 15 minutes."
+    single_source: true
+    single_source_note: "School not named. Anecdotal. L4 community source."
+
+  - id: C344
+    entity: "K Application Process (General)"
+    text: "Working parents budget beyond tuition includes: application fees $100–$200 per school; professional consultant services $3,000–$15,000; educational testing $500–$1,500; annual fundraising expectations $1,000–$10,000+"
+    type: numerical
+    priority: should_verify
+    question_id: qE029
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: false
+    additional_sources:
+      - file: "raw/web/news/2026-04-07_redwoodgrovewm-true-cost-private-school.md"
+        url: "https://redwoodgrovewm.com/the-cost-of-private-school-in-the-bay-area/"
+        tier: L2-authoritative
+        note: "Redwood Grove WM corroborates application fees up to $150, enrollment deposits $300-$2,500, annual giving $1,000-$10,000+"
+    extraction_context: "Beyond tuition ($45,000-55,000 annually), budget includes: Application fees: $100-200 per school; Professional consultant services: $3,000-15,000; Educational testing: $500-1,500; Annual fundraising expectations: $1,000-10,000+."
+
+  - id: C345
+    entity: "K Application Process (General)"
+    text: "Applying only to ultra-competitive institutions increases rejection likelihood; applying to a balanced portfolio of reach, likely, and safety schools is recommended"
+    type: process
+    priority: may_skip
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "Apply to balanced school portfolios including reach, likely, and safety options — applying to only ultra-competitive institutions increases rejection likelihood."
+    single_source: true
+
+  - id: C346
+    entity: "K Application Process (General)"
+    text: "Admissions process typical timeline: August–October (info sessions, open houses, tours); October–November (begin/submit applications); December–January (family interviews); March (acceptance notices)"
+    type: temporal
+    priority: should_verify
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "October, November, December: tours, informational sessions, open houses. January: application deadlines. March: acceptance notices. Detailed: August (initial info/open houses), September-October (tours + begin applications), November (submit applications), December-January (family interviews)."
+    single_source: true
+    single_source_note: "Consistent with ISSFBA framework (C155) but sourced from L4 consultant blog. Use ISSFBA official dates as primary source."
+
+  # ── FINANCIAL AID — NEED-BLIND POLICY AND INCOME THRESHOLDS (qE023, qE027) ──
+  # Source A: raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md
+  # Tier: L1-official | URL: https://www.nuevaschool.org/admissions/affording-nueva
+  # Source B: raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md
+  # Tier: L3-aggregator | URL: https://parentspress.com/...
+
+  - id: C347
+    entity: "Nueva School"
+    text: "Families earning under $150,000 annually receive 100% financial assistance grants; all school costs including transportation, lunch, and trips also covered at no charge"
+    type: numerical
+    priority: must_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "'100% financial assistance grants to households earning less than $150,000 annually with assets typical of that income level.' All school costs including transportation, lunch, and trips are covered at no charge."
+
+  - id: C348
+    entity: "Nueva School"
+    text: "Families earning $150,000–$250,000 annually contribute 1–10% of their income toward tuition"
+    type: numerical
+    priority: must_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "Families 'will contribute between 1 and 10% of their income towards tuition' at the $150,000-$250,000 income level."
+
+  - id: C349
+    entity: "Nueva School"
+    text: "58% of Nueva families receiving financial assistance earn above $250,000 annually (2025-26 data)"
+    type: numerical
+    priority: must_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "'58% of the Nueva families that receive some level of financial assistance' fall into the above-$250,000 bracket (2025-26 data)."
+
+  - id: C350
+    entity: "Nueva School"
+    text: "Nueva meets 100% of demonstrated financial need with grants, not loans; financial assistance extends beyond tuition to transportation, extended day, music programs, and school-mandated tutoring and evaluations"
+    type: categorical
+    priority: must_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "The school meets '100% of a family's demonstrated financial need with grants, not loans.' Financial assistance extends beyond tuition to encompass 'school-sponsored transportation, extended day, music programs, and school-mandated tutoring and evaluations.'"
+    single_source: true
+
+  - id: C351
+    entity: "Nueva School"
+    text: "Nueva employs need-blind admissions: admissions committee reviews applications without knowledge of financial assistance requests; a separate committee determines financial assistance eligibility"
+    type: categorical
+    priority: must_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "Nueva employs a need-blind admissions review: 'The admissions committee reviews applications without knowledge of financial assistance requests, and a separate committee determines financial assistance eligibility.'"
+    single_source: true
+
+  - id: C352
+    entity: "Nueva School"
+    text: "Budget constraints may prevent Nueva from admitting otherwise qualified applicants when unable to meet their financial need — a modified need-blind approach at the margins"
+    type: categorical
+    priority: should_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "The school acknowledges finite resources may prevent admitting otherwise qualified applicants when unable to meet their family's financial need."
+    single_source: true
+
+  - id: C353
+    entity: "Nueva School"
+    text: "Nueva allocates $8.6 million in need-based assistance; 20% of students (195 students) receive aid in 2025-26"
+    type: numerical
+    priority: must_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    additional_sources:
+      - file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+        url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+        tier: L3-aggregator
+        note: "L3 synthesis source cites identical figures — corroborated"
+    extraction_context: "'$8.6 million in need-based assistance supports 20% of Nueva students,' with 195 students receiving aid in 2025-26."
+
+  - id: C354
+    entity: "K Application Process (General)"
+    text: "Many Bay Area private schools use 'blind admissions': admissions committee decides who to accept before reviewing financial aid applications of accepted students"
+    type: categorical
+    priority: should_verify
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Attributed to BPN (Berkeley Parents Network), an L4 community source quoted within the L1 article. Claim uses 'many' without a count. No named schools beyond Nueva confirmed need-blind from L1 sources."
+    extraction_context: "Berkeley Parents Network cites Bay Area schools generally: 'Many Bay Area private schools have a policy of blind admissions meaning that they first decide who they want to accept without regard to financial aid and then they look at the financial aid applications of those students they want to accept.'"
+    single_source: true
+
+  - id: C355
+    entity: "Alta Vista School (SF)"
+    text: "Alta Vista School SF explicitly takes Bay Area cost of living into account in financial need calculations; considers rent/mortgage payments as part of family expense burden"
+    type: categorical
+    priority: should_verify
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Alta Vista School SF: Explicitly takes Bay Area cost of living into account in need calculations. Considers rent/mortgage payments as part of family expense burden."
+    single_source: true
+    single_source_note: "L3 aggregator synthesis; verify against altavistaschool.org financial aid page."
+
+  - id: C356
+    entity: "K Application Process (General)"
+    text: "Income brackets for Bay Area financial aid (approximate, 2025-26): under $100K = 80-100% tuition covered; $100K-$200K = 50-80% at many schools; $200K-$350K = 30-70% at large-endowment schools; $350K-$500K = limited aid; over $500K = generally full-pay"
+    type: numerical
+    priority: should_verify
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "These ranges are a synthesis/extrapolation by the source author, not published data from individual schools. 'Many schools' and 'large-endowment schools' are imprecise qualifiers. The only confirmed school-specific data is Nueva (C347-C349)."
+    extraction_context: "Under $100K: Typically 80-100% of tuition covered at most schools with robust aid programs. $100K-$200K: Significant aid (50-80%) at many schools. $200K-$350K: Meaningful partial aid still available at schools with large endowments; expect to pay 30-70% of tuition. $350K-$500K: Limited aid except at schools with very large endowments. Over $500K: Generally full-pay territory."
+    single_source: true
+
+  - id: C357
+    entity: "K Application Process (General)"
+    text: "Most Bay Area independent schools use Clarity Financial (formerly NAIS/SSS) for need calculations; families submit one application to Clarity which distributes to multiple schools"
+    type: categorical
+    priority: should_verify
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Most Bay Area independent schools use Clarity Financial (formerly NAIS/SSS) for need calculations. Families submit one application to Clarity; the platform distributes to multiple schools simultaneously."
+    single_source: true
+    single_source_note: "Consistent with individual school sources (Helios C249, Almaden, Gideon Hausner) confirming Clarity platform. 'Most' is a reasonable characterization but not precisely counted."
+
+  - id: C358
+    entity: "K Application Process (General)"
+    text: "Bay Area cost of living means the same household income buys far less than the national average; Clarity Financial calculations include monthly rent/mortgage expenses"
+    type: categorical
+    priority: may_skip
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Schools using Clarity Financial applications consider monthly expenses including rent or mortgage. The Bay Area's high cost structure means the same household income buys far less here than the national average."
+    single_source: true
+
+  # ── PLAYDATE EVALUATION — CHILD ASSESSMENT (qE025) ─────────────────────────
+  # Source: raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md
+  # Tier: L3-aggregator | URL: https://beyondthebrochurela.com/...
+
+  - id: C359
+    entity: "K Application Process (General)"
+    text: "At K playdates, admissions officers are primarily looking for egregious signs of distress or behavioral issues the school would not be able to handle — not looking for perfection"
+    type: categorical
+    priority: should_verify
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "General statement about 'admissions officers' across all K programs sourced from a Los Angeles-based admissions consultant synthesis. Applies most directly to non-IQ-testing schools. Gifted programs (Nueva, Helios) evaluate differently."
+    extraction_context: "Schools use playdates to observe children's social skills, behavior, and ability to interact with peers. Admissions officers are primarily looking for egregious signs of distress or issues the school wouldn't be able to handle — not perfection."
+    single_source: true
+
+  - id: C360
+    entity: "K Application Process (General)"
+    text: "K playdate behavioral areas assessed: social skills (sharing, turn-taking, group interaction), emotional regulation (handling frustration), problem-solving, instruction-following, curiosity and engagement, peer interaction, and transitions between activities"
+    type: categorical
+    priority: should_verify
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Generalizing assessment criteria across all K schools from a multi-source consultant synthesis. Schools' specific evaluation frameworks vary; this represents common elements, not a universal standard."
+    extraction_context: "Key Behavioral Areas Assessed: social skills (share, take turns, interact), emotional regulation, problem-solving, instruction-following, curiosity and engagement, peer interaction, transitions."
+    additional_sources:
+      - file: "raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md"
+        url: "https://www.admissionsessayadvising.com/the-parent-private-school-interview-questions-to-expect-and-questions-to-ask/"
+        tier: L3-aggregator
+        note: "C323 from prior pass cites same assessment dimensions — corroborated across two L3 sources"
+
+  - id: C361
+    entity: "K Application Process (General)"
+    text: "K playdate red flags: extreme difficulty separating from parents; inability to warm to unfamiliar adults; difficulty focusing for age-appropriate durations; inability to transition between activities; significant language delays; extreme aggression toward peers; complete inability to follow basic instructions; prolonged emotional meltdowns"
+    type: categorical
+    priority: should_verify
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Red flag list synthesized from multiple consultant sources (LA and national); presented as universal but Bay Area schools may weight factors differently. No individual school cited as the source of this list."
+    extraction_context: "Red flags that can sink an application: Extreme difficulty separating from parents; Inability to warm up to unfamiliar adults; Difficulty focusing; Inability to transition; Language delays significantly impairing classroom participation; Extreme aggression toward peers; Complete inability to follow basic adult instructions; Signs of significant emotional dysregulation (prolonged meltdowns)."
+    single_source: true
+
+  - id: C362
+    entity: "K Application Process (General)"
+    text: "At K playdate, schools are NOT evaluating: ability to read or write, math knowledge, or IQ/cognitive ability (at schools that do not require IQ tests)"
+    type: categorical
+    priority: should_verify
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Schools observe social and emotional readiness, NOT academic skills at kindergarten level. They are not assessing ability to read or write, math knowledge, IQ or cognitive ability (for schools that don't require IQ tests)."
+    single_source: true
+
+  - id: C363
+    entity: "K Application Process (General)"
+    text: "Schools can detect children who have been coached to give scripted answers or perform specific behaviors at playdates; authenticity is expected"
+    type: categorical
+    priority: may_skip
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Claim that 'schools can detect coached children' is widely repeated by consultants but is not a verifiable factual claim. It represents professional consensus, not documented school policy."
+    extraction_context: "Do NOT rehearse scripted answers or coach for specific behaviors. Schools can detect coached children — authenticity is expected."
+    single_source: true
+
+  - id: C364
+    entity: "K Application Process (General)"
+    text: "Recommended K playdate preparation: maintain regular routines in weeks before; read daily and do age-appropriate puzzles (builds focus, not academic skills); do NOT use scripted rehearsal or academic coaching; child should arrive well-rested"
+    type: process
+    priority: may_skip
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Maintain regular routines; Read daily and do puzzles (builds focus); Do NOT rehearse scripted answers; Arrive well-rested and at normal emotional baseline; Tell child 'they're going to meet some new friends and play games.'"
+    additional_sources:
+      - file: "raw/web/community/2026-04-06_parent-interview-assessment-prep-guide.md"
+        url: "https://www.admissionsessayadvising.com/the-parent-private-school-interview-questions-to-expect-and-questions-to-ask/"
+        tier: L3-aggregator
+        note: "Prior research (C320) corroborates: maintain routines, read daily, do puzzles, do NOT use commercial test prep"
+
+  # ── REJECTION RECOVERY AND REAPPLICATION (qE026) ───────────────────────────
+  # Source: raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md
+  # Tier: L4-community | URL: https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist
+
+  - id: C365
+    entity: "K Application Process (General)"
+    text: "Families rejected from all private K schools are guaranteed a public school kindergarten spot but not a specific school assignment in their district"
+    type: categorical
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "Enroll your child in your local public kindergarten — you are guaranteed a spot in public school, but not in a particular school."
+    single_source: true
+
+  - id: C366
+    entity: "K Application Process (General)"
+    text: "Private K rejection often reflects enrollment management rather than student inadequacy: schools balance class composition by gender, ethnicity, preschool distribution, and neighborhood"
+    type: causal
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Causal framing ('rejection reflects enrollment management') is a widely held belief in admissions consultant community (L4) but not substantiated by data or official school statements. Presented as general principle."
+    extraction_context: "Rejection often reflects enrollment management rather than student inadequacy: Schools balance class composition by gender, ethnicity, preschool distribution, neighborhood."
+    single_source: true
+
+  - id: C367
+    entity: "K Application Process (General)"
+    text: "Common rejection factors (not always disclosed by schools): poor fit with educational philosophy, class composition needs, sibling/legacy spots consuming seats, financial aid budget constraints at need-aware schools, competitive timing"
+    type: categorical
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Rejection factors sourced from L4 community synthesis (BPN, ruthkrishnan.com, beyondthebrochurela.com). No school officially discloses these factors. Presented as consultant inference, not verified school policy."
+    extraction_context: "Common contributing factors: Poor fit with school's educational philosophy; Class composition needs; Sibling/legacy spots consuming available seats; Financial aid budget constraints (at need-aware schools); Application arrived after highly competitive candidates secured seats."
+    single_source: true
+
+  - id: C368
+    entity: "K Application Process (General)"
+    text: "Reapplying to the same schools for 1st grade entry (or 2nd K round) signals strong interest and commitment; many families admitted in the second year they apply"
+    type: categorical
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "'Many families admitted in second year' is an unquantified claim from an L4 community synthesis. No data on reapplication success rates."
+    extraction_context: "Many families are admitted in the second year they apply (either for 1st grade or kindergarten). Reapply to same schools: applying to the same schools for a second time signals strong interest and commitment."
+    single_source: true
+
+  - id: C369
+    entity: "K Application Process (General)"
+    text: "Preschool directors may have spoken to admissions directors and can provide insight into why an application was rejected; parents are advised to ask their preschool director for feedback"
+    type: process
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "Ask your preschool director for feedback: they may have spoken to admissions directors and gained information about your application."
+    single_source: true
+
+  - id: C370
+    entity: "K Application Process (General)"
+    text: "Public schools provide federal funding for learning differences accommodations (504 plan, IEP) not typically available at most private schools"
+    type: categorical
+    priority: should_verify
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Claim that IEP/504 supports are 'not typically available at most private schools' is a broad generalization. Some private schools offer learning support services; the distinction is that public schools are legally required to provide IEP/504 services, which private schools are not."
+    extraction_context: "Federal funding addresses learning differences (504 plan, IEP). More ethnic and socioeconomic diversity on average. Stronger schools: Palo Alto USD, Berkeley USD, Piedmont USD all offer excellent public K. SFUSD lottery system creates uncertainty."
+    single_source: true
+
+  # ── WAITLIST STRATEGY (qE035) ───────────────────────────────────────────────
+  # Source A: raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md
+  # Tier: L3-aggregator | URL: https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/
+  # Source B: raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md
+  # Tier: L4-community
+
+  - id: C371
+    entity: "K Application Process (General)"
+    text: "Acceptance rate from waitlist at highly competitive private K schools: approximately 5–15% of waitlisted students gain admission"
+    type: numerical
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Range sourced from admissions prep aggregator without citing specific Bay Area school data. No school publishes waitlist acceptance rates. Range reflects general private school patterns."
+    extraction_context: "Highly competitive schools: approximately 5-15% of waitlisted students gain admission. Less competitive selective schools: roughly 15-30% of waitlisted applicants succeed."
+    single_source: true
+
+  - id: C372
+    entity: "K Application Process (General)"
+    text: "Acceptance rate from waitlist at less competitive selective private K schools: approximately 15–30% of waitlisted students gain admission"
+    type: numerical
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Same source as C371. No Bay Area-specific data; general private school estimate."
+    extraction_context: "Less competitive selective schools: roughly 15-30% of waitlisted applicants succeed."
+    single_source: true
+
+  - id: C373
+    entity: "ISSFBA/BADA"
+    text: "ISSFBA waitlists move primarily in the week between notification (March 19) and response deadline (March 26) as families with multiple acceptances choose one school and release others"
+    type: temporal
+    priority: must_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_issfba-making-decisions-waitlist.md"
+        url: "https://www.issfba.org/admission-process/admission-process-making-decisions/"
+        tier: L1-official
+        note: "C155/C157 from L1 source confirm March 19 notification and March 26 response deadline; mechanism described here is consistent with those facts"
+    extraction_context: "Waitlists move primarily in the week between notification (March 19) and response deadline (March 26), as families who received multiple acceptances choose one school and release others."
+
+  - id: C374
+    entity: "K Application Process (General)"
+    text: "After March 26 response deadline, families on waitlists should contact schools directly; some schools keep active waitlists through June-August, others close them"
+    type: process
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "After March 26: contact waitlisted schools directly; some keep active waitlists, others close them. Summer movement: continues through June-August as families change plans."
+    single_source: true
+
+  - id: C375
+    entity: "K Application Process (General)"
+    text: "Schools use two waitlist systems: ranked waitlists (applicants ordered by preference) or wait pools (candidates considered without specific ordering; selection based on class composition needs)"
+    type: categorical
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Ranked waitlists: applicants ordered by preference. Wait pools: candidates under consideration without specific ordering; selection based on class composition needs."
+    single_source: true
+    single_source_note: "No Bay Area school publicly discloses which system they use. This is consistent with the general private school literature."
+
+  - id: C376
+    entity: "K Application Process (General)"
+    text: "Four concrete waitlist actions: (1) confirm interest immediately to avoid removal; (2) send Letter of Continued Interest (LOCI) reaffirming first-choice status and adding new information; (3) ask whether waitlist is ranked or pooled; (4) attend any invited campus events"
+    type: process
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "1. Confirm Immediately — lack of response may result in removal. 2. Send Letter of Continued Interest (LOCI). 3. Ask Strategic Questions: ranked or pooled? typical timeline? 4. Attend Invited Events."
+    single_source: true
+
+  - id: C377
+    entity: "K Application Process (General)"
+    text: "When filling waitlist spots, schools prioritize based on class composition needs: underrepresented zip codes/neighborhoods, cultural/ethnic/socioeconomic diversity, gender balance, specific preschool backgrounds"
+    type: categorical
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Composite claim about what schools prioritize when filling waitlist spots, from L3 aggregator. No individual Bay Area school officially discloses its waitlist selection criteria. Consistent with multiple community sources but not verified against official school policy."
+    extraction_context: "When seats open, schools fill them based on class composition needs: Zipcodes/neighborhoods underrepresented in current class; Cultural/ethnic/socioeconomic diversity; Gender balance; Specific preschool backgrounds not already represented."
+    additional_sources:
+      - file: "raw/web/official/2026-04-06_issfba-making-decisions-waitlist.md"
+        url: "https://www.issfba.org/admission-process/admission-process-making-decisions/"
+        tier: L1-official
+        note: "Prior research notes mention diversity factors in waitlist; not a direct ISSFBA quotation but consistent with community sources"
+
+  - id: C378
+    entity: "K Application Process (General)"
+    text: "If an admissions director advises a waitlisted family to accept a spot elsewhere, this should be interpreted as a soft rejection signal"
+    type: categorical
+    priority: may_skip
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "If an admissions director tells you to accept a spot elsewhere, interpret this as an indication your child likely won't be admitted from the wait-list."
+    single_source: true
+
+  - id: C379
+    entity: "K Application Process (General)"
+    text: "Families should maintain their enrollment deposit at an accepted school while remaining on a waitlist; forfeiting that deposit when a waitlist offer arrives is ethically acceptable and expected"
+    type: process
+    priority: may_skip
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Maintain deposit at an accepted school while on waitlist. If waitlist offer arrives and you accept, you will forfeit the deposit at your backup school. This is ethically acceptable and expected."
+    single_source: true
+
+  - id: C380
+    entity: "K Application Process (General)"
+    text: "Waitlist movement timeline: primary movement March 19-26 (ISSFBA window); secondary movement through June; late movement through August (last-minute withdrawals before school starts)"
+    type: temporal
+    priority: should_verify
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Most waitlist movement: first 1-2 weeks after March 26 response deadline. Secondary movement: through June, as families' plans change. Late movement: August (last-minute withdrawals before school starts)."
+    single_source: true
+
+  # ── OPEN HOUSE QUESTIONS (qE031) ────────────────────────────────────────────
+  # Source: raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md
+  # Tier: L3-aggregator | URL: https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/
+
+  - id: C381
+    entity: "K Application Process (General)"
+    text: "Typical private school open house components: welcome session with administration, campus tours, classroom observations, Q&A panels with students and teachers, extracurricular showcases, sometimes individual meetings with admissions representatives"
+    type: process
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Generalization of open house components across all private schools from a single admissions consulting firm's guide. Actual event structure varies by school."
+    extraction_context: "Typical open houses include: Welcome sessions with administration; Campus tours led by students or faculty; Classroom observations; Q&A panels with students and teachers; Extracurricular showcases; Sometimes individual meetings with admissions representatives."
+    single_source: true
+
+  - id: C382
+    entity: "K Application Process (General)"
+    text: "Recommended questions to ask admissions officers at open houses: what distinguishes this school from competitors; what qualities matter most in applications; acceptance rate; financial aid options; how the school handles learning differences"
+    type: process
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "For Admissions Officers: What distinguishes this school from competitors? What qualities matter most in applications? What's the acceptance rate? What financial aid options exist? How does the school handle learning differences?"
+    single_source: true
+
+  - id: C383
+    entity: "K Application Process (General)"
+    text: "Recommended questions to ask faculty at open houses: student-to-teacher ratio; academic support for struggling students; parent communication methods; how teachers differentiate instruction"
+    type: process
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "For Faculty: Student-to-teacher ratio; How is academic support provided for struggling students; How does the school communicate with parents; How do teachers differentiate instruction for different learners."
+    single_source: true
+
+  - id: C384
+    entity: "K Application Process (General)"
+    text: "Recommended questions to ask current parents at open houses: how parent volunteers are utilized; annual fund expectation; how school handles conflicts between families; how diverse is the parent community"
+    type: process
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "For Current Parents: How are parent volunteers utilized? What is the annual fund expectation? How does the school handle conflicts between families? How diverse is the parent community?"
+    single_source: true
+
+  - id: C385
+    entity: "K Application Process (General)"
+    text: "K-specific open house observations: kindergarteners' social interactions; classroom materials (play-based vs. academic worksheets); how kindergarten teachers speak about children's development; what a typical kindergarten day looks like"
+    type: process
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "How do current kindergarteners interact with each other? What does the kindergarten classroom look like (play-based materials vs. academic worksheets)? How do kindergarten teachers speak about children's development? What does a typical kindergarten day look like?"
+    single_source: true
+
+  - id: C386
+    entity: "K Application Process (General)"
+    text: "Beyond the brochure: observe student engagement and happiness levels; whether classes are discussion-based or rote; student-teacher warmth and responsiveness; hallway behavior; what is displayed on walls (student work?)"
+    type: process
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Walk the campus noting: Student engagement and happiness levels; Whether classes feel discussion-based and dynamic or rote; Student-teacher interactions (warmth, respect, responsiveness); Hallway behavior; Facility condition and what's displayed on walls."
+    single_source: true
+
+  # ── PARENT ESSAY AUTHENTICITY (qE034) ──────────────────────────────────────
+  # Source: raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md
+  # Tier: L3-aggregator | URL: https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications
+
+  - id: C387
+    entity: "K Application Process (General)"
+    text: "Admissions committees look for authentic introduction to child and family in parent essays; committees are wary if parents do not mention any challenges the child has faced"
+    type: categorical
+    priority: should_verify
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Generalization about 'admissions committees' across schools, sourced from consultant aggregator sites (admission.org, PrepMatters). No specific Bay Area school admissions officer cited. Applies broadly but is consultant inference."
+    extraction_context: "Admissions officers consistently emphasize that authenticity is the key to effective parent essays. 'Most schools can be wary if parents don't mention any challenges.'"
+    single_source: true
+
+  - id: C388
+    entity: "K Application Process (General)"
+    text: "Learning differences should be disclosed in the 'Further Information' section of the application, explaining how you have partnered with current educators for support"
+    type: process
+    priority: should_verify
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Use this space to explain relevant learning challenges and demonstrate how you've partnered with current educators for support."
+    single_source: true
+
+  - id: C389
+    entity: "K Application Process (General)"
+    text: "Non-traditional family structures are appropriate to include in parent essays; schools want to see that families value education and will work positively with teachers"
+    type: categorical
+    priority: may_skip
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "The parent statement 'is a useful avenue to spotlight unique facets of your child and family, whether it's emphasizing a diverse background or recounting challenges your family confronted.' Schools want to see that families 'will work positively with teachers and administrators.'"
+    single_source: true
+
+  - id: C390
+    entity: "K Application Process (General)"
+    text: "No standard practice recommends disclosing financial constraints in parent essays; financial aid applications are submitted separately through Clarity Financial"
+    type: categorical
+    priority: may_skip
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "No source recommends proactively disclosing financial constraints in parent essays. Financial aid applications are submitted separately through Clarity Financial. Disclosing financial stress in essays is not standard advice."
+    single_source: true
+
+  - id: C391
+    entity: "K Application Process (General)"
+    text: "Parent statements are typically 500–1,500 characters long (not words)"
+    type: numerical
+    priority: should_verify
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Statements are typically 500-1500 characters long."
+    single_source: true
+    single_source_note: "Character-count constraints vary by school. This is a general guidance figure from Cardinal Education, not a universal rule."
+
+  - id: C392
+    entity: "K Application Process (General)"
+    text: "After open houses or interviews, sending a brief thank-you note connecting your child and family to the school's specific qualities is recommended"
+    type: process
+    priority: may_skip
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "After meetings or events, email a brief note connecting your unique child and family to the school's distinctive qualities."
+    single_source: true
+
+  - id: C393
+    entity: "K Application Process (General)"
+    text: "Verifying school names before submitting is critical; referencing the wrong school name in a parent essay is a known error"
+    type: process
+    priority: may_skip
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "'Review all answers before submitting the application to make sure you have the correct name of each school.'"
+    single_source: true
+
+  - id: C394
+    entity: "K Application Process (General)"
+    text: "Parent essays should use specific anecdotes and stories to demonstrate child character, rather than lists of adjectives"
+    type: process
+    priority: may_skip
+    question_id: qE034
+    source_file: "raw/web/news/2026-04-07_parent-essay-authenticity-private-school.md"
+    source_url: "https://www.admission.org/advice/11-parent-statement-tips-for-private-school-applications"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Rather than listing personality traits, use specific narratives to bring your child to life. Throughout all sections, 'use examples and stories' rather than adjectives."
+    single_source: true
+
+  # ── FINANCIAL AID — ADDITIONAL MULTI-SOURCE CORROBORATIONS ─────────────────
+
+  - id: C395
+    entity: "K Application Process (General)"
+    text: "There is no income limit that automatically makes a family ineligible for financial aid at Bay Area private schools; schools set their own guidelines"
+    type: categorical
+    priority: should_verify
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    additional_sources:
+      - file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+        url: "https://www.nuevaschool.org/admissions/affording-nueva"
+        tier: L1-official
+        note: "Nueva demonstrates meaningful aid at $250K+ income (58% of aided families), corroborating no hard cutoff"
+    extraction_context: "There is no income limit that automatically makes a family ineligible for financial aid. Schools set their own guidelines. Families at a wide range of income levels can and do receive meaningful aid."
+
+  - id: C396
+    entity: "Gideon Hausner Jewish Day School"
+    text: "Gideon Hausner Sibling Savings Program discount: $1,000–$2,000 for families with income below $650,000 gross and assets below $500,000"
+    type: numerical
+    priority: should_verify
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Over $500K: generally full-pay territory; some schools (Gideon Hausner) still offer sibling discounts at income under $650K gross."
+    single_source: true
+    single_source_note: "Cited in L3 aggregator source; Hausner sibling savings already documented in C261 area from L1 source. Cross-check for consistency."
+
+  # ── ADMISSION PROCESS LOGISTICS — CROSS-CUTTING ────────────────────────────
+
+  - id: C397
+    entity: "K Application Process (General)"
+    text: "Schools value diverse family structures, employment situations, and backgrounds; success in admissions does not require maximum event attendance but rather strategic participation"
+    type: categorical
+    priority: may_skip
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Attributed to schools generally from an L4 consultant blog; no specific school cited except Head-Royce (C342). Presented as a broad characterization."
+    extraction_context: "The guide emphasizes that 'schools value diverse family structures and employment situations.' Success doesn't require maximum event attendance but rather strategic participation focused on gathering essential information."
+    single_source: true
+
+  - id: C398
+    entity: "K Application Process (General)"
+    text: "Schools remember disruptive behavior at open houses (arriving late, interrupting, asking inappropriate questions) more than they remember absence from events"
+    type: categorical
+    priority: may_skip
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "Attributed to 'schools' generally from an L4 consultant source. No school official cited making this statement."
+    extraction_context: "'Schools remember disruptive families more than absent ones.' The critical factor is avoiding negative impressions — arriving late, interrupting presentations, or asking inappropriate questions."
+    single_source: true
+
+  - id: C399
+    entity: "K Application Process (General)"
+    text: "Attending an open house shows excitement and increases the likelihood admissions staff will recognize the family's name when reviewing applications, but not attending should not strike against the applicant"
+    type: categorical
+    priority: may_skip
+    question_id: qE024
+    source_file: "raw/web/community/2026-04-07_ruthkrishnan-working-parent-admissions-guide.md"
+    source_url: "https://ruthkrishnan.com/san-francisco-private-school-admissions-guide-working-parents/"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "One administrator noted that attending shows you're excited about the school and they're more likely to recognize your name when reviewing applications, but 'not attending shouldn't strike against you.'"
+    single_source: true
+    single_source_note: "Administrator quoted without naming school or person; single L4 source."
+
+  # ── REJECTION RECOVERY — ADDITIONAL CLAIMS ─────────────────────────────────
+
+  - id: C400
+    entity: "K Application Process (General)"
+    text: "When rejected from SF ISSFBA schools, families should consider South Bay or Peninsula non-ISSFBA schools for a different competitive landscape in the reapplication cycle"
+    type: process
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "ISSFBA schools: if you were rejected by all SF ISSFBA schools, consider South Bay or Peninsula options for a different competitive landscape."
+    single_source: true
+
+  - id: C401
+    entity: "K Application Process (General)"
+    text: "Many children who attend strong public K programs later gain private school admission for middle school (Grade 6 entry)"
+    type: categorical
+    priority: may_skip
+    question_id: qE026
+    source_file: "raw/web/community/2026-04-07_bpn-rejection-next-steps-reapplication.md"
+    source_url: "https://www.berkeleyparentsnetwork.org/recommend/schools/waitlist"
+    reliability_tier: L4-community
+    overreach: true
+    overreach_reason: "'Many children' is unquantified; claim is unverifiable from this source. Commonly cited in admissions advice but no data provided."
+    extraction_context: "Many children thrive in excellent public schools and later gain private admission for middle school."
+    single_source: true
+
+  # ── NUEVA FINANCIAL AID — ADDITIONAL DETAILS ───────────────────────────────
+
+  - id: C402
+    entity: "Nueva School"
+    text: "Nueva financial aid income brackets reflect Bay Area cost-of-living pressures; the $0-$150K full-aid and $150K-$250K partial-aid thresholds are notably higher than national private school averages"
+    type: comparative
+    priority: may_skip
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L1-official
+    overreach: false
+    extraction_context: "The income brackets that trigger 100% aid ($0-$150K) and meaningful partial aid ($150K-$250K) are notably higher than national private school averages, reflecting Bay Area economic reality."
+    single_source: true
+    single_source_note: "Comparative claim ('higher than national average') from the school itself; no external benchmark cited."
+
+  # ── WAITLIST STRATEGY — CONCRETE DO-NOTS ────────────────────────────────────
+
+  - id: C403
+    entity: "K Application Process (General)"
+    text: "Waitlist applicants should NOT pester admissions staff with repeated calls or emails; one thoughtful LOCI letter is more effective than multiple messages"
+    type: process
+    priority: may_skip
+    question_id: qE035
+    source_file: "raw/web/news/2026-04-07_waitlist-strategy-concrete-steps.md"
+    source_url: "https://www.xceedprep.org/how-to-get-off-a-private-school-waitlist/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Do not pester admissions staff with repeated calls or emails. 'Don't call us. We'll call you' policy applies. One thoughtful update beats multiple messages."
+    single_source: true
+
+  # ── OPEN HOUSE — CARDINAL EDUCATION ROLE ────────────────────────────────────
+
+  - id: C404
+    entity: "Cardinal Education"
+    text: "Cardinal Education is a Bay Area-based admissions consulting firm with offices in Burlingame and Woodside"
+    type: categorical
+    priority: may_skip
+    question_id: qE031
+    source_file: "raw/web/news/2026-04-07_cardinaleducation-open-house-questions-guide.md"
+    source_url: "https://www.cardinaleducation.com/a-parents-guide-to-navigating-private-school-open-houses-and-tours/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Cardinal Education is a Bay Area-based admissions consulting firm with offices in Burlingame/Woodside."
+    single_source: true
+    single_source_note: "Already documented in prior research; this corroborates office locations."
+
+  # ── PLAYDATE — PREPARATION AND IQ-SCHOOL DISTINCTION ────────────────────────
+
+  - id: C405
+    entity: "K Application Process (General)"
+    text: "At K playdate, schools look for children who are social, polite, engaged, and who transition well between activities"
+    type: categorical
+    priority: may_skip
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Positive characterization sourced from L3 consultant synthesis; 'schools look for' generalizes across all K programs without citing specific schools."
+    extraction_context: "Schools look for children who are social, polite, engaged, and who transition well."
+    single_source: true
+
+  - id: C406
+    entity: "K Application Process (General)"
+    text: "By age 4-5 (typical K applicant age), schools expect basic social readiness; the presence of red flags at this age may indicate potential struggles in a group school environment"
+    type: categorical
+    priority: may_skip
+    question_id: qE025
+    source_file: "raw/web/news/2026-04-07_playdate-evaluation-kindergarten-red-flags.md"
+    source_url: "https://beyondthebrochurela.com/whos-nervous-your-childs-private-school-kindergarten-testing-day/"
+    reliability_tier: L3-aggregator
+    overreach: true
+    overreach_reason: "Generalization about developmental expectations at age 4-5 from consultant synthesis. Schools may vary in what they consider age-appropriate. Not sourced from a child development authority."
+    extraction_context: "By age 2, some red flags may already indicate potential struggles. At 4-5 (K applicant age), schools expect basic social readiness."
+    single_source: true
+
+  # ── FINANCIAL AID PROCESS (CLARITY) — TIMELINE ──────────────────────────────
+
+  - id: C407
+    entity: "K Application Process (General)"
+    text: "Clarity Financial (formerly NAIS/SSS) financial aid application is available September through February; families complete one form which is shared with selected schools"
+    type: temporal
+    priority: should_verify
+    question_id: qE027
+    source_file: "raw/web/news/2026-04-07_financial-aid-income-threshold-bay-area.md"
+    source_url: "https://parentspress.com/financial-assistance-basic-information-you-should-know-when-applying-to-a-private-school/"
+    reliability_tier: L3-aggregator
+    overreach: false
+    extraction_context: "Application process: complete Clarity form (available September–February) with income documentation; results shared with schools family selects."
+    single_source: true
+    single_source_note: "Clarity application availability dates from L3 aggregator; individual school FA deadlines (e.g., Helios January 8, Almaden February 23) already documented from L1 sources."
+
+  # ── BPN COMMUNITY SOURCE — SFUSD LOTTERY CORROBORATION ─────────────────────
+
+  - id: C408
+    entity: "SF Private School Market"
+    text: "No family should hesitate to apply for private school admission due to financial circumstances, per Berkeley Parents Network guidance"
+    type: categorical
+    priority: may_skip
+    question_id: qE023
+    source_file: "raw/web/news/2026-04-07_nueva-financial-aid-need-blind-income-thresholds.md"
+    source_url: "https://www.nuevaschool.org/admissions/affording-nueva"
+    reliability_tier: L4-community
+    overreach: false
+    extraction_context: "Berkeley Parents Network: 'No one should hesitate to apply for admission due to financial circumstances.'"
+    single_source: true
+    single_source_note: "BPN community guidance quoted in Nueva L1 source. Represents community consensus, not verified policy of specific schools."
+
 coverage_summary:
-  extracted_at_update: 2026-04-06T22:00:00Z
-  source_files_processed: 61
-  total_claims: 329
-  new_claims_this_pass: 97
+  extracted_at_update: 2026-04-07T14:00:00Z
+  source_files_processed: 70
+  total_claims: 408
+  new_claims_this_pass: 79
 
   by_entity:
     "SF Day School":
@@ -4056,10 +5224,10 @@ coverage_summary:
       may_skip: 0
       overreach_flags: 1
     "Head-Royce School":
-      total_claims: 6
+      total_claims: 7
       must_verify: 4
       should_verify: 2
-      may_skip: 0
+      may_skip: 1
       overreach_flags: 0
     "La Scuola International School":
       total_claims: 10
@@ -4080,10 +5248,10 @@ coverage_summary:
       may_skip: 0
       overreach_flags: 0
     "Nueva School":
-      total_claims: 17
-      must_verify: 12
+      total_claims: 23
+      must_verify: 17
       should_verify: 5
-      may_skip: 0
+      may_skip: 1
       overreach_flags: 0
     "Park Day School":
       total_claims: 9
@@ -4110,8 +5278,8 @@ coverage_summary:
       may_skip: 0
       overreach_flags: 0
     "ISSFBA/BADA":
-      total_claims: 9
-      must_verify: 3
+      total_claims: 10
+      must_verify: 4
       should_verify: 6
       may_skip: 0
       overreach_flags: 0
@@ -4122,11 +5290,11 @@ coverage_summary:
       may_skip: 3
       overreach_flags: 1
     "SF Private School Market":
-      total_claims: 9
-      must_verify: 0
-      should_verify: 5
-      may_skip: 3
-      overreach_flags: 5
+      total_claims: 18
+      must_verify: 2
+      should_verify: 8
+      may_skip: 6
+      overreach_flags: 7
     "Sibling Preference Policy":
       total_claims: 1
       must_verify: 0
@@ -4212,9 +5380,9 @@ coverage_summary:
       may_skip: 1
       overreach_flags: 0
     "Gideon Hausner Jewish Day School":
-      total_claims: 13
+      total_claims: 14
       must_verify: 7
-      should_verify: 5
+      should_verify: 6
       may_skip: 0
       overreach_flags: 0
     "Almaden Country Day School":
@@ -4236,16 +5404,39 @@ coverage_summary:
       may_skip: 0
       overreach_flags: 0
     "K Application Process (General)":
-      total_claims: 4
+      total_claims: 57
+      must_verify: 3
+      should_verify: 20
+      may_skip: 31
+      overreach_flags: 17
+    "Alta Vista School (SF)":
+      total_claims: 1
       must_verify: 0
       should_verify: 1
-      may_skip: 2
-      overreach_flags: 1
+      may_skip: 0
+      overreach_flags: 0
+    "Cardinal Education":
+      total_claims: 1
+      must_verify: 0
+      should_verify: 0
+      may_skip: 1
+      overreach_flags: 0
 
-  single_source_claims: 130
-  multi_source_claims: 47
+  single_source_claims: 162
+  multi_source_claims: 66
   conflicts_detected: 4
-  overreach_flags: 22
+  overreach_flags: 43
+
+  new_topic_groups_2026_04_07:
+    - financial_costs: "C330-C339 — true total cost, escalation, averages, annual fund"
+    - working_parent_logistics: "C340-C346, C397-C399 — event load, attendance, timeline, strategy"
+    - financial_aid_policy: "C347-C358, C395, C407-C408 — need-blind policy, income brackets, Clarity platform"
+    - playdate_evaluation: "C359-C364, C405-C406 — assessment criteria, red flags, preparation"
+    - rejection_recovery: "C365-C370, C400-C401 — next steps, reapplication strategy"
+    - waitlist_strategy: "C371-C380, C403 — acceptance rates, timeline, LOCI, do-nots"
+    - open_house_questions: "C381-C386, C404 — event structure, question frameworks, observations"
+    - parent_essay: "C387-C394 — authenticity, disclosures, format, follow-up"
+    - financial_aid_school_specific: "C396 — Hausner sibling savings corroboration"
 
   unanswered_questions:
     - question_id: Q015
@@ -4253,13 +5444,21 @@ coverage_summary:
     - question_id: Q016
       note: "No L1 source publishes K-specific acceptance rates. Only L3 school-wide rates available (Hamlin 22%, SF Friends 15%, CAIS 22%). BASIS Independent SV 56% rate from L3 aggregator flagged as overreach."
     - question_id: Q018
-      note: "Tuition figures still missing for: Hamlin, SF Friends, Presidio Hill, Live Oak, Convent & Stuart Hall, Head-Royce, Marin Horizon. All South Bay gaps now filled: Helios, Hausner, Almaden Country Day, BASIS SV, SVIS, and La Scuola SV campus confirmed."
+      note: "Tuition figures still missing for: Hamlin, SF Friends, Presidio Hill, Live Oak, Convent & Stuart Hall, Head-Royce, Marin Horizon."
     - question_id: QG003
-      note: "School-specific sibling preference policies remain scarce. Hausner's Sibling Savings Program is now documented (C263). No L1 sources provide SF-city school sibling policies."
+      note: "School-specific sibling preference policies remain scarce. Hausner Sibling Savings Program documented (C261, C396). No L1 sources for SF-city school sibling policies."
     - question_id: qE008
-      note: "Challenger School official tuition page uses JavaScript dynamic loading — specific per-campus rates not extractable. Only L3 aggregator figure available for Almaden campus (~$12,000; year unconfirmed)."
+      note: "Challenger School official tuition page uses JavaScript dynamic loading — specific per-campus rates not extractable."
     - question_id: qE009
-      note: "Orinda Academy, Maybeck High, Black Pine Circle School not researched in gap-fill pass 2 due to budget exhaustion."
+      note: "Orinda Academy, Maybeck High, Black Pine Circle School not researched."
+    - question_id: qE028
+      note: "No source file fetched for qE028 (deciding between multiple acceptances). Question remains pending."
+    - question_id: qE030
+      note: "No source file fetched for qE030 (private K as bridge to public school). Question remains pending."
+    - question_id: qE032
+      note: "No source file fetched for qE032 (learning differences in private K admissions). Question remains pending."
+    - question_id: qE033
+      note: "No source file fetched for qE033 (parent social culture at private K schools). Question remains pending."
 
   data_quality_notes:
     - "Town School tuition labeled 'approximately' in source — may be estimate rather than official rate."
@@ -4276,3 +5475,7 @@ coverage_summary:
     - "Lycée Français decision date described as 'early March' without specific date — less precise than other ISSFBA-coordinated schools."
     - "Helios School enrollment (approximately 180 students) is from source file notes, not verified against an official enrollment publication page."
     - "New entities in gap-fill pass 2 requiring fact-checker priority: Helios (all claims new, L1 confirmed), Gideon Hausner (all claims new, L1 confirmed), Almaden Country Day (all claims new, L1 confirmed), SVIS/INTL (all claims new, L1 confirmed), Lycée Français (all claims new, L1 confirmed)."
+    - "2026-04-07 pass adds 79 new claims (C330-C408) from 9 community/news sources; 5 topic areas newly populated: working_parent_logistics, playdate_evaluation, rejection_recovery, waitlist_strategy, parent_essay. All 5 areas sourced primarily from L3-L4 sources — high overreach flag density (17 flags in K Application Process General entity alone)."
+    - "BPN source (bpn-rejection-next-steps-reapplication.md) returned 403 error; content is a search synthesis from BPN, ruthkrishnan.com, privateschoolreview.com, and beyondthebrochurela.com — treat as L4 community synthesis, not direct BPN source."
+    - "Financial aid income bracket estimates in C356 are synthesized from parentspress.com (L3) — the only school-verified brackets are Nueva's (C347-C349 from L1). All other income ranges should be treated as directional guidance, not school-specific policy."
+    - "C331 conflicts with C170: both cite same 4-6% tuition escalation figure from same redwoodgrovewm.com source (different fetch dates 2026-04-06 and 2026-04-07). No true conflict — same claim, two registrations. Fact-checker may consolidate."

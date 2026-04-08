@@ -1,5 +1,87 @@
 # Changelog
 
+## 2026-04-06 -- wiki-compiler-agent -- Wiki-Critic Revision Pass (parent-essay-guide, school-tour-guide)
+
+**Changed:**
+- `staging/parent-essay-guide.md` -- Added epistemic note block for "committees look for challenges" claim (D4 fix). Added "Choosing What to Write" decision framework with if/then structure for essay theme selection (D2 fix). Removed thank-you note section, replaced with cross-reference to school-tour-guide (D5 fix). Replaced two common mistakes (wrong school name, procrastination) with non-obvious alternatives (writing about philosophy in abstract, treating essays as template variants). Strengthened character-count practical implication.
+- `staging/school-tour-guide.md` -- Added epistemic note block for thank-you note recommendation (D4 fix). Removed working-parent strategy content, replaced with one-line cross-reference to admissions-strategy-advanced (D5 fix). Added "Using Your Tour Notes to Decide" synthesis framework: forced ranking on priorities, dealbreaker vs yellow flag distinction, pattern recognition across visits, feeding observations into essays (D2 fix). Removed "Questions You Should Not Ask" section (out of scope per critic).
+
+**Reason:** Wiki-critic revision pass. parent-essay-guide scored 6/10 (NEEDS-REVISION), school-tour-guide scored 5/10 (NEEDS-REVISION). All required fixes from critic reports implemented. Articles remain in staging for re-review.
+
+## 2026-04-06 -- wiki-compiler-agent -- Compile Run 4 (C330-C408 Experiential/Decision Guides)
+
+**Added:**
+- `staging/financial-realities.md` -- True K-12 cost model, hidden costs (annual fund, fees, capital campaigns), need-blind vs. need-aware distinction (only Nueva confirmed L1), Nueva income brackets, Bay Area COL adjustment, private-as-bridge strategy. Serves RO4. (C330-C339, C344, C347-C358, C395, C402, C408, d006, mof012, mof014, mof015)
+- `staging/admissions-strategy-advanced.md` -- Application volume (reach/match/safety), working parent logistics (20-35 events), event attendance impact (Head-Royce only corroboration), waitlist concrete actions (LOCI, ranked vs pooled, March 19-26 window), rejection recovery (enrollment management framing, reapplication paths). Serves RO2. (C340-C346, C365-C380, C397-C401, C403)
+- `staging/parent-essay-guide.md` -- What schools evaluate (mission fit, honest child portrait), authenticity vs polish, disclosing challenges (recommended), learning differences disclosure, format (500-1500 characters), common mistakes. Serves RO2. (C387-C394)
+- `staging/school-tour-guide.md` -- Open house components, beyond-the-brochure observations, 5 question categories (admissions, faculty, parents, K-specific, beyond brochure), K-specific observations for 4-5 year olds. Serves RO1. (C381-C386)
+
+**Changed:**
+- `wiki/guides/public-vs-private.md` -- Added explicit decision framework section (when private K makes clear sense vs. when SFUSD is better), private-as-bridge strategy, learning differences IEP/504 note, financial-realities wikilink. Addresses wiki-critic D2 flag (decision framing weak). (C325, C330, C370, C395, C401)
+- `wiki/financial-aid.md` -- Added "Does applying for aid hurt my chances?" section using C351 (Nueva need-blind L1), C352 (budget constraint nuance), C354 (BPN claim NOT generalized per mof015), C269 (Almaden need-blind), C395 (no income ceiling). financial-realities wikilink added.
+- `wiki/_index.md` -- Added 4 staging articles to index under new Staging section.
+
+**Reason:** Compile run 4 -- gap-fill round 3 data (C330-C408). Focus on experiential/decision-making guides for real parent questions (RO1, RO2, RO4). All L4 claims properly attributed with epistemic notes. Mechanism overreach flags honored: mof012, mof014, mof015, mof016, mof017, mof018, mof019.
+
+## 2026-04-06 -- fact-checker-agent -- Fact-Check Pass 4 (Depth Research: C330-C408)
+
+### Summary
+79 new claims verified (C330-C408) from 9 source files dated 2026-04-07. Topics: financial costs, working parent logistics, financial aid income thresholds, playdate evaluation, rejection recovery, waitlist strategy, open house guidance, parent essay authenticity.
+
+### must_verify Claims (8 claims)
+- C330: Total K-12 cost $520K -- DOWNGRADED to L3. Live fetch of redwoodgrovewm.com did NOT return $520K figure. This is a modeled calculation, not a surveyed statistic. Dispute d006 created (C330 $520K vs C325 $500K-$700K).
+- C331: Tuition escalation 4-6% annually -- CONFIRMED L2. Duplicate of C170 (same source). Dispute d005 records the duplicate.
+- C347: Nueva <$150K = 100% aid -- CONFIRMED L1. Live fetch of nuevaschool.org confirmed.
+- C348: Nueva $150K-$250K = 1-10% contribution -- CONFIRMED L1. Live fetch confirmed.
+- C349: Nueva 58% of aided families earn >$250K -- CONFIRMED L1. Live fetch confirmed.
+- C350: Nueva grants not loans, covers beyond tuition -- CONFIRMED L1. Live fetch confirmed.
+- C351: Nueva need-blind admissions -- CONFIRMED L1. Live fetch confirmed.
+- C353: Nueva $8.6M aid, 20% of students (195) -- CONFIRMED L1. Live fetch confirmed + L3 corroboration.
+- C373: ISSFBA waitlist movement March 19-26 -- CONFIRMED L1. Live fetch of issfba.org confirmed dates.
+
+### Overreach Resolutions (17 claims)
+- C330: $520K total cost -- downgraded to L3, labeled as modeled projection
+- C332: $22K-$23K average -- qualified as blending religious and independent schools
+- C333: SF/Marin averages -- noted as from search synthesis, not confirmed on live page
+- C337: "Most schools" seek 100% fund participation -- changed to "Bay Area independent schools"
+- C339: 88% receiving aid -- attributed to PrivateSchoolReview (L3), unnamed schools
+- C340: 20-35 events -- attributed to single L4 consultant, qualified as estimate
+- C341: "Most schools don't track attendance" -- qualified with only Head-Royce named
+- C354: "Many schools use blind admissions" -- CRITICAL: L4 claim embedded in L1 source. Downgraded. Only Nueva confirmed need-blind from L1.
+- C356: Income brackets for aid -- downgraded to L4. Author extrapolation from Nueva data.
+- C359: "Looking for egregious signs" -- qualified as consultant synthesis, excluded gifted programs
+- C360: Playdate assessment criteria -- added "may vary by school"
+- C361: Red flag list -- attributed to consultant synthesis
+- C363: "Schools can detect coached children" -- downgraded to L4 (unverifiable assertion)
+- C366: Rejection = enrollment management -- framed as community observation
+- C368: "Many families admitted second year" -- changed to "some families report"
+- C371-C372: Waitlist acceptance rates 5-15% / 15-30% -- DOWNGRADED to L4. No Bay Area-specific data. No school publishes waitlist rates.
+- C377: Waitlist composition criteria -- added "may prioritize," noted no school discloses
+
+### New Disputes
+- d005: C331 vs C170 -- duplicate extraction (same source, same figure). Resolved: no conflict.
+- d006: C330 ($520K) vs C325 ($500K-$700K) -- different modeling assumptions. Both are projections.
+
+### New Mechanism Overreach Flags
+- mof014: Calculation presented as surveyed figure (C330)
+- mof015: L4 claim embedded in L1 source (C354, C408)
+- mof016: Consultant playdate criteria universalized (C359-C363, C405, C406)
+- mof017: Waitlist rates without Bay Area data (C371, C372)
+- mof018: Individual school data extrapolated to market (C356)
+- mof019: Community rejection reasons presented as fact (C366, C367, C377)
+
+### Gate Status: CLEAR (no L5 claims)
+
+### Key Findings
+1. **Nueva financial aid data is the gold standard** -- only Bay Area school publishing specific income thresholds. All other income-bracket claims are extrapolations.
+2. **Playdate evaluation claims are consultant consensus, not school policy** -- LA-based sources generalized to Bay Area. Must always include "may vary by school."
+3. **Waitlist acceptance rates have zero Bay Area data** -- national estimates only. Must be clearly flagged.
+4. **The $520K figure is missing from the live page** -- may have been removed or was only in the search snippet. Treat as unconfirmed.
+
+### Files
+- `fact-sheet-c330-c408.yaml` -- All new verified claims, disputes, mechanism flags
+- `integrate-factsheet-batch3.sh` -- Integration script to append to main fact-sheet
+
 ## 2026-04-06 -- wiki-compiler-agent -- Compile Run 3 (Gap-Fill Pass 2 Data)
 
 **Changed:**

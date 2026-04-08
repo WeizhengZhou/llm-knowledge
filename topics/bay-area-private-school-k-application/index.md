@@ -31,6 +31,30 @@ _Auto-maintained by wiki-compiler-agent. Do not edit manually._
 ### Staging (pending wiki-critic review)
 - [Assessment Preparation](staging/assessment-prep.md) -- IQ testing logistics, providers, costs, playdate criteria, parent interview prep
 - [Public vs. Private](staging/public-vs-private.md) -- $500K decision framework, parochial vs independent, SFUSD lottery, Basic Fund
+- [Financial Realities](staging/financial-realities.md) -- True K-12 cost model, hidden costs, need-blind vs. need-aware, Nueva income brackets
+- [Advanced Admissions Strategy](staging/admissions-strategy-advanced.md) -- Application volume, working parent logistics, waitlist, rejection recovery
+- [Parent Essay Guide](staging/parent-essay-guide.md) -- Essay evaluation, challenges disclosure, format, common mistakes
+- [School Tour Guide](staging/school-tour-guide.md) -- Open house observations, 5 question categories, K-specific observations
+
+## Research Run: 2026-04-06 (Compile 4 -- C330-C408 Experiential Guides)
+
+Phase completed: compile (gap-fill round 3 data: C330-C408)
+New articles: 4 (staging: 4 guides)
+Updated articles: 2 (public-vs-private decision framework, financial-aid aid-impact section)
+Sources used: 76 raw files (cumulative)
+Fact-sheet gate: CLEAR
+
+Key additions:
+- Financial Realities guide (staging, L3) -- true K-12 cost model ($500K-$700K modeled), hidden costs, need-blind confirmed only at Nueva (L1), income brackets, Bay Area COL
+- Advanced Admissions Strategy (staging, L3) -- reach/match/safety framework, 20-35 events estimate, waitlist LOCI process, March 19-26 window, rejection recovery
+- Parent Essay Guide (staging, L3) -- authenticity focus, challenges disclosure recommended, 500-1500 character format
+- School Tour Guide (staging, L3) -- 5 question categories from Cardinal Education, K-specific observations
+- Public-vs-Private decision framework added (wiki-critic D2 fix): if/then logic, private-as-bridge strategy
+- Financial Aid "does aid hurt chances?" section: Nueva need-blind (L1), mof015 honored (BPN claim NOT generalized)
+
+Disputes referenced: d006 (cost projections)
+Mechanism overreach flags honored: mof012 (modeled cost), mof014 ($520K not on live page), mof015 (L4 in L1 source), mof016 (playdate criteria), mof017 (waitlist rates), mof018 (income bracket extrapolation), mof019 (rejection reasons)
+Stubs remaining: 3 (Redwood Day, Terra SF, EBGIS)
 
 ## Research Run: 2026-04-06 (Compile 3 -- Gap-Fill Pass 2)
 
