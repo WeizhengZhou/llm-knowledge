@@ -1,0 +1,765 @@
+topic: how-to-raise-a-kid-to-be-good-at-swimming
+extracted_at: 2026-04-09T07:00:00Z
+source_files_processed: 39
+total_claims: TBD
+
+claims:
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY GROUP 1: YOUTH SWIM PROGRAM TYPES
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c001
+    text: "Learn-to-Swim programs typically serve ages 6 months through 12 years"
+    type: categorical
+    priority: should_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "6 months through 12 years"
+        extraction_context: "Focus: water safety and basic stroke development. Ages: typically 6 months through 12 years"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator only."
+
+  - id: c002
+    text: "Pre-Team / Bridge programs are typically for ages 5-8 years old"
+    type: categorical
+    priority: should_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "5-8 years old"
+        extraction_context: "Typical age: 5-8 years old"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator only."
+
+  - id: c003
+    text: "Pre-Team / Bridge program sessions may be 45-60 minutes"
+    type: numerical
+    priority: should_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "45-60 minutes"
+        extraction_context: "Sessions may be 45-60 minutes"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator only."
+
+  - id: c004
+    text: "Recreational / Summer League swimming typically runs May-August"
+    type: temporal
+    priority: should_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "May-August typically"
+        extraction_context: "Season: summer only (May-August typically)"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator only."
+
+  - id: c005
+    text: "Recreational / Summer League serves ages 6-18"
+    type: categorical
+    priority: should_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "Ages: 6-18"
+        extraction_context: "Recreational / Summer League: Ages: 6-18"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator only."
+
+  - id: c006
+    text: "USA Swimming Club Teams have age groups: 10 & Under, 11-12, 13-14, 15-16, 17-18"
+    type: categorical
+    priority: must_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "10 & Under, 11-12, 13-14, 15-16, 17-18"
+        extraction_context: "Age groups: 10 & Under, 11-12, 13-14, 15-16, 17-18"
+      - file: raw/web/official/2026-04-09_usa-swimming-age-groups-pathway.md
+        url: https://swimlikeafish.org/usa-swimmings-age-group-swimming-levels-explained
+        tier: L2-authoritative
+        extracted_value: "8 & Under, 10 & Under, 11-12, 13-14, 15-16, 17-18"
+        extraction_context: "USA Swimming organizes competition into these official age groups: 8 & Under, 10 & Under, 11-12, 13-14, 15-16, 17-18"
+    overreach_flag: false
+    conflict_note: "Swim-programs-types-overview omits 8 & Under; usa-swimming-age-groups-pathway includes it. The 8 & Under group exists in competition — first source appears to have listed club team groups incompletely."
+
+  - id: c007
+    text: "USA Swimming Club Excellence designations are Bronze, Silver, and Gold"
+    type: categorical
+    priority: should_verify
+    entity: youth-swim-program-types
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-09_swim-programs-types-overview.md
+        url: https://tideswimming.com/
+        tier: L3-aggregator
+        extracted_value: "Bronze, Silver, Gold"
+        extraction_context: "Club Excellence designations: Bronze, Silver, Gold (quality recognition)"
+      - file: raw/web/official/2026-04-09_usaswimming-structure.md
+        url: https://www.usaswimming.org/home/find-a-team
+        tier: L1-official
+        extracted_value: "Bronze, Silver, Gold"
+        extraction_context: "filtering options for club type, Club Excellence designations (Bronze, Silver, Gold)"
+    overreach_flag: false
+
+  - id: c008
+    text: "USA Swimming has 2,800+ affiliated clubs across the country"
+    type: numerical
+    priority: must_verify
+    entity: usa-swimming
+    question_id: q4
+    sources:
+      - file: raw/web/official/2026-04-09_usaswimming-structure.md
+        url: https://www.usaswimming.org/home/find-a-team
+        tier: L1-official
+        extracted_value: "2,800+"
+        extraction_context: "search among '2,800+ USA Swimming clubs and hundreds of Learn to Swim programs'"
+    overreach_flag: false
+    single_source: true
+
+  - id: c009
+    text: "USA Swimming Block Party initiative has engaged more than 31,000 athletes"
+    type: numerical
+    priority: should_verify
+    entity: usa-swimming
+    question_id: q4
+    sources:
+      - file: raw/web/official/2026-04-09_usaswimming-structure.md
+        url: https://www.usaswimming.org/home/find-a-team
+        tier: L1-official
+        extracted_value: "more than 31,000 athletes"
+        extraction_context: "Block Party: This initiative has engaged 'more than 31,000 athletes' in club-focused competitions"
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY GROUP 2: LTAD MODEL STAGES
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c010
+    text: "The LTAD model has seven stages: Active Start, FUNdamentals, Learn to Train, Train to Train, Train to Compete, Train to Win, Active for Life"
+    type: categorical
+    priority: should_verify
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/official/2026-04-09_swimmingnotes-ltad.md
+        url: https://swimmingnotes.com/en/article/long-term-athlete-development-ltad/
+        tier: L3-aggregator
+        extracted_value: "seven stages"
+        extraction_context: "The Seven LTAD Stages: Active Start, FUNdamentals, Learn to Train, Train to Train, Train to Compete, Train to Win, Active for Life"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator; LTAD framework itself is well-documented but specific 7-stage naming should be verified against USA Swimming's official LTAD documentation."
+
+  - id: c011
+    text: "The LTAD model was pioneered by Istvan Balyi"
+    type: categorical
+    priority: should_verify
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/official/2026-04-09_swimmingnotes-ltad.md
+        url: https://swimmingnotes.com/en/article/long-term-athlete-development-ltad/
+        tier: L3-aggregator
+        extracted_value: "Istvan Balyi"
+        extraction_context: "The model was pioneered by Istvan Balyi"
+    overreach_flag: false
+    single_source: true
+
+  - id: c012
+    text: "Major swimming nations including Canada, Australia, the United States, and the United Kingdom have developed structured LTAD frameworks"
+    type: categorical
+    priority: may_skip
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/official/2026-04-09_swimmingnotes-ltad.md
+        url: https://swimmingnotes.com/en/article/long-term-athlete-development-ltad/
+        tier: L3-aggregator
+        extracted_value: "Canada, Australia, United States, United Kingdom"
+        extraction_context: "Major swimming nations including Canada, Australia, the United States, and the United Kingdom have developed structured LTAD frameworks"
+    overreach_flag: false
+    single_source: true
+
+  - id: c013
+    text: "LTAD is described as 'a widely accepted concept within high performance sport on how to best train and develop junior athletes appropriately for elite sport competition'"
+    type: definitional
+    priority: may_skip
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/official/2026-04-09_swimmingworld-ltad-age-group.md
+        url: https://www.swimmingworldmagazine.com/news/long-term-athlete-development-not-winning-key-to-age-group-training/
+        tier: L2-authoritative
+        extracted_value: "widely accepted concept"
+        extraction_context: "LTAD is 'a widely accepted concept within high performance sport on how to best train and develop junior athletes appropriately for elite sport competition'"
+    overreach_flag: false
+    single_source: true
+
+  - id: c014
+    text: "Without LTAD adherence, swimmers often 'plateau and get to the point where they disengage' during adolescence when growth slows, potentially dropping out before reaching their potential"
+    type: causal
+    priority: may_skip
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/official/2026-04-09_swimmingworld-ltad-age-group.md
+        url: https://www.swimmingworldmagazine.com/news/long-term-athlete-development-not-winning-key-to-age-group-training/
+        tier: L2-authoritative
+        extracted_value: "plateau and disengage"
+        extraction_context: "Without LTAD adherence, swimmers often 'plateau and get to the point where they disengage' during adolescence"
+    overreach_flag: false
+    single_source: true
+
+  - id: c015
+    text: "NSCA and U.S. Olympic Committee endorse LTAD"
+    type: categorical
+    priority: should_verify
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/review/2026-04-09_nsca-ltad-parents-guide.md
+        url: https://www.nsca.com/about-us/position-statements/youth-training-and-long-term-athletic-development/an-introduction-for-parents-what-is-long-term-athletic-development/
+        tier: L2-authoritative
+        extracted_value: "NSCA and U.S. Olympic Committee"
+        extraction_context: "Major organizations including the NSCA and U.S. Olympic Committee endorse LTAD"
+    overreach_flag: false
+    single_source: true
+
+  - id: c016
+    text: "NSCA guideline: children should spend no more weekly sports hours than their age in years (e.g., 10-year-olds: max 10 hours/week)"
+    type: numerical
+    priority: must_verify
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/review/2026-04-09_nsca-ltad-parents-guide.md
+        url: https://www.nsca.com/about-us/position-statements/youth-training-and-long-term-athletic-development/an-introduction-for-parents-what-is-long-term-athletic-development/
+        tier: L2-authoritative
+        extracted_value: "no more weekly hours than age in years"
+        extraction_context: "Children should spend no more weekly sports hours than their age in years (e.g., 10-year-olds: max 10 hours/week)"
+      - file: raw/web/official/2026-04-09_talent-identification-late-developers.md
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7174680/
+        tier: L1-official
+        extracted_value: "not more hours per week in organized sports than their age in years"
+        extraction_context: "American Academy of Pediatrics (AAP) recommendation: Children should not train more hours per week in organized sports than their age in years"
+    overreach_flag: false
+    conflict_note: "One source attributes this to NSCA, another to AAP. Both cite the same numeric formula. Attribution should be verified — this rule may originate with AAP."
+
+  - id: c017
+    text: "All fitness attributes (strength, endurance, flexibility, agility, balance) are safely trainable in children ages 6-17 under proper supervision"
+    type: categorical
+    priority: should_verify
+    entity: ltad-model
+    question_id: q5
+    sources:
+      - file: raw/web/review/2026-04-09_nsca-ltad-parents-guide.md
+        url: https://www.nsca.com/about-us/position-statements/youth-training-and-long-term-athletic-development/an-introduction-for-parents-what-is-long-term-athletic-development/
+        tier: L2-authoritative
+        extracted_value: "ages 6-17 under proper supervision"
+        extraction_context: "All fitness attributes (strength, endurance, flexibility, agility, balance) are safely trainable in children ages 6-17 under proper supervision"
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY GROUP 3: AGE / DEVELOPMENTAL BENCHMARKS
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c018
+    text: "American Academy of Pediatrics suggests most children age four and older should learn to swim"
+    type: categorical
+    priority: must_verify
+    entity: age-developmental-benchmarks
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-09_jackrabbit-competitive-age.md
+        url: https://www.jackrabbitclass.com/blog/whats-the-right-age-for-kids-to-start-swimming-competitively/
+        tier: L3-aggregator
+        extracted_value: "age four and older"
+        extraction_context: "The American Academy of Pediatrics suggests that 'most children age four and older should learn to swim'"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator citing AAP; fact-checker should verify against current AAP guidance directly."
+
+  - id: c019
+    text: "Both the AAP and Red Cross have become more flexible, acknowledging that infants as young as six months can participate in water instruction when a parent is involved"
+    type: categorical
+    priority: must_verify
+    entity: age-developmental-benchmarks
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-09_jackrabbit-competitive-age.md
+        url: https://www.jackrabbitclass.com/blog/whats-the-right-age-for-kids-to-start-swimming-competitively/
+        tier: L3-aggregator
+        extracted_value: "six months"
+        extraction_context: "infants as young as six months can participate in water instruction when a parent is involved"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator citing AAP/Red Cross; verify against primary sources."
+
+  - id: c020
+    text: "USA Swimming operates competitive meets for swimmers age 10 and under; YMCA offers competitive opportunities for children eight and younger"
+    type: categorical
+    priority: must_verify
+    entity: age-developmental-benchmarks
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-09_jackrabbit-competitive-age.md
+        url: https://www.jackrabbitclass.com/blog/whats-the-right-age-for-kids-to-start-swimming-competitively/
+        tier: L3-aggregator
+        extracted_value: "age 10 and under; eight and younger"
+        extraction_context: "USA Swimming operates competitive meets for swimmers age 10 and under, while the YMCA offers competitive opportunities for children eight and younger"
+    overreach_flag: true
+    overreach_reason: "USA Swimming actually has 8 & Under age groups per the official USA Swimming source (c006), which contradicts '10 and under' as the entry age here. Fact-checker should resolve."
+    single_source: true
+
+  - id: c021
+    text: "Most swimmers typically enter competitive swimming somewhere between ages 8 and 12"
+    type: categorical
+    priority: should_verify
+    entity: age-developmental-benchmarks
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-09_jackrabbit-competitive-age.md
+        url: https://www.jackrabbitclass.com/blog/whats-the-right-age-for-kids-to-start-swimming-competitively/
+        tier: L3-aggregator
+        extracted_value: "ages 8 and 12"
+        extraction_context: "Most swimmers typically enter competitive swimming somewhere between ages 8 and 12"
+    overreach_flag: false
+    single_source: true
+
+  - id: c022
+    text: "The typical age for a child to join a swim team is 5-7 years old, according to Menlo Swim & Sport"
+    type: categorical
+    priority: should_verify
+    entity: age-developmental-benchmarks
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-09_menloswim-age-team-readiness.md
+        url: https://menloswim.com/blog/what-age-should-kids-join-a-swim-team/
+        tier: L3-aggregator
+        extracted_value: "5-7 years old"
+        extraction_context: "'The typical age for a child to join a swim team is 5-7 years old'"
+    overreach_flag: true
+    overreach_reason: "This is guidance from a single swim school (Menlo Swim & Sport), stated as general fact. Other sources cite 8-12 as typical competitive entry age. These are not contradictory (pre-team at 5-7 vs. competitive at 8-12) but the framing may mislead."
+    single_source: true
+
+  - id: c023
+    text: "Before competing, children should be able to swim at least 50 meters without difficulty"
+    type: numerical
+    priority: should_verify
+    entity: age-developmental-benchmarks
+    question_id: q6
+    sources:
+      - file: raw/web/review/2026-04-09_jackrabbit-competitive-age.md
+        url: https://www.jackrabbitclass.com/blog/whats-the-right-age-for-kids-to-start-swimming-competitively/
+        tier: L3-aggregator
+        extracted_value: "50 meters"
+        extraction_context: "Have the endurance to swim at least 50 meters without difficulty"
+      - file: raw/web/review/2026-04-09_swim-lessons-to-team-readiness.md
+        url: https://weaquatics.com/blog/advanced-swimming-lessons-prepare-kids-for-swim-team/
+        tier: L3-aggregator
+        extracted_value: "50 meters"
+        extraction_context: "50 meters without difficulty before competitive readiness"
+    overreach_flag: false
+
+  - id: c024
+    text: "Team practices are typically 60 minutes vs. 30-minute LTS lessons"
+    type: numerical
+    priority: should_verify
+    entity: age-developmental-benchmarks
+    question_id: q6
+    sources:
+      - file: raw/web/review/2026-04-09_swim-lessons-to-team-readiness.md
+        url: https://weaquatics.com/blog/advanced-swimming-lessons-prepare-kids-for-swim-team/
+        tier: L3-aggregator
+        extracted_value: "60 minutes vs. 30-minute"
+        extraction_context: "Team practices are 60 minutes vs. 30-minute LTS lessons; can the child sustain attention?"
+    overreach_flag: false
+    single_source: true
+
+  - id: c025
+    text: "Some swimmers are ready for team swimming after six months of intentional advanced swim lessons; others need a year or more"
+    type: categorical
+    priority: may_skip
+    entity: age-developmental-benchmarks
+    question_id: q6
+    sources:
+      - file: raw/web/review/2026-04-09_swim-lessons-to-team-readiness.md
+        url: https://weaquatics.com/blog/advanced-swimming-lessons-prepare-kids-for-swim-team/
+        tier: L3-aggregator
+        extracted_value: "six months; a year or more"
+        extraction_context: "Some swimmers are ready after six months of intentional advanced swim lessons. Others need a year or more."
+    overreach_flag: false
+    single_source: true
+
+  - id: c026
+    text: "Skill benchmarks by age: ages 3-5: water comfort and floating; ages 6-7: independent freestyle 25 yards, basic backstroke; ages 7-9: breaststroke introduction; ages 9-10: all four strokes basic proficiency, flip turns, ready for pre-team; ages 10-12: 200 IM capability; ages 12-14: stroke refinement; ages 14-18: event specialization"
+    type: categorical
+    priority: should_verify
+    entity: age-developmental-benchmarks
+    question_id: q15
+    sources:
+      - file: raw/web/review/2026-04-09_precompetitive-bridge-program.md
+        url: https://recwell.berkeley.edu/youth-recreation/year-round-programs/youth-swim-programs/pre-team-swim-training/
+        tier: L1-official
+        extracted_value: "age-range skill table"
+        extraction_context: "Skill Benchmarks by Stage: 3-5: water comfort, floating; 6-7: independent freestyle 25 yards; 7-9: breaststroke introduction; 9-10: all four strokes, flip turns, ready for pre-team; 10-12: 200 IM; 12-14: stroke refinement; 14-18: event specialization"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Compiled/synthesized table from multiple sources per the document; not a single authoritative source."
+
+  - id: c027
+    text: "At mid-adolescence (ages 15-17), athletes are more physically mature, more capable of expressing feelings, able to think more abstractly, and more able to demonstrate greater mastery of their sport"
+    type: categorical
+    priority: may_skip
+    entity: age-developmental-benchmarks
+    question_id: q9
+    sources:
+      - file: raw/web/official/2026-04-09_pmc-mental-skills-youth-swimmers.md
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3834981/
+        tier: L1-official
+        extracted_value: "ages 15-17"
+        extraction_context: "At mid-adolescence (ages 15-17), athletes are more physically mature, more capable of expressing feelings, able to think more abstractly"
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY GROUP 4: PACIFIC SWIMMING LSC
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c028
+    text: "Pacific Swimming (PC) is one of 59 USA Swimming Local Swimming Committees (LSCs)"
+    type: numerical
+    priority: must_verify
+    entity: pacific-swimming
+    question_id: q4
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "one of 59"
+        extraction_context: "Pacific Swimming (PC) is one of 59 USA Swimming Local Swimming Committees (LSCs)"
+      - file: raw/web/official/2026-04-09_usa-swimming-age-groups-pathway.md
+        url: https://swimlikeafish.org/usa-swimmings-age-group-swimming-levels-explained
+        tier: L2-authoritative
+        extracted_value: "59 committees nationwide"
+        extraction_context: "organized by Local Swimming Committees (LSCs) — 59 committees nationwide"
+    overreach_flag: false
+
+  - id: c029
+    text: "Pacific Swimming is the third largest LSC in the country"
+    type: comparative
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q4
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "third largest LSC"
+        extraction_context: "It is the third largest LSC in the country"
+    overreach_flag: false
+    single_source: true
+
+  - id: c030
+    text: "Pacific Swimming has 13,000+ registered athletes across 100+ member clubs"
+    type: numerical
+    priority: must_verify
+    entity: pacific-swimming
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "13,000+ registered athletes; 100+ member clubs"
+        extraction_context: "13,000+ registered athletes across 100+ member clubs"
+    overreach_flag: false
+    single_source: true
+
+  - id: c031
+    text: "Pacific Swimming covers San Francisco Bay Area, coastal Northern California from Monterey to Oregon border, Stockton-Modesto area, and Reno-Carson City-Lake Tahoe area"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q4
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "geographic coverage description"
+        extraction_context: "Geographic coverage: San Francisco Bay Area (core), Coastal Northern California from Monterey to Oregon border, Stockton-Modesto area, Reno-Carson City-Lake Tahoe area"
+    overreach_flag: false
+    single_source: true
+
+  - id: c032
+    text: "Pacific Swimming has five geographical zones: Zone 1 North, Zone 1 South, Zone 2, Zone 3, Senior Zone"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "five zones"
+        extraction_context: "Zones: Five geographical zones (Zone 1 North, Zone 1 South, Zone 2, Zone 3, Senior Zone)"
+    overreach_flag: false
+    single_source: true
+
+  - id: c033
+    text: "Pacific Swimming time standards hierarchy from entry to elite: PC-B, PC-A, AGC (Age Group Championship), Far Western (Q time)"
+    type: categorical
+    priority: must_verify
+    entity: pacific-swimming
+    question_id: qG1
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "PC-B, PC-A, AGC, Far Western"
+        extraction_context: "Pacific Swimming Time Standards (fastest to slowest): Far Western (Q time), AGC, PC-A, PC-B"
+      - file: raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+        url: https://www.pacswim.org/swim-meet-times/standards
+        tier: L1-official
+        extracted_value: "PC-B, PC-A, AGC, Far Western"
+        extraction_context: "Order from slowest (entry) to fastest (elite): PC-B, PC-A, AGC, Far Western"
+    overreach_flag: false
+
+  - id: c034
+    text: "Pacific Swimming Age Group Championships (AGC) meets are held in March, July, and December"
+    type: temporal
+    priority: must_verify
+    entity: pacific-swimming
+    question_id: qG1
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "March, July, December"
+        extraction_context: "Age Group Championships (AGC) — qualifies for PC's March, July, December championship meets"
+      - file: raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+        url: https://www.pacswim.org/swim-meet-times/standards
+        tier: L1-official
+        extracted_value: "March, July, December"
+        extraction_context: "March Age Group Championships, July Age Group Championships, December Age Group Championships"
+    overreach_flag: false
+
+  - id: c035
+    text: "Far Western Championships are held in April (Spring) and July (Summer)"
+    type: temporal
+    priority: must_verify
+    entity: pacific-swimming
+    question_id: qG1
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "April and July"
+        extraction_context: "Far Western Championships (April and July)"
+      - file: raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+        url: https://www.pacswim.org/swim-meet-times/standards
+        tier: L1-official
+        extracted_value: "Spring Far Western (April), Summer Far Western (July)"
+        extraction_context: "Spring Far Western Championships (April), Summer Far Western Championships (July)"
+    overreach_flag: false
+
+  - id: c036
+    text: "Short course yards (SCY) uses a 25-yard pool and is the primary format for most of the competitive year (fall through spring)"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: qG1
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "25-yard; fall through spring"
+        extraction_context: "Short course yards (SCY): 25-yard pool — used for most of the competitive year (fall through spring)"
+      - file: raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+        url: https://www.pacswim.org/swim-meet-times/standards
+        tier: L1-official
+        extracted_value: "SCY — Short Course Yards (25-yard pool; primary fall/winter/spring season format)"
+        extraction_context: "SCY — Short Course Yards (25-yard pool; primary fall/winter/spring season format)"
+    overreach_flag: false
+
+  - id: c037
+    text: "Long course meters (LCM) uses a 50-meter pool and is the primary summer season format, also the format for international competition and Olympics"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: qG1
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "50-meter pool; summer season"
+        extraction_context: "Long course meters (LCM): 50-meter pool — used during summer season; primary format for international competition and Olympics"
+    overreach_flag: false
+    single_source: true
+
+  - id: c038
+    text: "High school swimmers competing in CIF season must compete as 'unattached' in USA Swimming meets during that season"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q14
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "unattached"
+        extraction_context: "High school swimmers competing in CIF (California Interscholastic Federation) season must compete as 'unattached' in USA Swimming meets during that season"
+    overreach_flag: false
+    single_source: true
+
+  - id: c039
+    text: "USA Swimming national time standards: B (entry), BB (intermediate), A (solid), AA (strong), AAA (high-level), AAAA (elite age group)"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q14
+    sources:
+      - file: raw/web/official/2026-04-09_usa-swimming-age-groups-pathway.md
+        url: https://swimlikeafish.org/usa-swimmings-age-group-swimming-levels-explained
+        tier: L2-authoritative
+        extracted_value: "B, BB, A, AA, AAA, AAAA"
+        extraction_context: "USA Swimming uses time standards as benchmarks: B, BB, A, AA, AAA, AAAA"
+    overreach_flag: false
+    single_source: true
+
+  - id: c040
+    text: "Zone Age Group Championships has four zones — Eastern, Central, Southern, and Western — with teams comprising up to 48 men and 48 women; most zone meets cap at 14 and under"
+    type: numerical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q14
+    sources:
+      - file: raw/web/official/2026-04-09_usa-swimming-age-groups-pathway.md
+        url: https://swimlikeafish.org/usa-swimmings-age-group-swimming-levels-explained
+        tier: L2-authoritative
+        extracted_value: "48 men and 48 women; 14 and under"
+        extraction_context: "Teams comprise up to 48 men and 48 women selected through varying processes. Most zone meets cap at 14 and under."
+    overreach_flag: false
+    single_source: true
+
+  - id: c041
+    text: "Pacific Swimming Zone 1 North covers San Mateo and north Santa Clara counties and has 22 member clubs"
+    type: numerical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-09_pacswim-zone1north-clubs.md
+        url: https://www.pacswim.org/members/zones/zone-1-north/clubs
+        tier: L1-official
+        extracted_value: "22 clubs listed"
+        extraction_context: "Zone 1 North covers San Mateo and north Santa Clara counties. [22 clubs listed]"
+    overreach_flag: false
+    single_source: true
+
+  - id: c042
+    text: "Pacific Swimming Zone 1 South covers south Santa Clara, Santa Cruz, San Benito, and Monterey counties and has 23 member clubs"
+    type: numerical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-09_pacswim-zone1south-clubs.md
+        url: https://www.pacswim.org/members/zones/zone-1-south/z1s-clubs
+        tier: L1-official
+        extracted_value: "23 clubs"
+        extraction_context: "Total: 23 clubs across five counties"
+    overreach_flag: false
+    single_source: true
+
+  - id: c043
+    text: "Pacific Swimming Zone 2 covers Alameda and Contra Costa counties plus the San Joaquin (Stockton/Modesto) area"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-09_pacswim-zone2-clubs.md
+        url: https://www.pacswim.org/members/zones/zone-2/zone-2-teams-directory
+        tier: L1-official
+        extracted_value: "Alameda, Contra Costa, San Joaquin"
+        extraction_context: "Zone 2 covers Alameda and Contra Costa counties, plus the San Joaquin (Stockton/Modesto) area"
+    overreach_flag: false
+    single_source: true
+
+  - id: c044
+    text: "Pacific Swimming Zone 3 covers San Francisco, Marin, Sonoma, Napa, Mendocino, Lake, Humboldt, Del Norte, and western Solano counties"
+    type: categorical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-09_pacswim-zone3-clubs.md
+        url: https://www.pacswim.org/members/zones/zone-3/clubs-2
+        tier: L1-official
+        extracted_value: "SF, Marin, Sonoma, Napa, Mendocino, Lake, Humboldt, Del Norte, western Solano"
+        extraction_context: "Zone 3 covers San Francisco, Marin, Sonoma, Napa, Mendocino, Lake, Humboldt, Del Norte, and western Solano counties"
+    overreach_flag: false
+    single_source: true
+
+  - id: c045
+    text: "At most Pacific Swimming meets, deck seeding requires swimmers to check in with the clerk of the course 60 minutes before their event"
+    type: numerical
+    priority: should_verify
+    entity: pacific-swimming
+    question_id: q16
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+        url: https://www.pacswim.org/resources/faq
+        tier: L1-official
+        extracted_value: "60 minutes"
+        extraction_context: "Most PC meets require swimmers to check in with the clerk of the course 60 minutes before their event"
+      - file: raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+        url: https://www.pacswim.org/swim-meet-times/standards
+        tier: L1-official
+        extracted_value: "60 minutes"
+        extraction_context: "Deck seeding — Swimmer must check in 60 minutes before event at most PC meets"
+    overreach_flag: false
+
+  - id: c046
+    text: "Pacific Swimming specific numeric cut times are contained in PDF documents available at pacswim.org/swim-meet-times/standards and are not extractable without a PDF parser"
+    type: categorical
+    priority: may_skip
+    entity: pacific-swimming
+    question_id: qG1
+    sources:
+      - file: raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+        url: https://www.pacswim.org/swim-meet-times/standards
+        tier: L1-official
+        extracted_value: "PDF documents"
+        extraction_context: "The actual numeric cut times are contained in PDF documents available at pacswim.org/swim-meet-times/standards. These PDFs are binary-compressed and require a PDF reader."
+    overreach_flag: false
+    single_source: true

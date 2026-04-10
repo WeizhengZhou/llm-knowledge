@@ -1,0 +1,261 @@
+topic: how-to-raise-a-kid-to-be-good-at-swimming
+run_id: "2026-04-09-initial"
+evaluated_at: "2026-04-09T20:00:00Z"
+wiki_article_count: 18
+test_question_count: 35
+
+composite_score: 83
+composite_breakdown:
+  D1_reader_outcomes:
+    weight: 0.30
+    score: 2.71
+    weighted: 27.1
+    per_outcome:
+      - id: RO1
+        job: "Decide when and how to start a child in swimming"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          Getting-started.md comprehensively covers age to start (AAP guidance via JackrabbitClass),
+          water safety vs. stroke technique priority, and choosing a good swim school/instructor
+          with a specific checklist (ratios, certifications, trial options). All 3 must_answer items
+          fully addressed.
+
+      - id: RO2
+        job: "Understand what traits and conditions support swimming development"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          Body-type-and-swimming.md covers physical traits with proper caveats (Chinese population
+          study, age 17+ applicability). The body type vs. training question is directly addressed
+          with the "what parents should/should not conclude" section. Psychological traits covered
+          in parent-playbook.md (Self-Determination Theory, intrinsic motivation). Early development
+          vs. genuine talent thoroughly addressed via the Late Developer Effect (PMC7174680: 75% of
+          elite juniors do not become elite seniors; performance before 17 not predictive).
+
+      - id: RO3
+        job: "Evaluate and select a swim coach or club"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          Choosing-a-club-and-coach.md covers USA Swimming and ASCA certifications, background
+          checks, green flags and red flags, comprehensive question lists, Safe Sport section with
+          reporting contacts, and a trial period strategy. All 4 must_answer items fully addressed.
+
+      - id: RO4
+        job: "Find Bay Area swim camps, clubs, and local resources"
+        score: 2
+        uncovered_must_answer:
+          - "What competitive swim clubs exist in the Bay Area — SF, East Bay coverage is weak"
+        notes: >
+          Four club profiles exist (Alto, PASA, DACA, SCSC) covering Peninsula and South Bay well.
+          Bay-area-swim-camps.md covers summer options with a useful comparison table. However,
+          geographic coverage has a significant gap: there are no entity articles for SF, East Bay,
+          or North Bay clubs. The must_answer item asks about "SF, East Bay, Peninsula, South Bay"
+          but only Peninsula and South Bay are covered with specific clubs. The swim-meets-explained
+          article lists Pacific Swimming zones (Zone 2 = Alameda/Contra Costa, Zone 3 = SF/Marin)
+          but names no specific clubs in those zones. A parent in Oakland or San Francisco cannot
+          use this wiki to find their local club.
+
+      - id: RO5
+        job: "Navigate the pathway from recreational to competitive swimming"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          Developmental-pathway.md maps stages clearly. Getting-started.md covers pre-team/bridge
+          programs with the UC Berkeley example. USA Swimming pathway covered in developmental-pathway
+          and swim-meets-explained. First meet expectations covered in swim-meets-explained with
+          packing list, check-in process, parent guidelines. Costs at each level covered in
+          costs-and-commitment.md with a clear tiered table. All 5 must_answer items addressed.
+
+      - id: RO6
+        job: "Make informed decisions about sport specialization and multi-sport participation"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          Early-specialization.md covers AAP recommendation (age 15-16), the 3.76x burnout
+          association with early specialization, and the PMC10530013 study on actual specialization
+          patterns. Swimming-and-other-sports.md covers complementary sports, cross-training benefits,
+          scheduling strategies, and water polo transition. All 4 must_answer items fully addressed.
+
+      - id: RO7
+        job: "Keep a young swimmer healthy, motivated, and progressing long-term"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          Preventing-burnout.md covers burnout signs (child and environment), dropout reasons
+          (PMC5968952 systematic review), overtraining prevention with AAP guideline, and the
+          off-ramp option. Parent-playbook.md covers supportive parenting with the "I love watching
+          you swim" protocol, what not to do (6 specific anti-patterns), and process vs. outcome
+          goals. Developmental-pathway.md provides training volume by age table. Preventing-burnout
+          lists common reasons kids quit (had other things to do, lack of enjoyment, boredom).
+          All 5 must_answer items fully addressed.
+
+  D2_coverage:
+    weight: 0.20
+    score: 2.33
+    weighted: 15.5
+    sub_scores:
+      D2a_topic_coverage: 2
+      D2b_entity_completeness: 2
+      D2c_stub_ratio: 3
+    missing_categories:
+      - "Category A gap: No 'should my child even swim competitively?' pre-decision article (partially covered in overview.md Common Mistakes but not a dedicated decision article)"
+      - "Geographic coverage gap: No SF, East Bay, or North Bay club profiles despite RO4 explicitly requesting them"
+      - "Category C gap: No article on nutrition for young swimmers (mentioned as gap in lint report CV2 notes)"
+    entity_completeness: 0.80
+    stub_ratio: 0.0
+    notes: >
+      D2a = 2: All major decision categories covered, but geographic coverage gap (no SF/East Bay
+      clubs) is a meaningful omission for RO4. Category A (pre-decision) partially addressed in
+      overview but could be stronger. Nutrition gap noted.
+      D2b = 2: Of 5 entity articles, all have complete data tables. However, the entity scope
+      itself is incomplete -- landscape.yaml mentions East Bay Swim League, Waterworks Aquatics,
+      and other entities that lack profiles. 4/5 existing entities are complete, but scope coverage
+      is ~70% of what the topic demands.
+      D2c = 3: Zero stubs. All 18 articles have substantial content (400-1300 words each).
+
+  D3_accuracy:
+    weight: 0.20
+    score: 2.67
+    weighted: 17.8
+    sub_scores:
+      D3a_attribution_compliance: 3
+      D3b_confidence_discipline: 3
+      D3c_conflict_documentation: 2
+    notes: >
+      D3a = 3: Sampled 20 claim sentences across articles. All use "According to X" attribution,
+      cite specific PMC study IDs, or use appropriate epistemic hedging. Attribution compliance
+      is excellent (estimated >95%).
+      D3b = 3: Zero L5 claims in wiki (both c020 and c137 properly blocked). L4 sources (5 total)
+      used with appropriate hedging ("Some compiled sources suggest..."; community sources not cited
+      as fact). The cognitive-benefits article explicitly calls out c137 as blocked with explanation.
+      D3c = 2: The early-specialization/burnout association conflict (3.76x burnout vs. PMC5968952
+      finding no direct causal link) is properly documented with a Caution block. The PASA/Alto
+      merger confusion is documented. However, there are likely minor source conflicts not explicitly
+      flagged (e.g., different sources giving different age ranges for competitive readiness: 5-7
+      vs. 8-12, addressed in getting-started but not formally documented as a conflict).
+
+  D4_actionability:
+    weight: 0.15
+    score: 2.67
+    weighted: 13.3
+    sub_scores:
+      D4a_decision_framing: 3
+      D4b_common_mistakes: 3
+      D4c_entry_point_clarity: 2
+    notes: >
+      D4a = 3: Articles use imperative voice throughout. Recreational-to-competitive has a 5-step
+      action plan. Getting-started has a "Recommended Steps" section. Choosing-a-club-and-coach has
+      a trial period strategy. Parent-playbook has specific "what to say" and "what NOT to say"
+      prescriptions. Readers know what to do next.
+      D4b = 3: Common Mistakes sections are exceptional across the wiki. They are specific and
+      non-obvious: "Treating Level 4 at one program as equivalent to Level 4 at another" (getting-started),
+      "Emailing the coach after every bad race" (parent-playbook), "Choosing a club based on fastest
+      swimmers only -- look at senior retention" (choosing-a-club-and-coach), "Buying tech suits too
+      early -- prohibited in some age-group events" (costs-and-commitment). These are genuinely
+      actionable and not generic "start early" advice.
+      D4c = 2: The overview.md has a clear Reading Roadmap with persona-based entry paths. However,
+      if a reader lands on an entity article (e.g., alto-swim-club.md) first, there is no breadcrumb
+      or "start here" pointer at the top. The See Also sections help but do not explicitly say
+      "new to this wiki? start with overview.md". The _index.md exists but is an Obsidian index,
+      not a reader-facing landing page.
+
+  D5_perspective_balance:
+    weight: 0.10
+    score: 2.0
+    weighted: 6.7
+    notes: >
+      Official school/org sources (L1-L2): Present and strong. USA Swimming, Pacific Swimming,
+      AAP, NSCA, PMC studies all well-represented.
+      Aggregator/review data (L3): Present. SwimSwam, JackrabbitClass, US Sports Camps cited
+      throughout with proper attribution.
+      Community/parent experience synthesis (L4): Weak. Only 5 L4 claims in the entire fact-sheet.
+      No parent forum perspectives, no "what parents actually experience" sections. The wiki is
+      very research-heavy and official-source-heavy, which is epistemically correct but misses
+      the experiential dimension. A parent reading this wiki gets excellent evidence-based guidance
+      but no sense of "what does it actually feel like when your 9-year-old starts competing?"
+      Expert synthesis (consultants, journalists): Partially present via Swimming World Magazine
+      and SwimSwam.
+      Counterarguments ("why NOT to do X"): Present in Common Mistakes and the early-specialization
+      article. The overview explicitly addresses "when NOT to start competitive training."
+      Score = 2: Official + aggregator present, but community patterns absent.
+
+  D6_navigability:
+    weight: 0.05
+    score: 2.75
+    weighted: 4.6
+    sub_scores:
+      broken_wikilinks: 3
+      orphaned_articles: 3
+      backlinks_populated: 1
+      see_also_sections: 3
+    notes: >
+      Broken wikilinks: 0 (lint report confirms PASS). Score = 3.
+      Orphaned articles: 0 (lint report confirms PASS). Score = 3.
+      Backlinks populated: All articles have backlinks: [] (empty arrays) in frontmatter. The
+      cross-linker has not populated backlinks. Score = 1.
+      See Also sections: All 18 articles have See Also sections with relevant cross-references.
+      Score = 3.
+
+test_question_results:
+  pass_rate: 0.91
+  score_2_count: 32
+  score_1_count: 2
+  score_0_count: 1
+  failed_questions:
+    - id: TQ19
+      text: "Are there competitive swim clubs in the East Bay or San Francisco?"
+      score: 0
+      reason: >
+        No East Bay or SF club profiles exist. Swim-meets-explained.md mentions Zone 2
+        (Alameda/Contra Costa) and Zone 3 (SF/Marin) with club counts but names zero specific
+        clubs. A parent in Oakland or SF cannot answer this question from the wiki.
+    - id: TQ15
+      text: "What distinguishes a development-focused club from a performance-focused club?"
+      score: 1
+      reason: >
+        Partially addressed. Choosing-a-club-and-coach mentions coaching philosophy questions
+        and the entity articles describe individual clubs' orientations. But there is no direct
+        article or section that explicitly defines and contrasts these two club types as distinct
+        categories with criteria for each.
+    - id: TQ20
+      text: "Which Bay Area club is best for an 8-year-old beginner vs. a 12-year-old experienced swimmer?"
+      score: 1
+      reason: >
+        Partially addressed. Each entity article has a "Who It Suits Best" section that helps,
+        and the overview says "DACA offers learn-to-swim through competitive." But the wiki does
+        not have a single comparison article or table that maps clubs to swimmer profiles
+        (beginner vs. experienced, age ranges, geographic location) in one place.
+
+additional_metrics:
+  freshness_pct: 1.0
+  contradiction_count: 0
+  information_density_notes: >
+    Estimated 15-20 verified claims per 1000 words across entity articles. Guide articles
+    average 10-15 claims per 1000 words. This is high density with minimal padding.
+
+quality_gate:
+  trusted: true
+  highest_impact_gap: "D1 -- RO4 (Bay Area resources) missing SF and East Bay club coverage"
+
+top_3_improvements:
+  - dimension: D1
+    impact_points: 3
+    action: >
+      Research and compile entity articles for 2-3 East Bay clubs (e.g., from Pacific Swimming
+      Zone 2 directory) and 1-2 SF clubs (Zone 3). This directly addresses the RO4 geographic
+      gap and would raise RO4 from score 2 to score 3, adding ~3 composite points.
+  - dimension: D5
+    impact_points: 3
+    action: >
+      Add experiential/community perspective synthesis to 3-4 guide articles (getting-started,
+      recreational-to-competitive, parent-playbook). Source from Berkeley Parents Network and
+      swim parent forums with proper L4 hedging. This would raise D5 from 2 to 3, adding
+      ~3 composite points.
+  - dimension: D2
+    impact_points: 2
+    action: >
+      Create a "Club Comparison by Profile" guide article with a single table mapping all
+      Bay Area clubs to swimmer profiles (age, level, geography, price range, culture).
+      This addresses both the D2a Category A gap and the TQ20 partial-answer issue.

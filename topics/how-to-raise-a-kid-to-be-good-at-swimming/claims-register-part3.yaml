@@ -1,0 +1,262 @@
+coverage_summary:
+  by_entity:
+    youth-swim-program-types:
+      total_claims: 7
+      must_verify: 1
+      should_verify: 5
+      may_skip: 0
+      overreach_flags: 0
+
+    usa-swimming:
+      total_claims: 2
+      must_verify: 1
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    ltad-model:
+      total_claims: 8
+      must_verify: 1
+      should_verify: 4
+      may_skip: 3
+      overreach_flags: 0
+
+    age-developmental-benchmarks:
+      total_claims: 10
+      must_verify: 3
+      should_verify: 5
+      may_skip: 2
+      overreach_flags: 2
+
+    pacific-swimming:
+      total_claims: 20
+      must_verify: 8
+      should_verify: 11
+      may_skip: 1
+      overreach_flags: 0
+
+    alto-swim-club:
+      total_claims: 8
+      must_verify: 3
+      should_verify: 3
+      may_skip: 2
+      overreach_flags: 1
+
+    pasa:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 1
+
+    santa-clara-swim-club:
+      total_claims: 2
+      must_verify: 1
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    daca:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    pleasanton-seahawks:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 1
+
+    orinda-aquatics:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    walnut-creek-aquabears:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    olympic-club:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    ymca-bay-area:
+      total_claims: 2
+      must_verify: 1
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    cal-swim-camp:
+      total_claims: 4
+      must_verify: 3
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    stanford-swim-camp:
+      total_claims: 3
+      must_verify: 2
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    cal-precompetitive-program:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    swimmer-anthropometry:
+      total_claims: 6
+      must_verify: 4
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 1
+
+    talent-identification:
+      total_claims: 5
+      must_verify: 2
+      should_verify: 2
+      may_skip: 1
+      overreach_flags: 0
+
+    early-specialization-research:
+      total_claims: 12
+      must_verify: 7
+      should_verify: 4
+      may_skip: 1
+      overreach_flags: 2
+
+    burnout-dropout-research:
+      total_claims: 7
+      must_verify: 1
+      should_verify: 5
+      may_skip: 1
+      overreach_flags: 0
+
+    competitive-swimming-costs:
+      total_claims: 8
+      must_verify: 5
+      should_verify: 3
+      may_skip: 0
+      overreach_flags: 2
+
+    coach-credentials:
+      total_claims: 7
+      must_verify: 3
+      should_verify: 4
+      may_skip: 0
+      overreach_flags: 0
+
+    usa-swimming-safe-sport:
+      total_claims: 3
+      must_verify: 3
+      should_verify: 0
+      may_skip: 0
+      overreach_flags: 0
+
+    youth-swimmer-nutrition:
+      total_claims: 10
+      must_verify: 5
+      should_verify: 4
+      may_skip: 1
+      overreach_flags: 0
+
+    cognitive-development-swimming:
+      total_claims: 5
+      must_verify: 3
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 1
+
+    water-polo-transition:
+      total_claims: 6
+      must_verify: 0
+      should_verify: 4
+      may_skip: 2
+      overreach_flags: 1
+
+    parent-behavior-research:
+      total_claims: 5
+      must_verify: 0
+      should_verify: 4
+      may_skip: 1
+      overreach_flags: 1
+
+    swimming-physical-benefits:
+      total_claims: 3
+      must_verify: 2
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 1
+
+    aquatic-sports-governance:
+      total_claims: 4
+      must_verify: 0
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 0
+
+  totals:
+    total_claims: 156
+    must_verify: 68
+    should_verify: 79
+    may_skip: 15
+    overreach_flags: 15
+    conflicts_detected: 3
+    single_source_claims: 98
+    multi_source_claims: 58
+
+  conflicts_list:
+    - id: conflict-1
+      claims: [c006, c020]
+      description: "c006 (official USA Swimming) lists 8 & Under as a competitive age group; c020 (L3 aggregator) says USA Swimming operates meets for '10 and under' as the youngest group. 8 & Under exists per official source."
+    - id: conflict-2
+      claims: [c016]
+      description: "c016 attributes the 'no more hours per week than age in years' rule to both NSCA (one source) and AAP (another source). Attribution to originating organization needs verification."
+    - id: conflict-3
+      claims: [c094, c103]
+      description: "c094 (PMC6805065) states athletes specializing before age 12 face 3.76x higher burnout rates; c103 (PMC5968952) states no evidence that early specialization is a direct predictor of burnout/dropout. Distinction between correlation/association and direct causation. Fact-checker to resolve."
+
+  unanswered_questions:
+    - question_id: q38
+      note: >
+        The research plan includes q38 (long-term pathway to college) and the swim-parent-resources
+        file notes information gaps including: Bay Area club-specific comparison data, financial aid
+        pathways, longitudinal outcome data, pre-specialization period guidance (ages 5-9), and
+        coaching quality verification beyond USA Swimming status. These are documented gaps in the
+        publicly available source material, not failures of the research process.
+
+    - question_id: qG1-numeric-cuts
+      note: >
+        Specific numeric cut times for Pacific Swimming standards (e.g., 11-12 Girls 100 Free
+        PC-B in seconds) are only available in PDF documents at pacswim.org/swim-meet-times/standards.
+        These PDFs are binary-compressed and were not extractable. Fact-checker must download and
+        parse PDFs directly to obtain specific time values.
+
+  data_quality_notes:
+    - "bayarea-swim-clubs-depth.md is a compiled synthesis document (L1-official tier assigned by research-agent) but draws on multiple sources including altoswimclub.com, daca.org, and SwimCloud. Competitive ranking data (PLS 1,003 points, PASA 955.5 points, SCSC 685.5 points, DACA 375.0 points) appears in this file but the year of the Far Western rankings is not specified — fact-checker should verify which year these team point totals reflect."
+    - "Stanford Swim Camp pricing URL in bayarea-summer-camps-2026.md has a malformed path (ussportscamps.com/swim/swim/nike/stanford-swim-camp). Verify against the correct URL: https://www.ussportscamps.com/swim/nike/stanford-swim-camp"
+    - "Multiple sources accessed via search summary due to 403 errors (Mayo Clinic, DACA, Santa Clara Swim Club). Data from these sources is less reliable than direct fetches and should be re-verified."
+    - "bayarea-swim-clubs-depth.md lists Pleasanton Seahawks under 'Zone 3' in the narrative but the Pacific Swimming Zone 2 clubs directory (pacswim-zone2-clubs.md) lists Pleasanton Seahawks under Zone 2. This is a conflict that fact-checker must resolve."
+    - "The file raw/web/official/2026-04-09_usaswimming-coach-certification.md sources ASCA data from swimmingcoach.org which is assigned L2-authoritative — this is appropriate as ASCA is the official coaching association."
+
+  file_structure_note: >
+    Due to file size constraints, the claims register was written in three parts:
+    - claims-register.yaml: header + entity groups 1-4 (c001-c046, program types, LTAD, age benchmarks, Pacific Swimming)
+    - claims-register-part2.yaml: entity groups 5-20 (c047-c156, Bay Area clubs, camps, research, nutrition, water polo, etc.)
+    - claims-register-part3.yaml: this file — coverage_summary only
+    Fact-checker should treat all three files as a single logical register. Claim IDs c001-c156 are stable and sequential across files.

@@ -1,0 +1,1362 @@
+topic: "How to raise a kid to be good at swimming"
+slug: how-to-raise-a-kid-to-be-good-at-swimming
+created: 2026-04-09
+user_context: >
+  Bay Area parent interested in: swimming-related sports, what kind of kids are suitable
+  for swimming, competitive swimming pathway, finding coaches and camps in Bay Area,
+  when to switch from rec to club, swimming and other sports, body type research,
+  relationship between swimming and other sports.
+status: in_progress
+round: 1
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  gap_fill_reserve: 10
+  breadth_budget_pct: 30
+  depth_budget_pct: 80
+
+# ────────────────────────────────────────────────────────────────────────────────
+# SEARCH CLUSTERS — group questions answerable by the same search session
+# ────────────────────────────────────────────────────────────────────────────────
+search_clusters:
+  - search: "USA Swimming long term athlete development pathway stages age group"
+    answers_questions: [q1, q5, q14]
+  - search: "when to start kids swimming lessons competitive age readiness"
+    answers_questions: [q2, q6, q15]
+  - search: "youth swimming body type somatotype anthropometry research talent"
+    answers_questions: [q8, q9, q30]
+  - search: "Bay Area competitive swim clubs kids SF East Bay Peninsula 2025 2026"
+    answers_questions: [q3, q19, q20]
+  - search: "Bay Area summer swim camps kids 2026 competitive recreational"
+    answers_questions: [q21, q22]
+  - search: "how to choose swim coach qualifications certifications kids"
+    answers_questions: [q10, q11, q23]
+  - search: "USA Swimming safe sport program parents coach red flags"
+    answers_questions: [q24, q25]
+  - search: "youth swimming early specialization vs multi-sport research evidence"
+    answers_questions: [q12, q31, q32]
+  - search: "youth swimming burnout dropout prevention overtraining research"
+    answers_questions: [q13, q33, q34]
+  - search: "competitive swimming costs fees travel gear youth"
+    answers_questions: [q17, q18]
+  - search: "first swim meet what to expect parents kids preparation"
+    answers_questions: [q16, q26]
+  - search: "swimming cross training other sports kids benefits"
+    answers_questions: [q35, q36]
+  - search: "swimming psychological traits mental toughness kids development"
+    answers_questions: [q9, q27]
+  - search: "pre-team bridge program swimming kids readiness skills"
+    answers_questions: [q15, q28]
+  - search: "swim parent role mistakes overbearing supportive tips"
+    answers_questions: [q29, q37]
+
+# ────────────────────────────────────────────────────────────────────────────────
+# PAIN POINT COVERAGE MAP
+# ────────────────────────────────────────────────────────────────────────────────
+# Pain point: "When is my kid ready to move from lessons to a swim team?"
+#   covered_by: q6, q15, q28 — adequate
+#
+# Pain point: "What skills does my child need before joining a competitive team?"
+#   covered_by: q6, q15 — adequate
+#
+# Pain point: "How do I find the right swim club or team in the Bay Area?"
+#   covered_by: q3, q19, q20 — adequate
+#
+# Pain point: "What is the difference between rec league, pre-team, and USA Swimming club?"
+#   covered_by: q1, q5, q28 — adequate
+#
+# Pain point: "How much does competitive swimming actually cost?"
+#   covered_by: q17, q18 — adequate
+#
+# Pain point: "How do I avoid being an overbearing swim parent?"
+#   covered_by: q29, q37 — adequate
+#
+# Pain point: "My kid is fast at age 8 - does that mean anything?"
+#   covered_by: q30 — adequate
+#
+# Pain point: "How do I keep my kid from burning out?"
+#   covered_by: q13, q33, q34 — adequate
+#
+# Pain point: "Should I let my kid specialize in swimming or play multiple sports?"
+#   covered_by: q12, q31, q32 — adequate
+#
+# Pain point: "Does body type matter for swimming success?"
+#   covered_by: q8, q9 — adequate
+#
+# Pain point: "How can I tell if my child has real talent vs. early development?"
+#   covered_by: q30 — adequate
+#
+# Pain point: "What should I expect at my kid's first swim meet?"
+#   covered_by: q16, q26 — adequate
+#
+# Pain point: "How do I evaluate if a coach is good or has safety red flags?"
+#   covered_by: q10, q11, q24, q25 — adequate
+#
+# Pain point: "What does the competitive pathway look like from age 6 to college?"
+#   covered_by: q5, q14, q38 — adequate
+#
+# Pain point: "What do Pacific Swimming time standards mean and how do kids progress?"
+#   covered_by: qG1 — gap-fill answered
+#
+# Pain point: "What should my young swimmer eat?"
+#   covered_by: qG2 — gap-fill answered
+#
+# Pain point: "Can my kid do water polo too?"
+#   covered_by: qG3 — gap-fill answered
+#
+# Pain point: "Does swimming make kids smarter?"
+#   covered_by: qG4 — gap-fill answered
+
+# ────────────────────────────────────────────────────────────────────────────────
+# PHASES
+# ────────────────────────────────────────────────────────────────────────────────
+phases:
+  breadth:
+    questions: [q1, q2, q3, q4, q5, q6, q7, q8, q12, q13]
+    status: complete
+    completed_at: 2026-04-09T01:00:00Z
+    searches_used: 11
+  depth:
+    questions: [q9, q10, q11, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31, q32, q33, q34, q35, q36, q37, q38]
+    depends_on: breadth
+    status: complete
+    completed_at: 2026-04-09T03:30:00Z
+    searches_used: 18
+  gap_fill:
+    questions: [qG1, qG2, qG3, qG4, qG5]
+    depends_on: depth
+    status: complete
+    completed_at: 2026-04-09T06:00:00Z
+    searches_used: 5
+    gaps_identified:
+      - "Pacific Swimming time standards: hierarchy named but no numeric cut times"
+      - "Nutrition for youth swimmers: absent from all prior raw files"
+      - "Water polo transition: brief mention only; no skill depth or Bay Area programs"
+      - "Cognitive development / IQ and swimming: entirely absent"
+      - "Bay Area club summer camps: Stanford/Cal covered; Alto, DACA, SCSC missing"
+
+# ────────────────────────────────────────────────────────────────────────────────
+# QUESTION TREE — 38 questions across 8 facets + 5 gap-fill questions
+# ────────────────────────────────────────────────────────────────────────────────
+questions:
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # BREADTH PHASE (10 questions) — landscape mapping
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  # --- WHAT ---
+  - id: q1
+    text: "What are the major types of youth swim programs (learn-to-swim, rec league, pre-team, USA Swimming club, summer league) and how do they differ?"
+    facet: WHAT
+    scores:
+      user_value: 9
+      dependency_count: 9
+      searchability: 8
+      novelty: 7
+    composite: 8.40
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-008
+        query: "types of youth swim programs learn to swim rec league pre-team USA Swimming club differences explained"
+      - id: s-2026-04-09-001
+        query: "USA Swimming LTAD long term athlete development stages youth swimming pathway"
+    raw_files:
+      - raw/web/review/2026-04-09_swim-programs-types-overview.md
+      - raw/web/official/2026-04-09_usaswimming-structure.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO1, RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- WHEN ---
+  - id: q2
+    text: "What are the recommended ages for starting swim lessons, joining a team, and beginning competitive swimming?"
+    facet: WHEN
+    scores:
+      user_value: 10
+      dependency_count: 8
+      searchability: 9
+      novelty: 6
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-002
+        query: "recommended age start swim lessons join swim team competitive swimming children"
+      - id: s-2026-04-09-009
+        query: "when should child move from swim lessons to swim team readiness indicators skills checklist"
+    raw_files:
+      - raw/web/review/2026-04-09_jackrabbit-competitive-age.md
+      - raw/web/review/2026-04-09_menloswim-age-team-readiness.md
+      - raw/web/review/2026-04-09_swim-lessons-to-team-readiness.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO1, RO5]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- WHERE ---
+  - id: q3
+    text: "What competitive swim clubs, rec leagues, and swim schools exist in the San Francisco Bay Area (SF, East Bay, Peninsula, South Bay)?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 8
+      searchability: 7
+      novelty: 8
+    composite: 8.15
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-003
+        query: "Bay Area competitive swim clubs kids USA Swimming Pacific Swimming LSC 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-09_pacswim-zone1north-clubs.md
+      - raw/web/official/2026-04-09_pacswim-zone1south-clubs.md
+      - raw/web/official/2026-04-09_pacswim-zone2-clubs.md
+      - raw/web/official/2026-04-09_pacswim-zone3-clubs.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- WHO ---
+  - id: q4
+    text: "What organizations govern youth competitive swimming in the US (USA Swimming, Pacific Swimming LSC, YMCA, summer leagues) and what are their roles?"
+    facet: WHO
+    scores:
+      user_value: 6
+      dependency_count: 7
+      searchability: 9
+      novelty: 5
+    composite: 6.50
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-004
+        query: "USA Swimming governing body youth swimming YMCA summer league rec swim differences Pacific Swimming LSC"
+    raw_files:
+      - raw/web/official/2026-04-09_usaswimming-structure.md
+      - raw/web/official/2026-04-09_pacswim-zone1north-clubs.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- HOW ---
+  - id: q5
+    text: "What does the USA Swimming Long Term Athlete Development (LTAD) model look like, and what are its stages from FUNdamentals through elite?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 7.55
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-001
+        query: "USA Swimming LTAD long term athlete development stages youth swimming pathway"
+    raw_files:
+      - raw/web/official/2026-04-09_swimmingnotes-ltad.md
+      - raw/web/official/2026-04-09_swimmingworld-ltad-age-group.md
+      - raw/web/review/2026-04-09_nsca-ltad-parents-guide.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  - id: q6
+    text: "What readiness indicators (physical skills, emotional maturity, attention span) signal a child is ready to move from lessons to team swimming?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 7
+      novelty: 7
+    composite: 7.55
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-009
+        query: "when should child move from swim lessons to swim team readiness indicators skills checklist"
+      - id: s-2026-04-09-002
+        query: "recommended age start swim lessons join swim team competitive swimming children"
+    raw_files:
+      - raw/web/review/2026-04-09_swim-lessons-to-team-readiness.md
+      - raw/web/review/2026-04-09_menloswim-age-team-readiness.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO1, RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- WHAT (swimming-adjacent sports) ---
+  - id: q7
+    text: "What swimming-related sports exist (water polo, synchronized swimming, diving, open water, triathlon) and how do they relate to pool swimming development?"
+    facet: WHAT
+    scores:
+      user_value: 7
+      dependency_count: 5
+      searchability: 8
+      novelty: 6
+    composite: 6.55
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-010
+        query: "water polo synchronized swimming diving open water triathlon swimming youth development how they relate"
+    raw_files:
+      - raw/web/review/2026-04-09_aquatic-sports-overview.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: [qG3]
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- WHAT (body type research) ---
+  - id: q8
+    text: "What does scientific research say about body types (somatotypes, anthropometry) and their correlation with swimming performance?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 7
+      novelty: 8
+    composite: 7.10
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-007
+        query: "swimming body type anthropometry somatotype elite swimmer performance research"
+      - id: s-2026-04-09-005
+        query: "youth swimming early specialization vs multi-sport participation research evidence pediatrics"
+    raw_files:
+      - raw/web/official/2026-04-09_pmc-swimmer-anthropometry.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- COMPARE ---
+  - id: q12
+    text: "What does research say about early sport specialization vs. multi-sport participation for youth swimmers?"
+    facet: COMPARE
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 8.00
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-005
+        query: "youth swimming early specialization vs multi-sport participation research evidence pediatrics"
+      - id: s-2026-04-09-011
+        query: "swimming how it interacts with gymnastics soccer baseball other sports kids scheduling skill transfer"
+    raw_files:
+      - raw/web/official/2026-04-09_pmc-youth-specialization-swimming.md
+      - raw/web/review/2026-04-09_swimming-cross-training-other-sports.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # --- WHY ---
+  - id: q13
+    text: "What are the main reasons youth swimmers drop out or burn out, according to research?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 8.00
+    phase: breadth
+    dependencies: []
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-006
+        query: "youth swimmer burnout dropout reasons research sport psychology prevention"
+      - id: s-2026-04-09-011
+        query: "swimming how it interacts with gymnastics soccer baseball other sports kids scheduling skill transfer"
+    raw_files:
+      - raw/web/official/2026-04-09_pmc-swimmer-dropout-systematic-review.md
+      - raw/web/review/2026-04-09_swimming-cross-training-other-sports.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T01:00:00Z
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # DEPTH PHASE (28 questions) — detailed dives
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  # --- WHAT (psychological traits) ---
+  - id: q9
+    text: "Beyond body type, what psychological and temperamental traits help kids thrive in competitive swimming (discipline, comfort with repetition, goal orientation, intrinsic motivation)?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q8]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-012
+        query: "psychological traits kids thrive competitive swimming discipline intrinsic motivation research sport psychology"
+      - id: s-2026-04-09-014
+        query: "youth competitive swimming pathway age groups time standards meets college recruitment swimmer"
+    raw_files:
+      - raw/web/official/2026-04-09_pmc-mental-skills-youth-swimmers.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- WHO (coaches) ---
+  - id: q10
+    text: "What qualifications, certifications, and training should a youth swim coach have (ASCA levels, USA Swimming certifications, CPR/lifeguard)?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 9
+      novelty: 6
+    composite: 6.90
+    phase: depth
+    dependencies: [q4]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-013
+        query: "youth swim coach qualifications ASCA certification levels USA Swimming credentials requirements"
+    raw_files:
+      - raw/web/official/2026-04-09_usaswimming-coach-certification.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q11
+    text: "What traits distinguish an excellent youth swim coach, and what are practical ways for parents to evaluate coaching quality?"
+    facet: WHO
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 7.15
+    phase: depth
+    dependencies: [q10]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-027
+        query: "questions to ask swim coach club visit tryout parent evaluation quality coach checklist"
+    raw_files:
+      - raw/web/review/2026-04-09_coach-evaluation-questions.md
+      - raw/web/official/2026-04-09_usaswimming-coach-certification.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO3]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- HOW (pathway detail) ---
+  - id: q14
+    text: "What does the competitive swimming pathway look like year-by-year from age 6 through college recruitment, including time standards and meet levels?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 7
+      novelty: 7
+    composite: 6.90
+    phase: depth
+    dependencies: [q5]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-014
+        query: "youth competitive swimming pathway age groups time standards meets college recruitment swimmer"
+      - id: s-2026-04-09-024
+        query: "Pacific Swimming LSC meets championships Bay Area kids how they work qualifying standards zones"
+    raw_files:
+      - raw/web/official/2026-04-09_usa-swimming-age-groups-pathway.md
+      - raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: [qG1]
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q15
+    text: "What is a pre-team or bridge program, what do they teach, and how does a parent know when their child is ready to graduate from one?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 6
+    composite: 7.05
+    phase: depth
+    dependencies: [q1, q6]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-025
+        query: "pre-team bridge program swimming what it teaches readiness graduation criteria skills checklist"
+    raw_files:
+      - raw/web/review/2026-04-09_precompetitive-bridge-program.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q16
+    text: "What should a family expect at their child's first swim meet (logistics, warmup, event flow, emotional preparation, common surprises)?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 6
+    composite: 6.60
+    phase: depth
+    dependencies: [q1]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-015
+        query: "first swim meet kids parents what to expect logistics warmup event order tips guide"
+    raw_files:
+      - raw/web/review/2026-04-09_first-swim-meet-guide.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- HOW (costs) ---
+  - id: q17
+    text: "What are the real costs of youth swimming at each level (lessons, rec league, club team, travel team) including fees, gear, travel, and time commitment?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q1]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-016
+        query: "competitive youth swimming costs fees club team lessons gear travel annual expenses"
+    raw_files:
+      - raw/web/review/2026-04-09_competitive-swimming-costs-time.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q18
+    text: "What is the time commitment for competitive swimming by age group and level (practices per week, meet weekends, dry-land training)?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.40
+    phase: depth
+    dependencies: [q1, q5]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-016b
+        query: "competitive swimming time commitment practices per week age group schedule dry land training hours"
+    raw_files:
+      - raw/web/review/2026-04-09_competitive-swimming-costs-time.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5, RO7]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- WHERE (Bay Area detail) ---
+  - id: q19
+    text: "What are the top USA Swimming club teams in the Bay Area, their coaching philosophy, age groups served, and competitive track record?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 7.15
+    phase: depth
+    dependencies: [q3]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-017
+        query: "Bay Area top swim clubs Alto PASA DACA Santa Clara Seahawks reputation coaching quality youth"
+    raw_files:
+      - raw/web/official/2026-04-09_bayarea-swim-clubs-depth.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q20
+    text: "Which Bay Area swim programs are best for beginners or young children (ages 4-7) just starting out?"
+    facet: WHERE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.30
+    phase: depth
+    dependencies: [q3]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-017b
+        query: "Bay Area YMCA swim programs youth competitive beginners ages 4-7 San Francisco East Bay 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-09_bayarea-swim-clubs-depth.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO1, RO4]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q21
+    text: "What summer swim camps are available in the Bay Area for different ages and skill levels (beginner, intermediate, competitive)?"
+    facet: WHERE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 7
+    composite: 6.50
+    phase: depth
+    dependencies: [q3]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-018
+        query: "Bay Area summer swim camps youth 2026 competitive recreational Stanford Cal Berkeley"
+    raw_files:
+      - raw/web/official/2026-04-09_bayarea-summer-camps-2026.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2, L3]
+    children: [qG5]
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q22
+    text: "What elite or university-affiliated swim camps exist in the Bay Area (Cal, Stanford) and what age/level do they target?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 9
+      novelty: 6
+    composite: 5.75
+    phase: depth
+    dependencies: [q3]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-018
+        query: "Bay Area summer swim camps youth 2026 competitive recreational Stanford Cal Berkeley"
+      - id: s-2026-04-09-024
+        query: "Pacific Swimming LSC meets championships Bay Area kids how they work qualifying standards zones"
+    raw_files:
+      - raw/web/official/2026-04-09_bayarea-summer-camps-2026.md
+      - raw/web/official/2026-04-09_pacific-swimming-meets-structure.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- HOW (coach evaluation) ---
+  - id: q23
+    text: "How should a parent conduct a trial period with a new swim coach or club, and what questions should they ask?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 1
+      searchability: 6
+      novelty: 7
+    composite: 6.15
+    phase: depth
+    dependencies: [q10, q11]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-027
+        query: "questions to ask swim coach club visit tryout parent evaluation quality coach checklist"
+    raw_files:
+      - raw/web/review/2026-04-09_coach-evaluation-questions.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO3]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- WHO (safe sport) ---
+  - id: q24
+    text: "What is USA Swimming's Safe Sport program, and what protections should parents expect from a club?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 9
+      novelty: 6
+    composite: 6.50
+    phase: depth
+    dependencies: [q4]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-019
+        query: "USA Swimming Safe Sport program youth athlete protections parents coach misconduct reporting"
+    raw_files:
+      - raw/web/official/2026-04-09_usaswimming-safe-sport.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q25
+    text: "What are specific red flag behaviors in youth swim coaches that parents should watch for (boundary violations, grooming, favoritism)?"
+    facet: WHO
+    scores:
+      user_value: 9
+      dependency_count: 1
+      searchability: 8
+      novelty: 6
+    composite: 6.95
+    phase: depth
+    dependencies: [q24]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-019b
+        query: "swim coach red flags warning signs youth parents grooming abuse boundary violations USA Swimming"
+      - id: s-2026-04-09-026
+        query: "swimmer motivation mastery vs performance orientation trajectory long term development sport psychology"
+    raw_files:
+      - raw/web/official/2026-04-09_usaswimming-safe-sport.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- HOW (experiential / decision-making) ---
+  - id: q26
+    text: "What should a parent do (and not do) on meet day to support their child, and how should they handle disappointing results?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 1
+      searchability: 7
+      novelty: 7
+    composite: 6.35
+    phase: depth
+    dependencies: [q16]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-020
+        query: "swim parent meet day behavior support child disappointing race results tips sport psychology"
+    raw_files:
+      - raw/web/review/2026-04-09_swim-parent-guide.md
+      - raw/web/review/2026-04-09_first-swim-meet-guide.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q27
+    text: "How can parents help develop the mental/psychological skills young swimmers need (goal-setting, handling failure, race anxiety, self-talk)?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q9]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-012
+        query: "psychological traits kids thrive competitive swimming discipline intrinsic motivation research sport psychology"
+      - id: s-2026-04-09-026
+        query: "swimmer motivation mastery vs performance orientation trajectory long term development sport psychology"
+    raw_files:
+      - raw/web/official/2026-04-09_pmc-mental-skills-youth-swimmers.md
+      - raw/web/review/2026-04-09_swimmer-motivation-goal-orientation.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO2, RO7]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q28
+    text: "What specific swimming skills (strokes, distance, technique benchmarks) should a child master at each developmental stage before advancing?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 6
+    composite: 6.55
+    phase: depth
+    dependencies: [q5, q6]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-025
+        query: "pre-team bridge program swimming what it teaches readiness graduation criteria skills checklist"
+    raw_files:
+      - raw/web/review/2026-04-09_precompetitive-bridge-program.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- WHY (parent role) ---
+  - id: q29
+    text: "What are the most common mistakes swim parents make, and what does being a supportive (vs. overbearing) swim parent look like in practice?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 7.05
+    phase: depth
+    dependencies: [q13]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-020
+        query: "swim parent meet day behavior support child disappointing race results tips sport psychology"
+    raw_files:
+      - raw/web/review/2026-04-09_swim-parent-guide.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- WHY (talent vs. early development) ---
+  - id: q30
+    text: "How can parents distinguish genuine swimming talent from early physical development, and why do early results often not predict long-term success?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 6.50
+    phase: depth
+    dependencies: [q8]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-021
+        query: "early talent identification swimming late developers relative age effect youth sports research"
+    raw_files:
+      - raw/web/official/2026-04-09_talent-identification-late-developers.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- COMPARE (specialization detail) ---
+  - id: q31
+    text: "At what age do experts recommend specializing in swimming, and what are the risks of specializing too early (injury, burnout, dropout)?"
+    facet: COMPARE
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 8
+      novelty: 6
+    composite: 7.15
+    phase: depth
+    dependencies: [q12]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-022
+        query: "specialization age swimming AAP recommendations risks early single sport youth injury burnout"
+    raw_files:
+      - raw/web/official/2026-04-09_specialization-risks-swimming.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q32
+    text: "What sports complement swimming best for cross-training, and what does research say about transfer between swimming and other activities?"
+    facet: COMPARE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q12, q7]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-029
+        query: "swimming cross training sports gymnastics soccer basketball skill transfer benefits youth research"
+    raw_files:
+      - raw/web/official/2026-04-09_specialization-risks-swimming.md
+      - raw/web/review/2026-04-09_swimming-cross-training-other-sports.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- WHY (burnout detail) ---
+  - id: q33
+    text: "What are the evidence-based warning signs of burnout or overtraining in youth swimmers, and what should a parent do when they see them?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 7.05
+    phase: depth
+    dependencies: [q13]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-022
+        query: "specialization age swimming AAP recommendations risks early single sport youth injury burnout"
+    raw_files:
+      - raw/web/official/2026-04-09_talent-identification-late-developers.md
+      - raw/web/official/2026-04-09_specialization-risks-swimming.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q34
+    text: "What are the recommended training volume limits by age (hours per week, practices per week, rest days) to prevent overtraining?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q13, q5]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-021
+        query: "early talent identification swimming late developers relative age effect youth sports research"
+    raw_files:
+      - raw/web/official/2026-04-09_talent-identification-late-developers.md
+      - raw/web/review/2026-04-09_competitive-swimming-costs-time.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L1, L2]
+    children: [qG2]
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- COMPARE (swimming + other sports) ---
+  - id: q35
+    text: "How does swimming interact with other common youth sports (soccer, gymnastics, baseball, basketball) in terms of scheduling, physical demands, and skill transfer?"
+    facet: COMPARE
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 6
+      novelty: 7
+    composite: 5.75
+    phase: depth
+    dependencies: [q7, q12]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-029
+        query: "swimming cross training sports gymnastics soccer basketball skill transfer benefits youth research"
+    raw_files:
+      - raw/web/review/2026-04-09_swimming-cross-training-other-sports.md
+      - raw/web/official/2026-04-09_specialization-risks-swimming.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q36
+    text: "What are the unique benefits of swimming as a sport compared to land-based sports (injury profile, lifetime fitness, full-body development, water safety)?"
+    facet: COMPARE
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 8
+      novelty: 5
+    composite: 5.65
+    phase: depth
+    dependencies: [q7]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-023
+        query: "swimming benefits compared to other sports injury rate lifetime fitness water safety academic performance"
+    raw_files:
+      - raw/web/review/2026-04-09_swimming-benefits-unique.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: [qG4]
+    answered_at: 2026-04-09T03:30:00Z
+
+  # --- META ---
+  - id: q37
+    text: "What are the best books, websites, podcasts, and YouTube channels for swim parents seeking to educate themselves?"
+    facet: META
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 8
+      novelty: 6
+    composite: 5.65
+    phase: depth
+    dependencies: [q1]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-028
+        query: "best books podcasts resources swim parents youth competitive swimming education SwimSwam Swimming World"
+    raw_files:
+      - raw/web/review/2026-04-09_swim-parent-resources.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  - id: q38
+    text: "What information gaps exist in publicly available resources about youth swimming development (what topics are poorly covered or hard to find reliable info on)?"
+    facet: META
+    scores:
+      user_value: 5
+      dependency_count: 2
+      searchability: 4
+      novelty: 8
+    composite: 5.35
+    phase: depth
+    dependencies: [q1, q5, q12, q13]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-027
+        query: "questions to ask swim coach club visit tryout parent evaluation quality coach checklist"
+      - id: s-2026-04-09-028
+        query: "best books podcasts resources swim parents youth competitive swimming education SwimSwam Swimming World"
+    raw_files:
+      - raw/web/review/2026-04-09_swim-parent-resources.md
+      - raw/web/review/2026-04-09_coach-evaluation-questions.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-09
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T03:30:00Z
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # GAP-FILL PHASE (5 questions) — targeted fills from raw file gap analysis
+  # Executed: 2026-04-09T05:00:00Z–06:00:00Z
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: qG1
+    text: "What are the specific time standard cut times in Pacific Swimming (PC-B, PC-A, AGC, Far Western) by age group and event, and how do Bay Area kids typically progress through them?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 6
+    composite: 6.80
+    phase: gap_fill
+    dependencies: [q14, q3]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-030
+        query: "Pacific Swimming age group time standards cut times PC-B PC-A AGC Far Western 2025 2026 yards meters"
+    raw_files:
+      - raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+    discovered_from: raw_file_gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-09
+    reader_outcomes: [RO4, RO5]
+    target_source_tiers: [L1]
+    children: []
+    answered_at: 2026-04-09T05:15:00Z
+    notes: >
+      Standards hierarchy fully documented (PC-B → PC-A → AGC → Far Western → Senior).
+      Numeric cut times are in binary-compressed PDFs at pacswim.org/swim-meet-times/standards
+      not extractable without PDF parser. Typical age-by-age progression milestones documented.
+
+  - id: qG2
+    text: "What are age-appropriate nutrition guidelines for youth competitive swimmers, including macronutrients, micronutrients of concern, meal timing, and hydration?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 8
+      novelty: 7
+    composite: 7.55
+    phase: gap_fill
+    dependencies: [q34]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-031
+        query: "nutrition youth swimmers age-appropriate diet carbohydrates protein hydration competitive swimming kids"
+    raw_files:
+      - raw/web/official/2026-04-09_youth-swimmer-nutrition.md
+    discovered_from: raw_file_gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-09
+    reader_outcomes: [RO5, RO7]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T05:25:00Z
+    notes: >
+      Carb 4.4g/kg, protein 1.2-2.1g/kg, key deficiencies (calcium, vitamin D), meal timing,
+      hydration protocol, age-specific guidance (6-10 vs 11-17), RED-S risk for female swimmers.
+      Sources: PMC peer-reviewed + Nemours Children's Health.
+
+  - id: qG3
+    text: "What skills does a competitive swimmer need to transition to water polo, and what Bay Area programs bridge swimming to water polo?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.55
+    phase: gap_fill
+    dependencies: [q7]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-032
+        query: "water polo youth transition from swimming skills required eggbeater kick position Bay Area programs kids"
+    raw_files:
+      - raw/web/review/2026-04-09_water-polo-transition-from-swimming.md
+    discovered_from: raw_file_gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-09
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    answered_at: 2026-04-09T05:35:00Z
+    notes: >
+      Eggbeater kick mechanics, 6 kicking styles, ball handling, game awareness, transition age 8-10.
+      Bay Area: Lamorinda WPC (Splashball intro), West Valley WPC (South Bay), De Anza WPC (Peninsula).
+
+  - id: qG4
+    text: "What does research say about swimming's effects on cognitive development and IQ in children, and what mechanisms explain it?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 1
+      searchability: 8
+      novelty: 8
+    composite: 7.10
+    phase: gap_fill
+    dependencies: [q36]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-033
+        query: "swimming cognitive development children academic performance brain IQ research benefits youth"
+    raw_files:
+      - raw/web/official/2026-04-09_swimming-cognitive-development-research.md
+    discovered_from: raw_file_gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-09
+    reader_outcomes: [RO2, RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T05:45:00Z
+    notes: >
+      2024 Frontiers in Public Health RCT: parent-accompanied swimming +9.5 IQ points vs traditional
+      exercise +4.8 in 8 weeks. Mechanisms: BDNF, corpus callosum bilateral cross-patterning,
+      blood flow/neurogenesis. Memory enhancement over CrossFit and coloring. ADHD benefit.
+      Griffith 2011 popular claim flagged for primary source verification.
+
+  - id: qG5
+    text: "What Bay Area club team summer clinics exist (Alto, DACA, Santa Clara, PASA) and how do they compare to university camps in terms of cost, ages, and skill focus?"
+    facet: WHERE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.55
+    phase: gap_fill
+    dependencies: [q21, q22]
+    status: answered
+    search_queries:
+      - id: s-2026-04-09-034
+        query: "Alto Swim Club PASA DACA Santa Clara Swim Club summer camp clinic 2026 Bay Area registration cost ages"
+    raw_files:
+      - raw/web/official/2026-04-09_bayarea-club-swim-camps-2026.md
+    discovered_from: raw_file_gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-09
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2]
+    children: []
+    answered_at: 2026-04-09T05:55:00Z
+    notes: >
+      Alto Peak Performance Clinic: 5 sessions June 23–July 24, ages 9-13, 4-day Mon-Thu 10am-1:30pm,
+      Gunn Pool Palo Alto, pricing not published. DACA and SCSC pages blocked/JS-dependent.
+      Berkeley Parents Network cited as best community resource for full Bay Area camp listings.

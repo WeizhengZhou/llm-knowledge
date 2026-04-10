@@ -1,0 +1,98 @@
+topic: "How to raise a kid to be good at swimming"
+slug: how-to-raise-a-kid-to-be-good-at-swimming
+status: active
+created: 2026-04-09
+user_context: >
+  Seed questions: swimming-related sports, what kind of kids are suitable
+  for swimming, competitive sports for swimming, how to find a swimming coach, how
+  to find swimming camps in Bay Area, when to switch from recreational to club-based
+  swimming, swimming and other sports, scientific research on body types suitable
+  for swimming, relationship between swimming and other sports
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.30
+    depth: 0.50
+    gap_fill: 0.15
+    verification: 0.05
+
+reader_personas:
+  - id: P1
+    label: "Parent of a young child (4-8) considering starting swimming lessons and wondering about the competitive pathway"
+    needs: [RO1, RO2, RO3, RO4]
+  - id: P2
+    label: "Parent of a rec swimmer (7-12) deciding whether and when to move to club/competitive swimming"
+    needs: [RO2, RO3, RO5, RO6]
+  - id: P3
+    label: "Parent of a competitive swimmer looking for Bay Area resources, camps, and coaching evaluation guidance"
+    needs: [RO3, RO4, RO5, RO7]
+  - id: P4
+    label: "Parent weighing swimming against or alongside other sports for their child"
+    needs: [RO2, RO6, RO7]
+
+reader_outcomes:
+  - id: RO1
+    job: "Decide when and how to start a child in swimming"
+    must_answer:
+      - "What is the right age to start swimming lessons?"
+      - "What should early swim instruction focus on (water safety vs. stroke technique)?"
+      - "How do I choose a good swim school or instructor for a beginner?"
+    personas: [P1]
+
+  - id: RO2
+    job: "Understand what traits and conditions support swimming development"
+    must_answer:
+      - "What physical traits correlate with swimming success at different ages?"
+      - "How much does body type matter vs. training and technique?"
+      - "What psychological traits help kids thrive in swimming?"
+      - "How can I distinguish early development from genuine talent?"
+    personas: [P1, P2, P4]
+
+  - id: RO3
+    job: "Evaluate and select a swim coach or club"
+    must_answer:
+      - "What qualifications and certifications should a swim coach have?"
+      - "What are red flags vs. green flags in a swim coach?"
+      - "What distinguishes a good club program from a mediocre one?"
+      - "What safe sport protections should be in place?"
+    personas: [P1, P2, P3]
+
+  - id: RO4
+    job: "Find Bay Area swim camps, clubs, and local resources"
+    must_answer:
+      - "What competitive swim clubs exist in the Bay Area (SF, East Bay, Peninsula, South Bay)?"
+      - "What summer swim camps are available for different ages and levels?"
+      - "Which clubs are best for beginners vs. experienced competitive swimmers?"
+    personas: [P1, P3]
+
+  - id: RO5
+    job: "Navigate the pathway from recreational to competitive swimming"
+    must_answer:
+      - "What are the stages from learn-to-swim to competitive club swimming?"
+      - "What is a pre-team or bridge program and when is my child ready?"
+      - "What does USA Swimming's developmental pathway look like?"
+      - "What should I expect at my child's first swim meet?"
+      - "What are the real costs at each level (rec, club, travel)?"
+    personas: [P2, P3]
+
+  - id: RO6
+    job: "Make informed decisions about sport specialization and multi-sport participation"
+    must_answer:
+      - "What does research say about early specialization in swimming?"
+      - "At what age should a child specialize in swimming?"
+      - "How does swimming complement or conflict with other sports?"
+      - "What are the cross-training benefits between swimming and other activities?"
+    personas: [P2, P4]
+
+  - id: RO7
+    job: "Keep a young swimmer healthy, motivated, and progressing long-term"
+    must_answer:
+      - "What are the signs of burnout in youth swimmers?"
+      - "How do I prevent overtraining in a young swimmer?"
+      - "What is the right training volume by age?"
+      - "How do I be a supportive (not overbearing) swim parent?"
+      - "What are common reasons kids quit swimming?"
+    personas: [P3, P4]

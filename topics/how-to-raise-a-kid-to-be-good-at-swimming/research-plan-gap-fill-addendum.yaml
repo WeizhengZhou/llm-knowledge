@@ -1,0 +1,214 @@
+# Gap-Fill Phase Addendum
+# Executed: 2026-04-09T05:00:00Z–06:00:00Z
+# Agent: research-agent
+# Searches consumed: 5 (budget: 7 max)
+# Questions answered: 5
+
+gap_fill_execution:
+  started_at: 2026-04-09T05:00:00Z
+  completed_at: 2026-04-09T06:00:00Z
+  searches_used: 5
+  fetches_used: 9
+  status: complete
+
+  gaps_identified_from_raw_review:
+    - "Pacific Swimming time standards: hierarchy named in existing file but no specific cut times with numbers"
+    - "Nutrition for youth swimmers: completely absent from all 33 raw files"
+    - "Water polo transition: only brief mention in aquatic-sports-overview.md; no skill depth, no Bay Area programs"
+    - "Cognitive development / IQ and swimming research: completely absent"
+    - "Bay Area club-specific summer camps: Stanford and Cal covered; Alto, DACA, Santa Clara missing"
+
+  questions_added:
+
+    - id: qG1
+      text: "What are the specific time standard cut times in Pacific Swimming (PC-B, PC-A, AGC, Far Western) by age group and event, and how do Bay Area kids typically progress through them?"
+      facet: HOW
+      scores:
+        user_value: 8
+        dependency_count: 3
+        searchability: 7
+        novelty: 6
+      composite: 6.80
+      phase: gap_fill
+      dependencies: [q14, q3]
+      status: answered
+      search_queries:
+        - id: s-2026-04-09-030
+          query: "Pacific Swimming age group time standards cut times PC-B PC-A AGC Far Western 2025 2026 yards meters"
+      raw_files:
+        - raw/web/official/2026-04-09_pacific-swimming-time-standards.md
+      discovered_from: raw_file_gap_analysis
+      spawned_by: research-agent
+      round: 1
+      cycle: gap-fill-2026-04-09
+      reader_outcomes: [RO4, RO5]
+      target_source_tiers: [L1]
+      children: []
+      answered_at: 2026-04-09T05:15:00Z
+      notes: >
+        Specific numeric cut times are only available in Pacific Swimming PDF documents
+        (binary-compressed; not extractable without PDF parser). Standards hierarchy fully
+        documented. PDFs available at pacswim.org/swim-meet-times/standards. Typical
+        progression milestones by age documented from available research.
+
+    - id: qG2
+      text: "What are age-appropriate nutrition guidelines for youth competitive swimmers, including macronutrients, micronutrients of concern, meal timing, and hydration?"
+      facet: HOW
+      scores:
+        user_value: 9
+        dependency_count: 2
+        searchability: 8
+        novelty: 7
+      composite: 7.55
+      phase: gap_fill
+      dependencies: [q34]
+      status: answered
+      search_queries:
+        - id: s-2026-04-09-031
+          query: "nutrition youth swimmers age-appropriate diet carbohydrates protein hydration competitive swimming kids"
+      raw_files:
+        - raw/web/official/2026-04-09_youth-swimmer-nutrition.md
+      discovered_from: raw_file_gap_analysis
+      spawned_by: research-agent
+      round: 1
+      cycle: gap-fill-2026-04-09
+      reader_outcomes: [RO5, RO7]
+      target_source_tiers: [L1, L2]
+      children: []
+      answered_at: 2026-04-09T05:25:00Z
+      notes: >
+        Covered: macronutrient targets (carb 4.4g/kg, protein 1.2-2.1g/kg), key micronutrient
+        deficiencies (calcium, vitamin D), meal timing protocols, hydration guidelines, age-specific
+        considerations (6-10 vs 11-17), common meet-day mistakes. Sources: PMC peer-reviewed
+        study (adolescent swimmers vs non-athletes) + Nemours Children's Health + practitioner guides.
+
+    - id: qG3
+      text: "What skills does a competitive swimmer need to transition to water polo, and what Bay Area programs bridge swimming to water polo?"
+      facet: HOW
+      scores:
+        user_value: 7
+        dependency_count: 2
+        searchability: 7
+        novelty: 7
+      composite: 6.55
+      phase: gap_fill
+      dependencies: [q7]
+      status: answered
+      search_queries:
+        - id: s-2026-04-09-032
+          query: "water polo youth transition from swimming skills required eggbeater kick position Bay Area programs kids"
+      raw_files:
+        - raw/web/review/2026-04-09_water-polo-transition-from-swimming.md
+      discovered_from: raw_file_gap_analysis
+      spawned_by: research-agent
+      round: 1
+      cycle: gap-fill-2026-04-09
+      reader_outcomes: [RO6]
+      target_source_tiers: [L2, L3]
+      children: []
+      answered_at: 2026-04-09T05:35:00Z
+      notes: >
+        Covered: eggbeater kick mechanics and learning curve, 6 kicking styles required, ball handling,
+        game awareness, physical contact adaptation, skill transfer table (swimming → water polo),
+        recommended transition age (8-10), dual sport option through age 12-14.
+        Bay Area programs: Lamorinda WPC (Splashball intro), West Valley WPC (South Bay),
+        De Anza WPC (Peninsula).
+
+    - id: qG4
+      text: "What does research say about swimming's effects on cognitive development and IQ in children, and what mechanisms explain it?"
+      facet: WHY
+      scores:
+        user_value: 8
+        dependency_count: 1
+        searchability: 8
+        novelty: 8
+      composite: 7.10
+      phase: gap_fill
+      dependencies: [q36]
+      status: answered
+      search_queries:
+        - id: s-2026-04-09-033
+          query: "swimming cognitive development children academic performance brain IQ research benefits youth"
+      raw_files:
+        - raw/web/official/2026-04-09_swimming-cognitive-development-research.md
+      discovered_from: raw_file_gap_analysis
+      spawned_by: research-agent
+      round: 1
+      cycle: gap-fill-2026-04-09
+      reader_outcomes: [RO2, RO6]
+      target_source_tiers: [L1, L2]
+      children: []
+      answered_at: 2026-04-09T05:45:00Z
+      notes: >
+        Covered: 2024 Frontiers in Public Health RCT (IQ gains: IS +7.65, AS +9.50 vs TP +4.82
+        in 8 weeks), BDNF mechanism, bilateral cross-patterning and corpus callosum, memory
+        enhancement post-swimming vs CrossFit, ADHD brain connectivity findings. Confidence
+        levels carefully calibrated — some popular claims (Griffith 2011) need primary source
+        verification before citing as fact.
+
+    - id: qG5
+      text: "What Bay Area club team summer clinics exist (Alto, DACA, Santa Clara, PASA) and how do they compare to university camps in terms of cost, ages, and skill focus?"
+      facet: WHERE
+      scores:
+        user_value: 8
+        dependency_count: 2
+        searchability: 7
+        novelty: 6
+      composite: 6.55
+      phase: gap_fill
+      dependencies: [q21, q22]
+      status: answered
+      search_queries:
+        - id: s-2026-04-09-034
+          query: "Alto Swim Club PASA DACA Santa Clara Swim Club summer camp clinic 2026 Bay Area registration cost ages"
+      raw_files:
+        - raw/web/official/2026-04-09_bayarea-club-swim-camps-2026.md
+      discovered_from: raw_file_gap_analysis
+      spawned_by: research-agent
+      round: 1
+      cycle: gap-fill-2026-04-09
+      reader_outcomes: [RO4]
+      target_source_tiers: [L1, L2]
+      children: []
+      answered_at: 2026-04-09T05:55:00Z
+      notes: >
+        Covered: Alto Swim Club Peak Performance Clinic (June 23–July 24, 4-day sessions, ages 9-13,
+        Gunn Pool, Palo Alto; pricing not published). DACA and Santa Clara pages either required
+        rendering or returned 403. Comparison table: Cal ($491-$611), Stanford ($797-$914),
+        Alto (price TBD), DACA/SCSC (contact required). Berkeley Parents Network cited as best
+        community resource for comprehensive Bay Area camp listings.
+
+  budget_summary:
+    searches_planned: 5
+    searches_executed: 5
+    search_ids: [s-2026-04-09-030, s-2026-04-09-031, s-2026-04-09-032, s-2026-04-09-033, s-2026-04-09-034]
+    fetches_executed: 9
+    fetches_successful: 7
+    fetches_failed_or_403: 2
+    budget_consumed_pct: 71  # 5 of 7 max searches = 71% of gap_fill budget
+    remaining_gap_fill_budget: 2 searches
+
+  new_concepts_discovered_during_gap_fill:
+    - concept: "Relative Energy Deficiency in Sport (RED-S)"
+      relevance: 8
+      action: "noted in qG2 raw file; no new question spawned — covered adequately within nutrition guidance"
+    - concept: "Eggbeater kick mechanics"
+      relevance: 7
+      action: "covered in qG3 raw file; no additional question needed"
+    - concept: "Corpus callosum bilateral cross-patterning"
+      relevance: 6
+      action: "covered in qG4 raw file as mechanism; no standalone question warranted"
+    - concept: "Lamorinda Water Polo Club Splashball program"
+      relevance: 7
+      action: "documented in qG3; new concept added to water polo section"
+    - concept: "Berkeley Parents Network swim camp list"
+      relevance: 7
+      action: "referenced in qG5 and existing qG21 raw file; no new question needed"
+
+  phase_status_update:
+    gap_fill:
+      previous_status: pending
+      new_status: complete
+      questions: [qG1, qG2, qG3, qG4, qG5]
+      completed_at: 2026-04-09T06:00:00Z
+      searches_used: 5

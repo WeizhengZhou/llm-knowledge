@@ -1,0 +1,194 @@
+topic: "How to raise a kid to be good at swimming"
+slug: how-to-raise-a-kid-to-be-good-at-swimming
+scanned_at: 2026-04-09
+
+entities_discovered:
+  - name: "USA Swimming"
+    type: governing_body
+    mentions: 12
+  - name: "Alto Swim Club"
+    type: swim_club
+    mentions: 6
+  - name: "East Bay Swim League (EBSL)"
+    type: league
+    mentions: 3
+  - name: "Cal Swim Camp (UC Berkeley)"
+    type: camp
+    mentions: 4
+  - name: "Stanford Swim Camp"
+    type: camp
+    mentions: 3
+  - name: "Nike Peak Performance Swim Camp"
+    type: camp
+    mentions: 2
+  - name: "Waterworks Aquatics"
+    type: swim_school
+    mentions: 2
+  - name: "Pacific Swimming (LSC)"
+    type: governing_body_regional
+    mentions: 2
+  - name: "Fitter and Faster Swim Camps"
+    type: camp
+    mentions: 2
+
+source_ecosystem:
+  official_sources:
+    - url: "https://www.usaswimming.org/swimmers-parents/parents"
+      relevance: high
+      topics: ["safe sport", "parent guides", "LTAD"]
+    - url: "https://altoswimclub.com/how-to-be-a-better-swimming-parent"
+      relevance: high
+      topics: ["parent guide", "choosing teams", "competitive pathway"]
+  expert_sources:
+    - url: "https://www.swimmingworldmagazine.com"
+      relevance: high
+      topics: ["coaching", "age group swimming", "burnout"]
+    - url: "https://swimswam.com"
+      relevance: high
+      topics: ["coaching", "books", "industry news"]
+    - url: "https://www.swimmingscience.net"
+      relevance: medium
+      topics: ["burnout research", "training science"]
+    - url: "https://www.yourswimlog.com"
+      relevance: medium
+      topics: ["books", "parent advice", "training"]
+    - url: "https://www.swimmingdad.com"
+      relevance: medium
+      topics: ["parent mistakes", "competitive spirit"]
+  community_sources:
+    - url: "https://www.berkeleyparentsnetwork.org/recommend/groups/swimteam"
+      relevance: high
+      accessible: false  # returns 403
+      topics: ["Bay Area swim team recommendations"]
+    - url: "https://www.510families.com"
+      relevance: medium
+      accessible: true
+      topics: ["East Bay swim clubs", "summer camps"]
+    - url: "https://www.bayareaparent.com"
+      relevance: medium
+      accessible: true
+      topics: ["Bay Area swim centers", "swim classes"]
+  academic_sources:
+    - url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5968952/"
+      relevance: high
+      topics: ["dropout determinants in swimming"]
+    - url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3658407/"
+      relevance: high
+      topics: ["sport specialization evidence"]
+    - url: "https://publications.aap.org/pediatrics/article/153/2/e2023065129"
+      relevance: high
+      topics: ["overuse injuries, overtraining, burnout in youth"]
+    - url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530013/"
+      relevance: medium
+      topics: ["multi-sport participation in youth swimming"]
+    - url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9638532/"
+      relevance: medium
+      topics: ["specialization vs career longevity"]
+  books:
+    - title: "Swimming for Parents"
+      author: "Alan Thompson (The Swimming Expert)"
+      secondary_sources: ["theswimmingexpert.com"]
+    - title: "Conquer the Pool (mental side of swimming)"
+      author: "unknown from search"
+      secondary_sources: ["yourswimlog.com review"]
+    - title: "Olympic coach Nick Baker's swimming parent book"
+      author: "Nick Baker"
+      secondary_sources: ["swimswam.com"]
+  video_audio:
+    - name: "Fitter and Faster Swim Camps"
+      type: instructional
+      url: "https://fitterandfaster.com"
+    - name: "MySwimPro"
+      type: app_and_content
+      url: "https://blog.myswimpro.com"
+
+source_access_failures:
+  - domain: "reddit.com"
+    reason: "blocked by Anthropic crawler"
+    impact: "lost community signal on parent experiences, club reviews"
+  - domain: "berkeleyparentsnetwork.org"
+    reason: "returns 403"
+    impact: "lost Bay Area specific parent recommendations for swim teams"
+
+common_pain_points:
+  # Process/logistics
+  - text: "When is my kid ready to move from lessons to a swim team?"
+    source: "texasswimacademy.com, goldmedalswimschool.com"
+    category: process
+    urgency: high
+  - text: "What skills does my child need before joining a competitive team?"
+    source: "goldclassswimming.com, sunsationalswimschool.com"
+    category: process
+    urgency: high
+  - text: "How do I find the right swim club or team for my kid in the Bay Area?"
+    source: "bayareaparent.com, 510families.com, yelp.com"
+    category: process
+    urgency: high
+  - text: "What is the difference between rec league, pre-team, and USA Swimming club?"
+    source: "altoswimclub.com, ebsl.org"
+    category: process
+    urgency: high
+  # Financial
+  - text: "How much does competitive swimming actually cost (fees, travel, gear)?"
+    source: "wehavekids.com, activekids.com"
+    category: financial
+    urgency: medium
+  # Emotional/strategic
+  - text: "How do I avoid being an overbearing swim parent?"
+    source: "altoswimclub.com, swimmingworldmagazine.com, rioswimteam.org"
+    category: emotional
+    urgency: high
+  - text: "My kid is fast at age 8 - does that mean anything for their future?"
+    source: "altoswimclub.com (early developer vs late bloomer discussion)"
+    category: emotional
+    urgency: high
+  - text: "How do I keep my kid from burning out on swimming?"
+    source: "swimmingscience.net, AAP pediatrics, swimmingworldmagazine.com"
+    category: emotional
+    urgency: high
+  - text: "Should I let my kid specialize in swimming or play multiple sports?"
+    source: "sportsmed.org, hopkinsmedicine.org, PMC articles"
+    category: strategic
+    urgency: high
+  # Assessment
+  - text: "Does body type matter for swimming success? What body types do well?"
+    source: "PMC/ResearchGate somatotype studies"
+    category: assessment
+    urgency: medium
+  - text: "How can I tell if my child has real swimming talent vs. early development?"
+    source: "altoswimclub.com, swimmingworldmagazine.com"
+    category: assessment
+    urgency: medium
+  # Post-decision
+  - text: "What should I expect at my kid's first swim meet?"
+    source: "wehavekids.com, roguerapids.com"
+    category: post_decision
+    urgency: medium
+  - text: "How do I evaluate if a coach is good or if there are safety red flags?"
+    source: "usaswimming.org safe sport, swimmingworldmagazine.com"
+    category: post_decision
+    urgency: high
+  - text: "What does the competitive swimming pathway look like from age 6 to college?"
+    source: "swimmingnotes.com LTAD, humankinetics.com"
+    category: post_decision
+    urgency: medium
+
+preliminary_question_seeds:
+  - text: "What are the stages of USA Swimming's Long Term Athlete Development model?"
+    source: "swimmingnotes.com, humankinetics.com"
+    urgency: high
+  - text: "Which Bay Area swim clubs accept young beginners vs. requiring tryouts?"
+    source: "bayareaparent.com, 510families.com"
+    urgency: high
+  - text: "What does research say about early specialization in swimming vs. multi-sport?"
+    source: "PMC articles, sportsmed.org, hopkinsmedicine.org"
+    urgency: high
+  - text: "What are common reasons kids quit swimming, and how to prevent dropout?"
+    source: "PMC/5968952, swimmingscience.net, AAP"
+    urgency: high
+  - text: "What are the real costs of competitive swimming at each level?"
+    source: "wehavekids.com, activekids.com"
+    urgency: medium
+  - text: "What physical traits correlate with swimming performance at different ages?"
+    source: "ResearchGate somatotype studies, PMC"
+    urgency: medium

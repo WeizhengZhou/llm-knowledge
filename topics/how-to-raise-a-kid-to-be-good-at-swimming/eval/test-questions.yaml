@@ -1,0 +1,231 @@
+# eval/test-questions.yaml
+metadata:
+  topic: how-to-raise-a-kid-to-be-good-at-swimming
+  version: 1
+  created: 2026-04-09
+  question_count: 35
+
+questions:
+  # === RO1: Decide when and how to start a child in swimming ===
+
+  - id: TQ01
+    text: "My child is 3 years old. Is she too young for swim lessons?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ02
+    text: "Should my 5-year-old's first swim lessons focus on strokes or water safety?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ03
+    text: "What instructor-to-child ratio should I look for in a beginner swim school?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ04
+    text: "How do I know if a swim school instructor is properly certified?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ05
+    text: "What are the different types of swim programs for kids who are just starting out?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  # === RO2: Understand traits and conditions supporting swimming development ===
+
+  - id: TQ06
+    text: "My 8-year-old is small for his age. Does that mean he won't be good at swimming?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ07
+    text: "Does body type matter more than training for swimming success?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ08
+    text: "My daughter is the fastest 10-year-old on her team. Does that mean she'll be a great senior swimmer?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ09
+    text: "What psychological traits help a kid stick with swimming long-term?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ10
+    text: "How can I tell the difference between early physical development and actual talent in a young swimmer?"
+    reader_outcome: RO2
+    difficulty: hard
+    expected_coverage: full
+
+  # === RO3: Evaluate and select a swim coach or club ===
+
+  - id: TQ11
+    text: "What certifications should a USA Swimming coach have?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ12
+    text: "What questions should I ask when visiting a new swim club?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ13
+    text: "What are warning signs that a swim coach is not a good fit?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ14
+    text: "How do I check if a club has proper Safe Sport protections?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ15
+    text: "What distinguishes a development-focused club from a performance-focused club?"
+    reader_outcome: RO3
+    difficulty: hard
+    expected_coverage: full
+
+  # === RO4: Find Bay Area swim camps, clubs, and local resources ===
+
+  - id: TQ16
+    text: "What competitive swim clubs are on the Peninsula near Palo Alto?"
+    reader_outcome: RO4
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ17
+    text: "Are there any Bay Area swim clubs that offer learn-to-swim through competitive in one program?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ18
+    text: "What summer swim camps are available for a 10-year-old competitive swimmer in the Bay Area?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ19
+    text: "Are there competitive swim clubs in the East Bay or San Francisco?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ20
+    text: "Which Bay Area club is best for an 8-year-old beginner vs. a 12-year-old experienced swimmer?"
+    reader_outcome: RO4
+    difficulty: hard
+    expected_coverage: full
+
+  # === RO5: Navigate the pathway from recreational to competitive swimming ===
+
+  - id: TQ21
+    text: "What are the stages from swim lessons to a competitive club team?"
+    reader_outcome: RO5
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ22
+    text: "What is a pre-team or bridge program and how do I know if my child is ready for one?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ23
+    text: "What should I expect at my child's first swim meet?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ24
+    text: "How much does competitive swimming cost per year at each level?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ25
+    text: "What are Pacific Swimming time standards and how do they work?"
+    reader_outcome: RO5
+    difficulty: hard
+    expected_coverage: full
+
+  # === RO6: Sport specialization and multi-sport participation decisions ===
+
+  - id: TQ26
+    text: "At what age should my child specialize in swimming?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ27
+    text: "What does the AAP say about early sport specialization?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ28
+    text: "Can my child play soccer and swim competitively at the same time?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ29
+    text: "What sports complement swimming well for cross-training?"
+    reader_outcome: RO6
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ30
+    text: "My child's swim coach says she needs to drop all other sports at age 10. Is that right?"
+    reader_outcome: RO6
+    difficulty: hard
+    expected_coverage: full
+
+  # === RO7: Keep a young swimmer healthy, motivated, and progressing ===
+
+  - id: TQ31
+    text: "What are the signs that my child is burning out from swimming?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ32
+    text: "How many hours per week should a 10-year-old swimmer be training?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ33
+    text: "What should I say to my kid after a bad race?"
+    reader_outcome: RO7
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ34
+    text: "Why do so many kids quit swimming and how can I prevent it?"
+    reader_outcome: RO7
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ35
+    text: "What is the right way to be a supportive swim parent without being overbearing?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full

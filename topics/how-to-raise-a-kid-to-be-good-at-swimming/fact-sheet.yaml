@@ -1,0 +1,1789 @@
+topic: how-to-raise-a-kid-to-be-good-at-swimming
+verified_at: 2026-04-09T12:00:00Z
+claims_processed: 156
+must_verify_processed: 68
+gate_status: CLEAR
+
+confidence_summary:
+  L1: 32
+  L2: 56
+  L3: 38
+  L4: 5
+  L5: 2
+  total_blocked: 2
+
+# ============================================================================
+# VERIFIED CLAIMS — must_verify (all 68 processed first)
+# ============================================================================
+
+verified_claims:
+
+  # ── ENTITY GROUP 1: YOUTH SWIM PROGRAM TYPES ──
+
+  - id: c006
+    verdict: confirmed_with_correction
+    confidence: L1
+    original_claim: "USA Swimming Club Teams have age groups: 10 & Under, 11-12, 13-14, 15-16, 17-18"
+    permitted_language: "USA Swimming organizes competition into official age groups: 8 & Under, 10 & Under, 11-12, 13-14, 15-16, and 17-18"
+    overreach_resolved: true
+    overreach_resolution: "Added 8 & Under group which was omitted by the L3 source. Confirmed by L2-authoritative source (swimlikeafish.org citing USA Swimming)."
+    sources_checked: 2
+    source_used: "swimlikeafish.org/usa-swimmings-age-group-swimming-levels-explained (L2) + swim-programs-types-overview (L3)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "The L3 source omitted the 8 & Under group. Corrected per L2 source."
+
+  # ── ENTITY GROUP 2: USA SWIMMING ──
+
+  - id: c008
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, there are 2,800+ affiliated clubs across the country"
+    sources_checked: 1
+    source_used: "usaswimming.org/home/find-a-team (L1-official, retrieved 2026-04-09)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Single official source. Number likely changes gradually."
+
+  # ── ENTITY GROUP 3: LTAD MODEL ──
+
+  - id: c016
+    verdict: confirmed
+    confidence: L1
+    original_claim: "NSCA guideline: children should spend no more weekly sports hours than their age in years"
+    permitted_language: "The American Academy of Pediatrics (AAP) recommends that children should not participate in more hours per week of organized sports than their age in years (e.g., a 10-year-old: max 10 hours/week). This guideline is also endorsed by the NSCA."
+    sources_checked: 4
+    source_used: "AAP Clinical Report 'Sports Specialization and Intensive Training in Young Athletes' (Brenner et al., Pediatrics 2016); PMC7174680; NSCA LTAD parents guide"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Attribution resolved: this guideline originates with the AAP (2016 clinical report). NSCA cites and endorses it. Both attributions are correct but AAP is the primary source."
+    dispute_id: d002
+
+  # ── ENTITY GROUP 4: AGE / DEVELOPMENTAL BENCHMARKS ──
+
+  - id: c018
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to JackrabbitClass (citing the AAP), most children age four and older should learn to swim"
+    sources_checked: 1
+    source_used: "jackrabbitclass.com (L3 aggregator citing AAP)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "L3 source citing AAP. Could not verify directly against current AAP guidance page. Downgraded from L1 to L3 due to indirect citation."
+
+  - id: c019
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to JackrabbitClass, both the AAP and Red Cross have acknowledged that infants as young as six months can participate in water instruction when a parent is involved"
+    sources_checked: 1
+    source_used: "jackrabbitclass.com (L3 aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Could not verify against primary AAP/Red Cross source. Kept at L3."
+
+  - id: c020
+    verdict: blocked
+    confidence: L5
+    original_claim: "USA Swimming operates competitive meets for swimmers age 10 and under"
+    block_reason: "The claim that '10 and under' is USA Swimming's youngest competitive group is contradicted by the official USA Swimming age group structure, which includes 8 & Under as a distinct competitive age group (confirmed via c006). The L3 source is incomplete/inaccurate."
+    last_verified: 2026-04-09
+    notes: "The YMCA portion of the claim (competitive opportunities for 8 and younger) is not independently verified but is not blocked. Only the USA Swimming portion is L5."
+
+  # ── ENTITY GROUP 5: PACIFIC SWIMMING ──
+
+  - id: c028
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Pacific Swimming (PC) is one of 59 USA Swimming Local Swimming Committees (LSCs)"
+    sources_checked: 2
+    source_used: "pacswim.org/resources/faq (L1) + swimlikeafish.org (L2)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Multi-source confirmed."
+
+  - id: c030
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, the LSC has 13,000+ registered athletes across 100+ member clubs"
+    sources_checked: 1
+    source_used: "pacswim.org/resources/faq (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Single official source. Registration numbers change annually."
+
+  - id: c033
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Pacific Swimming time standards, from entry to elite, are: PC-B, PC-A, AGC (Age Group Championship), and Far Western (Q time)"
+    sources_checked: 2
+    source_used: "pacswim.org/resources/faq (L1) + pacswim.org/swim-meet-times/standards (L1)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Dual L1 sources agree on hierarchy."
+
+  - id: c034
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Pacific Swimming Age Group Championships (AGC) meets are held in March, July, and December"
+    sources_checked: 2
+    source_used: "pacswim.org FAQ (L1) + pacswim.org time standards page (L1)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Dual L1 sources confirm. Months may shift slightly year to year."
+
+  - id: c035
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Far Western Championships are held in April (Spring) and July (Summer)"
+    sources_checked: 2
+    source_used: "pacswim.org FAQ (L1) + pacswim.org time standards page (L1)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Dual L1 sources confirm."
+
+  # ── ENTITY GROUP 6: BAY AREA SWIM CLUBS ──
+
+  - id: c047
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Alto Swim Club, the club won 1st place at the 2019 USA Swimming Phillips 66 National Championship"
+    sources_checked: 1
+    source_used: "altoswimclub.com/coaching-staff (L1-official, via search summary)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Historical fact. Single source (club's own website). Attributed to club."
+
+  - id: c051
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Alto Swim Club, training groups are structured as follows: 8 & Under (3 practices/week, 1 hour), ages 9-10 (4-5 practices/week), ages 11-12 (up to 6 practices/week, 2-2.5 hours, targeting Far Western qualifying)"
+    sources_checked: 2
+    source_used: "altoswimclub.com (L1) + swimlikeafish.org (L2)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Club-specific program details. May change by season."
+
+  - id: c052
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Alto Swim Club, the club was formed from the merger of Stanford Swimming and PASA Cardinal Swimming"
+    sources_checked: 1
+    source_used: "altoswimclub.com/peak-performance-clinic (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Historical fact from club's own site."
+
+  - id: c055
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to club sources, Santa Clara Swim Club has operated for 70+ years and produced multiple Olympic medalists including Mark Spitz, Pablo Morales, and Claudia Poll"
+    sources_checked: 1
+    source_used: "bayarea-club-swim-camps-2026.md (L1-official source material)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Historical claim. Mark Spitz and Pablo Morales training at SCSC is well-documented in swimming history, supporting L2."
+
+  - id: c058
+    verdict: confirmed_with_correction
+    confidence: L1
+    original_claim: "Pleasanton Seahawks (PLS) is located in Pleasanton, East Bay (Zone 3)"
+    permitted_language: "Pleasanton Seahawks (PLS) is located in Pleasanton, East Bay, and is a Pacific Swimming Zone 2 club"
+    overreach_resolved: true
+    overreach_resolution: "Zone assignment corrected from Zone 3 to Zone 2 per official pacswim.org Zone 2 Teams Directory. The depth-profile file incorrectly listed PLS as Zone 3."
+    sources_checked: 2
+    source_used: "pacswim.org/members/zones/zone-2/zone-2-teams-directory (L1-official, live-verified 2026-04-09)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    dispute_id: d003
+    notes: "RESOLVED. Official pacswim.org Zone 2 directory is authoritative. The depth-profile narrative was wrong."
+
+  - id: c062
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "YMCA Pacific Aquatic Club (YPAC) is located at Presidio YMCA in San Francisco, accepts ages 7-18, and is a USA Swimming member club"
+    sources_checked: 2
+    source_used: "pacswim.org Zone 3 clubs (L1) + bayarea-swim-clubs-depth.md (L1)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Dual L1 sources confirm location and USA Swimming affiliation."
+
+  - id: c063
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to compiled club profiles, YMCA East Bay has locations in Berkeley, Oakland, and Pleasant Hill, offers youth swim lessons for ages 6-12 in five swimming levels, with registration opening annually on August 1"
+    sources_checked: 1
+    source_used: "bayarea-swim-clubs-depth.md (L1-official via search summary)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Single source. August 1 registration date is annual and should be re-verified each year."
+
+  - id: c073
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Alto Swim Club, the Peak Performance Clinic 2026 is for competitive swimmers ages 9-13, held at Gunn Pool in Palo Alto in a 4-day Monday-Thursday format (10 AM-1:30 PM) across five sessions from June 23 to July 24; pricing requires contacting the club directly"
+    sources_checked: 1
+    source_used: "altoswimclub.com/peak-performance-clinic (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: "2026 cycle-specific. Will need update for 2027."
+
+  # ── ENTITY GROUP 7: SUMMER SWIM CAMPS ──
+
+  - id: c064
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Cal (UC Berkeley) Summer Swim Camp 2026 sessions run June 1-3, June 8-10, June 15-17, June 22-24, and August 22-23"
+    sources_checked: 1
+    source_used: "ussportscamps.com/swim/cal/california-swim-camp (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: "2026 cycle-specific."
+
+  - id: c065
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Cal Swim Camp 2026 costs $611 for 3-day sessions and $491 for the 2-day August session, with a team discount of $25 off per camper when 5+ register together"
+    sources_checked: 1
+    source_used: "ussportscamps.com/swim/cal/california-swim-camp (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: "2026 pricing. Will change."
+
+  - id: c066
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Cal Swim Camp serves ages 9-17 and requires competitive swim knowledge and experience with all four strokes; the camp does not teach beginners"
+    sources_checked: 1
+    source_used: "ussportscamps.com/swim/cal/california-swim-camp (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: ""
+
+  - id: c068
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Stanford Swim Camp 2026 offers six sessions between June 8 and July 2, priced from $797 to $914 per session"
+    sources_checked: 1
+    source_used: "ussportscamps.com/swim/nike/stanford-swim-camp (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: "2026 pricing. Source URL in raw file had malformed path (swim/swim/nike); correct URL is swim/nike/stanford-swim-camp."
+
+  - id: c069
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Stanford Swim Camp serves ages 9-17, requires ability to complete a continuous 200-yard swim and experience with all four strokes, and is held at Avery Aquatics Center at Stanford University"
+    sources_checked: 1
+    source_used: "ussportscamps.com/swim/nike/stanford-swim-camp (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: ""
+
+  # ── ENTITY GROUP 8: ANTHROPOMETRY ──
+
+  - id: c075
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC study (PMC9835708) of Chinese swimmers aged 17.1-17.9, with each 1-cm increase in torso length, the odds of becoming an elite swimmer increased by 34% (OR = 1.34)"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC9835708/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Peer-reviewed. Population limitation (Chinese swimmers) must be noted when citing."
+
+  - id: c076
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The same PMC study found that with each 1-kg increase in skeletal muscle mass, the odds of becoming an elite swimmer increased by 33% overall and 67% for female swimmers specifically"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC9835708/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c077
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The PMC anthropometry study (PMC9835708) enrolled swimmers aged 17.1-17.9 years, suggesting anthropometric assessment is more applicable in late adolescence rather than early childhood"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC9835708/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c078
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The anthropometry study's findings apply only to Chinese swimmers; the authors note that generalization to other populations requires further validation"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC9835708/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Critical limitation that MUST appear whenever c075-c077 are cited."
+
+  # ── ENTITY GROUP 9: TALENT IDENTIFICATION ──
+
+  - id: c083
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC review (PMC7174680), transition rates from elite junior to elite senior levels in swimming are as low as 21% for males and 25% for females, meaning roughly 3 out of 4 elite age-group swimmers do not become elite senior swimmers"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC7174680/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c084
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC research (PMC7174680), adult world-class finalists in swimming do not differ significantly from lower-ranked international-class swimmers in performance before the age of 17 years"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC7174680/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  # ── ENTITY GROUP 10: EARLY SPECIALIZATION RESEARCH ──
+
+  - id: c086
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC study of 236 Canadian competitive swimmers ages 12-17 (PMC10530013), only 4% consistently engaged in a single sport throughout ages 6-12"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC10530013/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c087
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "In the same study (PMC10530013), 60% of swimmers increased their annual number of sports as they aged, 25% decreased sport involvement, and 15% maintained stable participation"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC10530013/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c088
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC research (PMC10530013), athletes typically specialize around ages 12-15: high school athletes averaged age 12.7 when quitting other sports, and individual sport athletes averaged age 11.2"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC10530013/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c089
+    verdict: downgraded
+    confidence: L3
+    original_claim: "88% of college athletes played multiple sports as children (commonly cited statistic)"
+    permitted_language: "A commonly cited statistic suggests 88% of college athletes played multiple sports as children, though the primary source for this figure has not been independently verified"
+    overreach_resolved: true
+    overreach_resolution: "The PMC source itself describes this as a 'commonly cited statistic' without providing a primary citation. Downgraded to L3 and qualified."
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC10530013/ (L1-official, but figure is uncited within that source)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "This number circulates widely but no primary study has been located."
+
+  - id: c090
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The American Academy of Pediatrics recommends against single-sport specialization until at least age 15-16"
+    sources_checked: 3
+    source_used: "PMC10530013 (L1) + PMC6805065 (L1) + AAP Clinical Report 2016 (L1, via web search)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Multi-source confirmed across two PMC papers and the 2016 AAP clinical report."
+
+  - id: c094
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC review (PMC6805065), athletes specializing before age 12 face 3.76 times higher burnout rates than those specializing after age 15"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    dispute_id: d004
+    notes: "See dispute d004 for reconciliation with c103. This is a correlation/association figure, not a direct causal predictor."
+
+  - id: c095
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC review (PMC6805065) citing a 2024 AAP report, 70% of youth athletes drop out of competitive sports by age 13, often due to burnout or injury"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "The PMC source cites a '2024 AAP report' but does not provide the specific AAP publication reference. Attributed accordingly."
+
+  - id: c096
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC6805065, the AAP and AMSSM note that sports requiring skill development and peak performance before puberty ends may be exceptions to the anti-specialization recommendation, listing dancing, diving, figure skating, and gymnastics as examples. Swimming is not listed among these exceptions."
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Important for parents: swimming is NOT an exception to anti-specialization guidance."
+
+  - id: c097
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC review (PMC6805065), median club sport costs are approximately $1,500/year nationally, which creates access barriers for lower-income families"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "National median. Bay Area costs are likely higher."
+
+  # ── ENTITY GROUP 11: COSTS AND TIME ──
+
+  - id: c105
+    verdict: downgraded
+    confidence: L3
+    original_claim: "USA Swimming annual registration cost was $84/year as of 2021"
+    permitted_language: "As of 2021, USA Swimming annual registration was reported at $84/year (SwimSwam). The current fee varies by membership type: Premium, Seasonal, Flex (ages 12 and under), and Outreach memberships are available, each combining a USA Swimming national fee and an LSC fee. Check usaswimming.org or your local club for current pricing."
+    sources_checked: 3
+    source_used: "swimswam.com (L2, 2021 data) + usaswimming.org/membership (L1, no specific dollar amounts listed) + web search (multiple LSC sites show varying totals)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "The $84 figure is from 2021 and is stale. USA Swimming's current membership page does not publish a single dollar amount; it varies by LSC. The claim as stated is outdated."
+
+  - id: c106
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Club dues range from $75-$150/month for beginners ages 8-10"
+    permitted_language: "SwimSwam reports club dues nationally ranging from $75-$150/month for beginners ages 8-10 and $105-$175/month depending on level and location. Bay Area costs trend toward the higher end of these ranges."
+    overreach_resolved: true
+    overreach_resolution: "Source explicitly states these are national estimates and Bay Area costs trend higher. Added qualification."
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c108
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Typical annual cost estimates by level: rec/summer league $200-$600; club team entry-level $2,000-$4,000; competitive club mid-level $4,000-$7,000; elite/travel team $8,000-$15,000+"
+    permitted_language: "SwimSwam estimates annual costs nationally as: rec/summer league $200-$600, club entry-level $2,000-$4,000, competitive mid-level $4,000-$7,000, elite/travel $8,000-$15,000+. The source notes Bay Area costs trend toward the higher end of these ranges."
+    overreach_resolved: true
+    overreach_resolution: "Clarified as national estimates per source's own caveat."
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c109
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "SwimSwam estimates a typical Bay Area family with a child on a mid-level club team should budget approximately $3,200-$7,100+/year, combining club dues ($1,800-$3,600), registration (~$100), gear ($500-$800), meet fees ($300-$600), and travel ($500-$2,000)"
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative, but author-synthesized estimate)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "This is a journalist's estimate, not a primary survey. Reasonable but not verified against actual club billing."
+
+  - id: c110
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SwimSwam, typical practice frequency by age group is: 8 & Under (2-3 practices/week, 60 min), 9-10 (4-5 practices/week, 60-75 min), 11-12 (5-6 practices/week, 75-90 min), 13-14 (5-6 practices/week, 90-120 min), high school (8-9 practices/week, ~150 min)"
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "General guidance. Individual clubs vary."
+
+  # ── ENTITY GROUP 12: COACH CREDENTIALS ──
+
+  - id: c113
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, all coaches must complete the Quality Coaching Framework course, and membership will not be in good standing without this completion"
+    sources_checked: 1
+    source_used: "usaswimming.org/coaches-leaders/coaches/coach-certification-program (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c116
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, non-athlete coaches must pass a background check before coaching. Junior coaches ages 16-17 are exempt from background checks until they turn 18, at which point they have 30 days to complete one."
+    sources_checked: 1
+    source_used: "usaswimming.org coach certification page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c117
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, junior coaches (ages 16-17) cannot be designated as head coaches and must have another non-athlete coach present on deck at all times"
+    sources_checked: 1
+    source_used: "usaswimming.org coach certification page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  # ── ENTITY GROUP 13: SAFE SPORT ──
+
+  - id: c120
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, all adult USA Swimming members must complete USA Swimming-approved criminal background checks"
+    sources_checked: 1
+    source_used: "usaswimming.org/swimmers-parents/parents/safe-sport-for-parents (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c121
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, pursuant to federal law, all adults authorized to interact with minor or amateur athletes who learn of facts giving reason to suspect child abuse must report to law enforcement and/or a state child protection agency AND the U.S. Center for SafeSport within 24 hours"
+    sources_checked: 1
+    source_used: "usaswimming.org safe sport page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Legal/policy claim from official source. Meets L1/L2 threshold for policy claims."
+
+  - id: c122
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, SafeSport reporting contacts are: U.S. Center for SafeSport phone 833-5US-SAFE (833-587-7233) or online at safesport.org; USA Swimming reporting at usaswimming.org/safe-sport/report-a-concern; anonymous text 888-270-SWIM (888-270-7946)"
+    sources_checked: 1
+    source_used: "usaswimming.org safe sport page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Phone numbers and URLs should be re-verified periodically."
+
+  # ── ENTITY GROUP 14: NUTRITION ──
+
+  - id: c123
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC study (PMC5035546) of 191 US adolescents ages 13-14 (91 swimmers, 100 non-athletes), swimmers' macronutrient distribution was approximately: total fat 36% of calories, carbohydrate 52%, protein 13-14%"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5035546/ (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c124
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The same PMC study (PMC5035546) found that only 10-30% of swimmers achieved adequate calcium intake, and only 0-7% achieved adequate vitamin D levels"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5035546/ (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c126
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Recommended carbohydrate target for youth swimmers: approximately 4.4 g/kg body weight per day"
+    permitted_language: "One practitioner resource (youthsportnutrition.com, cited in the PMC compilation) suggests a carbohydrate target of approximately 4.4 g/kg body weight per day (~46% of total calories) for youth swimmers"
+    sources_checked: 1
+    source_used: "youth-swimmer-nutrition.md (L2 file, but this specific claim sourced from L3 practitioner site)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Downgraded because the specific numeric target comes from a practitioner blog, not the peer-reviewed PMC study itself."
+
+  - id: c127
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Recommended protein targets for youth swimmers range from 1.2-2.1 g/kg body weight per day in sports nutrition literature. Nemours Children's Health recommends 0.45-0.6 g/lb (~1.0-1.3 g/kg) for young athletes."
+    sources_checked: 1
+    source_used: "youth-swimmer-nutrition.md (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "The range (1.2-2.1) is broad; Nemours provides a more conservative pediatric figure."
+
+  - id: c129
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Nemours Children's Health, the hydration protocol for young athletes during exercise is: 8-16 oz water 2-4 hours before exercise, 8 oz during warm-up, and 8-16 oz every 15 minutes during activity"
+    sources_checked: 1
+    source_used: "Nemours blog (L2-authoritative, pediatric healthcare source)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  # ── ENTITY GROUP 15: COGNITIVE DEVELOPMENT ──
+
+  - id: c133
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "A 2024 RCT published in Frontiers in Public Health (PMC11176541) found that in an 8-week program with preschool boys, IQ gains were: Independent Swimming group +7.65 points, Parent-Accompanied Swimming group +9.50 points, versus Traditional exercise group +4.82 points"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC11176541/ (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Single RCT. Boys only. Has not been replicated. Must always be cited with limitations (c135)."
+
+  - id: c134
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "In the same RCT (PMC11176541), at 4 weeks the parent-accompanied swimming group showed significantly higher IQ scores than the traditional exercise group (p < 0.05, effect size 0.89); at 8 weeks both swimming groups significantly outperformed traditional exercise with effect sizes exceeding 1.15"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC11176541/ (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c135
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The 2024 swimming-cognition RCT was limited to boys only, did not control for socioeconomic factors, and lacked physiological biomarkers to explain neurobiological mechanisms"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC11176541/ (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "MUST appear alongside c133/c134 citations."
+
+  - id: c137
+    verdict: blocked
+    confidence: L5
+    original_claim: "Children who swam by age 5 scored 15% higher in math and science"
+    block_reason: "The Griffith University study (2012-2013) did NOT report a '15% higher' figure. The actual findings were that children were 6-15 months ahead of the normal population in cognitive skills, 11 months ahead in Oral Expression, 6 months ahead in Mathematics Reasoning, and 2 months ahead in Brief Reading. The '15% higher in math and science' appears to be a distortion that has propagated through swim school marketing materials. The actual Griffith findings may be cited, but the 15% figure is unverifiable and likely false."
+    last_verified: 2026-04-09
+    notes: "Live-verified against Griffith University news release (news.griffith.edu.au). The study surveyed 7,000 children and intensively assessed 176 children aged 3-5."
+
+  # ── ENTITY GROUP 16: SWIMMING PHYSICAL BENEFITS ──
+
+  - id: c150
+    verdict: downgraded
+    confidence: L3
+    original_claim: "CDC data: those who swim cut their risk of death in half compared to non-swimmers"
+    permitted_language: "A study by Dr. Steven Blair (University of South Carolina), analyzing data from more than 40,000 men over 40 years, found that male swimmers had approximately 50% lower all-cause mortality risk compared to sedentary men, walkers, or runners. This study was funded by the National Swimming Pool Foundation. The study population was limited to white, educated, relatively affluent men ages 20-90."
+    overreach_resolved: true
+    overreach_resolution: "The claim was attributed to 'CDC data' which is misleading. The study was by Blair et al., published in the International Journal of Aquatic Research and Education, funded by the National Swimming Pool Foundation. Not a CDC study. Also limited to men only. Downgraded and corrected attribution."
+    sources_checked: 3
+    source_used: "scholarworks.bgsu.edu/ijare/vol2/iss3/3/ (primary) + aquaticsintl.com (secondary) + sportsmedicine.mayoclinic.org (original claim source)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Critical corrections: (1) not CDC data, (2) men only, (3) funded by swimming industry."
+
+  - id: c151
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "According to the CDC, drowning is the leading cause of unintentional injury-related death for children ages 1-4, and the second leading cause for children ages 5-14 in the United States"
+    sources_checked: 2
+    source_used: "cdc.gov/drowning/data-research/ (L1-official) + cdc.gov/media/releases/2024 (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Live-verified via CDC sources. The original claim said 'children and adolescents' without specifying age ranges. Corrected to be precise about age group distinctions."
+
+  # ── ENTITY GROUP 17: BURNOUT/DROPOUT ──
+
+  - id: c098
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC systematic review (PMC5968952), six studies (1982-2008) involving 727 participants aged 5-30 were analyzed. The study population was predominantly from Canada (4 studies), USA (1), and Spain (1), and 65.74% were female."
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5968952/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+# ============================================================================
+# VERIFIED CLAIMS — should_verify (processed in priority order)
+# ============================================================================
+
+  # -- should_verify with single_source --
+
+  - id: c001
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Tide Swimming reports that Learn-to-Swim programs typically serve ages 6 months through 12 years"
+    sources_checked: 1
+    source_used: "tideswimming.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c002
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Tide Swimming lists Pre-Team / Bridge programs as typically for ages 5-8"
+    sources_checked: 1
+    source_used: "tideswimming.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c003
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Tide Swimming reports Pre-Team / Bridge sessions are typically 45-60 minutes"
+    sources_checked: 1
+    source_used: "tideswimming.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c004
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Recreational / Summer League swimming typically runs May through August"
+    sources_checked: 1
+    source_used: "tideswimming.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c005
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Tide Swimming lists Recreational / Summer League programs as serving ages 6-18"
+    sources_checked: 1
+    source_used: "tideswimming.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c007
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "USA Swimming Club Excellence designations are Bronze, Silver, and Gold"
+    sources_checked: 2
+    source_used: "usaswimming.org/home/find-a-team (L1) + tideswimming.com (L3)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Multi-source."
+
+  - id: c009
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, the Block Party initiative has engaged more than 31,000 athletes in club-focused competitions"
+    sources_checked: 1
+    source_used: "usaswimming.org (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c010
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimmingNotes describes the LTAD model as having seven stages: Active Start, FUNdamentals, Learn to Train, Train to Train, Train to Compete, Train to Win, and Active for Life"
+    sources_checked: 1
+    source_used: "swimmingnotes.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "The LTAD 7-stage framework is widely documented."
+
+  - id: c011
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "According to SwimmingNotes, the LTAD model was pioneered by Istvan Balyi"
+    sources_checked: 1
+    source_used: "swimmingnotes.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Well-established attribution in sports science."
+
+  - id: c015
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the NSCA, both the NSCA and the U.S. Olympic Committee endorse LTAD"
+    sources_checked: 1
+    source_used: "nsca.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c017
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the NSCA, all fitness attributes (strength, endurance, flexibility, agility, balance) are safely trainable in children ages 6-17 under proper supervision"
+    sources_checked: 1
+    source_used: "nsca.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c021
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "JackrabbitClass reports that most swimmers typically enter competitive swimming between ages 8 and 12"
+    sources_checked: 1
+    source_used: "jackrabbitclass.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c022
+    verdict: downgraded
+    confidence: L3
+    original_claim: "The typical age for a child to join a swim team is 5-7 years old, according to Menlo Swim & Sport"
+    permitted_language: "Menlo Swim & Sport states that the typical age for a child to join a swim team is 5-7 years old. Other sources cite 8-12 as typical for competitive entry. The difference likely reflects pre-team programs (5-7) versus competitive team racing (8-12)."
+    overreach_resolved: true
+    overreach_resolution: "Added context from other sources to prevent misunderstanding. Pre-team vs competitive distinction clarified."
+    sources_checked: 2
+    source_used: "menloswim.com (L3) cross-referenced with jackrabbitclass.com (L3)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c023
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Multiple swim program websites recommend that before competing, children should be able to swim at least 50 meters without difficulty"
+    sources_checked: 2
+    source_used: "jackrabbitclass.com (L3) + weaquatics.com (L3)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Two L3 sources agree."
+
+  - id: c024
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "WE Aquatics notes that team practices are typically 60 minutes compared to 30-minute learn-to-swim lessons"
+    sources_checked: 1
+    source_used: "weaquatics.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c026
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "UC Berkeley's Pre-Team program outlines skill benchmarks by age: ages 3-5 (water comfort, floating), 6-7 (independent freestyle 25 yards, basic backstroke), 7-9 (breaststroke introduction), 9-10 (all four strokes, flip turns), 10-12 (200 IM capability), 12-14 (stroke refinement), 14-18 (event specialization)"
+    sources_checked: 1
+    source_used: "recwell.berkeley.edu (L1-official but compiled/synthesized document)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Noted as a compiled table in the raw file. Useful as general guidance."
+
+  - id: c029
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, it is the third largest LSC in the country"
+    sources_checked: 1
+    source_used: "pacswim.org/resources/faq (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c031
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, the LSC covers the San Francisco Bay Area, coastal Northern California from Monterey to the Oregon border, the Stockton-Modesto area, and the Reno-Carson City-Lake Tahoe area"
+    sources_checked: 1
+    source_used: "pacswim.org/resources/faq (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c032
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, the LSC has five geographical zones: Zone 1 North, Zone 1 South, Zone 2, Zone 3, and Senior Zone"
+    sources_checked: 1
+    source_used: "pacswim.org/resources/faq (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c036
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Short course yards (SCY) uses a 25-yard pool and is the primary format for most of the competitive year (fall through spring)"
+    sources_checked: 2
+    source_used: "pacswim.org FAQ (L1) + pacswim.org time standards page (L1)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Dual L1 sources."
+
+  - id: c037
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, long course meters (LCM) uses a 50-meter pool, is the primary summer season format, and is the format for international competition and the Olympics"
+    sources_checked: 1
+    source_used: "pacswim.org FAQ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c038
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, high school swimmers competing in CIF season must compete as 'unattached' in USA Swimming meets during that season"
+    sources_checked: 1
+    source_used: "pacswim.org FAQ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c039
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimLikeAFish.org lists USA Swimming national time standards as: B (entry), BB (intermediate), A (solid), AA (strong), AAA (high-level), AAAA (elite age group)"
+    sources_checked: 1
+    source_used: "swimlikeafish.org (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c040
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimLikeAFish.org reports that Zone Age Group Championships has four national zones (Eastern, Central, Southern, Western) with teams of up to 48 men and 48 women, and most zone meets cap at 14 and under"
+    sources_checked: 1
+    source_used: "swimlikeafish.org (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c041
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, Zone 1 North covers San Mateo and north Santa Clara counties and has 22 member clubs"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 1 North clubs page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Club count may change."
+
+  - id: c042
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, Zone 1 South covers south Santa Clara, Santa Cruz, San Benito, and Monterey counties and has 23 member clubs"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 1 South clubs page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c043
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, Zone 2 covers Alameda and Contra Costa counties plus the San Joaquin (Stockton/Modesto) area"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 2 directory (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c044
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming, Zone 3 covers San Francisco, Marin, Sonoma, Napa, Mendocino, Lake, Humboldt, Del Norte, and western Solano counties"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 3 clubs page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c045
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "At most Pacific Swimming meets, deck seeding requires swimmers to check in with the clerk of the course 60 minutes before their event"
+    sources_checked: 2
+    source_used: "pacswim.org FAQ (L1) + pacswim.org time standards page (L1)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c048
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Club profiles report that Alto Swim Club earned USA Swimming Club Excellence Silver Medal Team designation in 2021"
+    sources_checked: 1
+    source_used: "bayarea-swim-clubs-depth.md (L1 file but self-reported by club)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Historical. Could be verified on USA Swimming club search."
+
+  - id: c049
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Alto Swim Club is located in the Palo Alto / Menlo Park area"
+    sources_checked: 2
+    source_used: "altoswimclub.com (L1) + pacswim.org Zone 1 North (L1)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c050
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Alto Swim Club, their contact information is info@altoswimclub.com and 650-308-9110"
+    sources_checked: 1
+    source_used: "altoswimclub.com (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Contact info may change."
+
+  - id: c053
+    verdict: downgraded
+    confidence: L3
+    original_claim: "PASA is described as one of California's premier age group clubs"
+    permitted_language: "PASA is described on the Alto Swim Club website as 'one of California's premier age group clubs,' historically strong at Far Westerns and Junior Nationals"
+    overreach_resolved: true
+    overreach_resolution: "Attributed to club's own characterization rather than stating as independent fact."
+    sources_checked: 1
+    source_used: "bayarea-swim-clubs-depth.md (self-reported)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c054
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "According to club sources, PASA is located in Palo Alto and uses the Stanford Aquatic Center and other Peninsula facilities"
+    sources_checked: 1
+    source_used: "bayarea-swim-clubs-depth.md (L1 file)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c056
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming's Zone 1 South directory, Santa Clara Swim Club (SCSC) is located in Santa Clara"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 1 South clubs (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Note: the depth-profile file incorrectly listed SCSC under Zone 2. Official directory confirms Zone 1 South."
+
+  - id: c057
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "De Anza Cupertino Aquatics (DACA) is located in Cupertino and serves all ages from beginners through elite competitive swimmers"
+    sources_checked: 2
+    source_used: "bayarea-swim-clubs-depth.md (L1) + pacswim.org Zone 1 North (L1)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c059
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming's Zone 2 directory, Orinda Aquatics (OAPB) is located in Orinda"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 2 directory (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c060
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming's Zone 2 directory, Walnut Creek Aquabears (WCAB) is located in Walnut Creek; contact Mike Heaney at (925) 323-7579"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 2 directory (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c061
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Pacific Swimming's Zone 3 directory, The Olympic Club (TOC) in San Francisco is a Zone 3 club; contact Sean Killion at (415) 345-5154"
+    sources_checked: 1
+    source_used: "pacswim.org Zone 3 directory (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c067
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Cal Swim Camp runs 9 AM-3 PM daily with a 10:1 camper-to-staff ratio at Legends Aquatics Center or Spieker Aquatic Complex at UC Berkeley"
+    sources_checked: 1
+    source_used: "ussportscamps.com (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: ""
+
+  - id: c070
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Sports Camps, Stanford Swim Camp cancellation policy provides refunds if cancelled 14+ days before start (minus a $100 fee); no refunds are available within 14 days of the session start"
+    sources_checked: 1
+    source_used: "ussportscamps.com (L1-official)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: ""
+
+  - id: c071
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "UC Berkeley's Pre-Team Swim Training requires the ability to swim 25 yards unassisted, basic freestyle and backstroke kick, and Learn-to-Swim Level 4 or equivalent; swimmers must provide their own snorkel and fins"
+    sources_checked: 2
+    source_used: "recwell.berkeley.edu (L1) confirmed in two raw files"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c072
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "UC Berkeley's Pre-Team has three levels: Novice (freestyle/backstroke refinement), Intermediate (all four strokes, flip turns, dives, pace clocks), and Low Advanced (ages 13+, classic swim-team format)"
+    sources_checked: 2
+    source_used: "recwell.berkeley.edu (L1) confirmed in two raw files"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c074
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Club sources indicate DACA offers accelerated learn-to-swim summer programs in one-week sessions from June through August, open to all ages and skill levels; current pricing requires checking daca.org directly"
+    sources_checked: 1
+    source_used: "bayarea-club-swim-camps-2026.md (L1 but DACA-specific data was not directly fetched)"
+    last_verified: 2026-04-09
+    volatile: cycle_bound
+    notes: "DACA website uses dynamic loading; data was not directly extractable."
+
+  - id: c079
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "The PMC anthropometry study (PMC9835708) cites broader research suggesting breaststroke swimmers tend to be more mesomorphic than freestyle swimmers, while backstroke swimmers tend to be more ectomorphic"
+    sources_checked: 1
+    source_used: "PMC9835708 (secondary citation within the paper)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "This is a secondary citation within the PMC source, not a primary finding."
+
+  - id: c080
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "The PMC anthropometry study (PMC9835708) cites earlier research finding that collegiate women show significant correlations between swimming performance and height, somatotype components, percent body fat, and fat-free weight, while collegiate men show no significant somatotype correlations with performance"
+    sources_checked: 1
+    source_used: "PMC9835708 (secondary citation)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Secondary citation."
+
+  - id: c081
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC review (PMC7174680), the Relative Age Effect (RAE) is confirmed in swimming: children born earlier in a calendar year are overrepresented at higher levels of competition due to physical maturity advantages"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC7174680/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c082
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC research (PMC7174680), between ages 10-13 a significantly higher frequency of 'early' maturers dominates competitive swimming results; this tapers toward higher frequencies of 'late-normative' maturers by ages 14-15"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC7174680/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c091
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC6805065, sport specialization is defined by three criteria: (1) choosing a main sport, (2) quitting all other sports, and (3) year-round training exceeding 8 months annually"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c092
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC6805065, research indicates 17-41% of youth athletes specialize, with rates varying by sex, age, sport, and geography"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c093
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC6805065, seven major sports medicine organizations (AAP, AMSSM, AOSSM, FIMS, IOC, NATA, NSCA) generally discourage early specialization and recommend multisport participation until physical maturation"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC6805065/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c099
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a PMC systematic review (PMC5968952), the most common dropout reason across all age groups and genders was 'had other things to do,' followed by 'lack of enjoyment' and boredom"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5968952/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c100
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the same review (PMC5968952), the 15-18 age group valued reasons like 'no team work,' parental/peer pressure, and insufficient challenge more than the 10-14 group; overall dropout concerns peak at ages 13-18"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5968952/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c101
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC5968952, females more frequently cited 'did not like the pressure' as a dropout reason compared to males"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5968952/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c103
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "A Frontiers journal review (cited in PMC5968952) found no evidence that early specialization was a direct predictor of burnout and dropout in swimming"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5968952/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    dispute_id: d004
+    notes: "See dispute d004 for reconciliation with c094."
+
+  - id: c104
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "One compiled source suggests that if a swimmer's resting heart rate is elevated by 10-15 beats per minute for 2-3 consecutive days, their body may be struggling to meet training demands. Parents should consult a sports medicine professional for overtraining assessment."
+    sources_checked: 1
+    source_used: "talent-identification-late-developers.md (compiled file, original clinical source not confirmed)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Downgraded to L3 because the specific clinical threshold was not traced to a primary medical source."
+
+  - id: c107
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimSwam reports that competition tech suits can cost up to $500, and total annual equipment costs can reach approximately $700/year including goggles, fins, kickboard, pull buoy, and bag"
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c111
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimSwam reports that Pacific Swimming has an Outreach Athlete registration at reduced cost for qualifying families"
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: "Confirmed by USA Swimming membership page listing Outreach membership type."
+
+  - id: c112
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimSwam reports that year-round club teams participate in approximately 2-3 meets per month, with typical per-meet entry fees of $25-$100 per swimmer"
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c114
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, new coaches must take the Core Certification; established coaches may choose either Core or one of the American Development Model (ADM) Certifications"
+    sources_checked: 1
+    source_used: "usaswimming.org coach certification page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c115
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to USA Swimming, the coach certification program includes CPR certification, Online Safety Training, In-Water Safety Training, Welcome to USA Swimming course, and Quality Coaching Framework course, and is designed as a year-long self-paced commitment"
+    sources_checked: 1
+    source_used: "usaswimming.org coach certification page (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c118
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ASCA, certification has five levels: Level 1 (Foundations), Level 2 (Stroke School), Level 3 (Physiology School), Level 4 (Leadership School), and Level 5 (Administration School)"
+    sources_checked: 1
+    source_used: "swimmingcoach.org (L2-authoritative, official ASCA site)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c119
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ASCA, Level 2 certification requires passing Level 1 and Level 2 courses and having coached for at least 6 months"
+    sources_checked: 1
+    source_used: "swimmingcoach.org (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c125
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "The PMC study (PMC5035546) concluded that 'swimmers and non-athletes had broadly similar diets,' suggesting many youth swimmers are not eating to optimize athletic performance"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC5035546/ (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c128
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Compiled nutrition guidance suggests consuming protein within 30 minutes post-practice to support muscle repair"
+    sources_checked: 1
+    source_used: "youth-swimmer-nutrition.md (L2 file but this timing guideline from practitioner sources)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "The '30-minute window' is debated in sports nutrition research. Stated as guidance, not established fact."
+
+  - id: c130
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Compiled nutrition guidance recommends sports drinks only for exercise lasting more than 75 minutes or in extreme heat; plain water is preferable for shorter practices"
+    sources_checked: 1
+    source_used: "youth-swimmer-nutrition.md (L2 file)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c131
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Compiled nutrition guidance identifies Relative Energy Deficiency in Sport (RED-S) as a real risk for female adolescent swimmers, often driven by inadvertent undereating during growth phases"
+    sources_checked: 1
+    source_used: "youth-swimmer-nutrition.md (L2 file)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "RED-S is well-documented in sports medicine literature."
+
+  - id: c132
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Compiled sources note that swimming is non-weight-bearing and does not stimulate bone density, making adequate calcium and vitamin D intake especially important for young swimmers"
+    sources_checked: 1
+    source_used: "youth-swimmer-nutrition.md (L2 file)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "The non-weight-bearing nature of swimming is well-established."
+
+  - id: c136
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a review article in The Conversation, a study found children ages 6-12 learned vocabulary words with higher accuracy following swimming compared to coloring and CrossFit, and even brief (20-minute) swimming sessions produced measurable learning enhancement"
+    sources_checked: 1
+    source_used: "theconversation.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c138
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "South Florida Water Polo Club describes a water polo game as consisting of four 7-minute periods (28 minutes total)"
+    sources_checked: 1
+    source_used: "southfloridawpc.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c139
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SwimSwam, six kicking styles are used in water polo: eggbeater, flutter kick, scissors kick, breaststroke kick, barrel roll kick, and butterfly kick"
+    sources_checked: 1
+    source_used: "swimswam.com (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c140
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "South Florida Water Polo Club suggests introducing water polo at ages 8-10, often through introductory programs like 'Splashball,' and recommends a swim background including competent freestyle (25-yard lap) and ability to tread water for 30+ seconds"
+    sources_checked: 1
+    source_used: "southfloridawpc.com (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c142
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Lamorinda Water Polo Club (Lafayette/Moraga area, East Bay) offers a Splashball intro-to-water-polo program; website: lamorindawaterpolo.org"
+    sources_checked: 1
+    source_used: "lamorindawaterpolo.org (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c143
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "West Valley Water Polo (South Bay / Santa Clara) provides swim-to-water-polo pathway programming; website: westvalleywaterpolo.com"
+    sources_checked: 1
+    source_used: "westvalleywaterpolo.com (L1-official)"
+    last_verified: 2026-04-09
+    volatile: annual
+    notes: ""
+
+  - id: c144
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to PMC research (PMC3834981), maternal directiveness is negatively associated with intrinsic motivation in young swimmers"
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC3834981/ (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c145
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Meggs & Chen (2019, Perceptual and Motor Skills) found that a 5-week psychological skills training intervention (self-talk and goal setting) produced significant improvements in mental toughness, self-confidence, attention control, and competitive swimming times in youth swimmers"
+    sources_checked: 1
+    source_used: "journals.sagepub.com (L1-official)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c146
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "A 2025 MDPI Sports study found that amotivation (lack of motivation) is the strongest predictor of dropout, while swimmers with high intrinsic motivation have lower dropout risk"
+    sources_checked: 1
+    source_used: "mdpi.com/2075-4663/13/4/125 (L2-authoritative)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c147
+    verdict: downgraded
+    confidence: L4
+    original_claim: "Research tracking 9 Portuguese swimmers found process-oriented goal setting led to significant improvement"
+    permitted_language: "A small study (Vasconcelos-Raposo, PMC3590857) tracking 9 Portuguese swimmers ages 14-20 over two competitive seasons suggested that process-oriented goal setting was associated with improved performance, and that performance declined when the intervention was removed. However, the sample size of 9 limits the generalizability of these findings."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded to L4 due to n=9 sample size. Added explicit limitation."
+    sources_checked: 1
+    source_used: "pmc.ncbi.nlm.nih.gov/articles/PMC3590857/ (L1-official, but n=9)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: ""
+
+  - id: c149
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "According to a Mayo Clinic Sports Medicine summary citing a 5-year NCAA survey, swimming elite-level injury rates are 4.00 per 1,000 training hours for men and 3.78 per 1,000 training hours for women"
+    sources_checked: 1
+    source_used: "sportsmedicine.mayoclinic.org (L2, accessed via search summary due to 403 error)"
+    last_verified: 2026-04-09
+    volatile: none
+    notes: "Source was accessed indirectly. Primary NCAA survey not verified."
+
+  - id: c152
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Wikipedia reports that World Aquatics (formerly FINA) governs all competitive aquatic sports internationally, including pool swimming, open water swimming, artistic swimming, water polo, diving, and high diving"
+    sources_checked: 1
+    source_used: "en.wikipedia.org (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c153
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Wikipedia lists USA Artistic Swimming youth age categories as 10 & under, 12 & under, and 13-15"
+    sources_checked: 1
+    source_used: "en.wikipedia.org (L3-aggregator)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c154
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Alto Swim Club states: 'The coach's tent and pool area are for swimmers only. Parents should only be on deck for timing or officiating.'"
+    sources_checked: 1
+    source_used: "altoswimclub.com/swim-meet-101 (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: "Club-specific policy."
+
+  - id: c155
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Alto Swim Club's meet guide notes that dual meets between two teams typically last about 2 hours, while larger invitationals can run much longer (often all-day Saturday events)"
+    sources_checked: 1
+    source_used: "altoswimclub.com/swim-meet-101 (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c156
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Swimmers ages 11 and older handle race prep independently at meets"
+    permitted_language: "Alto Swim Club's meet guide states that swimmers ages 11 and older handle race prep independently, while younger swimmers may have parental verification of heat/lane assignments. This is Alto's specific policy and may differ at other clubs."
+    overreach_resolved: true
+    overreach_resolution: "Scoped to Alto Swim Club policy; not stated as universal practice."
+    sources_checked: 1
+    source_used: "altoswimclub.com/swim-meet-101 (L1-official)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+  - id: c141
+    verdict: downgraded
+    confidence: L4
+    original_claim: "Many Bay Area families keep kids in both swimming and water polo through age 12-14"
+    permitted_language: "Some families keep children in both swimming and water polo through ages 12-14 before choosing a primary sport. This is anecdotal guidance from a water polo club website, not Bay Area-specific data."
+    overreach_resolved: true
+    overreach_resolution: "Removed 'Bay Area' framing — source is a South Florida water polo club. Downgraded to L4."
+    sources_checked: 1
+    source_used: "southfloridawpc.com (L3, but claim is about Bay Area which this source cannot speak to)"
+    last_verified: 2026-04-09
+    volatile: evergreen
+    notes: ""
+
+# ============================================================================
+# MAY_SKIP CLAIMS (verdict + permitted_language without active verification)
+# ============================================================================
+
+may_skip_claims:
+
+  - id: c012
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "SwimmingNotes reports that major swimming nations including Canada, Australia, the United States, and the United Kingdom have developed structured LTAD frameworks"
+    notes: ""
+
+  - id: c013
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to Swimming World Magazine, LTAD is 'a widely accepted concept within high performance sport on how to best train and develop junior athletes appropriately for elite sport competition'"
+    notes: ""
+
+  - id: c014
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "Swimming World Magazine warns that without LTAD adherence, swimmers often 'plateau and get to the point where they disengage' during adolescence when growth slows"
+    notes: ""
+
+  - id: c025
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "WE Aquatics notes that some swimmers are ready for team swimming after six months of intentional advanced lessons, while others need a year or more"
+    notes: ""
+
+  - id: c027
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to PMC research (PMC3834981), at mid-adolescence (ages 15-17) athletes are more physically mature, more capable of expressing feelings, able to think more abstractly, and more able to demonstrate greater mastery of their sport"
+    notes: ""
+
+  - id: c046
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "Pacific Swimming publishes specific numeric cut times as PDF documents available at pacswim.org/swim-meet-times/standards. These require a PDF reader to access."
+    notes: "Suggested action: download and parse PDFs directly for specific time values."
+
+  - id: c085
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "Alto Swim Club coaching staff have stated: 'It is almost impossible to tell how talented your swimmer is' based on age-group results"
+    notes: "Opinion from coaching staff. Consistent with talent identification research."
+
+  - id: c102
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "The PMC systematic review (PMC5968952) concluded that most dropout reasons were controllable by athletes, suggesting intervention potential through environmental modifications and motivation enhancement"
+    notes: ""
+
+  - id: c141
+    verdict: downgraded
+    confidence: L4
+    permitted_language: "Some families keep children in both swimming and water polo through ages 12-14 before choosing a primary sport. This is anecdotal guidance from a water polo club website, not Bay Area-specific data."
+    notes: "Duplicate entry — see verified_claims above."
+
+  - id: c148
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "Self-Determination Theory identifies three basic psychological needs for intrinsic motivation: autonomy, competence, and relatedness"
+    notes: "Well-established psychology framework."
+
+# ============================================================================
+# DISPUTES
+# ============================================================================
+
+disputes:
+
+  - id: d001
+    claim_ids: [c006, c020]
+    subject: "Youngest USA Swimming competitive age group"
+    positions:
+      - value: "10 & Under (omitting 8 & Under)"
+        source: "tideswimming.com (L3-aggregator)"
+        tier: L3-aggregator
+        date: 2026-04-09
+      - value: "8 & Under, 10 & Under (both exist)"
+        source: "swimlikeafish.org citing USA Swimming (L2-authoritative)"
+        tier: L2-authoritative
+        date: 2026-04-09
+    resolution: "The 8 & Under age group exists in USA Swimming competition. The L3 source (tideswimming) was incomplete. c006 corrected; c020 blocked (L5) for stating 10 & Under was the youngest group."
+    permitted_language: "USA Swimming organizes competition into official age groups: 8 & Under, 10 & Under, 11-12, 13-14, 15-16, and 17-18"
+    confidence: L1
+
+  - id: d002
+    claim_ids: [c016]
+    subject: "Attribution of 'hours per week = age in years' rule"
+    positions:
+      - value: "NSCA guideline"
+        source: "nsca.com LTAD parents guide (L2-authoritative)"
+        tier: L2-authoritative
+        date: 2026-04-09
+      - value: "AAP recommendation"
+        source: "PMC7174680 (L1-official)"
+        tier: L1-official
+        date: 2026-04-09
+      - value: "AAP Clinical Report 2016 (Brenner et al.)"
+        source: "publications.aap.org/pediatrics/article/138/3/e20162148 + web search corroboration"
+        tier: L1-official
+        date: 2016-09-01
+    resolution: "The guideline originates with the AAP (2016 clinical report by Brenner et al. in Pediatrics). The NSCA cites and endorses the same rule. Both attributions are factually correct, but AAP is the primary/originating source."
+    permitted_language: "The American Academy of Pediatrics (AAP) recommends that children should not participate in more hours per week of organized sports than their age in years (e.g., a 10-year-old: max 10 hours/week). This guideline is also endorsed by the NSCA."
+    confidence: L1
+
+  - id: d003
+    claim_ids: [c058]
+    subject: "Pleasanton Seahawks Pacific Swimming zone assignment"
+    positions:
+      - value: "Zone 3"
+        source: "bayarea-swim-clubs-depth.md (compiled profile document)"
+        tier: L1-official
+        date: 2026-04-09
+        note: "This file's zone table appears to contain errors"
+      - value: "Zone 2"
+        source: "pacswim.org/members/zones/zone-2/zone-2-teams-directory (official Pacific Swimming directory)"
+        tier: L1-official
+        date: 2026-04-09
+        note: "AUTHORITATIVE. PLS listed under Alameda & Contra Costa Counties."
+    resolution: "Pleasanton Seahawks is Zone 2 per the official Pacific Swimming Zone 2 Teams Directory. The depth-profile file was wrong. Additionally, the depth-profile also incorrectly listed SCSC as Zone 2 when the official Zone 1 South directory lists it there."
+    permitted_language: "Pleasanton Seahawks (PLS) is located in Pleasanton, East Bay, and is a Pacific Swimming Zone 2 club"
+    confidence: L1
+
+  - id: d004
+    claim_ids: [c094, c103]
+    subject: "Early specialization and burnout: 3.76x risk vs. no direct predictor"
+    positions:
+      - value: "Athletes specializing before age 12 face 3.76x higher burnout rates"
+        source: "PMC6805065 (L1-official)"
+        tier: L1-official
+        date: 2026-04-09
+        note: "This is an association/correlation figure from a review of existing literature."
+      - value: "No evidence that early specialization is a direct predictor of burnout/dropout"
+        source: "PMC5968952 (L1-official), citing Frontiers review"
+        tier: L1-official
+        date: 2026-04-09
+        note: "This addresses direct causation/prediction, a higher evidentiary bar."
+    resolution: "Both claims are valid but describe different evidentiary standards. PMC6805065 reports an ASSOCIATION (3.76x higher rate in early-specialized athletes). PMC5968952 reports that early specialization was not found to be a DIRECT PREDICTOR (causal) of burnout. These are compatible: correlation/association does not require direct causation. The wiki must present both findings and explain the distinction."
+    permitted_language: "Research (PMC6805065) reports that athletes who specialized before age 12 had 3.76 times higher burnout rates than those who specialized after age 15. However, a separate systematic review (PMC5968952) found no evidence that early specialization is a direct predictor of burnout or dropout. The distinction is between an observed association and a causal relationship."
+    confidence: L2
+
+  - id: d005
+    claim_ids: [c137]
+    subject: "Griffith University '15% higher in math and science' claim"
+    positions:
+      - value: "Children who swam by age 5 scored 15% higher in math and science"
+        source: "swim-school marketing sites; secondary citations"
+        tier: L4-community
+        date: 2026-04-09
+        note: "Widely repeated but unverifiable in the original study."
+      - value: "Children were 6-15 months ahead of normal population; 11 months ahead in Oral Expression; 6 months ahead in Mathematics Reasoning; 2 months ahead in Brief Reading"
+        source: "news.griffith.edu.au (official Griffith University news release)"
+        tier: L1-official
+        date: 2013-08-13
+        note: "Study of 7,000 children; intensive assessment of 176 children aged 3-5."
+    resolution: "The '15% higher in math and science' figure does not appear in the Griffith University's own reporting of the study. The actual findings are reported in months-ahead measures, not percentages. The 15% figure appears to be a distortion propagated through swim school marketing. BLOCKED."
+    permitted_language: "A Griffith University study (2012-2013) of 7,000 children found that young swimmers were 6-15 months ahead of the normal population in cognitive skills and 6 months ahead in Mathematics Reasoning. The '15% higher in math and science' figure widely cited by swim schools does not appear in the university's own reporting of the study."
+    confidence: L1
+
+# ============================================================================
+# MECHANISM OVERREACH FLAGS
+# ============================================================================
+
+mechanism_overreach_flags:
+
+  - flag_id: mof-001
+    type: "Individual case to population outcome"
+    description: "Anthropometry findings (c075-c078) are from a study of Chinese swimmers only. If wiki articles cite these as general principles of swimmer body type without the population limitation, this is mechanism overreach."
+    affected_claims: [c075, c076, c077, c078]
+    correction: "Always include c078 (population limitation) when citing c075-c077."
+
+  - flag_id: mof-002
+    type: "Current observation to trend"
+    description: "The depth-profile file lists Far Western team point rankings but does not specify the year. If wiki presents these as current rankings without a year qualifier, this is overreach."
+    affected_claims: []
+    correction: "Add 'year not specified in source' or omit ranking data."
+
+  - flag_id: mof-003
+    type: "Correlation to causation"
+    description: "c094 reports 3.76x higher burnout rates as an ASSOCIATION. If wiki states this as 'early specialization CAUSES burnout,' that is mechanism overreach."
+    affected_claims: [c094, c103]
+    correction: "Use 'is associated with' or 'face higher rates,' not 'causes.' Present both c094 and c103 together."
+
+  - flag_id: mof-004
+    type: "Single RCT to established fact"
+    description: "c133-c135 are from a single RCT with preschool boys. If wiki presents swimming-IQ gains as established science, that is overreach."
+    affected_claims: [c133, c134, c135]
+    correction: "Always cite as 'one study found' and include c135 (limitations) alongside."
+
+  - flag_id: mof-005
+    type: "Community feeling to established fact"
+    description: "Cost estimates (c106, c108, c109) are from a single journalism source. If wiki states them as 'Bay Area costs ARE' rather than 'one source estimates,' that is overreach."
+    affected_claims: [c106, c108, c109]
+    correction: "Use 'SwimSwam estimates' or 'one source reports' framing."
+
+  - flag_id: mof-006
+    type: "Source misattribution to authority"
+    description: "c150 was attributed to 'CDC data' but is actually from a Blair et al. study funded by the National Swimming Pool Foundation. Citing as CDC data inflates apparent authority."
+    affected_claims: [c150]
+    correction: "Attribute to Blair et al. / University of South Carolina, note NSPF funding, and note men-only limitation."
+
+# ============================================================================
+# DATA QUALITY NOTES FOR RAW FILES
+# ============================================================================
+
+raw_file_corrections:
+  - file: "raw/web/official/2026-04-09_bayarea-swim-clubs-depth.md"
+    issues:
+      - "Zone assignments in team rankings table are incorrect: PLS listed as Zone 3 (should be Zone 2), SCSC listed as Zone 2 (should be Zone 1 South)"
+      - "Far Western ranking year not specified"
+      - "Data sourced via search summary, not direct site fetch — reliability reduced"
+
+  - file: "raw/web/official/2026-04-09_bayarea-summer-camps-2026.md"
+    issues:
+      - "Stanford Swim Camp URL has malformed path: swim/swim/nike should be swim/nike"
+
+  - file: "raw/web/review/2026-04-09_competitive-swimming-costs-time.md"
+    issues:
+      - "USA Swimming registration fee of $84 is from 2021 and is stale"
+      - "Cost ranges are national, not Bay Area-specific (source states this explicitly)"
