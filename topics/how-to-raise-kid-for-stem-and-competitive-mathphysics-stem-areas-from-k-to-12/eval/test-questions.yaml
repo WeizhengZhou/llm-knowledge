@@ -1,0 +1,223 @@
+# eval/test-questions.yaml
+metadata:
+  topic: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+  version: 1
+  created: 2026-04-10
+  question_count: 40
+
+questions:
+  # --- RO1: Decide whether to pursue competitive STEM at all ---
+  - id: TQ01
+    text: "My 7-year-old finishes all school math early and gets 100% -- does that mean she's ready for competition math?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ02
+    text: "What personality traits predict success in competition math versus just being good at school math?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ03
+    text: "If my kid commits to AIME-level competition math, how many hours per week will it take and what activities will they have to drop?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ04
+    text: "What are the real benefits of competition math beyond just getting into college?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ05
+    text: "How can I tell if my child has genuine math aptitude versus just being ahead of grade level?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO2: Build an age-appropriate K-5 foundation ---
+  - id: TQ06
+    text: "What should math enrichment look like for my kindergartner who loves numbers?"
+    reader_outcome: RO2
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ07
+    text: "Should I use Beast Academy or Singapore Math for my 3rd grader, or both?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ08
+    text: "Is it too early to start my 2nd grader on competition math preparation?"
+    reader_outcome: RO2
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ09
+    text: "How do I build my child's math thinking without it feeling like extra homework or drilling?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ10
+    text: "When should my elementary-age child transition from Beast Academy to AoPS Prealgebra?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO3: Navigate the competition landscape ---
+  - id: TQ11
+    text: "What math competitions are appropriate for a 5th grader just starting out?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ12
+    text: "What score on AMC 10 qualifies for AIME, and how many students make it through each year?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ13
+    text: "What are the key differences between MATHCOUNTS, AMC 8, Math Kangaroo, and MOEMS for middle schoolers?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ14
+    text: "When should my child start physics competitions and what is the F=ma to IPhO pipeline?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ15
+    text: "What changed about the USAMO qualifying index formula for 2025-2026?"
+    reader_outcome: RO3
+    difficulty: hard
+    expected_coverage: full
+
+  # --- RO4: Select enrichment programs, camps, and coaching ---
+  - id: TQ16
+    text: "How does Ross compare to PROMYS and Mathcamp, and which one should my kid apply to?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ17
+    text: "How does AoPS compare to RSM and AwesomeMath for a student targeting AMC 10/12?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ18
+    text: "What books should my AIME-qualified 10th grader use to prepare for USAMO?"
+    reader_outcome: RO4
+    difficulty: hard
+    expected_coverage: full
+  - id: TQ19
+    text: "At what point does my child need a private math coach versus self-study or group classes?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ20
+    text: "What are the best summer programs for a 12-year-old who loves math but is too young for Ross?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO5: Manage acceleration decisions ---
+  - id: TQ21
+    text: "Should my gifted 6th grader skip to Algebra II or go deeper at grade level with competition math?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ22
+    text: "What does research say about long-term outcomes for academically accelerated math students?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ23
+    text: "My son will finish Calculus BC in 10th grade. What math options are available for 11th and 12th?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ24
+    text: "What are the top STEM magnet high schools and how competitive are they?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ25
+    text: "Is subject acceleration or grade skipping better for a math-gifted child?"
+    reader_outcome: RO5
+    difficulty: easy
+    expected_coverage: full
+
+  # --- RO6: Connect STEM to college admissions ---
+  - id: TQ26
+    text: "How much do AIME and USAMO scores actually matter for MIT and Caltech admissions?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ27
+    text: "Where exactly should I list competition achievements on college applications -- activities, honors, or essays?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ28
+    text: "How does attending Ross or RSI factor into college admissions?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ29
+    text: "What STEM research or science fairs strengthen a college application, and when should my child start?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ30
+    text: "Is it better for college apps to be a USAMO qualifier or an ISEF finalist?"
+    reader_outcome: RO6
+    difficulty: hard
+    expected_coverage: full
+
+  # --- RO7: Prevent burnout and maintain healthy development ---
+  - id: TQ31
+    text: "What are the warning signs that my child is burning out from competition math?"
+    reader_outcome: RO7
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ32
+    text: "How many hours per week of competition prep is appropriate for a 7th grader versus a 10th grader?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ33
+    text: "My daughter says she wants to quit competition math. Should I push her to continue or let her stop?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ34
+    text: "What parent behaviors help versus hurt a competitive STEM student's motivation?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ35
+    text: "How do successful competition math families balance prep with normal childhood activities?"
+    reader_outcome: RO7
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO8: Understand the full cost ---
+  - id: TQ36
+    text: "What does a year of serious competition math preparation actually cost, from books to summer camps?"
+    reader_outcome: RO8
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ37
+    text: "What financial aid exists for summer math programs like Ross, PROMYS, and Mathcamp?"
+    reader_outcome: RO8
+    difficulty: easy
+    expected_coverage: full
+  - id: TQ38
+    text: "Can my child prepare competitively using only free resources, and what would that look like?"
+    reader_outcome: RO8
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ39
+    text: "What is the opportunity cost of heavy competition focus -- what does my child give up at each level?"
+    reader_outcome: RO8
+    difficulty: medium
+    expected_coverage: full
+  - id: TQ40
+    text: "Is private tutoring worth the cost for an AMC 10-level student, or should we stick with self-study?"
+    reader_outcome: RO8
+    difficulty: medium
+    expected_coverage: full

@@ -1,0 +1,1106 @@
+# Claims Register Part 2 — c069 onward
+# Continues from claims-register.yaml (c001-c068)
+# Merge with part 1 for complete register.
+
+claims:
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: summer-programs
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c069
+    text: "Ross Mathematics Program 2026 runs 6 weeks (June 14 - July 24) at two simultaneous sites: Otterbein University (Columbus OH) and Rose-Hulman Institute of Technology (Terre Haute IN)."
+    type: temporal
+    priority: must_verify
+    entity: summer-programs
+    question_id: q21
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://rossprogram.org/
+        tier: L1-official
+        extracted_value: "June 14 - July 24, 2026; Otterbein University and Rose-Hulman"
+        extraction_context: "Location (2026): Otterbein University, Columbus, OH; Rose-Hulman Institute of Technology, Terre Haute, IN. Duration: 6 weeks (Summer 2026: June 14 - July 24)"
+    overreach_flag: false
+    single_source: true
+
+  - id: c070
+    text: "Ross Mathematics Program acceptance rate is approximately 15% (2023 data); approximately 60 first-year students accepted per site; 500+ applicants per cycle (both sites combined); most students ages 15-18."
+    type: numerical
+    priority: should_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://rossprogram.org/
+        tier: L1-official
+        extracted_value: "~15% acceptance; ~60 first-year/site; 500+ applicants; ages 15-18"
+        extraction_context: "~15% acceptance rate (2023 data). ~60 first-year students per site accepted. ~500+ applicants per cycle (both sites combined). Most students ages 15-18, average 16-17."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Acceptance rate is 2023 data per source; may not reflect current cycle."
+
+  - id: c071
+    text: "Ross is sponsored by the American Mathematical Society, Jane Street, and Citadel."
+    type: categorical
+    priority: may_skip
+    entity: summer-programs
+    question_id: q21
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://rossprogram.org/
+        tier: L1-official
+        extracted_value: "American Mathematical Society, Jane Street, Citadel"
+        extraction_context: "Sponsors: American Mathematical Society, Jane Street, Citadel"
+    overreach_flag: false
+    single_source: true
+
+  - id: c072
+    text: "PROMYS 2025 cost: $6,100 full program; free for domestic students from families earning under $80,000/year; need-based financial aid available at all income levels. Location: Boston University."
+    type: numerical
+    priority: must_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://promys.org/
+        tier: L1-official
+        extracted_value: "$6,100; free under $80K; Boston University"
+        extraction_context: "Cost (2025): Full program: $6,100. Free for domestic students from families earning under $80,000/year. Need-based financial aid available at all income levels. Location: Boston University, Boston, MA."
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "$6,100 (2025); acceptance rate ~10-13%; ~80 students/year"
+        extraction_context: "PROMYS: Cost: $6,100. Acceptance rate: ~10-13%. Enrollment: ~80 students per year (60 first-year, 20 returning)."
+    overreach_flag: false
+    conflict_note: "L1 source does not specify acceptance rate; L3 source states 10-13%. Should verify."
+
+  - id: c073
+    text: "Canada/USA Mathcamp 2026 cost: $7,500 base (tuition, room, board, local transport); free for US/Canadian households earning under $100,000 annually; no application fee; age range 13-18; duration 5 weeks."
+    type: numerical
+    priority: must_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://www.mathcamp.org/admission/tuition/
+        tier: L1-official
+        extracted_value: "$7,500 base; free under $100K; ages 13-18; 5 weeks; no application fee"
+        extraction_context: "Cost (2026): Base: $7,500 USD (tuition, room, board, local transport). After financial aid: $0-$7,500. Free for US/Canadian households earning under $100,000 annually. No application fee. Age range: 13-18. Duration: 5 weeks."
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "$6,600 (2025 data); acceptance 5-7%; 65 new + 55 returning per summer"
+        extraction_context: "Mathcamp Cost: $6,600 (2025). Acceptance rate: 5-7%. Enrollment: 65 new students + 55 returning alumni per summer."
+    overreach_flag: false
+    conflict_note: "Cost discrepancy: L1 source states $7,500 for 2026; L3-aggregator states $6,600 for 2025. Difference likely reflects annual tuition increase. L1 source is 2026 data and should be used."
+
+  - id: c074
+    text: "RSI (Research Science Institute) is hosted at MIT, organized by Center for Excellence in Education; 6-week program; free (tuition, room, board all covered); approximately 3,000 applicants per year; 80-100 students accepted (60-70 domestic); acceptance rate approximately 2-3%; application deadline December 10."
+    type: numerical
+    priority: must_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://rossprogram.org/
+        tier: L1-official
+        extracted_value: "MIT/CEE; free; ~3,000 applicants; ~80-100 accepted; ~2-3%; deadline Dec 10"
+        extraction_context: "Host: MIT, organized by Center for Excellence in Education (CEE). Cost: FREE. Selectivity: ~3,000 applicants/year. ~80-100 students accepted (about 60-70 domestic). Acceptance rate: ~2-3%. Application deadline: December 10."
+    overreach_flag: false
+    single_source: true
+
+  - id: c075
+    text: "RSI eligibility: rising high school seniors (juniors applying for senior year). Application requirements: online application with essays, high school transcript, PSAT/SAT/ACT/AP scores, two teacher recommendation letters."
+    type: process
+    priority: should_verify
+    entity: summer-programs
+    question_id: q21
+    sources:
+      - file: raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+        url: https://rossprogram.org/
+        tier: L1-official
+        extracted_value: "rising seniors; essays, transcript, test scores, 2 teacher recs"
+        extraction_context: "Who eligible: Rising high school seniors (juniors applying for senior year). Application requirements: Online application with essays; High school transcript; PSAT/SAT/ACT/AP scores; Two teacher recommendation letters."
+    overreach_flag: false
+    single_source: true
+
+  - id: c076
+    text: "HCSSiM (Hampshire College Summer Studies in Mathematics) 2026: 6 weeks residential, June 28 - August 8, 2026, at Hampshire College, Amherst, MA. 54th year of the program. 2026 tuition: $7,208."
+    type: temporal
+    priority: must_verify
+    entity: summer-programs
+    question_id: qgf5
+    sources:
+      - file: raw/web/official/2026-04-10_hcssim-summer-math-program.md
+        url: https://hcssim.org/
+        tier: L1-official
+        extracted_value: "June 28 - August 8, 2026; Hampshire College; 54th year; $7,208"
+        extraction_context: "Location: Hampshire College, Amherst, Massachusetts. Duration: Six weeks (residential). 2026 session dates: June 28 - August 8, 2026. This is the 54th session (as of 2026 application cycle). 2026 tuition: $7,208 (six weeks, residential)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c077
+    text: "HCSSiM daily schedule: 4 hours of classes (Monday through Saturday, morning), plus 3-hour evening problem sessions. Total approximately 7+ hours of active mathematics per day, 6 days/week. No hard age/grade cutoffs."
+    type: numerical
+    priority: should_verify
+    entity: summer-programs
+    question_id: qgf5
+    sources:
+      - file: raw/web/official/2026-04-10_hcssim-summer-math-program.md
+        url: https://hcssim.org/
+        tier: L1-official
+        extracted_value: "4 hours morning + 3 hours evening; 7+ hours/day; 6 days/week; no age cutoffs"
+        extraction_context: "Morning: 4 hours of classes (Monday through Saturday). Evening: 3-hour problem sessions. Total contact time: approximately 7+ hours of active mathematics per day, 6 days/week. No hard age/grade cutoffs."
+    overreach_flag: false
+    single_source: true
+
+  - id: c078
+    text: "HCSSiM application includes: letter of application, sponsor letter, and the 'Interesting Test' (non-standard math problem set sent in March). Application is free. Rolling decisions; full consideration deadline in late April."
+    type: process
+    priority: should_verify
+    entity: summer-programs
+    question_id: qgf5
+    sources:
+      - file: raw/web/official/2026-04-10_hcssim-summer-math-program.md
+        url: https://hcssim.org/
+        tier: L1-official
+        extracted_value: "free application; letter + sponsor letter + Interesting Test; rolling; late April deadline"
+        extraction_context: "Application is free, online, and obligation-free. 1. Letter of application. 2. Sponsor letter. 3. 'Interesting Test' — email sent sometime in March. Rolling decisions: No strict deadline, though a deadline for 'full consideration' is in late April."
+    overreach_flag: false
+    single_source: true
+
+  - id: c079
+    text: "SUMaC (Stanford University Math Camp) residential 2025 cost: $8,575; dates June 22 - July 18, 2025; programs: Abstract Algebra & Number Theory (I) or Algebraic Topology (II); financial aid available; application deadline February 3, 2025."
+    type: numerical
+    priority: must_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "$8,575 (2025); June 22 - July 18; Algebra/NT or Topology; deadline Feb 3"
+        extraction_context: "SUMaC (Stanford University Math Camp) - Residential. Cost: $8,575 (financial aid available). Dates: June 22-July 18, 2025. Programs: Abstract Algebra & Number Theory (I) or Algebraic Topology (II). Deadline: February 3, 2025."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source only; 2025 pricing. Verify 2026 costs against Stanford official site."
+
+  - id: c080
+    text: "MOSP (Math Olympiad Summer Program, also called MOP) is described as 'S-Tier': only top 60 US high school students annually; free; at Carnegie Mellon University; qualification via AMC -> AIME -> USAJMO/USAMO only."
+    type: numerical
+    priority: should_verify
+    entity: summer-programs
+    question_id: q21
+    sources:
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "top 60 US students; free; Carnegie Mellon; qualification by competition only"
+        extraction_context: "MOSP: Selectivity: Extremely selective — only top 60 US high school students annually. Cost: Free. Location: Carnegie Mellon University. Application: Qualification based solely on math competition scores; no essays/interviews."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source. 'Top 60' claim should be verified; MAA/CMU official sources show ~60-65 students at MOP."
+
+  - id: c081
+    text: "MathPath (middle school program) 2025: $6,300 (financial aid available); June 29 - July 27, 2025; target ages 11-14; acceptance rate approximately 30%; application rolling with April 1 recommendation."
+    type: numerical
+    priority: should_verify
+    entity: summer-programs
+    question_id: q21
+    sources:
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "$6,300; ages 11-14; ~30% acceptance; rolling; 2025 dates"
+        extraction_context: "MathPath: Cost: $6,300 (financial aid available). Dates: June 29-July 27, 2025. Target: Middle school students (ages 11-14). Acceptance rate: ~30%. Application: Rolling; recommended by April 1."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source only; 2025 pricing."
+
+  - id: c082
+    text: "MathILy 2025 cost: $5,300 (financial aid available); duration approximately 5 weeks; curriculum: discrete math, combinatorics, graph theory, geometry, topology; application deadline April 29, 2025."
+    type: numerical
+    priority: should_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "$5,300; discrete math/combinatorics/graph theory; deadline April 29"
+        extraction_context: "MathILy: Cost: $5,300 (financial aid available). Dates: June 22-July 26, 2025. Curriculum: Discrete math, combinatorics, graph theory, geometry, topology. Deadline: April 29, 2025."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source only; 2025 pricing."
+
+  - id: c083
+    text: "AwesomeMath online summer program 2025 costs $1,275-$1,575 per course; three concurrent sessions (June-August 2025); competition-prep focus (AMC/AIME/USAMO); international students eligible."
+    type: numerical
+    priority: should_verify
+    entity: summer-programs
+    question_id: q22
+    sources:
+      - file: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        url: https://www.admissionsangle.com/blog/best-math-summer-programs-for-high-schoolers
+        tier: L3-aggregator
+        extracted_value: "$1,275-$1,575/course; 3 sessions; AMC/AIME/USAMO focus; international OK"
+        extraction_context: "AwesomeMath (Online): Cost: $1,275-$1,575 per course. Sessions: Three concurrent options (June-August 2025). Focus: Competition focus on AMC/AIME/USAMO preparation. International: Yes."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source only; 2025 pricing."
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: training-providers
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c084
+    text: "AoPS (Art of Problem Solving) online courses cost $415-$895 per course depending on level and duration. WOOT (Worldwide Online Olympiad Training) costs $845-$895."
+    type: numerical
+    priority: must_verify
+    entity: training-providers
+    question_id: q6
+    sources:
+      - file: raw/web/review/2026-04-10_po-shen-loh-expii-platform.md
+        url: https://www.expii.com/
+        tier: L2-authoritative
+        extracted_value: "$415-$895/course; WOOT $845-895"
+        extraction_context: "AoPS Online: Grades 6-12 (all levels). Cost: $415-$895/course. WOOT (AoPS): Grades 8-12 (USAMO/IMO). Cost: $845-895."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L2 source. AoPS official pricing should be confirmed."
+
+  - id: c085
+    text: "AoPS is now accredited and AoPS online courses can be used to substitute for school math courses."
+    type: categorical
+    priority: should_verify
+    entity: training-providers
+    question_id: q6
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "now accredited; can substitute for school math courses"
+        extraction_context: "AoPS strengths: Now accredited; can be used to substitute for school math courses"
+    overreach_flag: true
+    overreach_reason: "L4 community source. Accreditation status is a significant factual claim that must be verified against AoPS official site."
+    single_source: true
+
+  - id: c086
+    text: "AoPS Alcumus software is free and provides adaptive practice."
+    type: categorical
+    priority: should_verify
+    entity: training-providers
+    question_id: q6
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "Alcumus: free; adaptive"
+        extraction_context: "Alcumus software is free and provides adaptive practice"
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L4 source only. Verify against AoPS official site."
+
+  - id: c087
+    text: "Expii.com is a free personalized learning platform founded by Po-Shen Loh targeting middle school level (grades 5-9); aligned with MATHCOUNTS and AMC 8; covers algebra, geometry, combinatorics, number theory, probability; each module contains 150+ specially crafted problems."
+    type: categorical
+    priority: should_verify
+    entity: training-providers
+    question_id: qgf8
+    sources:
+      - file: raw/web/review/2026-04-10_po-shen-loh-expii-platform.md
+        url: https://www.expii.com/
+        tier: L2-authoritative
+        extracted_value: "free; grades 5-9; MATHCOUNTS/AMC 8 aligned; 150+ problems/module"
+        extraction_context: "A free personalized learning platform that reinvents the middle school math curriculum with a focus on creative thinking. Aligned with MATHCOUNTS and AMC 8. Each module contains 150+ specially crafted problems. Target audience: Middle school level, but useful for grades 5-9."
+    overreach_flag: false
+    single_source: true
+
+  - id: c088
+    text: "Po-Shen Loh is a professor at Carnegie Mellon University and the US IMO Team Coach who led the US team to first place at the IMO in 2015 (first time in 21 years) and repeated in 2016 and 2018."
+    type: temporal
+    priority: should_verify
+    entity: training-providers
+    question_id: qgf8
+    sources:
+      - file: raw/web/review/2026-04-10_po-shen-loh-expii-platform.md
+        url: https://www.expii.com/
+        tier: L2-authoritative
+        extracted_value: "CMU professor; US IMO Coach; first place 2015 (21 years), 2016, 2018"
+        extraction_context: "Po-Shen Loh is a professor at Carnegie Mellon University and the US IMO Team Coach who led the US team back to first place at the IMO in 2015 (for the first time in 21 years), and repeated in 2016 and 2018."
+    overreach_flag: false
+    single_source: true
+
+  - id: c089
+    text: "Live.poshenloh.com offers math classes taught by student teachers (high school/college competition math participants) via live streaming; classes run 60-90 minutes; covers MATHCOUNTS, AMC 8, AMC 10/12 level content; cost described as low/free."
+    type: categorical
+    priority: should_verify
+    entity: training-providers
+    question_id: qgf8
+    sources:
+      - file: raw/web/review/2026-04-10_po-shen-loh-expii-platform.md
+        url: https://live.poshenloh.com/
+        tier: L2-authoritative
+        extracted_value: "student teachers; 60-90 min; MATHCOUNTS-AMC 10/12; low/free"
+        extraction_context: "Classes run 60-90 minutes. Covers MATHCOUNTS, AMC 8, AMC 10/12 level content. Cost: Not specified; platform appears low-cost or free for students."
+    overreach_flag: false
+    single_source: true
+
+  - id: c090
+    text: "RSM (Russian School of Math) uses mastery-based Russian teaching methods; structured in-person format with weekly classes; placement based on ability assessment (not grade level); more practice volume than AoPS homework challenge questions; serves broader population including non-competition-focused students."
+    type: categorical
+    priority: should_verify
+    entity: training-providers
+    question_id: q6
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/BB/ubbthreads.php/topics/221945/all/AOPS_vs_Russian_School_Of_Math.html
+        tier: L4-community
+        extracted_value: "mastery-based; in-person; placement by ability; more practice volume; broader population"
+        extraction_context: "RSM strengths: Mastery-based Russian teaching methods. Structured in-person format with weekly classes. Placement based on ability assessment (not grade level). More practice volume than AoPS. Serves a broader population beyond just competition-focused students."
+    overreach_flag: true
+    overreach_reason: "L4 community source. These RSM characterizations are parent forum opinions, not official RSM descriptions. Should be attributed as 'parents report' rather than stated as fact."
+    single_source: true
+
+  - id: c091
+    text: "Parent forum consensus: AoPS targets gifted students pursuing competition math; RSM caters to 'high average to moderately gifted kids' preparing for standardized testing and AP Calculus readiness. These are different audiences."
+    type: comparative
+    priority: may_skip
+    entity: training-providers
+    question_id: q6
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/BB/ubbthreads.php/topics/221945/all/AOPS_vs_Russian_School_Of_Math.html
+        tier: L4-community
+        extracted_value: "AoPS: gifted/competition; RSM: high-average to moderately gifted; different audiences"
+        extraction_context: "AoPS targets gifted students pursuing competition math. RSM caters to 'high average to moderately gifted kids' preparing for standardized testing and AP Calculus readiness. These are different audiences; the programs are not direct competitors for the same student."
+    overreach_flag: true
+    overreach_reason: "L4 community source. This is a community characterization of program positioning, not an official statement from either organization."
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: elementary-curricula
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c092
+    text: "Beast Academy curriculum costs approximately $118 per level (online subscription or physical books). Covers grades 2-5 (Levels 2A-5D) with comic-style format."
+    type: numerical
+    priority: must_verify
+    entity: elementary-curricula
+    question_id: q9
+    sources:
+      - file: raw/web/official/2026-04-10_elementary-enrichment-programs-comparison.md
+        url: https://artofproblemsolving.com/beast-academy
+        tier: L1-official
+        extracted_value: "~$118 per level; grades 2-5; levels 2A-5D; comic format"
+        extraction_context: "Beast Academy: ~$118 per level (online subscription or physical books). Grades 2-5 (Levels 2A-5D). Comic-style format."
+    overreach_flag: false
+    single_source: true
+
+  - id: c093
+    text: "Singapore Math curriculum costs approximately $122 per level. Standards Edition is most commonly used in the US."
+    type: numerical
+    priority: must_verify
+    entity: elementary-curricula
+    question_id: q9
+    sources:
+      - file: raw/web/official/2026-04-10_elementary-enrichment-programs-comparison.md
+        url: https://artofproblemsolving.com/beast-academy
+        tier: L1-official
+        extracted_value: "~$122 per level; Standards Edition most common in US"
+        extraction_context: "Singapore Math: ~$122 per level. Standards Edition is most commonly used in the US."
+    overreach_flag: false
+    single_source: true
+
+  - id: c094
+    text: "Kumon monthly tuition is approximately $150-$200 per subject per month; available for math and reading; uses worksheet-based drill approach."
+    type: numerical
+    priority: must_verify
+    entity: elementary-curricula
+    question_id: q9
+    sources:
+      - file: raw/web/review/2026-04-10_elementary-enrichment-k2-activities.md
+        url: https://artofproblemsolving.com/beast-academy
+        tier: L3-aggregator
+        extracted_value: "~$150-$200/month per subject"
+        extraction_context: "Kumon: ~$150-200/month per subject. Worksheet-based drill approach."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source only. Kumon pricing varies significantly by location. Should verify against Kumon official site."
+
+  - id: c095
+    text: "Parent forum consensus: drill programs (Kumon, Mathnasium) do not produce competition math competitors; they serve a different function (building automaticity for arithmetic). Some families use Kumon in early elementary for fluency, then switch to problem-solving-focused programs by grade 3-4."
+    type: causal
+    priority: may_skip
+    entity: elementary-curricula
+    question_id: q9
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "Kumon/Mathnasium don't produce competition competitors; use for automaticity; switch by grade 3-4"
+        extraction_context: "Clear community consensus: drill programs (Kumon, Mathnasium) do not produce competition math competitors; they serve a different function (building automaticity for arithmetic). Some families use Kumon in early elementary for fluency, then switch to problem-solving-focused programs by grade 3-4."
+    overreach_flag: true
+    overreach_reason: "L4 community source. 'Clear community consensus' is an editorial claim in the source. This represents forum-reported parent beliefs, not research-verified outcomes."
+    single_source: true
+
+  - id: c096
+    text: "Beast Academy is described by parents as generating spontaneous enthusiasm in gifted elementary students, with children asking for 'the next book' rather than being told to do math."
+    type: causal
+    priority: may_skip
+    entity: elementary-curricula
+    question_id: q9
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "spontaneous enthusiasm; children asking for next book"
+        extraction_context: "Parents consistently report that Beast Academy generates spontaneous enthusiasm in gifted elementary students. A common theme: children asking for 'the next book' rather than being told to do math. 'He begged me for each one after he was done with the other...'."
+    overreach_flag: true
+    overreach_reason: "L4 forum anecdote. 'Parents consistently report' is an editorial summary in the source document. Cannot be cited as fact."
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: acceleration-research
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c097
+    text: "A meta-analysis of 314 studies found that academic acceleration has a large positive effect on academic achievement for gifted learners (effect size 0.8 or greater)."
+    type: numerical
+    priority: must_verify
+    entity: acceleration-research
+    question_id: q36
+    sources:
+      - file: raw/web/review/2026-04-10_davidson-acceleration-research.md
+        url: https://www.davidsongifted.org/gifted-resources/articles/how-gifted-are-accelerated/
+        tier: L2-authoritative
+        extracted_value: "314 studies; effect size 0.8+"
+        extraction_context: "A meta-analysis of 314 studies found that academic acceleration has a large positive effect on academic achievement for gifted learners, with an effect size of 0.8 or greater."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L2 source. For a claim of this magnitude, should identify the original meta-analysis citation."
+
+  - id: c098
+    text: "Subject acceleration (e.g., taking algebra in grade 6 instead of grade 8) has the highest effect size of all acceleration types, approximately 0.88 per the Davidson research review."
+    type: numerical
+    priority: must_verify
+    entity: acceleration-research
+    question_id: q36
+    sources:
+      - file: raw/web/review/2026-04-10_davidson-acceleration-research.md
+        url: https://www.davidsongifted.org/gifted-resources/articles/how-gifted-are-accelerated/
+        tier: L2-authoritative
+        extracted_value: "subject acceleration; highest effect size; ~0.88"
+        extraction_context: "Subject acceleration has the highest effect size of all acceleration types, approximately 0.88."
+    overreach_flag: false
+    single_source: true
+
+  - id: c099
+    text: "Grade skipping (whole-grade acceleration) has an effect size of approximately 0.78 according to the Davidson-cited acceleration research."
+    type: numerical
+    priority: should_verify
+    entity: acceleration-research
+    question_id: q36
+    sources:
+      - file: raw/web/review/2026-04-10_davidson-acceleration-research.md
+        url: https://www.davidsongifted.org/gifted-resources/articles/how-gifted-are-accelerated/
+        tier: L2-authoritative
+        extracted_value: "grade skipping; effect size ~0.78"
+        extraction_context: "Grade skipping (whole-grade acceleration) has an effect size of approximately 0.78."
+    overreach_flag: false
+    single_source: true
+
+  - id: c100
+    text: "The SMPY (Study of Mathematically Precocious Youth) is a longitudinal study spanning 35-50 years tracking outcomes of students identified as mathematically gifted in the 1970s. It is one of the longest-running longitudinal studies in educational psychology."
+    type: categorical
+    priority: may_skip
+    entity: acceleration-research
+    question_id: q37
+    sources:
+      - file: raw/web/review/2026-04-10_smpy-long-term-outcomes.md
+        url: https://www.davidsongifted.org/
+        tier: L2-authoritative
+        extracted_value: "35-50 year longitudinal; students identified in 1970s"
+        extraction_context: "The SMPY (Study of Mathematically Precocious Youth) is a longitudinal study spanning 35-50 years tracking outcomes of students identified as mathematically gifted in the 1970s."
+    overreach_flag: false
+    single_source: true
+
+  - id: c101
+    text: "SMPY findings: students who were accelerated in math were significantly more likely to earn STEM degrees, publish research, and receive patents compared to non-accelerated gifted peers."
+    type: causal
+    priority: should_verify
+    entity: acceleration-research
+    question_id: q37
+    sources:
+      - file: raw/web/review/2026-04-10_smpy-long-term-outcomes.md
+        url: https://www.davidsongifted.org/
+        tier: L2-authoritative
+        extracted_value: "accelerated students: more STEM degrees, publications, patents"
+        extraction_context: "SMPY findings: students who were accelerated in math were significantly more likely to earn STEM degrees, publish research, and receive patents compared to non-accelerated gifted peers."
+    overreach_flag: false
+    single_source: true
+
+  - id: c102
+    text: "Davidson Institute benchmark for early math identification: scoring 500 or higher on the SAT math section before age 13 is a commonly cited threshold for profoundly mathematically gifted students."
+    type: numerical
+    priority: should_verify
+    entity: acceleration-research
+    question_id: q36
+    sources:
+      - file: raw/web/review/2026-04-10_davidson-gifted-math-identification.md
+        url: https://www.davidsongifted.org/gifted-resources/
+        tier: L2-authoritative
+        extracted_value: "SAT-M 500+ before age 13; profoundly gifted threshold"
+        extraction_context: "Scoring 500 or higher on the SAT math section before age 13 is a commonly cited threshold for profoundly mathematically gifted students."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: college-admissions
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c103
+    text: "USAMO qualifiers have a greater than 50% acceptance rate at MIT, according to one source."
+    type: numerical
+    priority: must_verify
+    entity: college-admissions
+    question_id: q38
+    sources:
+      - file: raw/web/review/2026-04-10_collegebase-usamo-admissions.md
+        url: https://www.collegebase.org/blog/usamo-qualification-college-admissions
+        tier: L3-aggregator
+        extracted_value: ">50% acceptance rate at MIT for USAMO qualifiers"
+        extraction_context: "USAMO qualifiers have a greater than 50% acceptance rate at MIT."
+    overreach_flag: true
+    overreach_reason: "L3 source. MIT does not publish acceptance rates by competition status. This figure cannot be verified from public data. Must be attributed as estimated/reported, not stated as fact."
+    single_source: true
+    single_source_note: "L3 aggregator only. MIT does not publish this data officially."
+
+  - id: c104
+    text: "College admissions impact by competition level (from L3 source): USAMO/USAJMO qualifier: 'transformative' signal at elite schools; AIME qualifier: 'significant positive signal'; AMC 10/12 top scorer (120+): 'moderate positive signal'; AMC 8 perfect score: 'minor signal'."
+    type: comparative
+    priority: should_verify
+    entity: college-admissions
+    question_id: q38
+    sources:
+      - file: raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+        url: https://www.collegebase.org/blog/aime-college-admissions
+        tier: L3-aggregator
+        extracted_value: "USAMO: transformative; AIME: significant; AMC 120+: moderate; AMC 8 perfect: minor"
+        extraction_context: "Admissions impact by level: USAMO/USAJMO qualifier: 'transformative' signal at elite schools. AIME qualifier: 'significant positive signal'. AMC 10/12 top scorer (120+): 'moderate positive signal'. AMC 8 perfect score: 'minor signal'."
+    overreach_flag: true
+    overreach_reason: "L3 source. These admissions impact tiers are subjective characterizations by an aggregator site, not official admissions office statements. Must be attributed as reported assessments."
+    single_source: true
+
+  - id: c105
+    text: "STS (Science Talent Search) alumni have a notably high college admissions success rate at elite schools; top colleges regularly announce STS Scholars and Finalists in admissions announcements."
+    type: categorical
+    priority: should_verify
+    entity: college-admissions
+    question_id: q38
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "top colleges announce STS scholars in admissions; signals sustained independent inquiry"
+        extraction_context: "STS: 'Signals sustained independent inquiry and advanced academic maturity.' Top colleges regularly announce STS Scholars and Finalists in admissions announcements."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: burnout-and-balance
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c106
+    text: "A survey of former competition math participants found that 83% reported experiencing significant burnout at some point, with 34% leaving competitive math entirely before completing high school."
+    type: numerical
+    priority: must_verify
+    entity: burnout-and-balance
+    question_id: q33
+    sources:
+      - file: raw/web/review/2026-04-10_burnout-math-competition-gifted-kids.md
+        url: https://www.davidsongifted.org/gifted-resources/
+        tier: L2-authoritative
+        extracted_value: "83% burnout; 34% left competitive math before high school completion"
+        extraction_context: "A survey of former competition math participants found that 83% reported experiencing significant burnout at some point, with 34% leaving competitive math entirely before completing high school."
+    overreach_flag: true
+    overreach_reason: "Survey methodology, sample size, and recruitment not specified in source. '83%' is a precise statistic that requires citation to the original survey. May be L2 aggregation of an unreferenced study."
+    single_source: true
+    single_source_note: "L2 source but original survey not identified. Fact-checker should locate source study before this is cited."
+
+  - id: c107
+    text: "Warning signs of competition math burnout include: avoiding math problems that were previously enjoyable, declining performance over multiple competitions, physical symptoms (headaches, sleep disruption) before competitions, expressing negative beliefs about own ability."
+    type: categorical
+    priority: should_verify
+    entity: burnout-and-balance
+    question_id: q33
+    sources:
+      - file: raw/web/review/2026-04-10_burnout-math-competition-gifted-kids.md
+        url: https://www.davidsongifted.org/gifted-resources/
+        tier: L2-authoritative
+        extracted_value: "avoiding problems; declining performance; physical symptoms; negative self-beliefs"
+        extraction_context: "Warning signs of burnout: avoiding math problems that were previously enjoyable; declining performance over multiple competitions; physical symptoms (headaches, sleep disruption) before competitions; expressing negative beliefs about own ability."
+    overreach_flag: false
+    single_source: true
+
+  - id: c108
+    text: "AoPS article identifies three dangers of competitive math: ignoring social-emotional development, treating competitions as the only valid STEM path, and focusing on performance rather than understanding."
+    type: categorical
+    priority: should_verify
+    entity: burnout-and-balance
+    question_id: q33
+    sources:
+      - file: raw/web/review/2026-04-10_aops-pros-cons-math-competitions.md
+        url: https://artofproblemsolving.com/
+        tier: L2-authoritative
+        extracted_value: "3 dangers: ignoring social-emotional dev; competitions as only path; performance over understanding"
+        extraction_context: "AoPS article identifies three dangers of competitive math: (1) ignoring social-emotional development; (2) treating competitions as the only valid STEM path; (3) focusing on performance rather than understanding."
+    overreach_flag: false
+    single_source: true
+
+  - id: c109
+    text: "Parent forum reports: extrinsic motivation (parent pressure, grades) correlates with burnout; intrinsic motivation correlates with long-term progress. Parents of USAMO qualifiers rarely describe hiring tutors early; most describe facilitating access to programs."
+    type: causal
+    priority: may_skip
+    entity: burnout-and-balance
+    question_id: q33
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "extrinsic motivation -> burnout; intrinsic -> long-term progress; USAMO parents: programs not tutors"
+        extraction_context: "Extrinsic motivation (parent pressure, grades) correlates with burnout; intrinsic motivation correlates with long-term progress. Parents of USAMO qualifiers rarely describe hiring tutors early; most describe facilitating access to programs (AoPS classes, math circles)."
+    overreach_flag: true
+    overreach_reason: "L4 community source. 'Correlates with' is a causal framing applied to forum anecdotes. Cannot be verified from this source."
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: parent-role-and-costs
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c110
+    text: "Cost tiers for competitive math preparation: Tier 1 (free/low-cost $0-$500/year): competition registrations, free online resources (Alcumus, AoPS wiki, past exams), math circles, MOEMS. Tier 2 ($500-$3,000/year): AoPS books + 1-2 courses, Beast Academy subscription. Tier 3 ($3,000-$8,000/year): multiple AoPS courses, summer enrichment programs. Tier 4 ($8,000-$20,000+/year): private tutoring + selective summer programs + travel for competitions."
+    type: numerical
+    priority: should_verify
+    entity: parent-role-and-costs
+    question_id: q40
+    sources:
+      - file: raw/web/review/2026-04-10_costs-financial-aid-free-resources.md
+        url: https://artofproblemsolving.com/
+        tier: L3-aggregator
+        extracted_value: "Tier 1: $0-$500; Tier 2: $500-$3K; Tier 3: $3K-$8K; Tier 4: $8K-$20K+"
+        extraction_context: "Cost Tiers: Tier 1 ($0-$500/year): free resources + competition registrations. Tier 2 ($500-$3,000/year): AoPS books/courses + Beast Academy. Tier 3 ($3,000-$8,000/year): multiple AoPS courses + summer programs. Tier 4 ($8,000-$20,000+/year): private tutoring + selective programs."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source. Cost ranges are approximations and will vary by geography and program choice."
+
+  - id: c111
+    text: "Typical practice hours by competition level (from L3 source): AMC 8 preparation: 2-4 hours/week; AMC 10/12: 5-10 hours/week; AIME: 8-15 hours/week; USAMO-level: 15-25+ hours/week."
+    type: numerical
+    priority: should_verify
+    entity: parent-role-and-costs
+    question_id: q42
+    sources:
+      - file: raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+        url: https://artofproblemsolving.com/
+        tier: L3-aggregator
+        extracted_value: "AMC 8: 2-4 hrs/wk; AMC 10/12: 5-10 hrs/wk; AIME: 8-15 hrs/wk; USAMO: 15-25+ hrs/wk"
+        extraction_context: "Practice hours by level: AMC 8: 2-4 hours/week; AMC 10/12: 5-10 hours/week; AIME: 8-15 hours/week; USAMO-level: 15-25+ hours/week."
+    overreach_flag: true
+    overreach_reason: "L3 source. These ranges are estimations from an aggregator, not empirical data. No source for underlying data is cited."
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: stem-magnet-schools
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c112
+    text: "Thomas Jefferson High School for Science and Technology (TJHSST, 'TJ') in Fairfax County, Virginia is consistently ranked among the top-ranked high schools in the US for STEM. Admission is highly competitive via an entrance exam."
+    type: categorical
+    priority: should_verify
+    entity: stem-magnet-schools
+    question_id: q44
+    sources:
+      - file: raw/web/review/2026-04-10_stem-magnet-schools-tjhsst-imsa-stuy.md
+        url: https://tjhsst.fcps.edu/
+        tier: L2-authoritative
+        extracted_value: "TJHSST Fairfax County VA; consistently top-ranked; competitive entrance exam"
+        extraction_context: "Thomas Jefferson High School for Science and Technology (TJHSST, 'TJ') in Fairfax County, Virginia, is consistently ranked among the top-ranked high schools in the US for STEM. Admission is highly competitive via an entrance exam."
+    overreach_flag: false
+    single_source: true
+
+  - id: c113
+    text: "Illinois Mathematics and Science Academy (IMSA) in Aurora, Illinois is a tuition-free 3-year residential public high school for Illinois students grades 10-12; approximately 300 students per grade."
+    type: categorical
+    priority: should_verify
+    entity: stem-magnet-schools
+    question_id: q44
+    sources:
+      - file: raw/web/review/2026-04-10_stem-magnet-schools-tjhsst-imsa-stuy.md
+        url: https://www.imsa.edu/
+        tier: L2-authoritative
+        extracted_value: "Aurora IL; tuition-free; residential; grades 10-12; ~300/grade; Illinois students only"
+        extraction_context: "Illinois Mathematics and Science Academy (IMSA) in Aurora, Illinois is a tuition-free 3-year residential public high school for Illinois students in grades 10-12. Approximately 300 students per grade."
+    overreach_flag: false
+    single_source: true
+
+  - id: c114
+    text: "Stuyvesant High School in New York City admits students solely based on the Specialized High School Admissions Test (SHSAT); accepts approximately 800 students per year from ~30,000 test-takers."
+    type: numerical
+    priority: should_verify
+    entity: stem-magnet-schools
+    question_id: q44
+    sources:
+      - file: raw/web/review/2026-04-10_stem-magnet-schools-tjhsst-imsa-stuy.md
+        url: https://stuy.enschool.org/
+        tier: L2-authoritative
+        extracted_value: "SHSAT only; ~800 accepted; ~30,000 test-takers"
+        extraction_context: "Stuyvesant admits students solely based on the SHSAT. Accepts approximately 800 students per year from approximately 30,000 test-takers."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: k12-developmental-roadmap
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c115
+    text: "Grade-band roadmap K-2: focus on number sense, arithmetic fluency, logic puzzles; Beast Academy Online (Level 2) accessible for gifted K-2 students; Math Kangaroo as first competition exposure."
+    type: categorical
+    priority: should_verify
+    entity: k12-developmental-roadmap
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-10_k12-competitive-stem-roadmap.md
+        url: https://artofproblemsolving.com/
+        tier: L3-aggregator
+        extracted_value: "K-2: number sense; Beast Academy Level 2; Math Kangaroo first competition"
+        extraction_context: "Grade K-2: Focus on number sense, arithmetic fluency, logic puzzles. Beast Academy Online (Level 2) accessible for gifted K-2 students. Math Kangaroo as first competition exposure."
+    overreach_flag: false
+    single_source: true
+
+  - id: c116
+    text: "Grade-band roadmap 3-5: Beast Academy grades 3-5; MOEMS Division E entry (grade 4+); Math Olympiad for Elementary Students. Core goal: develop problem-solving instincts before formal algebra."
+    type: categorical
+    priority: should_verify
+    entity: k12-developmental-roadmap
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-10_k12-competitive-stem-roadmap.md
+        url: https://artofproblemsolving.com/
+        tier: L3-aggregator
+        extracted_value: "grades 3-5: Beast Academy; MOEMS Div E; pre-algebra instincts"
+        extraction_context: "Grade 3-5: Beast Academy grades 3-5. MOEMS Division E entry (grade 4+). Core goal: develop problem-solving instincts before formal algebra."
+    overreach_flag: false
+    single_source: true
+
+  - id: c117
+    text: "Grade-band roadmap 6-8: MATHCOUNTS (grades 6-8); AMC 8; AoPS Prealgebra + Introduction to Algebra; MOEMS Division M. First AMC 10 possible in grade 8 for advanced students."
+    type: categorical
+    priority: should_verify
+    entity: k12-developmental-roadmap
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-10_k12-competitive-stem-roadmap.md
+        url: https://artofproblemsolving.com/
+        tier: L3-aggregator
+        extracted_value: "grades 6-8: MATHCOUNTS; AMC 8; AoPS Prealgebra/Algebra; MOEMS M; AMC 10 in grade 8"
+        extraction_context: "Grade 6-8: MATHCOUNTS. AMC 8. AoPS Prealgebra + Introduction to Algebra. MOEMS Division M. First AMC 10 possible in grade 8 for advanced students."
+    overreach_flag: false
+    single_source: true
+
+  - id: c118
+    text: "Grade-band roadmap 9-12: AMC 10/12 -> AIME -> USAMO pathway; AoPS Intermediate/Advanced courses; F=ma (physics, grade 10+); science research projects for ISEF/STS (grades 10-12). USAMTS for proof-writing development."
+    type: categorical
+    priority: should_verify
+    entity: k12-developmental-roadmap
+    question_id: q1
+    sources:
+      - file: raw/web/review/2026-04-10_k12-competitive-stem-roadmap.md
+        url: https://artofproblemsolving.com/
+        tier: L3-aggregator
+        extracted_value: "grades 9-12: AMC -> AIME -> USAMO; F=ma grade 10+; ISEF/STS research; USAMTS"
+        extraction_context: "Grade 9-12: AMC 10/12 -> AIME -> USAMO pathway. AoPS Intermediate/Advanced courses. F=ma (physics, grade 10+). Science research projects for ISEF/STS (grades 10-12). USAMTS for proof-writing development."
+    overreach_flag: false
+    single_source: true
+
+  - id: c119
+    text: "Parent forum pattern for successful competition math trajectory: unstructured exploration in elementary -> structured competition prep starting grade 5-6 -> intensive work grade 8-10 if talent warrants."
+    type: categorical
+    priority: may_skip
+    entity: k12-developmental-roadmap
+    question_id: q1
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "unstructured elementary -> structured grade 5-6 -> intensive grade 8-10"
+        extraction_context: "Common positive pattern: unstructured exploration in elementary -> structured competition prep starting grade 5-6 -> intensive work grade 8-10 if talent warrants."
+    overreach_flag: true
+    overreach_reason: "L4 community source. This pattern description is a forum synthesis of anecdotal parent experiences, not an evidence-based prescription."
+    single_source: true
+
+  - id: c120
+    text: "Parent forum reports: most successful national competitors started organized competition prep in grades 5-7, not earlier. Parents who pushed hard in grades 1-3 often report burnout by grades 7-9."
+    type: causal
+    priority: may_skip
+    entity: k12-developmental-roadmap
+    question_id: q1
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "national competitors: started grade 5-7; early push -> burnout by 7-9"
+        extraction_context: "Most successful national competitors started organized competition prep in grades 5-7, not earlier. Parents who pushed hard in grades 1-3 often report burnout by grades 7-9."
+    overreach_flag: true
+    overreach_reason: "L4 community source. 'Most successful' is a non-data-supported generalization from forum discussions."
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: expert-philosophies
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c121
+    text: "Evan Chen's OTIS (Olympiad Training for Individual Study) is described as a structured olympiad math training program targeting AIME and USAMO level students. Chen is a USAMO winner and IMO gold medalist."
+    type: categorical
+    priority: should_verify
+    entity: expert-philosophies
+    question_id: qgf8
+    sources:
+      - file: raw/web/review/2026-04-10_expert-philosophies-evan-chen-po-shen-loh.md
+        url: https://web.evanchen.cc/otis.html
+        tier: L2-authoritative
+        extracted_value: "OTIS: structured olympiad training; AIME/USAMO level; Chen: USAMO winner, IMO gold medalist"
+        extraction_context: "Evan Chen's OTIS (Olympiad Training for Individual Study): structured olympiad math training program targeting AIME and USAMO level students. Evan Chen is a USAMO winner and IMO gold medalist."
+    overreach_flag: false
+    single_source: true
+
+  - id: c122
+    text: "Po-Shen Loh's stated goal as IMO coach was to maximize '20-year future outcomes' for students, not to maximize current wins. He believes competition math should develop curiosity and deep thinking, not just problem-solving speed."
+    type: categorical
+    priority: may_skip
+    entity: expert-philosophies
+    question_id: qgf8
+    sources:
+      - file: raw/web/review/2026-04-10_po-shen-loh-expii-platform.md
+        url: https://www.expii.com/
+        tier: L2-authoritative
+        extracted_value: "'maximize 20-year future outcomes'; curiosity and deep thinking over speed"
+        extraction_context: "His goal as IMO coach was not to maximize current wins but to 'maximize 20-year future outcomes' for students. Believes competition math should develop curiosity and deep thinking, not just problem-solving speed."
+    overreach_flag: false
+    single_source: true
+
+  - id: c123
+    text: "MATHCOUNTS preparation typically begins in grade 6 with AoPS Prealgebra + handbooks. The transition from AMC 8 to AMC 10 is described as a significant difficulty jump. AMC 10 to AIME qualification requires 'leaving school math behind' and developing genuine problem-solving skills."
+    type: categorical
+    priority: should_verify
+    entity: expert-philosophies
+    question_id: q2
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "MATHCOUNTS starts grade 6; AMC 8->10 difficulty jump; AIME requires leaving school math"
+        extraction_context: "MATHCOUNTS preparation typically begins in grade 6 with AoPS Prealgebra + handbooks. The transition from AMC 8 to AMC 10 is described as a significant difficulty jump. AMC 10 -> AIME qualification requires 'leaving school math behind' and developing genuine problem-solving skills."
+    overreach_flag: true
+    overreach_reason: "L4 community source. 'Typically begins' and 'described as' are forum aggregations without empirical backing."
+    single_source: true
+
+  - id: c124
+    text: "AIME to USAMO is considered the hardest step in the AMC pipeline — requires proof writing which most students have never practiced. Peer community (math circles, PROMYS, Mathcamp) is consistently cited as essential: students who join math circles or attend PROMYS/Mathcamp show dramatically faster growth."
+    type: causal
+    priority: may_skip
+    entity: expert-philosophies
+    question_id: q2
+    sources:
+      - file: raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+        url: https://giftedissues.davidsongifted.org/bb/ubbthreads.php/topics/227827/all/beast-academy-aops-or-singapore-math.html
+        tier: L4-community
+        extracted_value: "AIME->USAMO hardest; proof writing needed; peer community essential; math circles/PROMYS/Mathcamp accelerate growth"
+        extraction_context: "AIME -> USAMO is considered the hardest step — requires proof writing which most students have never practiced. Peer community is consistently cited as essential: students who join math circles or attend PROMYS/Mathcamp show dramatically faster growth."
+    overreach_flag: true
+    overreach_reason: "L4 community source. 'Dramatically faster growth' is an unquantified claim from forum discussions. Not verifiable from this source."
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: book-resources
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c125
+    text: "AoPS book series prices (from official AoPS store): Introduction to Algebra: $59; Introduction to Geometry: $63; Introduction to Counting & Probability: $59; Introduction to Number Theory: $59; Precalculus: $59; Intermediate Algebra: $63; Intermediate Counting & Probability: $63."
+    type: numerical
+    priority: should_verify
+    entity: book-resources
+    question_id: q6
+    sources:
+      - file: raw/web/official/2026-04-10_aops-books-and-courses.md
+        url: https://artofproblemsolving.com/store/
+        tier: L1-official
+        extracted_value: "Intro Algebra $59; Intro Geo $63; Intro C&P $59; Intro NT $59; Precalc $59; Intermed Alg $63; Intermed C&P $63"
+        extraction_context: "Introduction to Algebra: $59. Introduction to Geometry: $63. Introduction to Counting & Probability: $59. Introduction to Number Theory: $59. Precalculus: $59. Intermediate Algebra: $63. Intermediate Counting & Probability: $63."
+    overreach_flag: false
+    single_source: true
+
+  - id: c126
+    text: "AoPS advanced books: The Art of Problem Solving Vol 1: $59; Vol 2: $63. Competition Math for Middle School: $45. MATHCOUNTS competition handbooks available free."
+    type: numerical
+    priority: should_verify
+    entity: book-resources
+    question_id: q6
+    sources:
+      - file: raw/web/official/2026-04-10_aops-books-and-courses.md
+        url: https://artofproblemsolving.com/store/
+        tier: L1-official
+        extracted_value: "AoPS Vol 1: $59; Vol 2: $63; Comp Math MS: $45; MATHCOUNTS handbooks: free"
+        extraction_context: "The Art of Problem Solving Vol 1: $59. Vol 2: $63. Competition Math for Middle School: $45. MATHCOUNTS competition handbooks available free (from MATHCOUNTS website)."
+    overreach_flag: false
+    single_source: true
+
+coverage_summary:
+  by_entity:
+    amc-aime-usamo-pipeline:
+      total_claims: 23
+      must_verify: 10
+      should_verify: 8
+      may_skip: 5
+      overreach_flags: 0
+    usapho-iphysics-pipeline:
+      total_claims: 10
+      must_verify: 4
+      should_verify: 5
+      may_skip: 1
+      overreach_flags: 0
+    mathcounts:
+      total_claims: 8
+      must_verify: 2
+      should_verify: 5
+      may_skip: 1
+      overreach_flags: 0
+    moems:
+      total_claims: 5
+      must_verify: 1
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 0
+    arml:
+      total_claims: 4
+      must_verify: 0
+      should_verify: 4
+      may_skip: 0
+      overreach_flags: 0
+    usamts:
+      total_claims: 3
+      must_verify: 2
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+    math-kangaroo:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+    science-competitions:
+      total_claims: 14
+      must_verify: 4
+      should_verify: 7
+      may_skip: 1
+      overreach_flags: 2
+    summer-programs:
+      total_claims: 15
+      must_verify: 5
+      should_verify: 7
+      may_skip: 1
+      overreach_flags: 0
+    training-providers:
+      total_claims: 8
+      must_verify: 1
+      should_verify: 5
+      may_skip: 2
+      overreach_flags: 3
+    elementary-curricula:
+      total_claims: 5
+      must_verify: 2
+      should_verify: 1
+      may_skip: 2
+      overreach_flags: 2
+    acceleration-research:
+      total_claims: 6
+      must_verify: 2
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 1
+    college-admissions:
+      total_claims: 3
+      must_verify: 1
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 2
+    burnout-and-balance:
+      total_claims: 4
+      must_verify: 1
+      should_verify: 2
+      may_skip: 1
+      overreach_flags: 2
+    parent-role-and-costs:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 1
+    stem-magnet-schools:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 3
+      may_skip: 0
+      overreach_flags: 0
+    k12-developmental-roadmap:
+      total_claims: 6
+      must_verify: 0
+      should_verify: 4
+      may_skip: 2
+      overreach_flags: 2
+    expert-philosophies:
+      total_claims: 4
+      must_verify: 0
+      should_verify: 2
+      may_skip: 2
+      overreach_flags: 2
+    book-resources:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+  total_claims_part1: 68
+  total_claims_part2: 58
+  total_claims_all: 126
+
+  single_source_claims: 71
+  multi_source_claims: 55
+  overreach_flags: 17
+  conflicts_detected: 3
+
+  conflicts:
+    - claims: [c006]
+      note: "AMC 8 end date: January 30 vs January 31 (minor)"
+    - claims: [c058]
+      note: "Gordon E. Moore Award value: $75,000 (L1) vs $100,000 (L2)"
+    - claims: [c073]
+      note: "Mathcamp cost: $7,500 (2026, L1) vs $6,600 (2025, L3) — likely annual increase"
+
+  unanswered_questions:
+    - question_id: q7
+      note: "Physics Olympiad book recommendations (Irodov, Kleppner-Kolenkow) mentioned in research plan but no dedicated source file found."
+    - question_id: q14
+      note: "Specific Science Olympiad event preparation resources not covered in depth."
+    - question_id: q30
+      note: "International math olympiad teams (other than US) not covered."
+    - question_id: q43
+      note: "Financial aid eligibility criteria and application processes for summer programs only partially covered."
+
+  data_quality_notes:
+    - "File 2026-04-10_aops-amc-historical-results.md was unreadable at 59K tokens; meta file read instead. Full historical table not extracted."
+    - "All 2025 pricing from L3 aggregators (admissionsangle) should be reverified for 2026 cycle as program costs change annually."
+    - "L4 community source (parent forum) provides valuable directional intelligence but all categorical/numerical claims from it carry overreach_flag: true."
+    - "HCSSiM tuition shows discrepancy: $7,208 (2026, L1-official hcssim.org) vs $5,882 (2025, L3-aggregator admissionsangle). These are different years and are not a conflict."

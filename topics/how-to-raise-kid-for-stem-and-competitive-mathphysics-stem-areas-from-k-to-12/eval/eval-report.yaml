@@ -1,0 +1,261 @@
+topic: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+run_id: "2026-04-10-full"
+evaluated_at: "2026-04-10T23:30:00Z"
+wiki_article_count: 22
+test_question_count: 40
+
+composite_score: 87
+composite_breakdown:
+  D1_reader_outcomes:
+    weight: 0.30
+    score: 2.9
+    weighted: 29.0
+    per_outcome:
+      - id: RO1
+        job: "Decide whether to pursue competitive STEM at all"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          is-this-right-for-my-child.md fully covers aptitude signals, personality fit,
+          time commitment table by level, benefits beyond admissions, and the ahead-of-grade
+          vs. genuine aptitude distinction. Decision framework with 5 steps provided.
+          Common Mistakes section is strong and non-obvious.
+      - id: RO2
+        job: "Build an age-appropriate K-5 foundation for STEM excellence"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          k12-stem-roadmap K-2 and 3-5 sections cover enrichment by grade band.
+          Beast Academy, Singapore Math, and MOEMS recommended with clear rationale.
+          "Fostering Mathematical Thinking Without Drilling" subsection directly answers
+          the RO2 must_answer about pressure-free enrichment. Enrichment-programs-guide
+          adds Kumon/Mathnasium context.
+      - id: RO3
+        job: "Navigate the competition landscape and choose the right competitions by age"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          competition-math-pipeline covers AMC 8/10/12, AIME, USAMO, MOP, IMO with
+          qualification thresholds, scoring, and dates. physics-competitions-pathway
+          covers F=ma, USAPhO, IPhO. amc-competitions covers AMC series plus ARML,
+          USAMTS, Math Kangaroo. mathcounts covers MATHCOUNTS and MOEMS. All four
+          must_answer items fully addressed.
+      - id: RO4
+        job: "Select enrichment programs, summer camps, and coaching resources"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          summer-programs-guide has full comparison table of 10 programs with cost,
+          acceptance rate, and fit guidance. enrichment-programs-guide compares AoPS,
+          RSM, AwesomeMath, OTIS, Expii with student profile matching table.
+          book-resources-by-level organizes books by 4 stages with specific ordering.
+          Private coach vs. self-study addressed explicitly in summer-programs-guide.
+      - id: RO5
+        job: "Manage acceleration decisions"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          acceleration-decisions covers subject acceleration, grade skipping, dual
+          enrollment, and magnet schools (TJHSST, IMSA, Stuy). Research synthesis
+          includes meta-analysis of 314 studies and SMPY longitudinal data. Pros/cons
+          for each type. Steps section includes long-term planning guidance.
+      - id: RO6
+        job: "Connect STEM achievements to college admissions strategy"
+        score: 2
+        uncovered_must_answer:
+          - "Direct comparison of competition math vs. research achievements for admissions (USAMO vs. ISEF head-to-head)"
+        notes: >
+          college-admissions-strategy covers perceived impact by competition level,
+          summer program signaling, STS/ISEF timeline, and detailed guidance on where
+          to list achievements on applications. However, the article does not provide
+          a direct head-to-head comparison of competition math vs. research paths for
+          admissions, which parents considering the trade-off need. College admissions
+          data is appropriately hedged as L4 (community speculation, not official data).
+      - id: RO7
+        job: "Prevent burnout and maintain healthy development"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          burnout-prevention covers warning signs by category, prevalence data (with
+          epistemic caveats), prevention strategies, when-to-quit framework with
+          frustration vs. disinterest signals, parent behaviors to avoid (8 items)
+          and healthy behaviors (5 items). Weekly hours by age covered in the time
+          commitment table cross-referenced from is-this-right-for-my-child.
+      - id: RO8
+        job: "Understand the full cost"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          cost-and-financial-aid has 4-tier annual cost breakdown ($0-$20K+), specific
+          2025-2026 program costs, comprehensive free resources section, financial aid
+          strategy with income thresholds, and opportunity cost analysis by competition
+          level. Travel costs mentioned.
+
+  D2_coverage:
+    weight: 0.20
+    score: 2.7
+    weighted: 18.0
+    sub_scores:
+      D2a_topic_coverage: 3
+      D2b_entity_completeness: 2
+      D2c_stub_ratio: 3
+    missing_categories:
+      - "Category A gap: No article on 'public school vs. private school for STEM' or 'homeschooling for competition math' -- pre-decision questions about school environment"
+      - "Category C gap: No article on 'what happens after competitions end' or 'college math major pathways for former competitors'"
+    entity_completeness: 0.82
+    entity_notes: >
+      9 entity articles exist (AoPS, AMC, MATHCOUNTS, Ross, PROMYS, Mathcamp, RSI,
+      USAMTS, MathPath, Science Competitions). Missing: AlphaStar Academy, HCSSiM,
+      SUMaC, MathILy as standalone entities (covered in summer-programs-guide table
+      but no dedicated articles). Comparison tables are fully populated.
+    stub_ratio: 0.0
+    stub_notes: >
+      0 stubs out of 22 articles. Minimum word count ~1,100 (mathpath.md).
+      All articles have substantive content.
+
+  D3_accuracy:
+    weight: 0.20
+    score: 2.7
+    weighted: 18.0
+    sub_scores:
+      D3a_attribution_compliance: 3
+      D3b_confidence_discipline: 3
+      D3c_conflict_documentation: 2
+    D3a_notes: >
+      Sampled 20 claim sentences across 6 articles. 19/20 have explicit attribution
+      ("According to X", inline citation, or epistemic hedging). One sentence in
+      k12-stem-roadmap ("the gap between school math and competition math grows wider
+      with each grade level") lacks attribution but is framed as an observation from
+      "experienced parents and educators." Score: 95% = 3.
+    D3b_notes: >
+      0 L5 claims in wiki (c058 correctly excluded; corrected permitted language present).
+      L4 sources consistently use epistemic note blocks ("The following reflects patterns
+      across multiple parent accounts..."). college-admissions-strategy correctly labeled
+      L4 with prominent caveats about unverifiable admissions estimates. Score: 3.
+    D3c_notes: >
+      AIME cutoff cap removal (old caps vs. new policy) documented. USAMO index formula
+      change documented. AMC 8 date discrepancy (Jan 22-30 vs Jan 22-31) noted in
+      fact-sheet but not surfaced in wiki article. No explicit claims/ articles for
+      source conflicts. Minor conflicts may exist between aggregator estimates and
+      official sources but are not systematically documented. Score: 2.
+
+  D4_actionability:
+    weight: 0.15
+    score: 2.7
+    weighted: 13.5
+    sub_scores:
+      D4a_decision_framing: 3
+      D4b_common_mistakes: 3
+      D4c_entry_point_clarity: 2
+    D4a_notes: >
+      Articles consistently use imperative voice and "Steps" sections. summer-programs-guide
+      has "How to Choose" table + 4-step action sequence. k12-stem-roadmap has grade-by-grade
+      actionable recommendations. enrichment-programs-guide has "When to Use What" table.
+      Readers know what to do next.
+    D4b_notes: >
+      Common Mistakes sections in all 22 articles are specific and non-obvious. Examples:
+      "Taking AMC 12 as a 10th grader aiming for USAJMO" (actionable AMC/USAJMO rules
+      distinction), "Applying without taking the Ross qualifying problem set seriously"
+      (application-specific), "Not knowing AMC competitions are school-administered"
+      (logistical). These go well beyond generic advice.
+    D4c_notes: >
+      _index.md serves as the entry point with RO mappings. is-this-right-for-my-child
+      is clearly the first article to read (linked as RO1). However, a reader landing
+      on an entity article (e.g., ross-program.md) may not know to start with the
+      decision framework. See Also sections help but there is no persistent "start
+      here" banner or breadcrumb. Score: 2.
+
+  D5_perspective_balance:
+    weight: 0.10
+    score: 2.5
+    weighted: 8.3
+    sub_scores:
+      official_sources: 3
+      aggregator_data: 3
+      community_patterns: 3
+      expert_synthesis: 2
+      counterarguments: 2
+    notes: >
+      Official sources (MAA, AAPT, MATHCOUNTS, AoPS, Ross, PROMYS, Mathcamp): well-represented.
+      Aggregator data (ThinkAcademy, AwesomeMath, AdmissionsAngle, CollegeBase): present with
+      attribution. Community patterns (AoPS forums, Davidson Gifted Forum): present with
+      consistent epistemic note blocks. Expert synthesis: Po-Shen Loh and Evan Chen mentioned
+      but no deep expert interviews or longitudinal analysis from education researchers beyond
+      the SMPY study. Counterarguments: is-this-right-for-my-child covers "why NOT to do this"
+      but other articles could benefit from more "here is why this path is wrong for some
+      students" framing. Missing: consultant/admissions advisor perspectives on college strategy.
+
+  D6_navigability:
+    weight: 0.05
+    score: 2.25
+    weighted: 3.8
+    sub_scores:
+      broken_wikilinks: 2
+      orphaned_articles: 3
+      backlinks_populated: 0
+      see_also_sections: 3
+    notes: >
+      Broken wikilinks: Lint report found 2 broken links (entities/usamts, entities/mathpath),
+      but these articles now exist (created after lint report). The path-prefix issue
+      (entities/amc-competitions for Math Kangaroo) remains. Score: 2 (1-3 issues).
+      Orphaned articles: 0 -- all articles in _index.md. Score: 3.
+      Backlinks: All articles have backlinks: [] (empty arrays). No article has populated
+      backlinks despite extensive cross-linking via wikilinks. Score: 0.
+      See Also: All 22 articles have See Also sections with 3-5 cross-references. Score: 3.
+
+test_question_results:
+  pass_rate: 0.975
+  score_2_count: 39
+  score_1_count: 1
+  score_0_count: 0
+  failed_questions:
+    - id: TQ30
+      text: "Is it better for college apps to be a USAMO qualifier or an ISEF finalist?"
+      score: 1
+      reason: >
+        college-admissions-strategy covers USAMO impact and ISEF/STS impact in separate
+        sections, but does not provide a direct comparison or framework for choosing
+        between the competition math path vs. the research path. A parent asking this
+        specific question would need to synthesize across sections without explicit guidance.
+
+additional_metrics:
+  freshness_pct: 1.0
+  freshness_notes: >
+    All articles created/updated 2026-04-10. All cycle_bound claims verified for
+    2025-2026 cycle. All annual claims current. No stale data detected.
+  contradiction_count: 0
+  contradiction_notes: "Lint report C4 found 0 cross-article contradictions."
+  information_density: "high"
+  density_notes: >
+    Approximate claims per 1000 words: 8-12 across entity articles, 6-8 across
+    guide articles. High signal-to-noise. No padding detected.
+
+quality_gate:
+  trusted: false
+  trust_reason: "Lint report status is BLOCKED due to broken wikilinks (now partially resolved but lint not re-run). Backlinks arrays are all empty."
+  highest_impact_gap: "D6 -- backlinks not populated in any article (0/22)"
+
+top_3_improvements:
+  - dimension: D6
+    impact_points: 1
+    action: >
+      Run cross-linker tool to populate backlinks arrays in all 22 articles.
+      Currently every article has backlinks: []. This is a mechanical fix that
+      would raise D6 backlinks from 0 to 3, improving D6 from 2.25 to 3.0
+      and composite by ~1 point.
+  - dimension: D5
+    impact_points: 3
+    action: >
+      Add expert synthesis from education researchers (beyond SMPY) and
+      admissions consultant perspectives to college-admissions-strategy.md
+      and acceleration-decisions.md. Include counterargument framing ("here
+      is why heavy competition focus may be wrong") in k12-stem-roadmap.md.
+      This would raise D5 from 2.5 to 3.0, adding ~1.7 weighted points.
+  - dimension: D1
+    impact_points: 2
+    action: >
+      Add a "Competition Math vs. Research: Which Path?" section to
+      college-admissions-strategy.md that directly compares the admissions
+      value of USAMO qualification vs. ISEF/STS participation, with explicit
+      guidance on how to choose between paths. This would raise RO6 from 2
+      to 3, improving D1 from 2.9 to 3.0 and adding ~1 weighted point.

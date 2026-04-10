@@ -1,0 +1,105 @@
+topic: "How to raise a kid for STEM and competitive math/physics STEM areas, from K to 12"
+slug: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+status: active
+created: '2026-04-10'
+user_context: >
+  Parent wanting to understand the full K-12 pathway for developing STEM excellence
+  and preparing for competitive math/physics competitions (AMC, AIME, USAMO, Physics
+  Olympiad, etc.)
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.30
+    depth: 0.50
+    gap_fill: 0.15
+    verification: 0.05
+
+reader_personas:
+  - id: P1
+    label: "Parent of an elementary-age child (K-2) noticing math aptitude and wondering how to nurture it"
+    needs: [RO1, RO2, RO3]
+  - id: P2
+    label: "Parent of a upper-elementary/middle school student (3-8) looking to start competition math and build a structured pathway"
+    needs: [RO2, RO3, RO4, RO5]
+  - id: P3
+    label: "Parent of a high schooler already on the competition track, seeking optimization — summer programs, college strategy, burnout prevention"
+    needs: [RO4, RO5, RO6, RO7]
+  - id: P4
+    label: "Parent weighing whether competitive STEM is right for their child at all, or whether the costs outweigh the benefits"
+    needs: [RO1, RO7, RO8]
+
+reader_outcomes:
+  - id: RO1
+    job: "Decide whether to pursue competitive STEM at all"
+    must_answer:
+      - "What are the real benefits of competitive math/physics beyond college admissions?"
+      - "What personality traits and learning styles thrive in competition math vs. struggle?"
+      - "What is the realistic time commitment at each level, and what does the child give up?"
+      - "Is my child showing genuine aptitude or just ahead of grade level?"
+    personas: [P1, P4]
+
+  - id: RO2
+    job: "Build an age-appropriate K-5 foundation for STEM excellence"
+    must_answer:
+      - "What should math enrichment look like in grades K-2 vs. 3-5?"
+      - "Which curricula and programs are appropriate for elementary (Beast Academy, Singapore Math, etc.)?"
+      - "When is it too early to start competition prep vs. enrichment?"
+      - "How do I foster mathematical thinking without drilling or pressure?"
+    personas: [P1, P2]
+
+  - id: RO3
+    job: "Navigate the competition landscape and choose the right competitions by age"
+    must_answer:
+      - "What math competitions exist for elementary, middle school, and high school?"
+      - "What is the AMC/AIME/USAMO pipeline and what scores qualify at each stage?"
+      - "What physics competitions exist (F=ma, USAPhO, IPhO) and when should a student start?"
+      - "What are the differences between MathCounts, AMC 8, Math Kangaroo, MOEMS for younger students?"
+    personas: [P1, P2]
+
+  - id: RO4
+    job: "Select enrichment programs, summer camps, and coaching resources"
+    must_answer:
+      - "What are the top summer math programs (Ross, PROMYS, Mathcamp, MathPath, RSI) and how selective are they?"
+      - "How does AoPS (online and academy) compare to other training programs (AlphaStar, RSM, AwesomeMath)?"
+      - "What books should my child use at each level (elementary through olympiad)?"
+      - "When does a student need a private coach vs. self-study vs. group classes?"
+    personas: [P2, P3]
+
+  - id: RO5
+    job: "Manage acceleration decisions — grade skipping, dual enrollment, subject acceleration"
+    must_answer:
+      - "When should a gifted math student skip ahead vs. go deeper at grade level?"
+      - "What are the pros and cons of taking college math courses in high school?"
+      - "How do magnet schools and gifted programs fit into the competition pathway?"
+      - "What does research say about outcomes for accelerated vs. enriched students?"
+    personas: [P2, P3]
+
+  - id: RO6
+    job: "Connect STEM achievements to college admissions strategy"
+    must_answer:
+      - "How much do AMC/AIME/USAMO scores matter for MIT, Caltech, and top STEM programs?"
+      - "What is the right way to present competition achievements on college applications?"
+      - "How do summer program participation (RSI, Ross, PROMYS) factor into admissions?"
+      - "What STEM research or science fair participation strengthens a college application?"
+    personas: [P3]
+
+  - id: RO7
+    job: "Prevent burnout and maintain healthy development"
+    must_answer:
+      - "What are the signs of burnout in competitive STEM students?"
+      - "How do successful families balance competition prep with normal childhood?"
+      - "What is the right weekly time commitment by age?"
+      - "What should a parent do when their child wants to quit?"
+      - "How do I avoid being an overbearing STEM parent?"
+    personas: [P3, P4]
+
+  - id: RO8
+    job: "Understand the full cost — financial, time, and opportunity"
+    must_answer:
+      - "What does competitive STEM preparation actually cost per year (programs, books, camps, travel)?"
+      - "What financial aid exists for summer programs and training?"
+      - "What is the opportunity cost of heavy competition focus vs. broader extracurriculars?"
+    personas: [P4]

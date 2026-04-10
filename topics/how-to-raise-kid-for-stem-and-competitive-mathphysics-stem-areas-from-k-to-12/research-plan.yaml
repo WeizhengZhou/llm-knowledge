@@ -1,0 +1,1244 @@
+topic: "How to raise a kid for STEM and competitive math/physics STEM areas, from K to 12"
+slug: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+created: 2026-04-10
+user_context: >
+  Parent wanting to understand the full K-12 pathway for developing STEM excellence
+  and preparing for competitive math/physics competitions (AMC, AIME, USAMO, Physics
+  Olympiad, etc.)
+status: in_progress
+round: 1
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  gap_fill_reserve: 22   # question_count(45) * 0.5
+  breadth_budget_pct: 30
+  depth_budget_pct: 80
+  searches_used: 11
+  fetches_used: 14
+
+# ────────────────────────────────────────────────────────────────────────────────
+# SEARCH CLUSTERS — group questions answerable by the same search session
+# ────────────────────────────────────────────────────────────────────────────────
+search_clusters:
+  - search: "complete list math competitions K-12 USA elementary middle high school"
+    answers_questions: [q1, q3, q10]
+  - search: "AMC 8 10 12 AIME USAMO qualification scores cutoffs pipeline 2025 2026"
+    answers_questions: [q2, q11, q30]
+  - search: "physics competitions USA F=ma USAPhO IPhO Physics Bowl pathway"
+    answers_questions: [q3, q12]
+  - search: "Science Olympiad ISEF Regeneron STS high school science competitions"
+    answers_questions: [q3, q13]
+  - search: "Art of Problem Solving Beast Academy curriculum review gifted elementary"
+    answers_questions: [q5, q17, q18]
+  - search: "best math enrichment programs gifted elementary K-5 curriculum"
+    answers_questions: [q5, q17]
+  - search: "Ross PROMYS Mathcamp MathPath RSI summer math programs selectivity application"
+    answers_questions: [q6, q21, q22]
+  - search: "AlphaStar RSM AwesomeMath competition math training programs comparison"
+    answers_questions: [q18, q33]
+  - search: "math competition preparation books by level elementary middle high school olympiad"
+    answers_questions: [q19, q20]
+  - search: "physics olympiad preparation books Irodov Morin Kleppner recommended"
+    answers_questions: [q20]
+  - search: "gifted math acceleration grade skipping vs enrichment research outcomes NAGC"
+    answers_questions: [q7, q23, q24]
+  - search: "dual enrollment college courses high school math gifted students"
+    answers_questions: [q24, q25]
+  - search: "math competition burnout kids pressure parents avoid overtraining"
+    answers_questions: [q8, q34, q35]
+  - search: "competitive math college admissions MIT Caltech AMC USAMO impact"
+    answers_questions: [q9, q30, q31]
+  - search: "RSI summer research program college admissions impact"
+    answers_questions: [q22, q31]
+  - search: "STEM parent role coaching vs self-study math competition"
+    answers_questions: [q26, q27, q36]
+  - search: "math competition daily routine practice schedule middle school high school"
+    answers_questions: [q28, q29]
+  - search: "signs child gifted math aptitude vs ahead of grade level"
+    answers_questions: [q14, q15]
+  - search: "magnet schools STEM gifted programs K-12 Thomas Jefferson IMSA"
+    answers_questions: [q25]
+  - search: "STEM competition costs tutoring programs summer camps financial aid"
+    answers_questions: [q37, q38]
+  - search: "Evan Chen Po-Shen Loh math olympiad advice training philosophy"
+    answers_questions: [q40, q41]
+  - search: "school math vs competition math gap problem solving creative thinking"
+    answers_questions: [q16, q42]
+
+# ────────────────────────────────────────────────────────────────────────────────
+# PAIN POINT COVERAGE MAP
+# ────────────────────────────────────────────────────────────────────────────────
+# Pain point: "When should I start my kid in competition math?"
+#   source: multiple blog sites, lgmath.com
+#   urgency: high
+#   covered_by: q4, q10 — adequate
+#
+# Pain point: "My kid is good at school math but struggles with competition problems"
+#   source: parent blogs, AoPS forums
+#   urgency: high
+#   covered_by: q16, q42 — adequate
+#
+# Pain point: "How much time per week should a middle schooler spend on competition prep?"
+#   source: thethinkacademy.com
+#   urgency: high
+#   covered_by: q28, q29 — adequate
+#
+# Pain point: "Is AoPS the only option or are there alternatives?"
+#   source: homeschool review sites
+#   urgency: high
+#   covered_by: q18, q33 — adequate
+#
+# Pain point: "How do I know if my child has real olympiad-level talent?"
+#   source: lgmath.com, Davidson Institute
+#   urgency: high
+#   covered_by: q14, q15 — adequate
+#
+# Pain point: "Should I push my kid into competitions or wait for interest?"
+#   source: parenting.firstcry.com, parent blogs
+#   urgency: high
+#   covered_by: q26, q35, q36 — adequate
+#
+# Pain point: "The AMC/AIME/USAMO pipeline is confusing — what scores qualify?"
+#   source: thethinkacademy.com, collegebase.org
+#   urgency: high
+#   covered_by: q2, q11 — adequate
+#
+# Pain point: "Summer programs are expensive and selective — how to choose?"
+#   source: collegevine.com, admissionsight.com
+#   urgency: high
+#   covered_by: q6, q21, q22, q38 — adequate
+#
+# Pain point: "My child is burning out on math competitions"
+#   source: parenting.firstcry.com, mathbabe.org
+#   urgency: high
+#   covered_by: q8, q34, q35 — adequate
+#
+# Pain point: "Does competition math help with college admissions or is it overrated?"
+#   source: collegebase.org
+#   urgency: high
+#   covered_by: q9, q30, q31 — adequate
+#
+# Pain point: "Acceleration vs. enrichment — skip a grade or go deeper?"
+#   source: NAGC, thethinkacademy.com
+#   urgency: high
+#   covered_by: q7, q23, q24 — adequate
+#
+# Pain point: "Balance competition prep with schoolwork and normal childhood"
+#   source: multiple parent blogs
+#   urgency: high
+#   covered_by: q8, q34, q43 — adequate
+#
+# Pain point: "What books at each stage?"
+#   source: AoPS wiki, physicsforums.com
+#   urgency: high
+#   covered_by: q19, q20 — adequate
+#
+# Pain point: "Physics competitions — where to start?"
+#   source: physicsforums.com, awesomemath.org
+#   urgency: medium
+#   covered_by: q3, q12 — adequate
+#
+# Pain point: "My kid loves math but hates timed tests"
+#   source: lgmath.com
+#   urgency: medium
+#   covered_by: q35, q42 — adequate
+#
+# Pain point: "How do USAMO qualifiers actually prepare day-to-day?"
+#   source: blog.evanchen.cc
+#   urgency: medium
+#   covered_by: q29, q40 — adequate
+#
+# Pain point: "Is private coaching worth the cost vs. self-study?"
+#   source: parent discussions
+#   urgency: high
+#   covered_by: q27, q37 — adequate
+
+# ────────────────────────────────────────────────────────────────────────────────
+# PHASES
+# ────────────────────────────────────────────────────────────────────────────────
+phases:
+  breadth:
+    description: >
+      Landscape overview — what competitions exist across math/physics/science,
+      what the competition pipeline looks like, what programs and resources exist,
+      age-appropriate entry points, acceleration vs. enrichment framework,
+      burnout overview, and college admissions connection.
+    budget_fraction: 0.30
+    questions: [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q14]
+    status: complete
+    completed_at: 2026-04-10
+  depth:
+    description: >
+      Per-competition deep dives, specific program comparisons, book recommendations
+      by level, daily practice routines, parent role specifics, acceleration mechanics,
+      college strategy details, cost analysis, and expert training philosophies.
+    budget_fraction: 0.50
+    depends_on: breadth
+    questions: [q11, q12, q13, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25,
+                q26, q27, q28, q29, q30, q31, q32, q33, q34, q35, q36, q37, q38, q39,
+                q40, q41, q42, q43, q44, q45]
+    status: pending
+  gap_fill:
+    description: >
+      Targeted follow-ups to fill remaining gaps discovered during breadth and depth.
+      Populated by research-agent after breadth and depth are complete.
+    budget_fraction: 0.15
+    depends_on: depth
+    questions: []
+    status: pending
+
+# ────────────────────────────────────────────────────────────────────────────────
+# Composite formula:
+#   user_value * 0.35 + dependency_count * 0.25 + searchability * 0.20 + novelty * 0.20
+# ────────────────────────────────────────────────────────────────────────────────
+
+questions:
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # BREADTH PHASE (11 questions) — landscape mapping
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  # --- WHAT ---
+  - id: q1
+    text: "What math, physics, and science competitions exist for K-12 students in the US, organized by grade band (elementary, middle, high school)?"
+    facet: WHAT
+    scores:
+      user_value: 9
+      dependency_count: 10
+      searchability: 9
+      novelty: 7
+    composite: 8.85
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-001
+        query: "complete list math competitions K-12 USA elementary middle high school AMC MathCounts MATHCOUNTS AMC 8 Science Olympiad 2025"
+      - id: s-2026-04-10-011
+        query: "MAA AAPT MOEMS MathCounts Foundation organizations administer math physics competitions calendar schedule"
+    raw_files:
+      - raw/web/official/2026-04-10_maa-amc-competitions.md
+      - raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+      - raw/web/review/2026-04-10_rsm-math-competitions-calendar-2025-26.md
+      - raw/web/review/2026-04-10_awesomemath-k12-competition-pathway.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  - id: q2
+    text: "What is the AMC/AIME/USAMO/IMO pipeline — structure, scoring, qualification cutoffs, and annual timeline?"
+    facet: WHAT
+    scores:
+      user_value: 10
+      dependency_count: 9
+      searchability: 9
+      novelty: 6
+    composite: 8.90
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-002
+        query: "AMC 8 10 12 AIME USAMO qualification scores cutoffs pipeline 2025 2026 structure"
+    raw_files:
+      - raw/web/official/2026-04-10_maa-amc-competitions.md
+      - raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+      - raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  - id: q3
+    text: "What physics and broader science competitions exist (F=ma, USAPhO, IPhO, Physics Bowl, Science Olympiad, ISEF, Regeneron STS) and how are they structured?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 8
+      searchability: 9
+      novelty: 7
+    composite: 8.00
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-003
+        query: "physics competitions USA F=ma USAPhO IPhO Physics Bowl Science Olympiad ISEF structure pipeline students"
+    raw_files:
+      - raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+      - raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- WHEN ---
+  - id: q4
+    text: "What is the recommended K-12 developmental roadmap — what should a family focus on at each grade band (K-2, 3-5, 6-8, 9-12) for competitive STEM?"
+    facet: WHEN
+    scores:
+      user_value: 10
+      dependency_count: 9
+      searchability: 7
+      novelty: 8
+    composite: 8.90
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-010
+        query: "competitive math K-12 roadmap age grade when start AMC preparation gifted student pathway 2024 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_k12-competitive-stem-roadmap.md
+      - raw/web/review/2026-04-10_awesomemath-k12-competition-pathway.md
+      - raw/web/review/2026-04-10_davidson-gifted-math-identification.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1, RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  # --- WHERE ---
+  - id: q5
+    text: "What enrichment programs and curricula exist for elementary-age gifted math students (Beast Academy, Singapore Math, AoPS, Kumon, RSM, etc.)?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 6
+    composite: 7.75
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-004
+        query: "Art of Problem Solving Beast Academy Singapore Math RSM enrichment programs gifted elementary K-5 comparison review"
+    raw_files:
+      - raw/web/review/2026-04-10_elementary-enrichment-programs-comparison.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO2, RO4]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+
+  - id: q6
+    text: "What selective summer math/science programs exist for middle and high school students (Ross, PROMYS, Mathcamp, MathPath, RSI, SPARC, CTY, etc.) and how selective are they?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 7.95
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-005
+        query: "Ross PROMYS Mathcamp MathPath RSI summer math programs selectivity acceptance rate application requirements 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- HOW ---
+  - id: q7
+    text: "What are the different forms of academic acceleration for gifted STEM students (subject acceleration, grade skipping, dual enrollment, early college) and what does research say about outcomes?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 7.95
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-006
+        query: "gifted math acceleration grade skipping vs enrichment research outcomes gifted education NAGC Davidson Institute"
+    raw_files:
+      - raw/web/review/2026-04-10_davidson-acceleration-research.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- WHY ---
+  - id: q8
+    text: "What does research say about burnout, over-pressure, and dropout in competitive STEM students, and what are the warning signs?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 7
+      novelty: 8
+    composite: 7.75
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-007
+        query: "competitive math burnout gifted students warning signs parental pressure how to avoid AoPS forum parent advice"
+    raw_files:
+      - raw/web/review/2026-04-10_aops-pros-cons-math-competitions.md
+      - raw/web/review/2026-04-10_burnout-math-competition-gifted-kids.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  - id: q9
+    text: "How do competitive math/physics achievements factor into college admissions at top STEM universities (MIT, Caltech, Stanford, CMU)?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 5
+      searchability: 8
+      novelty: 6
+    composite: 7.35
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-008
+        query: "competitive math USAMO AMC college admissions MIT Caltech Stanford impact how important 2024 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_collegebase-usamo-admissions.md
+      - raw/web/review/2026-04-10_k12-competitive-stem-roadmap.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  # --- WHO ---
+  - id: q10
+    text: "What organizations administer the major math/physics competitions (MAA, AAPT, MathCounts Foundation, MOEMS) and what are their roles and calendars?"
+    facet: WHO
+    scores:
+      user_value: 6
+      dependency_count: 7
+      searchability: 9
+      novelty: 4
+    composite: 6.25
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-001
+        query: "complete list math competitions K-12 USA elementary middle high school AMC MathCounts MATHCOUNTS AMC 8 Science Olympiad 2025"
+      - id: s-2026-04-10-011
+        query: "MAA AAPT MOEMS MathCounts Foundation organizations administer math physics competitions calendar schedule"
+    raw_files:
+      - raw/web/official/2026-04-10_maa-amc-competitions.md
+      - raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+      - raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1]
+    children: []
+
+  # --- META ---
+  - id: q14
+    text: "How can a parent distinguish genuine math/science aptitude from being ahead of grade level — what are reliable indicators at ages 5-8?"
+    facet: META
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 6
+      novelty: 9
+    composite: 7.65
+    phase: breadth
+    dependencies: []
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-009
+        query: "signs child genuinely gifted math aptitude vs ahead grade level indicators ages 5-8 early identification"
+    raw_files:
+      - raw/web/review/2026-04-10_davidson-gifted-math-identification.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # DEPTH PHASE (34 questions) — per-entity and per-topic deep dives
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  # --- WHAT (competition deep dives) ---
+  - id: q11
+    text: "What are the historical AMC 10/12, AIME, and USAMO/USAJMO qualification cutoff scores, and what score ranges correspond to what percentile of students?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 9
+      novelty: 5
+    composite: 6.60
+    phase: depth
+    dependencies: [q2]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  - id: q12
+    text: "What is the F=ma to USAPhO to IPhO pipeline — structure, timing, preparation requirements, and how it differs from the math competition pathway?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 8
+      novelty: 7
+    composite: 6.95
+    phase: depth
+    dependencies: [q3]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  - id: q13
+    text: "How do Science Olympiad, ISEF, and Regeneron STS work — structure, team vs. individual, research requirements, and typical participant profile?"
+    facet: WHAT
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 6.15
+    phase: depth
+    dependencies: [q3]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- META (assessment and aptitude) ---
+  - id: q15
+    text: "What does research (SMPY, Davidson Institute) say about long-term outcomes for mathematically precocious youth — career paths, satisfaction, and what predicted success?"
+    facet: META
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.35
+    phase: depth
+    dependencies: [q14]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  - id: q16
+    text: "What is the gap between school math and competition math — what specific skills (proof writing, creative problem solving, mathematical reasoning) does competition math develop that school math does not?"
+    facet: META
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 7
+      novelty: 7
+    composite: 7.05
+    phase: depth
+    dependencies: [q1]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1, RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  # --- HOW (elementary enrichment) ---
+  - id: q17
+    text: "What does effective K-2 math enrichment look like — activities, games, puzzles, and curricula that build mathematical thinking without formal competition pressure?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 7
+      novelty: 7
+    composite: 7.15
+    phase: depth
+    dependencies: [q4, q5]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  - id: q18
+    text: "How does Beast Academy compare to AoPS online courses, RSM, Kumon, and other math enrichment programs — what are the tradeoffs in philosophy, cost, and outcomes?"
+    facet: COMPARE
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 7.05
+    phase: depth
+    dependencies: [q5]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO2, RO4]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+
+  # --- HOW (books and resources) ---
+  - id: q19
+    text: "What is the recommended book progression for math competition preparation from elementary through olympiad level?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 7.05
+    phase: depth
+    dependencies: [q1, q4]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  - id: q20
+    text: "What books and resources are recommended for physics olympiad preparation (F=ma through IPhO level)?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 6
+    composite: 6.40
+    phase: depth
+    dependencies: [q3, q12]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  # --- HOW (summer programs deep dive) ---
+  - id: q21
+    text: "How do Ross, PROMYS, and Mathcamp compare — philosophy, structure, daily experience, selectivity, and what type of student thrives at each?"
+    facet: COMPARE
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.75
+    phase: depth
+    dependencies: [q6]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2, L4]
+    children: []
+
+  - id: q22
+    text: "What is RSI (Research Science Institute) — selection process, daily structure, research mentorship model, and how it connects to college admissions?"
+    facet: WHAT
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 6.15
+    phase: depth
+    dependencies: [q6]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4, RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- HOW (acceleration decisions) ---
+  - id: q23
+    text: "When should a gifted math student accelerate (skip ahead in math coursework) vs. enrich (go deeper at current level) — what frameworks and decision criteria exist?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 7
+      novelty: 8
+    composite: 7.35
+    phase: depth
+    dependencies: [q7]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  - id: q24
+    text: "What are the practical options for a middle/high school student who has exhausted school math — dual enrollment, online college courses, self-study, AoPS courses?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q7]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  - id: q25
+    text: "What are the top STEM magnet high schools and gifted programs in the US (TJHSST, IMSA, Stuyvesant, etc.) — admissions, what they offer, and are they worth relocating for?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 8
+      novelty: 6
+    composite: 5.95
+    phase: depth
+    dependencies: [q7]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- WHO/HOW (parent role) ---
+  - id: q26
+    text: "What is the appropriate role of parents at each stage — when to lead, when to facilitate, when to step back, and how does this evolve from K through 12?"
+    facet: WHO
+    scores:
+      user_value: 9
+      dependency_count: 5
+      searchability: 6
+      novelty: 8
+    composite: 7.35
+    phase: depth
+    dependencies: [q4]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  - id: q27
+    text: "When does a student need a private math coach/tutor vs. self-study vs. group classes — how do families of successful competitors typically structure this?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 6.55
+    phase: depth
+    dependencies: [q4, q5]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4, RO8]
+    target_source_tiers: [L3, L4]
+    children: []
+
+  # --- HOW (practice and routines) ---
+  - id: q28
+    text: "What does an effective weekly practice routine look like for a middle school student preparing for AMC 8/MathCounts vs. a high schooler targeting AIME/USAMO?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 7.05
+    phase: depth
+    dependencies: [q2, q4]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3, RO4]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+
+  - id: q29
+    text: "How do students who qualify for USAMO or make the IMO team describe their preparation trajectory — daily hours, resources used, key inflection points?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 9
+    composite: 6.25
+    phase: depth
+    dependencies: [q2, q4]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  # --- WHY (college admissions deep dive) ---
+  - id: q30
+    text: "What specific AMC/AIME/USAMO achievement levels correspond to meaningful admissions advantages — is there a threshold effect (e.g., AIME qual matters but AMC score alone does not)?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [q2, q9]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  - id: q31
+    text: "How should STEM competition achievements, summer program participation, and research be presented on college applications for maximum impact?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 6.10
+    phase: depth
+    dependencies: [q9]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  - id: q32
+    text: "How does STEM competition participation compare to research/publications, AP scores, and other STEM extracurriculars in college admissions weight?"
+    facet: COMPARE
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 5.75
+    phase: depth
+    dependencies: [q9]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO6]
+    target_source_tiers: [L3]
+    children: []
+
+  # --- COMPARE (program comparisons) ---
+  - id: q33
+    text: "How do competition training providers compare — AoPS online vs. AlphaStar vs. AwesomeMath vs. RSM competition track — in terms of cost, format, philosophy, and results?"
+    facet: COMPARE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.30
+    phase: depth
+    dependencies: [q5, q6]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+
+  # --- WHY (burnout deep dive) ---
+  - id: q34
+    text: "What are the specific warning signs of burnout in competitive STEM students, and what recovery strategies have worked for families?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 7.05
+    phase: depth
+    dependencies: [q8]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  - id: q35
+    text: "What should a parent do when their child wants to quit competitions — how to distinguish temporary frustration from genuine disinterest, and when to let go?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 5
+      novelty: 9
+    composite: 6.85
+    phase: depth
+    dependencies: [q8]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO7]
+    target_source_tiers: [L4]
+    children: []
+
+  - id: q36
+    text: "How do families of successful STEM competitors balance competition prep with social development, physical activity, and other interests?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 5
+      novelty: 8
+    composite: 6.75
+    phase: depth
+    dependencies: [q8, q4]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  # --- WHY (cost analysis) ---
+  - id: q37
+    text: "What does competitive STEM preparation actually cost at each level — programs, books, camps, travel, private coaching — from casual to serious to elite?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 6.55
+    phase: depth
+    dependencies: [q5, q6]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO8]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  - id: q38
+    text: "What financial aid, scholarships, and free resources exist for competitive STEM programs and summer camps?"
+    facet: WHAT
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 5.75
+    phase: depth
+    dependencies: [q6]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO8]
+    target_source_tiers: [L1, L2]
+    children: []
+
+  # --- WHEN (competition-specific timing) ---
+  - id: q39
+    text: "What is the annual competition calendar — registration deadlines, test dates, and result timelines for AMC, MathCounts, F=ma, Science Olympiad, and ISEF for 2025-2026 and 2026-2027?"
+    facet: WHEN
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 9
+      novelty: 4
+    composite: 6.40
+    phase: depth
+    dependencies: [q1, q2, q3]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1]
+    children: []
+
+  # --- WHO (expert philosophies) ---
+  - id: q40
+    text: "What training philosophies do top math olympiad coaches and mentors (Evan Chen, Po-Shen Loh, Zuming Feng) advocate — and what do they say about common mistakes in preparation?"
+    facet: WHO
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 6.15
+    phase: depth
+    dependencies: [q4]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2]
+    children: []
+
+  - id: q41
+    text: "What online communities, forums, and information sources do competitive math/physics families rely on (AoPS forums, specific blogs, YouTube channels)?"
+    facet: META
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 5.75
+    phase: depth
+    dependencies: [q1]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  # --- HOW (handling specific situations) ---
+  - id: q42
+    text: "How should a parent handle a child who loves math but dislikes timed competition pressure — alternative paths, untimed competitions, and research-oriented math?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 5
+      novelty: 9
+    composite: 6.50
+    phase: depth
+    dependencies: [q1, q8]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1, RO7]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  - id: q43
+    text: "What does a healthy weekly schedule look like for a competition-track student at each grade band — including school, extracurriculars, social time, and competition prep?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 5
+      novelty: 8
+    composite: 6.75
+    phase: depth
+    dependencies: [q4, q28]
+    status: pending
+    search_queries: []
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO7]
+    target_source_tiers: [L2, L4]
+    children: []
+
+  # --- COMPARE (math vs physics vs science fair) ---
+  - id: q44
+    text: "How do families decide between focusing on math competitions vs. physics competitions vs. science research/fairs — what factors should drive the choice?"
+    facet: COMPARE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 6.40
+    phase: depth
+    dependencies: [q1, q3]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1, RO3]
+    target_source_tiers: [L2, L3]
+    children: []
+
+  # --- WHY (motivation) ---
+  - id: q45
+    text: "Beyond college admissions, what are the lasting benefits of competitive math/physics training — problem-solving skills, intellectual community, career advantages, personal growth?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 6.10
+    phase: depth
+    dependencies: [q9]
+    status: pending
+    search_queries: []
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-10
+    reader_outcomes: [RO1]
+    target_source_tiers: [L2, L4]
+    children: []

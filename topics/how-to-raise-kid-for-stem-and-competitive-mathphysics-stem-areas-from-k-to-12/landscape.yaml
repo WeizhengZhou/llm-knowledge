@@ -1,0 +1,281 @@
+topic: "How to raise a kid for STEM and competitive math/physics STEM areas, from K to 12"
+scanned_at: 2026-04-10
+
+entities_discovered:
+  # Competition organizations
+  - name: "MAA (Mathematical Association of America)"
+    type: organization
+    mentions: 20+
+  - name: "AoPSI (American Association of Physics Teachers)"
+    type: organization
+    mentions: 8
+  - name: "MathCounts Foundation"
+    type: organization
+    mentions: 12
+
+  # Competitions — Math
+  - name: "AMC 8/10/12"
+    type: competition
+    mentions: 25+
+  - name: "AIME"
+    type: competition
+    mentions: 20+
+  - name: "USAMO/USAJMO"
+    type: competition
+    mentions: 15+
+  - name: "MathCounts"
+    type: competition
+    mentions: 15
+  - name: "Math Kangaroo"
+    type: competition
+    mentions: 8
+  - name: "MOEMS (Math Olympiads for Elementary and Middle Schools)"
+    type: competition
+    mentions: 6
+  - name: "ARML (American Regions Mathematics League)"
+    type: competition
+    mentions: 4
+  - name: "Math League"
+    type: competition
+    mentions: 4
+  - name: "HMMT / PUMAC / ARML"
+    type: competition
+    mentions: 3
+  - name: "Putnam"
+    type: competition
+    mentions: 3
+  - name: "IMO"
+    type: competition
+    mentions: 10
+
+  # Competitions — Physics
+  - name: "F=ma exam"
+    type: competition
+    mentions: 8
+  - name: "USAPhO"
+    type: competition
+    mentions: 8
+  - name: "IPhO"
+    type: competition
+    mentions: 5
+  - name: "Physics Bowl"
+    type: competition
+    mentions: 4
+
+  # Competitions — Science
+  - name: "Science Olympiad"
+    type: competition
+    mentions: 6
+  - name: "ISEF / Regeneron STS"
+    type: competition
+    mentions: 5
+
+  # Programs / Camps
+  - name: "Art of Problem Solving (AoPS)"
+    type: program
+    mentions: 30+
+  - name: "Beast Academy"
+    type: program
+    mentions: 10
+  - name: "Ross Mathematics Program"
+    type: program
+    mentions: 12
+  - name: "PROMYS"
+    type: program
+    mentions: 8
+  - name: "Canada/USA Mathcamp"
+    type: program
+    mentions: 8
+  - name: "RSI (Research Science Institute)"
+    type: program
+    mentions: 10
+  - name: "MathPath"
+    type: program
+    mentions: 5
+  - name: "AlphaStar Academy"
+    type: program
+    mentions: 6
+  - name: "AwesomeMath"
+    type: program
+    mentions: 5
+  - name: "Russian School of Mathematics (RSM)"
+    type: program
+    mentions: 4
+  - name: "CTY (Johns Hopkins)"
+    type: program
+    mentions: 4
+  - name: "EPGY (Stanford, now discontinued)"
+    type: program
+    mentions: 3
+  - name: "Davidson Institute"
+    type: program
+    mentions: 4
+  - name: "MOP (Mathematical Olympiad Program)"
+    type: program
+    mentions: 5
+  - name: "PhysicsWOOT (AoPS)"
+    type: program
+    mentions: 3
+
+  # Books
+  - name: "AoPS textbooks (Vol 1/2, Intermediate series)"
+    type: book
+    mentions: 15+
+  - name: "Competition Math for Middle School (Batterson)"
+    type: book
+    mentions: 6
+  - name: "Problems in General Physics (Irodov)"
+    type: book
+    mentions: 5
+  - name: "An Introduction to Mechanics (Kleppner & Kolenkow)"
+    type: book
+    mentions: 5
+  - name: "Problems and Solutions in Introductory Mechanics (Morin)"
+    type: book
+    mentions: 4
+
+  # People
+  - name: "Evan Chen"
+    type: expert
+    mentions: 4
+  - name: "Po-Shen Loh"
+    type: expert
+    mentions: 5
+  - name: "Richard Rusczyk"
+    type: expert
+    mentions: 4
+
+source_ecosystem:
+  official_sources:
+    - url: "https://maa.org/student-programs/amc/"
+      type: L1
+      covers: "AMC competition structure, rules, dates"
+    - url: "https://artofproblemsolving.com/wiki/"
+      type: L1-L2
+      covers: "Competition problems, solutions, book lists, competition hierarchy"
+    - url: "https://rossprogram.org/"
+      type: L1
+      covers: "Ross program details, application, FAQ"
+    - url: "https://www.aapt.org/physicsteam/"
+      type: L1
+      covers: "Physics competition structure (F=ma, USAPhO)"
+    - url: "https://dev.nagc.org/"
+      type: L1
+      covers: "Gifted education research, acceleration guidelines"
+
+  expert_synthesis:
+    - name: "Evan Chen (blog.evanchen.cc)"
+      type: L2
+      covers: "Math contest advice, book recommendations, olympiad training philosophy"
+    - name: "Think Academy US (thethinkacademy.com/blog)"
+      type: L2-L3
+      covers: "Competition guides, prep timelines, scoring analysis"
+    - name: "CollegeVine / CollegeBase"
+      type: L2-L3
+      covers: "College admissions impact of competitions"
+    - name: "AdmissionSight"
+      type: L3
+      covers: "Summer program guides, admissions strategy"
+    - name: "Cardinal Education"
+      type: L2-L3
+      covers: "K-12 academic planning"
+
+  community:
+    - name: "AoPS Community Forums"
+      type: L4
+      status: accessible_via_search
+      covers: "Parent experiences, book recommendations, competition strategy discussions"
+    - name: "Reddit r/math, r/mathcompetitions"
+      type: L4
+      status: blocked_by_crawler
+      covers: "Would cover student experiences, burnout stories, strategy"
+    - name: "Physics Forums (physicsforums.com)"
+      type: L4
+      status: accessible
+      covers: "Physics olympiad book recommendations, preparation advice"
+
+  books:
+    - title: "AoPS Volume 1: The Basics / Volume 2: And Beyond"
+      author: "Richard Rusczyk et al."
+      secondary_sources: ["AoPS wiki reviews", "homeschool review sites"]
+    - title: "Competition Math for Middle School"
+      author: "J. Batterson"
+      secondary_sources: ["Amazon reviews", "AoPS forum mentions"]
+    - title: "The Art and Craft of Problem Solving"
+      author: "Paul Zeitz"
+      secondary_sources: ["AoPS wiki", "math competition book lists"]
+    - title: "Problems in General Physics"
+      author: "I.E. Irodov"
+      secondary_sources: ["Physics Forums threads"]
+
+  video_audio:
+    - name: "Po-Shen Loh (live.poshenloh.com)"
+      type: youtube
+      covers: "AMC problem walkthroughs, competition strategy"
+    - name: "AlphaStar Academy YouTube"
+      type: youtube
+      covers: "AMC/AIME prep sessions"
+    - name: "3Blue1Brown"
+      type: youtube
+      covers: "Mathematical intuition building (not competition-specific)"
+
+  academic_research:
+    - name: "NAGC (National Association for Gifted Children)"
+      type: research_org
+      covers: "Acceleration research, gifted education outcomes"
+    - name: "SMPY (Study of Mathematically Precocious Youth)"
+      type: longitudinal_study
+      covers: "Long-term outcomes of math-talented students"
+
+source_access_failures:
+  - domain: reddit.com
+    reason: "Blocked by Anthropic's crawler; site:reddit.com searches return no results"
+    impact: "Missing authentic parent experience narratives, burnout stories, honest competition strategy discussions"
+  - domain: collegeconfidential.com
+    reason: "Not tested but historically unreliable for structured data"
+    impact: "Low — covered by CollegeVine and AoPS forums"
+
+common_pain_points:
+  - "When should I start my kid in competition math — is 2nd grade too early or too late?"
+  - "My kid is good at school math but struggles with competition problems — is that normal?"
+  - "How much time per week should a middle schooler spend on competition prep?"
+  - "Is AoPS the only option or are there alternatives that work just as well?"
+  - "How do I know if my child has real olympiad-level talent vs. just being ahead?"
+  - "Should I push my kid into competitions or wait for them to show interest?"
+  - "The competition pipeline (AMC to AIME to USAMO) is confusing — what scores qualify?"
+  - "Summer programs are expensive and selective — how do I choose and is financial aid available?"
+  - "My child is burning out on math competitions — how do I handle this?"
+  - "Does competition math actually help with college admissions or is it overrated?"
+  - "Acceleration vs. enrichment — should my kid skip a grade in math or go deeper?"
+  - "How do I balance competition prep with regular schoolwork and a normal childhood?"
+  - "What books should my child be working through at each stage?"
+  - "Physics competitions seem harder to find information about — where do I start?"
+  - "My kid loves math but hates the pressure of timed tests — what should I do?"
+  - "How do kids who make USAMO actually prepare — what does their daily routine look like?"
+  - "Is private coaching worth the cost, or can self-study with AoPS books work?"
+
+preliminary_question_seeds:
+  - text: "What does the full competition pipeline look like from elementary through IMO/IPhO?"
+    source: "AoPS wiki, multiple competition guide sites"
+    urgency: high
+  - text: "What are realistic qualification rates and scores at each level of AMC/AIME/USAMO?"
+    source: "thethinkacademy.com, collegebase.org"
+    urgency: high
+  - text: "What is the difference between enrichment and acceleration for gifted math students?"
+    source: "NAGC, thethinkacademy.com, Davidson Institute"
+    urgency: high
+  - text: "What are signs a child has genuine olympiad-level aptitude vs. being grade-advanced?"
+    source: "lgmath.com, parenting blogs"
+    urgency: high
+  - text: "How do USAMO qualifiers and IMO medalists describe their preparation trajectory?"
+    source: "blog.evanchen.cc, AoPS forums"
+    urgency: medium
+  - text: "What are the real costs of competitive math preparation at each level?"
+    source: "thethinkacademy.com (5-10h/week AMC, 15-25h/week USAMO)"
+    urgency: high
+  - text: "How do competition achievements translate into college admissions advantages?"
+    source: "collegebase.org (50%+ MIT admit rate for USAMO qualifiers)"
+    urgency: high
+  - text: "What should physics olympiad preparation look like and when should it start?"
+    source: "physicsforums.com, awesomemath.org"
+    urgency: medium

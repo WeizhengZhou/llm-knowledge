@@ -1,0 +1,24 @@
+topic: how to raise kid for stem and competitive math/physics stem areas, from K to
+  12
+slug: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+searches_used: 0
+fetches_used: 0
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.3
+    depth: 0.5
+    gap_fill: 0.15
+    verification: 0.05
+phase_status:
+  breadth: pending
+  depth: pending
+  gap_fill: pending
+  extraction: pending
+  fact_check: pending
+  compilation: pending
+  lint: pending
+last_run: null
+pipeline_context: {}

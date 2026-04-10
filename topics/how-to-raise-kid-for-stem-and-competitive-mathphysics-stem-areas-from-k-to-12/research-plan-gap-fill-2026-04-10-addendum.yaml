@@ -1,0 +1,299 @@
+# Gap-Fill Phase Addendum — 2026-04-10
+# Produced by: research-agent
+# Phase: gap_fill
+# Status: complete (all 9 gap-fill questions answered)
+# Searches used in gap-fill phase: 9 (s-2026-04-10-030 through s-2026-04-10-038)
+# Fetches used in gap-fill phase: ~14 (mix of WebFetch and Chrome MCP)
+
+budget_update:
+  searches_used_total: 38   # 11 breadth + 18 depth + 9 gap-fill
+  fetches_used_total: 48    # 34 prior + 14 gap-fill
+  gap_fill_phase_status: complete
+  all_phases_complete: true
+
+phases_update:
+  gap_fill:
+    status: complete
+    completed_at: 2026-04-10
+    questions: [qgf1, qgf2, qgf3, qgf4, qgf5, qgf6, qgf7, qgf8, qgf9]
+
+# ────────────────────────────────────────────────────────────────────────────────
+# GAP-FILL QUESTIONS (9 questions, all answered)
+# ────────────────────────────────────────────────────────────────────────────────
+
+gap_fill_questions:
+
+  - id: qgf1
+    text: "What is the MATHCOUNTS competition format in detail — Sprint/Target/Team/Countdown rounds, school/chapter/state/national advancement, eligibility rules, and preparation approach?"
+    facet: WHAT
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: high
+    spawned_reason: "MATHCOUNTS mentioned throughout breadth/depth but never had a dedicated detailed source; critical for parent roadmap"
+    search_queries:
+      - id: s-2026-04-10-030
+        query: "MathCounts competition format school chapter state national level rules eligibility 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-10_mathcounts-competition-series.md
+    new_concepts_discovered:
+      - "MATHCOUNTS 3-year participation limit"
+      - "NSC (Non-School Competitor) pathway for students whose school doesn't register"
+      - "National Competition May 10-11 2026"
+      - "MATHCOUNTS developing grades 3-5 program"
+    children: []
+
+  - id: qgf2
+    text: "What is the complete AoPS book list with difficulty levels, target grades, competition targets, and pricing? What are the AoPS online course offerings, pricing, and WOOT program details?"
+    facet: WHAT
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: high
+    spawned_reason: "AoPS is the primary resource mentioned across many questions; needed dedicated complete inventory for wiki article"
+    search_queries:
+      - id: s-2026-04-10-031
+        query: "Art of Problem Solving books complete list Volume 1 2 Introduction Intermediate series levels targeted"
+    raw_files:
+      - raw/web/official/2026-04-10_aops-books-and-courses.md
+    new_concepts_discovered:
+      - "MathWOOT Level 1 ($895/7 months)"
+      - "MathWOOT Level 2 ($895/7 months)"
+      - "PhysicsWOOT ($845/7 months)"
+      - "AMC 10 Problem Series ($415/12 weeks)"
+      - "AIME Problem Series A/B ($415 each)"
+      - "F=ma Problem Series ($415)"
+      - "Competition Math for Middle School by Jason Batterson ($29.50)"
+      - "AoPS is ACS WASC accredited school"
+      - "AoPS Prealgebra textbook ($59), Intro Algebra ($67), Intermediate Algebra ($74)"
+    children: []
+
+  - id: qgf3
+    text: "How does MOEMS (Math Olympiads for Elementary and Middle Schools) work — division structure, contest format, how to participate, scoring, and why it's a good entry point for grades 4-6?"
+    facet: WHAT
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: medium
+    spawned_reason: "MOEMS discovered in search-log-001 as a key entry competition but never had dedicated coverage"
+    search_queries:
+      - id: s-2026-04-10-032
+        query: "MOEMS Math Olympiad Elementary Middle School format how to register participate grades 4-8"
+    raw_files:
+      - raw/web/official/2026-04-10_moems-format-participation.md
+    new_concepts_discovered:
+      - "George Lenchner Medallion for perfect score (25/25)"
+      - "120,000+ students in 39 countries"
+      - "Grade 6 students can participate in either Division E or M but not both"
+      - "Up to 35 students per team"
+    children: []
+
+  - id: qgf4
+    text: "What is ARML (American Regions Mathematics League) — format of each round, how students qualify for a regional team, and how it fits into the high school competition landscape?"
+    facet: WHAT
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: medium
+    spawned_reason: "ARML mentioned in competition landscape but never described in detail; Power Question format is unique and worth documenting"
+    search_queries:
+      - id: s-2026-04-10-033
+        query: "ARML American Regions Mathematics League format team relay individual super relay how to participate"
+    raw_files:
+      - raw/web/official/2026-04-10_arml-math-league-format.md
+    new_concepts_discovered:
+      - "ARML Power Question (proof-writing round, 1 hour, entire team)"
+      - "ARML held simultaneously at 5 sites first Saturday after Memorial Day"
+      - "ARML Local as lower-stakes practice competition"
+      - "Team of exactly 15 members required"
+    children: []
+
+  - id: qgf5
+    text: "What is HCSSiM (Hampshire College Summer Studies in Mathematics) — philosophy, structure, who should apply, how it compares to PROMYS/Ross/Mathcamp, and application process?"
+    facet: WHERE
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: medium
+    spawned_reason: "HCSSiM discovered in search-log-005 but grouped only with other summer programs; unique philosophy and structure warrant separate entry"
+    search_queries:
+      - id: s-2026-04-10-034
+        query: "HCSSiM Hampshire College Summer Studies Mathematics program details how to apply age requirements 2025"
+    raw_files:
+      - raw/web/official/2026-04-10_hcssim-summer-math-program.md
+    new_concepts_discovered:
+      - "HCSSiM 2026 dates June 28 – August 8"
+      - "HCSSiM cost $7,208 with ample financial aid"
+      - "54th consecutive annual session"
+      - "Interesting Test as centerpiece of application"
+      - "4 hours morning + 3 hours evening daily"
+      - "Mathematical age prioritized over chronological age"
+      - "Active gender balance maintained"
+    children: []
+
+  - id: qgf6
+    text: "What is USAMTS (USA Mathematical Talent Search) — format, round structure, proof-writing feedback system, how to use it for training, and how it qualifies students for AIME?"
+    facet: WHAT
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: high
+    spawned_reason: "USAMTS mentioned as key untimed alternative but listed only as concept in new_concepts_discovered; needed full entry for students who struggle with timed tests"
+    search_queries:
+      - id: s-2026-04-10-035
+        query: "USAMTS USA Mathematical Talent Search format how to use training self-study round structure"
+    raw_files:
+      - raw/web/official/2026-04-10_usamts-format-training.md
+    new_concepts_discovered:
+      - "USAMTS qualifies for AIME as alternative to AMC 10/12"
+      - "0-5 per problem grading with personalized written feedback"
+      - "Completely free competition"
+      - "3 rounds per year, over 1 month per round"
+      - "Top 45% receive prizes (math books, t-shirts, Wolfram software)"
+      - "NSA-supported"
+    children: []
+
+  - id: qgf7
+    text: "What are the key differences between Regeneron STS and ISEF — eligibility, format, what kind of research wins each, timeline, and which is more prestigious?"
+    facet: COMPARE
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: high
+    spawned_reason: "Both mentioned in breadth/depth but only compared superficially; parents specifically need to understand the distinction and strategy"
+    search_queries:
+      - id: s-2026-04-10-036
+        query: "Regeneron STS vs ISEF differences what kind of research wins Regeneron Science Talent Search project requirements 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+    new_concepts_discovered:
+      - "JSHS temporarily suspended as of late 2025"
+      - "STS is holistic review like selective college application"
+      - "STS $250,000 top prize / $3.1M total annually"
+      - "ISEF $100,000 top prize / $9M total annually"
+      - "STS: 300 Scholars then 40 Finalists from ~2,500 applicants"
+      - "STS requires completed research before senior year"
+      - "20 categories of entry in Regeneron STS"
+      - "Math project won STS top prize in 2025 (solving a long-standing math problem)"
+    children: []
+
+  - id: qgf8
+    text: "What does Po-Shen Loh's Expii platform offer for students — features, target level, cost, and how it compares to AoPS for different student types?"
+    facet: WHAT
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: low
+    spawned_reason: "Expii mentioned in expert philosophies file but not described; free resource worth documenting for parents"
+    search_queries:
+      - id: s-2026-04-10-037
+        query: "Po-Shen Loh Expii platform what does it offer math learning features 2024 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_po-shen-loh-expii-platform.md
+    new_concepts_discovered:
+      - "Expii free adaptive platform for MATHCOUNTS/AMC 8 level"
+      - "LIVE platform with student teachers teaching 60-90 min classes"
+      - "Daily Challenge with Math Kangaroo collaboration"
+      - "150+ problems per module on Expii"
+      - "Po-Shen Loh is CMU professor + US IMO coach"
+    children: []
+
+  - id: qgf9
+    text: "What do experienced parents in competition math forums say about program choices, starting ages, burnout risks, and AoPS vs. RSM vs. other approaches?"
+    facet: META
+    phase: gap_fill
+    status: answered
+    answered_at: 2026-04-10
+    priority: medium
+    spawned_reason: "Community perspectives L4 source needed; existing depth file captured academic/coaching perspectives but not peer parent experience"
+    search_queries:
+      - id: s-2026-04-10-038
+        query: "AoPS forum Reddit gifted kids parents competition math experience advice r/giftedkids r/math 2024"
+    raw_files:
+      - raw/web/community/2026-04-10_parent-forum-competition-math-advice.md
+    new_concepts_discovered:
+      - "Replacement vs. add-on distinction is critical for gifted student motivation"
+      - "RSM serves high-average to moderately gifted vs AoPS for competition-track"
+      - "Private tutoring becomes relevant at AIME+ level for proof feedback"
+      - "Kumon for early arithmetic fluency then switch to problem-solving programs by grade 3-4"
+      - "Most successful national competitors started organized prep grades 5-7"
+    children: []
+
+# ────────────────────────────────────────────────────────────────────────────────
+# NEW CONCEPTS DISCOVERED DURING GAP-FILL PHASE
+# ────────────────────────────────────────────────────────────────────────────────
+
+new_concepts_discovered:
+  - concept: "MATHCOUNTS NSC (Non-School Competitor) pathway"
+    relevance: 8
+    status: covered_by_search
+    covered_by: qgf1
+    notes: "Students whose school doesn't register can compete individually as NSC through chapter and state to national"
+
+  - concept: "ARML Power Question (proof writing)"
+    relevance: 7
+    status: covered_by_search
+    covered_by: qgf4
+    notes: "Unique 1-hour proof-based round that differentiates ARML from timed competitions"
+
+  - concept: "JSHS temporarily suspended (as of late 2025)"
+    relevance: 7
+    status: covered_by_search
+    covered_by: qgf7
+    notes: "Third major science competition, JSHS, is suspended; important for wiki currency"
+
+  - concept: "Math project won Regeneron STS top prize in 2025"
+    relevance: 7
+    status: covered_by_search
+    covered_by: qgf7
+    notes: "Theoretical mathematics can win STS, not just lab science"
+
+  - concept: "HCSSiM Interesting Test"
+    relevance: 7
+    status: covered_by_search
+    covered_by: qgf5
+    notes: "Distinctive application method: math problem set sent in March, rolling decisions"
+
+  - concept: "USAMTS as alternative AIME qualification pathway"
+    relevance: 9
+    status: covered_by_search
+    covered_by: qgf6
+    notes: "Students can qualify for AIME via USAMTS without taking AMC 10/12 — important for timed-test-averse students"
+
+# ────────────────────────────────────────────────────────────────────────────────
+# STOP CONDITION REACHED
+# ────────────────────────────────────────────────────────────────────────────────
+
+stop_condition: all_gap_fill_questions_answered
+searches_budget_used: 38/50  # 76% — within budget, gap_fill reserve not exceeded
+fetches_budget_used: 48/100  # 48% — well within budget
+
+# ────────────────────────────────────────────────────────────────────────────────
+# AGENT NOTES
+# ────────────────────────────────────────────────────────────────────────────────
+
+agent_notes: >
+  All 9 gap-fill questions answered in single pass. Budget used: 38/50 searches (76%),
+  well within budget. Gap-fill focused on the 10 specific areas requested:
+
+  1. MATHCOUNTS (qgf1) — fully covered from official site + Chrome MCP snapshot
+  2. AoPS books and courses (qgf2) — complete book list with pricing from Chrome MCP
+  3. MOEMS (qgf3) — official site WebFetch successful; full format documented
+  4. ARML (qgf4) — Wikipedia + ARML official page; Math League format documented
+  5. HCSSiM (qgf5) — official site successful; unique program documented
+  6. USAMTS (qgf6) — official site successful; proof-training value documented
+  7. Regeneron STS vs ISEF (qgf7) — detailed comparison including JSHS suspension
+  8. Expii/Po-Shen Loh (qgf8) — platform features documented; positioned vs AoPS
+  9. Community perspectives (qgf9) — Davidson Gifted Forums accessed; Reddit blocked
+
+  Deduplication note: AoPS book list (qgf2) partially overlaps with existing
+  competition-math-books-progression.md (s-2026-04-10-016) but adds official pricing,
+  course list, and WOOT details not present in the earlier file. No duplicate question
+  created — this is a deeper fill of the same topic area.
+
+  Remaining minor gaps not worth additional searches at this budget point:
+  - Math League (separate from ARML) — brief coverage in ARML file is sufficient
+  - Specific USAMTS problem examples — official PDFs linked but not fetched
+  - AoPS community forum threads — Reddit blocked; Davidson forums partially accessed
+
+  Recommendation: ready for claim-extractor-agent to proceed.

@@ -1,0 +1,1448 @@
+topic: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+verified_at: 2026-04-10T22:00:00Z
+claims_processed: 126
+must_verify_processed: 35
+gate_status: BLOCKED  # c058 contains confirmed-false claim about ISEF top prize identity
+
+# ============================================================================
+# VERIFIED CLAIMS — must_verify (Priority 1)
+# ============================================================================
+
+verified_claims:
+
+  # --------------------------------------------------------------------------
+  # ENTITY: amc-aime-usamo-pipeline
+  # --------------------------------------------------------------------------
+
+  - id: c002
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "AMC 8 is a 25-question, 40-minute multiple-choice competition."
+    sources_checked: 2
+    source_used: "maa.org/student-programs/amc/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Format confirmed by MAA official + AwesomeMath aggregator."
+
+  - id: c003
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "AMC 10 and AMC 12 are each 25-question, 75-minute multiple-choice tests."
+    sources_checked: 2
+    source_used: "maa.org/student-programs/amc/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Format confirmed by MAA official + RSM aggregator."
+
+  - id: c005
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "For the 2025-2026 cycle, AMC 10 A and AMC 12 A were held November 5, 2025; AMC 10 B and AMC 12 B were held November 13, 2025."
+    sources_checked: 2
+    source_used: "maa.org/student-programs/amc/ + maa.org/news/2025-26-aime-thresholds (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Both MAA official sources agree. Cycle-bound to 2025-2026."
+
+  - id: c006
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "For the 2025-2026 cycle, the AMC 8 competition window was January 22-30, 2026."
+    sources_checked: 3
+    source_used: "maa.org/student-programs/amc/ + maa.org/news/2025-26-aime-thresholds (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Both MAA official sources state January 22-30. The AoPS meta file listed January 22-31, which is a minor discrepancy; MAA official governs. Live search confirms January 22-30 (window extended from original dates due to winter storm)."
+
+  - id: c007
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "For the 2025-2026 cycle, AIME I was held February 5, 2026; AIME II was held February 11, 2026."
+    sources_checked: 2
+    source_used: "maa.org/news/2025-26-aime-thresholds + awesomemath.org calendar (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "MAA official + AwesomeMath aggregator agree."
+
+  - id: c008
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to ThinkAcademy, the 2026 USAMO and USAJMO were held March 21-22, 2026, in 4.5-hour sessions with three problems per day."
+    sources_checked: 1
+    source_used: "thethinkacademy.com USAMO guide (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Single L3 source. Format (4.5-hour, 3 problems/day) is well-established and consistent with historical USAMO format, but the specific 2026 dates could not be confirmed against MAA official source."
+
+  - id: c009
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "AIME qualification requires finishing in the top 2.5% of AMC 10 participants or the top 5% of AMC 12 participants; approximately 6,000-7,000 students qualify annually."
+    sources_checked: 2
+    source_used: "maa.org/student-programs/amc/ + maa.org/news/2025-26-aime-thresholds (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Percentages are MAA policy; the approximate student count may vary year to year."
+
+  - id: c010
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "As of August 2025, international students no longer affect AIME cutoffs."
+    sources_checked: 2
+    source_used: "maa.org/student-programs/amc/ + maa.org/news/2025-26-aime-thresholds (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Policy change confirmed by two MAA official sources."
+
+  - id: c011
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "For 2025-2026 onward, the USAMO/USAJMO qualifying index formula is (AIME score x 20) + AMC score. The previous formula (through 2024-2025) was (AIME score x 10) + AMC score."
+    sources_checked: 3
+    source_used: "maa.org/news/2025-26-aime-thresholds + aops.com/wiki/AMC_historical_results + thethinkacademy.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Triple-confirmed across MAA official, AoPS wiki, and ThinkAcademy."
+
+  - id: c013
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Approximately the top 11% of all AIME participants are selected for USAMO or USAJMO, totaling roughly 500 students."
+    sources_checked: 2
+    source_used: "maa.org/student-programs/amc/ + maa.org/news/2025-26-aime-thresholds (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Both MAA official sources agree. The ~500 count may vary slightly year to year."
+
+  - id: c015
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Approximately 300,000 students participate in AMC 10/12 annually; roughly 10,000 advance to AIME; approximately 500 qualify for USAMO/USAJMO combined. Fewer than 0.2% of initial AMC participants ultimately qualify for USAMO."
+    sources_checked: 2
+    source_used: "maa.org/news/2025-26-aime-thresholds + collegebase.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "MAA official source + L3 aggregator agree on all figures."
+
+  - id: c016
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Under the old formula (AIME x 10 + AMC), USAMO/USAJMO historical cutoffs were: 2024-2025 USAMO 237 (12A) / 249.5 (12B), USAJMO 233 (10A) / 243 (10B); 2023-2024 USAMO 242 (12A) / 251.5 (12B), USAJMO 233.5 (10A) / 241 (10B)."
+    sources_checked: 2
+    source_used: "artofproblemsolving.com/wiki/AMC_historical_results + thethinkacademy.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: none
+    notes: "Historical data. AoPS and ThinkAcademy values consistent; sub-value differences reflect AIME I vs AIME II cutoffs, not a real conflict."
+
+  - id: c018
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The AIME is a 15-question, 3-hour exam with integer answers in the range 000-999."
+    sources_checked: 2
+    source_used: "awesomemath.org/math-competition-calendar + mathschool.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Two L3 sources agree. This format has been stable for decades. No MAA official text in raw files explicitly states format, but it is widely corroborated."
+
+  - id: c022
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to ThinkAcademy, students may take the AIME only once per cycle; if they took both A-date and B-date AMC exams, both AMC scores are matched with the single AIME score and the higher qualifying index is used."
+    sources_checked: 1
+    source_used: "thethinkacademy.com USAMO guide (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source. Process rule is consistent with MAA pipeline logic but not directly confirmed in the L1 raw file text captured. Attribution required."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: usapho-iphysics-pipeline
+  # --------------------------------------------------------------------------
+
+  - id: c025
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The F=ma exam is a 75-minute, 25 multiple-choice question exam focusing exclusively on classical mechanics."
+    sources_checked: 2
+    source_used: "aapt.org/physicsteam/PT-landing.cfm + aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Two AAPT official sources confirm format."
+
+  - id: c026
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The 2026 F=ma exam was held February 12, 2026."
+    sources_checked: 1
+    source_used: "aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Single L1 AAPT official source."
+
+  - id: c027
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The F=ma qualifying score for USAPhO typically ranges from 14 to 18 out of 25; the 2025 cutoff was 15. Approximately 400 students advance to USAPhO."
+    sources_checked: 1
+    source_used: "aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 AAPT official source. Cutoff score changes annually."
+
+  - id: c030
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Approximately 20 students are selected for the US Physics Team Training Camp, a 10-day camp at the University of Maryland. The top 5 are selected to represent the US at the International Physics Olympiad."
+    sources_checked: 2
+    source_used: "aapt.org/physicsteam/PT-landing.cfm + aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Two AAPT official sources confirm. The ~20 figure is approximate and may vary slightly."
+
+  - id: c031
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The 56th International Physics Olympiad is scheduled for Bucaramanga, Colombia, July 4-12, 2026."
+    sources_checked: 1
+    source_used: "aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Single L1 AAPT official source."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: mathcounts
+  # --------------------------------------------------------------------------
+
+  - id: c036
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "MATHCOUNTS Sprint Round: 30 problems in 40 minutes, individual, no calculator. Target Round: 8 problems in 4 pairs with 6 minutes per pair, calculator permitted. Team Round: 10 problems in 20 minutes for a team of up to 4 students."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 official source. Format has been stable."
+
+  - id: c038
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "For the 2025-2026 cycle, MATHCOUNTS Chapter Competitions run February 1-28, 2026; State Competitions March 1-31, 2026; National Competition May 10-11, 2026."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Single L1 official source."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: moems
+  # --------------------------------------------------------------------------
+
+  - id: c044
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "MOEMS holds 5 monthly contests per year (November through March), each with 5 problems in 30 minutes. Scoring is 1 point per correct answer with no partial credit, for a maximum of 25 points per year."
+    sources_checked: 1
+    source_used: "moems.org/pages/about-the-program (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 official source. Format has been stable."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: usamts
+  # --------------------------------------------------------------------------
+
+  - id: c052
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "USAMTS has 3 rounds per year, each with 5 problems (1 puzzle + 4 proof-based problems) and over 1 month to solve. Any resources are allowed except help from another person. Each problem is graded 0-5 with personalized written feedback."
+    sources_checked: 1
+    source_used: "usamts.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 official source."
+
+  - id: c053
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Strong USAMTS performance is one pathway to qualify for the AIME as an alternative to AMC 10/12. According to AwesomeMath, a score of approximately 68/75 or higher is needed."
+    sources_checked: 2
+    source_used: "usamts.org + awesomemath.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "L1 confirms AIME qualification pathway exists; L3 provides the approximate threshold. Threshold may change."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: science-competitions
+  # --------------------------------------------------------------------------
+
+  - id: c058
+    verdict: blocked
+    confidence: L5
+    original_claim: "ISEF top prize is the Gordon E. Moore Award. One source states $75,000; another source states $100,000."
+    block_reason: "CONFIRMED FALSE. The Gordon E. Moore Award is NOT the ISEF top prize. Per the Society for Science official awards page (retrieved 2026-04-10), the ISEF top prize is the George D. Yancopoulos Innovator Award at $100,000. The Gordon E. Moore Award for Positive Outcomes for Future Generations is a separate $50,000 prize. The $75,000 figure appears to confuse it with the Regeneron Young Scientist Awards ($75,000 each). Both source documents contain incorrect information about this prize."
+    last_verified: 2026-04-10
+    correct_values:
+      yancopoulos_innovator_award: "$100,000 (ISEF top prize)"
+      regeneron_young_scientist_awards: "$75,000 each (2 awards)"
+      gordon_e_moore_award: "$50,000 (Positive Outcomes for Future Generations)"
+      total_annual_awards: "more than $9 million"
+    replacement_permitted_language: "The ISEF top prize is the George D. Yancopoulos Innovator Award ($100,000). Additional top awards include two Regeneron Young Scientist Awards ($75,000 each) and the Gordon E. Moore Award for Positive Outcomes for Future Generations ($50,000). Regeneron ISEF awards more than $9 million annually."
+    volatile: annual
+
+  - id: c061
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Society for Science, approximately 2,600 students enter Regeneron STS annually (2,612 in the 2026 cycle, the largest pool since 1967). Of these, 300 are recognized as Scholars (each receiving $2,000) and 40 are selected as Finalists (each receiving at least $25,000, with a top prize of $250,000). Total prizes are approximately $1.8 million annually."
+    sources_checked: 3
+    source_used: "societyforscience.org/press-release/regeneron-sts-2026-scholars/ (live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "The L1 raw file stated ~1,900 applicants (likely older data). Live verification shows 2,612 for 2026 cycle. The L2 source's ~2,500 figure was closer. The $3.1 million total in the L2 source may include school awards; the press release states $1.8 million in direct prizes to students."
+
+  - id: c063
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the Society for Science, STS applications open in June and are due in November of the student's senior year. Research must be substantially complete before senior year begins."
+    sources_checked: 1
+    source_used: "riseglobaleducation.com STS comparison (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L2 source. Timeline is consistent with STS process but specific month may vary by cycle."
+
+  - id: c065
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to multiple sources, the Junior Science and Humanities Symposia (JSHS), administered by the U.S. Army, Navy, and Air Force, was suspended as of October 1, 2025 until further notice."
+    sources_checked: 2
+    source_used: "jshs.org + live web search (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "L2 source confirmed by live search. JSHS website shows suspension notice. Status is time-sensitive; may be reinstated."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: summer-programs
+  # --------------------------------------------------------------------------
+
+  - id: c069
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Ross Mathematics Program 2026 runs 6 weeks (June 14 - July 24) at two simultaneous sites: Otterbein University (Columbus, OH) and Rose-Hulman Institute of Technology (Terre Haute, IN). The 2026 fee is $7,500."
+    sources_checked: 2
+    source_used: "rossprogram.org (raw file + live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Live search confirms dates and cost. Cost of $7,500 matches raw file."
+
+  - id: c072
+    verdict: downgraded
+    confidence: L2
+    original_claim: "PROMYS 2025 cost: $6,100 full program; free for domestic students from families earning under $80,000/year."
+    permitted_language: "According to PROMYS, the 2026 PROMYS program costs up to $7,000 for 6 weeks at Boston University (June 28 - August 8, 2026). It is free for domestic students from families earning under $80,000/year, with need-based financial aid available at all income levels. The 2025 cost was $6,100."
+    sources_checked: 3
+    source_used: "promys.org/programs/promys/for-students/ (live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Live search reveals 2026 cost is $7,000, up from $6,100 in 2025. Raw file had 2025 pricing. Updated to current cycle."
+
+  - id: c073
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Canada/USA Mathcamp 2026 costs $7,500 (tuition, room, board, local transport) and runs 5 weeks (June 28 - August 2) at Champlain College in Burlington, Vermont. It is free for US/Canadian households earning under $100,000 annually. There is no application fee. The program serves students ages 13-18."
+    sources_checked: 2
+    source_used: "mathcamp.org/admission/tuition/ (live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Live search confirms $7,500 for 2026. The L3 source's $6,600 was 2025 pricing. No conflict: annual price increase."
+
+  - id: c074
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the Center for Excellence in Education, RSI (Research Science Institute) is hosted at MIT and is a free 6-week program (tuition, room, and board all covered). RSI receives over 3,100 applications per year and accepts approximately 100 students (roughly 60-70 domestic), for an acceptance rate of approximately 2.5-3%. The application deadline is in December."
+    sources_checked: 2
+    source_used: "cee.org/programs/apply-rsi + live search (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Raw file said ~3,000 applicants and ~80-100 accepted. Live search confirms 3,100+ applicants, ~100 accepted. Slight update in numbers."
+
+  - id: c076
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "HCSSiM (Hampshire College Summer Studies in Mathematics) 2026 runs 6 weeks (June 28 - August 8) at Hampshire College in Amherst, MA. This is the 54th session. The 2026 tuition is $7,208, covering tuition, room, meals, local transport, and recreational activities."
+    sources_checked: 2
+    source_used: "hcssim.org (raw file + live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Live search confirms $7,208 and dates."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: training-providers
+  # --------------------------------------------------------------------------
+
+  - id: c084
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a review of training providers, AoPS online courses cost approximately $415-$895 per course depending on level and duration. WOOT (Worldwide Online Olympiad Training) costs $845-$895."
+    sources_checked: 2
+    source_used: "expii.com comparison + live search (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "L2 source pricing. Live search found AoPS courses in $400-$800 range, broadly consistent. AoPS is WASC-accredited (confirmed via live search)."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: elementary-curricula
+  # --------------------------------------------------------------------------
+
+  - id: c092
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Art of Problem Solving, Beast Academy curriculum costs approximately $118 per level (online subscription or physical books) and covers grades 2-5 (Levels 2A-5D) in a comic-style format."
+    sources_checked: 1
+    source_used: "artofproblemsolving.com/beast-academy (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source but pricing is volatile. Attribution added."
+
+  - id: c093
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a comparison of elementary enrichment programs, Singapore Math curriculum costs approximately $122 per level, with the Standards Edition most commonly used in the US."
+    sources_checked: 1
+    source_used: "elementary-enrichment-programs-comparison.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source but pricing is volatile. Attribution added."
+
+  - id: c094
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "One review source lists Kumon monthly tuition at approximately $150-$200 per subject per month, using a worksheet-based drill approach. Kumon pricing varies significantly by location."
+    sources_checked: 1
+    source_used: "elementary-enrichment-k2-activities.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L3 source. Kumon pricing is highly location-dependent; this is an approximation only."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: acceleration-research
+  # --------------------------------------------------------------------------
+
+  - id: c097
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a Davidson Institute review of acceleration research, a meta-analysis of 314 studies found that academic acceleration has a large positive effect on academic achievement for gifted learners, with an effect size of 0.8 or greater."
+    sources_checked: 1
+    source_used: "davidsongifted.org/gifted-resources/articles/how-gifted-are-accelerated/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L2 source. Original meta-analysis not identified by name in the source. Attribution to Davidson required."
+
+  - id: c098
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a Davidson Institute review, subject acceleration (such as taking algebra in grade 6 instead of grade 8) has the highest effect size of all acceleration types, approximately 0.88."
+    sources_checked: 1
+    source_used: "davidsongifted.org/gifted-resources/articles/how-gifted-are-accelerated/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L2 source. Attribution required."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: college-admissions
+  # --------------------------------------------------------------------------
+
+  - id: c103
+    verdict: downgraded
+    confidence: L4
+    original_claim: "USAMO qualifiers have a greater than 50% acceptance rate at MIT, according to one source."
+    permitted_language: "One college admissions blog (CollegeBase) estimates that USAMO qualifiers have a greater than 50% acceptance rate at MIT, though MIT does not publish acceptance rates by competition status and this figure cannot be independently verified."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from potential fact to attributed unverifiable estimate. MIT does not publish this data."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: none
+    notes: "L3 source only. MIT does not publish competition-specific acceptance data. Cannot be stated as fact."
+
+  # --------------------------------------------------------------------------
+  # ENTITY: burnout-and-balance
+  # --------------------------------------------------------------------------
+
+  - id: c106
+    verdict: downgraded
+    confidence: L4
+    original_claim: "A survey of former competition math participants found that 83% reported experiencing significant burnout at some point, with 34% leaving competitive math entirely before completing high school."
+    permitted_language: "A Davidson Institute article reports that a survey of former competition math participants found 83% experienced significant burnout and 34% left competitive math before completing high school. The original survey methodology, sample size, and recruitment method are not specified in the source."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from L2 to L4 because the underlying survey is unidentified — no sample size, methodology, or citation provided. The statistic cannot be verified without the original study."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L2 source (Davidson) reporting an unidentified survey. Without the original study, this is effectively L4 evidence."
+
+# ============================================================================
+# VERIFIED CLAIMS — should_verify with single_source (Priority 2)
+# ============================================================================
+
+  - id: c001
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The AMC series comprises three competitions: AMC 8 (grade 8 and below, maximum age under 15.5), AMC 10 (grade 10 and below, maximum age under 17.5), and AMC 12 (grade 12 and below, maximum age under 19.5)."
+    sources_checked: 1
+    source_used: "maa.org/student-programs/amc/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L1 official source. Well-established structure."
+
+  - id: c004
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "AMC 12 covers the full high school mathematics curriculum including trigonometry, advanced algebra, and advanced geometry; calculus is excluded."
+    sources_checked: 1
+    source_used: "maa.org/student-programs/amc/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L1 official source."
+
+  - id: c012
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "For 2025-2026, the former AIME qualification score caps of 120 (AMC 10) and 100 (AMC 12) were removed; cutoffs can theoretically reach 150."
+    sources_checked: 2
+    source_used: "maa.org/news/2025-26-aime-thresholds + aops.com/wiki/AMC_historical_results (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Dual L1 source confirmation."
+
+  - id: c014
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The AMC competition pipeline proceeds: AMC 8 -> AMC 10/12 -> AIME -> USAMO/USAJMO -> MOP -> IMO."
+    sources_checked: 1
+    source_used: "maa.org/student-programs/amc/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L1 official source."
+
+  - id: c019
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to AwesomeMath, MOP (Mathematical Olympiad Program) is held in June for top USAMO and USAJMO performers. According to live verification, approximately 60-80 students are invited annually, including additional female students for EGMO selection."
+    sources_checked: 3
+    source_used: "awesomemath.org + artofproblemsolving.com/wiki/MOP + maa.org/news (live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "The raw file stated 25-30 students (from an L3 source). Live search reveals 60-80 invited. The 25-30 figure appears to refer to a subset (top USAMO scorers only). Updated to the broader figure."
+
+  - id: c020
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to AwesomeMath, the International Mathematical Olympiad (IMO) is held in July; the US sends a team of 6 students; it is a two-day competition with six problems."
+    sources_checked: 1
+    source_used: "awesomemath.org/math-competition-calendar (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source but IMO format is well-established global knowledge."
+
+  - id: c021
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to ThinkAcademy, USAJMO qualification is based on AMC 10 + AIME scores, while USAMO qualification is based on AMC 12 + AIME scores. A student who qualifies for both is invited to USAMO."
+    sources_checked: 1
+    source_used: "thethinkacademy.com USAMO guide (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source. Consistent with MAA pipeline logic."
+
+  - id: c023
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to ThinkAcademy, the MAA also invites top-scoring girl-identifying AMC students to the USAMO and USAJMO each year as part of its commitment to inclusivity."
+    sources_checked: 1
+    source_used: "thethinkacademy.com USAMO guide (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source. Attribution required."
+
+  - id: c024
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The US physics competition pipeline proceeds: F=ma exam -> USAPhO semifinal -> US Physics Team Training Camp (University of Maryland) -> IPhO team (top 5 students)."
+    sources_checked: 2
+    source_used: "aapt.org/physicsteam/PT-landing.cfm + aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Dual L1 AAPT official sources."
+
+  - id: c028
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The USAPhO semifinal is a 3-hour free-response exam divided into two 90-minute sections, covering all introductory physics topics including mechanics, electromagnetism, thermodynamics, relativity, nuclear/atomic/particle physics, waves, optics, and data analysis."
+    sources_checked: 2
+    source_used: "aapt.org/physicsteam/PT-landing.cfm + aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Dual L1 AAPT official sources."
+
+  - id: c029
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to AAPT, USAPhO medal distribution is approximately: Gold top 10-12%, Silver next 14-16%, Bronze next 20-22%, Honorable Mention next 24-26%. Cutoffs vary annually."
+    sources_checked: 1
+    source_used: "aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source. Attribution added for single-source claim."
+
+  - id: c032
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to AAPT, the Physics Bowl is a separate annual physics competition administered by AAPT, held March-April each year with 40 multiple-choice questions."
+    sources_checked: 1
+    source_used: "aapt.org/physicsteam/PT-landing.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c033
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to AAPT, F=ma eligibility includes US citizens, permanent residents, or students currently attending US schools who are physically located in the US during testing. USAPhO requires US citizenship or permanent residency."
+    sources_checked: 1
+    source_used: "aapt.org/physicsteam/PT-students.cfm (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c034
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MATHCOUNTS, the Competition Series is open to students in grades 6-8 only, with participation limited to 3 years per student. No student who has completed grade 8 may compete."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c035
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MATHCOUNTS, the Competition Series has four levels (school, chapter, state, national) and four rounds (Sprint, Target, Team, Countdown)."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c037
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MATHCOUNTS, the Countdown Round is a head-to-head oral competition with 45 seconds per problem, used at chapter, state, and national levels."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c039
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MATHCOUNTS, the top 4 individuals from each state (224 competitors total) receive an all-expenses-paid trip to the National Competition."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c040
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MATHCOUNTS, a school may send up to 14 competitors to chapter: 4 for team plus up to 10 individuals. There are no additional fees for advancing to state or national level."
+    sources_checked: 1
+    source_used: "mathcounts.org/programs/mathcounts-competition-series (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c042
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MOEMS, more than 120,000 students from every US state and 39 additional countries participate each year."
+    sources_checked: 1
+    source_used: "moems.org/pages/about-the-program (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c043
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MOEMS, Division E covers grades 4-6 and Division M covers grades 6-8. Grade 6 students may participate in either division but not both."
+    sources_checked: 1
+    source_used: "moems.org/pages/about-the-program (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c045
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to MOEMS, teams may enroll up to 35 students per team. The program is open to public, private, parochial, and home schools."
+    sources_checked: 1
+    source_used: "moems.org/pages/about-the-program (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c047
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Wikipedia, ARML (American Regions Mathematics League) is an annual national high school math team competition held simultaneously at 5 US sites on the first Saturday after Memorial Day."
+    sources_checked: 1
+    source_used: "en.wikipedia.org/wiki/American_Regions_Mathematics_League (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source (Wikipedia)."
+
+  - id: c048
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Wikipedia, ARML 2025-2026 competition sites are University of Iowa, Penn State University, University of Nevada Reno, Western Carolina University, and Saint Anselm College."
+    sources_checked: 1
+    source_used: "en.wikipedia.org/wiki/American_Regions_Mathematics_League (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Single L2 source. Sites may change year to year."
+
+  - id: c049
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Wikipedia, ARML teams consist of 15 members representing a geographic region (typically a state or major city). Students must join a regional or state math team via their qualifying process."
+    sources_checked: 1
+    source_used: "en.wikipedia.org/wiki/American_Regions_Mathematics_League (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c050
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Wikipedia, ARML competition rounds include: Team Round (20 min, 10 problems), Power Question (1-hour proof exploration), Individual Round (5 sets of 2 problems, 10 min per set), Relay Round (groups of 3, 6 min per relay), and Super Relay (not scored toward official total)."
+    sources_checked: 1
+    source_used: "en.wikipedia.org/wiki/American_Regions_Mathematics_League (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c051
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to its official website, USAMTS (USA Mathematical Talent Search) is a free, proof-based math competition for US middle and high school students, administered by the Art of Problem Solving Foundation and supported by the National Security Agency."
+    sources_checked: 1
+    source_used: "usamts.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c054
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "AwesomeMath and RSM both list Math Kangaroo as an annual competition for grades 1-12, held on March 19, 2026, with 24 problems for grades 1-5 and 30 questions for grades 5+, all in 75 minutes."
+    sources_checked: 2
+    source_used: "awesomemath.org + mathschool.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: cycle_bound
+    notes: "Two L3 sources agree."
+
+  - id: c055
+    verdict: downgraded
+    confidence: L2
+    original_claim: "Regeneron ISEF is described as the largest pre-college science fair in the world and the most prestigious pre-university scientific and engineering research competition in the world."
+    permitted_language: "The Society for Science describes Regeneron ISEF as 'the world's largest pre-college STEM competition.'"
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'most prestigious' superlative with direct organizational self-description. 'Largest' is verifiable by participant count (~1,700 finalists from 60+ countries); 'most prestigious' is editorial."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: evergreen
+
+  - id: c056
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "ISEF eligibility requires grades 9-12 students to first compete in a Regeneron ISEF-affiliated science fair (regional or state) and win the right to attend. Team projects may have no more than 3 members."
+    sources_checked: 2
+    source_used: "societyforscience.org + riseglobaleducation.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L1 + L2 sources agree."
+
+  - id: c057
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Rise Global Education, approximately 1,700 ISEF finalists from 60+ countries compete at the international fair each year, with hundreds of thousands competing at local/regional levels first."
+    sources_checked: 1
+    source_used: "riseglobaleducation.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L2 source."
+
+  - id: c059
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the Society for Science, the Regeneron Science Talent Search was started in 1942 as the Westinghouse Science Talent Search and is described as the nation's oldest and most prestigious science research competition for high school students."
+    sources_checked: 1
+    source_used: "societyforscience.org/regeneron-sts/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: none
+    notes: "Historical fact. 'Oldest' is verifiable; 'most prestigious' is the organization's self-description, attributed accordingly."
+
+  - id: c060
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Regeneron STS eligibility is restricted to high school seniors (12th grade) enrolled in a US high school at time of application. US citizenship or residency is required."
+    sources_checked: 2
+    source_used: "societyforscience.org + riseglobaleducation.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "L1 + L2 sources agree."
+
+  - id: c062
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Rise Global Education, STS is entirely application-based (not a science fair). Materials include a research report (up to 20 pages), short essays, educator recommendations, academic transcript, and optional standardized test scores. Finalists travel to Washington, DC."
+    sources_checked: 1
+    source_used: "riseglobaleducation.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c064
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "STS alumni have earned thirteen Nobel Prizes."
+    sources_checked: 2
+    source_used: "riseglobaleducation.com + live search confirming via societyforscience.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Confirmed by live search across multiple sources. Count may increase over time."
+
+  - id: c066
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the competition description, Science Olympiad is a nationwide team competition (15 students per team) held in spring with 23 events spanning earth science, biology, chemistry, physics, and engineering. Division B covers grades 6-9; Division C covers grades 9-12. Competition levels proceed: Invitational -> Regional -> State -> National."
+    sources_checked: 1
+    source_used: "science-competitions-isef-sts-scioly.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c067
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the competition description, Science Olympiad requires school team registration; there is no individual application pathway."
+    sources_checked: 1
+    source_used: "science-competitions-isef-sts-scioly.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c068
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Rise Global Education, a math project won a top prize in Regeneron STS 2025, described as unusual but signaling that theoretical work is welcome."
+    sources_checked: 1
+    source_used: "riseglobaleducation.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: none
+    notes: "Historical event (2025 STS)."
+
+  - id: c070
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Ross Program materials, the acceptance rate is approximately 15% (based on 2023 data), with approximately 60 first-year students accepted per site and 500+ applicants per cycle (both sites combined). Most students are ages 15-18."
+    sources_checked: 1
+    source_used: "rossprogram.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source. Acceptance rate is 2023 data."
+
+  - id: c075
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to program materials, RSI eligibility is for rising high school seniors. Application requirements include an online application with essays, high school transcript, PSAT/SAT/ACT/AP scores, and two teacher recommendation letters."
+    sources_checked: 1
+    source_used: "ross-promys-mathcamp-comparison.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c077
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to HCSSiM, the daily schedule includes 4 hours of morning classes (Monday through Saturday) and 3-hour evening problem sessions, totaling approximately 7+ hours of active mathematics per day, 6 days per week. There are no hard age or grade cutoffs."
+    sources_checked: 1
+    source_used: "hcssim.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c078
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to HCSSiM, the application is free and includes a letter of application, a sponsor letter, and the 'Interesting Test' (a non-standard math problem set sent in March). Decisions are rolling, with a deadline for full consideration in late April."
+    sources_checked: 1
+    source_used: "hcssim.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c079
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "AdmissionsAngle lists SUMaC (Stanford University Mathematics Camp) 2025 residential cost at $8,575, with dates June 22 - July 18, 2025, and programs in Abstract Algebra & Number Theory (I) or Algebraic Topology (II). Financial aid is available. The 2025 application deadline was February 3."
+    sources_checked: 1
+    source_used: "admissionsangle.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L3 source with 2025 data only. 2026 pricing not yet confirmed."
+
+  - id: c080
+    verdict: downgraded
+    confidence: L3
+    original_claim: "MOSP (MOP) is described as 'S-Tier': only top 60 US high school students annually; free; at Carnegie Mellon University."
+    permitted_language: "AdmissionsAngle describes MOP as extremely selective and free. According to MAA and AoPS sources, approximately 60-80 students are invited annually (including additional female students for EGMO selection and some international participants). MOP has been held at various locations including Carnegie Mellon University and IMSA."
+    overreach_resolved: true
+    overreach_resolution: "Updated student count from 'top 60' to '60-80' based on live verification. Removed 'S-Tier' promotional language. Updated location to note variability."
+    sources_checked: 3
+    last_verified: 2026-04-10
+    volatile: annual
+
+  - id: c081
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "AdmissionsAngle lists MathPath (middle school program) 2025 cost at $6,300 (financial aid available), with dates June 29 - July 27, 2025, for ages 11-14, and an approximate acceptance rate of 30%."
+    sources_checked: 1
+    source_used: "admissionsangle.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L3 source with 2025 data."
+
+  - id: c082
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "AdmissionsAngle lists MathILy 2025 cost at $5,300 (financial aid available), running approximately 5 weeks with a curriculum covering discrete math, combinatorics, graph theory, geometry, and topology. The 2025 application deadline was April 29."
+    sources_checked: 1
+    source_used: "admissionsangle.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L3 source with 2025 data."
+
+  - id: c083
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "AdmissionsAngle lists AwesomeMath online summer program 2025 at $1,275-$1,575 per course, with three concurrent sessions (June-August 2025) and a competition-prep focus (AMC/AIME/USAMO). International students are eligible."
+    sources_checked: 1
+    source_used: "admissionsangle.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L3 source with 2025 data."
+
+  # --------------------------------------------------------------------------
+  # should_verify with overreach_flag (Priority 3)
+  # --------------------------------------------------------------------------
+
+  - id: c085
+    verdict: confirmed
+    confidence: L1
+    original_claim: "AoPS is now accredited and AoPS online courses can be used to substitute for school math courses."
+    permitted_language: "AoPS Online School is accredited by the Western Association of Schools and Colleges (ACS WASC). Most AoPS subject classes are NCAA approved, and two courses (Calculus and Physics 1: Mechanics) are College Board-approved AP courses."
+    overreach_resolved: true
+    overreach_resolution: "Upgraded from L4 to L1 after live verification confirmed accreditation on AoPS official site. Replaced vague forum claim with specific accreditation details."
+    sources_checked: 2
+    source_used: "artofproblemsolving.com/school/handbook/prospective/accreditation (live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+
+  - id: c086
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to AoPS, Alcumus is a free, adaptive online math practice tool."
+    sources_checked: 2
+    source_used: "artofproblemsolving.com/alcumus (live search 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Confirmed via live search. Upgraded from L4 forum source."
+
+  - id: c087
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Expii.com, it is a free personalized learning platform founded by Po-Shen Loh, targeting middle school level (grades 5-9), aligned with MATHCOUNTS and AMC 8, covering algebra, geometry, combinatorics, number theory, and probability."
+    sources_checked: 1
+    source_used: "expii.com review (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c088
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Expii.com, Po-Shen Loh is a professor at Carnegie Mellon University and served as the US IMO Team Coach, leading the US team to first place at the IMO in 2015 (for the first time in 21 years), 2016, and 2018."
+    sources_checked: 1
+    source_used: "expii.com review (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source. Historical facts about IMO wins are well-documented."
+
+  - id: c089
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to a review, live.poshenloh.com offers math classes taught by student teachers (high school/college competition math participants) via live streaming, with classes running 60-90 minutes covering MATHCOUNTS through AMC 10/12 level content."
+    sources_checked: 1
+    source_used: "po-shen-loh-expii-platform.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source. Cost details unconfirmed."
+
+  - id: c090
+    verdict: downgraded
+    confidence: L4
+    original_claim: "RSM (Russian School of Math) uses mastery-based Russian teaching methods; structured in-person format with weekly classes; placement based on ability assessment."
+    permitted_language: "Some parents on gifted education forums describe RSM (Russian School of Math) as using mastery-based methods with structured in-person weekly classes and ability-based placement, with more practice volume than AoPS-style homework."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from stated fact to forum attribution. These are parent characterizations, not official RSM descriptions."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: evergreen
+
+  - id: c099
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a Davidson Institute review, grade skipping (whole-grade acceleration) has an effect size of approximately 0.78."
+    sources_checked: 1
+    source_used: "davidsongifted.org (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c101
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a Davidson Institute review of the SMPY longitudinal study, students who were accelerated in math were significantly more likely to earn STEM degrees, publish research, and receive patents compared to non-accelerated gifted peers."
+    sources_checked: 1
+    source_used: "davidsongifted.org SMPY outcomes (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c102
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the Davidson Institute, scoring 500 or higher on the SAT math section before age 13 is a commonly cited threshold for profoundly mathematically gifted students."
+    sources_checked: 1
+    source_used: "davidsongifted.org gifted-resources (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source. Note: SAT format and scoring scale have changed over time."
+
+  - id: c104
+    verdict: downgraded
+    confidence: L4
+    original_claim: "College admissions impact by competition level: USAMO: 'transformative'; AIME: 'significant positive signal'; AMC 120+: 'moderate positive signal'; AMC 8 perfect: 'minor signal'."
+    permitted_language: "One college admissions blog (CollegeBase) characterizes the admissions impact of math competitions as follows: USAMO/USAJMO qualifier as a 'transformative' signal, AIME qualifier as a 'significant positive signal,' AMC 10/12 top score (120+) as a 'moderate positive signal,' and AMC 8 perfect score as a 'minor signal.' These are the blog's subjective assessments, not official admissions office statements."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from implied fact to explicitly attributed subjective assessment by a single aggregator."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: evergreen
+
+  - id: c105
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Rise Global Education, STS alumni have a notably high college admissions success rate at elite schools, and top colleges regularly announce STS Scholars and Finalists in admissions materials."
+    sources_checked: 1
+    source_used: "riseglobaleducation.com (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c107
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a Davidson Institute article, warning signs of competition math burnout include: avoiding math problems that were previously enjoyable, declining performance over multiple competitions, physical symptoms (headaches, sleep disruption) before competitions, and expressing negative beliefs about one's own ability."
+    sources_checked: 1
+    source_used: "davidsongifted.org burnout article (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c108
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to an Art of Problem Solving article, three dangers of competitive math are: ignoring social-emotional development, treating competitions as the only valid STEM path, and focusing on performance rather than understanding."
+    sources_checked: 1
+    source_used: "aops-pros-cons-math-competitions.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c110
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "One aggregator source estimates annual cost tiers for competitive math preparation as: Tier 1 ($0-$500/year) for free resources and competition registrations; Tier 2 ($500-$3,000/year) for AoPS books and 1-2 courses; Tier 3 ($3,000-$8,000/year) for multiple courses and summer programs; Tier 4 ($8,000-$20,000+/year) for private tutoring and selective summer programs. These are approximations that vary by geography and program choice."
+    sources_checked: 1
+    source_used: "costs-financial-aid-free-resources.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L3 source. Ranges are rough estimates."
+
+  - id: c111
+    verdict: downgraded
+    confidence: L4
+    original_claim: "Typical practice hours by competition level: AMC 8: 2-4 hrs/wk; AMC 10/12: 5-10 hrs/wk; AIME: 8-15 hrs/wk; USAMO: 15-25+ hrs/wk."
+    permitted_language: "One review source estimates practice hours by competition level as: AMC 8 preparation at 2-4 hours/week, AMC 10/12 at 5-10 hours/week, AIME at 8-15 hours/week, and USAMO-level at 15-25+ hours/week. These are unverified estimates from an aggregator site, not empirical data."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from L3 to L4 because no underlying data source is cited. Added explicit caveat about unverified nature."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: evergreen
+
+  - id: c112
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a STEM school review, Thomas Jefferson High School for Science and Technology (TJHSST) in Fairfax County, Virginia is consistently ranked among the top high schools in the US for STEM, with admission via a competitive entrance process."
+    sources_checked: 1
+    source_used: "stem-magnet-schools-tjhsst-imsa-stuy.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c113
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a STEM school review, the Illinois Mathematics and Science Academy (IMSA) in Aurora, Illinois is a tuition-free, 3-year residential public high school for Illinois students in grades 10-12, with approximately 300 students per grade."
+    sources_checked: 1
+    source_used: "stem-magnet-schools-tjhsst-imsa-stuy.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c114
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a STEM school review, Stuyvesant High School in New York City admits students solely based on the Specialized High School Admissions Test (SHSAT), accepting approximately 800 students per year from roughly 30,000 test-takers."
+    sources_checked: 1
+    source_used: "stem-magnet-schools-tjhsst-imsa-stuy.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L2 source. Admission numbers may vary."
+
+  - id: c115
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "One K-12 roadmap suggests that for grades K-2, focus should be on number sense, arithmetic fluency, and logic puzzles, with Beast Academy Online (Level 2) accessible for gifted K-2 students and Math Kangaroo as a first competition exposure."
+    sources_checked: 1
+    source_used: "k12-competitive-stem-roadmap.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source. This is a recommended pathway, not an empirically validated sequence."
+
+  - id: c116
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "One K-12 roadmap suggests that for grades 3-5, Beast Academy grades 3-5 and MOEMS Division E (starting grade 4) are appropriate, with a core goal of developing problem-solving instincts before formal algebra."
+    sources_checked: 1
+    source_used: "k12-competitive-stem-roadmap.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source."
+
+  - id: c117
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "One K-12 roadmap suggests that for grades 6-8, MATHCOUNTS, AMC 8, AoPS Prealgebra and Introduction to Algebra, and MOEMS Division M are appropriate. Advanced students may attempt AMC 10 in grade 8."
+    sources_checked: 1
+    source_used: "k12-competitive-stem-roadmap.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source."
+
+  - id: c118
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "One K-12 roadmap suggests that for grades 9-12, the path includes AMC 10/12 -> AIME -> USAMO, AoPS Intermediate/Advanced courses, F=ma (physics, typically starting grade 10+), science research for ISEF/STS (grades 10-12), and USAMTS for proof-writing development."
+    sources_checked: 1
+    source_used: "k12-competitive-stem-roadmap.md (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L3 source."
+
+  - id: c121
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to his website, Evan Chen's OTIS (Olympiad Training for Individual Study) is a structured olympiad math training program targeting AIME and USAMO level students. Chen is a USAMO winner and IMO gold medalist."
+    sources_checked: 1
+    source_used: "web.evanchen.cc/otis.html (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c123
+    verdict: downgraded
+    confidence: L4
+    original_claim: "MATHCOUNTS preparation typically begins in grade 6 with AoPS Prealgebra + handbooks. The transition from AMC 8 to AMC 10 is described as a significant difficulty jump."
+    permitted_language: "Some parents on gifted education forums report that MATHCOUNTS preparation typically begins in grade 6 with AoPS Prealgebra and MATHCOUNTS handbooks. The transition from AMC 8 to AMC 10 is frequently described on forums as a significant difficulty jump."
+    overreach_resolved: true
+    overreach_resolution: "Downgraded from stated fact to forum attribution."
+    sources_checked: 1
+    last_verified: 2026-04-10
+    volatile: evergreen
+
+  - id: c125
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the AoPS store, book prices include: Introduction to Algebra ($59), Introduction to Geometry ($63), Introduction to Counting & Probability ($59), Introduction to Number Theory ($59), Precalculus ($59), Intermediate Algebra ($63), and Intermediate Counting & Probability ($63)."
+    sources_checked: 1
+    source_used: "artofproblemsolving.com/store/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source. Prices subject to change."
+
+  - id: c126
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the AoPS store, The Art of Problem Solving Vol 1 costs $59, Vol 2 costs $63, and Competition Math for Middle School costs $45. MATHCOUNTS competition handbooks are available free from the MATHCOUNTS website."
+    sources_checked: 1
+    source_used: "artofproblemsolving.com/store/ (retrieved 2026-04-10)"
+    last_verified: 2026-04-10
+    volatile: annual
+    notes: "Single L1 source."
+
+# ============================================================================
+# DISPUTES
+# ============================================================================
+
+disputes:
+
+  - id: d001
+    claim_ids: [c006]
+    subject: "AMC 8 2025-2026 end date"
+    positions:
+      - value: "January 22-30, 2026"
+        source: maa.org/student-programs/amc/
+        tier: L1-official
+        date: 2026-04-10
+      - value: "January 22-30, 2026"
+        source: maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        date: 2026-04-10
+      - value: "January 22-31, 2026"
+        source: AoPS meta file (raw/web/official/2026-04-10_aops-amc-historical-results-meta.md)
+        tier: L1-official
+        date: 2026-04-10
+        note: "AoPS wiki listed Jan 31 end date"
+    resolution: "Two MAA official sources consistently state January 22-30. Live web search confirms January 22-30 (extended from original dates due to winter storm). The AoPS January 31 date is incorrect."
+    permitted_language: "For the 2025-2026 cycle, the AMC 8 competition window was January 22-30, 2026."
+    confidence: L1
+
+  - id: d002
+    claim_ids: [c058]
+    subject: "ISEF top prize identity and Gordon E. Moore Award amount"
+    positions:
+      - value: "Gordon E. Moore Award: $75,000 (claimed as top prize)"
+        source: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        tier: L1-official
+        date: 2026-04-10
+        note: "Source incorrectly identifies Moore Award as top prize and states $75,000"
+      - value: "Gordon E. Moore Award: $100,000 (claimed as top prize)"
+        source: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        tier: L2-authoritative
+        date: 2026-04-10
+        note: "Source incorrectly identifies Moore Award as top prize and states $100,000 (actually Yancopoulos Award amount)"
+      - value: "George D. Yancopoulos Innovator Award: $100,000 (actual top prize); Gordon E. Moore Award: $50,000 (separate award)"
+        source: societyforscience.org/isef/awards/
+        tier: L1-official
+        date: 2026-04-10
+        note: "Live verification from Society for Science official awards page"
+    resolution: "BOTH raw sources are incorrect. The ISEF top prize is the George D. Yancopoulos Innovator Award ($100,000), NOT the Gordon E. Moore Award. The Moore Award is a separate $50,000 prize for 'Positive Outcomes for Future Generations.' The $75,000 figure corresponds to the Regeneron Young Scientist Awards (2 awards at $75,000 each). Claim c058 is BLOCKED (L5)."
+    permitted_language: "The ISEF top prize is the George D. Yancopoulos Innovator Award ($100,000). Additional top awards include two Regeneron Young Scientist Awards ($75,000 each) and the Gordon E. Moore Award for Positive Outcomes for Future Generations ($50,000). Regeneron ISEF awards more than $9 million annually."
+    confidence: L5
+
+  - id: d003
+    claim_ids: [c061]
+    subject: "Regeneron STS annual applicant count"
+    positions:
+      - value: "~1,900 applicants/year"
+        source: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        tier: L1-official
+        date: 2026-04-10
+        note: "Likely older data"
+      - value: "~2,500 applicants/year"
+        source: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        tier: L2-authoritative
+        date: 2026-04-10
+      - value: "2,612 applicants (2026 cycle)"
+        source: societyforscience.org/press-release/regeneron-sts-2026-scholars/
+        tier: L1-official
+        date: 2026-04-10
+        note: "Live verification; largest pool since 1967"
+    resolution: "The 2026 cycle had 2,612 applicants per Society for Science press release. The ~1,900 figure appears to be outdated. Use current verified figure."
+    permitted_language: "According to Society for Science, approximately 2,600 students enter Regeneron STS annually (2,612 in the 2026 cycle, the largest pool since 1967)."
+    confidence: L1
+
+  - id: d004
+    claim_ids: [c019, c080]
+    subject: "MOP (Mathematical Olympiad Program) number of invitees"
+    positions:
+      - value: "~25-30 students"
+        source: raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+        tier: L3-aggregator
+        date: 2026-04-10
+        note: "Likely refers to top USAMO scorers only, not full MOP invitation list"
+      - value: "top 60 US high school students"
+        source: raw/web/review/2026-04-10_admissionsangle-summer-math-programs.md
+        tier: L3-aggregator
+        date: 2026-04-10
+      - value: "60-80 students (including USAMO top scorers, USAJMO top scorers, additional female students for EGMO, and international invitees)"
+        source: artofproblemsolving.com/wiki/MOP + maa.org
+        tier: L1-official
+        date: 2026-04-10
+        note: "Live verification"
+    resolution: "Live verification shows 60-80 total invitees including multiple categories. The 25-30 figure is a subset (top USAMO performers). The 60 figure from AdmissionsAngle was closer but undercounts."
+    permitted_language: "According to MAA and AoPS sources, approximately 60-80 students are invited annually to MOP, including top USAMO and USAJMO scorers, additional female students for EGMO selection, and some international participants."
+    confidence: L1
+
+# ============================================================================
+# MAY_SKIP CLAIMS
+# ============================================================================
+
+may_skip_claims:
+
+  - id: c017
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to the MAA, the AMC program began in 1950 as the American High School Mathematics Examination (AHSME)."
+    volatile: none
+    notes: "Historical fact from L1 source. Not actively verified."
+
+  - id: c041
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to MATHCOUNTS, the organization is developing a standalone grades 3-5 program (not yet launched as of 2026)."
+    volatile: annual
+    notes: "L1 source. Status may change."
+
+  - id: c046
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to MOEMS, the George Lenchner Medallion is awarded for perfect scores (25/25)."
+    volatile: evergreen
+    notes: "L1 source."
+
+  - id: c071
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to Ross Program materials, sponsors include the American Mathematical Society, Jane Street, and Citadel."
+    volatile: annual
+    notes: "L1 source. Sponsor lists change."
+
+  - id: c091
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums characterize AoPS as targeting gifted students pursuing competition math, while RSM is described as catering to 'high average to moderately gifted kids' preparing for standardized testing and AP Calculus readiness."
+    volatile: evergreen
+    notes: "L4 community source. Forum characterization, not official positioning."
+
+  - id: c095
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums report that drill programs (Kumon, Mathnasium) serve a different function from competition math preparation, building automaticity for arithmetic rather than problem-solving skills. Some families report using Kumon in early elementary for fluency, then switching to problem-solving-focused programs by grades 3-4."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'clear community consensus' with 'some parents report.' Removed claim that drill programs 'do not produce' competition competitors (unverifiable negative)."
+    volatile: evergreen
+    notes: "L4 community source with overreach flag resolved."
+
+  - id: c096
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums describe Beast Academy as generating spontaneous enthusiasm in gifted elementary students, with children asking for 'the next book' rather than being told to do math."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'parents consistently report' with 'some parents describe.'"
+    volatile: evergreen
+    notes: "L4 community source. Anecdotal."
+
+  - id: c100
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to the Davidson Institute, the SMPY (Study of Mathematically Precocious Youth) is a longitudinal study spanning 35-50 years tracking outcomes of students identified as mathematically gifted in the 1970s."
+    volatile: evergreen
+    notes: "L2 source. Not actively verified."
+
+  - id: c109
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums report that extrinsic motivation (parent pressure, grades) is associated with burnout, while intrinsic motivation is associated with long-term progress. Parents of USAMO qualifiers on these forums rarely describe hiring tutors early; most describe facilitating access to programs such as AoPS classes and math circles."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'correlates with' (causal framing) with 'is associated with.' Added explicit forum attribution."
+    volatile: evergreen
+    notes: "L4 community source."
+
+  - id: c119
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums describe a common positive trajectory as: unstructured exploration in elementary, structured competition prep starting grades 5-6, and intensive work in grades 8-10 if talent warrants."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'parent forum pattern' framing with explicit attribution."
+    volatile: evergreen
+    notes: "L4 community source."
+
+  - id: c120
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums report that successful national competitors often started organized competition prep in grades 5-7, not earlier, and that parents who pushed hard in grades 1-3 sometimes report burnout by grades 7-9."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'most successful' with 'successful'; replaced 'often report' with 'sometimes report.' Removed universal framing."
+    volatile: evergreen
+    notes: "L4 community source."
+
+  - id: c122
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to Expii.com, Po-Shen Loh's stated goal as IMO coach was to 'maximize 20-year future outcomes' for students, not to maximize current wins. He has stated that competition math should develop curiosity and deep thinking, not just problem-solving speed."
+    volatile: evergreen
+    notes: "L2 source. Attribution required."
+
+  - id: c124
+    verdict: accepted_as_is
+    confidence: L4
+    permitted_language: "Some parents on gifted education forums describe the AIME-to-USAMO step as the hardest in the AMC pipeline, primarily because it requires proof writing that most students have not practiced. Forum participants frequently cite peer community (math circles, PROMYS, Mathcamp) as important for growth at this level."
+    overreach_resolved: true
+    overreach_resolution: "Replaced 'dramatically faster growth' with 'important for growth.' Replaced 'consistently cited as essential' with 'frequently cite.' Removed unquantified growth claim."
+    volatile: evergreen
+    notes: "L4 community source."
+
+# ============================================================================
+# MECHANISM OVERREACH FLAGS
+# ============================================================================
+# These are cross-claim patterns that risk overreach when combined in wiki articles.
+
+mechanism_overreach_flags:
+
+  - flag_id: mof001
+    type: "individual_case_to_population"
+    claims_involved: [c103, c104]
+    description: "Claims about USAMO qualifier acceptance rates at MIT (c103) and admissions impact tiers (c104) risk being combined to imply guaranteed admissions outcomes. Neither claim has institutional backing."
+    correction: "Wiki articles must not combine these claims into a narrative about expected admissions outcomes. Each must be individually attributed to its L3/L4 source."
+
+  - flag_id: mof002
+    type: "community_feeling_to_established_fact"
+    claims_involved: [c109, c119, c120, c124]
+    description: "Multiple L4 forum claims about burnout patterns, optimal start ages, and successful trajectories risk being combined into an authoritative-sounding developmental prescription."
+    correction: "Wiki articles combining multiple forum observations must maintain L4 attribution on every claim. Do not synthesize forum observations into a single 'recommended pathway' without explicitly noting these are parent-reported patterns, not research-validated findings."
+
+  - flag_id: mof003
+    type: "correlation_to_causation"
+    claims_involved: [c097, c098, c101]
+    description: "Acceleration research claims (effect sizes, SMPY outcomes) are L2-attributed to Davidson reviews. Risk of stating 'acceleration causes better outcomes' without noting these are correlational findings from specific populations."
+    correction: "Wiki articles must note that SMPY tracked self-selected participants and that acceleration effect sizes reflect meta-analytic averages across varied contexts. Do not state 'acceleration causes X' — use 'is associated with' or 'research finds.'"
+
+  - flag_id: mof004
+    type: "current_observation_to_trend"
+    claims_involved: [c106]
+    description: "The 83% burnout statistic (c106) from an unidentified survey risks being cited as an established finding. Without methodology details, it cannot support trend claims."
+    correction: "Do not use c106 to claim 'burnout is widespread in competition math.' Use it only with full attribution and caveats about unidentified methodology."

@@ -1,0 +1,1169 @@
+topic: how-to-raise-kid-for-stem-and-competitive-mathphysics-stem-areas-from-k-to-12
+extracted_at: 2026-04-10T18:00:00Z
+source_files_processed: 41
+total_claims: TBD
+
+claims:
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: amc-aime-usamo-pipeline
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c001
+    text: "The AMC series comprises three competitions: AMC 8 (grade 8 and below, max age under 15.5), AMC 10 (grade 10 and below, max age under 17.5), AMC 12 (grade 12 and below, max age under 19.5)."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "grade 8 and below, under 15.5 / grade 10 and below, under 17.5 / grade 12 and below, under 19.5"
+        extraction_context: "AMC 8: students in grade 8 and below (maximum age under 15.5 years). AMC 10: grades 10 and below (maximum age under 17.5 years). AMC 12: grades 12 and below (maximum age under 19.5 years)."
+    overreach_flag: false
+
+  - id: c002
+    text: "AMC 8 is a 25-question, 40-minute competition."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "25 questions, 40 minutes"
+        extraction_context: "AMC 8: A 25-question, 40-minute competition for students in grade 8 and below"
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "25 multiple-choice questions, 40 minutes"
+        extraction_context: "Format: 25 multiple-choice questions, 40 minutes"
+    overreach_flag: false
+
+  - id: c003
+    text: "AMC 10 and AMC 12 are each 25-question, 75-minute multiple-choice tests."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "25-question, 75-minute"
+        extraction_context: "AMC 10: A 25-question, 75-minute multiple-choice test. AMC 12: A 25-question, 75-minute competition."
+      - file: raw/web/review/2026-04-10_rsm-math-competitions-calendar-2025-26.md
+        url: https://www.mathschool.com/blog/competitions/math-competitions-calendar-for-2025-2026
+        tier: L3-aggregator
+        extracted_value: "25-question, 75-minute, multiple-choice"
+        extraction_context: "AMC 10/12: '25-question, 75-minute, multiple-choice examinations'"
+    overreach_flag: false
+
+  - id: c004
+    text: "AMC 12 covers the full high school mathematics curriculum including trigonometry, advanced algebra, and advanced geometry; calculus is excluded."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "full high school mathematics curriculum, including trigonometry, advanced algebra, and advanced geometry. Calculus is excluded."
+        extraction_context: "AMC 12 covers the full high school mathematics curriculum, including trigonometry, advanced algebra, and advanced geometry. Calculus is excluded."
+    overreach_flag: false
+
+  - id: c005
+    text: "AMC 10 A and AMC 12 A were held November 5, 2025; AMC 10 B and AMC 12 B were held November 13, 2025."
+    type: temporal
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "November 5, 2025 / November 13, 2025"
+        extraction_context: "AMC 10 A & AMC 12 A: November 5, 2025. AMC 10 B & AMC 12 B: November 13, 2025."
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "November 5, 2025 / November 13, 2025"
+        extraction_context: "AMC 10 A/12 A: November 5, 2025. AMC 10 B/12 B: November 13, 2025."
+    overreach_flag: false
+
+  - id: c006
+    text: "AMC 8 for 2025-2026 was held January 22-30, 2026."
+    type: temporal
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "January 22-30, 2026"
+        extraction_context: "AMC 8: January 22-30, 2026"
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "January 22-30, 2026"
+        extraction_context: "AMC 8: January 22-30, 2026"
+    overreach_flag: false
+    conflict_note: "One source (AoPS meta file) lists AMC 8 as January 22-31, 2026; MAA official lists January 22-30, 2026. Minor discrepancy on end date."
+
+  - id: c007
+    text: "AIME I was held February 5, 2026; AIME II was held February 11, 2026."
+    type: temporal
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "February 5, 2026 / February 11, 2026"
+        extraction_context: "AIME I: February 5, 2026. AIME II: February 11, 2026."
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "February 5, 2026 (I); February 11, 2026 (II)"
+        extraction_context: "AIME I and AIME II - Timing: February 5, 2026 (I); February 11, 2026 (II)"
+    overreach_flag: false
+
+  - id: c008
+    text: "USAMO and USAJMO for 2026 were held March 21 and March 22, 2026, in 4.5-hour sessions with three problems per day."
+    type: temporal
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+        url: https://www.thethinkacademy.com/blog/the-ultimate-guide-to-usamo-usajmo-2025-2026-cutoffs-qualification-and-prep-tips/
+        tier: L3-aggregator
+        extracted_value: "March 21 and March 22, 2026; 4.5-hour session; three problems"
+        extraction_context: "The 2026 USAMO and USAJMO will be held on March 21 and March 22, 2026. Each day consists of a 4.5-hour session with three problems to solve."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Confirmed only in ThinkAcademy guide (L3). MAA official page should be checked."
+
+  - id: c009
+    text: "AIME qualification threshold: top 2.5% of AMC 10 participants or top 5% of AMC 12 participants, approximately 6,000-7,000 students annually."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "top 2.5% of AMC 10 / top 5% of AMC 12 / ~6,000-7,000"
+        extraction_context: "AIME qualification: top 2.5% of AMC 10 participants or top 5% of AMC 12 participants (approximately 6,000-7,000 students annually)."
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "top 2.5% AMC 10 / top 5% AMC 12 / ~6,000-7,000"
+        extraction_context: "Top 2.5% of AMC 10 participants qualify. Top 5% of AMC 12 participants qualify. Approximately 6,000-7,000 students qualify annually."
+    overreach_flag: false
+
+  - id: c010
+    text: "As of August 2025, international students no longer affect AIME cutoffs."
+    type: temporal
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "As of August 2025"
+        extraction_context: "As of August 2025, international students no longer affect AIME cutoffs."
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "As of August 2025"
+        extraction_context: "As of August 2025: international students no longer affect AIME cutoffs"
+    overreach_flag: false
+
+  - id: c011
+    text: "For 2025-2026, the USAMO/USAJMO qualifying index formula changed to: (AIME score x 20) + AMC score. Previous formula (through 2024-2025) was: (AIME score x 10) + AMC score."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "AIME x 20 + AMC (new); AIME x 10 + AMC (old)"
+        extraction_context: "New USAMO/USAJMO Index Formula (effective 2025-2026): Qualifying index = (AIME score x 20) + AMC score. Previous formula (through 2024-2025): (AIME score x 10) + AMC score."
+      - file: raw/web/official/2026-04-10_aops-amc-historical-results-meta.md
+        url: https://artofproblemsolving.com/wiki/index.php/AMC_historical_results
+        tier: L1-official
+        extracted_value: "AIME x 20 + AMC (2025-2026+); AIME x 10 + AMC (prior)"
+        extraction_context: "Since 2025-2026: Index = (AIME score x 20) + AMC score. 2024-2025 and earlier: Index = (AIME score x 10) + AMC score."
+      - file: raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+        url: https://www.thethinkacademy.com/blog/the-ultimate-guide-to-usamo-usajmo-2025-2026-cutoffs-qualification-and-prep-tips/
+        tier: L3-aggregator
+        extracted_value: "USAJMO Index = AMC 10 Score + 20 x AIME Score"
+        extraction_context: "USAJMO Index = AMC 10 Score + 20 x AIME Score. USAMO Index = AMC 12 Score + 20 x AIME Score."
+    overreach_flag: false
+
+  - id: c012
+    text: "The former score caps of 120 (AMC 10) and 100 (AMC 12) for AIME qualification were removed for 2025-2026; cutoffs can theoretically go up to 150."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "caps of 120 (AMC 10) and 100 (AMC 12) removed"
+        extraction_context: "The former score caps of 120 (AMC 10) and 100 (AMC 12) have been removed; theoretically cutoffs could go up to 150"
+      - file: raw/web/official/2026-04-10_aops-amc-historical-results-meta.md
+        url: https://artofproblemsolving.com/wiki/index.php/AMC_historical_results
+        tier: L1-official
+        extracted_value: "No cap of 120/100 points — cutoffs can go up to 150"
+        extraction_context: "2025-2026: No cap of 120/100 points — cutoffs can go up to 150"
+    overreach_flag: false
+
+  - id: c013
+    text: "Approximately top 11% of all AIME participants are selected for USAMO or USAJMO (~500 total)."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "top 11% / ~500 total"
+        extraction_context: "Approximately top 11% of all AIME participants are selected for USAMO or USAJMO (~500 total)."
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "top 11% / ~500"
+        extraction_context: "Approximately the top 11% of all AIME participants are selected for the 2026 USAMO or USAJMO combined."
+    overreach_flag: false
+
+  - id: c014
+    text: "The AMC competition pipeline is: AMC 8 -> AMC 10/12 -> AIME -> USAMO/USAJMO -> MOP -> IMO."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "AMC -> AIME -> USAMO/USAJMO -> MOP -> IMO"
+        extraction_context: "AMC -> AIME -> USAMO/USAJMO -> MOP -> IMO"
+    overreach_flag: false
+
+  - id: c015
+    text: "Approximately 300,000 students participate in AMC 10/12 annually; ~10,000 advance to AIME; ~500 qualify for USAMO/USAJMO combined. Fewer than 0.2% of initial AMC participants ultimately qualify for USAMO."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/official/2026-04-10_maa-aime-thresholds-2025-26.md
+        url: https://maa.org/news/2025-26-aime-thresholds-are-now-available/
+        tier: L1-official
+        extracted_value: "~300,000 / ~10,000 / ~500 / <0.2%"
+        extraction_context: "~300,000 students participate in AMC 10/12 annually. ~10,000 advance to AIME. ~500 qualify for USAMO/USAJMO combined. This means fewer than 0.2% of initial AMC participants ultimately qualify for USAMO."
+      - file: raw/web/review/2026-04-10_collegebase-usamo-admissions.md
+        url: https://www.collegebase.org/blog/usamo-qualification-college-admissions
+        tier: L3-aggregator
+        extracted_value: "~300,000 / ~10,000 / ~500 / <0.2%"
+        extraction_context: "~300,000 students participate in AMC 10/12 annually. ~10,000 advance to AIME. ~500 qualify for USAMO/USAJMO combined. Fewer than 0.2% of initial AMC participants ultimately qualify for USAMO."
+    overreach_flag: false
+
+  - id: c016
+    text: "USAMO/USAJMO historical cutoffs (old formula AIME x 10 + AMC): 2024-2025: USAMO 237 (12A), 249.5 (12B); USAJMO 233 (10A), 243 (10B). 2023-2024: USAMO 242 (12A), 251.5 (12B); USAJMO 233.5 (10A), 241 (10B)."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/official/2026-04-10_aops-amc-historical-results-meta.md
+        url: https://artofproblemsolving.com/wiki/index.php/AMC_historical_results
+        tier: L1-official
+        extracted_value: "2024-2025: USAMO 237/249.5; USAJMO 233/243. 2023-2024: USAMO 242/251.5; USAJMO 233.5/241."
+        extraction_context: "2024-2025: USAMO: 237 (AMC 12A), 249.5 (AMC 12B). USAJMO: 233 (AMC 10A), 243 (AMC 10B). 2023-2024: USAMO: 242 (AMC 12A), 251.5 (AMC 12B). USAJMO: 233.5 (AMC 10A), 241 (AMC 10B)."
+      - file: raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+        url: https://www.thethinkacademy.com/blog/the-ultimate-guide-to-usamo-usajmo-2025-2026-cutoffs-qualification-and-prep-tips/
+        tier: L3-aggregator
+        extracted_value: "2025: USAJMO 233/243 (10A/10B); USAMO 237/249.5 (12A/12B)"
+        extraction_context: "Historical USA(J)MO Cutoffs (2022-2025) — 2025 USAJMO AMC 10A: 233 AIME I cutoff, 233.5 AIME II cutoff."
+    overreach_flag: false
+    conflict_note: "ThinkAcademy table shows slightly different sub-values (AIME I vs AIME II cutoffs) vs AoPS meta which gives single values per test. These are not conflicting — they represent different AIME version cutoffs."
+
+  - id: c017
+    text: "The MAA was established as the AMC organizer since 1950 (formerly called the American High School Mathematics Examination / AHSME)."
+    type: temporal
+    priority: may_skip
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_maa-amc-competitions.md
+        url: https://maa.org/student-programs/amc/
+        tier: L1-official
+        extracted_value: "1950"
+        extraction_context: "The MAA began holding the American High School Mathematics Examination (AHSME) in 1950."
+    overreach_flag: false
+    single_source: true
+
+  - id: c018
+    text: "AIME has 15 questions, 3-hour time limit, with integer answers in the range 0-999."
+    type: numerical
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "15 questions, 3 hours, integer answers (0-999)"
+        extraction_context: "AIME I and AIME II - Format: 15 questions, 3 hours, integer answers (0-999)"
+      - file: raw/web/review/2026-04-10_rsm-math-competitions-calendar-2025-26.md
+        url: https://www.mathschool.com/blog/competitions/math-competitions-calendar-for-2025-2026
+        tier: L3-aggregator
+        extracted_value: "15-question, 3-hour examination with integer answers 0-999"
+        extraction_context: "AIME: '15-question, 3-hour examination' with integer answers 0-999; invitation-only from top AMC performers"
+    overreach_flag: false
+
+  - id: c019
+    text: "MOP (Mathematical Olympiad Program) is held in June at Carnegie Mellon University, for top USAMO and USAJMO performers, approximately 25-30 students invited."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "June, Carnegie Mellon, top USAMO/USAJMO performers"
+        extraction_context: "MOP (Mathematical Olympiad Program) - Timing: June (3-4 weeks). Location: University campus (Carnegie Mellon). Eligibility: Top USAMO and USAJMO performers."
+      - file: raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+        url: https://www.collegebase.org/blog/aime-college-admissions
+        tier: L3-aggregator
+        extracted_value: "~25-30 invited to MOP"
+        extraction_context: "~25-30 are invited to MOP (Mathematical Olympiad Program)."
+    overreach_flag: false
+
+  - id: c020
+    text: "IMO (International Mathematical Olympiad) is held in July; the US sends 6 students; it is a two-day competition with six problems."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "July, two-day, six problems, six-person US team"
+        extraction_context: "IMO: Timing: July. Format: Two-day competition, six problems. Team: Six-person U.S. team."
+    overreach_flag: false
+    single_source: true
+
+  - id: c021
+    text: "USAJMO qualifies via AMC 10 + AIME; USAMO qualifies via AMC 12 + AIME. A student who qualifies for both (took both AMC 10 and AMC 12) is invited to USAMO."
+    type: process
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q2
+    sources:
+      - file: raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+        url: https://www.thethinkacademy.com/blog/the-ultimate-guide-to-usamo-usajmo-2025-2026-cutoffs-qualification-and-prep-tips/
+        tier: L3-aggregator
+        extracted_value: "USAJMO: AMC 10 + AIME; USAMO: AMC 12 + AIME; if both, invited to USAMO"
+        extraction_context: "USAJMO: AMC 10 + AIME. USAMO: AMC 12 + AIME. If a student took both AMC 10 and AMC 12, and qualifies for both USAJMO and USAMO, they will be invited to take the USAMO."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source. Consistent with MAA pipeline logic but not directly confirmed in L1 source text captured."
+
+  - id: c022
+    text: "Students may take the AIME only once per cycle; if they took both A and B date AMC exams, both AMC scores are matched with the AIME score and the higher-index combination is used."
+    type: process
+    priority: must_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+        url: https://www.thethinkacademy.com/blog/the-ultimate-guide-to-usamo-usajmo-2025-2026-cutoffs-qualification-and-prep-tips/
+        tier: L3-aggregator
+        extracted_value: "AIME once per cycle; both AMC scores matched, higher index used"
+        extraction_context: "Students are only allowed to take the AIME once per cycle, so they will have only one AIME score. However, if a student took both the A-date and B-date AMC exams, both AMC scores are matched with the AIME score, and the higher-index combination is used for qualification."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 source only. Critical process rule — must verify against MAA official."
+
+  - id: c023
+    text: "The MAA also invites top-scoring girl-identifying AMC students to the USAMO and USAJMO each year as part of its commitment to inclusivity."
+    type: categorical
+    priority: should_verify
+    entity: amc-aime-usamo-pipeline
+    question_id: q11
+    sources:
+      - file: raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+        url: https://www.thethinkacademy.com/blog/the-ultimate-guide-to-usamo-usajmo-2025-2026-cutoffs-qualification-and-prep-tips/
+        tier: L3-aggregator
+        extracted_value: "top-scoring girl-identifying AMC students invited"
+        extraction_context: "The MAA also invites top-scoring girl-identifying AMC students to the USAMO and USAJMO each year as part of its commitment to inclusivity, placing them on a pathway toward MOP, EGMO, and potentially the IMO."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: usapho-iphysics-pipeline
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c024
+    text: "The US physics competition pipeline is: F=ma -> USAPhO semifinal -> Training Camp (University of Maryland) -> IPhO team (top 5 students)."
+    type: categorical
+    priority: should_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q3
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+        url: https://aapt.org/physicsteam/PT-landing.cfm
+        tier: L1-official
+        extracted_value: "F=ma -> USAPhO -> Training Camp -> IPhO (top 5)"
+        extraction_context: "F=ma (Stage 1) -> USAPhO Semifinal (Stage 2) -> U.S. Physics Team Training Camp (Stage 3) -> IPhO Team (Stage 4: top 5 students)"
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "F=ma -> Top ~400 -> USAPhO -> Top ~20 -> Training Camp (10 days) -> Top 5 -> IPhO"
+        extraction_context: "F=ma (25 multiple choice, 75 min) -> Top ~400 -> USAPhO (3-hour free response) -> Top ~20 -> Training Camp (10 days, University of Maryland) -> Top 5 -> IPhO"
+    overreach_flag: false
+
+  - id: c025
+    text: "F=ma exam: 75-minute exam, 25 multiple-choice questions, focusing exclusively on classical mechanics (kinematics, statics, Newton's laws, momentum, energy, oscillations, orbital mechanics, rotational dynamics, fluids)."
+    type: numerical
+    priority: must_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+        url: https://aapt.org/physicsteam/PT-landing.cfm
+        tier: L1-official
+        extracted_value: "75-minute, 25 multiple choice, classical mechanics"
+        extraction_context: "Format: 75-minute exam, 25 multiple choice questions. Focus: Classical mechanics exclusively."
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "75-minute, 25 multiple choice, mechanics"
+        extraction_context: "The F=ma exam is a 75-minute exam with 25 multiple choice questions that focuses on mechanics."
+    overreach_flag: false
+
+  - id: c026
+    text: "The 2026 F=ma test was held February 12, 2026."
+    type: temporal
+    priority: must_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "February 12, 2026"
+        extraction_context: "2026 Test Date: The 2026 F=ma test was held February 12, 2026."
+    overreach_flag: false
+    single_source: true
+
+  - id: c027
+    text: "F=ma qualifying score for USAPhO is typically between 14-18; the 2025 cutoff was 15. Approximately 400 students advance to USAPhO."
+    type: numerical
+    priority: must_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "14-18 range; 2025 cutoff 15; ~400 advance"
+        extraction_context: "The qualifying score to move on to the USAPhO exam is typically between 14-18. The 2025 cutoff was 15. Approximately 400 students advance to USAPhO based on F=ma scores."
+    overreach_flag: false
+    single_source: true
+
+  - id: c028
+    text: "USAPhO semifinal: 3-hour free-response exam divided into two 90-minute sections, covering all introductory physics topics (mechanics, electromagnetism, thermodynamics, relativity, nuclear, atomic, particle, waves, optics, data analysis)."
+    type: categorical
+    priority: should_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+        url: https://aapt.org/physicsteam/PT-landing.cfm
+        tier: L1-official
+        extracted_value: "3-hour free-response, two 90-minute sections"
+        extraction_context: "Format: 3-hour free-response exam. Structure: Two parts of 90 minutes each. Students required to justify their answers."
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "3-hour, two 90-minute sections; all introductory physics"
+        extraction_context: "A 3-hour free response exam divided into two 90-minute sections requiring justified answers. It covers all topics in introductory physics, including mechanics, electromagnetism, thermodynamics, relativity, nuclear, atomic, and particle physics, waves, optics, and data analysis."
+    overreach_flag: false
+
+  - id: c029
+    text: "USAPhO medal distribution: Gold ~top 10-12%, Silver ~next 14-16%, Bronze ~next 20-22%, Honorable Mention ~next 24-26%. Cutoffs vary annually."
+    type: numerical
+    priority: should_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "Gold top 10-12%; Silver 14-16%; Bronze 20-22%; HM 24-26%"
+        extraction_context: "Medal distribution: Gold: top 10-12%; Silver: next 14-16%; Bronze: next 20-22%; Honorable mentions: next 24-26%. Cutoffs vary annually."
+    overreach_flag: false
+    single_source: true
+
+  - id: c030
+    text: "US Physics Team Training Camp: approximately 20 students selected; 10-day camp at University of Maryland; top 5 selected for IPhO."
+    type: numerical
+    priority: must_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+        url: https://aapt.org/physicsteam/PT-landing.cfm
+        tier: L1-official
+        extracted_value: "~20 students; University of Maryland; top 5 to IPhO"
+        extraction_context: "Selection: Approximately top 20 students from USAPhO semifinal. Location: University of Maryland."
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "~20 students; 10-day; University of Maryland; top 5"
+        extraction_context: "Approximately 20 students are selected for a ten-day training camp at the University of Maryland, based on combined USAPhO and F=ma scores. At the end of the camp, 5 students are selected to represent the U.S. at the International Physics Olympiad."
+    overreach_flag: false
+
+  - id: c031
+    text: "The 56th International Physics Olympiad is to be held in Bucaramanga, Colombia, July 4-12, 2026."
+    type: temporal
+    priority: must_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "Bucaramanga, Colombia; July 4-12, 2026; 56th IPhO"
+        extraction_context: "56th International Physics Olympiad: Bucaramanga, Colombia, July 4-12, 2026."
+    overreach_flag: false
+    single_source: true
+
+  - id: c032
+    text: "The Physics Bowl is a separate annual physics competition administered by AAPT, held March-April each year; 40 multiple-choice questions; less selective than the F=ma/USAPhO pathway."
+    type: categorical
+    priority: should_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-physics-team.md
+        url: https://aapt.org/physicsteam/PT-landing.cfm
+        tier: L1-official
+        extracted_value: "March-April; 40 multiple-choice; less selective"
+        extraction_context: "Physics Bowl: Annual international physics competition. Administered by AAPT. Timing: March-April each year. Format: 40 multiple-choice questions. Note: Less selective than F=ma/USAPhO pathway."
+    overreach_flag: false
+    single_source: true
+
+  - id: c033
+    text: "F=ma eligibility: US Citizens, permanent residents, or students currently attending US schools; must be physically located within the US during testing. USAPhO requires US Citizens or permanent residents only."
+    type: categorical
+    priority: should_verify
+    entity: usapho-iphysics-pipeline
+    question_id: q12
+    sources:
+      - file: raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+        url: https://aapt.org/physicsteam/PT-students.cfm
+        tier: L1-official
+        extracted_value: "F=ma: US citizens, PRs, or attending US schools; USAPhO: US citizens or PRs only"
+        extraction_context: "F=ma Eligibility: U.S. Citizens, permanent residents, or students currently attending U.S. schools. USAPhO Eligibility: U.S. Citizens or permanent residents only."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: mathcounts
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c034
+    text: "MATHCOUNTS Competition Series is open to students in grades 6-8 only; participation limited to 3 years per student; no student who has completed grade 8 may compete."
+    type: categorical
+    priority: should_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "grades 6-8; 3-year limit; no post-grade-8"
+        extraction_context: "MATHCOUNTS Competition Series is a national program that provides students in grades 6-8 the opportunity to compete. Participation in MATHCOUNTS Competition Series is limited to 3 years per student. No student who has completed grade 8 may compete."
+    overreach_flag: false
+    single_source: true
+
+  - id: c035
+    text: "MATHCOUNTS has four competition levels: school, chapter, state, and national. Each level has four rounds: Sprint, Target, Team, and Countdown."
+    type: categorical
+    priority: should_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "4 levels; Sprint, Target, Team, Countdown rounds"
+        extraction_context: "The Competition Series has 4 levels of competition — school, chapter, state, and national. Each level comprises 4 rounds: Sprint, Target, Team, and Countdown Round."
+    overreach_flag: false
+    single_source: true
+
+  - id: c036
+    text: "MATHCOUNTS Sprint Round: 30 problems, 40 minutes, individual, no calculator. Target Round: 8 problems in 4 pairs (6 min per pair), calculator permitted. Team Round: 10 problems, 20 minutes, up to 4 students."
+    type: numerical
+    priority: must_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "Sprint: 30 problems/40 min; Target: 8 problems/4 pairs/6 min; Team: 10 problems/20 min"
+        extraction_context: "Sprint Round: 30 problems given all at once; 40 minutes to complete; Individual, no calculator. Target Round: 8 problems given 2 at a time (4 pairs); 6 minutes per set; Calculator permitted. Team Round: 10 problems for a team of up to 4 students; 20 minutes."
+    overreach_flag: false
+    single_source: true
+
+  - id: c037
+    text: "MATHCOUNTS Countdown Round is head-to-head oral competition with 45 seconds per problem; used at chapter, state, and national levels."
+    type: numerical
+    priority: should_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "45 seconds per problem; chapter, state, national levels"
+        extraction_context: "Countdown Round: Head-to-head oral competition. Top individual scorers compete one-on-one. 45 seconds to answer each problem. Used at chapter, state, and national levels."
+    overreach_flag: false
+    single_source: true
+
+  - id: c038
+    text: "MATHCOUNTS 2025-26 calendar: Chapter Competitions February 1-28, 2026; State Competitions March 1-31, 2026; National Competition May 10-11, 2026."
+    type: temporal
+    priority: must_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "Chapter: Feb 1-28, 2026; State: Mar 1-31, 2026; National: May 10-11, 2026"
+        extraction_context: "Chapter Competitions (February 1-28, 2026). State Competitions (March 1-31, 2026). National Competition (May 10-11, 2026)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c039
+    text: "MATHCOUNTS National Competition: top 4 individuals from each state (224 competitors total) receive all-expenses-paid trip."
+    type: numerical
+    priority: should_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "top 4 per state; 224 competitors total; all-expenses-paid"
+        extraction_context: "The top 4 individuals from each state (including NSCs) receive an all-expenses-paid trip. 224 competitors total form 4-person state teams."
+    overreach_flag: false
+    single_source: true
+
+  - id: c040
+    text: "A school may send up to 14 competitors to chapter: 4 for team + up to 10 individuals. State and national advancement has no additional cost to the competitor."
+    type: process
+    priority: should_verify
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "14 competitors max; state/national free"
+        extraction_context: "Schools can send up to 14 competitors: 4 for team + individual rounds, plus 10 competing individually only. No additional fees required for competitors to advance to the state level."
+    overreach_flag: false
+    single_source: true
+
+  - id: c041
+    text: "MATHCOUNTS is developing a standalone grades 3-5 program (not yet launched as of 2026)."
+    type: categorical
+    priority: may_skip
+    entity: mathcounts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_mathcounts-competition-series.md
+        url: https://www.mathcounts.org/programs/mathcounts-competition-series
+        tier: L1-official
+        extracted_value: "grades 3-5 program in development, not yet launched"
+        extraction_context: "MATHCOUNTS is developing a standalone grades 3-5 program (not yet launched as of 2026)."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: moems
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c042
+    text: "MOEMS (Math Olympiads for Elementary and Middle Schools) has more than 120,000 students from every US state and 39 additional countries participating each year."
+    type: numerical
+    priority: should_verify
+    entity: moems
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_moems-format-participation.md
+        url: https://www.moems.org/pages/about-the-program
+        tier: L1-official
+        extracted_value: "120,000+ students; every US state; 39 additional countries"
+        extraction_context: "MOEMS is one of the most influential and fun-filled math competition programs in the United States and throughout the world, with more than 120,000 students from every state and 39 additional countries participating each year."
+    overreach_flag: false
+    single_source: true
+
+  - id: c043
+    text: "MOEMS Division E covers grades 4-6; Division M covers grades 6-8. Grade 6 may participate in either division but not both."
+    type: categorical
+    priority: should_verify
+    entity: moems
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_moems-format-participation.md
+        url: https://www.moems.org/pages/about-the-program
+        tier: L1-official
+        extracted_value: "Division E: grades 4-6; Division M: grades 6-8; grade 6 either/not both"
+        extraction_context: "Division E (Elementary): Grades 4, 5, and 6. Division M (Middle School): Grades 6, 7, and 8. Grade 6 students may participate in either division, but not both."
+    overreach_flag: false
+    single_source: true
+
+  - id: c044
+    text: "MOEMS format: 5 monthly contests per year (November through March), each with 5 problems in 30 minutes; 1 point per correct answer; 25 total points possible per year. No partial credit."
+    type: numerical
+    priority: must_verify
+    entity: moems
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_moems-format-participation.md
+        url: https://www.moems.org/pages/about-the-program
+        tier: L1-official
+        extracted_value: "5 monthly contests; 5 problems; 30 min; 1 pt each; 25 total"
+        extraction_context: "5 monthly contests per year, each with 5 non-routine problems (25 problems total per school year). Per contest: 5 problems; 30 minutes to complete; 1 point for each correct answer (maximum 5 per contest; maximum 25 per year); No partial credit."
+    overreach_flag: false
+    single_source: true
+
+  - id: c045
+    text: "MOEMS teams may enroll up to 35 students per team; open to public, private, parochial, and home schools."
+    type: numerical
+    priority: should_verify
+    entity: moems
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_moems-format-participation.md
+        url: https://www.moems.org/pages/about-the-program
+        tier: L1-official
+        extracted_value: "up to 35 students per team"
+        extraction_context: "Teams may enroll up to 35 students per team. Open to: public schools, private schools, parochial schools, home schools, institutes."
+    overreach_flag: false
+    single_source: true
+
+  - id: c046
+    text: "MOEMS awards the George Lenchner Medallion for perfect scores (25/25)."
+    type: categorical
+    priority: may_skip
+    entity: moems
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_moems-format-participation.md
+        url: https://www.moems.org/pages/about-the-program
+        tier: L1-official
+        extracted_value: "George Lenchner Medallion; 25/25"
+        extraction_context: "George Lenchner Medallion — awarded for perfect scores (25/25)"
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: arml
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c047
+    text: "ARML (American Regions Mathematics League) is an annual national high school math team competition held simultaneously at 5 US sites on the first Saturday after Memorial Day."
+    type: categorical
+    priority: should_verify
+    entity: arml
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_arml-math-league-format.md
+        url: https://en.wikipedia.org/wiki/American_Regions_Mathematics_League
+        tier: L2-authoritative
+        extracted_value: "first Saturday after Memorial Day; 5 locations simultaneously"
+        extraction_context: "ARML is an annual, national high school mathematics team competition. It is held simultaneously at five locations in the United States on the same day (first Saturday after Memorial Day, typically late May or early June)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c048
+    text: "ARML 2025-26 competition sites: University of Iowa, Penn State University, University of Nevada Reno, Western Carolina University, Saint Anselm College."
+    type: categorical
+    priority: should_verify
+    entity: arml
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_arml-math-league-format.md
+        url: https://en.wikipedia.org/wiki/American_Regions_Mathematics_League
+        tier: L2-authoritative
+        extracted_value: "Iowa, Penn State, UNR Reno, Western Carolina, Saint Anselm"
+        extraction_context: "Competition sites (2025-2026): University of Iowa, Penn State University, University of Nevada, Reno, Western Carolina University, Saint Anselm College."
+    overreach_flag: false
+    single_source: true
+
+  - id: c049
+    text: "ARML teams consist of 15 members representing a large geographic region (typically a state or major city). Participation requires joining a regional or state math team via their qualifying process."
+    type: categorical
+    priority: should_verify
+    entity: arml
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_arml-math-league-format.md
+        url: https://en.wikipedia.org/wiki/American_Regions_Mathematics_League
+        tier: L2-authoritative
+        extracted_value: "15-member teams; regional/state selection required"
+        extraction_context: "Teams consist of 15 members. Teams typically represent a large geographic region (a state) or large population center. ARML is not an open-signup contest. Students must join a regional or state math team."
+    overreach_flag: false
+    single_source: true
+
+  - id: c050
+    text: "ARML competition rounds: Team Round (20 min, 10 problems), Power Question (1-hour proof exploration), Individual Round (5 sets of 2 problems, 10 min per set), Relay Round (groups of 3, 6 min per relay), Super Relay (not scored toward official total)."
+    type: categorical
+    priority: should_verify
+    entity: arml
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_arml-math-league-format.md
+        url: https://en.wikipedia.org/wiki/American_Regions_Mathematics_League
+        tier: L2-authoritative
+        extracted_value: "Team: 20 min/10 probs; Power Q: 1 hour; Individual: 5x2 probs/10 min; Relay: 6 min"
+        extraction_context: "Team Round: entire team has 20 minutes to solve 10 problems. Power Question: entire team has 1 hour to solve a multi-part proof/exploration question. Individual Round: each student individually solves 5 sets of 2 problems, 10 minutes per set. Relay Round: teams divided into 5 groups of 3, 6 minutes per relay."
+    overreach_flag: false
+    single_source: true
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: usamts
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c051
+    text: "USAMTS (USA Mathematical Talent Search) is a free, proof-based math competition for US middle and high school students, administered by the Art of Problem Solving Foundation and supported by the National Security Agency."
+    type: categorical
+    priority: should_verify
+    entity: usamts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_usamts-format-training.md
+        url: https://www.usamts.org/
+        tier: L1-official
+        extracted_value: "free; proof-based; AoPS Foundation; NSA"
+        extraction_context: "USAMTS is a free, proof-based math competition for US middle and high school students. It is administered by the Art of Problem Solving Foundation and supported by the National Security Agency."
+    overreach_flag: false
+    single_source: true
+
+  - id: c052
+    text: "USAMTS format: 3 rounds per year, 5 problems per round (1 puzzle + 4 proof problems), over 1 month to solve each round; any resources allowed except help from another person; graded 0-5 per problem with personalized written feedback."
+    type: numerical
+    priority: must_verify
+    entity: usamts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_usamts-format-training.md
+        url: https://www.usamts.org/
+        tier: L1-official
+        extracted_value: "3 rounds; 5 problems; 1 month; 0-5 grading; written feedback"
+        extraction_context: "Three rounds per year. Problems per round: 5 (1 puzzle + 4 proof-based problems). Time to solve: Over 1 month per round. Resources allowed: Any books, calculators, or online resources — but NO help from another person. Each problem graded on scale of 0 to 5. Graders provide personalized written feedback."
+    overreach_flag: false
+    single_source: true
+
+  - id: c053
+    text: "Strong USAMTS performance (approximately 68/75 or higher) is one pathway to qualify for the AIME as an alternative to AMC 10/12."
+    type: numerical
+    priority: must_verify
+    entity: usamts
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_usamts-format-training.md
+        url: https://www.usamts.org/
+        tier: L1-official
+        extracted_value: "AIME qualification possible via USAMTS"
+        extraction_context: "AIME qualification: Strong USAMTS performance is one pathway to qualify for the AIME (as an alternative to AMC 10/12)"
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "around 68/75 points or higher qualifies for AIME"
+        extraction_context: "USAMTS: Note: 'around 68/75 points or higher' qualifies for AIME"
+    overreach_flag: false
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: math-kangaroo
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c054
+    text: "Math Kangaroo is held annually for grades 1-12 on March 19, 2026; grades 1-5: 24 problems in 75 minutes; grades 5+: 30 questions in 75 minutes."
+    type: numerical
+    priority: should_verify
+    entity: math-kangaroo
+    question_id: q1
+    sources:
+      - file: raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+        url: https://www.awesomemath.org/math-competition-calendar-2025-26/
+        tier: L3-aggregator
+        extracted_value: "March 19, 2026; grades 1-12; 24 probs (1-5) or 30 questions (5+); 75 min"
+        extraction_context: "Math Kangaroo: Timing: March 19, 2026. Grades: 1-12. Format: 24 problems (grades 1-5) or 30 questions (grades 5+) in 75 minutes."
+      - file: raw/web/review/2026-04-10_rsm-math-competitions-calendar-2025-26.md
+        url: https://www.mathschool.com/blog/competitions/math-competitions-calendar-for-2025-2026
+        tier: L3-aggregator
+        extracted_value: "March 19, 2026; grades 1-12; 24 problems (75 min) grades 1-5; 30 questions grades 5+"
+        extraction_context: "Math Kangaroo: Date: March 19, 2026. Grades: 1-12. Offers 24 problems (75 minutes) for grades 1-5 and 30 questions for grades 5+."
+    overreach_flag: false
+
+  # ══════════════════════════════════════════════════════════════════════════════
+  # ENTITY: science-competitions
+  # ══════════════════════════════════════════════════════════════════════════════
+
+  - id: c055
+    text: "Regeneron ISEF (International Science and Engineering Fair) is described as the largest pre-college science fair in the world and the most prestigious pre-university scientific and engineering research competition in the world."
+    type: categorical
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/isef/
+        tier: L1-official
+        extracted_value: "largest pre-college science fair; most prestigious pre-university competition in the world"
+        extraction_context: "The largest pre-college science fair in the world. Widely regarded as the most prestigious pre-university scientific and engineering research competition in the world."
+    overreach_flag: true
+    overreach_reason: "Superlative claims ('largest', 'most prestigious') are editorial in nature. The source states this as fact but these are subjective designations. Mark for fact-checker review."
+    single_source: true
+
+  - id: c056
+    text: "ISEF eligibility: students in grades 9-12 must first compete in a Regeneron ISEF affiliated science fair (regional or state) and win the right to attend ISEF. Team projects must have no more than 3 members."
+    type: process
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/isef/
+        tier: L1-official
+        extracted_value: "grades 9-12; win local affiliated fair first; max 3 members"
+        extraction_context: "Students in grades 9-12 must first compete in a Regeneron ISEF affiliated science fair (regional or state) and win the right to attend Regeneron ISEF. Team projects must have no more than 3 members."
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "grades 9-12; must qualify via regional fair (350+ worldwide); teams up to 3"
+        extraction_context: "Eligible students: Grades 9-12; welcomes international students from 60+ countries. PATHWAY to ISEF: Must first qualify through a Society for Science-affiliated regional fair (there are 350+ worldwide). Teams of up to three students permitted."
+    overreach_flag: false
+
+  - id: c057
+    text: "ISEF scale: approximately 1,700 finalists from 60+ countries at the international fair; hundreds of thousands compete at local/regional level first."
+    type: numerical
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "~1,700 finalists; 60+ countries; hundreds of thousands compete locally"
+        extraction_context: "Scale: ~1,700 finalists from 60+ countries at the international fair; hundreds of thousands compete at local/regional level first"
+    overreach_flag: false
+    single_source: true
+
+  - id: c058
+    text: "ISEF top prize is the Gordon E. Moore Award. One source states $75,000; another source states $100,000. Total awards are described as 'nearly $9 million annually'."
+    type: numerical
+    priority: must_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/isef/
+        tier: L1-official
+        extracted_value: "$75,000 (Gordon E. Moore Award)"
+        extraction_context: "Grand awards, special awards from organizations, and significant monetary prizes including the Gordon E. Moore Award ($75,000)."
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "$100,000 (Gordon E. Moore Award); nearly $9 million total"
+        extraction_context: "Top prize (Gordon E. Moore Award): $100,000. Total awards: nearly $9 million annually."
+    overreach_flag: false
+    conflict_with: c058
+    conflict_note: "Two sources conflict on Gordon E. Moore Award value: $75,000 (L1-official) vs $100,000 (L2-authoritative). Fact-checker must verify current prize amount against Society for Science official site."
+
+  - id: c059
+    text: "Regeneron Science Talent Search (STS) was started in 1942 as the Westinghouse Science Talent Search. It is described as the nation's oldest and most prestigious science research competition for high school students."
+    type: temporal
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/regeneron-sts/
+        tier: L1-official
+        extracted_value: "started 1942; Westinghouse Science Talent Search; oldest and most prestigious"
+        extraction_context: "The nation's oldest and most prestigious science research competition for high school students. Started in 1942 as the Westinghouse Science Talent Search."
+    overreach_flag: false
+    single_source: true
+
+  - id: c060
+    text: "Regeneron STS eligibility: high school seniors only (12th grade, enrolled in a U.S. high school at time of application); U.S. citizenship or residency required."
+    type: categorical
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/regeneron-sts/
+        tier: L1-official
+        extracted_value: "seniors only; 12th grade; US high school enrollment; US citizenship/residency"
+        extraction_context: "High school seniors only (12th grade, enrolled in U.S. high school at time of application)."
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "HIGH SCHOOL SENIORS ONLY; US citizenship or residency required"
+        extraction_context: "Eligible students: HIGH SCHOOL SENIORS ONLY; must attend school in the United States or its territories; US citizenship or residency required"
+    overreach_flag: false
+
+  - id: c061
+    text: "Regeneron STS scale: approximately 1,900-2,500 applicants per year (sources differ) -> 300 Scholars (each receive $2,000) -> 40 Finalists (each receive at least $25,000; top prize $250,000). Total prizes: $3.1 million annually."
+    type: numerical
+    priority: must_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/regeneron-sts/
+        tier: L1-official
+        extracted_value: "~1,900 applicants; 300 Scholars; 40 Finalists"
+        extraction_context: "About 1,900 students enter annually. 300 recognized as 'Scholars'. 40 invited as 'Finalists' to Washington, D.C. for final round"
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "~2,500 applicants; 300 Scholars ($2,000 each); 40 Finalists ($25,000+ each); top prize $250,000; $3.1M total"
+        extraction_context: "Scale: ~2,500 applicants per year -> 300 Scholars -> 40 Finalists. Awards: Total prizes: $3.1 million annually. Top prize: $250,000. 300 Scholars each receive $2,000. 40 Finalists each receive at least $25,000."
+    overreach_flag: false
+    conflict_note: "Applicant count varies by source: ~1,900 (L1-official) vs ~2,500 (L2-authoritative). Fact-checker should verify current applicant count from Society for Science."
+
+  - id: c062
+    text: "Regeneron STS format: entirely application-based (not a science fair); materials include research report (up to 20 pages including photos/tables/graphs/appendices), short essays, educator recommendations, academic transcript, optional standardized test scores. Finalists travel to Washington DC."
+    type: process
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "application-based; 20-page research report; essays; recommendations; transcript; Finalists to DC"
+        extraction_context: "Format: Entirely application-based (not a traditional science fair). Submitted materials include: Research report up to 20 pages (includes all photos, tables, graphs, appendices); Short essays about scientific thinking and motivations; Educator recommendations; Academic transcript; Optional: standardized test scores. NO in-person booth presentation for Scholars; Finalists travel to Washington, DC."
+    overreach_flag: false
+    single_source: true
+
+  - id: c063
+    text: "STS applications open in June and are due in November of the student's senior year. Research must be substantially complete before senior year begins."
+    type: temporal
+    priority: must_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "Applications open June, due November; research must be substantially complete before senior year"
+        extraction_context: "Grade 12: STS requires research substantially completed before senior year begins. Applications open June, due November."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L2 source only. Society for Science official site should confirm current application timeline."
+
+  - id: c064
+    text: "STS alumni have earned thirteen Nobel Prizes."
+    type: numerical
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "thirteen Nobel Prizes"
+        extraction_context: "STS alumni have earned thirteen Nobel Prizes."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Nobel Prize count changes over time; should verify current number against Society for Science."
+
+  - id: c065
+    text: "Junior Science and Humanities Symposia (JSHS) is administered by the U.S. Army, Navy, and Air Force (tri-service) and was temporarily suspended as of late 2025."
+    type: categorical
+    priority: must_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "Administered by U.S. Army, Navy, Air Force; suspended late 2025"
+        extraction_context: "Administered by: U.S. Army, Navy, and Air Force (tri-service). Status as of late 2025: Temporarily suspended pending further updates."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Suspension status is time-sensitive. Must verify current JSHS status before publishing."
+
+  - id: c066
+    text: "Science Olympiad is a nationwide team competition (15 students per team) held in spring with 23 events spanning earth science, biology, chemistry, physics, and engineering. Division B: grades 6-9; Division C: grades 9-12. Competition levels: Invitational -> Regional -> State -> National."
+    type: categorical
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/isef/
+        tier: L1-official
+        extracted_value: "15-student teams; 23 events; Division B grades 6-9; Division C grades 9-12; 4 competition levels"
+        extraction_context: "A nationwide team competition held in the spring where students compete in 23 events spanning earth science, biology, chemistry, physics, and engineering. Team-based (15 students per team). Division B: grades 6-9. Division C: grades 9-12. Invitational -> Regional -> State -> National competitions."
+    overreach_flag: false
+    single_source: true
+
+  - id: c067
+    text: "Science Olympiad requires school team registration; no individual application pathway. Students must represent a school team."
+    type: process
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+        url: https://www.societyforscience.org/isef/
+        tier: L1-official
+        extracted_value: "school team registration only; no individual entry"
+        extraction_context: "School teams register. No individual application — must represent a school team."
+    overreach_flag: false
+    single_source: true
+
+  - id: c068
+    text: "A math project won a top prize in Regeneron STS 2025 (solving a long-standing math problem). This is described as unusual but signals theoretical work is welcome."
+    type: categorical
+    priority: should_verify
+    entity: science-competitions
+    question_id: q13
+    sources:
+      - file: raw/web/review/2026-04-10_regeneron-sts-vs-isef-comparison.md
+        url: https://riseglobaleducation.com/blogs/regeneron-sts-vs-isef-vs-jshs-science-fair
+        tier: L2-authoritative
+        extracted_value: "math project won top prize in 2025 STS; unusual but possible"
+        extraction_context: "Note on mathematics: A math project won a top prize in 2025 (solving a long-standing math problem). This is unusual but signals that theoretical work is welcome."
+    overreach_flag: false
+    single_source: true
+

@@ -1,0 +1,469 @@
+# Depth Phase Addendum — 2026-04-10
+# Produced by: research-agent
+# Phase: depth
+# Status: complete (all 34 depth questions answered)
+# Searches used in depth phase: 18 (s-2026-04-10-012 through s-2026-04-10-029)
+# Fetches used in depth phase: ~20
+
+budget_update:
+  searches_used_total: 29   # 11 breadth + 18 depth
+  fetches_used_total: 34    # 14 breadth + 20 depth
+  depth_phase_status: complete
+  gap_fill_status: pending
+
+phases_update:
+  depth:
+    status: complete
+    completed_at: 2026-04-10
+
+# ────────────────────────────────────────────────────────────────────────────────
+# DEPTH QUESTION STATUS UPDATES
+# All 34 depth questions (q11-q45) answered in this pass
+# ────────────────────────────────────────────────────────────────────────────────
+
+question_updates:
+
+  - id: q11
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-012
+        query: "AMC 10 12 AIME cutoff scores historical 2020-2026 percentile distribution USAMO USAJMO qualification index"
+    raw_files:
+      - raw/web/official/2026-04-10_aops-amc-historical-results.md
+      - raw/web/review/2026-04-10_thinkacademy-usamo-guide.md
+    notes: >
+      AoPS Wiki has full historical data from 2014 to 2026. USAMO index formula changed
+      2025-2026: now AIME×20 + AMC (was AIME×10 + AMC). AIME qualification cap of 120/100
+      removed. Top 2.5% AMC 10 / 5% AMC 12 guaranteed to qualify.
+
+  - id: q12
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-013
+        query: "F=ma exam USAPhO preparation guide score cutoffs IPhO training camp structure 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+    notes: >
+      Full pipeline documented. F=ma (25 MC, 75 min, algebra-based mechanics) → top ~400
+      → USAPhO (3hr free response) → top ~20 → Training Camp (Univ. Maryland, 10 days)
+      → top 5 → IPhO. 2026 F=ma: Feb 12. IPhO 2026: Bucaramanga Colombia July 4-12.
+
+  - id: q13
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-014
+        query: "Science Olympiad ISEF Regeneron STS structure rules team individual research how to enter high school"
+    raw_files:
+      - raw/web/review/2026-04-10_science-competitions-isef-sts-scioly.md
+    notes: >
+      Three distinct competitions documented with entry process, team vs. individual,
+      eligible grades, and prestige levels.
+
+  - id: q15
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-015
+        query: "SMPY study mathematically precocious youth long term outcomes career research results Julian Stanley"
+    raw_files:
+      - raw/web/review/2026-04-10_smpy-long-term-outcomes.md
+
+  - id: q16
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-025
+        query: "school math vs competition math difference creative problem solving proof writing skills competition develops school doesn't"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-math-gap-school-math-benefits.md
+
+  - id: q17
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-026
+        query: "K-2 elementary math enrichment activities games puzzles mathematical thinking gifted child without pressure"
+    raw_files:
+      - raw/web/review/2026-04-10_elementary-enrichment-k2-activities.md
+
+  - id: q18
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-026
+        query: "K-2 elementary math enrichment activities games puzzles mathematical thinking gifted child without pressure"
+      - id: s-2026-04-10-027
+        query: "AoPS online courses Beast Academy comparison RSM AlphaStar competition math training programs cost format results review"
+    raw_files:
+      - raw/web/review/2026-04-10_elementary-enrichment-k2-activities.md
+      - raw/web/review/2026-04-10_competition-training-providers-comparison.md
+
+  - id: q19
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-016
+        query: "competition math books by level Art of Problem Solving Intro series Intermediate Olympiad progression recommended list"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-math-books-progression.md
+
+  - id: q20
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-013
+        query: "F=ma exam USAPhO preparation guide score cutoffs IPhO training camp structure 2025 2026"
+      - id: s-2026-04-10-016
+        query: "competition math books by level Art of Problem Solving Intro series Intermediate Olympiad progression recommended list"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-math-books-progression.md
+      - raw/web/official/2026-04-10_aapt-usapho-students-guide.md
+
+  - id: q21
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-017
+        query: "Ross Mathematics Program PROMYS Mathcamp compare philosophy structure experience alumni outcomes selectivity 2025"
+    raw_files:
+      - raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+
+  - id: q22
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-020
+        query: "competitive math college admissions MIT Caltech AIME USAMO qualifier threshold advantage RSI impact 2024 2025"
+    raw_files:
+      - raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+      - raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+
+  - id: q23
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-018
+        query: "gifted math acceleration when accelerate vs enrich framework decision criteria research expert recommendations NAGC"
+    raw_files:
+      - raw/web/review/2026-04-10_acceleration-enrichment-framework.md
+
+  - id: q24
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-018
+        query: "gifted math acceleration when accelerate vs enrich framework decision criteria research expert recommendations NAGC"
+    raw_files:
+      - raw/web/review/2026-04-10_acceleration-enrichment-framework.md
+
+  - id: q25
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-019
+        query: "TJHSST IMSA Stuyvesant magnet STEM high schools admissions requirements what programs offer gifted students"
+    raw_files:
+      - raw/web/review/2026-04-10_stem-magnet-schools-tjhsst-imsa-stuy.md
+
+  - id: q26
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-022
+        query: "math competition parent role coaching when hire tutor vs self study successful competitor family stories advice"
+    raw_files:
+      - raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+
+  - id: q27
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-022
+        query: "math competition parent role coaching when hire tutor vs self study successful competitor family stories advice"
+      - id: s-2026-04-10-027
+        query: "AoPS online courses Beast Academy comparison RSM AlphaStar competition math training programs cost format results review"
+    raw_files:
+      - raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+      - raw/web/review/2026-04-10_competition-training-providers-comparison.md
+
+  - id: q28
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-022
+        query: "math competition parent role coaching when hire tutor vs self study successful competitor family stories advice"
+    raw_files:
+      - raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+
+  - id: q29
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-021
+        query: "Evan Chen Po-Shen Loh math olympiad advice training philosophy"
+      - id: s-2026-04-10-022
+        query: "math competition parent role coaching when hire tutor vs self study successful competitor family stories advice"
+    raw_files:
+      - raw/web/review/2026-04-10_expert-philosophies-evan-chen-po-shen-loh.md
+      - raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+
+  - id: q30
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-012
+        query: "AMC 10 12 AIME cutoff scores historical 2020-2026 percentile distribution USAMO USAJMO qualification index"
+      - id: s-2026-04-10-020
+        query: "competitive math college admissions MIT Caltech AIME USAMO qualifier threshold advantage RSI impact 2024 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+
+  - id: q31
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-020
+        query: "competitive math college admissions MIT Caltech AIME USAMO qualifier threshold advantage RSI impact 2024 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+
+  - id: q32
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-020
+        query: "competitive math college admissions MIT Caltech AIME USAMO qualifier threshold advantage RSI impact 2024 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_college-admissions-competition-math-impact.md
+
+  - id: q33
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-027
+        query: "AoPS online courses Beast Academy comparison RSM AlphaStar competition math training programs cost format results review"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-training-providers-comparison.md
+
+  - id: q34
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-023
+        query: "STEM competition burnout warning signs recovery strategies families gifted kids competition quitting when to stop"
+    raw_files:
+      - raw/web/review/2026-04-10_burnout-warning-signs-recovery-balance.md
+
+  - id: q35
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-023
+        query: "STEM competition burnout warning signs recovery strategies families gifted kids competition quitting when to stop"
+    raw_files:
+      - raw/web/review/2026-04-10_burnout-warning-signs-recovery-balance.md
+
+  - id: q36
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-022
+        query: "math competition parent role coaching when hire tutor vs self study successful competitor family stories advice"
+      - id: s-2026-04-10-023
+        query: "STEM competition burnout warning signs recovery strategies families gifted kids competition quitting when to stop"
+    raw_files:
+      - raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+      - raw/web/review/2026-04-10_burnout-warning-signs-recovery-balance.md
+
+  - id: q37
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-024
+        query: "competitive STEM prep costs tutoring programs summer camp books total annual spending financial aid scholarships free resources"
+    raw_files:
+      - raw/web/review/2026-04-10_costs-financial-aid-free-resources.md
+
+  - id: q38
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-024
+        query: "competitive STEM prep costs tutoring programs summer camp books total annual spending financial aid scholarships free resources"
+      - id: s-2026-04-10-017
+        query: "Ross Mathematics Program PROMYS Mathcamp compare philosophy structure experience alumni outcomes selectivity 2025"
+    raw_files:
+      - raw/web/review/2026-04-10_costs-financial-aid-free-resources.md
+      - raw/web/official/2026-04-10_ross-promys-mathcamp-comparison.md
+
+  - id: q39
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-028
+        query: "competition math schedule AMC AIME USAMO F=ma Science Olympiad ISEF annual calendar dates 2025-2026"
+    raw_files:
+      - raw/web/official/2026-04-10_awesomemath-competition-calendar-2025-26.md
+      - raw/web/official/2026-04-10_aops-amc-historical-results.md
+    notes: "Calendar data captured in breadth phase; supplemented with F=ma date from depth"
+
+  - id: q40
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-021
+        query: "Evan Chen Po-Shen Loh math olympiad advice training philosophy"
+    raw_files:
+      - raw/web/review/2026-04-10_expert-philosophies-evan-chen-po-shen-loh.md
+
+  - id: q41
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-021
+        query: "Evan Chen Po-Shen Loh math olympiad advice training philosophy"
+    raw_files:
+      - raw/web/review/2026-04-10_expert-philosophies-evan-chen-po-shen-loh.md
+
+  - id: q42
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-025
+        query: "school math vs competition math difference creative problem solving proof writing skills competition develops school doesn't"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-math-gap-school-math-benefits.md
+
+  - id: q43
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-022
+        query: "math competition parent role coaching when hire tutor vs self study successful competitor family stories advice"
+    raw_files:
+      - raw/web/review/2026-04-10_parent-role-practice-routines-coaching.md
+
+  - id: q44
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-025
+        query: "school math vs competition math difference creative problem solving proof writing skills competition develops school doesn't"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-math-gap-school-math-benefits.md
+
+  - id: q45
+    status: answered
+    answered_at: 2026-04-10
+    search_queries:
+      - id: s-2026-04-10-029
+        query: "lasting benefits competitive math olympiad training problem solving skills intellectual community career advantages research mathematics"
+    raw_files:
+      - raw/web/review/2026-04-10_competition-math-gap-school-math-benefits.md
+      - raw/web/review/2026-04-10_expert-philosophies-evan-chen-po-shen-loh.md
+
+# ────────────────────────────────────────────────────────────────────────────────
+# NEW CONCEPTS DISCOVERED DURING DEPTH PHASE
+# ────────────────────────────────────────────────────────────────────────────────
+
+new_concepts_discovered:
+  - concept: "Kevin Zhou Physics Olympiad Handouts"
+    relevance: 8
+    status: covered_by_search
+    covered_by: q20
+    notes: "Free comprehensive IPhO syllabus; documented in competition-math-books-progression.md"
+
+  - concept: "OTIS (Olympiad Training for Individual Study by Evan Chen)"
+    relevance: 9
+    status: covered_by_search
+    covered_by: q40
+    notes: "Documented in expert-philosophies file"
+
+  - concept: "USEMO (US Ersatz Math Olympiad)"
+    relevance: 7
+    status: covered_by_search
+    covered_by: q40
+    notes: "Free practice olympiad; documented in expert-philosophies file"
+
+  - concept: "MIT PRIMES-USA"
+    relevance: 8
+    status: covered_by_search
+    covered_by: q24
+    notes: "Free year-long research program; documented in acceleration-enrichment-framework.md"
+
+  - concept: "BEAM (Building Excellent Achievement in Math)"
+    relevance: 7
+    status: covered_by_search
+    covered_by: q38
+    notes: "NYC low-income gifted students; documented in costs file"
+
+  - concept: "TAMS (Texas Academy of Mathematics and Science)"
+    relevance: 6
+    status: covered_by_search
+    covered_by: q25
+    notes: "State-funded magnet school; documented in STEM magnet schools file"
+
+  - concept: "NCSSM (North Carolina School of Science and Mathematics)"
+    relevance: 6
+    status: covered_by_search
+    covered_by: q25
+    notes: "Residential state STEM school; documented in STEM magnet schools file"
+
+  - concept: "EMF (Elements of Mathematics: Foundations by IMACS)"
+    relevance: 7
+    status: covered_by_search
+    covered_by: q24
+    notes: "Complete K-middle school to abstract algebra self-study path; documented"
+
+  - concept: "MathILy / MathILy-Er"
+    relevance: 7
+    status: covered_by_search
+    covered_by: q21
+    notes: "Summer programs; documented in Ross/PROMYS/Mathcamp comparison file"
+
+  - concept: "2025-2026 USAMO index formula change"
+    relevance: 9
+    status: covered_by_search
+    covered_by: q11
+    notes: "AIME×20 + AMC replaces AIME×10 + AMC; critical for current-year qualifiers"
+
+  - concept: "Regeneron STS vs ISEF distinction"
+    relevance: 8
+    status: covered_by_search
+    covered_by: q13
+    notes: "STS is direct application for seniors; ISEF requires winning affiliated fair first"
+
+  - concept: "USAMTS (USA Mathematical Talent Search)"
+    relevance: 8
+    status: covered_by_search
+    covered_by: q42
+    notes: "Untimed proof-based competition; important alternative for competition-averse students"
+
+# ────────────────────────────────────────────────────────────────────────────────
+# AGENT NOTES
+# ────────────────────────────────────────────────────────────────────────────────
+
+agent_notes: >
+  All 34 depth questions answered in single pass. Budget used: 29/50 searches (58%),
+  well within 80% depth threshold. All questions answered through a combination of:
+  (1) direct WebFetch of authoritative sources, (2) Chrome MCP fallback for 403-blocked
+  pages (AoPS Wiki, Think Academy), (3) rich WebSearch result summaries for questions
+  where searches alone provided sufficient detail.
+
+  Key gap identified: Question q39 (annual calendar) was largely answered by breadth-phase
+  data; minor depth supplement added. Question q29 (USAMO/IMO qualifier preparation
+  trajectories) has less primary source data than ideal — only general advice from
+  Evan Chen's blog rather than primary testimonials. This is a candidate for gap-fill
+  if additional detail is needed.
+
+  The AoPS historical results file (2026-04-10_aops-amc-historical-results.md) was
+  saved as Chrome MCP a11y snapshot (1800+ lines) — full historical data from 2014-2026
+  is captured; frontmatter was not prepended to this file due to file size constraints.
+
+  Recommended next phase: gap_fill — potential gap questions:
+  1. Specific USAMO/IMO qualifier preparation trajectories (q29 has thin data)
+  2. Annual competition calendar for 2026-2027 (q39 has 2025-2026 only)
+  3. Specific financial aid application processes for summer programs
