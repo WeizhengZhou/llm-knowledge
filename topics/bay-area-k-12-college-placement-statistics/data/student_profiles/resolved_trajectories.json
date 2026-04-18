@@ -1,0 +1,2462 @@
+{
+  "metadata": {
+    "generated": "2026-04-18",
+    "sources": [
+      "mathcounts_ca_results.json",
+      "california_students.json",
+      "college_placement.db (athlete_commits)"
+    ],
+    "total_input_records": 901,
+    "total_entities": 788,
+    "multi_record_entities": 90,
+    "cross_source_matches": 1
+  },
+  "trajectories": [
+    {
+      "entity_id": "traj_0011",
+      "name": "Yichen Wu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 2",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "national qualifier",
+          "source": "mathcounts",
+          "detail": "national/california"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 4",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 13",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0001",
+      "name": "Dylan Wang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Bullis Charter School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 11",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 6",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 1",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0002",
+      "name": "Justin Kim",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Joaquin Miller Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 1",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "national qualifier",
+          "source": "mathcounts",
+          "detail": "national/california"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 2",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0007",
+      "name": "Gilbert Jiang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 8",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 8",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0008",
+      "name": "Vincent Huang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 23",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 10",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0014",
+      "name": "Jingxuan Bo",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Stratford Preparatory Blackford Middle"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 2",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "national qualifier",
+          "source": "mathcounts",
+          "detail": "national/california"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 16",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0017",
+      "name": "Allen Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Monta Vista High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0021",
+      "name": "Matthew Wang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Hopkins Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 25",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 27",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/fremont"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0045",
+      "name": "Jamin Xie",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Valley Christian High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0049",
+      "name": "Yehong Jiang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Nueva School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "nueva",
+        "ivy_plus_enrolled_total": 232,
+        "school_name": "The Nueva School",
+        "city": "San Mateo"
+      }
+    },
+    {
+      "entity_id": "traj_0050",
+      "name": "Canis Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Valley Christian High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0051",
+      "name": "Ethan Liu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0055",
+      "name": "Christopher Chen",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "BASIS Independent Fremont"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0059",
+      "name": "Owen Lu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Monta Vista High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0063",
+      "name": "Rohan Bodke",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Homestead high school"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0066",
+      "name": "Roger Fan",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Gunn High School",
+        "Henry M. Gunn High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "gunn",
+        "ivy_plus_enrolled_total": 149,
+        "school_name": "Henry M. Gunn High School",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "entity_id": "traj_0068",
+      "name": "Agastya Goel",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Henry M. Gunn High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "gunn",
+        "ivy_plus_enrolled_total": 149,
+        "school_name": "Henry M. Gunn High School",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "entity_id": "traj_0072",
+      "name": "Jake Wang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Cupertino High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0074",
+      "name": "Evan Yang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Mission San Jose High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0076",
+      "name": "William Zhao",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Dougherty Valley High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0077",
+      "name": "Minghao Zou",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Valley Christian High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0003",
+      "name": "William Tao",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Joaquin Miller Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 26",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 4",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0004",
+      "name": "Jeremy Zhang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 5",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0005",
+      "name": "Shiven Bhargava",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 6",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0006",
+      "name": "Landon Wan",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 7",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0009",
+      "name": "Edward Han",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 11",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0010",
+      "name": "Ethan Wu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Joaquin Miller Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 10",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 12",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0012",
+      "name": "Skanda Mahesh",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Thornton Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 14",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/fremont"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0013",
+      "name": "Tiffany Han",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 15",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0015",
+      "name": "Om Kabra",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 17",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0016",
+      "name": "Allen Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Rancho Milpitas Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 18",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0018",
+      "name": "Arthur Chang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Joaquin Miller Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 16",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 20",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0019",
+      "name": "Rosie Pan",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Proof School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 24",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/golden_gate"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0020",
+      "name": "Roger Huynh",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Rancho Milpitas Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 25",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0022",
+      "name": "Paarth Bansal",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Gale Ranch Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 30",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/diablo"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0023",
+      "name": "Sidharth Midhun",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Challenger School Berryessa"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 21",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 34",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0024",
+      "name": "Arjun Garg",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Hopkins Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 35",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/fremont"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0025",
+      "name": "Aditya Ashok",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Redwood Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 32",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 36",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0026",
+      "name": "Jessica Yu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 44",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/central_santa_clara_valley"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0027",
+      "name": "Yixuan Dai",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Thornton Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 50",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/fremont"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0028",
+      "name": "Caden Claussen",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Nueva School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 47",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 51",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ],
+      "school_context": {
+        "school_id": "nueva",
+        "ivy_plus_enrolled_total": 232,
+        "school_name": "The Nueva School",
+        "city": "San Mateo"
+      }
+    },
+    {
+      "entity_id": "traj_0029",
+      "name": "Ronav Mandal",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Gale Ranch Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 55",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "chapter qualifier",
+          "source": "mathcounts",
+          "detail": "chapter/diablo"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0030",
+      "name": "Andy Liu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Hopkins Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 3",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "national qualifier",
+          "source": "mathcounts",
+          "detail": "national/california"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0031",
+      "name": "Jonathan Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Redwood Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 48",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 9",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0032",
+      "name": "Atticus Lin",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Nueva School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 23",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 11",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ],
+      "school_context": {
+        "school_id": "nueva",
+        "ivy_plus_enrolled_total": 232,
+        "school_name": "The Nueva School",
+        "city": "San Mateo"
+      }
+    },
+    {
+      "entity_id": "traj_0033",
+      "name": "Keji Yuan",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 13",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 19",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0034",
+      "name": "Joey Guo",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Nueva School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 42",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 33",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ],
+      "school_context": {
+        "school_id": "nueva",
+        "ivy_plus_enrolled_total": 232,
+        "school_name": "The Nueva School",
+        "city": "San Mateo"
+      }
+    },
+    {
+      "entity_id": "traj_0035",
+      "name": "Ethan Bao",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Bullis Charter School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 30",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 40",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0036",
+      "name": "Alex Zhan",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 1",
+          "source": "mathcounts",
+          "detail": "state/norcal"
+        },
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Individual Rank 7",
+          "source": "mathcounts",
+          "detail": "national/california"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0037",
+      "name": "Jonathan Miller",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Sierra Vista Middle School"
+      ],
+      "achievements": [
+        {
+          "year": 2025,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 28",
+          "source": "mathcounts",
+          "detail": "state/socal"
+        },
+        {
+          "year": 2026,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 9",
+          "source": "mathcounts",
+          "detail": "state/socal"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0038",
+      "name": "Rishab Parthasarathy",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2019,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0039",
+      "name": "Mason Fang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Dougherty Valley High School"
+      ],
+      "achievements": [
+        {
+          "year": 2019,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0040",
+      "name": "Edwin Xie",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Monta Vista",
+        "Monta Vista High School"
+      ],
+      "achievements": [
+        {
+          "year": 2019,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0041",
+      "name": "Pranjal Chatterjee",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0042",
+      "name": "David Lee",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0043",
+      "name": "Jerry Liu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Amador Valley High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0044",
+      "name": "Manxi Shi",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "BASIS Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0046",
+      "name": "Samuel Zhou",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Mission San Jose High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Team",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0047",
+      "name": "Rohan Bhowmik",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0048",
+      "name": "Chris Ge",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Mission San Jose High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0052",
+      "name": "Geoffrey Qian",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "BASIS Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0053",
+      "name": "Anthony Wang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Saratoga High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0054",
+      "name": "Roshan Bellary",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Valley Christian High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0056",
+      "name": "Daphne Guo",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Monta Vista High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0057",
+      "name": "Jacob Huang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0058",
+      "name": "Joe Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0060",
+      "name": "Stephen Xia",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "The Harker School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "harker",
+        "ivy_plus_enrolled_total": 139,
+        "school_name": "The Harker School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0061",
+      "name": "Patrick Xue",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Palo Alto High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "palo-alto-high",
+        "ivy_plus_enrolled_total": 100,
+        "school_name": "Palo Alto High School",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "entity_id": "traj_0062",
+      "name": "Ian Youn",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Monta Vista High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0064",
+      "name": "Aaron Chen",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Mission San Jose High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0065",
+      "name": "Amr Elmarassy",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Cupertino High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0067",
+      "name": "Robert Feng",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0069",
+      "name": "Arjun Kulkarni",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Dougherty Valley High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Silver",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0070",
+      "name": "Brian Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Mission San Jose High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0071",
+      "name": "Sahil Mehta",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Amador Valley High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0073",
+      "name": "Larry Xing",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Basis Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0075",
+      "name": "Andrew Yuan",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0078",
+      "name": "Advaith Avadhanam",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Saratoga High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0079",
+      "name": "Brian Bi",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0080",
+      "name": "Sidhant Chaliha",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "BASIS Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0081",
+      "name": "Patrick Huang",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0082",
+      "name": "Ishwar Suriyaprakash",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Homestead High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0083",
+      "name": "Forrest Chou",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Palo Alto High",
+        "Palo Alto Senior High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "palo-alto-high",
+        "ivy_plus_enrolled_total": 100,
+        "school_name": "Palo Alto High School",
+        "city": "Palo Alto"
+      }
+    },
+    {
+      "entity_id": "traj_0084",
+      "name": "Kush Goel",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0085",
+      "name": "Jeffrey Li",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Mission San Jose High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0086",
+      "name": "Andrew Liu",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "BASIS Independent Silicon Valley"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0087",
+      "name": "Brian Xue",
+      "confidence": 0.95,
+      "match_type": "exact_name_school",
+      "school_trajectory": [
+        "Lynbrook High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        }
+      ],
+      "school_context": {
+        "school_id": "lynbrook",
+        "ivy_plus_enrolled_total": 74,
+        "school_name": "Lynbrook High School",
+        "city": "San Jose"
+      }
+    },
+    {
+      "entity_id": "traj_0088",
+      "name": "Nikhil Koldali",
+      "confidence": 0.85,
+      "match_type": "fuzzy_name_school",
+      "school_trajectory": [
+        "Cupertino High School"
+      ],
+      "achievements": [
+        {
+          "year": 2023,
+          "competition": "USAPhO",
+          "result": "HM",
+          "source": "usapho"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Gold",
+          "source": "usapho"
+        }
+      ]
+    },
+    {
+      "entity_id": "traj_0089",
+      "name": "Larsen Weigle",
+      "confidence": 0.85,
+      "match_type": "fuzzy_name_school",
+      "school_trajectory": [
+        "sacred-heart-atherton"
+      ],
+      "achievements": [
+        {
+          "year": 2022,
+          "competition": "Athlete Commit",
+          "result": "Water Polo",
+          "source": "athlete_commits",
+          "detail": "Stanford University"
+        },
+        {
+          "year": 2022,
+          "competition": "Athlete Commit",
+          "result": "Water Polo",
+          "source": "athlete_commits",
+          "detail": "Claremont McKenna College"
+        }
+      ],
+      "school_context": {
+        "school_id": "sacred-heart-atherton",
+        "ivy_plus_enrolled_total": 124,
+        "school_name": "Sacred Heart Preparatory",
+        "city": "Atherton"
+      }
+    },
+    {
+      "entity_id": "traj_0090",
+      "name": "Kevin Li",
+      "confidence": 0.7,
+      "match_type": "cross_competition",
+      "school_trajectory": [
+        "Sierra Vista Middle School",
+        "Carlmont High School"
+      ],
+      "achievements": [
+        {
+          "year": 2024,
+          "competition": "MATHCOUNTS",
+          "result": "Rank 16",
+          "source": "mathcounts",
+          "detail": "state/socal"
+        },
+        {
+          "year": 2024,
+          "competition": "USAPhO",
+          "result": "Bronze",
+          "source": "usapho"
+        }
+      ]
+    }
+  ]
+}
