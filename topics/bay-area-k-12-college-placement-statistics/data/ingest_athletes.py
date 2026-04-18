@@ -58,10 +58,34 @@ def normalize_college(name: str) -> str:
         "georgetown university": "georgetown",
         "notre dame": "notre-dame",
         "university of notre dame": "notre-dame",
+        "the university of notre dame": "notre-dame",
+        "university of notre dame, incl 1 gateway admit": "notre-dame",
+        "rice university": "rice",
+        "rice": "rice",
+        "vanderbilt university": "vanderbilt",
+        "emory university": "emory",
+        "tufts university": "tufts",
+        "wake forest university": "wake-forest",
+        "carnegie mellon university": "carnegie-mellon",
+        "washington university in st. louis": "washu",
     }
     for full, slug in replacements.items():
         if name == full:
             return slug
+    # Handle UC parenthesized format: "University of California (Berkeley)" -> "uc-berkeley"
+    uc_paren = re.match(r'university of california \((.+?)\)', name)
+    if uc_paren:
+        campus = uc_paren.group(1).lower().replace(' ', '-')
+        return f"uc-{campus}"
+    # Handle "University of California, Davis" format
+    uc_comma = re.match(r'university of california,?\s+(.+)', name)
+    if uc_comma:
+        campus = uc_comma.group(1).lower().replace(' ', '-')
+        # Check if already handled by exact match above
+        slug = f"uc-{campus}"
+        if slug in ("uc-berkeley", "uc-los-angeles"):
+            return slug
+        return slug
     # Generic: lowercase, replace spaces/special chars with hyphens
     slug = re.sub(r'[^a-z0-9]+', '-', name).strip('-')
     return slug
