@@ -1,0 +1,7365 @@
+[
+  {
+    "year": 2019,
+    "students": [
+      {
+        "name": "Balachandran, Adithya",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Bian, Vincent",
+        "school": "Poolesville High School",
+        "city": "Poolesville",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Chang, Kevin",
+        "school": "William P. Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Chen, Eddie",
+        "school": "West Windsor\u2010Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Chen, Sean",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Cui, Xinyu",
+        "school": "Council Rock High School North",
+        "city": "Newtown",
+        "state": "PA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Dai, David",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Deng, Zachary",
+        "school": "Lowell High School",
+        "city": "San Francisco",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Geller, Jonathan",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Gold"
+      },
+      {
+        "name": "Goel, Gopal",
+        "school": "Krishna Homeschool",
+        "city": "Portland",
+        "state": "OR",
+        "medal": "Gold"
+      },
+      {
+        "name": "Heckett, Alexander",
+        "school": "Heckett Homeschool",
+        "city": "Clifton",
+        "state": "VA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Hou, Wenjun",
+        "school": "Jesuit High School",
+        "city": "Portland",
+        "state": "OR",
+        "medal": "Gold"
+      },
+      {
+        "name": "Hu, Nathan",
+        "school": "West Lafayette High School",
+        "city": "West Lafayette",
+        "state": "IN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lahoti, Dhilan",
+        "school": "St. John's School",
+        "city": "Houston",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lai, Pierce",
+        "school": "Vandegrift High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Raymond",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, William",
+        "school": "King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Zhening",
+        "school": "Sir John A. Macdonald Secondary School",
+        "city": "Waterloo",
+        "state": "ON",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Albert",
+        "school": "North Hollywood High School",
+        "city": "North Hollywood",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Jason",
+        "school": "Davidson Academy",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Kevin",
+        "school": "Carmel High School",
+        "city": "Carmel",
+        "state": "IN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Patrick",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Steven",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lu, Edward",
+        "school": "Cinco Ranch High School",
+        "city": "Katy",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lu, Emily",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lu, Frank",
+        "school": "Minnetonka High School",
+        "city": "Minnetonka",
+        "state": "MN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Luo, Victor",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Gold"
+      },
+      {
+        "name": "McCarty, Joseph",
+        "school": "Lubbock High School",
+        "city": "Lubbock",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Nie, Jacob",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Ou, Anthony",
+        "school": "Carmel High School",
+        "city": "Carmel",
+        "state": "IN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Parthasarathy, Rishab",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Puri, Arjun",
+        "school": "Memphis University School",
+        "city": "Memphis",
+        "state": "TN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Qin, Albert",
+        "school": "Mira Loma High School",
+        "city": "Sacramento",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Raman, Sanjay",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Shim, Minki",
+        "school": "Home Schooled",
+        "city": "New York",
+        "state": "NY",
+        "medal": "Gold"
+      },
+      {
+        "name": "Venkatapathy, Vedantha",
+        "school": "Tesla STEM High School",
+        "city": "Redmond",
+        "state": "WA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Benjamin",
+        "school": "Scarsdale High School",
+        "city": "Scarsdale",
+        "state": "NY",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Maxwell",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wong, Nyle",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wright, Benjamin",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wu, Richard",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Xi, William",
+        "school": "Perrysburg High School",
+        "city": "Perrysburg",
+        "state": "OH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Yao, Leo",
+        "school": "West Windsor\u2010Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhang, Eric",
+        "school": "Plano West Senior High School",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhou, Jeremy",
+        "school": "Philips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhu, Daniel",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Abney\u2010McPeek, Fiona",
+        "school": "University of Chicago Laboratory School",
+        "city": "Chicago",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bhattaram, Krishnakumar",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Camacho, Julian",
+        "school": "Homestead",
+        "city": "Mequon",
+        "state": "WI",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, James",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Thomas",
+        "school": "Mission San Jose High",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Cheng, Daniel",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Eidson, Brian",
+        "school": "Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Emery, Andre Emery",
+        "school": "Naperville Central",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Fang, Mason",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Ganai, Milan",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Gu, Allen",
+        "school": "Naperville North High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Guo, Albert",
+        "school": "Governor's School for Science and Technology",
+        "city": "Hampton",
+        "state": "VA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Joshi, Sunay",
+        "school": "Bergen County Academies",
+        "city": "Hackensack",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Kumar, Nitin",
+        "school": "Mountain View High School",
+        "city": "Mountain View",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Kwan, Jeffrey",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lei, Austin",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, David",
+        "school": "New Hartford Senior High School",
+        "city": "New Hartford",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Rupert",
+        "school": "Jesuit High School",
+        "city": "Portland",
+        "state": "OR",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Brian",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Richard",
+        "school": "William Mason High School",
+        "city": "Mason",
+        "state": "OH",
+        "medal": "Silver"
+      },
+      {
+        "name": "Muppalla, Siddharth",
+        "school": "William P. Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Nene, Ayush",
+        "school": "Northview High School",
+        "city": "John's Creek",
+        "state": "GA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Qi, Allison",
+        "school": "Davis Senior High School",
+        "city": "Davis",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Qi, Benjamin",
+        "school": "Princeton High School",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Qian, Kevin",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Qu, Steven",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Sima, Andrew",
+        "school": "Lowell High School",
+        "city": "San Francisco",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Tsai, Joshua",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Tsao, Nicholas",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Viswanatha, Haveesh",
+        "school": "West Windsor Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Vulakh, David",
+        "school": "Paul Laurence Dunbar High School",
+        "city": "Lexington",
+        "state": "KY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Andy",
+        "school": "NCSSM",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Ian",
+        "school": "Gauss Academy",
+        "city": "Bridgewater",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Samuel",
+        "school": "BASIS Independent Mclean",
+        "city": "Mclean",
+        "state": "VA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Stanley",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wendt, David",
+        "school": "Island Trees HS",
+        "city": "Levittown",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Ethan",
+        "school": "Bridgewater\u2010Raritan High School",
+        "city": "Bridgewater",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Geoffrey",
+        "school": "Naperville North High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xing, Albert",
+        "school": "The Charter School of Wilmington",
+        "city": "Wilmington",
+        "state": "DE",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xiong, David",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "Princeton Junction",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xu, Jeffrey",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yang, William",
+        "school": "Monta Vista",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yu, Gavin",
+        "school": "Tang Academy",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yue, William",
+        "school": "Phillips Academy Andover",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Michael",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bean, Alex",
+        "school": "Ed W Clark HS",
+        "city": "Las Vegas",
+        "state": "NV",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Berkun, Samuel",
+        "school": "Arcadia High School",
+        "city": "Arcadia",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bhat, Suhaas",
+        "school": "Marshfield High School",
+        "city": "Marshfield",
+        "state": "WI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cai, Kevin",
+        "school": "Temple City High School",
+        "city": "Temple City",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Andrew",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "deJong, Aaron",
+        "school": "NCSSM",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Diraviam, Gabriel",
+        "school": "American Heritage School",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Earnst, Adam",
+        "school": "West Lafayette Jr/Sr High School",
+        "city": "West Lafayette",
+        "state": "IN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fei, Jonathan",
+        "school": "River Hill High School",
+        "city": "Clarksville",
+        "state": "MD",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Foo, Bryan",
+        "school": "Poolesville High School",
+        "city": "Poolesville",
+        "state": "MD",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fu, Brian",
+        "school": "Foothill High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Guo, Brandon",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Hall\u2010Brown, Max",
+        "school": "Klein High School",
+        "city": "Klein",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Han, Jerry",
+        "school": "The Village School",
+        "city": "Houston",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Holla, Satya",
+        "school": "Science Academy of South Texas",
+        "city": "Mercedes",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Andrew",
+        "school": "Conestoga High School",
+        "city": "Berwyn",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, David",
+        "school": "Inphynity",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jiang, Kevin",
+        "school": "Ladue Horton Watkins High School",
+        "city": "St. Louis",
+        "state": "MO",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jiang, Maxwell",
+        "school": "Plano West Senior High School",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Karpuram, Kaushal",
+        "school": "American High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Kee, Brian",
+        "school": "Poolesville HS",
+        "city": "Poolesville",
+        "state": "MD",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Kelman, Stephen",
+        "school": "Los Alamitos High School",
+        "city": "Los Alamitos",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Kim, Ryan",
+        "school": "TJHSST",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Dion",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Joseph",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lisitsyn, Artyom",
+        "school": "Oxford Academy",
+        "city": "Cypress",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Alex",
+        "school": "Dulles High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Andrew",
+        "school": "Dulles High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Machtinger, Jared",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "McEntaggart, Andrew",
+        "school": "Wheeler High School",
+        "city": "Marietta",
+        "state": "GA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Menezes, Robert",
+        "school": "Lincoln",
+        "city": "Portland",
+        "state": "OR",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Moon, Kenneth",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Morin, James",
+        "school": "Ronald Reagan High School",
+        "city": "San Antonio",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Murphy, Leo",
+        "school": "Governor\u2019s School for Science and Technology",
+        "city": "Williamsburg",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Oh, Kevin",
+        "school": "Bellarmine College Preparatory",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Rajesh, Sameer",
+        "school": "William P. Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sadam, Akhil",
+        "school": "Sadam Homeschool",
+        "city": "round rock",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shen, Daniel",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shenoy, Nakul",
+        "school": "Mountain View High School",
+        "city": "Mountain View",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Soni, Ronan",
+        "school": "Evanston Township High School",
+        "city": "Evanston",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Stavrianos, Jacob",
+        "school": "Montgomery Blair HS",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sun, Daniel",
+        "school": "Interlake High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tang, Colin",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tu, Alan",
+        "school": "Pittsford Sutherland High School",
+        "city": "Pittsford",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, Daniel",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, Frank",
+        "school": "Montgomery High School",
+        "city": "Skillman",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, William",
+        "school": "WWP High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wu, Eric",
+        "school": "William P. Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ye, Brion",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ye, Sophie",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yi, Alexander",
+        "school": "Westwood High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yi, Joshua",
+        "school": "East Brunswick High School",
+        "city": "East Brunswick",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "You, Kevin",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yuan, Harry",
+        "school": "Whitney High School",
+        "city": "Cerritos",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zahid, Ethan",
+        "school": "Dulles High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "zeng, qingxuan",
+        "school": "Newton South High School",
+        "city": "Newton",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, David",
+        "school": "Sartell High School",
+        "city": "Sartell",
+        "state": "MN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Isaac",
+        "school": "Lincoln East High School",
+        "city": "Lincoln",
+        "state": "NE",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Kevin",
+        "school": "TJHSST",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Andrew",
+        "school": "Henry M Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Jerry",
+        "school": "Enloe High School",
+        "city": "Raleigh",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Jiangda",
+        "school": "Whitney High School",
+        "city": "Cerritos",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhong, Rowechen",
+        "school": "Niskayuna High School",
+        "city": "Niskayuna",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhou, Ethan",
+        "school": "BASIS Independent McLean",
+        "city": "McLean",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhu, Christopher",
+        "school": "The Roxbury Latin School",
+        "city": "West Roxbury",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhu, Jocelyn",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhu, William",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Abraham, Alan",
+        "school": "Blue Valley West High School",
+        "city": "Overland Park",
+        "state": "KS",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Lawrence",
+        "school": "Princeton High School",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Cheng, Kevin",
+        "school": "Naperville Central High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "deJong, Leo",
+        "school": "Chapel Hill High School",
+        "city": "Chapel Hill",
+        "state": "NC",
+        "medal": "HM"
+      },
+      {
+        "name": "Dugan, Owen",
+        "school": "Stanford Online High School",
+        "city": "Stanford",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Fang, Elliot",
+        "school": "Farragut High School",
+        "city": "Knoxville",
+        "state": "TN",
+        "medal": "HM"
+      },
+      {
+        "name": "Feng, Patrick",
+        "school": "Ridge High School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Feng, Raymond",
+        "school": "Pittsford Sutherland High School",
+        "city": "Pittsford",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Gu, Andrew",
+        "school": "Tesoro High School",
+        "city": "Rancho Santa Margari CA",
+        "state": "",
+        "medal": "HM"
+      },
+      {
+        "name": "Guo, Ethan",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Hu, Alex",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Hu, Anka",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Hu, Dylan",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Hu, Edward",
+        "school": "Oxford High School",
+        "city": "Oxford",
+        "state": "MS",
+        "medal": "HM"
+      },
+      {
+        "name": "Jiang, Stephen",
+        "school": "Ladue Horton Watkins High School",
+        "city": "Saint Louis",
+        "state": "MO",
+        "medal": "HM"
+      },
+      {
+        "name": "Kalghatgi, Nikhil",
+        "school": "Whitney Young High School",
+        "city": "Chicago",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Kalucha, Kanav",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Kan, Benjamin",
+        "school": "Naperville North High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Kim, Tae Kyu",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Kumar, Rohan",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Axel",
+        "school": "Newport High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Deyuan",
+        "school": "Scarsdale High School",
+        "city": "Scarsdale",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Sihang",
+        "school": "Monte Vista High School",
+        "city": "Danville",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lieb, Hayden",
+        "school": "Brighton High School",
+        "city": "Rochester",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, David",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Dylan",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Frank",
+        "school": "Morgantown High School",
+        "city": "Morgantown",
+        "state": "WV",
+        "medal": "HM"
+      },
+      {
+        "name": "Lu, Bryan",
+        "school": "TJHSST",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lui, Kyle",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Lyles, Nikhil",
+        "school": "Liberal Arts and Science Academy",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Ma, Andrew",
+        "school": "American Heritage High School",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Pathak, Atharva",
+        "school": "Eastside High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Pylypovych, Gregory",
+        "school": "Bergen County Academies",
+        "city": "Hackensack",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Qian, Timothy",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "HM"
+      },
+      {
+        "name": "Qin, Derek",
+        "school": "Plano West Senior High",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Qin, Jonathan",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Raman, Vishal",
+        "school": "West Windsor \u2010 Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Ramesh, Nathan",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ravichandran, Anish",
+        "school": "American Heritage School Boca Delray",
+        "city": "Delray Beach",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Slettnes, Espen",
+        "school": "Abel Academy (homeschool)",
+        "city": "Castro Valley",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Thirumalai, Vittal",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Vedantam, Saaketh",
+        "school": "American Heritage School",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Viswanathan, Ashok",
+        "school": "Stanford OHS",
+        "city": "Stanford",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Vuksanovic, Pavle",
+        "school": "Niles West High School",
+        "city": "Skokie",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Alex",
+        "school": "Columbus Academy",
+        "city": "Gahanna",
+        "state": "OH",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Andrew",
+        "school": "Homestead High School",
+        "city": "Mequon",
+        "state": "WI",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Andrew",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Ethan",
+        "school": "Homestead High School",
+        "city": "Mequon",
+        "state": "WI",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Kevin",
+        "school": "The Webb Schools of California",
+        "city": "Claremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Richard",
+        "school": "TJHSST",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Wenjun",
+        "school": "The Gwinnett School of Mathematics, Science, and Te Lawrenceville",
+        "city": "GA",
+        "state": "",
+        "medal": "HM"
+      },
+      {
+        "name": "Wu, Alexander",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wu, Gabriel",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "HM"
+      },
+      {
+        "name": "Wu, Michael",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xie, Edwin",
+        "school": "Monta Vista",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xu, Matthew",
+        "school": "Conestoga High School",
+        "city": "Berwyn",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yang, Chuhua",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ye, Aaron",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yuan, Daniel",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhan, Richard",
+        "school": "TJHSST",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Albert",
+        "school": "Northview High School",
+        "city": "Johns Creek",
+        "state": "GA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Dylan",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Eric",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Kevin",
+        "school": "Proof School",
+        "city": "San Francisco",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Wesley",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, Matthew",
+        "school": "Scarsdale Middle School",
+        "city": "Scarsdale",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "TX",
+        "school": "Charter School of Wilmington",
+        "city": "Wilmington",
+        "state": "DE",
+        "medal": "HM"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "students": [
+      {
+        "name": "Chatterjee, Pranjal",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Chen, Justin",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Cheng, Kevin",
+        "school": "Naperville Central High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Choi, Reagan",
+        "school": "Troy High School",
+        "city": "Troy",
+        "state": "MI",
+        "medal": "Gold"
+      },
+      {
+        "name": "Das, Samvit",
+        "school": "William Mason High School",
+        "city": "Mason",
+        "state": "OH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Dastrup, Caleb",
+        "school": "Poolesville High School",
+        "city": "Poolesville",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Deep, Harsh",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Ding, Henry",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Gold"
+      },
+      {
+        "name": "Erickson, Evan",
+        "school": "Erickson Homeschool Academy",
+        "city": "Lake Elmo",
+        "state": "MN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Fan, Collin",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Fang, Mason",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Gu, Alex",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Guo, Jiwei",
+        "school": "Elite Prep Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Huang, Luke",
+        "school": "New Canaan High School",
+        "city": "New Canaan",
+        "state": "CT",
+        "medal": "Gold"
+      },
+      {
+        "name": "Huang, William",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Israeli Miller, Erez",
+        "school": "Bergen County Academies",
+        "city": "Hackensack",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Jeon, Daniel",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Kim, Evan",
+        "school": "Tesla STEM High School",
+        "city": "Redmond",
+        "state": "WA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lee, David",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lee, Ethan",
+        "school": "Princeton High School",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Alexander",
+        "school": "C. Leon King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Christy",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lin, Junru",
+        "school": "Elite Preparatory Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Charles",
+        "school": "Oklahoma School of Science and Math",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Derek",
+        "school": "San Diego Math Circle",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Liu, Jerry",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lu, Ethan",
+        "school": "Centerville Highschool",
+        "city": "Centerville",
+        "state": "OH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Oliver, Andrew",
+        "school": "Cistercian Prep",
+        "city": "Irving",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Parthasarathy, Rishab",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Rydell, James",
+        "school": "San Juan Hills High School",
+        "city": "San Juan Capistrano",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Shi, James",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Shi, Manxi",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Xia, Daniel",
+        "school": "Ridge High School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Xie, Jamin",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Yevtushenko, Feodor",
+        "school": "Rancho San Joaquin Middle School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Yuan, Bangqi",
+        "school": "Overlake Preparatory Academy",
+        "city": "Edison",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Yue, William",
+        "school": "Phillips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhao, Matthew",
+        "school": "Scarsdale High School",
+        "city": "Scarsdale",
+        "state": "NY",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhong, Rowechen",
+        "school": "Westwood High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhou, Samuel",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhu, Baiyu",
+        "school": "California High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhu, Isaac",
+        "school": "North Carolina School of Science and Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zweiger, Adam",
+        "school": "Carlmont High School",
+        "city": "Belmont",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Agrawal, Sarthak",
+        "school": "Mira Loma High School",
+        "city": "Carmichael",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bender, William",
+        "school": "Ladue Horton Watkins High School",
+        "city": "Ladue",
+        "state": "MO",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bhowmik, Rohan",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chang, Brian",
+        "school": "Archbishop Mitty High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Richard",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Shuoyan",
+        "school": "Troy High School",
+        "city": "Fullerton",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Stephen",
+        "school": "Montgomery Blair HS",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "COHEN, SAMUEL",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "DANG, NICHOLAS",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Doctor, Kavan",
+        "school": "SpringLight Education Institute",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Duan, Mingwen",
+        "school": "East Lyme High School",
+        "city": "East Lyme",
+        "state": "CT",
+        "medal": "Silver"
+      },
+      {
+        "name": "Garg, Ishir",
+        "school": "Leland High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Ge, Chris",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "GUAN, WILLIAM",
+        "school": "F.W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "He, Alexander",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Hollas, Ian",
+        "school": "Homeschooled",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Jiang, Yehong",
+        "school": "The Nueva School",
+        "city": "San Mateo",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Canis",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Rebecca",
+        "school": "Elite Prep Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Vincent",
+        "school": "Horace Mann School",
+        "city": "New York",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Ling, Yunyi",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Ethan",
+        "school": "The Harker School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Ethan",
+        "school": "Westwood HS",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lu, Thomas",
+        "school": "Stanford Online High School",
+        "city": "Stanford",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "MISHRA, AHAN",
+        "school": "F.W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Mujoo, Shuhul",
+        "school": "Evergreen Valley High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "NIKITIN, ANDREY",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Noel, Isaac",
+        "school": "New Trier High School",
+        "city": "Winnetka",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Oliver, Lin",
+        "school": "St. John's School",
+        "city": "Houston",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Pathak, Atharva",
+        "school": "Eastside High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Peng, Clark",
+        "school": "Sage Ridge",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Silver"
+      },
+      {
+        "name": "Proothi, Benjamin",
+        "school": "Ward Melville High School",
+        "city": "East Setauket",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Qian, Geoffrey",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Schweitzer, Leonard",
+        "school": "Edwin O. Smith",
+        "city": "Storrs",
+        "state": "CT",
+        "medal": "Silver"
+      },
+      {
+        "name": "shah, rushil",
+        "school": "Dulles High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Shi, Zian",
+        "school": "Clovis North High School",
+        "city": "Fresno",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Song, Jennifer",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Vatsavai, Aditya",
+        "school": "North Carolina School of Science and Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Silver"
+      },
+      {
+        "name": "Vora, Arnav",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Anthony",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "wang, eric",
+        "school": "West Windsor\u2010Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Joshua",
+        "school": "Brookfield Central",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Vincent",
+        "school": "Irvington High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Alan",
+        "school": "American Heritage School",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Jiayi",
+        "school": "Thomas S Wootton High School",
+        "city": "Rockville",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Kevin",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Phoenix",
+        "school": "Seven Lakes High School",
+        "city": "Katy",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xie, Edwin",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xiong, Edward",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "XUE, JEFFREY",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yang, Roger",
+        "school": "Glenbrook North High School",
+        "city": "Northbrook",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yang, Ruiyi",
+        "school": "Elite Preparatory Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yuan, Jerry",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Brian",
+        "school": "Northville High School",
+        "city": "Northville",
+        "state": "MI",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Bryan",
+        "school": "Stuyvesant High School",
+        "city": "New York",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, George",
+        "school": "Plano West Senior High",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zheng, Harry",
+        "school": "Carmel High School",
+        "city": "Carmel",
+        "state": "IN",
+        "medal": "Silver"
+      },
+      {
+        "name": "Asija, Krish",
+        "school": "Saint John's High School",
+        "city": "Shrewsbury",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bellary, Roshan",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bhattacharyya, Bikrant",
+        "school": "Illinois Math and Science Academy",
+        "city": "Aurora",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Buchsbaum, Jake",
+        "school": "American Heritage School",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Buchsbaum, Jake",
+        "school": "American Heritage School Broward",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cai, Victor",
+        "school": "Parkland High School",
+        "city": "Allentown",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chandra, Adhitya",
+        "school": "BASIS Peoria",
+        "city": "Peoria",
+        "state": "AZ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Charkraborty, Shohom",
+        "school": "Mira Loma High School",
+        "city": "Sacramento",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Arthur",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Benjamin",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Christopher",
+        "school": "BASIS Independent Fremont",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cheng, Ricky",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Choudhury, Yash",
+        "school": "Chattahoochee High School",
+        "city": "Johns Creek",
+        "state": "GA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Dholakia, Shlok",
+        "school": "Parkland High School",
+        "city": "Allentown",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Eroz, Efe",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fang, Michael",
+        "school": "Menlo School",
+        "city": "Atherton",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fu, Yujian",
+        "school": "Trinity School of Durham and Chapel Hill",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ge, Ivan",
+        "school": "Ward Melville High School",
+        "city": "Setauket\u2010East Setauke NY",
+        "state": "",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gilman, Pico",
+        "school": "Proof School",
+        "city": "San Francisco",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gu, Alexander",
+        "school": "Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Guo, Daphne",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gupta, Tanmay",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Han, Nathan",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Hanes, John",
+        "school": "Enloe High School",
+        "city": "Raleigh",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Hu, Jeffrey",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Edwin",
+        "school": "Interlake High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Jacob",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jain, Jasper",
+        "school": "The Bishop's School",
+        "city": "La Jolla",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jia, Darren",
+        "school": "Ridge High School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jiang, Daniel",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "JIANG, ERICK",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Kang, Yifan",
+        "school": "Philips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lee, David",
+        "school": "Princeton Intl School of Math and Science",
+        "city": "Princton",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Joe",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liang, Eric",
+        "school": "Stephen F Austin",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Andrew",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Maximus",
+        "school": "The Pingry School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Ryan",
+        "school": "Northwood High",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Yikai",
+        "school": "Naperville North High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Maximus",
+        "school": "Syosset High School",
+        "city": "Syosset",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Owen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Masroor, Razzi",
+        "school": "Detroit Country Day School",
+        "city": "Beverly Hills",
+        "state": "MI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Mazumder, Arul",
+        "school": "C0deEx",
+        "city": "Acton",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Melikyan, Michael",
+        "school": "Ward Melville High School",
+        "city": "East Setauket",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Muthusamy, Shreyas",
+        "school": "Maggie L. Walker Governor's School",
+        "city": "Richmond",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Pan, Andrew",
+        "school": "Beckman High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Patel, Arjun",
+        "school": "Troy High School",
+        "city": "Fullerton",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Pei, Jonathan",
+        "school": "Brandywine High School",
+        "city": "Wilmington",
+        "state": "DE",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ramachandrula, Kartik",
+        "school": "Brookfield Central High School",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shea, Tucker",
+        "school": "F. W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shoffeitt, Kade",
+        "school": "South Forsyth High School",
+        "city": "Cumming",
+        "state": "GA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "SIN, JOHN",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Solai, Pradyun",
+        "school": "North Allegheny Senior High School",
+        "city": "Wexford",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sooter, John",
+        "school": "Homeschooled",
+        "city": "Bentonville",
+        "state": "AR",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Srikanth, Vishak",
+        "school": "Basis Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Su, Jeremy",
+        "school": "Palos Verdes Peninsula High School",
+        "city": "Rolling Hills Estates",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Subbarao, Surya",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tang, Andy",
+        "school": "Illinois Mathematics and Science Academy",
+        "city": "Aurora",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ting, Gilford",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tzolov, Tony",
+        "school": "State College Area High School",
+        "city": "State College",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Vikram, Arjun",
+        "school": "School of Science and Engineering",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "WANG, DANIEL",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, Mason",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wu, Christopher",
+        "school": "Austin Chinese Education Service",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xia, Stephen",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xu, Max",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xue, Patrick",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yang, Eric",
+        "school": "Allen High School",
+        "city": "Allen",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yang, Heran",
+        "school": "Charter School of Wilmington",
+        "city": "Wilmington",
+        "state": "DE",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yang, Ryan",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Youn, Ian",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhan, Eric",
+        "school": "Mountain View High School",
+        "city": "Vancouver",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Hankai",
+        "school": "Detroit Country Day School",
+        "city": "Beverly Hills",
+        "state": "MI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Jerry",
+        "school": "Minnetonka High School",
+        "city": "Minnetonka",
+        "state": "MN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Justin",
+        "school": "Westview High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Kevin",
+        "school": "Illinois Mathematics and Science Academy",
+        "city": "Aurora",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Michael",
+        "school": "Livermore High School",
+        "city": "Livermore",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Nathan",
+        "school": "Edmonds Woodway High School",
+        "city": "Edmonds",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhou, Andrew",
+        "school": "Irvington High School",
+        "city": "Irvington",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhou, Ethan",
+        "school": "McLean High School",
+        "city": "McLean",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zou, Eric",
+        "school": "Basis San Antonio Shavano Campus",
+        "city": "San Antonio",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Attlan, Sebastian",
+        "school": "Hinsdale Central High School",
+        "city": "Hinsdale",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Bao, Chris",
+        "school": "Davidson Academy Online",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "HM"
+      },
+      {
+        "name": "BEALL, OTTO",
+        "school": "Plano East Senior High",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Bodke, Rohan",
+        "school": "Homestead high school",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Cao, Boheng",
+        "school": "North Hollywood",
+        "city": "Valley Village",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Catalano, Aidan",
+        "school": "Pennsbury High School",
+        "city": "Fairless Hills",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chang, Andrew",
+        "school": "Evergreen Valley High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Aaron",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Jack",
+        "school": "Adlai. E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Matthew",
+        "school": "Wayzata High School",
+        "city": "Plymouth",
+        "state": "MN",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Yufei",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Dai, William",
+        "school": "Plano West Senior High School",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Das, Rohan",
+        "school": "Basis Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Diao, Joshua",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Diaz, Corbin",
+        "school": "American Heritage Broward",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Dinesh, Surya",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Elmarassy, Amr",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Eto, Allison",
+        "school": "'Iolani School",
+        "city": "Honolulu",
+        "state": "HI",
+        "medal": "HM"
+      },
+      {
+        "name": "Fan, Roger",
+        "school": "Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Feng, Robert",
+        "school": "Basis Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "FRAZER, JAKE",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Fu, Preston",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Goel, Agastya",
+        "school": "Henry M. Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Goel, Maanas",
+        "school": "St. Paul's School",
+        "city": "Concord",
+        "state": "NH",
+        "medal": "HM"
+      },
+      {
+        "name": "Guo, Aaron",
+        "school": "Plano West Senior High",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "he, alex",
+        "school": "Syosset High School",
+        "city": "Syosset",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "He, Jessica",
+        "school": "Phillips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "HE, KATIE",
+        "school": "F.W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Jain, Aman",
+        "school": "Del Norte High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Jain, Sanskar",
+        "school": "Montgomery High School",
+        "city": "Skillman",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Jiang, Zhiwei",
+        "school": "William Fremd High School",
+        "city": "Palatine",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Kulkarni, Arjun",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Kumar, Tanish",
+        "school": "Stanford Online High School",
+        "city": "Redwood City",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Allen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Brian",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Dylan",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lim, Evan",
+        "school": "The Davidson Academy",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "HM"
+      },
+      {
+        "name": "Lin, Andrew",
+        "school": "NJ Science Academy",
+        "city": "Bridgewater Township NJ",
+        "state": "",
+        "medal": "HM"
+      },
+      {
+        "name": "Lu, Jonathan",
+        "school": "Monte Vista High School",
+        "city": "Danville",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Luo, Raymond",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Mehta, Sahil",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Min, Edward",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Mudide, Anish",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "HM"
+      },
+      {
+        "name": "Mudumbi, Nikhil",
+        "school": "Bergen County Academies",
+        "city": "Hackensack",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Neema, Tanmay",
+        "school": "Ravenwood High School",
+        "city": "Brentwood",
+        "state": "TN",
+        "medal": "HM"
+      },
+      {
+        "name": "Neuman, Julius",
+        "school": "Manhattan High School",
+        "city": "Manhattan",
+        "state": "KS",
+        "medal": "HM"
+      },
+      {
+        "name": "Pan, Zhengyu",
+        "school": "Illinois Mathematics and Science Academy",
+        "city": "Aurora",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Patkowski, Matthew",
+        "school": "Fulton Science Academy",
+        "city": "Alpharetta",
+        "state": "GA",
+        "medal": "HM"
+      },
+      {
+        "name": "Petyuk, Anthony",
+        "school": "Hanford High School",
+        "city": "Richland",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Qi, Ming",
+        "school": "University High school",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ranganathan, Kailash",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Selvan, Saathvik",
+        "school": "American Heritage Broward",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Siegal, Henry",
+        "school": "Millburn Highschool",
+        "city": "Millburn",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Singh, Shreyas",
+        "school": "University Laboratory High School",
+        "city": "Urbana",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Smith, Nathan",
+        "school": "Ithaca High School",
+        "city": "Ithaca",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Song, Kevin",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Su, William",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Sun, Minghan",
+        "school": "Newport High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Sun, Yujie",
+        "school": "Millburn High School",
+        "city": "Millburn",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Tang, Adam",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Tang, Lucas",
+        "school": "Interlake High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Tignor, Kyle",
+        "school": "Dallastown Area High School",
+        "city": "Dallastown",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Tong, Alexander",
+        "school": "Andover High School",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Andrew",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Ethan",
+        "school": "Homestead High School",
+        "city": "Mequon",
+        "state": "WI",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Ethan",
+        "school": "Lawrence high school",
+        "city": "Lawrenceville",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Hongning",
+        "school": "Eastlake High School",
+        "city": "Sammamish",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Jake",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Michael",
+        "school": "San Marino High School",
+        "city": "San Marino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Shiqi",
+        "school": "Elite Prep Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, William",
+        "school": "Beckman High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, William",
+        "school": "Westlake High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Zhuoqin",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wei, David",
+        "school": "Thomas Jefferson HS for Sci and Technology",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wei, William",
+        "school": "Cold Spring Harbor HS",
+        "city": "cold spring harbor",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Xiang, Kevin",
+        "school": "Northview High School",
+        "city": "Johns Creek",
+        "state": "GA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xiao, Julian",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xing, Langming",
+        "school": "Princeton Intl School of Math and Science",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Xing, Larry",
+        "school": "Basis Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yang, Alina",
+        "school": "North Carolina School of Science and Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "HM"
+      },
+      {
+        "name": "Yang, Evan",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ye, Lawrence",
+        "school": "Leland High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yin, Joshua",
+        "school": "Los Altos High School",
+        "city": "Los Altos",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yuan, Andrew",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zaha, David",
+        "school": "School of science and engineering",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Andrew",
+        "school": "Ridge High School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Dustin",
+        "school": "Boston University Academy",
+        "city": "Boston",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Joshua",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, Alex",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, Kevin",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, William",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zou, Minghao",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "students": [
+      {
+        "name": "Chen, Christopher",
+        "school": "BASIS Independent Fremont",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Chen, Shuoyan",
+        "school": "Troy High School",
+        "city": "Fullerton",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Fan, Collin",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Team"
+      },
+      {
+        "name": "Guan, William",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Team"
+      },
+      {
+        "name": "Huang, Luke",
+        "school": "New Canaan High School",
+        "city": "New Canaan",
+        "state": "CT",
+        "medal": "Team"
+      },
+      {
+        "name": "Jiang, Yehong",
+        "school": "The Nueva School",
+        "city": "San Mateo",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Kim, Evan",
+        "school": "Tesla STEM High School",
+        "city": "Redmond",
+        "state": "WA",
+        "medal": "Team"
+      },
+      {
+        "name": "Labidi, Sami",
+        "school": "Andover High School",
+        "city": "Andover",
+        "state": "KS",
+        "medal": "Team"
+      },
+      {
+        "name": "Li, Alexander",
+        "school": "King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "Team"
+      },
+      {
+        "name": "Liu, Jerry",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Ramachandrula, Kartik",
+        "school": "Brookfield Central High School",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "Team"
+      },
+      {
+        "name": "Shah, Atharva",
+        "school": "Eastside High School",
+        "city": "Taylors",
+        "state": "SC",
+        "medal": "Team"
+      },
+      {
+        "name": "Shi, James",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Shi, Zian",
+        "school": "Clovis North High School",
+        "city": "Fresno",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Wang, Kaile",
+        "school": "Elite preparatory academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Team"
+      },
+      {
+        "name": "Williams, Nannette",
+        "school": "Stamford Polytechnic",
+        "city": "Stamford",
+        "state": "CT",
+        "medal": "Team"
+      },
+      {
+        "name": "Yevtushenko, Feodor",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Zhang, Brian",
+        "school": "Northville High School",
+        "city": "Northville",
+        "state": "MI",
+        "medal": "Team"
+      },
+      {
+        "name": "Zhang, Sophia",
+        "school": "Pine View School",
+        "city": "Sarasota",
+        "state": "FL",
+        "medal": "Team"
+      },
+      {
+        "name": "Zhou, Samuel",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Avadhanam, Advaith",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Das, Samvit",
+        "school": "William Mason High School",
+        "city": "Mason",
+        "state": "OH",
+        "medal": "Gold"
+      },
+      {
+        "name": "Ding, Henry",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Gold"
+      },
+      {
+        "name": "Duan, Mingwen",
+        "school": "East Lyme High School",
+        "city": "East Lyme",
+        "state": "CT",
+        "medal": "Gold"
+      },
+      {
+        "name": "Fan, Roger",
+        "school": "Henry M. Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Kumar, Sebastian",
+        "school": "Tesla STEM High School",
+        "city": "Redmond",
+        "state": "WA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Lee, David",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Canis",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Chunmiao",
+        "school": "Homeschool",
+        "city": "Nashville",
+        "state": "TN",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Joe",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Ling, Yunyi",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Oliver, Andrew",
+        "school": "Cistercian Preparatory School",
+        "city": "Irving",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Pramanik, Sourish",
+        "school": "Montgomery High School",
+        "city": "Skillman",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Anthony",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Eric",
+        "school": "West Windsor\u2010Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Joshua",
+        "school": "Brookfield Central High School",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "Gold"
+      },
+      {
+        "name": "Xie, Jamin",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "XING, LANGMING",
+        "school": "Princeton International School of Math and Sci",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Xiong, Edward",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "ZHAO, MATTHEW",
+        "school": "Scarsdale High School",
+        "city": "Scarsdale",
+        "state": "NY",
+        "medal": "Gold"
+      },
+      {
+        "name": "Bhowmik, Rohan",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bodke, Rohan",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Cao, Boheng",
+        "school": "North Hollywood High School",
+        "city": "North Hollywood",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chandra, Adhitya",
+        "school": "BASIS Peoria",
+        "city": "Peoria",
+        "state": "AZ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chang, Isaac",
+        "school": "Neuqua Valley High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chatterjee, Pranjal",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Benjamin",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Justin",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Stephen",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Yufei",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Cheng, Brian",
+        "school": "Shanghai High School International Division",
+        "city": "Shanghai",
+        "state": "",
+        "medal": "Silver"
+      },
+      {
+        "name": "Dastrup, Caleb",
+        "school": "Poolesville High School",
+        "city": "Poolesville",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Garg, Ishir",
+        "school": "Leland High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Ge, Chris",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Goel, Agastya",
+        "school": "Henry M. Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Hu, Daniel",
+        "school": "Davis Senior High School",
+        "city": "Davis",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Kappler, Alan",
+        "school": "Davidson Academy",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Silver"
+      },
+      {
+        "name": "Kim, Juni",
+        "school": "Stanford Online High School",
+        "city": "Redwood City",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Allen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Charles",
+        "school": "Oklahoma School of Science and Mathematics",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Derek",
+        "school": "Torrey Pines High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lu, Ethan",
+        "school": "Centerville high school",
+        "city": "Centerville",
+        "state": "OH",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lu, Maximus",
+        "school": "Syosset High School",
+        "city": "Syosset",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lu, Michael",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Silver"
+      },
+      {
+        "name": "Luo, Raymond (Ruiyang)",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Masroor, Razzi",
+        "school": "Thayer Academy",
+        "city": "Braintree",
+        "state": "MA",
+        "medal": "Silver"
+      },
+      {
+        "name": "MISHRA, AHAN",
+        "school": "F.W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Mudumbi, Nikhil",
+        "school": "Bergen County Academies",
+        "city": "Hackensack",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Neema, Tanmay",
+        "school": "Ravenwood High School",
+        "city": "Brentwood",
+        "state": "TN",
+        "medal": "Silver"
+      },
+      {
+        "name": "Patkowski, Matthew",
+        "school": "Fulton Science Academy",
+        "city": "Alpharetta",
+        "state": "GA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Qian, Geoffrey",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Shah, Rushil",
+        "school": "Dulles High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "SHEA, TUCKER",
+        "school": "F. W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Singh, Shreyas",
+        "school": "University Laboratory High School",
+        "city": "Urbana",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Tummala, Aniketh",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Vatsavai, Aditya",
+        "school": "North Carolina School of Sci and Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Silver"
+      },
+      {
+        "name": "WANG, DANIEL",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, David",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Jason",
+        "school": "William Mason High School",
+        "city": "Mason",
+        "state": "OH",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wei, David",
+        "school": "Thomas Jefferson HS for Science and Technology",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Alan",
+        "school": "American Heritage Broward",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wu, Kevin",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yang, Evan",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yang, Roger",
+        "school": "Glenbrook North High School",
+        "city": "Northbrook",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhan, Eric",
+        "school": "Mountain View High School",
+        "city": "Vancouver",
+        "state": "WA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Connor",
+        "school": "Paul Laurence Dunbar High School",
+        "city": "Lexington",
+        "state": "KY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Hankai",
+        "school": "Detroit Country Day School",
+        "city": "Beverly Hills",
+        "state": "MI",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Michael",
+        "school": "Livermore High School",
+        "city": "Livermore",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhao, William",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zheng, Harry",
+        "school": "Carmel High School",
+        "city": "Carmel",
+        "state": "IN",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhong, Sophia",
+        "school": "Westwood High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhu, Anthony",
+        "school": "Barrington High School",
+        "city": "Barrington",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhu, Baiyu",
+        "school": "California High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zou, Eric",
+        "school": "BASIS San Antonio Shavano Campus",
+        "city": "San Antonio",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bao, Chris",
+        "school": "Davidson Academy Online",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Beall, Otto",
+        "school": "Plano East Senior High",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bellary, Roshan",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bi, Brian",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bora, Aryan",
+        "school": "William P. Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cai, Brandon",
+        "school": "Parkland High School",
+        "city": "Allentown",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cassidy, Timothy (Tim)",
+        "school": "Middlesex School",
+        "city": "Concord",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chaliha, Sidhant",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Alexander",
+        "school": "BASIS Chandler",
+        "city": "Chandler",
+        "state": "AZ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Austin",
+        "school": "Lubbock High School",
+        "city": "Lubbock",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Honghan",
+        "school": "The Westminster Schools",
+        "city": "Atlanta",
+        "state": "GA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Choi, Yehyun",
+        "school": "Westlake High School",
+        "city": "Westlake",
+        "state": "OH",
+        "medal": "Bronze"
+      },
+      {
+        "name": "COHEN, SAMUEL",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "DANG, NICK",
+        "school": "Buchholz High",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Dinesh, Surya",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Diwan, Nandan",
+        "school": "California High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Dong, Ryan",
+        "school": "Highland Park High School",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "ETO, ALLISON",
+        "school": "Iolani School",
+        "city": "Honolulu",
+        "state": "HI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fei, William",
+        "school": "West Lafayette Jr./Sr. High School",
+        "city": "West Lafayette",
+        "state": "IN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Goel, Arnav",
+        "school": "Whitney M. Young Magnet High School",
+        "city": "Chicago",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Guo, Bradley",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Guo, Daphne",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Han, Nathan",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Hua, Andrew",
+        "school": "Garnet Valley High School",
+        "city": "Glen Mills",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Jacob",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Patrick",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jain, Jasper",
+        "school": "The Bishop's School",
+        "city": "La Jolla",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jayaraman, Pavan",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jiang, Benjamin",
+        "school": "Pine View School",
+        "city": "Osprey",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Kay, Tristan",
+        "school": "Interlake HS",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Le, Skyler",
+        "school": "Radnor High School",
+        "city": "Wayne",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lee, Ethan",
+        "school": "Princeton High School",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lee, Fiona",
+        "school": "Stanford Online High School",
+        "city": "Redwood City",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Brian",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Matthew",
+        "school": "Texas Academy of Mathematics and Science",
+        "city": "Denton",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Stanley",
+        "school": "North Hollywood Senior High School",
+        "city": "North Hollywood",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Elliott",
+        "school": "Torrey Pines High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Felix",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Jonathan",
+        "school": "Monte Vista High School",
+        "city": "Danville",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Owen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Meshchaniuk, Ilia",
+        "school": "Chattahoochee High School",
+        "city": "Johns Creek",
+        "state": "GA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Muppala, Ankit",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Nandakumar, Vishal",
+        "school": "Thomas Jefferson HS for Science and Technology",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "NIKITIN, ANDREY",
+        "school": "Buchholz",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Park, Minseok",
+        "school": "North Carolina School of Sci and Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Pauskar, Tanishq",
+        "school": "Jackson High School",
+        "city": "Massillon",
+        "state": "OH",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Pei, Jonathan",
+        "school": "Brandywine High School",
+        "city": "Wilmington",
+        "state": "DE",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Peng, Clark",
+        "school": "Sage Ridge School",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Peng, Eric",
+        "school": "Texas Academy of Mathematics and Science",
+        "city": "Denton",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Qiu, Nathan",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sharif, Robin",
+        "school": "San Diego Math Circle",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sharma, Romir",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "Princeton Junction",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shi, Liaoliao",
+        "school": "Eastside High School",
+        "city": "Taylors",
+        "state": "SC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sun, Yujie",
+        "school": "Millburn High School",
+        "city": "Millburn",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Suriyaprakash, Ishwar",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Takshi, Daniel",
+        "school": "King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, Jake",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wei, Jiajun",
+        "school": "Elite Preparatory Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "WEI, NATHAN",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wu, Eric",
+        "school": "Mountain View High School",
+        "city": "Mountain View",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xia, Cedric",
+        "school": "Westlake High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xia, Stephen",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xiang, Kevin",
+        "school": "Northview High School",
+        "city": "Johns Creek",
+        "state": "GA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xie, Joy",
+        "school": "Dos Pueblos High School",
+        "city": "Goleta",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xue, Patrick",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yablon, Eliyahu",
+        "school": "Sharon High School",
+        "city": "Sharon",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yang, Eric",
+        "school": "Allen High School",
+        "city": "Allen",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yang, Heng",
+        "school": "American High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yang, Ryan",
+        "school": "Choate Rosemary Hall",
+        "city": "Wallingford",
+        "state": "CT",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yao, Kaiwen",
+        "school": "William G. Enloe High School",
+        "city": "Raleigh",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ye, Aiden",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yu, Edward",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, David",
+        "school": "William Mason High School",
+        "city": "Mason",
+        "state": "OH",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Edward",
+        "school": "North Carolina School of Sci and Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Jerry",
+        "school": "Minnetonka High School",
+        "city": "Minnetonka",
+        "state": "MN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Alex",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Nathan",
+        "school": "Edmonds Woodway High School",
+        "city": "Edmonds",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zou, Minghao",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Arun, Srinivas",
+        "school": "Cherry Creek High School",
+        "city": "Greenwood Village",
+        "state": "CO",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Aaron",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Alex",
+        "school": "Massachusetts Academy of Math and Science",
+        "city": "Worcester",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Jack",
+        "school": "Adlai E. Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Wesley",
+        "school": "Ridge High School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Chou, Forrest",
+        "school": "Palo Alto High",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Dai, Brian",
+        "school": "Naperville Central High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Elmarassy, Amr",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Fan, Gordon",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "FENG, RICHARD",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Feng, William",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "GAO, NOLAN",
+        "school": "Buchholz High",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Goel, Kush",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Gondal, Ammar",
+        "school": "Herricks High School",
+        "city": "New Hyde Park",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Goswami, Aatmodhee",
+        "school": "Dharitri Homeschool",
+        "city": "Cedar Park",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Gupta, Tanmay",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "HE, KATIE",
+        "school": "F. W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Hu, Aaron",
+        "school": "Lawton Chiles High School",
+        "city": "Monticello",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Hu, Cordelia",
+        "school": "Farragut High School",
+        "city": "Knoxville",
+        "state": "TN",
+        "medal": "HM"
+      },
+      {
+        "name": "Huang, Jiawen",
+        "school": "Arcadia High School",
+        "city": "Arcadia",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Jain, Aman",
+        "school": "Del Norte High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Jiang, Nengyi",
+        "school": "Seven Lakes High School",
+        "city": "Katy",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Kodali, Nikhil",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "KOH, YOO\u2010MIN",
+        "school": "Gainesville High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Kou, Joshua",
+        "school": "ACES Academic Enrichment Center",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Kumar, Tanish",
+        "school": "Stanford Online High School",
+        "city": "Redwood City",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Leaf, Noah",
+        "school": "Northampton High School",
+        "city": "Northampton",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lee, Daeho",
+        "school": "Westview High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lefkowitz, Jordan",
+        "school": "E.O. Smith High School",
+        "city": "Mansfield",
+        "state": "CT",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Aaron",
+        "school": "Newark Academy",
+        "city": "Livingston",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Jeffrey",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Rockwell",
+        "school": "Ocean Lakes High School",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "LIN, HAILEY",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Lin, Victor",
+        "school": "Texas Academy of Mathematics and Science",
+        "city": "Denton",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Andrew",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Ethan",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Michael",
+        "school": "Newbury Park High School",
+        "city": "Newbury Park",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Stanley",
+        "school": "Millburn High School",
+        "city": "Millburn",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Lu, Eric",
+        "school": "Palos Verdes Peninsula High School",
+        "city": "Rancho Palos Verdes",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lum, Kai",
+        "school": "BASIS Independent Fremont Upper",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Luo, Justin",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ma, Andy",
+        "school": "Hamilton High School",
+        "city": "Chandler",
+        "state": "AZ",
+        "medal": "HM"
+      },
+      {
+        "name": "Mehta, Sahil",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Morgan, Sydney",
+        "school": "Homeschool",
+        "city": "Homeschool",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Muthusamy, Shreyas",
+        "school": "Maggie L. Walker Governor\u2019s SchooI",
+        "city": "Richmond",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Nadkarni, Tej",
+        "school": "Saint Francis High School",
+        "city": "Mountain View",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Nishida, Taiga",
+        "school": "The Nueva School",
+        "city": "San Mateo",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ren, Alex",
+        "school": "Stanford Online High School",
+        "city": "Online",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ren, Samuel",
+        "school": "Henry M. Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Roessler, David",
+        "school": "Brookfield Academy",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "HM"
+      },
+      {
+        "name": "Sharma, Kartikey",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Shi, Hanwen",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Shi, Manxi",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Singh, Nividh",
+        "school": "Sunset High School",
+        "city": "Portland",
+        "state": "OR",
+        "medal": "HM"
+      },
+      {
+        "name": "Sinha, Ishaan",
+        "school": "South Brunswick High School",
+        "city": "Monmouth Junction",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Song, Kevin",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Su, William",
+        "school": "SpringLight Education Institute",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Sun, Jerry",
+        "school": "Irvington High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Sun, Minghan",
+        "school": "Newport High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Sundar, Srijan",
+        "school": "Plano East Senior High School",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Szeto, Alec",
+        "school": "Piedmont Hills High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Tang, Linus",
+        "school": "Davidson Academy Online",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "HM"
+      },
+      {
+        "name": "Tenneti, Anirudh",
+        "school": "Dougherty Valley",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Vulakh, Joseph",
+        "school": "Paul Laurence Dunbar High School",
+        "city": "Lexington",
+        "state": "KY",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Eric",
+        "school": "Phillips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Hongning",
+        "school": "Eastlake High School",
+        "city": "Sammamish",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Samuel",
+        "school": "Davidson Academy Online",
+        "city": "Reno",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Welp, Eric",
+        "school": "Emmaus High School",
+        "city": "Emmaus",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wu, Allen",
+        "school": "Newport High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xiao, Alan",
+        "school": "BASIS Independent Fremont Upper",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "XING, ANDREW",
+        "school": "F.W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Xu, Shangyu",
+        "school": "Cheshire High School",
+        "city": "Cheshire",
+        "state": "CT",
+        "medal": "HM"
+      },
+      {
+        "name": "Xu, Zani",
+        "school": "Thomas Jefferson HS for Science and Technology",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xue, Brian",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yao, Vincent",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ying, Kaicheng",
+        "school": "Langley High School",
+        "city": "Mclean",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Youm, Jason",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "HM"
+      },
+      {
+        "name": "Youn, Ian",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yu, Brian",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yuan, Andrew",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zaha, David",
+        "school": "School Of Science and Engineering",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Johnny",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Justin",
+        "school": "Westview High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Kevin",
+        "school": "Illinois Mathematics and Science Academy",
+        "city": "Aurora",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Owen",
+        "school": "Bellevue High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, Derek",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, Raymond",
+        "school": "Round Rock High School",
+        "city": "Round Rock",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhong, Lillian",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhou, Owen",
+        "school": "BASIS Scottsdale",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "medal": "HM"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "students": [
+      {
+        "name": "Bodke, Rohan",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Chang, Isaac",
+        "school": "Neuqua Valley High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Team"
+      },
+      {
+        "name": "Chen, Shuoyan",
+        "school": "Troy High",
+        "city": "Fullerton",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Ding, Yuanyuan",
+        "school": "Sage Hill School",
+        "city": "Newport Beach",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Goel, Agastya",
+        "school": "Henry M. Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Huang, Luke",
+        "school": "New Canaan High School",
+        "city": "New Canaan",
+        "state": "CT",
+        "medal": "Team"
+      },
+      {
+        "name": "Jiang, Yehong",
+        "school": "The Nueva School",
+        "city": "San Mateo",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Kanungo, Shihan",
+        "school": "Henry M Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Li, Alexander",
+        "school": "C. Leon King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "Team"
+      },
+      {
+        "name": "Li, Allen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Liu, Zhiyuan",
+        "school": "George Walton Comprehensive High School",
+        "city": "marietta",
+        "state": "GA",
+        "medal": "Team"
+      },
+      {
+        "name": "Patlolla, Thanush",
+        "school": "William G. Enloe High School",
+        "city": "Raleigh",
+        "state": "NC",
+        "medal": "Team"
+      },
+      {
+        "name": "Pramanik, Sourish",
+        "school": "Montgomery High School",
+        "city": "Skillman",
+        "state": "NJ",
+        "medal": "Team"
+      },
+      {
+        "name": "Shi, Zian",
+        "school": "Clovis North High School",
+        "city": "Fresno",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Tian, Madison",
+        "school": "American High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "Wang, Joshua",
+        "school": "Brookfield Central High School",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "Team"
+      },
+      {
+        "name": "Xing, Langming",
+        "school": "Princeton Intl School of Math & Science",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "Team"
+      },
+      {
+        "name": "Yang, Richard",
+        "school": "Iowa City West High School",
+        "city": "Iowa City",
+        "state": "IA",
+        "medal": "Team"
+      },
+      {
+        "name": "Zhang, Brian",
+        "school": "Northville High School",
+        "city": "Northville",
+        "state": "MI",
+        "medal": "Team"
+      },
+      {
+        "name": "Zhao, William",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Team"
+      },
+      {
+        "name": "An, Ziyuan",
+        "school": "YingHao School",
+        "city": "Guangzhou",
+        "state": "CHINA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Avadhanam, Advaith",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "BORA, ARYAN",
+        "school": "William P. Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Chen, Christopher",
+        "school": "BASIS Independent Fremont",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Chou, Forrest",
+        "school": "Palo Alto Senior High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Dinesh, Surya",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "Gold"
+      },
+      {
+        "name": "Duan, Mingwen",
+        "school": "East Lyme High School",
+        "city": "East Lyme",
+        "state": "CT",
+        "medal": "Gold"
+      },
+      {
+        "name": "Fan, Roger",
+        "school": "Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Geng, Austin",
+        "school": "Benjamin Franklin High School",
+        "city": "New Orleans",
+        "state": "LA",
+        "medal": "Gold"
+      },
+      {
+        "name": "GUAN, WILLIAM",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Koldali, Nikhil",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Li, Canis",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Ling, Yunyi",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Ramachandrula, Kartik",
+        "school": "Brookfield Central High School",
+        "city": "Brookfield",
+        "state": "WI",
+        "medal": "Gold"
+      },
+      {
+        "name": "Shi, James",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Shi, Liaoliao",
+        "school": "Eastside High School",
+        "city": "Taylors",
+        "state": "SC",
+        "medal": "Gold"
+      },
+      {
+        "name": "Sodhi, Anurag",
+        "school": "Centennial High School",
+        "city": "Ellicott City",
+        "state": "MD",
+        "medal": "Gold"
+      },
+      {
+        "name": "Sun, Yujie",
+        "school": "Millburn High School",
+        "city": "Millburn",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Daniel",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "Gold"
+      },
+      {
+        "name": "WANG, DANIEL T.",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Wang, Eric",
+        "school": "West Windsor\u2010Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Xie, Jamin",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Yang, Roger",
+        "school": "Glenbrook North High School",
+        "city": "Northbrook",
+        "state": "IL",
+        "medal": "Gold"
+      },
+      {
+        "name": "Yevtushenko, Feodor",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Gold"
+      },
+      {
+        "name": "Zhou, Owen",
+        "school": "BASIS Scottsdale",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "medal": "Gold"
+      },
+      {
+        "name": "Cao, Boheng",
+        "school": "North Hollywood High School",
+        "city": "Valley Village",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chandra, Adhitya",
+        "school": "BASIS Peoria",
+        "city": "Phoenix",
+        "state": "AZ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Matthew",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Stephen",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Chen, Yufei",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Dai, Brian",
+        "school": "Naperville Central High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Dhillon, Rohan",
+        "school": "Lakeside School",
+        "city": "Seattle",
+        "state": "WA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Erat, Sidarth",
+        "school": "La Jolla High School",
+        "city": "La Jolla",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Eto, Ryan",
+        "school": "Iolani School",
+        "city": "Honolulu",
+        "state": "HI",
+        "medal": "Silver"
+      },
+      {
+        "name": "Feng, Robert",
+        "school": "Basis Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Gao, Harry",
+        "school": "R.C. Murphy Junior High School",
+        "city": "Stony Brook",
+        "state": "NY",
+        "medal": "Silver"
+      },
+      {
+        "name": "Georgi, Russell",
+        "school": "BASIS Peoria",
+        "city": "Peoria",
+        "state": "AZ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Gupta, Cyan",
+        "school": "BASIS Tucson North",
+        "city": "Tucson",
+        "state": "AZ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Han, Darren",
+        "school": "Westwood High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Han, Nathan",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Hoang, Patrick",
+        "school": "Clear Lake High School",
+        "city": "Houston",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Hu, Ricky",
+        "school": "Quarry Lane School",
+        "city": "Dublin",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "ji, David",
+        "school": "Montgomery High School",
+        "city": "Skillman",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Jiang, Benjamin",
+        "school": "Pine View School",
+        "city": "Osprey",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Jiang, Junlin",
+        "school": "Piedmont High School",
+        "city": "Piedmont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Kulkarni, Arjun",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Kulla, Jullius",
+        "school": "American Heritage Schools Palm Beach",
+        "city": "Delray Beach",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Matthew",
+        "school": "Texas Academy of Mathematics and Science",
+        "city": "Denton",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Li, Stanley",
+        "school": "North Hollywood High School",
+        "city": "North Hollywood",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liang, Evin",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Elliott",
+        "school": "Torrey Pines High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Liu, Ethan",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lu, Alan",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Lu, Ethan",
+        "school": "Centerville High School",
+        "city": "Centerville",
+        "state": "OH",
+        "medal": "Silver"
+      },
+      {
+        "name": "Mahashabde, Kedar",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "Princeton Junction",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Meshchaniuk, Ilia",
+        "school": "Chattahoochee High School",
+        "city": "Johns Creek",
+        "state": "GA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Mopuri, Advaith",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Mrug, Eli",
+        "school": "Alabama School of Fine Arts",
+        "city": "Birmingham",
+        "state": "AL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Nadeem, Ibrahim",
+        "school": "Mountain House High School",
+        "city": "Mountain House",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Rusli, Andrew",
+        "school": "St. Margaret's Episcopal School",
+        "city": "San Juan Capistrano",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Shah, McNair",
+        "school": "Alabama School of Fine Arts",
+        "city": "Birmingham",
+        "state": "AL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Sharma, Romir",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "Princeton Junction",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Singh, Shreyas",
+        "school": "University Laboratory High School",
+        "city": "Urbana",
+        "state": "IL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Sue, Kristie",
+        "school": "Leland High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Sun, Jerry",
+        "school": "Irvington High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Takshi, Daniel",
+        "school": "King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Voigt, Michael",
+        "school": "Belmont High School",
+        "city": "Belmont",
+        "state": "MA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Ian",
+        "school": "BASIS Independent McLean",
+        "city": "McLean",
+        "state": "VA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Jake",
+        "school": "Cupertino High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Jason",
+        "school": "William Mason High School",
+        "city": "Mason",
+        "state": "OH",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Mingze",
+        "school": "Elite Preparatory Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Ruilin",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Wang, Samuel",
+        "school": "Davidson Academy Online",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xiang, Kevin",
+        "school": "Northview High School",
+        "city": "Duluth",
+        "state": "GA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Xie, Eric",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yang, Evan",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Yao, Kaiwen",
+        "school": "William G. Enloe High School",
+        "city": "Raleigh",
+        "state": "NC",
+        "medal": "Silver"
+      },
+      {
+        "name": "Youm, Jason",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhan, Eric",
+        "school": "Mountain View High School",
+        "city": "Vancouver",
+        "state": "WA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Justin",
+        "school": "Westview High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhang, Sophia",
+        "school": "Pine View School",
+        "city": "Osprey",
+        "state": "FL",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zhao, Nathan",
+        "school": "Edmonds Woodway High School",
+        "city": "Edmonds",
+        "state": "WA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zou, Eric",
+        "school": "BASIS San Antonio Shavano",
+        "city": "San Antonio",
+        "state": "TX",
+        "medal": "Silver"
+      },
+      {
+        "name": "Zou, Minghao",
+        "school": "Valley Christian High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Silver"
+      },
+      {
+        "name": "Bao, Chris",
+        "school": "The Davidson Academy",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Bhugra, Shaha",
+        "school": "Pleasant Valley High School",
+        "city": "Bettendorf",
+        "state": "IA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Burton, Henry",
+        "school": "Hunter College High School",
+        "city": "New York",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cai, Brandon",
+        "school": "Parkland High School",
+        "city": "Allentown",
+        "state": "PA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chaliha, Sidhant",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Edward",
+        "school": "Carmel High School",
+        "city": "Carmel",
+        "state": "IN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Wesley",
+        "school": "Ridge High School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Chen, Zihao",
+        "school": "Elite Preparatory Academy",
+        "city": "Hopatcong",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Cheung, Julian",
+        "school": "Interlake High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Crossman, Michael",
+        "school": "Columbus North High School",
+        "city": "Columbus",
+        "state": "IN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Du, Jonathan",
+        "school": "Los Altos High School",
+        "city": "Los Altos",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ely, Justin",
+        "school": "BASIS Independent Fremont (Upper)",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fan, Gordon",
+        "school": "High Technology High School",
+        "city": "Lincroft",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Fang, Victoria",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Feinberg, Ray",
+        "school": "Middleton High School",
+        "city": "Middleton",
+        "state": "WI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Feyerherm, Aiden",
+        "school": "McLean High School",
+        "city": "McLean",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gaonkar, Stavya",
+        "school": "American High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Goel, Kush",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gomez, Matthew",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gu, Alexander",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gu, Jerry",
+        "school": "West Lafayette Jr./Sr. High School",
+        "city": "West Lafayette",
+        "state": "IN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Gurvich, Damon",
+        "school": "Lexington High School",
+        "city": "Lexington",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "He, Jonathan",
+        "school": "Adlai Stevenson High School",
+        "city": "Lincolnshire",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Hu, Aaron",
+        "school": "Lawton Chiles High School",
+        "city": "Tallahassee",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Hu, Daniel",
+        "school": "Davis Senior High School",
+        "city": "Davis",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Jacqueline",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Huang, Kevin",
+        "school": "New Trier High School",
+        "city": "Winnetka",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Isaacs, Manu",
+        "school": "Jesuit High School",
+        "city": "Portland",
+        "state": "OR",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jayaraman, Pavan",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jiang, Henry",
+        "school": "Detroit Country Day Upper School",
+        "city": "Beverly Hills",
+        "state": "MI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jiao, Michael",
+        "school": "Jericho High School",
+        "city": "Jericho",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Jin, Eric",
+        "school": "Shanghai American School Pudong Campus",
+        "city": "Shanghai",
+        "state": "CHINA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Kim, Daniel",
+        "school": "Troy High School",
+        "city": "Fullerton",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Koh, Yoo\u2010Min",
+        "school": "Gainesville High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Anthony",
+        "school": "Troy High School",
+        "city": "Troy",
+        "state": "MI",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Bryan",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Eric",
+        "school": "Elkins HS",
+        "city": "Missouri City",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Jeffrey",
+        "school": "Mission San Jose High School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Kevin",
+        "school": "Carlmont High School",
+        "city": "Belmont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Li, Rockwell",
+        "school": "Ocean Lakes High School",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lin, Aaron",
+        "school": "Ladue Horton Watkins High School",
+        "city": "St. Louis",
+        "state": "MN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lin, Owen",
+        "school": "Stuyvesant High School",
+        "city": "NYC",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lin, Victor",
+        "school": "Texas Academy of Mathematics and Science",
+        "city": "Denton",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Andrew",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Michael",
+        "school": "Newbury Park High School",
+        "city": "Newbury Park",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Liu, Yikai",
+        "school": "Naperville North High School",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Daniel",
+        "school": "Interlake High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Eric",
+        "school": "Palos Verdes Peninsula High School",
+        "city": "Rancho Palos Verdes",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Michael",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lu, Owen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Lum, Kai",
+        "school": "Basis Independent Fremont",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Luo, Kevin",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Mak, Jason",
+        "school": "West\u2010Windsor Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Mao, Jason",
+        "school": "The Academy for Math, Science and Engineering",
+        "city": "Rockaway",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Premkumar, Harish",
+        "school": "Mira Loma High School",
+        "city": "Sacramento",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Qi, Brandon",
+        "school": "Davis Senior High School",
+        "city": "Davis",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Qiu, Nathan",
+        "school": "Canyon Crest Academy",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Qui, Kevin",
+        "school": "Wayzata High School",
+        "city": "Plymouth",
+        "state": "MN",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ravuri, Agastya",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ren, Samuel",
+        "school": "Henry M Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sazonov, Nicole",
+        "school": "Alabama School of Fine Arts",
+        "city": "Birmingham",
+        "state": "AL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sha, Maitian",
+        "school": "West Windsor\u2010Plainsboro High School South",
+        "city": "Princeton Junction",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shao, Luke",
+        "school": "West Windsor Plainsboro High School South",
+        "city": "West Windsor",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Shariff, Zeeshan",
+        "school": "West Windsor\u2010Plainsboro High School North",
+        "city": "Plainsboro",
+        "state": "NJ",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Sharma, Sidharth",
+        "school": "James Logan High School",
+        "city": "Union City",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Szeto, Alec",
+        "school": "Piedmont Hills High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tandon, Mihir",
+        "school": "Grayslake Central High School",
+        "city": "Grayslake",
+        "state": "IL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tang, Erik",
+        "school": "La Jolla Country Day School",
+        "city": "La Jolla",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Tkachenko, Eney",
+        "school": "Ward Melville High School",
+        "city": "East Setauket",
+        "state": "NY",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Vegulla, Pranav",
+        "school": "Bellevue High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, Hongning",
+        "school": "Eastlake High School",
+        "city": "Sammamish",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wang, Richard",
+        "school": "Clear Lake High School",
+        "city": "Houston",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wei, David",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "WEI, MICHAEL B",
+        "school": "F. W. Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Wu, Lucas",
+        "school": "The Davidson Academy of Nevada",
+        "city": "Reno",
+        "state": "NV",
+        "medal": "Bronze"
+      },
+      {
+        "name": "XING, ANDREW Y",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Xu, Anthony",
+        "school": "Allen High School",
+        "city": "Allen",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Ye, Joshua",
+        "school": "Plano West Senior High",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "YU, LEO",
+        "school": "Clements High School",
+        "city": "Sugar Land",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Yu, Michelle",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Kyle",
+        "school": "Hopkins School",
+        "city": "New Haven",
+        "state": "CT",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Owen",
+        "school": "Bellevue High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Owen",
+        "school": "Interlake HS",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhang, Valencia",
+        "school": "Phillips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Max",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Zhao, Raymond",
+        "school": "Round Rock High School",
+        "city": "Round Rock",
+        "state": "TX",
+        "medal": "Bronze"
+      },
+      {
+        "name": "Al\u2010Aidroos, Jaden",
+        "school": "Lowell High School",
+        "city": "San Francisco",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Arora, Rutvik",
+        "school": "William Hopkins Middle School",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Bao, Edward",
+        "school": "BASIS San Antonio Shavano",
+        "city": "San Antonio",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Basu, Siddhartha",
+        "school": "West Windsor Plainsboro High School South",
+        "city": "West Windsor Townsh NJ",
+        "state": "",
+        "medal": "HM"
+      },
+      {
+        "name": "Bi, Brian",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Carvajal, Julian",
+        "school": "King High School",
+        "city": "Tampa",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Chang, Walter",
+        "school": "Mission San Jose Highschool",
+        "city": "Fremont",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Alexander",
+        "school": "BASIS Chandler",
+        "city": "Chandler",
+        "state": "AZ",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Bryan",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Garrison Zhentao",
+        "school": "Basis Guangzhou",
+        "city": "Guangzhou",
+        "state": "CHINA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chen, Jonathan",
+        "school": "Harriton High School",
+        "city": "Bryn Mawr",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Choi, Myungbeen",
+        "school": "The Quarry Lane School",
+        "city": "Dublin",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Chu, Alyssa",
+        "school": "Rye Country Day School",
+        "city": "Rye",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Dala, Vedanth",
+        "school": "Dougherty Valley High School",
+        "city": "San Ramon",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Deutsch, David",
+        "school": "University City High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ding, Clement",
+        "school": "McLean High School",
+        "city": "McLean",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Dong, Jason",
+        "school": "Troy High School",
+        "city": "Fullerton",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Exoo, Brady",
+        "school": "South Vigo High School",
+        "city": "Terre Haute",
+        "state": "IN",
+        "medal": "HM"
+      },
+      {
+        "name": "Feng, Alex",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Feng, Raymond Bowen",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "FENG, RICHARD H",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "GALA, VARUN",
+        "school": "Baton Rouge Magnet High School",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "medal": "HM"
+      },
+      {
+        "name": "Gan, Katelyn",
+        "school": "Sage Hill School",
+        "city": "Newport Coast",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ghane, Cyrus",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Guillory, Bradley A.",
+        "school": "Plano East Senior High School",
+        "city": "Plano",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Gupta, Aditya",
+        "school": "Issaquah High School",
+        "city": "Issaquah",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Hagendoorn, Logan",
+        "school": "Miramonte High School",
+        "city": "Orinda",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ho, Elbert",
+        "school": "The Pingry School",
+        "city": "Basking Ridge",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Hong, Junsouh",
+        "school": "American Heritage School",
+        "city": "Plantation",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Hong, Leo",
+        "school": "Hong Analytics Academy",
+        "city": "Charlotte",
+        "state": "NC",
+        "medal": "HM"
+      },
+      {
+        "name": "Hoskin, Adam",
+        "school": "Portsmouth High School",
+        "city": "Portsmouth",
+        "state": "NH",
+        "medal": "HM"
+      },
+      {
+        "name": "Huang, Patrick",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Jiang, Rui",
+        "school": "Pine View School",
+        "city": "Osprey",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Kellogg, Ethan Jinhui",
+        "school": "Monta Vista High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Kim, Hwisoo Harry",
+        "school": "Phillips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Kim, Jaemin",
+        "school": "Hunter College High School",
+        "city": "New York",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Kou, Daniel",
+        "school": "Henry M Gunn High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Le, Aaron",
+        "school": "State College Area High School",
+        "city": "State College",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lee, David",
+        "school": "Princeton Intl School of Math & Science",
+        "city": "Princeton",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Lefkowitz, Jordan",
+        "school": "E.O. Smith High School",
+        "city": "Storrs",
+        "state": "CT",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Andrew",
+        "school": "Stuyvesant High School",
+        "city": "New York",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Eddy",
+        "school": "The Nueva School",
+        "city": "San Mateo",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Li, Michael",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lin, Taohan",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Alexandria",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Liu, Lawrence",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Long, Reese",
+        "school": "Tesla STEM High School",
+        "city": "Redmond",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Lu, Albert",
+        "school": "Phillips Exeter Academy",
+        "city": "Exeter",
+        "state": "NH",
+        "medal": "HM"
+      },
+      {
+        "name": "Lu, David",
+        "school": "Seven Lakes High School",
+        "city": "Katy",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Luo, Austin",
+        "school": "Morgantown High School",
+        "city": "Morgantown",
+        "state": "WV",
+        "medal": "HM"
+      },
+      {
+        "name": "Luo, Raymond Ruiyang",
+        "school": "University High School",
+        "city": "Irvine",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ma, Andy",
+        "school": "Hamilton High School",
+        "city": "Chandler",
+        "state": "AZ",
+        "medal": "HM"
+      },
+      {
+        "name": "MANOHARAN, KRITHIK",
+        "school": "Fort settlement Middle School",
+        "city": "Sugarland",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Maresov, Alexander",
+        "school": "Newport High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Marple, Wynn",
+        "school": "Scripps Ranch High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "MATCHEV, PHILIP K.",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Medved, Tatiana",
+        "school": "North Carolina School of Science & Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "HM"
+      },
+      {
+        "name": "Mehta, Aarav",
+        "school": "Granada High School",
+        "city": "Livermore",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Middlezong, Michael",
+        "school": "Bergen County Academies",
+        "city": "Hackensack",
+        "state": "NJ",
+        "medal": "HM"
+      },
+      {
+        "name": "Miller, Jay",
+        "school": "Dos Pueblos Senior High School",
+        "city": "Goleta",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Nguyen, Jason",
+        "school": "Clear Lake High School",
+        "city": "Houston",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Ni, Chenjia",
+        "school": "Del Norte High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Niu, Hanyu",
+        "school": "Amador Valley High School",
+        "city": "Pleasanton",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Pagidi, Arjun",
+        "school": "Thomas Jefferson HS for Science & Tech",
+        "city": "Herndon",
+        "state": "VA",
+        "medal": "HM"
+      },
+      {
+        "name": "Park, Keenan",
+        "school": "Gretchen Whitney High School",
+        "city": "Cerritos",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Patkowski, Matthew",
+        "school": "Fulton Science Academy",
+        "city": "Alpharetta",
+        "state": "GA",
+        "medal": "HM"
+      },
+      {
+        "name": "Pauskar, Tanishq",
+        "school": "Jackson High School",
+        "city": "Massillon",
+        "state": "OH",
+        "medal": "HM"
+      },
+      {
+        "name": "Qin, Pascal",
+        "school": "The Harker School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Rai, Rishi",
+        "school": "St. Mark's School of Texas",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "RAVI, ADITYAA",
+        "school": "Buchholz High School",
+        "city": "Gainesville",
+        "state": "FL",
+        "medal": "HM"
+      },
+      {
+        "name": "Reddy, Liam",
+        "school": "Waterford School",
+        "city": "Sandy",
+        "state": "UT",
+        "medal": "HM"
+      },
+      {
+        "name": "Remesh, Advaith",
+        "school": "Round Rock High School",
+        "city": "Round Rock",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Shim, Caleb",
+        "school": "Centennial High School",
+        "city": "Ellicott City",
+        "state": "MD",
+        "medal": "HM"
+      },
+      {
+        "name": "Sun, Thomas",
+        "school": "ISA Wenhua Wuhan School",
+        "city": "Wuhan",
+        "state": "HUBEI",
+        "medal": "HM"
+      },
+      {
+        "name": "Suriyaprakash, Ishwar",
+        "school": "Homestead High School",
+        "city": "Cupertino",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Ting, Luke",
+        "school": "Highland Park High School",
+        "city": "Dallas",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Andrew",
+        "school": "Palo Alto High School",
+        "city": "Palo Alto",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Herrick",
+        "school": "Arcadia High School",
+        "city": "Arcadia",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Kyle",
+        "school": "Naperville North",
+        "city": "Naperville",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Ryan",
+        "school": "Granada High School",
+        "city": "Livermore",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wang, Yufan",
+        "school": "Leigh High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wen, Raine",
+        "school": "Mt. Carmel High School",
+        "city": "San Diego",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Wu, Allen",
+        "school": "Newport High School",
+        "city": "Bellevue",
+        "state": "WA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xie, Anna",
+        "school": "Clarkstown High School South",
+        "city": "West Nyack",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Xie, Joy",
+        "school": "Dos Pueblos High School",
+        "city": "Goleta",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xing, Larry",
+        "school": "Basis Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Xue, Brian",
+        "school": "Lynbrook High School",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yang, Congqing",
+        "school": "Phillips Academy",
+        "city": "Andover",
+        "state": "MA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yi, Daniel",
+        "school": "Richard Montgomery High School",
+        "city": "Rockville",
+        "state": "MD",
+        "medal": "HM"
+      },
+      {
+        "name": "Yoshida, Ken",
+        "school": "State College Area High School",
+        "city": "State College",
+        "state": "PA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yu, Chang",
+        "school": "Campolindo High School",
+        "city": "Moraga",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Yu, Mofan",
+        "school": "Great Neck South High School",
+        "city": "Great Neck",
+        "state": "NY",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Edward L.",
+        "school": "North Carolina School of Science & Math",
+        "city": "Durham",
+        "state": "NC",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Luke",
+        "school": "Saratoga High School",
+        "city": "Saratoga",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhang, Michael",
+        "school": "Livermore High School",
+        "city": "Livermore",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhao, Michael",
+        "school": "Westwood High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Zheng, Brianna",
+        "school": "BASIS Independent Silicon Valley",
+        "city": "San Jose",
+        "state": "CA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhong, Alexander",
+        "school": "Westwood High School",
+        "city": "Austin",
+        "state": "TX",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhu, Anthony",
+        "school": "Barrington High School",
+        "city": "Barrington",
+        "state": "IL",
+        "medal": "HM"
+      },
+      {
+        "name": "Zhu, Siray",
+        "school": "Ames High School",
+        "city": "Ames",
+        "state": "IA",
+        "medal": "HM"
+      },
+      {
+        "name": "Zou, Eric",
+        "school": "Montgomery Blair High School",
+        "city": "Silver Spring",
+        "state": "MD",
+        "medal": "HM"
+      }
+    ]
+  }
+]

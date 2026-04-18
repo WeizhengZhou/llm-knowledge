@@ -1,0 +1,3842 @@
+[
+  {
+    "name": "Chen, Sean",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Dai, David",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Deng, Zachary",
+    "school": "Lowell High School",
+    "city": "San Francisco",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Raymond",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Albert",
+    "school": "North Hollywood High School",
+    "city": "North Hollywood",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Patrick",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Nie, Jacob",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Parthasarathy, Rishab",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Qin, Albert",
+    "school": "Mira Loma High School",
+    "city": "Sacramento",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wong, Nyle",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wu, Richard",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bhattaram, Krishnakumar",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, James",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chen, Thomas",
+    "school": "Mission San Jose High",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Eidson, Brian",
+    "school": "Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fang, Mason",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ganai, Milan",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kumar, Nitin",
+    "school": "Mountain View High School",
+    "city": "Mountain View",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kwan, Jeffrey",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lei, Austin",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Qi, Allison",
+    "school": "Davis Senior High School",
+    "city": "Davis",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Sima, Andrew",
+    "school": "Lowell High School",
+    "city": "San Francisco",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Stanley",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xu, Jeffrey",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yang, William",
+    "school": "Monta Vista",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yu, Gavin",
+    "school": "Tang Academy",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhang, Michael",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Berkun, Samuel",
+    "school": "Arcadia High School",
+    "city": "Arcadia",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Cai, Kevin",
+    "school": "Temple City High School",
+    "city": "Temple City",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chen, Andrew",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fu, Brian",
+    "school": "Foothill High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Guo, Brandon",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Huang, David",
+    "school": "Inphynity",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Karpuram, Kaushal",
+    "school": "American High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kelman, Stephen",
+    "school": "Los Alamitos High School",
+    "city": "Los Alamitos",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Li, Dion",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Joseph",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lisitsyn, Artyom",
+    "school": "Oxford Academy",
+    "city": "Cypress",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Moon, Kenneth",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Oh, Kevin",
+    "school": "Bellarmine College Preparatory",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shen, Daniel",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shenoy, Nakul",
+    "school": "Mountain View High School",
+    "city": "Mountain View",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Daniel",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ye, Brion",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ye, Sophie",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "You, Kevin",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yuan, Harry",
+    "school": "Whitney High School",
+    "city": "Cerritos",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhao, Andrew",
+    "school": "Henry M Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhao, Jiangda",
+    "school": "Whitney High School",
+    "city": "Cerritos",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhu, Jocelyn",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Dugan, Owen",
+    "school": "Stanford Online High School",
+    "city": "Stanford",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Guo, Ethan",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Hu, Alex",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kalucha, Kanav",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kim, Tae Kyu",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kumar, Rohan",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Sihang",
+    "school": "Monte Vista High School",
+    "city": "Danville",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Qin, Jonathan",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Slettnes, Espen",
+    "school": "Abel Academy (homeschool)",
+    "city": "Castro Valley",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Thirumalai, Vittal",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Viswanathan, Ashok",
+    "school": "Stanford OHS",
+    "city": "Stanford",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Andrew",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Kevin",
+    "school": "The Webb Schools of California",
+    "city": "Claremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wu, Alexander",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wu, Michael",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xie, Edwin",
+    "school": "Monta Vista",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yang, Chuhua",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ye, Aaron",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Dylan",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Eric",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Kevin",
+    "school": "Proof School",
+    "city": "San Francisco",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Wesley",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2019,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chatterjee, Pranjal",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Deep, Harsh",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fang, Mason",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Gu, Alex",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Huang, William",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lee, David",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Derek",
+    "school": "San Diego Math Circle",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Jerry",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Parthasarathy, Rishab",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Rydell, James",
+    "school": "San Juan Hills High School",
+    "city": "San Juan Capistrano",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Shi, James",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Shi, Manxi",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xie, Jamin",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yevtushenko, Feodor",
+    "school": "Rancho San Joaquin Middle School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhou, Samuel",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhu, Baiyu",
+    "school": "California High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zweiger, Adam",
+    "school": "Carlmont High School",
+    "city": "Belmont",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Agrawal, Sarthak",
+    "school": "Mira Loma High School",
+    "city": "Carmichael",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Bhowmik, Rohan",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chang, Brian",
+    "school": "Archbishop Mitty High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Richard",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Shuoyan",
+    "school": "Troy High School",
+    "city": "Fullerton",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Doctor, Kavan",
+    "school": "SpringLight Education Institute",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Garg, Ishir",
+    "school": "Leland High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ge, Chris",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "He, Alexander",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Jiang, Yehong",
+    "school": "The Nueva School",
+    "city": "San Mateo",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Canis",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Ethan",
+    "school": "The Harker School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lu, Thomas",
+    "school": "Stanford Online High School",
+    "city": "Stanford",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Mujoo, Shuhul",
+    "school": "Evergreen Valley High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Qian, Geoffrey",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shi, Zian",
+    "school": "Clovis North High School",
+    "city": "Fresno",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Song, Jennifer",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Vora, Arnav",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wang, Anthony",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Vincent",
+    "school": "Irvington High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xie, Edwin",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yuan, Jerry",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bellary, Roshan",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Charkraborty, Shohom",
+    "school": "Mira Loma High School",
+    "city": "Sacramento",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chen, Arthur",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Christopher",
+    "school": "BASIS Independent Fremont",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Cheng, Ricky",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fang, Michael",
+    "school": "Menlo School",
+    "city": "Atherton",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Gilman, Pico",
+    "school": "Proof School",
+    "city": "San Francisco",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Gu, Alexander",
+    "school": "Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Guo, Daphne",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Han, Nathan",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Hu, Jeffrey",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Huang, Jacob",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Jain, Jasper",
+    "school": "The Bishop's School",
+    "city": "La Jolla",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Jiang, Daniel",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Joe",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Ryan",
+    "school": "Northwood High",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Lu, Owen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Pan, Andrew",
+    "school": "Beckman High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Patel, Arjun",
+    "school": "Troy High School",
+    "city": "Fullerton",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Srikanth, Vishak",
+    "school": "Basis Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Su, Jeremy",
+    "school": "Palos Verdes Peninsula High School",
+    "city": "Rolling Hills Estates",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Subbarao, Surya",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Ting, Gilford",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xia, Stephen",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xue, Patrick",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Youn, Ian",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Justin",
+    "school": "Westview High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhang, Michael",
+    "school": "Livermore High School",
+    "city": "Livermore",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Bodke, Rohan",
+    "school": "Homestead high school",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Cao, Boheng",
+    "school": "North Hollywood",
+    "city": "Valley Village",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chang, Andrew",
+    "school": "Evergreen Valley High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Aaron",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Yufei",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Das, Rohan",
+    "school": "Basis Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Diao, Joshua",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Elmarassy, Amr",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fan, Roger",
+    "school": "Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Feng, Robert",
+    "school": "Basis Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fu, Preston",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Goel, Agastya",
+    "school": "Henry M. Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Jain, Aman",
+    "school": "Del Norte High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Kulkarni, Arjun",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kumar, Tanish",
+    "school": "Stanford Online High School",
+    "city": "Redwood City",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Allen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Brian",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Dylan",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lu, Jonathan",
+    "school": "Monte Vista High School",
+    "city": "Danville",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Luo, Raymond",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Mehta, Sahil",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Min, Edward",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Qi, Ming",
+    "school": "University High school",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Ranganathan, Kailash",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Su, William",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Tang, Adam",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Jake",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Michael",
+    "school": "San Marino High School",
+    "city": "San Marino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wang, William",
+    "school": "Beckman High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wang, Zhuoqin",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xiao, Julian",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xing, Larry",
+    "school": "Basis Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yang, Evan",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ye, Lawrence",
+    "school": "Leland High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yin, Joshua",
+    "school": "Los Altos High School",
+    "city": "Los Altos",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yuan, Andrew",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Joshua",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhao, William",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zou, Minghao",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2022,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Christopher",
+    "school": "BASIS Independent Fremont",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Shuoyan",
+    "school": "Troy High School",
+    "city": "Fullerton",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Jiang, Yehong",
+    "school": "The Nueva School",
+    "city": "San Mateo",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Jerry",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shi, James",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Shi, Zian",
+    "school": "Clovis North High School",
+    "city": "Fresno",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Yevtushenko, Feodor",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhou, Samuel",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Avadhanam, Advaith",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fan, Roger",
+    "school": "Henry M. Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lee, David",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Canis",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Joe",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Anthony",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xie, Jamin",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bhowmik, Rohan",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bodke, Rohan",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Cao, Boheng",
+    "school": "North Hollywood High School",
+    "city": "North Hollywood",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chatterjee, Pranjal",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Yufei",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Garg, Ishir",
+    "school": "Leland High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ge, Chris",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Goel, Agastya",
+    "school": "Henry M. Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Hu, Daniel",
+    "school": "Davis Senior High School",
+    "city": "Davis",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Kim, Juni",
+    "school": "Stanford Online High School",
+    "city": "Redwood City",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Allen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Derek",
+    "school": "Torrey Pines High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Luo, Raymond (Ruiyang)",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Qian, Geoffrey",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Tummala, Aniketh",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yang, Evan",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Michael",
+    "school": "Livermore High School",
+    "city": "Livermore",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhao, William",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhu, Baiyu",
+    "school": "California High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bellary, Roshan",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bi, Brian",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chaliha, Sidhant",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Diwan, Nandan",
+    "school": "California High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Guo, Daphne",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Han, Nathan",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Huang, Jacob",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Huang, Patrick",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Jain, Jasper",
+    "school": "The Bishop's School",
+    "city": "La Jolla",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Lee, Fiona",
+    "school": "Stanford Online High School",
+    "city": "Redwood City",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Brian",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Stanley",
+    "school": "North Hollywood Senior High School",
+    "city": "North Hollywood",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Elliott",
+    "school": "Torrey Pines High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Felix",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lu, Jonathan",
+    "school": "Monte Vista High School",
+    "city": "Danville",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lu, Owen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Muppala, Ankit",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Qiu, Nathan",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Sharif, Robin",
+    "school": "San Diego Math Circle",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Suriyaprakash, Ishwar",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Jake",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wu, Eric",
+    "school": "Mountain View High School",
+    "city": "Mountain View",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xia, Stephen",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xie, Joy",
+    "school": "Dos Pueblos High School",
+    "city": "Goleta",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Xue, Patrick",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yang, Heng",
+    "school": "American High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ye, Aiden",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zou, Minghao",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Aaron",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chou, Forrest",
+    "school": "Palo Alto High",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Elmarassy, Amr",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Goel, Kush",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Huang, Jiawen",
+    "school": "Arcadia High School",
+    "city": "Arcadia",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Jain, Aman",
+    "school": "Del Norte High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Kodali, Nikhil",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kumar, Tanish",
+    "school": "Stanford Online High School",
+    "city": "Redwood City",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lee, Daeho",
+    "school": "Westview High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Li, Jeffrey",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Andrew",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Ethan",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Michael",
+    "school": "Newbury Park High School",
+    "city": "Newbury Park",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Lu, Eric",
+    "school": "Palos Verdes Peninsula High School",
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Lum, Kai",
+    "school": "BASIS Independent Fremont Upper",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Luo, Justin",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Mehta, Sahil",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Nadkarni, Tej",
+    "school": "Saint Francis High School",
+    "city": "Mountain View",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Nishida, Taiga",
+    "school": "The Nueva School",
+    "city": "San Mateo",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ren, Alex",
+    "school": "Stanford Online High School",
+    "city": "Online",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": true
+  },
+  {
+    "name": "Ren, Samuel",
+    "school": "Henry M. Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Sharma, Kartikey",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shi, Hanwen",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shi, Manxi",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Su, William",
+    "school": "SpringLight Education Institute",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Sun, Jerry",
+    "school": "Irvington High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Szeto, Alec",
+    "school": "Piedmont Hills High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Tenneti, Anirudh",
+    "school": "Dougherty Valley",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xiao, Alan",
+    "school": "BASIS Independent Fremont Upper",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xue, Brian",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yao, Vincent",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Youn, Ian",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yuan, Andrew",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Johnny",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Justin",
+    "school": "Westview High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zhong, Lillian",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2023,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bodke, Rohan",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Shuoyan",
+    "school": "Troy High",
+    "city": "Fullerton",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Ding, Yuanyuan",
+    "school": "Sage Hill School",
+    "city": "Newport Beach",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Goel, Agastya",
+    "school": "Henry M. Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Jiang, Yehong",
+    "school": "The Nueva School",
+    "city": "San Mateo",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kanungo, Shihan",
+    "school": "Henry M Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Allen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shi, Zian",
+    "school": "Clovis North High School",
+    "city": "Fresno",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Tian, Madison",
+    "school": "American High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhao, William",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Team",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Avadhanam, Advaith",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Christopher",
+    "school": "BASIS Independent Fremont",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chou, Forrest",
+    "school": "Palo Alto Senior High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fan, Roger",
+    "school": "Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Koldali, Nikhil",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Canis",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Shi, James",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Xie, Jamin",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yevtushenko, Feodor",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Gold",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Cao, Boheng",
+    "school": "North Hollywood High School",
+    "city": "Valley Village",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Chen, Matthew",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chen, Yufei",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Erat, Sidarth",
+    "school": "La Jolla High School",
+    "city": "La Jolla",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Feng, Robert",
+    "school": "Basis Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Han, Nathan",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Hu, Ricky",
+    "school": "Quarry Lane School",
+    "city": "Dublin",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Jiang, Junlin",
+    "school": "Piedmont High School",
+    "city": "Piedmont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kulkarni, Arjun",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Stanley",
+    "school": "North Hollywood High School",
+    "city": "North Hollywood",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Elliott",
+    "school": "Torrey Pines High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Ethan",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lu, Alan",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Mopuri, Advaith",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Nadeem, Ibrahim",
+    "school": "Mountain House High School",
+    "city": "Mountain House",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Rusli, Andrew",
+    "school": "St. Margaret's Episcopal School",
+    "city": "San Juan Capistrano",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Sue, Kristie",
+    "school": "Leland High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Sun, Jerry",
+    "school": "Irvington High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Jake",
+    "school": "Cupertino High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yang, Evan",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Justin",
+    "school": "Westview High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Zou, Minghao",
+    "school": "Valley Christian High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Silver",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chaliha, Sidhant",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Du, Jonathan",
+    "school": "Los Altos High School",
+    "city": "Los Altos",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ely, Justin",
+    "school": "BASIS Independent Fremont (Upper)",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Fang, Victoria",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Gaonkar, Stavya",
+    "school": "American High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Goel, Kush",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Hu, Daniel",
+    "school": "Davis Senior High School",
+    "city": "Davis",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Huang, Jacqueline",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kim, Daniel",
+    "school": "Troy High School",
+    "city": "Fullerton",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Li, Bryan",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Jeffrey",
+    "school": "Mission San Jose High School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Kevin",
+    "school": "Carlmont High School",
+    "city": "Belmont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Andrew",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Liu, Michael",
+    "school": "Newbury Park High School",
+    "city": "Newbury Park",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Lu, Eric",
+    "school": "Palos Verdes Peninsula High School",
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Lu, Owen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Lum, Kai",
+    "school": "Basis Independent Fremont",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Luo, Kevin",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Premkumar, Harish",
+    "school": "Mira Loma High School",
+    "city": "Sacramento",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Qi, Brandon",
+    "school": "Davis Senior High School",
+    "city": "Davis",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Qiu, Nathan",
+    "school": "Canyon Crest Academy",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Ravuri, Agastya",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Ren, Samuel",
+    "school": "Henry M Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Sharma, Sidharth",
+    "school": "James Logan High School",
+    "city": "Union City",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Szeto, Alec",
+    "school": "Piedmont Hills High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Tang, Erik",
+    "school": "La Jolla Country Day School",
+    "city": "La Jolla",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Yu, Michelle",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "Bronze",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Al\u2010Aidroos, Jaden",
+    "school": "Lowell High School",
+    "city": "San Francisco",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Arora, Rutvik",
+    "school": "William Hopkins Middle School",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Bi, Brian",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Chang, Walter",
+    "school": "Mission San Jose Highschool",
+    "city": "Fremont",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Choi, Myungbeen",
+    "school": "The Quarry Lane School",
+    "city": "Dublin",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Dala, Vedanth",
+    "school": "Dougherty Valley High School",
+    "city": "San Ramon",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Deutsch, David",
+    "school": "University City High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Dong, Jason",
+    "school": "Troy High School",
+    "city": "Fullerton",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Feng, Alex",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Feng, Raymond Bowen",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Gan, Katelyn",
+    "school": "Sage Hill School",
+    "city": "Newport Coast",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Ghane, Cyrus",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Hagendoorn, Logan",
+    "school": "Miramonte High School",
+    "city": "Orinda",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Huang, Patrick",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kellogg, Ethan Jinhui",
+    "school": "Monta Vista High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Kou, Daniel",
+    "school": "Henry M Gunn High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Eddy",
+    "school": "The Nueva School",
+    "city": "San Mateo",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Li, Michael",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Liu, Lawrence",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Luo, Raymond Ruiyang",
+    "school": "University High School",
+    "city": "Irvine",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Marple, Wynn",
+    "school": "Scripps Ranch High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Mehta, Aarav",
+    "school": "Granada High School",
+    "city": "Livermore",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Miller, Jay",
+    "school": "Dos Pueblos Senior High School",
+    "city": "Goleta",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Ni, Chenjia",
+    "school": "Del Norte High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Niu, Hanyu",
+    "school": "Amador Valley High School",
+    "city": "Pleasanton",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Park, Keenan",
+    "school": "Gretchen Whitney High School",
+    "city": "Cerritos",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Qin, Pascal",
+    "school": "The Harker School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Suriyaprakash, Ishwar",
+    "school": "Homestead High School",
+    "city": "Cupertino",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Andrew",
+    "school": "Palo Alto High School",
+    "city": "Palo Alto",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Herrick",
+    "school": "Arcadia High School",
+    "city": "Arcadia",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Wang, Ryan",
+    "school": "Granada High School",
+    "city": "Livermore",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wang, Yufan",
+    "school": "Leigh High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Wen, Raine",
+    "school": "Mt. Carmel High School",
+    "city": "San Diego",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Xie, Joy",
+    "school": "Dos Pueblos High School",
+    "city": "Goleta",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": false,
+    "tracked_school": false
+  },
+  {
+    "name": "Xing, Larry",
+    "school": "Basis Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Xue, Brian",
+    "school": "Lynbrook High School",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Yu, Chang",
+    "school": "Campolindo High School",
+    "city": "Moraga",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Luke",
+    "school": "Saratoga High School",
+    "city": "Saratoga",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  },
+  {
+    "name": "Zhang, Michael",
+    "school": "Livermore High School",
+    "city": "Livermore",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": false
+  },
+  {
+    "name": "Zheng, Brianna",
+    "school": "BASIS Independent Silicon Valley",
+    "city": "San Jose",
+    "state": "CA",
+    "medal": "HM",
+    "year": 2024,
+    "bay_area": true,
+    "tracked_school": true
+  }
+]
