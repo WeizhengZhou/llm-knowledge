@@ -1,0 +1,170 @@
+title: "Where Do They Really Go? Bay Area Private School College Placement — By the Numbers"
+subtitle: "What the school brochure doesn't tell you: athlete hooks, demographic reality, and what it actually takes"
+slug: bay-area-k-12-college-placement
+status: drafting
+sop_version: "2.0"
+created: "2026-04-18"
+updated: "2026-04-18"
+language: en
+target_audience: "Bay Area parents (K-8) at private schools, planning for college positioning"
+
+spine_thesis: >
+  Every Bay Area private school publishes impressive college placement lists,
+  but the headline numbers hide critical structure — athlete recruitment pipelines,
+  demographic competition dynamics, and institutional preferences — that determines
+  what's actually achievable for YOUR child. This guidebook shows the real numbers
+  and teaches you to read them.
+
+evidence_source: "topics/bay-area-k-12-college-placement-statistics/data/college_placement.db"
+wiki_source: "topics/bay-area-k-12-college-placement-statistics/wiki/"
+sop: "docs/guidebook-sop-v2.md"
+
+schools_covered:
+  private:
+    - sacred-heart-atherton
+    - harker
+    - menlo
+    - castilleja
+    - nueva
+    - crystal-springs
+    - pinewood
+    - woodside-priory
+  public_comparison:
+    - palo-alto-high
+    - gunn
+    - lynbrook
+    - mission-san-jose
+
+chapters:
+  - id: "01"
+    file: "01-what-the-brochure-doesnt-say.md"
+    title: "What the Brochure Doesn't Say"
+    draft_order: 1
+    status: pending
+    brief: >
+      Opening chapter. Sets up the core revelation: school placement data is real
+      but structurally misleading. Introduces the athlete hook, the demographic
+      lens, and the difference between "our graduates attend" and "your child
+      could get in." Uses SHS as the case study — the only school with enough
+      public data to fully decompose the numbers.
+
+  - id: "02"
+    file: "02-reading-placement-data.md"
+    title: "How to Read School Placement Data"
+    draft_order: 2
+    status: pending
+    brief: >
+      Teaches parents the skill of reading placement data critically.
+      What's published (acceptances vs enrolled vs applied), what's hidden
+      (per-year counts, athlete share, demographic breakdown). Where to find
+      the real data (School Profile PDFs, UC InfoCenter, athlete commit pages).
+      Includes the source priority stack and how to cross-validate.
+
+  - id: "03"
+    file: "03-the-athlete-hook.md"
+    title: "The Athlete Hook — Quantified"
+    draft_order: 3
+    status: pending
+    brief: >
+      The chapter that changes how parents read every placement list.
+      Uses SHS 5-year data to show that 40% of Ivy+ placements are recruited
+      athletes. Water polo and lacrosse dominate. What this means for non-athlete
+      families. How to identify which schools have strong athletic pipelines.
+      The sports that actually feed Ivy+ recruitment (with data).
+
+  - id: "04"
+    file: "04-school-by-school.md"
+    title: "School by School — The Real Numbers"
+    draft_order: 5
+    status: pending
+    brief: >
+      Profiles of all 8 private schools with standardized data tables.
+      For each: class size, Ivy+ count, top destinations, UC admissions,
+      data quality notes. Side-by-side comparison table. Honest assessment
+      of what each school's numbers actually mean (Menlo's overlapping windows,
+      Nueva's tier minimums, Harker's 3yr combined, etc.)
+
+  - id: "05"
+    file: "05-the-asian-parent-reality.md"
+    title: "The Asian Parent Reality"
+    draft_order: 4
+    status: pending
+    brief: >
+      The chapter most Bay Area parents need but nobody writes. UC ethnicity
+      data shows Asian share ranges from 22% (SHS) to 65% (Harker). What
+      this means for internal competition. Post-SFFA landscape: who gained,
+      who lost, and why. The socioeconomic proxy problem for affluent Bay Area
+      families. Stanford's legacy ban (AB 1780). Duke's declining Asian share.
+      Written for Asian parents but useful for all demographics.
+
+  - id: "06"
+    file: "06-private-vs-public.md"
+    title: "Private vs Public — Is It Worth It?"
+    draft_order: 6
+    status: pending
+    brief: >
+      The $50K/year question. Compares private school placement rates with
+      Palo Alto High, Gunn, Lynbrook, Mission San Jose. Cost per Ivy+ admit.
+      What you're actually buying (counseling access, recommendation letters,
+      peer group, course offerings). When public school is the better play.
+      Requires ingesting public school data.
+
+  - id: "07"
+    file: "07-legacy-ed-hooks.md"
+    title: "Legacy, Early Decision, and Structural Advantages"
+    draft_order: 7
+    status: pending
+    brief: >
+      What actually moves the needle in admissions. Legacy (undergrad vs grad,
+      single vs double). ED vs RD rates by school. Demonstrated interest.
+      The ALDC advantage at Harvard (athletes, legacies, dean's list, children
+      of faculty). What parents can and can't control. Grounded in our Duke
+      legacy research and SFFA research.
+
+  - id: "08"
+    file: "08-the-spike-not-well-rounded.md"
+    title: "The Spike, Not the Well-Rounded Kid"
+    draft_order: 8
+    status: pending
+    brief: >
+      Why "well-rounded" is the wrong strategy and "T-shaped" is right.
+      Data on what non-athlete Ivy+ admits from these schools actually look
+      like (STEM competitions, research, creative projects). The math
+      competition timeline (Math Kangaroo through AIME). The writing
+      investment. How to build a spike without manufacturing one.
+
+  - id: "09"
+    file: "09-grade-by-grade.md"
+    title: "Grade by Grade — What to Build When"
+    draft_order: 9
+    status: pending
+    brief: >
+      Concrete timeline from K through 12. What matters in each phase.
+      K-2: foundations. 3-5: competition entry, writing investment. 6-8:
+      school choice decision point, spike development. 9-12: deepening,
+      testing, applications. Not a prescription — a framework for deciding
+      what YOUR child should prioritize at each stage.
+
+  - id: "10"
+    file: "10-should-you-transfer.md"
+    title: "Should You Transfer Schools?"
+    draft_order: 10
+    status: pending
+    brief: >
+      The question every parent asks after seeing comparative data.
+      When transferring makes sense (data-backed). The 6th grade entry
+      point (Menlo, Crystal Springs). The high school switch. What you
+      gain and lose. The continuity argument vs the placement argument.
+      Framework for making the decision, not a recommendation.
+
+  - id: "A"
+    file: "A-data-sources.md"
+    title: "Appendix A: Data Sources and Methodology"
+    draft_order: 11
+    status: pending
+
+  - id: "B"
+    file: "B-school-directory.md"
+    title: "Appendix B: School Directory with Data Links"
+    draft_order: 12
+    status: pending
