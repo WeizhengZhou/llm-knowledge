@@ -1,0 +1,3097 @@
+[
+  {
+    "year": 2026,
+    "level": "state",
+    "region": "norcal",
+    "description": "Top 25% of individual competitors at NorCal State Competition",
+    "student_count": 55,
+    "students": [
+      {
+        "rank": 1,
+        "name": "Dylan Wang",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Justin Kim",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 3,
+        "name": "Max Wang",
+        "school": "Joaquin Miller Middle School",
+        "type": "Individual",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 4,
+        "name": "William Tao",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 5,
+        "name": "Jeremy Zhang",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "Shiven Bhargava",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "Landon Wan",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 8,
+        "name": "Gilbert Jiang",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "Simon Yang",
+        "school": "Joaquin Miller Middle School",
+        "type": "Individual",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 10,
+        "name": "Vincent Huang",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 11,
+        "name": "Edward Han",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "Ethan Wu",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 13,
+        "name": "Yichen Wu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "Skanda Mahesh",
+        "school": "Thornton Middle School",
+        "type": "Team",
+        "coach": "Usha Sangam"
+      },
+      {
+        "rank": 15,
+        "name": "Tiﬀany Han",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 16,
+        "name": "Jingxuan Bo",
+        "school": "Stratford Preparatory Blackford Middle",
+        "type": "Individual",
+        "coach": "Dina Alekseyev"
+      },
+      {
+        "rank": 17,
+        "name": "Om Kabra",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 18,
+        "name": "Allen Li",
+        "school": "Rancho Milpitas Middle School",
+        "type": "Team",
+        "coach": "Irfan Sheriﬀ"
+      },
+      {
+        "rank": 19,
+        "name": "Minkee Cho",
+        "school": "Peterson Middle School",
+        "type": "Individual",
+        "coach": "Jennifer Hoppe"
+      },
+      {
+        "rank": 20,
+        "name": "Arthur(Yuxin) Chang",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 21,
+        "name": "Maxwell LIU",
+        "school": "Bret Harte Middle School",
+        "type": "Team",
+        "coach": "Srini Sridhara"
+      },
+      {
+        "rank": 22,
+        "name": "Carter Cai",
+        "school": "Ellen Fletcher Middle School",
+        "type": "Team",
+        "coach": "Ratnadeep Bhattacharjee"
+      },
+      {
+        "rank": 23,
+        "name": "Eason Li",
+        "school": "Ellen Fletcher Middle School",
+        "type": "Individual",
+        "coach": "Ratnadeep Bhattacharjee"
+      },
+      {
+        "rank": 24,
+        "name": "Rosie Pan",
+        "school": "Proof School",
+        "type": "Team",
+        "coach": "Kathy Lin",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 25,
+        "name": "Roger Huynh",
+        "school": "Rancho Milpitas Middle School",
+        "type": "Team",
+        "coach": "Irfan Sheriﬀ"
+      },
+      {
+        "rank": 26,
+        "name": "Johann Qiu",
+        "school": "Ellen Fletcher Middle School",
+        "type": "Team",
+        "coach": "Ratnadeep Bhattacharjee"
+      },
+      {
+        "rank": 27,
+        "name": "Matthew Wang",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 28,
+        "name": "Mehmet Gelgi",
+        "school": "Davidson Academy Online - San Jose",
+        "type": "Individual",
+        "coach": "Albert Lee"
+      },
+      {
+        "rank": 29,
+        "name": "Liana Lee",
+        "school": "Ocean Grove Charter School - Boulder Creek",
+        "type": "Team",
+        "coach": "David Lee"
+      },
+      {
+        "rank": 30,
+        "name": "Paarth Bansal",
+        "school": "Gale Ranch Middle School",
+        "type": "Team",
+        "coach": "Sharanya Roy"
+      },
+      {
+        "rank": 31,
+        "name": "Preron Chakrabarty",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team",
+        "coach": "Sophia Henningsen"
+      },
+      {
+        "rank": 32,
+        "name": "Lucian Lao",
+        "school": "Union Middle School",
+        "type": "Individual",
+        "coach": "Jennie Reynolds"
+      },
+      {
+        "rank": 33,
+        "name": "Abraham Alex",
+        "school": "Sutter Middle School Folsom",
+        "type": "Team",
+        "coach": "Kip Baumann"
+      },
+      {
+        "rank": 34,
+        "name": "Sidharth Midhun",
+        "school": "Challenger School Berryessa",
+        "type": "Individual",
+        "coach": "Midhun Somasundaran"
+      },
+      {
+        "rank": 35,
+        "name": "Arjun Garg",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 36,
+        "name": "Aditya ASHOK",
+        "school": "Redwood Middle School",
+        "type": "Team",
+        "coach": "Penny Li"
+      },
+      {
+        "rank": 37,
+        "name": "Eli Zhang",
+        "school": "Sierramont Middle School",
+        "type": "Individual",
+        "coach": "Amy Swain"
+      },
+      {
+        "rank": 38,
+        "name": "Kai Dhanani",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 39,
+        "name": "Brian Hii",
+        "school": "Harvest Park Middle School",
+        "type": "Team",
+        "coach": "Jerry Li"
+      },
+      {
+        "rank": 40,
+        "name": "Gunveer Shergill",
+        "school": "Sutter Middle School Folsom",
+        "type": "Team",
+        "coach": "Kip Baumann"
+      },
+      {
+        "rank": 41,
+        "name": "Aaditya Agrawal",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 42,
+        "name": "Ethan Sun",
+        "school": "Harvest Park Middle School",
+        "type": "Team",
+        "coach": "Jerry Li"
+      },
+      {
+        "rank": 43,
+        "name": "David Harabor",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 44,
+        "name": "Jessica Yu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 45,
+        "name": "Daniel Yu",
+        "school": "Lawson Middle School",
+        "type": "Team",
+        "coach": "Aletheia Chen"
+      },
+      {
+        "rank": 46,
+        "name": "Yankai Cao",
+        "school": "Joaquin Miller Middle School",
+        "type": "Individual",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 47,
+        "name": "Grayson Liu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 48,
+        "name": "Alexander Braun",
+        "school": "Noesis School",
+        "type": "Individual",
+        "coach": "Jean Kim"
+      },
+      {
+        "rank": 49,
+        "name": "Joshua Wang",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 50,
+        "name": "Yixuan Dai",
+        "school": "Thornton Middle School",
+        "type": "Team",
+        "coach": "Usha Sangam"
+      },
+      {
+        "rank": 51,
+        "name": "Caden Claussen",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 52,
+        "name": "Rebeca Costin",
+        "school": "The Harker School",
+        "type": "Individual",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 53,
+        "name": "Cort Lecybil",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 54,
+        "name": "Temujin Battulga",
+        "school": "Ellen Fletcher Middle School",
+        "type": "Team",
+        "coach": "Ratnadeep Bhattacharjee"
+      },
+      {
+        "rank": 55,
+        "name": "Ronav Mandal",
+        "school": "Gale Ranch Middle School",
+        "type": "Team",
+        "coach": "Sharanya Roy"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "level": "state",
+    "region": "norcal",
+    "description": "Top 25% of individual competitors at NorCal State Competition",
+    "student_count": 50,
+    "students": [
+      {
+        "rank": 1,
+        "name": "Justin Kim",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 2,
+        "name": "Jingxuan Bo",
+        "school": "Stratford Preparatory Blackford Middle",
+        "type": "Individual",
+        "coach": "Dina Alekseyev"
+      },
+      {
+        "rank": 3,
+        "name": "Andy Liu",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Yichen Wu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Ashwin Shekhar",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team",
+        "coach": "David Zhang"
+      },
+      {
+        "rank": 6,
+        "name": "Dylan Wang",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 7,
+        "name": "Max Li",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 8,
+        "name": "Gilbert Jiang",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 9,
+        "name": "Jonathan Li",
+        "school": "Redwood Middle School",
+        "type": "Team",
+        "coach": "Penny Li"
+      },
+      {
+        "rank": 10,
+        "name": "Ethan Wu",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 11,
+        "name": "Atticus Lin",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "Ethan Sun",
+        "school": "Proof School",
+        "type": "Team",
+        "coach": "Kathy Lin",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 13,
+        "name": "Daniel Li",
+        "school": "Lawson Middle School",
+        "type": "Individual",
+        "coach": "Aletheia Chen"
+      },
+      {
+        "rank": 14,
+        "name": "Ian Kweon",
+        "school": "Chaboya Middle School",
+        "type": "Team",
+        "coach": "Vaishnav Kovvuri"
+      },
+      {
+        "rank": 15,
+        "name": "Ryan Wang",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 16,
+        "name": "Eli Lee",
+        "school": "Joaquin Moraga Intermediate School",
+        "type": "Individual",
+        "coach": "Erin Thompson"
+      },
+      {
+        "rank": 16,
+        "name": "Arthur (Yuxin) Chang",
+        "school": "Joaquin Miller Middle School",
+        "type": "Individual",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 18,
+        "name": "Alexander Braun",
+        "school": "Noesis School",
+        "type": "Individual",
+        "coach": "Jean Kim"
+      },
+      {
+        "rank": 19,
+        "name": "Keji Yuan",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 20,
+        "name": "Elaine Gu",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team",
+        "coach": "Sophia Henningsen"
+      },
+      {
+        "rank": 21,
+        "name": "Sidharth Midhun",
+        "school": "Challenger School Berryessa",
+        "type": "Team",
+        "coach": "Midhun Somasundaran"
+      },
+      {
+        "rank": 22,
+        "name": "Jiayu Zhang",
+        "school": "Harvest Park Middle School",
+        "type": "Team",
+        "coach": "Randall Lomas"
+      },
+      {
+        "rank": 23,
+        "name": "Vincent Huang",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 24,
+        "name": "Lusen Yao",
+        "school": "Harvest Park Middle School",
+        "type": "Team",
+        "coach": "Randall Lomas"
+      },
+      {
+        "rank": 25,
+        "name": "Matthew Wang",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 26,
+        "name": "William Tao",
+        "school": "Joaquin Miller Middle School",
+        "type": "Team",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 27,
+        "name": "Ella Feng",
+        "school": "Blach Intermediate School",
+        "type": "Team",
+        "coach": "Erin Hamson"
+      },
+      {
+        "rank": 28,
+        "name": "Andrew Dong",
+        "school": "Challenger School Berryessa",
+        "type": "Team",
+        "coach": "Midhun Somasundaran"
+      },
+      {
+        "rank": 29,
+        "name": "Elbert Park",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 30,
+        "name": "Guhan Bhagatram",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 31,
+        "name": "Sunay Miduthuri",
+        "school": "Helios School",
+        "type": "Individual",
+        "coach": "Natasha Gelfand"
+      },
+      {
+        "rank": 32,
+        "name": "Aditya Ashok",
+        "school": "Redwood Middle School",
+        "type": "Team",
+        "coach": "Penny Li"
+      },
+      {
+        "rank": 33,
+        "name": "Joey Guo",
+        "school": "The Nueva School",
+        "type": "Individual",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 34,
+        "name": "Olivia Chen",
+        "school": "Blach Intermediate School",
+        "type": "Team",
+        "coach": "Erin Hamson"
+      },
+      {
+        "rank": 35,
+        "name": "Joshua Wang",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 36,
+        "name": "Evan Jiang",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team",
+        "coach": "Sophia Henningsen"
+      },
+      {
+        "rank": 37,
+        "name": "Eric Shu",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 38,
+        "name": "Daniel Jin",
+        "school": "Challenger School-Middleﬁeld",
+        "type": "Individual",
+        "coach": "Pragna Dusankar"
+      },
+      {
+        "rank": 39,
+        "name": "Kevin Tan",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 40,
+        "name": "Ethan Bao",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 41,
+        "name": "Anika Sharma",
+        "school": "Oliver Wendell Holmes Junior High School",
+        "type": "Team",
+        "coach": "Kimiko Yamamoto"
+      },
+      {
+        "rank": 42,
+        "name": "Kevin Lu",
+        "school": "Bayside Stem Academy",
+        "type": "Team",
+        "coach": "Bayside Math club"
+      },
+      {
+        "rank": 43,
+        "name": "Jayden Gong",
+        "school": "Proof School",
+        "type": "Team",
+        "coach": "Kathy Lin",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 44,
+        "name": "Jeﬀery Ding",
+        "school": "Redwood Middle School",
+        "type": "Team",
+        "coach": "Penny Li"
+      },
+      {
+        "rank": 45,
+        "name": "Liana Lee",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 46,
+        "name": "William Mao",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 47,
+        "name": "Shreyus Sane",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 48,
+        "name": "ZiJie Ni",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team",
+        "coach": "David Zhang"
+      },
+      {
+        "rank": 49,
+        "name": "Xiaoyi Guo",
+        "school": "BASIS Independent Fremont",
+        "type": "Individual",
+        "coach": "Fanyin Tzeng",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      },
+      {
+        "rank": 50,
+        "name": "Sanjay Prasanna",
+        "school": "Redwood Middle School",
+        "type": "Individual",
+        "coach": "Penny Li"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "level": "state",
+    "region": "norcal",
+    "description": "Top 25% of individual competitors at NorCal State Competition",
+    "student_count": 51,
+    "students": [
+      {
+        "rank": 1,
+        "name": "Alex Zhan",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 2,
+        "name": "Yichen Wu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 3,
+        "name": "Ali Zaman",
+        "school": "Hopkins Junior High School",
+        "type": "Individual",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 4,
+        "name": "Ethan Qu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 5,
+        "name": "Vihaan Gupta",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 6,
+        "name": "Wesley Shen",
+        "school": "Miller Middle School",
+        "type": "Individual",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 7,
+        "name": "Calvin Strohmann",
+        "school": "John F Kennedy Middle School",
+        "type": "Team",
+        "coach": "Anu Ramanathan"
+      },
+      {
+        "rank": 8,
+        "name": "Krittika Chandra",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 9,
+        "name": "Ashwin Shekhar",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team",
+        "coach": ""
+      },
+      {
+        "rank": 10,
+        "name": "Max Li",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 11,
+        "name": "Dylan Wang",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 12,
+        "name": "Alexander Ruan",
+        "school": "Sutter Middle School Folsom",
+        "type": "Team",
+        "coach": "Xiaoyu Ruan"
+      },
+      {
+        "rank": 13,
+        "name": "Keji Yuan",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 14,
+        "name": "Eric Shu",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Madhavi Gudivaka"
+      },
+      {
+        "rank": 15,
+        "name": "Sunay Miduthuri",
+        "school": "Helios School",
+        "type": "Individual",
+        "coach": "Natasha Gelfand"
+      },
+      {
+        "rank": 16,
+        "name": "William Xiao",
+        "school": "Chaboya Middle School",
+        "type": "Team",
+        "coach": "Jim Chou"
+      },
+      {
+        "rank": 17,
+        "name": "Franklin Zhou",
+        "school": "Raymond J. Fisher Middle School",
+        "type": "Team",
+        "coach": "Nello Santillana"
+      },
+      {
+        "rank": 18,
+        "name": "Waroon Thapanangkun",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 19,
+        "name": "Pranav Krishnapuram",
+        "school": "Tessellations",
+        "type": "Individual",
+        "coach": "Victor Chen"
+      },
+      {
+        "rank": 20,
+        "name": "Yuenching Shao",
+        "school": "Redwood Middle School",
+        "type": "Team",
+        "coach": "PJ Yim"
+      },
+      {
+        "rank": 21,
+        "name": "David Fox",
+        "school": "Proof School",
+        "type": "Team",
+        "coach": "Eric Severson",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 22,
+        "name": "Andrew Shi",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 23,
+        "name": "Atticus Lin",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 24,
+        "name": "Nathan Chen",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 25,
+        "name": "Ian Kweon",
+        "school": "Chaboya Middle School",
+        "type": "Team",
+        "coach": "Jim Chou"
+      },
+      {
+        "rank": 26,
+        "name": "Aarav Mann",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 27,
+        "name": "Lucas Yuan",
+        "school": "The Harker School",
+        "type": "Team",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 28,
+        "name": "Ming-Yi Tang",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 29,
+        "name": "Eric Zhang",
+        "school": "The Harker School",
+        "type": "Individual",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 30,
+        "name": "Ethan Bao",
+        "school": "Bullis Charter School",
+        "type": "Team",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 31,
+        "name": "Mihir Tomar",
+        "school": "Hyde Middle School",
+        "type": "Team",
+        "coach": "Madhavi Gudivaka"
+      },
+      {
+        "rank": 32,
+        "name": "Wenhai Rong",
+        "school": "Ralston Middle School",
+        "type": "Team",
+        "coach": "Cheryl Lam"
+      },
+      {
+        "rank": 33,
+        "name": "Arjun Vijaykumar",
+        "school": "Redwood Middle School",
+        "type": "Individual",
+        "coach": "PJ Yim"
+      },
+      {
+        "rank": 34,
+        "name": "Lusen Yao",
+        "school": "Harvest Park Middle School",
+        "type": "Team",
+        "coach": "Randall Lomas"
+      },
+      {
+        "rank": 35,
+        "name": "Ronald Wang",
+        "school": "BASIS Independent Fremont",
+        "type": "Team",
+        "coach": "Fanyin Tzeng",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      },
+      {
+        "rank": 36,
+        "name": "Gareth Lee",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 37,
+        "name": "Anish Agarwal",
+        "school": "Hopkins Junior High School",
+        "type": "Individual",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 38,
+        "name": "Keith Li",
+        "school": "BASIS Independent Fremont",
+        "type": "Team",
+        "coach": "Fanyin Tzeng",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      },
+      {
+        "rank": 39,
+        "name": "Alden Raymond",
+        "school": "Sutter Middle School Folsom",
+        "type": "Team",
+        "coach": "Xiaoyu Ruan"
+      },
+      {
+        "rank": 40,
+        "name": "Ryan Zhou",
+        "school": "BASIS Independent Fremont",
+        "type": "Team",
+        "coach": "Fanyin Tzeng",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      },
+      {
+        "rank": 41,
+        "name": "Jeﬀery Wang",
+        "school": "The Harker School",
+        "type": "Individual",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 42,
+        "name": "Joey Guo",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 43,
+        "name": "Matthew Lau",
+        "school": "Redwood Middle School",
+        "type": "Team",
+        "coach": "PJ Yim"
+      },
+      {
+        "rank": 44,
+        "name": "Lucian Lao",
+        "school": "Union Middle School (6-8th Grades)",
+        "type": "Team",
+        "coach": "Beth Shaw"
+      },
+      {
+        "rank": 45,
+        "name": "Jonathan Duh",
+        "school": "Burlingame Intermediate School",
+        "type": "Team",
+        "coach": "Anne Shamiyeh"
+      },
+      {
+        "rank": 46,
+        "name": "Brandon Nam",
+        "school": "Proof School",
+        "type": "Team",
+        "coach": "Eric Severson",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 47,
+        "name": "Caden Claussen",
+        "school": "The Nueva School",
+        "type": "Team",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 48,
+        "name": "Jonathan Li",
+        "school": "Redwood Middle School",
+        "type": "Individual",
+        "coach": "PJ Yim"
+      },
+      {
+        "rank": 49,
+        "name": "William Sun",
+        "school": "Burlingame Intermediate School",
+        "type": "Team",
+        "coach": "Anne Shamiyeh"
+      },
+      {
+        "rank": 50,
+        "name": "Bryant Hu",
+        "school": "Ralston Middle School",
+        "type": "Team",
+        "coach": "Cheryl Lam"
+      },
+      {
+        "rank": 51,
+        "name": "Brian Guo",
+        "school": "BASIS Independent Fremont",
+        "type": "Team",
+        "coach": "Fanyin Tzeng",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "state",
+    "region": "socal",
+    "description": "Top 25% of individual competitors at SoCal State Competition",
+    "student_count": 40,
+    "students": [
+      {
+        "rank": 1,
+        "name": "Suin Kim",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 2,
+        "name": "Alex Dou",
+        "school": "Turtle Rock Elementary School",
+        "type": "Team",
+        "coach": "Jianming Bian"
+      },
+      {
+        "rank": 3,
+        "name": "Aiden Wei",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 4,
+        "name": "Hanyuan Xu",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 5,
+        "name": "Yucheng Hu",
+        "school": "Chaparral Middle School",
+        "type": "Team",
+        "coach": "Ivan Macias"
+      },
+      {
+        "rank": 6,
+        "name": "Patrick Zheng",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Ethan Song"
+      },
+      {
+        "rank": 7,
+        "name": "Aiden Yan",
+        "school": "Sycamore Ridge School",
+        "type": "Team",
+        "coach": "Lily Li"
+      },
+      {
+        "rank": 8,
+        "name": "Mason Kwon",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Ethan Song"
+      },
+      {
+        "rank": 9,
+        "name": "Jonathan Miller",
+        "school": "Sierra Vista Middle School",
+        "type": "Team",
+        "coach": "Jamie Charrette"
+      },
+      {
+        "rank": 10,
+        "name": "Bryant Zhang",
+        "school": "Goleta Valley Junior High School",
+        "type": "Team",
+        "coach": "Nathaniel Thompson"
+      },
+      {
+        "rank": 11,
+        "name": "Daniel Moon",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 12,
+        "name": "Sashreek Das",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 13,
+        "name": "Arthur Shulman",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 14,
+        "name": "Evan Lin",
+        "school": "Manhattan Beach Middle School",
+        "type": "Individual",
+        "coach": "Christine Lew-Fan"
+      },
+      {
+        "rank": 15,
+        "name": "Clara Zhang",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Individual",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 16,
+        "name": "Timothy Weng",
+        "school": "Muirlands Middle School",
+        "type": "Individual",
+        "coach": "Anabel Weinstein"
+      },
+      {
+        "rank": 17,
+        "name": "Lucas Bejar",
+        "school": "The Bishop's School",
+        "type": "Team",
+        "coach": "Catherine Beamer"
+      },
+      {
+        "rank": 18,
+        "name": "Glenn Zhang",
+        "school": "Riverside STEM Academy",
+        "type": "Team",
+        "coach": "Joshua Zonker"
+      },
+      {
+        "rank": 19,
+        "name": "Steve Zhao",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 20,
+        "name": "Jian Lee",
+        "school": "Palos Verdes Intermediate School",
+        "type": "Team",
+        "coach": "Phyliss Thom"
+      },
+      {
+        "rank": 21,
+        "name": "Yuyang (Shawn) Mao",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Individual",
+        "coach": "Ethan Song"
+      },
+      {
+        "rank": 22,
+        "name": "Shrehan Kundu",
+        "school": "The Bishop's School",
+        "type": "Team",
+        "coach": "Catherine Beamer"
+      },
+      {
+        "rank": 23,
+        "name": "Oliver Hsiao",
+        "school": "Sierra Vista Middle School",
+        "type": "Team",
+        "coach": "Jamie Charrette"
+      },
+      {
+        "rank": 24,
+        "name": "Bryan Wat",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 25,
+        "name": "Brenda Bai",
+        "school": "Santiago Hills Elementary School",
+        "type": "Team",
+        "coach": "Katie Gray"
+      },
+      {
+        "rank": 26,
+        "name": "Benjamin Zhou",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 27,
+        "name": "Rohan Daftuar",
+        "school": "Henry E. Huntington Middle School",
+        "type": "Team",
+        "coach": "Jean Pierre"
+      },
+      {
+        "rank": 28,
+        "name": "Ruike Shi",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 29,
+        "name": "Mark Kao",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 30,
+        "name": "Yifan Sun",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 31,
+        "name": "Kevin Chaw",
+        "school": "Gretchen Whitney Middle School",
+        "type": "Team",
+        "coach": "Nitta Song"
+      },
+      {
+        "rank": 32,
+        "name": "Ryan Luo",
+        "school": "Santiago Hills Elementary School",
+        "type": "Team",
+        "coach": "Katie Gray"
+      },
+      {
+        "rank": 33,
+        "name": "Karissa Luo",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Ethan Song"
+      },
+      {
+        "rank": 34,
+        "name": "Jeremy Moon",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 35,
+        "name": "Joseph Kim",
+        "school": "Walter Reed Middle School",
+        "type": "Team",
+        "coach": "John Zwiers"
+      },
+      {
+        "rank": 36,
+        "name": "Jacob Xue",
+        "school": "Ridgecrest Intermediate School",
+        "type": "Team",
+        "coach": "Eric Hendrickson"
+      },
+      {
+        "rank": 37,
+        "name": "Anna Liu",
+        "school": "Oak Valley Middle School",
+        "type": "Team",
+        "coach": "Xoong Lou"
+      },
+      {
+        "rank": 38,
+        "name": "Daniel Liao",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Individual",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 39,
+        "name": "Rabtej Kalra",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      },
+      {
+        "rank": 40,
+        "name": "Rainier Lin",
+        "school": "Non-School Competitors",
+        "type": "Individual",
+        "coach": ""
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "level": "state",
+    "region": "socal",
+    "description": "Top 25% of individual competitors at SoCal State Competition",
+    "student_count": 38,
+    "students": [
+      {
+        "rank": 1,
+        "name": "Neil Iyer",
+        "school": "Davidson Academy Online : Irvine",
+        "type": "Individual",
+        "coach": "David Lee"
+      },
+      {
+        "rank": 2,
+        "name": "Eric Zou",
+        "school": "Chaparral Middle School",
+        "type": "Team",
+        "coach": "Ivan Macias"
+      },
+      {
+        "rank": 3,
+        "name": "Bryant Zhang",
+        "school": "Goleta Valley Junior High School",
+        "type": "Team",
+        "coach": "Nathaniel Thompson"
+      },
+      {
+        "rank": 4,
+        "name": "Daniel Sun",
+        "school": "Mirman School",
+        "type": "Team",
+        "coach": "Kara Luna"
+      },
+      {
+        "rank": 5,
+        "name": "Anshul Panda",
+        "school": "Mesa Verde Middle School",
+        "type": "Team",
+        "coach": "Jiawang Nie"
+      },
+      {
+        "rank": 6,
+        "name": "Patrick Liang",
+        "school": "Portola HG Magnet",
+        "type": "Team",
+        "coach": "Eileen Paik"
+      },
+      {
+        "rank": 7,
+        "name": "Rishav Bhattacharjee",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Albert Mao"
+      },
+      {
+        "rank": 8,
+        "name": "Jacob Lee",
+        "school": "Orchard Hills School",
+        "type": "Team",
+        "coach": "Gary Ro"
+      },
+      {
+        "rank": 9,
+        "name": "Junu Pae",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Albert Mao"
+      },
+      {
+        "rank": 10,
+        "name": "Paul Goetze",
+        "school": "Sycamore Canyon School",
+        "type": "Team",
+        "coach": "Malinda Young"
+      },
+      {
+        "rank": 11,
+        "name": "Thomas Liu",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Albert Mao"
+      },
+      {
+        "rank": 12,
+        "name": "Donald Cao",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 13,
+        "name": "Amy Fang",
+        "school": "Mesa Verde Middle School",
+        "type": "Team",
+        "coach": "Jiawang Nie"
+      },
+      {
+        "rank": 14,
+        "name": "Adrian Fong",
+        "school": "The Bishops School",
+        "type": "Team",
+        "coach": "Christina Wong"
+      },
+      {
+        "rank": 15,
+        "name": "Eddie Wei",
+        "school": "Sierra Vista Middle School",
+        "type": "Team",
+        "coach": "Anh Escalante"
+      },
+      {
+        "rank": 16,
+        "name": "Arhan Gupta",
+        "school": "Carmel Valley Middle School",
+        "type": "Team",
+        "coach": "Vikram Gupta"
+      },
+      {
+        "rank": 17,
+        "name": "Thomas Zhang",
+        "school": "Alvarado Intermediate School",
+        "type": "Team",
+        "coach": "Linda Kim"
+      },
+      {
+        "rank": 18,
+        "name": "James Rong",
+        "school": "Mesa Verde Middle School",
+        "type": "Team",
+        "coach": "Jiawang Nie"
+      },
+      {
+        "rank": 19,
+        "name": "Sierra Liu",
+        "school": "Carmel Valley Middle School",
+        "type": "Team",
+        "coach": "Vikram Gupta"
+      },
+      {
+        "rank": 20,
+        "name": "Zongyou Yu",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 21,
+        "name": "Patrick Zheng",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Individual",
+        "coach": "Albert Mao"
+      },
+      {
+        "rank": 22,
+        "name": "Sylesh Sundaresan",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 23,
+        "name": "Brandon Shen-Xu",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 24,
+        "name": "Steven Shen",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Albert Mao"
+      },
+      {
+        "rank": 25,
+        "name": "Nancy Liu",
+        "school": "South Pasadena Middle School",
+        "type": "Individual",
+        "coach": "Jenny Li"
+      },
+      {
+        "rank": 26,
+        "name": "Aayush Bathija",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 27,
+        "name": "Ava Zhang",
+        "school": "Goleta Valley Junior High School",
+        "type": "Team",
+        "coach": "Nathaniel Thompson"
+      },
+      {
+        "rank": 28,
+        "name": "Jonathan Miller",
+        "school": "Sierra Vista Middle School",
+        "type": "Team",
+        "coach": "Anh Escalante"
+      },
+      {
+        "rank": 29,
+        "name": "Sashreek Das",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 30,
+        "name": "Xintang Gu",
+        "school": "Mesa Verde Middle School",
+        "type": "Individual",
+        "coach": "Jiawang Nie"
+      },
+      {
+        "rank": 31,
+        "name": "Oliver Lu",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 32,
+        "name": "Albert Zhang",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Liz Gastelum"
+      },
+      {
+        "rank": 33,
+        "name": "Vayun Shekhar",
+        "school": "Oak Valley Middle School",
+        "type": "Team",
+        "coach": "Fang Fang"
+      },
+      {
+        "rank": 34,
+        "name": "Riya Vollala",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 35,
+        "name": "Ruike Shi",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 36,
+        "name": "Yucheng Hu",
+        "school": "Chaparral Middle School",
+        "type": "Team",
+        "coach": "Ivan Macias"
+      },
+      {
+        "rank": 37,
+        "name": "Rokus Kam",
+        "school": "Bert Lynn Middle School",
+        "type": "Individual",
+        "coach": "Parul Gaur"
+      },
+      {
+        "rank": 38,
+        "name": "Davis Liu",
+        "school": "Chaparral Middle School",
+        "type": "Team",
+        "coach": "Ivan Macias"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "level": "state",
+    "region": "socal",
+    "description": "Top 25% of individual competitors at SoCal State Competition",
+    "student_count": 40,
+    "students": [
+      {
+        "rank": 1,
+        "name": "Rohan Mallick",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Michelle Liang"
+      },
+      {
+        "rank": 2,
+        "name": "Xiaoran (Tiger) Han",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Michelle Liang"
+      },
+      {
+        "rank": 3,
+        "name": "Andrew Jahng",
+        "school": "Carmel Valley Middle School",
+        "type": "Team",
+        "coach": "Alireza Golseﬁdy"
+      },
+      {
+        "rank": 4,
+        "name": "Sepehr Salehi Golseﬁdy",
+        "school": "Carmel Valley Middle School",
+        "type": "Team",
+        "coach": "Alireza Golseﬁdy"
+      },
+      {
+        "rank": 5,
+        "name": "Neil Iyer",
+        "school": "Santiago Hills Elementary School",
+        "type": "Individual",
+        "coach": "Katie Gray"
+      },
+      {
+        "rank": 6,
+        "name": "Evelyn Kim",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Michelle Liang"
+      },
+      {
+        "rank": 7,
+        "name": "Ethan Yin",
+        "school": "Miraleste Intermediate School",
+        "type": "Team",
+        "coach": "ben kroon"
+      },
+      {
+        "rank": 8,
+        "name": "Kevin Yang",
+        "school": "Carmel Valley Middle School",
+        "type": "Team",
+        "coach": "Alireza Golseﬁdy"
+      },
+      {
+        "rank": 9,
+        "name": "Nathan Jiang",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 10,
+        "name": "Elena Beckman",
+        "school": "The Knox School of Santa Barbara",
+        "type": "Individual",
+        "coach": "Liggy Chien"
+      },
+      {
+        "rank": 11,
+        "name": "Eric Zou",
+        "school": "Chaparral Middle School",
+        "type": "Team",
+        "coach": "Ivan Macias"
+      },
+      {
+        "rank": 12,
+        "name": "Patrick Liang",
+        "school": "Portola Highly Gifted Magnet School",
+        "type": "Team",
+        "coach": "Eileen Paik"
+      },
+      {
+        "rank": 13,
+        "name": "Donald Cao",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Individual",
+        "coach": "Sarah Armstrong"
+      },
+      {
+        "rank": 14,
+        "name": "Minghao Guo",
+        "school": "Portola Highly Gifted Magnet School",
+        "type": "Team",
+        "coach": "Eileen Paik"
+      },
+      {
+        "rank": 15,
+        "name": "Atticus Stewart",
+        "school": "Mirman School",
+        "type": "Team",
+        "coach": "Kara Luna"
+      },
+      {
+        "rank": 16,
+        "name": "Kevin Li",
+        "school": "Sierra Vista Middle School",
+        "type": "Team",
+        "coach": "Heather Trueman"
+      },
+      {
+        "rank": 17,
+        "name": "Samuel Li",
+        "school": "South Pointe Middle School",
+        "type": "Team",
+        "coach": "Gary Dresser"
+      },
+      {
+        "rank": 18,
+        "name": "Chris Chen",
+        "school": "Carmel Valley Middle School",
+        "type": "Team",
+        "coach": "Alireza Golseﬁdy"
+      },
+      {
+        "rank": 19,
+        "name": "Rishav Bhattacharjee",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Team",
+        "coach": "Michelle Liang"
+      },
+      {
+        "rank": 20,
+        "name": "Daniel Sun",
+        "school": "Mirman School",
+        "type": "Team",
+        "coach": "Kara Luna"
+      },
+      {
+        "rank": 21,
+        "name": "Zion Qu",
+        "school": "Tarbut V'Torah Day School",
+        "type": "Team",
+        "coach": "Calvin Pham"
+      },
+      {
+        "rank": 22,
+        "name": "Alvin Chen",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Sarah Armstrong"
+      },
+      {
+        "rank": 23,
+        "name": "Jennie Qi",
+        "school": "Richardson Middle School",
+        "type": "Team",
+        "coach": "Michael Fujii"
+      },
+      {
+        "rank": 24,
+        "name": "Thomas Liu",
+        "school": "Paciﬁc Trails Middle School",
+        "type": "Individual",
+        "coach": "Michelle Liang"
+      },
+      {
+        "rank": 25,
+        "name": "Brett Chang",
+        "school": "South Pasadena Middle School",
+        "type": "Team",
+        "coach": "Tracey Ho"
+      },
+      {
+        "rank": 26,
+        "name": "Ava Berenji",
+        "school": "Davidson Academy Online - Los Angeles",
+        "type": "Individual",
+        "coach": "Albert Lee"
+      },
+      {
+        "rank": 27,
+        "name": "Ethan Mak",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Sarah Armstrong"
+      },
+      {
+        "rank": 28,
+        "name": "Sylesh Sundaresan",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 29,
+        "name": "Summer Zhang",
+        "school": "Tarbut V'Torah Day School",
+        "type": "Team",
+        "coach": "Calvin Pham"
+      },
+      {
+        "rank": 30,
+        "name": "Bennett Zhang",
+        "school": "A.E. Wright",
+        "type": "Individual",
+        "coach": "Wendy Writer"
+      },
+      {
+        "rank": 31,
+        "name": "Terry Huang",
+        "school": "Rancho San Joaquin Middle School",
+        "type": "Team",
+        "coach": "Sarah Armstrong"
+      },
+      {
+        "rank": 32,
+        "name": "Anshul Panda",
+        "school": "Mesa Verde Middle School",
+        "type": "Team",
+        "coach": "Jiawan Nie"
+      },
+      {
+        "rank": 33,
+        "name": "Boyan Manolov",
+        "school": "Harvard-Westlake School",
+        "type": "Team",
+        "coach": "Gregg Ross"
+      },
+      {
+        "rank": 34,
+        "name": "Ella Wang",
+        "school": "Jeﬀrey Trail Middle School",
+        "type": "Team",
+        "coach": "Brian Tran"
+      },
+      {
+        "rank": 35,
+        "name": "Wendi Zeng",
+        "school": "Alvarado Intermediate School",
+        "type": "Team",
+        "coach": "Linda Kim"
+      },
+      {
+        "rank": 36,
+        "name": "Roselyn Chen",
+        "school": "Marlborough School",
+        "type": "Individual",
+        "coach": "Melissa Banister"
+      },
+      {
+        "rank": 37,
+        "name": "Ethan Geng",
+        "school": "Oak Valley Middle School",
+        "type": "Team",
+        "coach": "Tyler Xiao"
+      },
+      {
+        "rank": 38,
+        "name": "Alan Taft",
+        "school": "Richardson Middle School",
+        "type": "Team",
+        "coach": "Michael Fujii"
+      },
+      {
+        "rank": 39,
+        "name": "Aayush Bathija",
+        "school": "Medea Creek Middle School",
+        "type": "Team",
+        "coach": "Robert Large"
+      },
+      {
+        "rank": 40,
+        "name": "Seungyoo Kim-Jung",
+        "school": "Goleta Valley Junior High School",
+        "type": "Team",
+        "coach": "Nathaniel Thompson"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "state",
+    "region": "norcal",
+    "type": "team_rankings",
+    "description": "Top 40% of teams at NorCal State Competition",
+    "team_count": 16,
+    "teams": [
+      {
+        "rank": 1,
+        "school": "Joaquin Miller Middle School",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 2,
+        "school": "Basis Independent Silicon Valley",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 3,
+        "school": "The Harker School",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 4,
+        "school": "Bullis Charter School",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 5,
+        "school": "Ellen Fletcher Middle School",
+        "coach": "Ratnadeep Bhattacharjee"
+      },
+      {
+        "rank": 6,
+        "school": "Thornton Middle School",
+        "coach": "Usha Sangam"
+      },
+      {
+        "rank": 7,
+        "school": "The Nueva School",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 8,
+        "school": "Harvest Park Middle School",
+        "coach": "Jerry Li"
+      },
+      {
+        "rank": 9,
+        "school": "Bret Harte Middle School",
+        "coach": "Srini Sridhara"
+      },
+      {
+        "rank": 10,
+        "school": "Hyde Middle School",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 11,
+        "school": "Proof School",
+        "coach": "Kathy Lin",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 12,
+        "school": "Gale Ranch Middle School",
+        "coach": "Sharanya Roy"
+      },
+      {
+        "rank": 13,
+        "school": "Sutter Middle School Folsom",
+        "coach": "Kip Baumann"
+      },
+      {
+        "rank": 14,
+        "school": "Rancho Milpitas Middle School",
+        "coach": "Irfan Sheriﬀ"
+      },
+      {
+        "rank": 15,
+        "school": "Black Pine Circle School",
+        "coach": "Anatoliy Gulimovskiy"
+      },
+      {
+        "rank": 16,
+        "school": "Ocean Grove Charter School - Boulder Creek",
+        "coach": "David Lee"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "level": "state",
+    "region": "norcal",
+    "type": "team_rankings",
+    "description": "Top 40% of teams at NorCal State Competition",
+    "team_count": 14,
+    "teams": [
+      {
+        "rank": 1,
+        "school": "Joaquin Miller Middle School",
+        "coach": "Monica Manolescu"
+      },
+      {
+        "rank": 2,
+        "school": "Basis Independent Silicon Valley",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 3,
+        "school": "Hopkins Middle School",
+        "coach": "Peta-Gaye Robinson",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "rank": 4,
+        "school": "Bullis Charter School",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 5,
+        "school": "Proof School",
+        "coach": "Kathy Lin",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 6,
+        "school": "Challenger School Berryessa",
+        "coach": "Midhun Somasundaran"
+      },
+      {
+        "rank": 7,
+        "school": "Hyde Middle School",
+        "coach": "Kim James"
+      },
+      {
+        "rank": 8,
+        "school": "Harvest Park Middle School",
+        "coach": "Randall Lomas"
+      },
+      {
+        "rank": 9,
+        "school": "Redwood Middle School",
+        "coach": "Penny Li"
+      },
+      {
+        "rank": 10,
+        "school": "The Nueva School",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 11,
+        "school": "Blach Intermediate School",
+        "coach": "Erin Hamson"
+      },
+      {
+        "rank": 12,
+        "school": "Ralston Middle School",
+        "coach": "Andrew Lam"
+      },
+      {
+        "rank": 13,
+        "school": "Windemere Ranch Middle School",
+        "coach": "David Zhang"
+      },
+      {
+        "rank": 14,
+        "school": "Eleanor Murray Fallon",
+        "coach": "Sophia Henningsen"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "level": "state",
+    "region": "norcal",
+    "type": "team_rankings",
+    "description": "Top 40% of teams at NorCal State Competition",
+    "team_count": 15,
+    "teams": [
+      {
+        "rank": 1,
+        "school": "The Harker School",
+        "coach": "Vandana Kadam",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "rank": 2,
+        "school": "Basis Independent Silicon Valley",
+        "coach": "Ali Gurel",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "rank": 3,
+        "school": "BASIS Independent Fremont",
+        "coach": "Fanyin Tzeng",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      },
+      {
+        "rank": 4,
+        "school": "Chaboya Middle School",
+        "coach": "Jim Chou"
+      },
+      {
+        "rank": 5,
+        "school": "Hyde Middle School",
+        "coach": "Madhavi Gudivaka"
+      },
+      {
+        "rank": 6,
+        "school": "Bullis Charter School",
+        "coach": "David Freeman",
+        "tracked_school": [
+          "bullis"
+        ]
+      },
+      {
+        "rank": 7,
+        "school": "Raymond J. Fisher Middle School",
+        "coach": "Nello Santillana"
+      },
+      {
+        "rank": 8,
+        "school": "Redwood Middle School",
+        "coach": "PJ Yim"
+      },
+      {
+        "rank": 9,
+        "school": "The Nueva School",
+        "coach": "Steven Chanan",
+        "tracked_school": [
+          "nueva"
+        ]
+      },
+      {
+        "rank": 10,
+        "school": "Ralston Middle School",
+        "coach": "Cheryl Lam"
+      },
+      {
+        "rank": 11,
+        "school": "Proof School",
+        "coach": "Eric Severson",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "rank": 12,
+        "school": "Sutter Middle School Folsom",
+        "coach": "Xiaoyu Ruan"
+      },
+      {
+        "rank": 13,
+        "school": "Harvest Park Middle School",
+        "coach": "Randall Lomas"
+      },
+      {
+        "rank": 14,
+        "school": "Union Middle School (6-8th Grades)",
+        "coach": "Beth Shaw"
+      },
+      {
+        "rank": 15,
+        "school": "Diablo Vista Middle School",
+        "coach": "Sarah Li-Liu"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "chapter",
+    "region": "central_santa_clara_valley",
+    "description": "Students advancing to state from Central Santa Clara Valley chapter",
+    "students": [
+      {
+        "name": "Edward Han",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Gilbert Jiang",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Om Kabra",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Yichen Wu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Team",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Shiven Bhargava",
+        "school": "The Harker School",
+        "type": "Team",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "name": "Ryan Santosh",
+        "school": "The Harker School",
+        "type": "Team",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "name": "Landon Wan",
+        "school": "The Harker School",
+        "type": "Team",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "name": "Jeremy Zhang",
+        "school": "The Harker School",
+        "type": "Team",
+        "tracked_school": [
+          "harker"
+        ]
+      },
+      {
+        "name": "Roger Huynh",
+        "school": "Rancho Milpitas Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Allen Li",
+        "school": "Rancho Milpitas Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Carter Lo",
+        "school": "Rancho Milpitas Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Muhammad Sheriff",
+        "school": "Rancho Milpitas Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Tiffany Han",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Jessica Yu",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Vincent Huang",
+        "school": "Basis Independent Silicon Valley",
+        "type": "Individual",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "chapter",
+    "region": "golden_gate",
+    "description": "Students advancing to state from Golden Gate chapter (SF/Peninsula)",
+    "students": [
+      {
+        "name": "Rosie Pan",
+        "school": "Proof School",
+        "type": "Team",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "Katherine Ying",
+        "school": "Proof School",
+        "type": "Team",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "James Micheltorena",
+        "school": "Proof School",
+        "type": "Team",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "Ryan Tanaka",
+        "school": "Proof School",
+        "type": "Team",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "Justin Ma",
+        "school": "Herbert Hoover Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Nathan Xie",
+        "school": "Herbert Hoover Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ethan Zhou",
+        "school": "Herbert Hoover Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Bryan Zhou",
+        "school": "Herbert Hoover Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Kevin Sun",
+        "school": "Alta Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Kyle Barenblat",
+        "school": "Alta Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ayan Mathur",
+        "school": "Alta Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ravi Sekar",
+        "school": "Alta Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Nathan Bao",
+        "school": "Chinese American International School",
+        "type": "Team"
+      },
+      {
+        "name": "Allyson Tam",
+        "school": "Chinese American International School",
+        "type": "Team"
+      },
+      {
+        "name": "Yuchen Liu",
+        "school": "Chinese American International School",
+        "type": "Team"
+      },
+      {
+        "name": "Austin Thun",
+        "school": "Chinese American International School",
+        "type": "Team"
+      },
+      {
+        "name": "Timothy Poon",
+        "school": "Presidio Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Calvin Horie",
+        "school": "Presidio Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Hayzen Chan",
+        "school": "Presidio Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Arjun Rajaram",
+        "school": "Presidio Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Matthew Fang",
+        "school": "Proof School",
+        "type": "Individual",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "Zand Nazer",
+        "school": "St. Brigid School",
+        "type": "Individual"
+      },
+      {
+        "name": "Theo Wolens",
+        "school": "Proof School",
+        "type": "Individual",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "Daniel Duan",
+        "school": "Proof School",
+        "type": "Individual",
+        "tracked_school": [
+          "proof-school"
+        ]
+      },
+      {
+        "name": "Milan Ganguly",
+        "school": "Proof School",
+        "type": "Individual",
+        "tracked_school": [
+          "proof-school"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "chapter",
+    "region": "fremont",
+    "description": "Students advancing to state from Fremont chapter",
+    "students": [
+      {
+        "name": "Matthew Wang",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "name": "Arjun Garg",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "name": "Asher Luo",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "name": "Anuya Kothari",
+        "school": "Hopkins Middle School",
+        "type": "Team",
+        "tracked_school": [
+          "hopkins"
+        ]
+      },
+      {
+        "name": "Skanda Mahesh",
+        "school": "Thornton Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "James Hang",
+        "school": "Thornton Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Yixuan Dai",
+        "school": "Thornton Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Vishnu Anand",
+        "school": "Thornton Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Cynthia Lu",
+        "school": "BASIS Independent Fremont",
+        "type": "Individual",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      },
+      {
+        "name": "Gavin Yang",
+        "school": "BASIS Independent Fremont",
+        "type": "Individual",
+        "tracked_school": [
+          "basis-fremont"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "chapter",
+    "region": "diablo",
+    "description": "Students advancing to state from Diablo chapter (Tri-Valley/East Bay)",
+    "students": [
+      {
+        "name": "Brian Hii",
+        "school": "Harvest Park Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Jayden Kim",
+        "school": "Harvest Park Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ethan Sun",
+        "school": "Harvest Park Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Lucas Zhang",
+        "school": "Harvest Park Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Rishabh Kaushik",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Andrew Sun",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Miranda Wang",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Alton Zhao",
+        "school": "Windemere Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Paarth Bansal",
+        "school": "Gale Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Young Cui",
+        "school": "Gale Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ronav Mandal",
+        "school": "Gale Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Mike Zhang",
+        "school": "Gale Ranch Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Preron Chakrabarty",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team"
+      },
+      {
+        "name": "Arjun Shenoy",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team"
+      },
+      {
+        "name": "Aarna Sriram",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team"
+      },
+      {
+        "name": "Elvis Yuan",
+        "school": "Eleanor Murray Fallon",
+        "type": "Team"
+      },
+      {
+        "name": "Zi-Jie (Thomas) Ni",
+        "school": "OHS (Virtual School)",
+        "type": "Individual"
+      },
+      {
+        "name": "Eli Lee",
+        "school": "Joaquin Moraga Intermediate School",
+        "type": "Individual"
+      },
+      {
+        "name": "James Bao",
+        "school": "Harvest Park Middle School",
+        "type": "Individual"
+      },
+      {
+        "name": "Parv Surjan",
+        "school": "Thomas Hart Middle School",
+        "type": "Individual"
+      },
+      {
+        "name": "Helen Bartelt",
+        "school": "East Avenue Middle School",
+        "type": "Individual"
+      },
+      {
+        "name": "Angela Wu",
+        "school": "Harvest Park Middle School",
+        "type": "Individual"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "chapter",
+    "region": "east_bay",
+    "description": "Students advancing to state from East Bay chapter",
+    "students": [
+      {
+        "name": "Oscar Holzman-White",
+        "school": "Black Pine Circle School",
+        "type": "Team"
+      },
+      {
+        "name": "Anika Ohm",
+        "school": "Black Pine Circle School",
+        "type": "Team"
+      },
+      {
+        "name": "Owen Gettell",
+        "school": "Black Pine Circle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ji Hoekman",
+        "school": "Black Pine Circle School",
+        "type": "Team"
+      },
+      {
+        "name": "Noah Epstein",
+        "school": "Diablo Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Robin Byun",
+        "school": "Diablo Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Ridit Chauhan",
+        "school": "Diablo Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Brendan Yang",
+        "school": "Diablo Vista Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Zongmao Wu",
+        "school": "Creekside Middle School",
+        "type": "Individual"
+      },
+      {
+        "name": "Jay Lee",
+        "school": "Black Pine Circle School",
+        "type": "Individual"
+      },
+      {
+        "name": "Sriram Rajnikanth",
+        "school": "Diablo Vista Middle School",
+        "type": "Individual"
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "level": "chapter",
+    "region": "coyote_valley",
+    "description": "Students advancing to state from Coyote Valley chapter",
+    "students": [
+      {
+        "name": "Aarya Dhane",
+        "school": "Stanford Online High School",
+        "type": "Individual"
+      },
+      {
+        "name": "Alyson Quizon",
+        "school": "Charter School of Morgan Hill",
+        "type": "Individual"
+      },
+      {
+        "name": "Vash Hungerford",
+        "school": "Martin Murphy Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Jehu Koh",
+        "school": "Martin Murphy Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Jacqueline Shin",
+        "school": "Martin Murphy Middle School",
+        "type": "Team"
+      },
+      {
+        "name": "Steven Ta",
+        "school": "Martin Murphy Middle School",
+        "type": "Team"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "level": "national",
+    "region": "california",
+    "description": "California state team at national MATHCOUNTS competition",
+    "coach": "Monica Manolescu (Joaquin Miller Middle School)",
+    "placement": "13th overall",
+    "students": [
+      {
+        "name": "Neil Iyer",
+        "school": "Davidson Academy Online: Irvine"
+      },
+      {
+        "name": "Justin Kim",
+        "school": "Joaquin Miller Middle School"
+      },
+      {
+        "name": "Jingxuan Bo",
+        "school": "Stratford Preparatory Blackford Middle"
+      },
+      {
+        "name": "Andy Liu",
+        "school": "Hopkins Middle School",
+        "tracked_school": [
+          "hopkins"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "level": "national",
+    "region": "california",
+    "description": "California state team at national MATHCOUNTS competition - 3rd place nationally",
+    "coach": "Vandana Kadam (The Harker School)",
+    "placement": "3rd overall",
+    "students": [
+      {
+        "name": "Alex Zhan",
+        "school": "Basis Independent Silicon Valley",
+        "individual_rank": 7,
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Rohan Mallick",
+        "school": "Pacific Trails Middle School",
+        "individual_rank": 9
+      },
+      {
+        "name": "Yichen Wu",
+        "school": "Basis Independent Silicon Valley",
+        "tracked_school": [
+          "basis-sv"
+        ]
+      },
+      {
+        "name": "Ali Zaman",
+        "school": "Hopkins Middle School",
+        "tracked_school": [
+          "hopkins"
+        ]
+      }
+    ]
+  }
+]
