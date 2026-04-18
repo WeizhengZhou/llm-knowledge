@@ -1,0 +1,23 @@
+topic: Bay Area K-12 college placement statistics
+created: '2026-04-18'
+user_context: 'Track where Bay Area private high school graduates go to college. Structured
+  data in SQLite (placement counts, UC admissions, athlete commits). PDF extractions
+  in markdown. Schools: SHS Atherton, Harker, Menlo, Castilleja, Nueva, Crystal Springs,
+  Pinewood, Woodside Priory.'
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.3
+    depth: 0.5
+    gap_fill: 0.15
+    verification: 0.05
+phases:
+  breadth:
+    questions: []
+  depth:
+    questions: []
+  gap_fill:
+    questions: []
+questions: []

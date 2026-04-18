@@ -1,0 +1,35 @@
+uid=8_0 RootWebArea "SHP Students' College Outcomes - Google Docs" url="https://docs.google.com/document/d/1XLvwQAaRL0W3tf8r9hn8wxZ01Rj_xExTaIrwNjf9qMk/edit?tab=t.0"
+  uid=8_1 banner "Menu bar"
+    uid=8_2 generic atomic live="assertive" relevant="additions text"
+    uid=8_3 generic atomic live="assertive" relevant="additions text"
+    uid=8_4 generic atomic live="assertive" relevant="additions text"
+    uid=8_5 link "Docs home" url="https://docs.google.com/document/?usp=docs_web"
+    uid=8_6 StaticText "SHP Students' College Outcomes"
+    uid=8_7 button "Document status: Saved to Drive."
+    uid=8_8 generic live="polite" relevant="additions text"
+    uid=8_9 button "Request edit access. You can only view this document. You must be logged in to a Google account to request edit access from the owner." disableable disabled
+    uid=8_10 button "Share. Anyone with the link. Anyone who has the link can access. No sign-in required." disableable disabled
+    uid=8_11 link "Sign in" url="https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/document/d/1XLvwQAaRL0W3tf8r9hn8wxZ01Rj_xExTaIrwNjf9qMk/edit?usp%3Dsharing&followup=https://docs.google.com/document/d/1XLvwQAaRL0W3tf8r9hn8wxZ01Rj_xExTaIrwNjf9qMk/edit?usp%3Dsharing&ltmpl=docs&ec=GAZAGQ"
+      uid=8_12 StaticText "Sign in"
+  uid=8_13 generic
+  uid=8_14 generic "Document tabs"
+    uid=8_15 button "Hide tabs & outlines"
+      uid=8_16 button "Back" disableable disabled
+        uid=8_17 button "Back" disableable disabled
+    uid=8_18 heading "Document tabs" level="2"
+    uid=8_19 tree "Document tabs" orientation="vertical"
+      uid=8_20 treeitem "SHP Students' College Outcomes" level="1" selectable selected
+        uid=8_21 button "Tab options" expandable haspopup="menu"
+      uid=8_22 generic
+        uid=8_23 menuitem "WHERE GATORS GO level 1"
+  uid=8_24 Iframe focusable focused
+    uid=8_25 RootWebArea url="about:blank"
+      uid=8_26 textbox "Document content" focusable focused multiline
+  uid=8_27 link "Turn on screen reader support" url="https://docs.google.com/document/d/1XLvwQAaRL0W3tf8r9hn8wxZ01Rj_xExTaIrwNjf9qMk/edit?tab=t.0#"
+    uid=8_28 StaticText "Turn on screen reader support"
+  uid=8_29 generic
+  uid=8_30 generic atomic live="polite" relevant="additions text"
+    uid=8_31 StaticText "Banner hidden "
+  uid=8_32 generic atomic live="assertive" relevant="additions text"
+  uid=8_33 generic atomic live="assertive" relevant="additions text"
+    uid=8_34 StaticText "To enable screen reader support, press ⌘+Option+Z To learn about keyboard shortcuts, press ⌘slash"
