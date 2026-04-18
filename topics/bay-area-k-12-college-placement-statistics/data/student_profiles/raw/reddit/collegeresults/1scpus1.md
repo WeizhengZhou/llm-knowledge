@@ -3,11 +3,11 @@ source: reddit/collegeresults
 source_id: t3_1scpus1
 url: https://www.reddit.com/r/collegeresults/comments/1scpus1/fgli_woman_in_engineering_accepted_to_mit/
 title: "FGLI woman in engineering accepted to MIT, Princeton, Johns Hopkins, Vanderbilt, Georgia Tech, and more"
-score: 41
+score: 42
 num_comments: 47
 flair: "3.8+|1500+/34+|STEM"
 created_utc: 2026-04-05T00:52:08
-crawled_at: 2026-04-18T19:59:57.379815
+crawled_at: 2026-04-18T20:01:35.835133
 ---
 
 # FGLI woman in engineering accepted to MIT, Princeton, Johns Hopkins, Vanderbilt, Georgia Tech, and more

@@ -3,11 +3,11 @@ source: reddit/collegeresults
 source_id: t3_13trry1
 url: https://www.reddit.com/r/collegeresults/comments/13trry1/asian_male_in_cs_bags_mit_and_multiple_ivys_no/
 title: "Asian male in CS bags MIT and multiple ivys (no safeties)"
-score: 404
+score: 402
 num_comments: 100
 flair: "3.8+|1500+/34+|STEM"
 created_utc: 2023-05-28T04:53:56
-crawled_at: 2026-04-18T19:59:57.380124
+crawled_at: 2026-04-18T20:01:24.350231
 ---
 
 # Asian male in CS bags MIT and multiple ivys (no safeties)

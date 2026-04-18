@@ -3,11 +3,11 @@ source: reddit/collegeresults
 source_id: t3_1seq98q
 url: https://www.reddit.com/r/collegeresults/comments/1seq98q/olympiad_winner_gets_spiritually_humbled_copes_by/
 title: "olympiad winner gets spiritually humbled, copes by becoming a philosopher and understands it was never that deep"
-score: 55
+score: 57
 num_comments: 48
 flair: "3.8+|1400+/31+|Art/Hum"
 created_utc: 2026-04-07T08:37:52
-crawled_at: 2026-04-18T19:59:57.378802
+crawled_at: 2026-04-18T20:01:35.833815
 ---
 
 # olympiad winner gets spiritually humbled, copes by becoming a philosopher and understands it was never that deep

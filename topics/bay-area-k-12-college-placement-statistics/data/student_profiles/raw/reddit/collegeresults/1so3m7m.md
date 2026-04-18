@@ -3,11 +3,11 @@ source: reddit/collegeresults
 source_id: t3_1so3m7m
 url: https://www.reddit.com/r/collegeresults/comments/1so3m7m/results_expected_prolly_could_have_applied_to/
 title: "Results! Expected, prolly could have applied to more reach"
-score: 17
+score: 16
 num_comments: 10
 flair: "3.8+|1500+/34+|Art/Hum"
 created_utc: 2026-04-17T15:04:48
-crawled_at: 2026-04-18T19:57:45.415947
+crawled_at: 2026-04-18T20:01:35.831453
 ---
 
 # Results! Expected, prolly could have applied to more reach

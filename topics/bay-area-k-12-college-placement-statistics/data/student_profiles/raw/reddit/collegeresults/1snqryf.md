@@ -7,7 +7,7 @@ score: 16
 num_comments: 9
 flair: "3.8+|1500+/34+|STEM"
 created_utc: 2026-04-17T04:36:05
-crawled_at: 2026-04-18T19:57:45.416465
+crawled_at: 2026-04-18T20:01:35.831671
 ---
 
 # Broccoli enthusiast gets expected results

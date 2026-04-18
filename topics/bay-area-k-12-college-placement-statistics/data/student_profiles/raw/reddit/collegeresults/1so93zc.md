@@ -3,11 +3,11 @@ source: reddit/collegeresults
 source_id: t3_1so93zc
 url: https://www.reddit.com/r/collegeresults/comments/1so93zc/t5_lac_waitlist_acceptance_clutch/
 title: "T5 LAC waitlist acceptance clutch — Canadian-American applicant"
-score: 23
+score: 22
 num_comments: 13
 flair: "3.8+|1500+/34+|SocSci"
 created_utc: 2026-04-17T18:21:00
-crawled_at: 2026-04-18T19:57:45.415570
+crawled_at: 2026-04-18T20:01:35.831299
 ---
 
 # T5 LAC waitlist acceptance clutch — Canadian-American applicant

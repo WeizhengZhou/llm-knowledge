@@ -186,22 +186,62 @@ def rule_based_extract(text: str) -> dict:
                     "enrolled": enrolled if enrolled else None,
                 })
 
-    # Strategy 2: Inline format ("Stanford - Accepted", "Harvard — Rejected")
+    # Strategy 2: "College (rate%): Result" format (common in r/collegeresults)
+    # Also handles: "College: **Accepted**", "College — Rejected"
     if not profile["results"]:
+        current_round = None
         for line in text.split('\n'):
             line_stripped = line.strip()
-            m = re.match(r'[*\-•]?\s*\*?\*?([A-Z][A-Za-z\s&\'\.]+?)\*?\*?\s*[\-:–—]\s*\*?\*?(Accepted|Rejected|Waitlisted|Admitted|Denied|Deferred)', line_stripped, re.IGNORECASE)
+            line_lower = line_stripped.lower()
+
+            # Detect round headers: "ED:", "EA:", "RD:", "REA:"
+            round_match = re.match(r'^(ED2?|EA|REA|SCEA|RD)\s*:', line_stripped, re.IGNORECASE)
+            if round_match:
+                current_round = round_match.group(1).upper()
+                continue
+
+            # Pattern: "College (optional%): **Result**" or "College (rate): Result"
+            m = re.match(
+                r'[*\-•\\]?\s*\*?\*?([A-Za-z][A-Za-z\s&\'\.\-,()]+?)\s*'
+                r'(?:\([^)]*\))?\s*'  # optional (rate%) or (description)
+                r'[\-:–—]\s*'
+                r'(?:>?\s*)?'
+                r'\*?\*?(Accepted|Rejected|Waitlisted|Admitted|Denied|Deferred)\*?\*?',
+                line_stripped, re.IGNORECASE)
             if m:
-                college = m.group(1).strip().rstrip('*').strip()
+                college = m.group(1).strip().rstrip('*').rstrip(',').strip()
+                # Clean up escaped characters
+                college = college.replace('\\-', '-').replace('\\', '')
                 result = m.group(2).lower()
                 if result in ("admitted", "accepted"):
                     result = "accepted"
                 elif result == "denied":
                     result = "rejected"
+                enrolled = "commit" in line_lower or "enrolled" in line_lower or "attending" in line_lower
                 profile["results"].append({
                     "college": college,
-                    "round": None,
+                    "round": current_round,
                     "result": result,
+                    "enrolled": enrolled if enrolled else None,
+                })
+                continue
+
+            # Pattern: emoji-based: "✅ College" or "❌ College"
+            emoji_match = re.match(r'([✅✓☑🟢])\s*(.+?)(?:\n|$)', line_stripped)
+            if emoji_match:
+                profile["results"].append({
+                    "college": emoji_match.group(2).strip(),
+                    "round": current_round,
+                    "result": "accepted",
+                    "enrolled": None,
+                })
+                continue
+            emoji_match = re.match(r'([❌✗☒🔴])\s*(.+?)(?:\n|$)', line_stripped)
+            if emoji_match:
+                profile["results"].append({
+                    "college": emoji_match.group(2).strip(),
+                    "round": current_round,
+                    "result": "rejected",
                     "enrolled": None,
                 })
 
@@ -257,8 +297,16 @@ def store_profile(db: sqlite3.Connection, profile: dict, source: str, source_id:
     demo = profile.get("demographics", {})
     acad = profile.get("academics", {})
 
+    # Delete old results if re-processing
+    existing = db.execute(
+        "SELECT id FROM student_profiles WHERE source=? AND source_id=?",
+        (source, source_id)).fetchone()
+    if existing:
+        db.execute("DELETE FROM application_results WHERE profile_id=?", (existing[0],))
+        db.execute("DELETE FROM student_profiles WHERE id=?", (existing[0],))
+
     cursor = db.execute(
-        """INSERT OR REPLACE INTO student_profiles
+        """INSERT INTO student_profiles
         (source, source_id, source_url, extraction_confidence,
          application_year, gender, ethnicity, ethnicity_detail,
          first_gen, legacy, state, region, school_type,

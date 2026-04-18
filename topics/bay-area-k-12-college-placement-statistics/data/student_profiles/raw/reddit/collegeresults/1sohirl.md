@@ -3,11 +3,11 @@ source: reddit/collegeresults
 source_id: t3_1sohirl
 url: https://www.reddit.com/r/collegeresults/comments/1sohirl/girl_goes_crazy_rd_app_season_and_lands_a_t5_lac/
 title: "Girl goes crazy rd app season and lands a T5 LAC"
-score: 44
+score: 42
 num_comments: 43
 flair: "3.8+|1200+/25+|Art/Hum"
 created_utc: 2026-04-17T23:43:08
-crawled_at: 2026-04-18T19:57:45.414966
+crawled_at: 2026-04-18T20:01:35.830301
 ---
 
 # Girl goes crazy rd app season and lands a T5 LAC
