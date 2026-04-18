@@ -34,6 +34,10 @@ CREATE TABLE IF NOT EXISTS student_profiles (
     awards_json TEXT,
     essay_topics TEXT,
     raw_text TEXT,
+    original_domain TEXT,           -- 'reddit.com', 'youtube.com', 'collegeconfidential.com'
+    original_url TEXT,              -- full original URL
+    post_date TEXT,                 -- original post/upload date
+    extraction_method TEXT,         -- 'rule_based', 'llm', 'manual'
     crawled_at TEXT,
     extracted_at TEXT DEFAULT (datetime('now')),
     UNIQUE(source, source_id)

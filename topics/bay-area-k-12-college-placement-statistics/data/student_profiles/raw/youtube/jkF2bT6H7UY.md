@@ -1,0 +1,20 @@
+---
+source: youtube
+source_id: jkF2bT6H7UY
+url: https://www.youtube.com/watch?v=jkF2bT6H7UY
+title: "COLLEGE DECISION REACTION (IVY DAY) 2022"
+channel: "Rebekah Sun"
+view_count: 115580
+duration: 474.0
+upload_date: 
+crawled_at: 2026-04-18T20:06:19.198874
+has_transcript: True
+---
+
+# COLLEGE DECISION REACTION (IVY DAY) 2022
+
+## Description
+IVY DAY 2022! There were many highs and lows throughout the college application process but it all worked out in the end. I hope ...
+
+## Transcript
+hello my name is Rebecca I wanted to share my Ivy day reactions on here I used to love watching these videos because they gave me a lot of Hope and motivation when it came to the college application process having gone through the entire application process for college my biggest piece of advice is to trust the process and know that it will all work out I know it sounds super cliche and I definitely did not believe it when people would tell me this but I promise you in the end you will find the school that is the perfect fit for you there were many redirections throughout my college process but I ended up at a school that could not be any more of a better fit I know that there's a lot of highs and lows when it comes to the college process but you got this trust the process and regardless of the results you proud of yourself and all of your hard work with that I will jump right into my reactions [Music] foreign I'm nervous even though I'm not expecting anything okay we're gonna open Dartmouth first why is it so scary ready okay denied it says unable to offer you a spot okay that's okay I didn't care about Dartmouth okay denied I'm pretty sure I'm gonna get denied from all of them Colonel's gonna be denied oh wait list waitlisted your weakness into Cornell what on your weightless [Laughter] this is uh off your place on our wait list and you're on the Cornell's weightless what the freak bro that's really good okay I'm I'm happy with that itself I don't need anything else honestly I'm really happy with that Carver do Harvard okay I'm not expecting anything nope wait listen ing oh my God what the heck okay okay okay that's enough for me I really don't need anything else Columbia okay let's see I can't believe um yeah this one's not gonna work right now okay which one should I do a Princeton or a pen or a pen you pen oh my gosh this is the one I'm most nervous forever first I'm not expecting anything just whatever I'm really scared for this one but stop stop stop oh my God I'm expecting a rejection though [Applause] all your hard work paid off again okay guys now oh my gosh oh my gosh oh my gosh okay I don't care what happens okay and this doesn't matter denied oh what have I called that Daddy I got into you man I got into you pen Wharton no oh my God holy cow I am like I can't believe I got it it's the time of silver you were invited during the class of 2026 at the University of Pennsylvania I gotta call Grandma how did this happen it's not a miracle you deserve that spot I can't believe I did it yes you did it's because you worked your butt off oh my God I can't believe it what does it take it says it's time to celebrate you're University of Pennsylvania study in the Wharton School oh my God can we reload so he's a confetti again okay so those were my reactions to Ivy day I ended up committing to you Penn Morton and I am currently a freshman here now it is such an unbelievably good fit actually ever since I started researching colleges it was my dream school because of its amazing business school I had applied to Princeton restrictive early action initially because I went on a rowing official to sit there but they did not recruit me or give me any athletic support getting deferred and then denied from Princeton was the best blessing in skies I don't think it would have been the right fit especially because they didn't have a business major getting deferred was definitely a redirection and opened up another dream opportunity and in the end it all worked out and I am so grateful and so happy I really hope this video gives you some hope in your college process and I am rooting for all of you and best like
