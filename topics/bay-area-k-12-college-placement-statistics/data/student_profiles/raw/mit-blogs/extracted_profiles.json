@@ -1,0 +1,422 @@
+[
+  {
+    "id": "mit-blog-michelle-g-18",
+    "author": "Michelle G.",
+    "class_year": "2018",
+    "source_url": "https://mitadmissions.org/blogs/entry/what-i-did-in-high-school/",
+    "demographics": {
+      "gender": "female",
+      "ethnicity": null,
+      "state": "NJ",
+      "school_type": "public_magnet",
+      "school_name": "Science and engineering magnet (on community college campus)"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_w": null,
+      "gpa_notes": "Lowish A -> solid A -> even more solid A (freshman to junior year)",
+      "sat": null,
+      "act": null,
+      "ap_count": 10,
+      "ap_notes": "Self-studied 10 AP exams, mostly 5s and some 4s"
+    },
+    "trajectory": [
+      {"grade": 9, "activity": "League of Legends, Minecraft gaming", "type": "hobby"},
+      {"grade": 9, "activity": "Some B's and C's initially", "type": "academic"},
+      {"grade": 10, "activity": "School play", "type": "performing_arts"},
+      {"grade": 10, "activity": "Digital art/GIFs with Adobe Creative Suite", "type": "creative"},
+      {"grade": 10, "activity": "Physics classes", "type": "academic"},
+      {"grade": "10-summer", "activity": "Daycare job (Spanish-speaking environment)", "type": "work"},
+      {"grade": 11, "activity": "Science fair research: aspirin + drought stress on tomatoes — 1st place tristate", "type": "research"},
+      {"grade": "11-summer", "activity": "Internship at Rutgers University (data analysis)", "type": "research"},
+      {"grade": 11, "activity": "15-20 science visualization/animation contests, won ~11", "type": "competition"},
+      {"grade": 11, "activity": "NASA Aura Communications Contest winner", "type": "competition"},
+      {"grade": 11, "activity": "US Treasury video contest — met Treasurer Rosa Rios", "type": "competition"},
+      {"grade": 11, "activity": "National Honor Society (joined)", "type": "leadership"},
+      {"grade": 11, "activity": "Self-studied 10 AP exams", "type": "academic"},
+      {"grade": 11, "activity": "Connect Four club founder", "type": "leadership"},
+      {"grade": 12, "activity": "Quit National Honor Society", "type": "leadership"},
+      {"grade": 12, "activity": "Co-wrote graduation speech", "type": "leadership"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "creative_maker",
+    "trajectory_richness": "high"
+  },
+  {
+    "id": "mit-blog-mollie-b-06",
+    "author": "Mollie B.",
+    "class_year": "2006",
+    "source_url": "https://mitadmissions.org/blogs/entry/how_to_do_everything_wrong_and/",
+    "demographics": {
+      "gender": "female",
+      "ethnicity": null,
+      "state": "OH",
+      "school_type": "public",
+      "school_name": "Large public high school, class of 530"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_w": null,
+      "gpa_notes": "Ranked 11/530, almost straight As",
+      "sat": 1430,
+      "sat_breakdown": "math sub-700",
+      "act": null,
+      "ap_count": 3,
+      "ap_subjects": ["Government", "English", "US History"],
+      "ap_notes": "Did NOT take AP Chem, Physics, or Bio",
+      "psat": "80V/74M/80W — National Merit Scholar"
+    },
+    "trajectory": [
+      {"grade": 8, "activity": "Read 'How the Mind Works' by Pinker", "type": "academic"},
+      {"grade": "9-12", "activity": "Competitive drama department — 8 shows, lead in 6", "type": "performing_arts"},
+      {"grade": "11-12", "activity": "Elite show choir (only girl to make it junior year)", "type": "performing_arts"},
+      {"grade": "9-12", "activity": "Captain of 40-member color guard in marching band", "type": "performing_arts"},
+      {"grade": "9-12", "activity": "Marching band: Fiesta Bowl, Orange Bowl, Macy's parade", "type": "performing_arts"},
+      {"grade": "9-12", "activity": "National Honor Society", "type": "leadership"},
+      {"grade": "9-12", "activity": "Quiz team", "type": "academic_competition"},
+      {"grade": "9-12", "activity": "Latin club", "type": "club"},
+      {"grade": "9-12", "activity": "All-Ohio choir", "type": "performing_arts"},
+      {"grade": "9-12", "activity": "Girls' State", "type": "leadership"},
+      {"grade": "9-12", "activity": "Drug counseling for 5th graders", "type": "community_service"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "other_results": [
+      {"school": "Ohio State University", "round": null, "result": "accepted", "notes": "Full scholarship with stipend via National Merit"}
+    ],
+    "profile_archetype": "performing_arts_leader",
+    "trajectory_richness": "high"
+  },
+  {
+    "id": "mit-blog-adam-07",
+    "author": "Adam",
+    "class_year": "2007",
+    "source_url": "https://mitadmissions.org/blogs/entry/how_to_do_everything_wrong_and_1/",
+    "demographics": {
+      "gender": "male",
+      "ethnicity": null,
+      "state": "MA",
+      "school_type": "public",
+      "school_name": null
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_w": null,
+      "sat": 1400,
+      "sat_breakdown": "710M/690V (best combo across 3 sittings)",
+      "sat2": {"Math_IIc": 750, "Physics": 750, "Writing": 450},
+      "ap_count": null
+    },
+    "trajectory": [
+      {"grade": "9-12", "activity": "Varsity cross-country runner", "type": "sport"},
+      {"grade": "9-12", "activity": "Varsity track runner", "type": "sport"},
+      {"grade": 12, "activity": "Captain of cross-country team", "type": "sport_leadership"},
+      {"grade": "8-12", "activity": "Competitive freestyle skier since age 13, nationally ranked", "type": "sport"},
+      {"grade": null, "activity": "Junior Olympics freestyle skiing — placed 21st", "type": "sport_competition"},
+      {"grade": "9-12", "activity": "Varsity mathlete", "type": "academic_competition"},
+      {"grade": 10, "activity": "Massachusetts State Science Fair — won trip to NASA shuttle launch", "type": "research"},
+      {"grade": "childhood", "activity": "Built R/C airplanes and rockets with father", "type": "hobby"},
+      {"grade": "summers", "activity": "Worked for father's construction business (roofing)", "type": "work"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "multi_sport_athlete_engineer",
+    "trajectory_richness": "high"
+  },
+  {
+    "id": "mit-blog-danny-allan-g-20",
+    "author": "Danny and Allan G.",
+    "class_year": "2020",
+    "source_url": "https://mitadmissions.org/blogs/entry/what-we-did-in-high-school/",
+    "demographics": {
+      "gender": "male",
+      "ethnicity": null,
+      "state": "FL",
+      "school_type": "charter_then_dual_enrollment",
+      "school_name": "Arts-focused school then Miami Dade College campus school",
+      "notes": "Twin brothers, originally from Brooklyn"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_w": null,
+      "sat": null,
+      "sat_notes": "MIT 25th percentile for reading despite extensive prep and multiple retakes",
+      "act": null,
+      "ap_count": null,
+      "ap_notes": "3 AP classes in 9th, 3 in 10th, plus self-completed AP Studio Art Drawing and Design",
+      "dual_enrollment": ["Chemistry 1&2 with labs", "Differential Equations", "Multivariable Calculus", "Linear Algebra", "Pre-calculus (summer)"]
+    },
+    "trajectory": [
+      {"grade": 5, "activity": "Moved from Brooklyn to Miami", "type": "life_event"},
+      {"grade": "5-8", "activity": "Charter school, social struggles, bullying", "type": "life_event"},
+      {"grade": 8, "activity": "Accepted into arts-focused school via piano audition", "type": "academic"},
+      {"grade": 9, "activity": "Self-taught Algebra 2 (Khan Academy + textbook)", "type": "academic"},
+      {"grade": 9, "activity": "3 AP classes", "type": "academic"},
+      {"grade": "9-12", "activity": "Co-presidents of math club", "type": "leadership"},
+      {"grade": 10, "activity": "Art school for piano and percussion", "type": "performing_arts"},
+      {"grade": 10, "activity": "3 AP classes", "type": "academic"},
+      {"grade": "10-summer", "activity": "Pre-calculus at Miami Dade College (dual enrollment)", "type": "academic"},
+      {"grade": 11, "activity": "Transferred to school on MDC campus", "type": "life_event"},
+      {"grade": 11, "activity": "AP Calculus BC (online)", "type": "academic"},
+      {"grade": 11, "activity": "Self-completed AP Studio Art: Drawing", "type": "creative"},
+      {"grade": 11, "activity": "Science museum volunteering + synesthesia exhibit design internship", "type": "community_service"},
+      {"grade": 11, "activity": "Bacteriophage and bioinformatics research with CC professor", "type": "research"},
+      {"grade": "11-summer", "activity": "Summer research program at local university (chemistry)", "type": "research"},
+      {"grade": 11, "activity": "Meeting of the MathMinds (placed 6th)", "type": "competition"},
+      {"grade": 11, "activity": "AMC + local Florida math competitions", "type": "competition"},
+      {"grade": 12, "activity": "Dual enrollment: DiffEq, MultVar Calc, Linear Algebra, Chem 1&2", "type": "academic"},
+      {"grade": 12, "activity": "Self-completed AP Studio Art: Design", "type": "creative"},
+      {"grade": 12, "activity": "MathMinds: 1st place poster (knitted hexaflexagon), 2nd place team", "type": "competition"},
+      {"grade": 12, "activity": "Science museum: animal handler, volunteer trainer", "type": "community_service"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "application_notes": "Rejected from most internships/scholarships/summer programs applied to (~20 applications, 2 scholarships, 0 programs accepted)",
+    "profile_archetype": "self_directed_dual_enrollment",
+    "trajectory_richness": "high"
+  },
+  {
+    "id": "mit-blog-qiaochu-y-12",
+    "author": "Qiaochu Y.",
+    "class_year": "2012",
+    "source_url": "https://mitadmissions.org/blogs/entry/ask-me-anything1/",
+    "demographics": {
+      "gender": "male",
+      "ethnicity": null,
+      "state": "WA",
+      "school_type": "public",
+      "school_name": "Bellevue High School, Bellevue, WA"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_w": null,
+      "gpa_mit": "4.9/5.0",
+      "sat": null,
+      "ap_count": null
+    },
+    "trajectory": [
+      {"grade": "9-12", "activity": "AMC participation", "type": "competition"},
+      {"grade": "9-12", "activity": "AIME qualification", "type": "competition"},
+      {"grade": "9-12", "activity": "USAMO qualification — Honorable Mention (2006)", "type": "competition"},
+      {"grade": "9-12", "activity": "ARML competition", "type": "competition"},
+      {"grade": "9-12", "activity": "Various regional math competitions", "type": "competition"},
+      {"grade": 12, "activity": "Intel Science Talent Search Finalist (2008)", "type": "research"},
+      {"grade": "9-12", "activity": "Math club, Science club", "type": "club"},
+      {"grade": "9-12", "activity": "Art of Problem Solving: ~12,000 forum posts", "type": "self_directed"},
+      {"grade": "9-12", "activity": "Prepared with AoPS books + Engel's Problem Solving Strategies", "type": "self_directed"},
+      {"grade": "10-summer", "activity": "PROMYS (Program in Mathematics for Young Scientists)", "type": "summer_program"},
+      {"grade": "11-summer", "activity": "RSI (Research Science Institute) — chose over MOSP", "type": "summer_program"},
+      {"grade": "post-hs", "activity": "Job offer from AoPS founder Richard Rusczyk", "type": "career"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "other_applications": ["Harvard", "Columbia", "UC Berkeley", "University of Chicago"],
+    "profile_archetype": "math_olympiad_elite",
+    "trajectory_richness": "high"
+  },
+  {
+    "id": "mit-blog-nisha-d-21",
+    "author": "Nisha D.",
+    "class_year": "2021",
+    "source_url": "https://mitadmissions.org/blogs/entry/my-rejection-resume/",
+    "demographics": {
+      "gender": "female",
+      "ethnicity": null,
+      "state": "NH",
+      "school_type": "public",
+      "school_name": "Nashua South High School (chose over Phillips Exeter)"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_w": null,
+      "sat": null,
+      "ap_count": null
+    },
+    "trajectory": [
+      {"grade": "elementary", "activity": "Math Olympiad (school level)", "type": "competition"},
+      {"grade": "middle", "activity": "MATHCOUNTS — competed at Nationals", "type": "competition"},
+      {"grade": "middle", "activity": "Programming camp", "type": "summer_program"},
+      {"grade": "9-11", "activity": "AMC top 1% / AIME qualifier (two years)", "type": "competition"},
+      {"grade": "9-11", "activity": "Math Prize for Girls qualifier", "type": "competition"},
+      {"grade": 11, "activity": "Bombed final AMC — missed AIME/MPG/top 1%", "type": "competition"},
+      {"grade": "9-12", "activity": "Math team captain — team undefeated in league for 8 years", "type": "leadership"},
+      {"grade": "9-12", "activity": "Quiz bowl (varsity) — state champions (first time in 30 years)", "type": "competition"},
+      {"grade": "9-12", "activity": "History bowl — beat Phillips Exeter twice", "type": "competition"},
+      {"grade": "9-12", "activity": "Founded nonprofit to teach young girls math (with sister)", "type": "community_service"},
+      {"grade": "9-12", "activity": "Japanese language study", "type": "academic"}
+    ],
+    "college_result": {"school": "MIT", "round": "EA", "result": "accepted"},
+    "other_results": [
+      {"school": "Harvard", "round": "RD", "result": "rejected"},
+      {"school": "Stanford", "round": "RD", "result": "rejected"}
+    ],
+    "profile_archetype": "competition_math_plus_quiz_bowl",
+    "trajectory_richness": "high"
+  },
+  {
+    "id": "mit-blog-jenny-b-25",
+    "author": "Jenny B.",
+    "class_year": "2025",
+    "source_url": "https://mitadmissions.org/blogs/entry/pursuing-cs-as-a-near-beginner/",
+    "demographics": {
+      "gender": "female",
+      "ethnicity": null,
+      "state": "AL",
+      "school_type": "public",
+      "school_name": null,
+      "notes": "From Montgomery, AL; born in Atlanta"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "sat": null,
+      "ap_count": null,
+      "ap_notes": "Tried 3 years to get AP CS through lottery, never got it"
+    },
+    "trajectory": [
+      {"grade": 7, "activity": "Cybersecurity interest (inspired by Mr. Robot)", "type": "interest"},
+      {"grade": "7-11", "activity": "Science Olympiad — Anatomy & Physiology specialist", "type": "competition"},
+      {"grade": "7-11", "activity": "Neuroscience, psychology, AI exploration", "type": "interest"},
+      {"grade": "9-12", "activity": "High school robotics team (all 4 years)", "type": "club"},
+      {"grade": "summers", "activity": "Summer Science Institute at UAB — twice (molecular bio, neuro)", "type": "summer_program"},
+      {"grade": "summer", "activity": "Summer Science Program (SSP) — biochemistry track (online/COVID)", "type": "summer_program"},
+      {"grade": "summer", "activity": "Virtual EE research at nearby university (COVID)", "type": "research"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "science_olympiad_robotics",
+    "trajectory_richness": "medium-high"
+  },
+  {
+    "id": "mit-blog-joel-g-18",
+    "author": "Joel G.",
+    "class_year": "2018",
+    "source_url": "https://mitadmissions.org/blogs/entry/so-chance-me-maybe/",
+    "demographics": {
+      "gender": "male",
+      "ethnicity": null,
+      "state": null,
+      "school_type": null
+    },
+    "academics": {
+      "gpa_uw": null,
+      "gpa_notes": "Not perfect",
+      "sat": null,
+      "sat_notes": "Math SAT 40 points below MIT's lower 25th percentile",
+      "ap_count": 0,
+      "ap_notes": "Never took an AP test"
+    },
+    "trajectory": [
+      {"grade": "9-12", "activity": "Founded a few clubs (unspecified)", "type": "leadership"}
+    ],
+    "college_result": {"school": "MIT", "round": "EA", "result": "accepted"},
+    "other_applications": ["Caltech"],
+    "profile_archetype": "passion_fit_low_stats",
+    "trajectory_richness": "low"
+  },
+  {
+    "id": "mit-blog-cj-q-23",
+    "author": "CJ Q.",
+    "class_year": "2023",
+    "source_url": "https://mitadmissions.org/blogs/entry/on-identity/",
+    "demographics": {
+      "gender": "male",
+      "ethnicity": "Filipino",
+      "state": null,
+      "school_type": null,
+      "notes": "International student from the Philippines"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "sat": null
+    },
+    "trajectory": [
+      {"grade": "elementary", "activity": "Read recreational math books for fun", "type": "self_directed"},
+      {"grade": "middle", "activity": "Math competitions — team placed 5th-7th regionally", "type": "competition"},
+      {"grade": "10-12", "activity": "Philippine Mathematical Olympiad — top 20 nationally (multiple years)", "type": "competition"},
+      {"grade": "10-12", "activity": "Did not make IMO team", "type": "competition"},
+      {"grade": 12, "activity": "Poetry writing", "type": "creative"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "international_math_competitor",
+    "trajectory_richness": "medium"
+  },
+  {
+    "id": "mit-blog-anna-h-14",
+    "author": "Anna H.",
+    "class_year": "2014",
+    "source_url": "https://mitadmissions.org/blogs/entry/first-robotics-and-alumna-hood/",
+    "demographics": {
+      "gender": "female",
+      "ethnicity": null,
+      "state": null,
+      "school_type": null
+    },
+    "academics": {
+      "gpa_uw": null,
+      "sat": null
+    },
+    "trajectory": [
+      {"grade": 8, "activity": "Science teacher encouraged FIRST Robotics", "type": "mentorship"},
+      {"grade": "middle", "activity": "LegoLeague mentoring for younger students", "type": "leadership"},
+      {"grade": 9, "activity": "FIRST Robotics Team 1884 — sponsorship team, ~10 members", "type": "club"},
+      {"grade": 10, "activity": "FIRST Robotics — build team, learned machining", "type": "club"},
+      {"grade": 11, "activity": "FIRST Robotics — team captain, drive team coach, grew team to ~60", "type": "leadership"},
+      {"grade": 11, "activity": "Wrote Chairman's Award application", "type": "leadership"},
+      {"grade": 12, "activity": "FIRST Robotics — graduated, passed leadership", "type": "club"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "deep_single_activity_robotics",
+    "trajectory_richness": "medium"
+  },
+  {
+    "id": "mit-blog-kidist-a-22",
+    "author": "Kidist A.",
+    "class_year": "2022",
+    "source_url": "https://mitadmissions.org/blogs/entry/context-obstacles-and-critical-periods/",
+    "demographics": {
+      "gender": "female",
+      "ethnicity": null,
+      "state": null,
+      "school_type": "public",
+      "notes": "Resource-disadvantaged background, limited transportation"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "sat": null
+    },
+    "trajectory": [
+      {"grade": "9-12", "activity": "Created school art club", "type": "leadership"},
+      {"grade": "9-12", "activity": "President's Volunteer Award (qualified twice)", "type": "community_service"},
+      {"grade": "9-12", "activity": "Online writing communities", "type": "creative"},
+      {"grade": "9-12", "activity": "Attempted chemistry Olympiad prep (abandoned due to time)", "type": "competition"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "resource_limited_high_potential",
+    "trajectory_richness": "medium"
+  },
+  {
+    "id": "mit-blog-victor-d-27",
+    "author": "Victor D.",
+    "class_year": "2027",
+    "source_url": "https://mitadmissions.org/blogs/entry/my-mit-admissions-essays/",
+    "demographics": {
+      "gender": "male",
+      "ethnicity": "Hispanic (implied)",
+      "state": null,
+      "school_type": "public",
+      "notes": "Nearly half Hispanic high school"
+    },
+    "academics": {
+      "gpa_uw": null,
+      "sat": null,
+      "dual_enrollment": ["Philosophy (community college)"]
+    },
+    "trajectory": [
+      {"grade": "9-12", "activity": "FIRST Robotics Competition (FRC)", "type": "club"},
+      {"grade": "9-12", "activity": "Oboe player", "type": "performing_arts"},
+      {"grade": "9-12", "activity": "AP European History tutoring/workshops", "type": "leadership"},
+      {"grade": "9-12", "activity": "Credit recovery tutoring", "type": "community_service"},
+      {"grade": "9-12", "activity": "Local transportation advocacy", "type": "civic"},
+      {"grade": "9-12", "activity": "Photography", "type": "creative"},
+      {"grade": "9-12", "activity": "Community college dual enrollment (philosophy)", "type": "academic"}
+    ],
+    "college_result": {"school": "MIT", "round": null, "result": "accepted"},
+    "profile_archetype": "civic_engaged_maker",
+    "trajectory_richness": "medium"
+  }
+]
