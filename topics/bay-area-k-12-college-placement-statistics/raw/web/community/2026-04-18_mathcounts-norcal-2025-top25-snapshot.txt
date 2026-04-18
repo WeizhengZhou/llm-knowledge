@@ -1,0 +1,25 @@
+uid=21_0 RootWebArea url="https://cspeef.org/wp-content/uploads/2025/03/Top25CompetitorsNorCal2025.pdf"
+  uid=21_1 Iframe
+    uid=21_2 RootWebArea url="chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html"
+      uid=21_3 button "Toggle sidebar" description="Toggle sidebar" expandable expanded
+      uid=21_4 StaticText "Top25CompetitorsNorCal2025.pdf"
+      uid=21_5 textbox "Page number" value="1"
+      uid=21_6 StaticText "/"
+      uid=21_7 StaticText "2"
+      uid=21_8 button "Zoom out" description="Zoom out"
+      uid=21_9 textbox "Zoom level" value="38%"
+      uid=21_10 button "Zoom in" description="Zoom in"
+      uid=21_11 button "Fit to page" description="Fit to page"
+      uid=21_12 button "Rotate counterclockwise" description="Rotate counterclockwise"
+      uid=21_13 button "Draw" description="Draw"
+      uid=21_14 button "Undo" description="Undo" disableable disabled
+      uid=21_15 button "Redo" description="Redo" disableable disabled
+      uid=21_16 button "Save to Google Drive" description="Save to Google Drive"
+      uid=21_17 button "Download" description="Download"
+      uid=21_18 button "Print" description="Print"
+      uid=21_19 button "More actions" description="More actions"
+      uid=21_20 generic
+        uid=21_21 tab "Thumbnail for page 1" selectable selected
+          uid=21_22 button
+        uid=21_23 tab "Thumbnail for page 2" selectable
+          uid=21_24 button
