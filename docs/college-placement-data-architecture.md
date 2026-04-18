@@ -243,16 +243,21 @@ This is the hardest layer. **No single public source captures the full K-12 deve
 
 **Best candidates for K-8 data (from ongoing research):**
 
-| Source | Ages | Named? | Type |
-|---|---|---|---|
-| USA Swimming times DB | 6-18 | Yes | Performance progression |
-| USCF chess ratings | 5-18 | Yes | Rating progression |
-| Math Kangaroo | 6-12 | TBD | Competition results |
-| MOEMS | 10-13 | TBD | Competition results |
-| Certificate of Merit (CA music) | 6-18 | TBD | Level progression |
-| Spelling Bee (Scripps) | 8-14 | Yes, multi-year | Competition results |
-| Chinese parent forums (Xiaohongshu) | K-12 | Anon | Narrative |
-| huaren.us | K-12 | Anon | Narrative, public |
+| Source | Ages | Named? | Type | Status |
+|---|---|---|---|---|
+| **Spelling Bee (Scripps)** | 8-14 | Yes, multi-year | Competition results | **Best confirmed K-8 source** — 17-24% repeater rate, names public |
+| USA Swimming times DB | 6-18 | Yes | Performance progression | Researching |
+| USCF chess ratings | 5-18 | Yes | Rating progression | Researching |
+| Math Kangaroo | 6-12 | TBD | Competition results | Researching |
+| MOEMS | 10-13 | TBD | Competition results | Researching |
+| Certificate of Merit (CA music) | 6-18 | TBD | Level progression | Researching |
+| Chinese parent forums (Xiaohongshu) | K-12 | Anon | Narrative | Auth-gated |
+| huaren.us | K-12 | Anon | Narrative, public | Ready to crawl |
+| Davidson Young Scholars | 5-18 | Yes (internal only) | Talent ID + development | Zero published outcomes |
+| **Davidson Gifted Forum** | K-8 | Anon (parent posts) | Year-by-year math progression | **Public, no login** — parents post curriculum+competition arcs |
+| **Math Kangaroo winners** | 6-12 (gr 1-6) | Yes (top 20 national) | Annual winner lists | Public — 21K CA participants, grades 1-4 highest enrollment |
+| **RSM competition blog** | 9-14 | Yes (named achievers) | Competition results | Public — includes 4th-grade USAJMO qualifier |
+| **Scripps Spelling Bee** | 8-14 (gr 1-8) | Yes, multi-year | 243 profiles/yr, return data | Public |
 | Gifted programs (CTY, Davidson, TIP) | 7-18 | Varies | Alumni outcomes |
 
 ### Data Sources for 9-18 Trajectory
