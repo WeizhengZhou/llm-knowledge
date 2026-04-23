@@ -1,0 +1,89 @@
+topic: Raise Kids to Be Good at Dancing for Bay Area Parents
+slug: raise-kids-to-be-good-at-dancing-for-bay-area-parents
+status: active
+created: '2026-04-23'
+user_context: Bay Area parents who want to help their children develop dance skills,
+  covering studio selection, styles, competition, and long-term development
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.3
+    depth: 0.5
+    gap_fill: 0.15
+    verification: 0.05
+
+reader_personas:
+  - id: P1
+    label: "Parent of a 3-5 year old exploring whether to start dance classes"
+    needs: [RO1, RO2, RO3]
+  - id: P2
+    label: "Parent of a 7-12 year old wanting to pursue dance more seriously"
+    needs: [RO2, RO3, RO4, RO5]
+  - id: P3
+    label: "Parent considering competitive dance for their child"
+    needs: [RO3, RO4, RO5, RO6]
+  - id: P4
+    label: "Parent interested in pre-professional or college dance pathways"
+    needs: [RO4, RO5, RO6]
+
+reader_outcomes:
+  - id: RO1
+    job: "Decide whether and when to start dance classes for a young child"
+    must_answer:
+      - "What is the right age to start dance classes by style?"
+      - "What should a first dance class look like for a 3-5 year old?"
+      - "How much does recreational dance cost in the Bay Area?"
+      - "What are the differences between creative movement, pre-ballet, and structured classes?"
+    personas: [P1]
+
+  - id: RO2
+    job: "Choose the right dance studio and style for their child"
+    must_answer:
+      - "What dance styles exist and which suit different ages and temperaments?"
+      - "What are the best dance studios in each Bay Area sub-region?"
+      - "What are red flags and green flags when evaluating a dance studio?"
+      - "How do I tell if a studio's teaching approach is age-appropriate and safe?"
+      - "Are there studios that are especially welcoming to boys?"
+    personas: [P1, P2]
+
+  - id: RO3
+    job: "Understand the financial and time commitment of dance at each level"
+    must_answer:
+      - "What does recreational dance cost per year in the Bay Area?"
+      - "What does competitive dance cost per year including hidden costs?"
+      - "How many hours per week does each level of dance require?"
+      - "What affordable or scholarship options exist?"
+      - "How do families balance dance with school and other activities?"
+    personas: [P1, P2, P3]
+
+  - id: RO4
+    job: "Decide whether to pursue competitive dance and navigate the competition scene"
+    must_answer:
+      - "What is the difference between recreational and competitive dance?"
+      - "What are the major competition circuits in the Bay Area?"
+      - "What are the risks of competitive dance (burnout, injury, cost)?"
+      - "At what age should a child start competing?"
+      - "What does a competition weekend look like for the family?"
+    personas: [P2, P3]
+
+  - id: RO5
+    job: "Understand the path from serious dancer to pre-professional or college dance"
+    must_answer:
+      - "What pre-professional programs exist in the Bay Area?"
+      - "What is the realistic timeline from beginner to pre-professional?"
+      - "What are summer intensives and which ones matter?"
+      - "Can my child get a college scholarship for dance?"
+      - "What does a professional dance career path look like?"
+    personas: [P2, P3, P4]
+
+  - id: RO6
+    job: "Support their child's long-term physical and emotional development in dance"
+    must_answer:
+      - "How do I prevent dance injuries in growing children?"
+      - "How do I recognize and prevent burnout?"
+      - "What cross-training supports dance development?"
+      - "How do I support a child who wants to quit?"
+      - "What life skills does dance develop regardless of career path?"
+    personas: [P3, P4]

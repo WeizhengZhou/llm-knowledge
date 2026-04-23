@@ -1,0 +1,239 @@
+topic: "Raise Kids to Be Good at Dancing for Bay Area Parents"
+scanned_at: 2026-04-22
+
+entities_discovered:
+  # Pre-professional / elite ballet
+  - name: "San Francisco Ballet School"
+    type: school
+    subregion: SF
+    tier: pre-professional
+    mentions: 8
+  - name: "City Ballet San Francisco (CBSF)"
+    type: school
+    subregion: SF
+    tier: pre-professional
+    mentions: 5
+  - name: "Bay Area Ballet Conservatory"
+    type: school
+    subregion: East Bay
+    tier: pre-professional
+    mentions: 4
+  - name: "San Francisco Youth Ballet Academy"
+    type: school
+    subregion: SF
+    tier: intermediate-to-prepro
+    mentions: 4
+  - name: "Academy of Ballet San Francisco"
+    type: school
+    subregion: SF
+    tier: pre-professional
+    mentions: 2
+  - name: "Ballet School of San Francisco"
+    type: school
+    subregion: SF
+    tier: intermediate
+    mentions: 2
+
+  # Contemporary / multi-style
+  - name: "ODC School Youth & Teen Program"
+    type: school
+    subregion: SF
+    tier: youth-program
+    mentions: 5
+  - name: "Moving Arts Academy of Dance"
+    type: school
+    subregion: Peninsula
+    tier: competitive
+    mentions: 3
+
+  # Community / recreational
+  - name: "West Valley Dance Company"
+    type: school
+    subregion: South Bay
+    tier: recreational-to-competitive
+    mentions: 3
+  - name: "Purdance"
+    type: school
+    subregion: South Bay
+    tier: recreational
+    mentions: 3
+  - name: "The Dance Affair"
+    type: school
+    subregion: South Bay
+    tier: recreational
+    mentions: 3
+  - name: "Star Dance Studio"
+    type: school
+    subregion: SF
+    tier: recreational
+    mentions: 2
+  - name: "San Carlos Children's Theater"
+    type: school
+    subregion: Peninsula
+    tier: recreational
+    mentions: 2
+  - name: "Luna Dance & Creativity"
+    type: school
+    subregion: East Bay
+    tier: creative-movement
+    mentions: 3
+  - name: "B*Dazzled Dancers"
+    type: school
+    subregion: East Bay
+    tier: recreational
+    mentions: 2
+  - name: "Mr. D's Music Club"
+    type: school
+    subregion: East Bay
+    tier: recreational
+    mentions: 2
+  - name: "Pacific West Gymnastics (dance program)"
+    type: school
+    subregion: East Bay
+    tier: recreational
+    mentions: 2
+
+  # Organizations / competitions
+  - name: "Regional Dance America"
+    type: organization
+    mentions: 3
+  - name: "NYCDA (New York City Dance Alliance)"
+    type: competition_org
+    mentions: 2
+  - name: "California Dance Classics"
+    type: competition_org
+    mentions: 2
+  - name: "DA:NCE (Dance Awareness No Child Exploited)"
+    type: advocacy_org
+    mentions: 2
+
+  # Resources
+  - name: "DanceParent101.com"
+    type: resource_site
+    mentions: 4
+  - name: "Bay Area Parent Magazine"
+    type: media
+    mentions: 3
+  - name: "510 Families"
+    type: media
+    mentions: 3
+  - name: "Marin Mommies"
+    type: media
+    mentions: 2
+
+source_ecosystem:
+  community_forums:
+    - domain: berkeleyparentsnetwork.org
+      status: blocked_403
+      relevance: high
+      notes: "Multiple dance-related threads exist but site returns 403"
+    - domain: reddit.com
+      status: blocked_by_crawler
+      relevance: high
+    - domain: quora.com
+      status: accessible
+      relevance: medium
+      pain_points: ["regret about competitive dance", "cost concerns"]
+
+  expert_blogs:
+    - domain: danceparent101.com
+      status: accessible
+      relevance: high
+      content: ["competitive dance costs breakdown", "pros/cons of early competition", "age guidelines"]
+    - domain: danceawareness.com
+      status: accessible
+      relevance: medium
+      content: ["child safety in dance", "hypersexualization red flags"]
+    - domain: kickdancestudios.com
+      status: accessible
+      relevance: medium
+      content: ["how to choose a studio", "what to look for"]
+
+  regional_media:
+    - domain: bayareaparent.com
+      status: accessible
+      relevance: high
+      content: ["annual Best of the Best dance studio awards", "Bay Area studio directory"]
+    - domain: 510families.com
+      status: accessible
+      relevance: high
+      content: ["East Bay dance class listings by age", "studio reviews"]
+    - domain: marinmommies.com
+      status: accessible
+      relevance: medium
+      content: ["Marin/SF dance class listings"]
+    - domain: dothebay.com
+      status: accessible
+      relevance: medium
+
+  official_school_sites:
+    - domain: sfballet.org/school-community
+      status: accessible
+      relevance: high
+    - domain: cityballetsf.org
+      status: accessible
+      relevance: high
+    - domain: bayareabc.com
+      status: accessible
+      relevance: high
+    - domain: movingartsacademyofdance.com
+      status: accessible
+      relevance: medium
+
+  scholarship_resources:
+    - domain: bold.org
+      status: accessible
+      relevance: medium
+    - domain: regionaldanceamerica.org
+      status: accessible
+      relevance: medium
+    - domain: californiadanceclassics.org
+      status: accessible
+      relevance: medium
+
+  books: []
+  video_audio: []
+
+source_access_failures:
+  - domain: berkeleyparentsnetwork.org
+    reason: "403 Forbidden"
+    impact: "Lost access to East Bay parent dance recommendations and advice threads"
+  - domain: reddit.com
+    reason: "Blocked by Anthropic crawler"
+    impact: "Lost access to r/bayarea, r/SanJose, r/dance parent discussion threads"
+
+common_pain_points:
+  - "How much does competitive dance actually cost? (Parents report $2,500-$9,000/year for competitions alone, not including tuition)"
+  - "My kid wants to do competitive dance but I'm worried about burnout (10-30 hours/week rehearsal)"
+  - "How do I tell a good dance studio from a bad one? What are the red flags?"
+  - "Is my child too young/too old to start dance? What's the right age for ballet vs hip-hop?"
+  - "What's the difference between recreational and competitive dance programs?"
+  - "How do I protect my child from hypersexualization in dance (costumes, choreography)?"
+  - "Are there dance classes specifically welcoming to boys in the Bay Area?"
+  - "What does a pre-professional ballet path actually look like and is my kid good enough?"
+  - "Can my kid get a college scholarship for dance? Is it worth pursuing?"
+  - "How do I balance dance with school, other activities, and family time?"
+  - "Which Bay Area studios are best for beginners vs serious dancers?"
+  - "What should I expect at my child's first dance class?"
+  - "Summer intensives - are they worth it and which ones are good?"
+  - "My child loves dancing but I can't afford expensive studios - what are the affordable options?"
+
+preliminary_question_seeds:
+  - text: "How much does competitive dance cost annually including hidden fees?"
+    source: "danceparent101.com, scarymommy.com"
+    urgency: high
+  - text: "What are red flags when evaluating a dance studio for children?"
+    source: "danceawareness.com, kickdancestudios.com"
+    urgency: high
+  - text: "What is the realistic timeline from beginner to pre-professional?"
+    source: "sfballet.org, cityballetsf.org"
+    urgency: high
+  - text: "Which Bay Area studios are best for specific age groups and styles?"
+    source: "bayareaparent.com, 510families.com"
+    urgency: high
+  - text: "How do parents manage burnout and overscheduling in competitive dance?"
+    source: "danceparent101.com, quora.com"
+    urgency: high
+  - text: "What affordable or scholarship-supported dance options exist in the Bay Area?"
+    source: "regionaldanceamerica.org, californiadanceclassics.org"
+    urgency: medium

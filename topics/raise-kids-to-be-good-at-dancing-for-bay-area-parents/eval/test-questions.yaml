@@ -1,0 +1,193 @@
+# eval/test-questions.yaml
+metadata:
+  topic: raise-kids-to-be-good-at-dancing-for-bay-area-parents
+  version: 1
+  created: 2026-04-22
+  question_count: 30
+
+questions:
+  # --- RO1: Decide whether and when to start dance classes ---
+  - id: TQ01
+    text: "My daughter is 3 years old. Is she too young for ballet?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ02
+    text: "What is the difference between creative movement and pre-ballet for a 4-year-old?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ03
+    text: "How much should I expect to pay for one recreational dance class per week in the Bay Area?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ04
+    text: "What should a first dance class look like for a 3-year-old? How long should it be?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ05
+    text: "My son is 10 and just discovered he loves dancing. Has he missed his chance?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  # --- RO2: Choose the right dance studio and style ---
+  - id: TQ06
+    text: "What dance styles are available for kids in the Bay Area and which one should I pick for an energetic 6-year-old boy?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ07
+    text: "What are the best dance studios in the East Bay for a beginner?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ08
+    text: "What red flags should I watch for when visiting a dance studio?"
+    reader_outcome: RO2
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ09
+    text: "How do I know if a studio's teaching approach is age-appropriate and safe for my 5-year-old?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ10
+    text: "My 8-year-old son wants to dance but is worried about being the only boy. Where should we go in the Bay Area?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO3: Understand financial and time commitment ---
+  - id: TQ11
+    text: "What does recreational dance cost per year in the Bay Area, all-in?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ12
+    text: "What does competitive dance actually cost per year including travel and costumes?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ13
+    text: "How many hours per week will competitive dance require from my 10-year-old?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ14
+    text: "Are there any free or affordable dance programs in the Bay Area?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ15
+    text: "My daughter dances 4 days a week and her grades are slipping. How do other families balance dance and school?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO4: Competitive dance decision and navigation ---
+  - id: TQ16
+    text: "What is the difference between recreational and competitive dance?"
+    reader_outcome: RO4
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ17
+    text: "What are the major dance competition organizations in the Bay Area?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ18
+    text: "What are the risks of competitive dance -- burnout, injury, cost?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ19
+    text: "My 7-year-old's teacher says she is ready for the competition team. Is that too young?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ20
+    text: "What does a competition weekend actually look like for the family?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO5: Pre-professional and college dance pathway ---
+  - id: TQ21
+    text: "What pre-professional ballet programs exist in the Bay Area?"
+    reader_outcome: RO5
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ22
+    text: "What is the realistic timeline from beginner to pre-professional ballet dancer?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ23
+    text: "What summer intensives should my serious dancer attend?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ24
+    text: "Can my child get a college scholarship for dance? What programs exist in California?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ25
+    text: "What does a professional dance career look like in terms of salary and career length?"
+    reader_outcome: RO5
+    difficulty: hard
+    expected_coverage: full
+
+  # --- RO6: Long-term physical and emotional development ---
+  - id: TQ26
+    text: "How do I prevent dance injuries in my 11-year-old who just started pointe?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ27
+    text: "My daughter seems burned out on dance. How do I tell if it is real burnout or just a bad week?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ28
+    text: "What cross-training activities support dance development?"
+    reader_outcome: RO6
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ29
+    text: "My 14-year-old wants to quit dance after 8 years. How should I handle this?"
+    reader_outcome: RO6
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ30
+    text: "What life skills does dance develop even if my child never goes professional?"
+    reader_outcome: RO6
+    difficulty: easy
+    expected_coverage: full

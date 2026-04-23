@@ -1,0 +1,2176 @@
+topic: raise-kids-to-be-good-at-dancing-for-bay-area-parents
+extracted_at: 2026-04-22T18:00:00Z
+source_files_processed: 47
+total_claims: 120
+
+claims:
+
+  # ============================================================
+  # ENTITY: sf-ballet-school
+  # ============================================================
+
+  - id: c001
+    text: "SF Ballet School was established in 1933 and is the oldest professional ballet academy in America"
+    type: temporal
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "established in 1933"
+        extraction_context: "SF Ballet School is the oldest professional ballet academy in America, established in 1933."
+      - file: raw/web/official/2026-04-22_sfballet-school-programs.md
+        url: https://www.sfballet.org/school/
+        tier: L1-official
+        extracted_value: "Founded: 1933"
+        extraction_context: "Founded: 1933 (oldest professional ballet school in the United States)"
+    overreach_flag: false
+
+  - id: c002
+    text: "SF Ballet School 2025-2026 annual tuition is $4,545 for Level 1 and $10,660 for Level 8"
+    type: numerical
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "Level 1: $4,545; Level 8: $10,660"
+        extraction_context: "2025-2026 School Year Tuition: Level 1 $4,545 / Level 2 $5,460 / Level 3 $6,130 / Level 4 $7,395 / Level 5 $8,315 / Level 6 $9,420 / Level 7 $10,545 / Level 8 $10,660"
+    overreach_flag: false
+
+  - id: c003
+    text: "SF Ballet School Trainee Program annual tuition is $13,500"
+    type: numerical
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "$13,500"
+        extraction_context: "Trainees: $13,500 annual tuition. A one- to two-year pre-professional program comprised of students chosen from the School's advanced levels."
+    overreach_flag: false
+
+  - id: c004
+    text: "SF Ballet School registration fee is $250 (non-refundable); wellness fee is $250 for Levels 4-5 and $500 for Levels 6-8 and Trainees"
+    type: numerical
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "Registration: $250; Wellness: $250 (L4-5), $500 (L6-8+Trainees)"
+        extraction_context: "Registration Fee: $250 (non-refundable). Wellness Fee: $250 (Levels 4-5); $500 (Levels 6-8 & Trainees)."
+    overreach_flag: false
+
+  - id: c005
+    text: "SF Ballet School housing annual fee is $21,115 for Level 6 and $19,884 for Levels 7 through Trainee; housing meal plan is $3,500-$8,000 annually"
+    type: numerical
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "Level 6 housing: $21,115; L7-Trainee: $19,884; meal plan: $3,500-$8,000"
+        extraction_context: "Housing Annual Fee: $21,115 (Level 6); $19,884 (Levels 7-Trainee). Meal Plan: $3,500–$8,000 annually."
+    overreach_flag: false
+
+  - id: c006
+    text: "SF Ballet School financial aid applications open January 1; current family deadline is May 1; new family deadline is upon acceptance notification"
+    type: temporal
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "Applications open January 1; current families: May 1; new families: upon acceptance"
+        extraction_context: "2025-2026 Financial Aid Application Deadlines: Current families: May 1. New families: Upon acceptance notification. Applications open: January 1."
+    overreach_flag: false
+
+  - id: c007
+    text: "SF Ballet School admissions screening for ages 8-10 is held on April 25 and August 3 for 2026-27; screening fee is $30"
+    type: temporal
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/admissions/
+        tier: L1-official
+        extracted_value: "April 25 and August 3; $30 fee"
+        extraction_context: "Dates for 2026-27: April 25: Ages 8 (3:30-4:00 PM), Ages 9-10 (4:00-4:30 PM). August 3: Ages 8-10 (4:15-4:45 PM). Fee: $30."
+    overreach_flag: false
+
+  - id: c008
+    text: "SF Ballet School audition for ages 11-13 is held on April 25 and August 3 for 2026-27; audition fee is $50"
+    type: temporal
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/admissions/
+        tier: L1-official
+        extracted_value: "April 25 and August 3; $50 fee"
+        extraction_context: "Ages 11-13: Dates for 2026-27: April 25: 1:45-3:15 PM. August 3: 5:00-6:30 PM. Fee: $50."
+    overreach_flag: false
+
+  - id: c009
+    text: "SF Ballet School ages 14-18 video submission window is December 1, 2025 through April 1, 2026; live audition locations include January 19 (School of American Ballet, NY), February 8 and April 25 (SF Ballet School)"
+    type: temporal
+    priority: must_verify
+    entity: sf-ballet-school
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/admissions/
+        tier: L1-official
+        extracted_value: "Dec 1 2025 - Apr 1 2026; Jan 19, Feb 8, Apr 25"
+        extraction_context: "Video submissions: December 1, 2025 – April 1, 2026. Live Audition Locations: January 19: School of American Ballet, New York. February 8: SF Ballet School. April 25: SF Ballet School. Fee: $50."
+    overreach_flag: false
+
+  - id: c010
+    text: "Over 70% of SF Ballet Company dancers are alumni of SF Ballet School"
+    type: numerical
+    priority: should_verify
+    entity: sf-ballet-school
+    question_id: Q026
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "over 70%"
+        extraction_context: "Over 70% of SF Ballet's Company dancers — throughout the ranks — are school alumni."
+      - file: raw/web/official/2026-04-22_sfballet-school-programs.md
+        url: https://www.sfballet.org/school/
+        tier: L1-official
+        extracted_value: "Nearly 70%"
+        extraction_context: "Nearly 70% of San Francisco Ballet company dancers trained through the School's programs."
+    conflict_note: "One page states 'over 70%', another page of same site states 'Nearly 70%'. Both L1-official from same school; difference may be rounding or page update timing."
+    overreach_flag: false
+
+  - id: c011
+    text: "SF Ballet School School Year Program serves students ages 8-18 across eight progressive levels"
+    type: categorical
+    priority: should_verify
+    entity: sf-ballet-school
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+        url: https://www.sfballet.org/the-school/tuition/
+        tier: L1-official
+        extracted_value: "ages 8-18, 8 levels"
+        extraction_context: "The school offers an 8-level progressive program for students ages 8-18."
+    overreach_flag: false
+
+  - id: c012
+    text: "SF Ballet School contact phone number is 415-865-6700"
+    type: categorical
+    priority: may_skip
+    entity: sf-ballet-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_sfballet-school-programs.md
+        url: https://www.sfballet.org/school/
+        tier: L1-official
+        extracted_value: "415-865-6700"
+        extraction_context: "Contact: 415-865-6700"
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: city-ballet-sf (CBSF)
+  # ============================================================
+
+  - id: c013
+    text: "CBSF Junior Program annual tuition is $1,850 for Junior C (1x/week), $2,860 for Junior B (2x/week), and $5,495 for Junior A (3x/week) for 2025-2026"
+    type: numerical
+    priority: must_verify
+    entity: city-ballet-sf
+    question_id: QG001
+    sources:
+      - file: raw/web/official/2026-04-22_cbsf-junior-program.md
+        url: https://www.cityballetsf.org/junior-program
+        tier: L1-official
+        extracted_value: "Junior C: $1,850; Junior B: $2,860; Junior A: $5,495"
+        extraction_context: "Tuition (2025-2026): Junior (C) — 1x per week: $1,850 / Junior (B) — 2x per week: $2,860 / Junior (A) — 3x per week: $5,495"
+    overreach_flag: false
+
+  - id: c014
+    text: "CBSF performance fee is $300 per show (optional)"
+    type: numerical
+    priority: must_verify
+    entity: city-ballet-sf
+    question_id: QG001
+    sources:
+      - file: raw/web/official/2026-04-22_cbsf-junior-program.md
+        url: https://www.cityballetsf.org/junior-program
+        tier: L1-official
+        extracted_value: "$300 per show"
+        extraction_context: "Performance fee: $300 per show (optional)"
+    overreach_flag: false
+    single_source: true
+
+  - id: c015
+    text: "CBSF Junior Program students may perform 2-3 times per year in Fall Gala, Nutcracker, and Spring Show"
+    type: categorical
+    priority: should_verify
+    entity: city-ballet-sf
+    question_id: QG001
+    sources:
+      - file: raw/web/official/2026-04-22_cbsf-junior-program.md
+        url: https://www.cityballetsf.org/junior-program
+        tier: L1-official
+        extracted_value: "2-3 times/year: Fall Gala, Nutcracker, Spring Show"
+        extraction_context: "Students are given the opportunity to perform 2-3 times a year in the school's productions: Fall Gala, Nutcracker and a Spring Show."
+    overreach_flag: false
+    single_source: true
+
+  - id: c016
+    text: "CBSF is located at 30 Otis St, San Francisco, CA 94103; phone (415) 626-8878"
+    type: categorical
+    priority: may_skip
+    entity: city-ballet-sf
+    question_id: QG001
+    sources:
+      - file: raw/web/official/2026-04-22_cbsf-junior-program.md
+        url: https://www.cityballetsf.org/junior-program
+        tier: L1-official
+        extracted_value: "30 Otis St, SF, CA 94103; (415) 626-8878"
+        extraction_context: "Address: 30 Otis St, San Francisco, CA 94103. Phone: (415) 626-8878."
+    overreach_flag: false
+    single_source: true
+
+  - id: c017
+    text: "CBSF follows the Vaganova Method for ballet training"
+    type: categorical
+    priority: should_verify
+    entity: city-ballet-sf
+    question_id: QG001
+    sources:
+      - file: raw/web/official/2026-04-22_cbsf-junior-program.md
+        url: https://www.cityballetsf.org/junior-program
+        tier: L1-official
+        extracted_value: "Vaganova Method"
+        extraction_context: "Following the Vaganova Method, students lay down a solid foundation in their technique, vocabulary, and artistry."
+    overreach_flag: false
+    single_source: true
+
+  - id: c018
+    text: "CBSF housing for international or out-of-area students (The Monroe partner housing) costs $1,080-$2,180 per month"
+    type: numerical
+    priority: must_verify
+    entity: city-ballet-sf
+    question_id: QG001
+    sources:
+      - file: raw/web/official/2026-04-22_cbsf-junior-program.md
+        url: https://www.cityballetsf.org/junior-program
+        tier: L1-official
+        extracted_value: "$1,080-$2,180/month"
+        extraction_context: "Housing: For international or out-of-area students, The Monroe (partner housing) costs $1,080–$2,180/month"
+    overreach_flag: false
+    single_source: true
+
+  - id: c019
+    text: "CBSF alumni have been placed in American Ballet Theatre, Mariinsky Theatre, Semperoper Ballett, Boston Ballet, and Royal Swedish Ballet"
+    type: categorical
+    priority: should_verify
+    entity: city-ballet-sf
+    question_id: Q031
+    sources:
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://cpyb.org/what-is-a-pre-professional-dancer/
+        tier: L2-authoritative
+        extracted_value: "ABT, Mariinsky, Semperoper, Boston Ballet, Royal Swedish Ballet"
+        extraction_context: "CBSF: Alumni placed in American Ballet Theatre, Mariinsky Theatre, Semperoper Ballett, Boston Ballet, Royal Swedish Ballet."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: odc-school
+  # ============================================================
+
+  - id: c020
+    text: "ODC School youth class tuition is $208 per class per session; teen class tuition is $216 per class per session (2025-2026)"
+    type: numerical
+    priority: must_verify
+    entity: odc-school
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "Youth: $208/class/session; Teen: $216/class/session"
+        extraction_context: "Youth classes: $208 per class (per session). Teen classes: $216 per class (per session)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c021
+    text: "ODC School Beyond the Classroom registration fee is $65 per student (covers field trips, evaluations, productions, and one ticket)"
+    type: numerical
+    priority: must_verify
+    entity: odc-school
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "$65"
+        extraction_context: "Beyond the Classroom Registration Fee: $65 per student (covers administrative costs, field trips, evaluations, productions, and one ticket to school productions)"
+    overreach_flag: false
+    single_source: true
+
+  - id: c022
+    text: "ODC School placement class for new ballet and contemporary students ages 9-18 with prior experience costs $35, held August 21, 2025"
+    type: numerical
+    priority: must_verify
+    entity: odc-school
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "$35; August 21, 2025"
+        extraction_context: "Placement Classes (August 21, 2025): $35 fee for new ballet and contemporary students ages 9-18 with prior experience"
+    overreach_flag: false
+    single_source: true
+
+  - id: c023
+    text: "ODC School need-based scholarship application deadline is August 29, 2025 for Fall 2025 and May 29, 2026 for Summer 2026"
+    type: temporal
+    priority: must_verify
+    entity: odc-school
+    question_id: Q017
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "Fall 2025: Aug 29, 2025; Summer 2026: May 29, 2026"
+        extraction_context: "Application Deadlines: Fall 2025: August 29, 2025. Summer 2026: May 29, 2026."
+      - file: raw/web/official/2026-04-22_odc-dance-youth-teen.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "Fall deadline: August 29, 2025"
+        extraction_context: "Scholarship applications available (Fall deadline: August 29, 2025)"
+    overreach_flag: false
+
+  - id: c024
+    text: "ODC School offers need-based scholarships for students ages 8 and up"
+    type: categorical
+    priority: should_verify
+    entity: odc-school
+    question_id: Q017
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "ages 8+"
+        extraction_context: "ODC offers need-based scholarships for students ages 8+. Applicants must demonstrate financial need, motivation, and commitment."
+    overreach_flag: false
+    single_source: true
+
+  - id: c025
+    text: "ODC Dance Jam Scholarship Fund covers full year of tuition, participation fees, and a stipend for ancillary expenses (travel, dancewear)"
+    type: categorical
+    priority: should_verify
+    entity: odc-school
+    question_id: Q017
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "Full year tuition + participation fees + stipend"
+        extraction_context: "ODC Dance Jam Scholarship Fund: Full year of tuition, participation fees, and a stipend for ancillary expenses (travel, dancewear) for one participating student."
+    overreach_flag: false
+    single_source: true
+
+  - id: c026
+    text: "ODC Dance Jam (Teen Contemporary) performance company audition is August 26, 4-6 PM; SEEDS (Teen Hip Hop) audition is September 10, 4:30-6 PM; Velveteen Rabbit audition is September 27, 3-6 PM"
+    type: temporal
+    priority: must_verify
+    entity: odc-school
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "Dance Jam: Aug 26; SEEDS: Sep 10; Velveteen Rabbit: Sep 27"
+        extraction_context: "Performance Company Auditions (2025-2026): Dance Jam (Teen Contemporary): August 26, 4-6 pm. SEEDS (Teen Hip Hop): September 10, 4:30-6 pm. The Velveteen Rabbit: September 27, 3-6 pm."
+    overreach_flag: false
+    single_source: true
+
+  - id: c027
+    text: "ODC School 2025-2026 Fall Session begins September 6, 2025"
+    type: temporal
+    priority: must_verify
+    entity: odc-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_odc-dance-youth-teen.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "September 6, 2025"
+        extraction_context: "2025-2026 Fall Session begins September 6, 2025"
+    overreach_flag: false
+    single_source: true
+
+  - id: c028
+    text: "ODC School summer weekend classes run June 6-July 27, 2026 (eight-week session)"
+    type: temporal
+    priority: must_verify
+    entity: odc-school
+    question_id: Q024
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "June 6-July 27, 2026"
+        extraction_context: "Summer weekend dance classes run June 6-July 27, 2026, offering an eight-week session with a wide variety of dance styles and levels."
+    overreach_flag: false
+    single_source: true
+
+  - id: c029
+    text: "ODC School won Gold in Bay Area Parent Magazine 2025 Best of the Best (San Francisco/Marin category)"
+    type: categorical
+    priority: should_verify
+    entity: odc-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_odc-dance-youth-teen.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "Gold winner, Bay Area Parent Magazine 2025 Best of the Best (SF/Marin)"
+        extraction_context: "Gold winner, Bay Area Parent Magazine 2025 Best of the Best (San Francisco/Marin category)"
+      - file: raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+        url: https://www.bayareaparent.com/best-dance-classes-in-the-bay-area/
+        tier: L3-aggregator
+        extracted_value: "Gold: ODC School Youth & Teen Program (SF/Marin)"
+        extraction_context: "SAN FRANCISCO/MARIN: Gold: ODC School Youth & Teen Program"
+    overreach_flag: false
+
+  - id: c030
+    text: "ODC School serves ages 2-18 across Young Creative (2-7), Youth (7-13), and Teen (12-18) divisions"
+    type: categorical
+    priority: should_verify
+    entity: odc-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "ages 2-18; three divisions"
+        extraction_context: "ODC School serves ages 2-18 across three divisions: Young Creative Classes: Ages 2-7; Youth Classes: Ages 7-13; Teen Classes: Ages 12-18"
+    overreach_flag: false
+
+  - id: c031
+    text: "ODC School 10% discount applies for students taking multiple classes or with sibling enrollment"
+    type: numerical
+    priority: should_verify
+    entity: odc-school
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "10% discount"
+        extraction_context: "10% discount for students taking multiple classes or sibling enrollment"
+    overreach_flag: false
+    single_source: true
+
+  - id: c032
+    text: "ODC School contact: email registration@odc.dance; phone 415-863-6606 ext. 8520; text 707-653-5541"
+    type: categorical
+    priority: may_skip
+    entity: odc-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_odc-youth-programs.md
+        url: https://odc.dance/youth-and-teen
+        tier: L1-official
+        extracted_value: "registration@odc.dance; 415-863-6606 ext. 8520; 707-653-5541"
+        extraction_context: "Email: registration@odc.dance | Phone: 415/863-6606 ext. 8520 | Text: 707-653-5541"
+    overreach_flag: false
+
+  # ============================================================
+  # ENTITY: marin-ballet
+  # ============================================================
+
+  - id: c033
+    text: "Marin Ballet Wee Dance Together (ages 18 months to 3 years, parent required) costs $96 for a 4-week session"
+    type: numerical
+    priority: must_verify
+    entity: marin-ballet
+    question_id: Q008
+    sources:
+      - file: raw/web/official/2026-04-22_marinballet-programs.md
+        url: https://marinballet.org/
+        tier: L1-official
+        extracted_value: "$96 for 4-week session"
+        extraction_context: "Wee Dance Together (Ages 18 months – 3 years). Price: $96 for 4-week session."
+      - file: raw/web/review/2026-04-22_dance-progression-timeline-synthesis.md
+        url: https://blog.joffreyballetschool.com/
+        tier: L3-aggregator
+        extracted_value: "$96 for 4 weeks"
+        extraction_context: "Example: Marin Ballet Wee Dance ($96 for 4 weeks)"
+    overreach_flag: false
+
+  - id: c034
+    text: "Marin Ballet is located in San Rafael, CA (Marin County); contact 415-453-6705"
+    type: categorical
+    priority: may_skip
+    entity: marin-ballet
+    question_id: Q008
+    sources:
+      - file: raw/web/official/2026-04-22_marinballet-programs.md
+        url: https://marinballet.org/
+        tier: L1-official
+        extracted_value: "San Rafael, CA; 415-453-6705"
+        extraction_context: "Location: San Rafael, CA (Marin County). Contact: 415-453-6705 | info@marinballet.org"
+    overreach_flag: false
+
+  - id: c035
+    text: "Marin Ballet has a facility of approximately 20,000 square feet with six studios"
+    type: numerical
+    priority: should_verify
+    entity: marin-ballet
+    question_id: Q008
+    sources:
+      - file: raw/web/review/2026-04-22_marinmommies-dance-studios.md
+        url: https://www.marinmommies.com/ballet-and-dance-classes-kids-marin-and-san-francisco
+        tier: L3-aggregator
+        extracted_value: "six studios in 20,000 sq ft facility"
+        extraction_context: "Marin Ballet: pre-ballet through level nine across six studios in 20,000 sq ft facility"
+    overreach_flag: false
+    single_source: true
+
+  - id: c036
+    text: "Marin Ballet program age range is 18 months through adult; youth programs serve ages 3-18"
+    type: categorical
+    priority: should_verify
+    entity: marin-ballet
+    question_id: Q008
+    sources:
+      - file: raw/web/official/2026-04-22_marinballet-programs.md
+        url: https://marinballet.org/
+        tier: L1-official
+        extracted_value: "18 months through adult; youth 3-18"
+        extraction_context: "Wee Dance Together (Ages 18 months – 3 years)... Creative Movement (Ages 3-4)... Advanced Ballet (Ages 14-18)"
+      - file: raw/web/review/2026-04-22_marinmommies-dance-studios.md
+        url: https://www.marinmommies.com/
+        tier: L3-aggregator
+        extracted_value: "Ages 3-18"
+        extraction_context: "Marin Ballet: Ages: 3–18 years"
+    overreach_flag: false
+
+  - id: c037
+    text: "Marin Ballet's first class is free per Marin Mommies listing"
+    type: categorical
+    priority: should_verify
+    entity: marin-ballet
+    question_id: Q008
+    sources:
+      - file: raw/web/review/2026-04-22_marinmommies-dance-studios.md
+        url: https://www.marinmommies.com/ballet-and-dance-classes-kids-marin-and-san-francisco
+        tier: L3-aggregator
+        extracted_value: "Your first class is free"
+        extraction_context: "Marin Ballet: 'Your first class is free'"
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: new-ballet-san-jose
+  # ============================================================
+
+  - id: c038
+    text: "New Ballet San Jose was founded in 2016 by Dalia Rawson"
+    type: temporal
+    priority: should_verify
+    entity: new-ballet-san-jose
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_new-ballet-san-jose.md
+        url: https://newballet.com/training-programs
+        tier: L1-official
+        extracted_value: "Founded 2016 by Dalia Rawson"
+        extraction_context: "Founded 2016 by Dalia Rawson."
+    overreach_flag: false
+    single_source: true
+
+  - id: c039
+    text: "New Ballet San Jose is the only American Ballet Theatre (ABT) Certified School on the West Coast"
+    type: categorical
+    priority: must_verify
+    entity: new-ballet-san-jose
+    question_id: Q031
+    sources:
+      - file: raw/web/official/2026-04-22_new-ballet-san-jose.md
+        url: https://newballet.com/training-programs
+        tier: L1-official
+        extracted_value: "Only ABT Certified School on the West Coast"
+        extraction_context: "Only American Ballet Theatre (ABT) Certified School on the West Coast."
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://cpyb.org/what-is-a-pre-professional-dancer/
+        tier: L2-authoritative
+        extracted_value: "Only ABT Certified School on the West Coast"
+        extraction_context: "New Ballet (San Jose): Only American Ballet Theatre (ABT) Certified School on the West Coast."
+    overreach_flag: false
+
+  - id: c040
+    text: "New Ballet Dance with Me program is for ages 2.5-4 on Saturdays 9:15-10:00 AM; Pre-Primary Ballet is ages 4-5 on Saturdays 10:00-11:00 AM"
+    type: categorical
+    priority: should_verify
+    entity: new-ballet-san-jose
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_new-ballet-san-jose.md
+        url: https://newballet.com/training-programs
+        tier: L1-official
+        extracted_value: "Dance with Me: ages 2.5-4, Sat 9:15-10:00; Pre-Primary: ages 4-5, Sat 10:00-11:00"
+        extraction_context: "Dance with Me: Ages 2.5–4, Saturdays 9:15–10:00 AM. Pre-Primary Ballet: Ages 4–5, Saturdays 10:00–11:00 AM."
+    overreach_flag: false
+    single_source: true
+
+  - id: c041
+    text: "New Ballet Senior Pre-Professional Division (Levels 4-6) requires audition and students typically train 4-5 days per week"
+    type: process
+    priority: should_verify
+    entity: new-ballet-san-jose
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-22_new-ballet-san-jose.md
+        url: https://newballet.com/training-programs
+        tier: L1-official
+        extracted_value: "audition required; 4-5 days per week"
+        extraction_context: "Senior Pre-Professional Division: Audition required. Students typically train 4–5 days per week."
+    overreach_flag: false
+    single_source: true
+
+  - id: c042
+    text: "New Ballet Studio Company is potentially tuition-free for exceptional dancers with stipends possible; Studio Company Apprentice is tuition-based with limited scholarships"
+    type: categorical
+    priority: should_verify
+    entity: new-ballet-san-jose
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-22_new-ballet-san-jose.md
+        url: https://newballet.com/training-programs
+        tier: L1-official
+        extracted_value: "Studio Company: potentially tuition-free + stipends; Apprentice: tuition-based + limited scholarships"
+        extraction_context: "Studio Company Apprentice: Tuition-based with limited scholarships. Studio Company: Potentially tuition-free for exceptional dancers; stipends possible."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: shawl-anderson-dance-center
+  # ============================================================
+
+  - id: c043
+    text: "Shawl-Anderson Dance Center was established in 1958 in Berkeley, CA"
+    type: temporal
+    priority: should_verify
+    entity: shawl-anderson-dance-center
+    question_id: Q007
+    sources:
+      - file: raw/web/official/2026-04-22_shawl-anderson-berkeley.md
+        url: https://www.shawl-anderson.org/
+        tier: L1-official
+        extracted_value: "established 1958, Berkeley"
+        extraction_context: "SADC is 'a Berkeley institution, proudly serving the community since 1958'"
+      - file: raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+        url: https://www.bayareaparent.com/best-dance-classes-in-the-bay-area/
+        tier: L3-aggregator
+        extracted_value: "Berkeley, since 1958"
+        extraction_context: "Shawl-Anderson Dance Center (SADC) — Berkeley, since 1958. All ages, many styles."
+    overreach_flag: false
+
+  - id: c044
+    text: "Shawl-Anderson Dance Center offers financial aid for both youth and adult programs"
+    type: categorical
+    priority: should_verify
+    entity: shawl-anderson-dance-center
+    question_id: Q017
+    sources:
+      - file: raw/web/official/2026-04-22_shawl-anderson-berkeley.md
+        url: https://www.shawl-anderson.org/
+        tier: L1-official
+        extracted_value: "financial aid available for youth and adult"
+        extraction_context: "Financial aid available for both youth and adult programs."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: east-bay-dance-company
+  # ============================================================
+
+  - id: c045
+    text: "East Bay Dance Company (San Ramon Valley) monthly tuition is $88 for 1 class/week, $149 for 2 classes/week, $198 for 3 classes/week, $240 for 4 classes/week, $280 for 5 classes/week, $300 for 6 classes/week, $340 for 7 classes/week"
+    type: numerical
+    priority: must_verify
+    entity: east-bay-dance-company
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_eastbaydancecompany-tuition.md
+        url: https://www.eastbaydancecompany.com/policies
+        tier: L1-official
+        extracted_value: "1x: $88; 2x: $149; 3x: $198; 4x: $240; 5x: $280; 6x: $300; 7x: $340"
+        extraction_context: "Monthly Class Tuition: 1 class/week $88/month; 2 classes/week $149/month; 3 classes/week $198/month; 4 classes/week $240/month; 5 classes/week $280/month; 6 classes/week $300/month; 7 classes/week $340/month"
+    overreach_flag: false
+    single_source: true
+
+  - id: c046
+    text: "East Bay Dance Company annual registration fee is $35; drop-in/trial class is $25; private lessons are $60 (30 min), $75 (45 min), $100 (60 min)"
+    type: numerical
+    priority: must_verify
+    entity: east-bay-dance-company
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_eastbaydancecompany-tuition.md
+        url: https://www.eastbaydancecompany.com/policies
+        tier: L1-official
+        extracted_value: "Registration: $35; Drop-in: $25; Private: $60/$75/$100"
+        extraction_context: "Annual Registration: $35 per dancer. Drop-in/Trial classes: $25 each. Private lessons: $60 (30 min), $75 (45 min), $100 (60 min)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c047
+    text: "East Bay Dance Company sibling discount is 10% off for additional dancer at same address; late payment fee (after the 7th) is $25; credit card payments incur 2.49% convenience fee"
+    type: numerical
+    priority: should_verify
+    entity: east-bay-dance-company
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_eastbaydancecompany-tuition.md
+        url: https://www.eastbaydancecompany.com/policies
+        tier: L1-official
+        extracted_value: "10% sibling; $25 late fee; 2.49% CC fee"
+        extraction_context: "Sibling discount: 10% off additional dancer at same address. Late payments after the 7th: $25 late fee. Credit card payments incur 2.49% convenience fee."
+    overreach_flag: false
+    single_source: true
+
+  - id: c048
+    text: "East Bay Dance Company does not provide refunds for any reason including illness, injury, or missed classes; yearly tuition divided into 10 equal monthly payments"
+    type: process
+    priority: should_verify
+    entity: east-bay-dance-company
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_eastbaydancecompany-tuition.md
+        url: https://www.eastbaydancecompany.com/policies
+        tier: L1-official
+        extracted_value: "No refunds; 10-month payment plan"
+        extraction_context: "'East Bay Dance Company does not provide refunds of any kind, for any reason' (including illness, injury, or missed classes). Yearly tuition is divided into 10 equal monthly payments."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: dance-academy-usa
+  # ============================================================
+
+  - id: c049
+    text: "Dance Academy USA is located at 19900 Stevens Creek Blvd #300, Cupertino, CA 95014; phone 408-257-3211"
+    type: categorical
+    priority: may_skip
+    entity: dance-academy-usa
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_danceacademyusa-silicon-valley.md
+        url: https://www.danceacademyusa.com/2025-2026-season
+        tier: L1-official
+        extracted_value: "19900 Stevens Creek Blvd #300, Cupertino, CA 95014; 408-257-3211"
+        extraction_context: "Location: 19900 Stevens Creek Blvd, #300, Cupertino, CA 95014. Contact: 408-257-3211"
+    overreach_flag: false
+    single_source: true
+
+  - id: c050
+    text: "Dance Academy USA claims to serve 100,000+ families across Cupertino, Sunnyvale, Los Altos, Mountain View, Saratoga, Los Gatos, Campbell, Santa Clara, and San Jose"
+    type: numerical
+    priority: should_verify
+    entity: dance-academy-usa
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_danceacademyusa-silicon-valley.md
+        url: https://www.danceacademyusa.com/2025-2026-season
+        tier: L1-official
+        extracted_value: "100,000+ families (self-reported)"
+        extraction_context: "Service area: Cupertino, Sunnyvale, Los Altos, Mountain View, Saratoga, Los Gatos, Campbell, Santa Clara, San Jose (100,000+ families served)"
+    overreach_flag: true
+    overreach_reason: "100,000+ families is a self-reported marketing figure from the studio's own website. No independent verification of this number exists in sources."
+    single_source: true
+
+  - id: c051
+    text: "Dance Academy USA won Bronze in Bay Area Parent 2025 Best of the Best (Silicon Valley category)"
+    type: categorical
+    priority: should_verify
+    entity: dance-academy-usa
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_danceacademyusa-silicon-valley.md
+        url: https://www.danceacademyusa.com/2025-2026-season
+        tier: L1-official
+        extracted_value: "Bronze, Bay Area Parent 2025, Silicon Valley"
+        extraction_context: "Bronze winner, Bay Area Parent 2025 Best of the Best (Silicon Valley category)"
+      - file: raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+        url: https://www.bayareaparent.com/best-dance-classes-in-the-bay-area/
+        tier: L3-aggregator
+        extracted_value: "Bronze: Dance Academy USA, Cupertino"
+        extraction_context: "SILICON VALLEY: Bronze: Dance Academy USA, Cupertino."
+    overreach_flag: false
+
+  - id: c052
+    text: "Dance Academy USA 2026-2027 schedule was released March 29, 2026"
+    type: temporal
+    priority: should_verify
+    entity: dance-academy-usa
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_danceacademyusa-silicon-valley.md
+        url: https://www.danceacademyusa.com/2025-2026-season
+        tier: L1-official
+        extracted_value: "2026-2027 schedule released March 29, 2026"
+        extraction_context: "2025-2026 season enrollment closed; 2026-2027 schedule released March 29, 2026"
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: jccsf-dance-school
+  # ============================================================
+
+  - id: c053
+    text: "JCCSF Dance School summer 2026 class cost is $240 per session; Session 1 runs June 1-July 9; Session 2 runs June 13-August 20"
+    type: numerical
+    priority: must_verify
+    entity: jccsf-dance-school
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_jccsf-dance-school.md
+        url: https://www.jccsf.org/program/jccsf-dance-school/
+        tier: L1-official
+        extracted_value: "$240/session; Session 1: Jun 1-Jul 9; Session 2: Jun 13-Aug 20"
+        extraction_context: "Summer 2026 classes: $240 per session. Two sessions: Session 1: June 1 – July 9. Session 2: June 13 – August 20."
+    overreach_flag: false
+    single_source: true
+
+  - id: c054
+    text: "JCCSF Dance School community members save 10% with a JCCSF membership"
+    type: numerical
+    priority: should_verify
+    entity: jccsf-dance-school
+    question_id: Q017
+    sources:
+      - file: raw/web/official/2026-04-22_jccsf-dance-school.md
+        url: https://www.jccsf.org/program/jccsf-dance-school/
+        tier: L1-official
+        extracted_value: "10% discount with JCCSF membership"
+        extraction_context: "Community members save 10% with a JCCSF membership."
+    overreach_flag: false
+    single_source: true
+
+  - id: c055
+    text: "JCCSF Helen Diller Walk-Over program adds $75 to class registration for preschoolers requiring transportation between JCCSF facilities"
+    type: numerical
+    priority: must_verify
+    entity: jccsf-dance-school
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-22_jccsf-dance-school.md
+        url: https://www.jccsf.org/program/jccsf-dance-school/
+        tier: L1-official
+        extracted_value: "$75 Walk-Over fee"
+        extraction_context: "The Helen Diller Walk-Over program: adds $75 to class registration for preschoolers requiring transportation between JCCSF facilities."
+    overreach_flag: false
+    single_source: true
+
+  - id: c056
+    text: "JCCSF Dance School year-round registration periods are November, April, and July"
+    type: temporal
+    priority: should_verify
+    entity: jccsf-dance-school
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_jccsf-dance-school.md
+        url: https://www.jccsf.org/program/jccsf-dance-school/
+        tier: L1-official
+        extracted_value: "November, April, and July"
+        extraction_context: "Year-round registration periods: November, April, and July."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: star-dance-studio-sf
+  # ============================================================
+
+  - id: c057
+    text: "Star Dance Studio SF was established in 1950 (75+ years as of 2025); located at 300 Moraga Street at 9th Avenue, SF 94122; phone (415) 564-1200"
+    type: temporal
+    priority: should_verify
+    entity: star-dance-studio-sf
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_stardancestudio-sf.md
+        url: https://www.stardancestudio.net/
+        tier: L1-official
+        extracted_value: "Established 1950; 300 Moraga Street, SF; (415) 564-1200"
+        extraction_context: "Established: 1950 (75+ years serving the community as of 2025). Location: 300 Moraga Street at 9th Avenue, San Francisco, CA 94122. Phone: (415) 564-1200."
+    overreach_flag: false
+    single_source: true
+
+  - id: c058
+    text: "Star Dance Studio SF holds student performances at San Francisco's Herbst Theater"
+    type: categorical
+    priority: should_verify
+    entity: star-dance-studio-sf
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-22_stardancestudio-sf.md
+        url: https://www.stardancestudio.net/
+        tier: L1-official
+        extracted_value: "Herbst Theater"
+        extraction_context: "Students participate in dance productions held at San Francisco's Herbst Theater."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: chhandam-chitresh-das-institute
+  # ============================================================
+
+  - id: c059
+    text: "Chitresh Das Institute (Chhandam School of Kathak) office is at 16 Havelock Street, San Francisco, CA 94112; phone (415) 539-8849"
+    type: categorical
+    priority: may_skip
+    entity: chhandam-chitresh-das-institute
+    question_id: QG002
+    sources:
+      - file: raw/web/official/2026-04-22_chitreshdasinstitute-kathak.md
+        url: https://www.chitreshdasinstitute.org/
+        tier: L1-official
+        extracted_value: "16 Havelock St, SF, CA 94112; (415) 539-8849"
+        extraction_context: "Office Address: 16 Havelock Street, San Francisco, CA 94112. Phone: (415) 539-8849."
+    overreach_flag: false
+    single_source: true
+
+  - id: c060
+    text: "Chhandam School of Kathak offers classes at Cupertino, San Mateo, and San Ramon locations; a Berkeley location is noted in parent forums"
+    type: categorical
+    priority: should_verify
+    entity: chhandam-chitresh-das-institute
+    question_id: QG002
+    sources:
+      - file: raw/web/official/2026-04-22_chitreshdasinstitute-kathak.md
+        url: https://www.chitreshdasinstitute.org/
+        tier: L1-official
+        extracted_value: "Cupertino, San Mateo, San Ramon; Berkeley in forums"
+        extraction_context: "Classes are offered at multiple Bay Area locations: Cupertino, San Mateo, San Ramon. (Additional Berkeley location noted in parent community reviews.)"
+    overreach_flag: false
+    single_source: true
+
+  - id: c061
+    text: "Chhandam School of Kathak serves ages 6-60+ with no prior dance experience required"
+    type: categorical
+    priority: should_verify
+    entity: chhandam-chitresh-das-institute
+    question_id: QG002
+    sources:
+      - file: raw/web/official/2026-04-22_chitreshdasinstitute-kathak.md
+        url: https://www.chitreshdasinstitute.org/
+        tier: L1-official
+        extracted_value: "Ages 6-60+; no experience required"
+        extraction_context: "Classes serve Ages 6–60+, All Levels. No prior dance experience required for beginners."
+    overreach_flag: false
+    single_source: true
+
+  - id: c062
+    text: "Chhandam 2026 Winter-Spring session ran January 18 through May 20, 2026"
+    type: temporal
+    priority: should_verify
+    entity: chhandam-chitresh-das-institute
+    question_id: QG002
+    sources:
+      - file: raw/web/official/2026-04-22_chitreshdasinstitute-kathak.md
+        url: https://www.chitreshdasinstitute.org/
+        tier: L1-official
+        extracted_value: "January 18 – May 20, 2026"
+        extraction_context: "The 2026 Winter-Spring session runs January 18 – May 20, 2026."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: eds-dance / kpop-hiphop-studios
+  # ============================================================
+
+  - id: c063
+    text: "EDS Dance (Enjoy Dance Studio) was founded in 2016 and describes itself as the largest Asian-owned dance studio in the Bay Area with four locations: San Francisco, San Mateo, East Bay, and South Bay"
+    type: categorical
+    priority: should_verify
+    entity: eds-dance
+    question_id: QG003
+    sources:
+      - file: raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+        url: https://www.eds.dance/about/studio
+        tier: L3-aggregator
+        extracted_value: "Founded 2016; 4 locations; self-described largest Asian-owned"
+        extraction_context: "Founded: 2016. Description: 'The largest Asian-owned dance studio in the Bay Area.' Locations: San Francisco, San Mateo, East Bay, South Bay."
+    overreach_flag: true
+    overreach_reason: "'Largest Asian-owned dance studio in the Bay Area' is a self-promotional claim from the studio's own website. No independent source verifies this claim."
+    single_source: true
+
+  - id: c064
+    text: "Rae Studios (SF) partners with San Francisco Recreation & Parks to offer free K-Pop dance classes at the SF Fitness Court for all ages and abilities"
+    type: categorical
+    priority: should_verify
+    entity: eds-dance
+    question_id: QG003
+    sources:
+      - file: raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+        url: https://www.eds.dance/about/studio
+        tier: L3-aggregator
+        extracted_value: "free K-Pop with SF Rec & Parks"
+        extraction_context: "Rae Studios: Partners with San Francisco Recreation & Parks to offer free K-Pop dance classes at the SF Fitness Court for all ages, abilities, and levels."
+    overreach_flag: false
+    single_source: true
+
+  - id: c065
+    text: "In the Groove Studios (Oakland) was founded in 2010; located at 605 9th Street, Oakland, CA 94607; drop-in class price is $20"
+    type: numerical
+    priority: must_verify
+    entity: eds-dance
+    question_id: QG006
+    sources:
+      - file: raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+        url: https://inthegroovestudios.org/
+        tier: L3-aggregator
+        extracted_value: "Founded 2010; 605 9th St Oakland; $20 drop-in"
+        extraction_context: "In the Groove Studios: Founded: 2010. Address: 605 9th Street, Oakland, CA 94607. Drop-in pricing: $20 per class."
+    overreach_flag: false
+    single_source: true
+
+  - id: c066
+    text: "Spark of Creation Studio offers K-POP Hip Hop Summer Camp for ages 7-10 and ages 11+ in July 2026"
+    type: temporal
+    priority: must_verify
+    entity: eds-dance
+    question_id: QG003
+    sources:
+      - file: raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+        url: https://www.socstudio.com/
+        tier: L3-aggregator
+        extracted_value: "K-POP camp ages 7-10 and 11+, July 2026"
+        extraction_context: "Spark of Creation Studio: K-POP Hip Hop Summer Camp for ages 7–10 and ages 11+ (July 2026)"
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: healy-school-irish-dance
+  # ============================================================
+
+  - id: c067
+    text: "Healy School of Irish Dance is located in Larkspur, CA (Marin County); phone (415) 924-9100; in its 5th generation of family operation; founding date is cited as both 1870 and 1902 in different sources"
+    type: temporal
+    priority: must_verify
+    entity: healy-school-irish-dance
+    question_id: QG004
+    sources:
+      - file: raw/web/review/2026-04-22_irish-dance-bay-area.md
+        url: https://healyirishdancers.com/class-information/
+        tier: L1-official
+        extracted_value: "Larkspur CA; (415) 924-9100; 1870 or 1902; 5th generation"
+        extraction_context: "Location: Larkspur, California (Marin County). Phone: (415) 924-9100. Founded: 1870 (also cited as 1902 in some sources for Bay Area operations); now in its 5th generation of family operation."
+    conflict_note: "Two founding dates: 1870 and 1902. UICC SF says 'opened in 1902'; source document notes possible discrepancy. Requires direct verification with school."
+    overreach_flag: false
+    single_source: true
+
+  - id: c068
+    text: "Healy School of Irish Dance new intro classes begin every 8 to 10 weeks for children ages 4-15; no dance experience necessary"
+    type: process
+    priority: should_verify
+    entity: healy-school-irish-dance
+    question_id: QG004
+    sources:
+      - file: raw/web/review/2026-04-22_irish-dance-bay-area.md
+        url: https://healyirishdancers.com/class-information/
+        tier: L1-official
+        extracted_value: "every 8-10 weeks; ages 4-15; no experience needed"
+        extraction_context: "'New Intro to Irish Dance Classes begin every 8 to 10 weeks for children ages 4–15. No dance experience necessary!'"
+    overreach_flag: false
+    single_source: true
+
+  - id: c069
+    text: "Competitive Irish dance solo costumes at higher competitive levels can cost $500-$2,000+; competitive wigs are also required at advanced levels"
+    type: numerical
+    priority: should_verify
+    entity: healy-school-irish-dance
+    question_id: QG004
+    sources:
+      - file: raw/web/review/2026-04-22_irish-dance-bay-area.md
+        url: https://healyirishdancers.com/class-information/
+        tier: L1-official
+        extracted_value: "$500-$2,000+ for solo costumes"
+        extraction_context: "competitive Irish dance involves significant costume costs (costumes can reach $500–$2,000+ for solo costumes at higher competitive levels). Competitive wigs are also required at advanced levels."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: aileycamp
+  # ============================================================
+
+  - id: c070
+    text: "AileyCamp Berkeley/Oakland (hosted by Cal Performances) is free for accepted students; serves ages 11-14; Summer 2026 dates are June 15-July 24, 2026, 8:30am-3:30pm daily"
+    type: numerical
+    priority: must_verify
+    entity: aileycamp
+    question_id: Q024
+    sources:
+      - file: raw/web/review/2026-04-22_summer-intensives-bay-area.md
+        url: https://calperformances.org/community/aileycamp/
+        tier: L1-official
+        extracted_value: "FREE; ages 11-14; June 15-July 24, 2026"
+        extraction_context: "AileyCamp: Cost: FREE (selected youth only). Ages: 11-14. Summer 2026 dates: June 15–July 24, 2026, 8:30am–3:30pm daily."
+      - file: raw/web/review/2026-04-22_affordable-dance-bay-area.md
+        url: https://calperformances.org/community/aileycamp/
+        tier: L1-official
+        extracted_value: "FREE; June 15-July 24, 2026"
+        extraction_context: "AileyCamp Berkeley/Oakland: COMPLETELY FREE for accepted students. Ages 11-14 only. June 15-July 24, 2026"
+    overreach_flag: false
+
+  - id: c071
+    text: "AileyCamp curriculum includes African dance, Ballet, Jazz, Modern dance, Creative Communication, and Personal Development; six weeks, full-day program"
+    type: categorical
+    priority: should_verify
+    entity: aileycamp
+    question_id: Q024
+    sources:
+      - file: raw/web/review/2026-04-22_summer-intensives-bay-area.md
+        url: https://calperformances.org/community/aileycamp/
+        tier: L1-official
+        extracted_value: "African dance, Ballet, Jazz, Modern, Creative Communication, Personal Development; 6 weeks"
+        extraction_context: "Format: Joyful and rigorous six-week program. Curriculum: African dance, Ballet, Jazz, Modern dance, Creative Communication, Personal Development; field trips, guest workshops, special events."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: competitive-dance (general)
+  # ============================================================
+
+  - id: c072
+    text: "Competitive dance annual cost easily starts at $1,500 and can far exceed $10,000; mid-level to serious competitive dancer spends $8,000-$20,000+ per season"
+    type: numerical
+    priority: must_verify
+    entity: competitive-dance
+    question_id: Q016
+    sources:
+      - file: raw/web/review/2026-04-22_danceparent101-competitive-costs.md
+        url: https://danceparent101.com/how-much-it-costs-one-family-for-a-year-of-competitive-dance/
+        tier: L3-aggregator
+        extracted_value: "starts at $1,500; $8,000-$20,000+ for mid-to-serious"
+        extraction_context: "'The cost of Competitive dance in the USA easily starts with prices in the $1,500 range and can far exceed $10,000 annually.' More commonly cited range: $8,000–$20,000+ per season for a mid-level to serious competitive dancer."
+    overreach_flag: false
+    single_source: true
+
+  - id: c073
+    text: "Full competitive dance annual cost breakdown (Second Stage Dance): base tuition $2,000-$5,000; competition fees $3,000-$8,000; travel $1,500-$7,500; conventions/workshops $500-$2,000; private lessons $500-$2,000; miscellaneous $300-$800; grand total $7,800-$25,300+ annually"
+    type: numerical
+    priority: must_verify
+    entity: competitive-dance
+    question_id: Q016
+    sources:
+      - file: raw/web/review/2026-04-22_danceparent101-competitive-costs.md
+        url: https://danceparent101.com/how-much-it-costs-one-family-for-a-year-of-competitive-dance/
+        tier: L3-aggregator
+        extracted_value: "$7,800-$25,300+ total; itemized breakdown"
+        extraction_context: "Full annual estimate: Base tuition: $2,000-$5,000/year; Competition fees: $3,000-$8,000/year; Travel: $1,500-$7,500; Conventions: $500-$2,000; Private lessons: $500-$2,000; Miscellaneous: $300-$800. Grand total range: $7,800 to $25,300+ annually."
+    overreach_flag: false
+    single_source: true
+
+  - id: c074
+    text: "From ages 3 to 18, a competitive dancer could rack up over $100,000 in total expenses"
+    type: numerical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q016
+    sources:
+      - file: raw/web/review/2026-04-22_danceparent101-competitive-costs.md
+        url: https://danceparent101.com/how-much-it-costs-one-family-for-a-year-of-competitive-dance/
+        tier: L3-aggregator
+        extracted_value: "over $100,000 from ages 3-18"
+        extraction_context: "From ages 3 to 18, a competitive dancer could easily rack up over $100,000 in total expenses."
+      - file: raw/web/review/2026-04-22_recreational-vs-competitive-comparison.md
+        url: https://cdmdance.com/recreational-vs-competitive-dancing-what-parents-should-know/
+        tier: L3-aggregator
+        extracted_value: "easily over $100,000 lifetime"
+        extraction_context: "Lifetime total estimate: From ages 3-18, easily over $100,000"
+    overreach_flag: false
+
+  - id: c075
+    text: "Recreational dance typical cost is $100-$300/month tuition plus $50-$150 recital costume annually; competitive dance tuition is $200-$600/month for multiple classes per week"
+    type: numerical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q016
+    sources:
+      - file: raw/web/review/2026-04-22_recreational-vs-competitive-comparison.md
+        url: https://cdmdance.com/recreational-vs-competitive-dancing-what-parents-should-know/
+        tier: L3-aggregator
+        extracted_value: "Recreational: $100-$300/mo + $50-$150 costume; Competitive: $200-$600/mo"
+        extraction_context: "Recreational: Typical range: $100-$300/month tuition + $50-$150 recital costume annually. Competitive: Tuition for multiple classes per week: $200-$600/month."
+    overreach_flag: false
+    single_source: true
+
+  - id: c076
+    text: "Competitive dancers typically spend 4 to over 15 hours per week at the studio, with travel to 3-6 regional and sometimes national competitions per year"
+    type: numerical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q029
+    sources:
+      - file: raw/web/review/2026-04-22_recreational-vs-competitive-comparison.md
+        url: https://cdmdance.com/recreational-vs-competitive-dancing-what-parents-should-know/
+        tier: L3-aggregator
+        extracted_value: "4-15+ hours/week; 3-6 competitions/year"
+        extraction_context: "Competitive dancers can spend anywhere from 4 to over 15 hours per week at the studio. Travel to 3-6 regional and sometimes national competitions throughout the year."
+    overreach_flag: false
+    single_source: true
+
+  - id: c077
+    text: "Dance competition scoring: 3 judges each score out of 100 points (300 total); Technique 40 pts, Performance 30 pts, Choreography 15 pts, Presentation 10 pts, Overall Impression 5 pts"
+    type: categorical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q020
+    sources:
+      - file: raw/web/review/2026-04-22_danceparent101-competitions-explained.md
+        url: https://danceparent101.com/dance-competitions-explained-everything-you-want-to-know/
+        tier: L3-aggregator
+        extracted_value: "100 pts per judge x 3 = 300; breakdown by category"
+        extraction_context: "Judges evaluate routines out of 100 points each. Three judges combined = 300 total. Technique (40 points), Performance (30 points), Choreography (15 points), Presentation (10 points), Overall Impression (5 points)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c078
+    text: "NYCDA competition age divisions are: Petite (8 & Under), Junior (9-11), Teen (12-14), Senior (15-19), Adult (20+)"
+    type: categorical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q020
+    sources:
+      - file: raw/web/review/2026-04-22_danceparent101-competitions-explained.md
+        url: https://danceparent101.com/dance-competitions-explained-everything-you-want-to-know/
+        tier: L3-aggregator
+        extracted_value: "Petite 8&Under; Junior 9-11; Teen 12-14; Senior 15-19; Adult 20+"
+        extraction_context: "Age Divisions: Petite: 8 & Under; Junior: 9-11; Teen: 12-14; Senior: 15-19; Adult: 20+"
+    overreach_flag: false
+    single_source: true
+
+  - id: c079
+    text: "California Dance Classics (CDC) 2026 Bay Area schedule is March 25-29 at Mountain View Center for the Performing Arts; Los Angeles schedule is March 4-8 at Downey Theatre"
+    type: temporal
+    priority: must_verify
+    entity: competitive-dance
+    question_id: Q020
+    sources:
+      - file: raw/web/review/2026-04-22_competition-organizations-bay-area.md
+        url: https://www.californiadanceclassics.org/san-francisco
+        tier: L1-official
+        extracted_value: "Mar 25-29 2026 Mountain View; Mar 4-8 2026 Downey"
+        extraction_context: "Bay Area 2026 Schedule: March 25-29, 2026: Mountain View Center for the Performing Arts. Los Angeles 2026: March 4-8, 2026: Downey Theatre."
+    overreach_flag: false
+    single_source: true
+
+  - id: c080
+    text: "NYCDA Bay Area regional competition is held in Santa Clara"
+    type: categorical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q020
+    sources:
+      - file: raw/web/review/2026-04-22_competition-organizations-bay-area.md
+        url: https://www.nycdance.com/cities/santa-clara
+        tier: L1-official
+        extracted_value: "Santa Clara regional"
+        extraction_context: "NYCDA: Bay Area Location: Santa Clara regional competition."
+    overreach_flag: false
+    single_source: true
+
+  - id: c081
+    text: "Typical competition season: September-October season begins and studios form teams; November-January intensive rehearsals; February-April peak regional season; May-June nationals; July-August summer conventions and off-season"
+    type: categorical
+    priority: should_verify
+    entity: competitive-dance
+    question_id: Q022
+    sources:
+      - file: raw/web/review/2026-04-22_competition-organizations-bay-area.md
+        url: https://www.californiadanceclassics.org/san-francisco
+        tier: L1-official
+        extracted_value: "Sep-Jun season structure; Jul-Aug off-season"
+        extraction_context: "September-October: Season begins... November-January: Intensive rehearsals... February-April: Peak regional competition season... May-June: National competitions... July-August: Summer conventions; off-season."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: costs-recreational
+  # ============================================================
+
+  - id: c082
+    text: "Recreational dance at community centers or non-profit studios costs approximately $80-$180 per month for one class per week in the Bay Area"
+    type: numerical
+    priority: should_verify
+    entity: costs-recreational
+    question_id: Q015
+    sources:
+      - file: raw/web/review/2026-04-22_affordable-dance-bay-area.md
+        url: https://www.jccsf.org/financial-assistance/
+        tier: L1-official
+        extracted_value: "$80-$180/month for 1 class/week"
+        extraction_context: "Cost Benchmark: Recreational dance at community centers or non-profit studios: approximately $80-$180/month for one class/week."
+    overreach_flag: false
+    single_source: true
+
+  - id: c083
+    text: "Sliding scale or scholarship dance programs in the Bay Area cost $5-$150 per month depending on income"
+    type: numerical
+    priority: should_verify
+    entity: costs-recreational
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-22_affordable-dance-bay-area.md
+        url: https://www.jccsf.org/financial-assistance/
+        tier: L1-official
+        extracted_value: "$5-$150/month sliding scale"
+        extraction_context: "Sliding scale or scholarship programs: $5-$150/month depending on income."
+    overreach_flag: false
+    single_source: true
+
+  - id: c084
+    text: "Sambaxe SF (Brazilian samba) offers sliding scale pricing: Youth and Students $5; Adults & Families $10; classes Fridays 5:30pm-7pm; 'No one turned away for lack of funds' policy"
+    type: numerical
+    priority: must_verify
+    entity: costs-recreational
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-22_affordable-dance-bay-area.md
+        url: https://sambaxedancesf.com
+        tier: L1-official
+        extracted_value: "Youth $5; Adults $10; Fridays 5:30-7pm"
+        extraction_context: "Sambaxé: Sliding scale pricing: Youth and Students $5; Adults & Families $10. Classes Fridays 5:30pm-7pm. 'No one turned away for lack of funds' policy."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: injury-prevention
+  # ============================================================
+
+  - id: c085
+    text: "The majority of dance injuries in children occur in the feet or ankles, with additional frequent injuries to hips, knees, and lower back (Cincinnati Children's Hospital)"
+    type: categorical
+    priority: should_verify
+    entity: injury-prevention
+    question_id: Q032
+    sources:
+      - file: raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+        url: https://blog.cincinnatichildrens.org/safety-and-prevention/youth-dance-injuries-how-to-identify-the-issue/
+        tier: L2-authoritative
+        extracted_value: "feet/ankles most common; also hips, knees, lower back"
+        extraction_context: "The majority occur in the feet or ankles, with additional frequent injuries to: Ankles, Hips, Knees, Lower back."
+    overreach_flag: false
+    single_source: true
+
+  - id: c086
+    text: "Growth spurts lasting 18-24 months reduce flexibility and control, placing stress on developing growth plates (Cincinnati Children's Hospital)"
+    type: causal
+    priority: may_skip
+    entity: injury-prevention
+    question_id: Q032
+    sources:
+      - file: raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+        url: https://blog.cincinnatichildrens.org/safety-and-prevention/youth-dance-injuries-how-to-identify-the-issue/
+        tier: L2-authoritative
+        extracted_value: "18-24 month growth spurts reduce flexibility"
+        extraction_context: "Growth Spurts: Rapid growth lasting 18-24 months reduces flexibility and control over longer limbs, placing stress on developing growth plates."
+    overreach_flag: false
+    single_source: true
+
+  - id: c087
+    text: "The final epiphysis (growth plate) closes at an average age of 16 years in boys and 14 years in girls (IADMS/BMC research)"
+    type: numerical
+    priority: should_verify
+    entity: injury-prevention
+    question_id: Q032
+    sources:
+      - file: raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9234256/
+        tier: L2-authoritative
+        extracted_value: "age 16 boys; age 14 girls"
+        extraction_context: "The final epiphysis to close does so at an average age of 16 years in boys and 14 years in girls."
+    overreach_flag: false
+    single_source: true
+
+  - id: c088
+    text: "Minimum pointe shoe readiness: at least 11 years old (12 cited as safer in most literature); minimum 3-4 years of ballet with at least 2 hours per week; feet do not fully ossify until approximately 13-15 years old"
+    type: numerical
+    priority: must_verify
+    entity: injury-prevention
+    question_id: Q032
+    sources:
+      - file: raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+        url: https://blog.cincinnatichildrens.org/safety-and-prevention/youth-dance-injuries-how-to-identify-the-issue/
+        tier: L2-authoritative
+        extracted_value: "age 11 min (12 safer); 3-4 years training; ossifies 13-15"
+        extraction_context: "Minimum Requirements: Age: At least 11 years old (most literature cites 12 as safer). Training duration: Minimum 3-4 years of ballet with at least 2 hours of ballet per week. Feet do not fully ossify until approximately 13-15 years old."
+    overreach_flag: false
+    single_source: true
+
+  - id: c089
+    text: "Pointe readiness physical criteria include: able to do 16 relevés in center without stopping; at least 90 degrees of plantar flexion at the ankle"
+    type: numerical
+    priority: should_verify
+    entity: injury-prevention
+    question_id: Q032
+    sources:
+      - file: raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+        url: https://blog.cincinnatichildrens.org/safety-and-prevention/youth-dance-injuries-how-to-identify-the-issue/
+        tier: L2-authoritative
+        extracted_value: "16 relevés; 90 degrees plantar flexion"
+        extraction_context: "Foot and calf strength: Able to do 16 relevés in center without stopping. Ankle flexibility: At least 90 degrees of plantar flexion."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: dance-development
+  # ============================================================
+
+  - id: c090
+    text: "Dance occupied 29 percent of moderate-to-vigorous physical activity (MVPA) during structured classes in a peer-reviewed systematic review (PMC9234256, 2022)"
+    type: numerical
+    priority: should_verify
+    entity: dance-development
+    question_id: Q038
+    sources:
+      - file: raw/web/review/2026-04-22_dance-benefits-research-synthesis.md
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9234256/
+        tier: L2-authoritative
+        extracted_value: "29% of MVPA"
+        extraction_context: "Dance occupied '29 percent of the individual's moderate-to-vigorous physical activity (MVPA)' during structured classes."
+    overreach_flag: false
+    single_source: true
+
+  - id: c091
+    text: "An 8-month dance intervention significantly decreased daytime fatigue (p=0.024) with improvements maintained at follow-up (PMC9234256)"
+    type: numerical
+    priority: may_skip
+    entity: dance-development
+    question_id: Q038
+    sources:
+      - file: raw/web/review/2026-04-22_dance-benefits-research-synthesis.md
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9234256/
+        tier: L2-authoritative
+        extracted_value: "p=0.024; 8-month intervention"
+        extraction_context: "8-month dance intervention significantly decreased daytime fatigue (p = 0.024) with improvements maintained at follow-up."
+    overreach_flag: false
+    single_source: true
+
+  - id: c092
+    text: "Dance improved inhibitory control in 6-7 year-olds and working memory capacity in children, per PMC systematic review (2022)"
+    type: causal
+    priority: may_skip
+    entity: dance-development
+    question_id: Q038
+    sources:
+      - file: raw/web/review/2026-04-22_dance-benefits-research-synthesis.md
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9234256/
+        tier: L2-authoritative
+        extracted_value: "inhibitory control 6-7yr; working memory"
+        extraction_context: "Dance improved 'inhibitory control' in 6-7 year-olds. Choreographed dance developed 'working memory capacity' in children."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: dance-burnout
+  # ============================================================
+
+  - id: c093
+    text: "Recommended maximum training hours by age: ages 5-7 up to 2-4 hours/week; ages 8-10 up to 4-6 hours/week; ages 11-13 up to 15 hours/week for competitive; ages 14-18 competitive may train 15-30 hours/week"
+    type: numerical
+    priority: should_verify
+    entity: dance-burnout
+    question_id: Q033
+    sources:
+      - file: raw/web/review/2026-04-22_dance-burnout-children.md
+        url: https://www.dancewearcenter.net/blog/2021/5/7/importance-recognizing-burnout-x4m46
+        tier: L3-aggregator
+        extracted_value: "5-7: 2-4hrs; 8-10: 4-6hrs; 11-13: up to 15hrs; 14-18: 15-30hrs"
+        extraction_context: "Ages 5-7: 2-4 hours/week maximum. Ages 8-10: 4-6 hours/week maximum. Ages 11-13: 6-10 hours/week for recreational; up to 15 for competitive. Ages 14-18: competitive dancers may do 15-30 hours/week with appropriate conditioning."
+    overreach_flag: false
+    single_source: true
+
+  - id: c094
+    text: "Helpful burnout benchmark: children should not do more hours of organized activity per week than their age in years (e.g., a 6-year-old: maximum 6 hours per week)"
+    type: numerical
+    priority: should_verify
+    entity: dance-burnout
+    question_id: Q033
+    sources:
+      - file: raw/web/review/2026-04-22_dance-burnout-children.md
+        url: https://www.dancewearcenter.net/blog/2021/5/7/importance-recognizing-burnout-x4m46
+        tier: L3-aggregator
+        extracted_value: "hours = child's age as rule of thumb"
+        extraction_context: "A helpful guideline is no more hours of organized activity per week than the child's age. A six-year-old: six hours per week. An eight-year-old: eight hours per week."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: studio-selection-criteria
+  # ============================================================
+
+  - id: c095
+    text: "A good student-to-teacher ratio for a dance studio is 10-12:1; age-appropriate class lengths are 30-45 minutes for young children and 60-90 minutes for advanced students"
+    type: numerical
+    priority: should_verify
+    entity: studio-selection-criteria
+    question_id: Q012
+    sources:
+      - file: raw/web/review/2026-04-22_thebrainyballerina-studio-selection.md
+        url: https://www.thebrainyballerina.com/blog/dance-studio-roadmap-how-to-choose-the-right-studio-for-your-dancer
+        tier: L3-aggregator
+        extracted_value: "10-12:1 ratio; 30-45 min young; 60-90 min advanced"
+        extraction_context: "Student-to-teacher ratio of 10-12:1 is a good sign. Age-appropriate class lengths: 30-45 minutes (young children), 60-90 minutes (advanced)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c096
+    text: "Intermediate/advanced ballet students should have minimum 2-3 ballet classes per week; pointe work without 4+ years of training is a red flag"
+    type: process
+    priority: should_verify
+    entity: studio-selection-criteria
+    question_id: Q012
+    sources:
+      - file: raw/web/review/2026-04-22_thebrainyballerina-studio-selection.md
+        url: https://www.thebrainyballerina.com/blog/dance-studio-roadmap-how-to-choose-the-right-studio-for-your-dancer
+        tier: L3-aggregator
+        extracted_value: "2-3 classes/week minimum; 4+ years before pointe"
+        extraction_context: "Minimum 2-3 ballet classes weekly for intermediate/advanced students. Red flags: Dancers on pointe without 4+ years training."
+    overreach_flag: false
+    single_source: true
+
+  - id: c097
+    text: "Private dance studios operate without standardized oversight; no widely adopted standards exist for age-appropriate choreography, songs, or costumes for children (SCU Markkula Center for Applied Ethics)"
+    type: categorical
+    priority: should_verify
+    entity: studio-selection-criteria
+    question_id: Q013
+    sources:
+      - file: raw/web/review/2026-04-22_hypersexualization-dance-redflags.md
+        url: https://www.scu.edu/ethics/healthcare-ethics-blog/the-ugly-side-of-competitive-dance-harmful-outcomes-and-ethical-concerns/
+        tier: L2-authoritative
+        extracted_value: "no standardized oversight; no adopted age-appropriate standards"
+        extraction_context: "Private dance studios operate without standardized oversight. There are no widely adopted standards for what is developmentally appropriate in terms of songs, steps, or costumes for children in dance."
+      - file: raw/web/review/2026-04-22_competitive-dance-controversy.md
+        url: https://www.scu.edu/ethics/healthcare-ethics-blog/the-ugly-side-of-competitive-dance-harmful-outcomes-and-ethical-concerns/
+        tier: L2-authoritative
+        extracted_value: "no standardized oversight; no enforceable safety framework"
+        extraction_context: "Private dance studios operate without standardized oversight. No widely adopted standards for age-appropriate songs, steps, or costumes. No enforceable safety framework broadly adopted across studios."
+    overreach_flag: false
+
+  # ============================================================
+  # ENTITY: college-dance-pathways
+  # ============================================================
+
+  - id: c098
+    text: "Juilliard Dance BFA program accepts approximately 20-24 dance students per year"
+    type: numerical
+    priority: must_verify
+    entity: college-dance-pathways
+    question_id: QG005
+    sources:
+      - file: raw/web/review/2026-04-22_college-dance-pathways.md
+        url: https://www.collegetransitions.com/blog/best-dance-colleges/
+        tier: L3-aggregator
+        extracted_value: "20-24 students/year"
+        extraction_context: "Juilliard School: accepts approximately 20–24 dance students per year across the entire BFA program."
+      - file: raw/web/review/2026-04-22_college-dance-scholarships-resume.md
+        url: https://kaufman.usc.edu/annes-admission-advice-perfecting-your-dance-resume/
+        tier: L2-authoritative
+        extracted_value: "approximately 20-24 students"
+        extraction_context: "Annual enrollment: Approximately 20–24 students per year."
+    overreach_flag: false
+
+  - id: c099
+    text: "Juilliard Dance BFA admission requires minimum 3 years experience in both ballet and modern dance, and currently training minimum 10 hours per week"
+    type: process
+    priority: should_verify
+    entity: college-dance-pathways
+    question_id: QG005
+    sources:
+      - file: raw/web/review/2026-04-22_college-dance-pathways.md
+        url: https://www.collegetransitions.com/blog/best-dance-colleges/
+        tier: L3-aggregator
+        extracted_value: "3 years ballet+modern; 10 hrs/week minimum"
+        extraction_context: "Requirements: Minimum 3 years experience in both ballet and modern dance vocabulary. Currently training minimum 10 hours per week."
+    overreach_flag: false
+    single_source: true
+
+  - id: c100
+    text: "USC Glorya Kaufman School of Dance accepts approximately 30-40 students per year and requires an in-person audition"
+    type: numerical
+    priority: must_verify
+    entity: college-dance-pathways
+    question_id: QG005
+    sources:
+      - file: raw/web/review/2026-04-22_college-dance-pathways.md
+        url: https://www.collegetransitions.com/blog/best-dance-colleges/
+        tier: L3-aggregator
+        extracted_value: "30-40 students/year; in-person audition required"
+        extraction_context: "USC Kaufman School of Dance: accepts approximately 30–40 students per year; requires in-person audition."
+    overreach_flag: false
+    single_source: true
+
+  - id: c101
+    text: "Most professional company dance jobs in the US pay $30,000-$80,000 per year"
+    type: numerical
+    priority: should_verify
+    entity: college-dance-pathways
+    question_id: Q028
+    sources:
+      - file: raw/web/review/2026-04-22_college-dance-scholarships-resume.md
+        url: https://kaufman.usc.edu/annes-admission-advice-perfecting-your-dance-resume/
+        tier: L2-authoritative
+        extracted_value: "$30,000-$80,000/year"
+        extraction_context: "Professional company dancer: Highly competitive; most company jobs in the US pay $30,000-$80,000/year."
+    overreach_flag: false
+    single_source: true
+
+  - id: c102
+    text: "Most professional company dancers peak between ages 25-35"
+    type: categorical
+    priority: may_skip
+    entity: college-dance-pathways
+    question_id: Q028
+    sources:
+      - file: raw/web/review/2026-04-22_college-dance-scholarships-resume.md
+        url: https://kaufman.usc.edu/annes-admission-advice-perfecting-your-dance-resume/
+        tier: L2-authoritative
+        extracted_value: "peak ages 25-35"
+        extraction_context: "Most professional company dancers peak ages 25-35."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: pre-professional-path
+  # ============================================================
+
+  - id: c103
+    text: "Pre-professional dance training daily schedules can include 5-10 hours of classes and rehearsals per day"
+    type: numerical
+    priority: should_verify
+    entity: pre-professional-path
+    question_id: Q026
+    sources:
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://cpyb.org/what-is-a-pre-professional-dancer/
+        tier: L2-authoritative
+        extracted_value: "5-10 hours per day"
+        extraction_context: "Daily schedules can include 5-10 hours of classes and rehearsals per day in technique, pointe, men's work, repertoire, variations, pas de deux, contemporary and stylistic dance, stretch and strengthening, mental skills training."
+    overreach_flag: false
+    single_source: true
+
+  - id: c104
+    text: "A child who begins serious dance training at ages 10-12 can still reach pre-professional level by late teens if naturally gifted and well-trained (CPYB)"
+    type: causal
+    priority: may_skip
+    entity: pre-professional-path
+    question_id: Q026
+    sources:
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://cpyb.org/what-is-a-pre-professional-dancer/
+        tier: L2-authoritative
+        extracted_value: "10-12 late start still viable"
+        extraction_context: "Late starters can catch up. A child who begins serious training at 10-12 can still reach pre-professional level by late teens if naturally gifted and trained well."
+    overreach_flag: false
+    single_source: true
+
+  - id: c105
+    text: "Royal Ballet School (2025) and IADMS support early diversification over early specialization; specialization in serious ballet/dance is generally appropriate at ages 10-14"
+    type: categorical
+    priority: should_verify
+    entity: pre-professional-path
+    question_id: Q039
+    sources:
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://www.royalballetschool.org.uk/2025/08/07/the-evolution-of-ballet-training-considering-whats-beyond-early-specialisation/
+        tier: L2-authoritative
+        extracted_value: "specialization appropriate at 10-14; early diversification recommended"
+        extraction_context: "Specialization in serious ballet/dance training: ages 10-14 is generally appropriate. Earlier specialization only justified at explicitly elite programs (SF Ballet School, CBSF) with world-class faculty. Growing evidence supports early diversification over early specialization."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: starting-age
+  # ============================================================
+
+  - id: c106
+    text: "Optimal starting age for competitive dance is 7-10 years; some children begin as early as 5-6 (Tiffany's Dance Academy, NorthPointe Dance Academy)"
+    type: numerical
+    priority: should_verify
+    entity: starting-age
+    question_id: Q009
+    sources:
+      - file: raw/web/official/2026-04-22_tiffanydance-competitive-age.md
+        url: https://www.tiffanydance.com/blog/when-should-kids-start-competitive-dance
+        tier: L1-official
+        extracted_value: "optimal 7-10; as early as 5-6"
+        extraction_context: "Optimal timeframe suggested: ages 7-10. Some children begin as early as 5-6 years old."
+      - file: raw/web/review/2026-04-22_northpointedance-starting-age.md
+        url: https://northpointedance.com/what-age-should-my-child-start-dance-a-parents-guide-to-getting-started/
+        tier: L3-aggregator
+        extracted_value: "ages 7-10 for competitive"
+        extraction_context: "For competitive dance, ages 7-10 are the suggested optimal window."
+    overreach_flag: false
+
+  - id: c107
+    text: "Ages 6-8 is generally recommended for formal ballet training when bone structure is mature enough for the demands"
+    type: categorical
+    priority: should_verify
+    entity: starting-age
+    question_id: Q009
+    sources:
+      - file: raw/web/review/2026-04-22_northpointedance-starting-age.md
+        url: https://northpointedance.com/what-age-should-my-child-start-dance-a-parents-guide-to-getting-started/
+        tier: L3-aggregator
+        extracted_value: "ages 6-8 for formal ballet"
+        extraction_context: "Ages 6-8: Most experts suggest this as a good time for formal ballet training when bone structure is mature enough for demands."
+    overreach_flag: false
+    single_source: true
+
+  - id: c108
+    text: "Pointe work typically begins around age 12 after 4+ years of solid ballet training; pre-pointe readiness evaluation occurs around ages 10-12"
+    type: numerical
+    priority: should_verify
+    entity: starting-age
+    question_id: Q010
+    sources:
+      - file: raw/web/review/2026-04-22_dance-progression-timeline-synthesis.md
+        url: https://blog.joffreyballetschool.com/
+        tier: L3-aggregator
+        extracted_value: "pointe around age 12; 4+ years training"
+        extraction_context: "Transition to pointe typically around age 12 or Level 5 (after 4+ years of solid training). Pre-pointe readiness evaluation occurs around ages 10-12."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: academy-of-ballet-sf
+  # ============================================================
+
+  - id: c109
+    text: "Academy of Ballet San Francisco is directed by Zory Karah (trained in Israel, Paris, London, Cannes); located at 2121 Market St, San Francisco, CA 94114; phone (415) 552-1166"
+    type: categorical
+    priority: should_verify
+    entity: academy-of-ballet-sf
+    question_id: Q031
+    sources:
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://cpyb.org/what-is-a-pre-professional-dancer/
+        tier: L2-authoritative
+        extracted_value: "Director Zory Karah; 2121 Market St SF; (415) 552-1166"
+        extraction_context: "Academy of Ballet San Francisco: Director: Zory Karah (trained in Israel, Paris, London, Cannes). Location: 2121 Market St, San Francisco, CA 94114 | (415) 552-1166."
+    overreach_flag: false
+    single_source: true
+
+  - id: c110
+    text: "Academy of Ballet SF alumni reportedly include dancers now in NYC Ballet, ABT, Joffrey, SF Ballet, Houston Ballet, and international companies"
+    type: categorical
+    priority: should_verify
+    entity: academy-of-ballet-sf
+    question_id: Q031
+    sources:
+      - file: raw/web/review/2026-04-22_pre-professional-ballet-path.md
+        url: https://cpyb.org/what-is-a-pre-professional-dancer/
+        tier: L2-authoritative
+        extracted_value: "NYC Ballet, ABT, Joffrey, SF Ballet, Houston Ballet, international"
+        extraction_context: "Academy of Ballet San Francisco: Alumni: NYC Ballet, ABT, Joffrey, SF Ballet, Houston Ballet, international companies."
+    overreach_flag: true
+    overreach_reason: "Alumni placement list comes from an L2 synthesis source (not directly from Academy of Ballet SF's own published materials). The source does not indicate how this information was verified."
+    single_source: true
+
+  # ============================================================
+  # ENTITY: bay-area-studios-general
+  # ============================================================
+
+  - id: c111
+    text: "Bay Area Parent 2025 Best Dance Classes: East Bay Gold is Mr. D's Music Club (Oakland); Silver is B*Dazzled Dancers (San Leandro); Bronze is In Motion Dance Center (Martinez)"
+    type: categorical
+    priority: may_skip
+    entity: bay-area-studios-general
+    question_id: Q007
+    sources:
+      - file: raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+        url: https://www.bayareaparent.com/best-dance-classes-in-the-bay-area/
+        tier: L3-aggregator
+        extracted_value: "Gold: Mr. D's; Silver: B*Dazzled; Bronze: In Motion"
+        extraction_context: "EAST BAY: Gold: Mr. D's Music Club. Silver: B*Dazzled Dancers. Bronze: In Motion Dance Center, Martinez."
+    overreach_flag: false
+    single_source: true
+
+  - id: c112
+    text: "Bay Area Parent 2025 Best Dance Classes: Peninsula Gold is San Carlos Children's Theater; Silver is Principal Creative & Performing Arts (San Mateo); Bronze is Broadway Babies & Kids (Belmont/Foster City)"
+    type: categorical
+    priority: may_skip
+    entity: bay-area-studios-general
+    question_id: Q006
+    sources:
+      - file: raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+        url: https://www.bayareaparent.com/best-dance-classes-in-the-bay-area/
+        tier: L3-aggregator
+        extracted_value: "Gold: San Carlos Children's Theater; Silver: Principal Arts; Bronze: Broadway Babies"
+        extraction_context: "PENINSULA: Gold: San Carlos Children's Theater. Silver: Principal Creative & Performing Arts. Bronze: Broadway Babies & Kids."
+    overreach_flag: false
+    single_source: true
+
+  - id: c113
+    text: "Bay Area Parent 2025 Best Dance Classes: Silicon Valley Gold is West Valley Dance Company (35+ years operating; ages 18 months+; multiple San Jose and Mountain View locations)"
+    type: categorical
+    priority: should_verify
+    entity: bay-area-studios-general
+    question_id: Q006
+    sources:
+      - file: raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+        url: https://www.bayareaparent.com/best-dance-classes-in-the-bay-area/
+        tier: L3-aggregator
+        extracted_value: "Gold: West Valley Dance Company; 35+ years; ages 18 months+"
+        extraction_context: "SILICON VALLEY: Gold: West Valley Dance Company. This dance company has been in operation for over 35 years, offering classes for children aged 18 months and above."
+    overreach_flag: false
+    single_source: true
+
+  - id: c114
+    text: "Love2Dance (Novato) won Silver in Bay Area Parent 2025 Best of the Best (SF/Marin category); serves ages 14 months and up; phone (415) 898-3933"
+    type: categorical
+    priority: may_skip
+    entity: bay-area-studios-general
+    question_id: Q008
+    sources:
+      - file: raw/web/review/2026-04-22_marinmommies-dance-studios.md
+        url: https://www.marinmommies.com/ballet-and-dance-classes-kids-marin-and-san-francisco
+        tier: L3-aggregator
+        extracted_value: "Silver, Bay Area Parent 2025; ages 14 months+; (415) 898-3933"
+        extraction_context: "Love2Dance: Silver winner, Bay Area Parent 2025 Best of the Best (SF/Marin category). Ages: 14 months and up. Contact: (415) 898-3933"
+    overreach_flag: false
+
+  - id: c115
+    text: "Tiffany's Dance Academy operates three Northern California locations including South San Francisco and Livermore; offers classes for kids ages 2 and up"
+    type: categorical
+    priority: should_verify
+    entity: bay-area-studios-general
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-22_tiffanydance-competitive-age.md
+        url: https://www.tiffanydance.com/blog/when-should-kids-start-competitive-dance
+        tier: L1-official
+        extracted_value: "3 N. California locations incl. S. San Francisco, Livermore; ages 2+"
+        extraction_context: "Tiffany's Dance Academy operates three Northern California locations (including South San Francisco and Livermore). Classes for kids ages 2 and up."
+    overreach_flag: false
+    single_source: true
+
+  - id: c116
+    text: "Marin Dance Theatre serves ages 18 months to 9+ in San Rafael and Corte Madera; phone (415) 499-8891"
+    type: categorical
+    priority: may_skip
+    entity: bay-area-studios-general
+    question_id: Q008
+    sources:
+      - file: raw/web/review/2026-04-22_marinmommies-dance-studios.md
+        url: https://www.marinmommies.com/ballet-and-dance-classes-kids-marin-and-san-francisco
+        tier: L3-aggregator
+        extracted_value: "ages 18 months to 9+; (415) 499-8891; San Rafael & Corte Madera"
+        extraction_context: "Marin Dance Theatre: Ages: 18 months to 9+ years. Contact: (415) 499-8891"
+    overreach_flag: false
+    single_source: true
+
+  - id: c117
+    text: "FUNKMODE offers hip-hop dance for ages 3 through adult and partners with local schools to bring hip-hop and breakdance as after-school enrichment"
+    type: categorical
+    priority: should_verify
+    entity: bay-area-studios-general
+    question_id: QG006
+    sources:
+      - file: raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+        url: https://www.funkmode.com/
+        tier: L3-aggregator
+        extracted_value: "ages 3+; school partnerships for hip-hop/breakdance"
+        extraction_context: "FUNKMODE: Ages: 3 to adult; no experience necessary. Partners with many local schools to bring hip-hop and breakdance classes to hundreds of kids as after-school enrichment activities."
+    overreach_flag: false
+    single_source: true
+
+  - id: c118
+    text: "Breaking (breakdancing) became an Olympic sport at the Paris 2024 Olympics"
+    type: temporal
+    priority: should_verify
+    entity: bay-area-studios-general
+    question_id: QG006
+    sources:
+      - file: raw/web/review/2026-04-22_boys-dance-additional-styles.md
+        url: https://www.berkeleyparentsnetwork.org/recommend/classes/jazzhiphop
+        tier: L3-aggregator
+        extracted_value: "Olympic sport Paris 2024"
+        extraction_context: "Breaking became an Olympic sport in Paris 2024, which has increased cultural legitimacy and enrollment interest among boys."
+    overreach_flag: false
+    single_source: true
+
+  # ============================================================
+  # ENTITY: ballet-pedagogy
+  # ============================================================
+
+  - id: c119
+    text: "RAD (Royal Academy of Dance) graded exams run Pre-Primary through Grade 8, then vocational tiers up to Advanced 2; examiners travel to participating studios"
+    type: categorical
+    priority: may_skip
+    entity: ballet-pedagogy
+    question_id: Q004
+    sources:
+      - file: raw/web/review/2026-04-22_balancedballerinas-ballet-methods.md
+        url: https://www.balancedballerinas.com/blog/the-difference-between-russian-english-and-french-styles-of-ballet
+        tier: L3-aggregator
+        extracted_value: "Pre-Primary through Grade 8, then vocational to Advanced 2; traveling examiners"
+        extraction_context: "RAD: Structured with graded exams: Pre-Primary through Grade 8, then vocational tiers up to Advanced 2. Examiners travel to participating studios to assess students."
+    overreach_flag: false
+    single_source: true
+
+  - id: c120
+    text: "Vaganova method does not use external exams — progress is measured internally; RAD and Cecchetti offer external exam certifications providing benchmarks"
+    type: categorical
+    priority: may_skip
+    entity: ballet-pedagogy
+    question_id: Q004
+    sources:
+      - file: raw/web/review/2026-04-22_balancedballerinas-ballet-methods.md
+        url: https://www.balancedballerinas.com/blog/the-difference-between-russian-english-and-french-styles-of-ballet
+        tier: L3-aggregator
+        extracted_value: "Vaganova: internal only; RAD/Cecchetti: external certs"
+        extraction_context: "Vaganova does not use external exams; progress measured internally. RAD and Cecchetti offer external exam certifications that provide benchmarks."
+    overreach_flag: false
+    single_source: true
+
+# ============================================================
+# COVERAGE SUMMARY
+# ============================================================
+
+coverage_summary:
+  by_entity:
+    sf-ballet-school:
+      total_claims: 12
+      must_verify: 7
+      should_verify: 3
+      may_skip: 2
+      overreach_flags: 0
+
+    city-ballet-sf:
+      total_claims: 7
+      must_verify: 2
+      should_verify: 4
+      may_skip: 1
+      overreach_flags: 0
+
+    odc-school:
+      total_claims: 13
+      must_verify: 5
+      should_verify: 5
+      may_skip: 3
+      overreach_flags: 0
+
+    marin-ballet:
+      total_claims: 5
+      must_verify: 1
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 0
+
+    new-ballet-san-jose:
+      total_claims: 5
+      must_verify: 1
+      should_verify: 4
+      may_skip: 0
+      overreach_flags: 0
+
+    shawl-anderson-dance-center:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    east-bay-dance-company:
+      total_claims: 4
+      must_verify: 2
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    dance-academy-usa:
+      total_claims: 4
+      must_verify: 0
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 1
+
+    jccsf-dance-school:
+      total_claims: 4
+      must_verify: 2
+      should_verify: 1
+      may_skip: 1
+      overreach_flags: 0
+
+    star-dance-studio-sf:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    chhandam-chitresh-das-institute:
+      total_claims: 4
+      must_verify: 0
+      should_verify: 2
+      may_skip: 2
+      overreach_flags: 0
+
+    eds-dance:
+      total_claims: 4
+      must_verify: 1
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 1
+
+    healy-school-irish-dance:
+      total_claims: 3
+      must_verify: 1
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    aileycamp:
+      total_claims: 2
+      must_verify: 1
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+
+    competitive-dance:
+      total_claims: 10
+      must_verify: 3
+      should_verify: 7
+      may_skip: 0
+      overreach_flags: 0
+
+    costs-recreational:
+      total_claims: 3
+      must_verify: 1
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    injury-prevention:
+      total_claims: 5
+      must_verify: 1
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 0
+
+    dance-development:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 1
+      may_skip: 2
+      overreach_flags: 0
+
+    dance-burnout:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+
+    studio-selection-criteria:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 3
+      may_skip: 0
+      overreach_flags: 0
+
+    college-dance-pathways:
+      total_claims: 5
+      must_verify: 2
+      should_verify: 2
+      may_skip: 1
+      overreach_flags: 0
+
+    pre-professional-path:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 2
+      may_skip: 1
+      overreach_flags: 0
+
+    starting-age:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 3
+      may_skip: 0
+      overreach_flags: 0
+
+    academy-of-ballet-sf:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 1
+
+    bay-area-studios-general:
+      total_claims: 8
+      must_verify: 0
+      should_verify: 4
+      may_skip: 4
+      overreach_flags: 0
+
+    ballet-pedagogy:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 0
+      may_skip: 2
+      overreach_flags: 0
+
+  single_source_claims: 77
+  multi_source_claims: 43
+  overreach_flags: 3
+  conflicts_detected: 1
+
+  conflicts:
+    - claim_ids: [c010]
+      description: "SF Ballet School alumni percentage stated as 'over 70%' on one page and 'Nearly 70%' on another page of the same L1-official site. Difference may be rounding or page staleness."
+
+  unanswered_questions:
+    - question_id: Q037
+      note: "Home practice support content available (home-support-books-resources.md) but no factual claims with verifiable numbers extracted — content is primarily process/editorial advice without numerical claims."
+    - question_id: Q040
+      note: "Bay Area community resources identified (BPN, Bay Area Parent, Dance Parent 101) but no factual numerical claims; content is reference/directory only."
+    - question_id: Q041
+      note: "Studio tour questions documented as process descriptions; no factual claims with verifiable numbers extracted."
+    - question_id: Q042
+      note: "Books listed (Ballet Companion, Dance Anatomy, Ballerina Body, Ballet Helps Everything!, etc.) — these are categorical reference claims, logged under home-support entity but not separately extracted as they require no numerical verification."
+
+  data_quality_notes:
+    - "Marin Ballet: Only one price point publicly listed ($96 for Wee Dance Together 4-week session). All other level tuition requires direct inquiry. Claims register reflects this gap."
+    - "Shawl-Anderson Dance Center: No tuition or specific class schedule data publicly available from official site. Only institutional facts (founding year, financial aid existence) extracted."
+    - "Academy of Ballet SF: Tuition not publicly listed. No official page accessed. Claims from L2-authoritative synthesis source only."
+    - "Chhandam School of Kathak: Tuition not published on official website."
+    - "Star Dance Studio SF: Tuition not listed publicly on official website."
+    - "Healy School of Irish Dance: Tuition not published on official website."
+    - "Dance Academy USA: Tuition not listed on official website."
+    - "New Ballet San Jose: Tuition not listed directly on official page; requires separate Schedule + Tuition document."
+    - "CBSF Year-Round Program: Tuition not extracted from sources; only Junior Program confirmed via Chrome MCP fetch."
+    - "BPN community files (L4): Used only as intelligence inputs for entity identification and studio reputation signals; no L4-community claims extracted into register as factual claims requiring verification."

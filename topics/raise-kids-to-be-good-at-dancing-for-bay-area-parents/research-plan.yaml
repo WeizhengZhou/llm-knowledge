@@ -1,0 +1,1508 @@
+topic: "Raise Kids to Be Good at Dancing for Bay Area Parents"
+slug: raise-kids-to-be-good-at-dancing-for-bay-area-parents
+created: 2026-04-22
+user_context: "Bay Area parents who want to help their children develop dance skills, covering studio selection, styles, competition, and long-term development"
+status: gap_fill_complete
+round: 1
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  gap_fill_reserve: 21
+  breadth_budget_pct: 30
+  depth_budget_pct: 80
+  searches_used: 44
+  fetches_used: 44
+
+# --- Pain Point Coverage Map ---
+# Pain point: "How much does competitive dance actually cost?" -> Q016 DONE
+# Pain point: "Worried about burnout (10-30 hrs/week)" -> Q033, Q035 DONE
+# Pain point: "How do I tell a good studio from a bad one?" -> Q012 DONE
+# Pain point: "Right age to start dance?" -> Q009 DONE
+# Pain point: "Recreational vs competitive difference?" -> Q029 DONE
+# Pain point: "Hypersexualization red flags in dance" -> Q013 DONE
+# Pain point: "Dance classes for boys?" -> Q014, QG006 DONE
+# Pain point: "Pre-professional path - is my kid good enough?" -> Q025, Q026 DONE
+# Pain point: "College scholarship for dance?" -> Q027, QG005 DONE
+# Pain point: "Balance dance with school and family?" -> Q036 DONE
+# Pain point: "Which studios for beginners vs serious?" -> Q005, Q006, Q007, Q008 DONE
+# Pain point: "What to expect at first class?" -> Q011 DONE
+# Pain point: "Summer intensives - worth it?" -> Q024 DONE
+# Pain point: "Can't afford expensive studios - affordable options?" -> Q017 DONE
+# Pain point: "CBSF tuition (was opaque)" -> QG001 DONE
+# Pain point: "Indian classical dance options for kids" -> QG002 DONE
+# Pain point: "K-Pop dance trend — what Bay Area studios offer it?" -> QG003 DONE
+# Pain point: "Irish dance — does it exist in Bay Area for kids?" -> QG004 DONE
+# All high-urgency pain points covered.
+
+search_clusters:
+  - search: "Bay Area dance studios kids classes by region 2025 2026"
+    answers_questions: [Q005, Q006, Q007, Q008]
+  - search: "dance styles for children ages ballet hip hop contemporary jazz"
+    answers_questions: [Q001, Q003, Q009]
+  - search: "competitive dance costs breakdown tuition costumes travel"
+    answers_questions: [Q016, Q018]
+  - search: "San Francisco Ballet School youth program admissions levels"
+    answers_questions: [Q025, Q026, Q028]
+  - search: "kids dance competition organizations California Bay Area"
+    answers_questions: [Q020, Q021, Q022]
+  - search: "dance injury prevention children growth plates"
+    answers_questions: [Q032, Q034]
+  - search: "college dance scholarships programs admissions"
+    answers_questions: [Q027, Q028]
+  - search: "how to choose dance studio for kids checklist"
+    answers_questions: [Q012, Q013]
+  - search: "recreational vs competitive dance kids pros cons"
+    answers_questions: [Q029, Q030]
+  - search: "Bay Area dance scholarships financial aid youth"
+    answers_questions: [Q017, Q019]
+  - search: "summer dance intensives youth pre-professional auditions"
+    answers_questions: [Q024, Q026]
+  - search: "dance burnout kids signs prevention"
+    answers_questions: [Q033, Q035, Q036]
+  - search: "CBSF City Ballet SF tuition junior program gap-fill"
+    answers_questions: [QG001]
+  - search: "Chhandam Kathak Berkeley Chitresh Das Institute children gap-fill"
+    answers_questions: [QG002]
+  - search: "K-Pop hip-hop street dance studios Bay Area kids gap-fill"
+    answers_questions: [QG003, QG006]
+  - search: "Irish dance Bay Area Healy School youth gap-fill"
+    answers_questions: [QG004]
+  - search: "college dance pathways Bay Area students Juilliard USC gap-fill"
+    answers_questions: [QG005]
+
+phases:
+  breadth:
+    questions: [Q001, Q002, Q003, Q004, Q005, Q006, Q007, Q008, Q009, Q010, Q011, Q012, Q015]
+    status: complete
+    completed_at: 2026-04-22
+  depth:
+    questions: [Q013, Q014, Q016, Q017, Q018, Q019, Q020, Q021, Q022, Q023, Q024, Q025, Q026, Q027, Q028, Q029, Q030, Q031, Q032, Q033, Q034, Q035, Q036, Q037, Q038, Q039, Q040, Q041, Q042]
+    depends_on: breadth
+    status: complete
+    completed_at: 2026-04-22
+  gap_fill:
+    questions: [QG001, QG002, QG003, QG004, QG005, QG006]
+    depends_on: depth
+    status: complete
+    completed_at: 2026-04-22
+
+questions:
+  # ============================================================
+  # WHAT facet - definitions, categories, inventories
+  # ============================================================
+  - id: Q001
+    text: "What are all the major dance styles available for children, and what characterizes each one?"
+    facet: WHAT
+    scores:
+      user_value: 9
+      dependency_count: 10
+      searchability: 9
+      novelty: 7
+    composite: 8.85
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-001
+        query: "dance styles for children ballet hip hop jazz contemporary tap differences benefits"
+    raw_files:
+      - raw/web/review/2026-04-22_coleacademy-dance-styles-benefits.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1, RO2]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [foundational, styles]
+
+  - id: Q002
+    text: "What are the different levels of dance training: creative movement, recreational, competitive, pre-professional, and professional?"
+    facet: WHAT
+    scores:
+      user_value: 9
+      dependency_count: 9
+      searchability: 8
+      novelty: 7
+    composite: 8.55
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-002
+        query: "children dance training levels recreational competitive pre-professional explained"
+    raw_files:
+      - raw/web/review/2026-04-22_danielleguillermo-dance-studio-types.md
+      - raw/web/review/2026-04-22_cdmdance-recreational-vs-competitive.md
+      - raw/web/review/2026-04-22_danceparent101-competitions-explained.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1, RO2, RO4]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [foundational, levels]
+
+  - id: Q003
+    text: "What does a typical children's dance class look like at each age bracket (3-5, 6-8, 9-12, 13-18)?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 7
+      novelty: 6
+    composite: 6.85
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-003
+        query: "right age to start dance classes children developmental readiness ballet tap jazz"
+      - id: s-2026-04-22-006
+        query: "what to expect first dance class kids toddler parents guide enrollment"
+    raw_files:
+      - raw/web/review/2026-04-22_northpointedance-starting-age.md
+      - raw/web/review/2026-04-22_momrewritten-first-dance-class.md
+      - raw/web/review/2026-04-22_dance-progression-timeline-synthesis.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1, RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, age-groups]
+
+  - id: Q004
+    text: "What certifications, training methods, and pedagogical approaches exist for children's dance instruction (RAD, Vaganova, Cecchetti, ISTD)?"
+    facet: WHAT
+    scores:
+      user_value: 6
+      dependency_count: 6
+      searchability: 8
+      novelty: 8
+    composite: 6.90
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-008
+        query: "RAD Vaganova Cecchetti ISTD dance pedagogy children certification explained differences"
+    raw_files:
+      - raw/web/review/2026-04-22_balancedballerinas-ballet-methods.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [methodology, pedagogy]
+
+  # ============================================================
+  # WHERE facet - geographic scope, Bay Area sub-regions
+  # ============================================================
+  - id: Q005
+    text: "What are the notable dance studios and programs for children in San Francisco?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 8
+      searchability: 8
+      novelty: 9
+    composite: 8.75
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-004
+        query: "best children dance studios San Francisco 2025 kids ballet jazz hip hop classes"
+      - id: s-2026-04-22-029
+        query: "affordable scholarship dance programs Bay Area low income youth ODC Luna JCCSF sliding scale"
+      - id: s-2026-04-22-035
+        query: "Bay Area pre-professional ballet schools comparison SF Ballet CBSF Academy of Ballet SF Bay Area Ballet Conservatory"
+    raw_files:
+      - raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+      - raw/web/official/2026-04-22_odc-dance-youth-teen.md
+      - raw/web/official/2026-04-22_stardancestudio-sf.md
+      - raw/web/official/2026-04-22_sfballet-school-programs.md
+      - raw/web/official/2026-04-22_jccsf-dance-school.md
+      - raw/web/official/2026-04-22_odc-youth-programs.md
+      - raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, SF]
+
+  - id: Q006
+    text: "What are the notable dance studios and programs for children on the Peninsula and South Bay (San Mateo, Palo Alto, San Jose, Mountain View)?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 8
+      searchability: 8
+      novelty: 9
+    composite: 8.75
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-005
+        query: "children dance studios Peninsula Palo Alto San Jose Mountain View kids classes 2025"
+      - id: s-2026-04-22-023
+        query: "New Ballet San Jose pre-professional Bay Area dance school program 2025 2026"
+    raw_files:
+      - raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+      - raw/web/official/2026-04-22_danceacademyusa-silicon-valley.md
+      - raw/web/official/2026-04-22_new-ballet-san-jose.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, peninsula, south-bay]
+
+  - id: Q007
+    text: "What are the notable dance studios and programs for children in the East Bay (Oakland, Berkeley, Fremont, Walnut Creek)?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 8
+      searchability: 8
+      novelty: 9
+    composite: 8.75
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-007
+        query: "children dance studios East Bay Oakland Berkeley Fremont Walnut Creek kids 2025"
+    raw_files:
+      - raw/web/review/2026-04-22_bayareaparent-best-dance-classes.md
+      - raw/web/official/2026-04-22_shawl-anderson-berkeley.md
+      - raw/web/community/2026-04-22_bpn-boys-dance-bay-area.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, east-bay]
+
+  - id: Q008
+    text: "What are the notable dance studios and programs for children in Marin County and North Bay?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 5
+      searchability: 7
+      novelty: 8
+    composite: 6.85
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-009
+        query: "Marin County North Bay children dance studios kids classes 2025"
+    raw_files:
+      - raw/web/review/2026-04-22_marinmommies-dance-studios.md
+      - raw/web/official/2026-04-22_marinballet-programs.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, marin, north-bay]
+
+  # ============================================================
+  # WHEN facet - timelines, age milestones, sequences
+  # ============================================================
+  - id: Q009
+    text: "What is the recommended starting age for each dance style, and what are the developmental milestones that indicate readiness?"
+    facet: WHEN
+    scores:
+      user_value: 10
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-003
+        query: "right age to start dance classes children developmental readiness ballet tap jazz"
+    raw_files:
+      - raw/web/review/2026-04-22_northpointedance-starting-age.md
+      - raw/web/official/2026-04-22_tiffanydance-competitive-age.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [foundational, age, decision-making]
+
+  - id: Q010
+    text: "What does a typical progression timeline look like from beginner to advanced in ballet, hip-hop, and contemporary?"
+    facet: WHEN
+    scores:
+      user_value: 8
+      dependency_count: 6
+      searchability: 7
+      novelty: 7
+    composite: 7.30
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-012
+        query: "children dance class progression beginner to advanced ballet contemporary timeline years"
+    raw_files:
+      - raw/web/review/2026-04-22_dance-progression-timeline-synthesis.md
+      - raw/web/official/2026-04-22_marinballet-programs.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2, RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [progression, timeline]
+
+  # ============================================================
+  # HOW facet - processes, mechanics, steps
+  # ============================================================
+  - id: Q011
+    text: "What should parents expect and prepare for when enrolling a child in their first dance class?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 7
+      novelty: 6
+    composite: 7.15
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-006
+        query: "what to expect first dance class kids toddler parents guide enrollment"
+    raw_files:
+      - raw/web/review/2026-04-22_momrewritten-first-dance-class.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, getting-started]
+
+  - id: Q012
+    text: "What criteria should parents use to evaluate and choose a dance studio (checklist of green flags and red flags)?"
+    facet: HOW
+    scores:
+      user_value: 10
+      dependency_count: 6
+      searchability: 8
+      novelty: 7
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-011
+        query: "how to choose dance studio for kids checklist green flags red flags"
+      - id: s-2026-04-22-031
+        query: "dance parent forums Bay Area mistakes regrets competitive dance questions to ask studios"
+    raw_files:
+      - raw/web/review/2026-04-22_thebrainyballerina-studio-selection.md
+      - raw/web/review/2026-04-22_studio-tour-questions.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [decision-making, studio-selection]
+
+  - id: Q013
+    text: "How do parents identify and avoid studios with age-inappropriate choreography, costumes, or hypersexualization?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.85
+    phase: depth
+    dependencies: [Q012]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-019
+        query: "hypersexualization competitive dance children age-inappropriate choreography costumes red flags parents"
+      - id: s-2026-04-22-033
+        query: "competitive dance controversial concerns dance educators critics concerns child welfare"
+    raw_files:
+      - raw/web/review/2026-04-22_hypersexualization-dance-redflags.md
+      - raw/web/review/2026-04-22_competitive-dance-controversy.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [safety, decision-making]
+
+  - id: Q014
+    text: "What Bay Area studios are especially welcoming to boys, and how should parents navigate gender dynamics in dance?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 6.25
+    phase: depth
+    dependencies: [Q005, Q006, Q007]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-020
+        query: "Berkeley Parents Network dance classes boys Bay Area forum recommendations"
+    raw_files:
+      - raw/web/community/2026-04-22_bpn-boys-dance-bay-area.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [boys, inclusivity, experiential]
+
+  # ============================================================
+  # WHY facet - costs, trade-offs, motivations
+  # ============================================================
+  - id: Q015
+    text: "What does recreational dance cost in the Bay Area (tuition, gear, recital fees) by sub-region?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 7
+      novelty: 8
+    composite: 8.05
+    phase: breadth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-010
+        query: "recreational dance class cost per month Bay Area San Francisco Peninsula East Bay 2025"
+      - id: s-2026-04-22-013
+        query: "Bay Area parent magazine best dance classes kids 2025 review"
+    raw_files:
+      - raw/web/official/2026-04-22_eastbaydancecompany-tuition.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [cost, financial]
+
+  - id: Q016
+    text: "What does competitive dance cost annually in the Bay Area, including tuition, competition fees, costumes, travel, and hidden costs?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 5
+      searchability: 7
+      novelty: 9
+    composite: 7.90
+    phase: depth
+    dependencies: [Q015]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-014
+        query: "competitive dance annual cost breakdown costumes entry fees travel Bay Area California 2025"
+    raw_files:
+      - raw/web/review/2026-04-22_danceparent101-competitive-costs.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO3, RO4]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [cost, competitive, financial]
+
+  - id: Q017
+    text: "What affordable, sliding-scale, or scholarship-supported dance programs exist in the Bay Area?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 6
+      novelty: 9
+    composite: 6.80
+    phase: depth
+    dependencies: [Q005, Q006, Q007]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-029
+        query: "affordable scholarship dance programs Bay Area low income youth ODC Luna JCCSF sliding scale"
+      - id: s-2026-04-22-016
+        query: "ODC School San Francisco youth programs tuition scholarship 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-22_odc-youth-programs.md
+      - raw/web/official/2026-04-22_jccsf-dance-school.md
+      - raw/web/review/2026-04-22_affordable-dance-bay-area.md
+      - raw/web/review/2026-04-22_summer-intensives-bay-area.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [affordability, access, equity]
+
+  - id: Q018
+    text: "What does pre-professional dance training cost, and what is the total family investment from age 8 to 18?"
+    facet: WHY
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 5
+      novelty: 8
+    composite: 6.05
+    phase: depth
+    dependencies: [Q015, Q016]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-015
+        query: "SF Ballet School youth program audition process tuition financial aid 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+      - raw/web/official/2026-04-22_new-ballet-san-jose.md
+      - raw/web/review/2026-04-22_pre-professional-ballet-path.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO3, RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [cost, pre-professional, long-term]
+
+  - id: Q019
+    text: "What financial aid, scholarship, and work-study opportunities exist at Bay Area pre-professional schools like SF Ballet School?"
+    facet: WHY
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 6.45
+    phase: depth
+    dependencies: [Q025]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-015
+        query: "SF Ballet School youth program audition process tuition financial aid 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+      - raw/web/review/2026-04-22_affordable-dance-bay-area.md
+      - raw/web/official/2026-04-22_new-ballet-san-jose.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO3, RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [financial-aid, pre-professional]
+
+  # ============================================================
+  # WHO facet - key entities, organizations, people
+  # ============================================================
+  - id: Q020
+    text: "What are the major dance competition organizations that operate in the Bay Area (NYCDA, NUVO, Starpower, etc.)?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 6
+      searchability: 8
+      novelty: 8
+    composite: 7.50
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-025
+        query: "competitive dance organizations California NYCDA NUVO California Dance Classics Bay Area schedule 2025 2026"
+    raw_files:
+      - raw/web/review/2026-04-22_competition-organizations-bay-area.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [competition, organizations]
+
+  - id: Q021
+    text: "Which Bay Area studios have the strongest competitive dance teams, and what are their track records?"
+    facet: WHO
+    scores:
+      user_value: 7
+      dependency_count: 4
+      searchability: 6
+      novelty: 8
+    composite: 6.45
+    phase: depth
+    dependencies: [Q005, Q006, Q007, Q020]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-025
+        query: "competitive dance organizations California NYCDA NUVO California Dance Classics Bay Area schedule 2025 2026"
+    raw_files:
+      - raw/web/review/2026-04-22_competition-organizations-bay-area.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [competitive, studios, reputation]
+    notes: "Specific studio ranking data unavailable without access to competition results databases; general competitive studios identified"
+
+  - id: Q022
+    text: "What are the key dance conventions and events held annually in the Bay Area or nearby California?"
+    facet: WHO
+    scores:
+      user_value: 6
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 5.65
+    phase: depth
+    dependencies: [Q020]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-025
+        query: "competitive dance organizations California NYCDA NUVO California Dance Classics Bay Area schedule 2025 2026"
+    raw_files:
+      - raw/web/review/2026-04-22_competition-organizations-bay-area.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [events, conventions]
+
+  - id: Q023
+    text: "Who are notable dance educators, choreographers, or alumni from Bay Area studios that parents should know about?"
+    facet: WHO
+    scores:
+      user_value: 5
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 5.10
+    phase: depth
+    dependencies: [Q005, Q006, Q007]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-035
+        query: "Bay Area pre-professional ballet schools comparison SF Ballet CBSF Academy of Ballet SF Bay Area Ballet Conservatory"
+    raw_files:
+      - raw/web/review/2026-04-22_pre-professional-ballet-path.md
+      - raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [people, reputation]
+    notes: "Faculty info captured for Academy of Ballet SF (Zory Karah, Richard Gibson); CBSF faculty referenced but website inaccessible; SF Ballet alumna rate 70%+ of SFB company"
+
+  # ============================================================
+  # WHEN facet (depth) - summer intensives, audition timelines
+  # ============================================================
+  - id: Q024
+    text: "What are the top summer dance intensives available to Bay Area youth, and what are their audition timelines and costs?"
+    facet: WHEN
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 7
+      novelty: 8
+    composite: 7.05
+    phase: depth
+    dependencies: [Q002, Q010]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-024
+        query: "summer dance intensive Bay Area youth audition 2025 2026 San Francisco ballet contemporary"
+    raw_files:
+      - raw/web/review/2026-04-22_summer-intensives-bay-area.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [summer-intensive, timeline, audition]
+
+  # ============================================================
+  # HOW facet (depth) - pre-professional path, college, at-home
+  # ============================================================
+  - id: Q025
+    text: "What pre-professional dance programs exist in the Bay Area, and what are their admission requirements and acceptance rates?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 6
+      searchability: 7
+      novelty: 9
+    composite: 7.65
+    phase: depth
+    dependencies: [Q002, Q005, Q006, Q007]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-015
+        query: "SF Ballet School youth program audition process tuition financial aid 2025 2026"
+      - id: s-2026-04-22-016
+        query: "ODC School San Francisco youth programs tuition scholarship 2025 2026"
+      - id: s-2026-04-22-022
+        query: "pre-professional dance path milestones ballet contemporary youth realistic parent guide"
+      - id: s-2026-04-22-023
+        query: "New Ballet San Jose pre-professional Bay Area dance school program 2025 2026"
+      - id: s-2026-04-22-035
+        query: "Bay Area pre-professional ballet schools comparison SF Ballet CBSF Academy of Ballet SF Bay Area Ballet Conservatory"
+    raw_files:
+      - raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+      - raw/web/official/2026-04-22_odc-youth-programs.md
+      - raw/web/official/2026-04-22_new-ballet-san-jose.md
+      - raw/web/review/2026-04-22_pre-professional-ballet-path.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [pre-professional, admissions]
+
+  - id: Q026
+    text: "What is the realistic path from recreational dancer to pre-professional company member, and what milestones indicate a child has potential?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 5
+      novelty: 9
+    composite: 6.75
+    phase: depth
+    dependencies: [Q002, Q010, Q025]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-022
+        query: "pre-professional dance path milestones ballet contemporary youth realistic parent guide"
+      - id: s-2026-04-22-036
+        query: "risks starting ballet too young early specialization dance children physical psychological harm"
+    raw_files:
+      - raw/web/review/2026-04-22_pre-professional-ballet-path.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, decision-making, pre-professional]
+
+  - id: Q027
+    text: "What college dance programs offer scholarships, and how do students build a dance resume and audition portfolio during high school?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.45
+    phase: depth
+    dependencies: [Q010, Q025]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-032
+        query: "college dance program scholarship audition portfolio high school resume how to build"
+    raw_files:
+      - raw/web/review/2026-04-22_college-dance-scholarships-resume.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [college, scholarship, resume]
+
+  - id: Q028
+    text: "What does a professional dance career path look like post-training, and what are the realistic career outcomes?"
+    facet: HOW
+    scores:
+      user_value: 6
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 5.50
+    phase: depth
+    dependencies: [Q025, Q027]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-032
+        query: "college dance program scholarship audition portfolio high school resume how to build"
+    raw_files:
+      - raw/web/review/2026-04-22_college-dance-scholarships-resume.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [career, outcomes]
+
+  # ============================================================
+  # COMPARE facet - comparative analysis
+  # ============================================================
+  - id: Q029
+    text: "What are the key differences between recreational and competitive dance programs in terms of time, cost, culture, and outcomes?"
+    facet: COMPARE
+    scores:
+      user_value: 9
+      dependency_count: 5
+      searchability: 8
+      novelty: 7
+    composite: 7.70
+    phase: depth
+    dependencies: [Q002, Q015]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-021
+        query: "recreational vs competitive dance kids time commitment culture cost comparison pros cons"
+    raw_files:
+      - raw/web/review/2026-04-22_recreational-vs-competitive-comparison.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO4]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [comparison, decision-making]
+
+  - id: Q030
+    text: "How do the major dance styles compare for child development benefits (physical, cognitive, social, creative)?"
+    facet: COMPARE
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 6
+      novelty: 7
+    composite: 6.60
+    phase: depth
+    dependencies: [Q001]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-028
+        query: "dance benefits children development cognitive physical social research studies evidence"
+    raw_files:
+      - raw/web/review/2026-04-22_dance-benefits-research-synthesis.md
+      - raw/web/review/2026-04-22_recreational-vs-competitive-comparison.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1, RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [comparison, development, styles]
+
+  - id: Q031
+    text: "How do Bay Area pre-professional ballet schools compare (SF Ballet School vs CBSF vs Bay Area Ballet Conservatory vs Academy of Ballet SF)?"
+    facet: COMPARE
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 6
+      novelty: 9
+    composite: 6.45
+    phase: depth
+    dependencies: [Q005, Q025]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-035
+        query: "Bay Area pre-professional ballet schools comparison SF Ballet CBSF Academy of Ballet SF Bay Area Ballet Conservatory"
+      - id: s-2026-04-22-023
+        query: "New Ballet San Jose pre-professional Bay Area dance school program 2025 2026"
+    raw_files:
+      - raw/web/review/2026-04-22_pre-professional-ballet-path.md
+      - raw/web/official/2026-04-22_sfballet-tuition-admissions.md
+      - raw/web/official/2026-04-22_new-ballet-san-jose.md
+      - raw/web/official/2026-04-22_cbsf-junior-program.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [comparison, pre-professional, ballet]
+    notes: "CBSF tuition now confirmed via Chrome MCP: Junior C $1,850 / Junior B $2,860 / Junior A $5,495 annually. Marin Ballet still JS-only. Academy of Ballet SF tuition still not published."
+
+  # ============================================================
+  # HOW facet - injury, physical development, home support
+  # ============================================================
+  - id: Q032
+    text: "What are the most common dance injuries in children and adolescents, and how are they prevented?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 4
+      searchability: 8
+      novelty: 6
+    composite: 6.90
+    phase: depth
+    dependencies: [Q001]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-018
+        query: "dance injuries children adolescents prevention overuse growth plates IADMS guidelines"
+      - id: s-2026-04-22-030
+        query: "pointe shoe readiness criteria age assessment ballet what to look for girls"
+    raw_files:
+      - raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [injury, health, safety]
+
+  - id: Q033
+    text: "How do parents recognize signs of burnout in young dancers, and what should they do about it?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 7.15
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-017
+        query: "dance burnout children signs prevention how to recognize youth dancer"
+    raw_files:
+      - raw/web/review/2026-04-22_dance-burnout-children.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, burnout, decision-making]
+
+  - id: Q034
+    text: "What cross-training, nutrition, and physical conditioning supports healthy dance development in children?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 5.90
+    phase: depth
+    dependencies: [Q032]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-038
+        query: "cross training nutrition youth dancers pilates swimming strength conditioning injury prevention"
+    raw_files:
+      - raw/web/review/2026-04-22_dance-injuries-youth-prevention.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [health, cross-training, nutrition]
+
+  - id: Q035
+    text: "How should parents handle a child who wants to quit dance, and when is quitting the right call?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 6.50
+    phase: depth
+    dependencies: [Q033]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-026
+        query: "child wants to quit dance parent advice when is quitting okay how to handle"
+    raw_files:
+      - raw/web/review/2026-04-22_quitting-dance-parent-guide.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [experiential, decision-making, quitting]
+
+  - id: Q036
+    text: "How do families balance intensive dance schedules with academics, social life, and other activities?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 6
+      novelty: 7
+    composite: 6.75
+    phase: depth
+    dependencies: [Q002, Q016]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-027
+        query: "balance dance school academics family schedule high intensity competitive dance kids tips"
+    raw_files:
+      - raw/web/review/2026-04-22_balancing-dance-school-life.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO3, RO6]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [experiential, decision-making, balance]
+
+  - id: Q037
+    text: "How can parents support their child's dance development at home (practice space, stretching routines, music exposure)?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 5.85
+    phase: depth
+    dependencies: [Q001, Q003]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-037
+        query: "dance parent home support practice tips stretching at home music exposure children"
+      - id: s-2026-04-22-034
+        query: "books about raising young dancers parent guide dance parenting recommended"
+    raw_files:
+      - raw/web/review/2026-04-22_home-support-books-resources.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1, RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [home-support, practical]
+
+  # ============================================================
+  # WHY facet (depth) - motivations, benefits, trade-offs
+  # ============================================================
+  - id: Q038
+    text: "What life skills and developmental benefits does dance provide children regardless of whether they pursue it professionally?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 5
+    composite: 6.15
+    phase: depth
+    dependencies: [Q001]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-028
+        query: "dance benefits children development cognitive physical social research studies evidence"
+    raw_files:
+      - raw/web/review/2026-04-22_dance-benefits-research-synthesis.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1, RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [benefits, motivation]
+
+  - id: Q039
+    text: "What are the risks and downsides of pushing children into serious dance training too early?"
+    facet: WHY
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 6.65
+    phase: depth
+    dependencies: [Q009, Q032, Q033]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-036
+        query: "risks starting ballet too young early specialization dance children physical psychological harm"
+      - id: s-2026-04-22-033
+        query: "competitive dance controversial concerns dance educators critics concerns child welfare"
+    raw_files:
+      - raw/web/review/2026-04-22_pre-professional-ballet-path.md
+      - raw/web/review/2026-04-22_competitive-dance-controversy.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO4, RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, decision-making, risks]
+
+  # ============================================================
+  # META facet - navigating the topic, information gaps
+  # ============================================================
+  - id: Q040
+    text: "What online communities, blogs, and resources do Bay Area dance parents use to share information and advice?"
+    facet: META
+    scores:
+      user_value: 6
+      dependency_count: 3
+      searchability: 6
+      novelty: 8
+    composite: 5.80
+    phase: depth
+    dependencies: [Q005, Q006, Q007]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-020
+        query: "Berkeley Parents Network dance classes boys Bay Area forum recommendations"
+      - id: s-2026-04-22-034
+        query: "books about raising young dancers parent guide dance parenting recommended"
+    raw_files:
+      - raw/web/community/2026-04-22_bpn-boys-dance-bay-area.md
+      - raw/web/review/2026-04-22_home-support-books-resources.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L3, L4]
+    children: []
+    tags: [meta, resources, community]
+
+  - id: Q041
+    text: "What information is hardest to find about children's dance in the Bay Area, and what questions do studios not answer transparently?"
+    facet: META
+    scores:
+      user_value: 6
+      dependency_count: 2
+      searchability: 5
+      novelty: 9
+    composite: 5.70
+    phase: depth
+    dependencies: [Q012]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-031
+        query: "dance parent forums Bay Area mistakes regrets competitive dance questions to ask studios"
+    raw_files:
+      - raw/web/review/2026-04-22_studio-tour-questions.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO2, RO3]
+    target_source_tiers: [L3, L4]
+    children: []
+    tags: [meta, transparency, gaps]
+    notes: "Remaining opaque: Marin Ballet tuition (JS-only), Academy of Ballet SF tuition (not listed), competition studio rankings. CBSF tuition now retrieved via Chrome MCP in gap-fill phase."
+
+  - id: Q042
+    text: "What books, documentaries, or longform resources exist about raising young dancers that Bay Area parents recommend?"
+    facet: META
+    scores:
+      user_value: 5
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 5.15
+    phase: depth
+    dependencies: []
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-034
+        query: "books about raising young dancers parent guide dance parenting recommended"
+    raw_files:
+      - raw/web/review/2026-04-22_home-support-books-resources.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-22
+    reader_outcomes: [RO1]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [meta, resources, books]
+
+  # ============================================================
+  # GAP-FILL facet - targeted coverage gaps identified post-depth
+  # ============================================================
+  - id: QG001
+    text: "What are CBSF (City Ballet SF) tuition rates and program structure for the Junior Program?"
+    facet: WHERE
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 5
+      novelty: 9
+    composite: 7.20
+    phase: gap_fill
+    dependencies: [Q031]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-039
+        query: "CBSF City Ballet San Francisco tuition cost youth program 2025 2026 parent forum"
+    raw_files:
+      - raw/web/official/2026-04-22_cbsf-junior-program.md
+    discovered_from: depth_research_gap
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-22
+    reader_outcomes: [RO3, RO5]
+    target_source_tiers: [L1]
+    children: []
+    tags: [pre-professional, ballet, cost, SF]
+    notes: "Retrieved via Chrome MCP (JS-rendered site). Confirmed: Junior C $1,850/yr, Junior B $2,860/yr, Junior A $5,495/yr. Performance fee $300/show. Financial aid available via CBSF Foundation."
+
+  - id: QG002
+    text: "What is Chhandam School of Kathak and what programs do they offer for Bay Area children?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 9
+    composite: 6.70
+    phase: gap_fill
+    dependencies: [Q007, Q014]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-040
+        query: "Chhandam Kathak Berkeley dance school kids program schedule tuition"
+    raw_files:
+      - raw/web/official/2026-04-22_chitreshdasinstitute-kathak.md
+      - raw/web/community/2026-04-22_bpn-indian-bollywood-dance.md
+    discovered_from: depth_research_gap
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L4]
+    children: []
+    tags: [east-bay, indian-classical, boys, kathak, cultural]
+    notes: "Chitresh Das Institute operates Chhandam School. Locations: Cupertino, San Mateo, San Ramon (Berkeley branch referenced in parent forums). Ages 6-60+. Kathak recommended for boys on BPN. Tuition not publicly listed."
+
+  - id: QG003
+    text: "What K-Pop dance studios and programs exist in the Bay Area for youth and children?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 8
+      novelty: 8
+    composite: 7.00
+    phase: gap_fill
+    dependencies: [Q001]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-041
+        query: "K-Pop dance classes kids children Bay Area San Francisco 2025 2026"
+    raw_files:
+      - raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+    discovered_from: depth_research_gap
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L3]
+    children: []
+    tags: [kpop, hip-hop, SF, east-bay, south-bay, trend]
+    notes: "Key studios: EDS Dance (4 Bay Area locations), Rae Studios SF (free K-Pop with SF Rec & Parks), Purdance San Jose, Spark of Creation (K-Pop summer camp ages 7+), In the Groove Studios Oakland (street styles)"
+
+  - id: QG004
+    text: "What Irish dance schools and programs exist in the Bay Area for children?"
+    facet: WHERE
+    scores:
+      user_value: 6
+      dependency_count: 1
+      searchability: 7
+      novelty: 9
+    composite: 6.20
+    phase: gap_fill
+    dependencies: [Q001]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-042
+        query: "Irish dance Bay Area kids O'Brien Irish Dance schools Corrib classes youth"
+    raw_files:
+      - raw/web/review/2026-04-22_irish-dance-bay-area.md
+    discovered_from: depth_research_gap
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [irish-dance, marin, SF, competitive, cultural]
+    notes: "Primary school: Healy School of Irish Dance (Larkspur, founded 1870/1902, 5th generation, phone 415-924-9100). Intro classes ages 4-15 every 8-10 weeks. No tuition published. UICC SF hosts Feiseanna. Sheila Healy Academy is a separate organization."
+
+  - id: QG005
+    text: "What college dance programs are most relevant to Bay Area dancers, and what does the pathway from Bay Area training look like?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 6.40
+    phase: gap_fill
+    dependencies: [Q027, Q028]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-043
+        query: "Bay Area high school dancers college dance program admissions where do they go Juilliard USC UCSB"
+    raw_files:
+      - raw/web/review/2026-04-22_college-dance-pathways.md
+    discovered_from: depth_research_gap
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-22
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [college, pathways, pre-professional]
+    notes: "Juilliard accepts 20-24 dancers/yr; 3 years ballet+modern required. Key California options: USC Kaufman, UC Irvine, UCLA, UCSB, CalArts. No public data on where Bay Area students specifically enroll. Juilliard Summer Intensive is key pipeline tool."
+
+  - id: QG006
+    text: "What hip-hop and street dance programs are available for boys and youth in the Bay Area, beyond ballet?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 7
+    composite: 6.60
+    phase: gap_fill
+    dependencies: [Q014, Q007]
+    status: done
+    answered_at: 2026-04-22
+    search_queries:
+      - id: s-2026-04-22-044
+        query: "hip hop street dance kids youth classes Bay Area East Bay Oakland Berkeley notable studios 2025"
+    raw_files:
+      - raw/web/review/2026-04-22_boys-dance-additional-styles.md
+      - raw/web/review/2026-04-22_kpop-hiphop-specialty-studios.md
+    discovered_from: depth_research_gap
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-22
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L3, L4]
+    children: []
+    tags: [boys, hip-hop, east-bay, street-dance, breaking]
+    notes: "Key studios for boys/hip-hop: In the Groove Studios Oakland (drop-in $20, authentic street styles), FUNKMODE (age 3+, school partnerships), Destiny Arts Center North Oakland (social justice focus), East Bay Dance Center Oakland. Breaking gained cultural legitimacy as Olympic sport 2024."

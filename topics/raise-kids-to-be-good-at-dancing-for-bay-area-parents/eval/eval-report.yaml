@@ -1,0 +1,234 @@
+topic: raise-kids-to-be-good-at-dancing-for-bay-area-parents
+run_id: "2026-04-22-initial"
+evaluated_at: "2026-04-22T22:00:00Z"
+wiki_article_count: 20
+test_question_count: 30
+
+composite_score: 82
+composite_breakdown:
+  D1_reader_outcomes:
+    weight: 0.30
+    score: 2.7
+    weighted: 27.0
+    per_outcome:
+      - id: RO1
+        job: "Decide whether and when to start dance classes for a young child"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          All four must_answer items fully covered. Starting ages by style with table,
+          first class expectations (30-45 min, play-based), recreational costs with concrete
+          Bay Area examples, and creative movement vs pre-ballet distinctions all present.
+
+      - id: RO2
+        job: "Choose the right dance studio and style for their child"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          All five must_answer items fully covered. Dance styles guide with temperament
+          matching table, studio profiles across Bay Area sub-regions, comprehensive red/green
+          flag framework, age-appropriateness evaluation criteria, and dedicated boys article
+          with studio recommendations all present.
+
+      - id: RO3
+        job: "Understand the financial and time commitment of dance at each level"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          All five must_answer items covered. Concrete tuition data (EBDC, SF Ballet, CBSF, ODC),
+          competitive cost breakdown ($7,800-$25,300+), hours/week table by level, sliding-scale
+          and scholarship programs listed, and balance strategies in supporting-your-child-dancer.
+          Balance coverage is adequate but not deep (TQ15 scored 1).
+
+      - id: RO4
+        job: "Decide whether to pursue competitive dance and navigate the competition scene"
+        score: 3
+        uncovered_must_answer: []
+        notes: >
+          All five must_answer items covered. Rec vs competitive comparison table, major
+          competition orgs (CDC, NYCDA, NUVO, Starpower), risks documented across multiple
+          articles, optimal starting age guidance with decision framework, competition weekend
+          walkthrough present.
+
+      - id: RO5
+        job: "Understand the path from serious dancer to pre-professional or college dance"
+        score: 2
+        uncovered_must_answer:
+          - "What does a professional dance career path look like? (only minimally addressed: salary range and peak age mentioned but no depth on career transitions, freelance vs company, non-performance careers)"
+        notes: >
+          Pre-professional programs well documented. Timeline from beginner to pre-pro present.
+          Summer intensives listed with Bay Area and national options. College scholarship
+          pathways covered including Juilliard, USC Kaufman, and CA schools. Professional career
+          section is thin -- only two data points (salary $30-80K, peak 25-35) with brief mention
+          of alternative careers. A reader seeking to understand what a dance career actually
+          looks like day-to-day would need to search elsewhere.
+
+      - id: RO6
+        job: "Support their child's long-term physical and emotional development in dance"
+        score: 2
+        uncovered_must_answer: []
+        notes: >
+          All five must_answer items are addressed, but coverage depth varies. Injury prevention
+          article is strong (growth plates, pointe criteria, cross-training). Burnout recognition
+          is well covered. Cross-training has specific recommendations. Quitting guidance is
+          practical. Life skills section is comprehensive. Minor gap: the "how to support a child
+          who wants to quit" is adequate but could benefit from more experiential/community input.
+          Overall score of 2 reflects that all items are present but the quitting and burnout
+          sections rely primarily on general dance industry sources rather than Bay Area parent
+          experience.
+
+  D2_coverage:
+    weight: 0.20
+    score: 2.3
+    weighted: 15.3
+    sub_scores:
+      D2a_topic_coverage: 3
+      D2b_entity_completeness: 2
+      D2c_stub_ratio: 2
+    missing_categories:
+      - "Category A gap: No 'should my child dance at all?' pre-decision article (e.g., dance vs. gymnastics vs. soccer for physical development)"
+    entity_completeness: 0.80
+    entity_completeness_notes: >
+      10 entity articles. 8 have complete Quick Facts tables with minimal gaps.
+      Marin Ballet and Chhandam are missing tuition data (marked as unpublished by studio).
+      Healy School has disputed founding date. Academy of Ballet SF mentioned in pre-professional
+      article but has no entity article. FUNKMODE, Destiny Arts, Rae Studios mentioned but no
+      entity articles. Score: 8/10 entities with complete data = 80%.
+    stub_ratio: 0.10
+    stub_ratio_notes: >
+      2 of 20 articles could be considered stubs: Healy School (limited program detail,
+      no tuition) and Shawl-Anderson (no tuition, limited program detail). 2/20 = 10%.
+      Right at the boundary of score 2 vs 3.
+
+  D3_accuracy:
+    weight: 0.20
+    score: 2.7
+    weighted: 18.0
+    sub_scores:
+      D3a_attribution: 3
+      D3b_confidence_discipline: 3
+      D3c_conflict_documentation: 2
+    notes: >
+      D3a: Sampled 20 claim sentences across articles. 19/20 have proper attribution
+      ("According to X", "X reports", "X suggests") or use epistemic hedging for community
+      sources. Score: 3.
+
+      D3b: No L5 claims found in wiki. L4 community sources (BPN parent accounts) consistently
+      use epistemic note blocks ("Epistemic note: The following reflects patterns across multiple
+      parent accounts..."). Fact-sheet gate status is CLEAR. Score: 3.
+
+      D3c: One conflict documented explicitly (Healy School founding date 1870 vs 1902). The
+      SF Ballet "over 70%" vs "nearly 70%" discrepancy is noted inline. No other source
+      conflicts detected but coverage of potential disagreements (e.g., optimal starting ages
+      across sources) could be more systematic. Score: 2.
+
+  D4_actionability:
+    weight: 0.15
+    score: 2.7
+    weighted: 13.5
+    sub_scores:
+      D4a_decision_framing: 3
+      D4b_common_mistakes: 3
+      D4c_entry_point_clarity: 2
+    notes: >
+      D4a: Articles consistently use imperative voice and decision framing. The choosing-a-studio
+      guide has a 4-step process. Rec vs competitive has a 5-question decision framework.
+      Comparison tables enable direct decision-making. Score: 3.
+
+      D4b: Common Mistakes sections are present in all 20 articles and are consistently
+      non-obvious and specific. Examples: "Starting formal ballet at age 3 because a studio
+      accepts 3-year-olds", "Letting a studio teacher pressure your child into competitive too
+      early", "Misreading ODC tuition as $208 per individual class." These are high-quality,
+      decision-relevant warnings. Score: 3.
+
+      D4c: The overview article has a clear routing table ("Your question / Go to") which is
+      effective. However, individual entity articles do not always make clear where to go next
+      if the studio is not the right fit. A reader landing on east-bay-dance-company.md might
+      not know to check the choosing-a-dance-studio guide. Score: 2.
+
+  D5_perspective_balance:
+    weight: 0.10
+    score: 2.0
+    weighted: 6.7
+    notes: >
+      Official school sources (L1-L2): Present and well-used. SF Ballet, CBSF, ODC, New Ballet,
+      Marin Ballet, Chhandam all have official source data.
+
+      Aggregator/review data (L3): Present. DanceParent101, CDM Dance, NorthPointe, Brainy
+      Ballerina, Cole Academy, Bay Area Parent Magazine all cited.
+
+      Community/parent experience (L4): Present with proper epistemic hedging. Berkeley Parents
+      Network data used in dance-for-boys and studio recommendations with epistemic note blocks.
+      However, community synthesis is limited to 2-3 articles (boys, Shawl-Anderson, Chhandam).
+      Most guide articles lack community voice.
+
+      Expert synthesis: Limited. Cincinnati Children's Hospital and IADMS cited for injury
+      prevention. Royal Ballet School and CPYB for specialization. No dance consultant or
+      journalist perspective.
+
+      Counterarguments: Partially present. "Here is why NOT to compete" is addressed.
+      "Here is why NOT to start dance" or "dance vs. other activities" is absent.
+
+      Score: 2 -- official + aggregator strong, community patterns present but narrow,
+      expert synthesis limited, counterarguments partial.
+
+  D6_navigability:
+    weight: 0.05
+    score: 2.5
+    weighted: 4.2
+    notes: >
+      No lint report available. Scored from manual review.
+
+      Broken wikilinks: 0 detected (all [[links]] resolve to existing articles). Score: 3.
+
+      Orphaned articles: 0 -- all articles are referenced from at least one other article
+      and from the index. Score: 3.
+
+      Backlinks populated: All articles have backlinks: [] in frontmatter, but this appears
+      to be unpopulated metadata rather than actual backlink tracking. The articles do have
+      See Also sections that function as manual backlinks. Score: 2.
+
+      See Also sections: All 20 articles have See Also sections with relevant cross-references.
+      Score: 3.
+
+      Average: (3 + 3 + 2 + 3) / 4 = 2.75, rounded to 2.5 accounting for empty backlinks
+      metadata.
+
+test_question_results:
+  pass_rate: 0.93
+  score_2_count: 28
+  score_1_count: 2
+  score_0_count: 0
+  failed_questions:
+    - id: TQ15
+      text: "My daughter dances 4 days a week and her grades are slipping. How do other families balance dance and school?"
+      score: 1
+      reason: "Supporting-your-child-dancer has a brief 'Balancing Dance with School and Life' section with 5 bullet points, but these are generic strategies (protect homework time, use travel time). No Bay Area-specific advice, no concrete scheduling examples, no community parent experiences on this topic."
+    - id: TQ25
+      text: "What does a professional dance career look like in terms of salary and career length?"
+      score: 1
+      reason: "Pre-professional-dance-pathway mentions $30K-$80K salary range and peak ages 25-35, plus a brief list of alternative careers. This is insufficient for a parent trying to understand whether a dance career is viable. No information on audition processes, company hierarchy, freelance vs. company life, geographic constraints, or what happens after 35."
+
+additional_metrics:
+  freshness_pct: 1.0
+  freshness_notes: "All claims verified 2026-04-22, well within all volatility windows."
+  contradiction_count: 1
+  contradiction_notes: "Healy School founding date (1870 vs 1902) -- documented in article."
+  information_density_notes: "Entity articles average approximately 15-20 claims per 1000 words. Guide articles average 10-15. Good signal-to-noise ratio throughout."
+
+quality_gate:
+  trusted: true
+  highest_impact_gap: "D5 -- community/parent experience synthesis is limited to 2-3 articles; most guide articles lack L4 voice"
+
+top_3_improvements:
+  - dimension: D5
+    impact_points: 3
+    action: "Add L4 community synthesis (with epistemic notes) to guide articles that currently lack it: starting-dance-age-guide, bay-area-dance-costs, competition-guide, and supporting-your-child-dancer. Source from BPN, Reddit r/bayarea, and local parent Facebook groups for experiential patterns on cost surprises, scheduling realities, and competition culture."
+
+  - dimension: D1
+    impact_points: 2
+    action: "Expand the professional career section in pre-professional-dance-pathway to cover: company hierarchy (corps/soloist/principal), audition processes, freelance vs company careers, geographic realities, career transitions after 35, and non-performance career paths with more depth. This would raise RO5 from 2 to 3."
+
+  - dimension: D2
+    impact_points: 2
+    action: "Create a Category A pre-decision article: 'Should My Child Do Dance?' covering dance vs. gymnastics vs. team sports vs. music for physical and social development, when dance is and is not a good fit, and the opportunity cost framework. This addresses the missing pre-decision gap for P1 parents who have not yet committed to dance."
