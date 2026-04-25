@@ -1,0 +1,173 @@
+topic: "How to Raise Kid to Be Good at Squash in Bay Area"
+scanned_at: 2026-04-24
+
+entities_discovered:
+  - name: "NorCal Squash (Northern California Squash Association)"
+    type: organization
+    mentions: 8
+  - name: "Squash Zone (Redwood City)"
+    type: club
+    mentions: 6
+  - name: "Bay Club (multiple locations)"
+    type: club
+    mentions: 5
+  - name: "HAQ International Squash Academy (Silicon Valley)"
+    type: academy
+    mentions: 5
+  - name: "Oakwood Athletic Club (Lafayette)"
+    type: club
+    mentions: 2
+  - name: "US Squash"
+    type: organization
+    mentions: 12
+  - name: "College Squash Association (CSA)"
+    type: organization
+    mentions: 3
+  - name: "Waseem Ul Haq (HISA director)"
+    type: coach
+    mentions: 3
+  - name: "Squash Tigers"
+    type: program
+    mentions: 1
+
+source_ecosystem:
+  community_forums:
+    - url: "https://norcalsquash.org/"
+      relevance: high
+      status: accessible
+      pain_points: ["where to find courts", "tournament schedule", "league info"]
+    - domain: "reddit.com"
+      relevance: high
+      status: blocked_by_crawler
+      notes: "Reddit blocked by Anthropic crawler; cannot access r/squash"
+  books:
+    - title: "Squash Playbook: Your Tactical Blueprint for Success"
+      author: "Jesse Engelbrecht"
+      relevance: medium
+    - title: "Murder in the Squash Court"
+      author: "Jonah Barrington"
+      relevance: medium
+    - title: "The Science of Sport: Squash"
+      author: "Stafford Murray et al."
+      relevance: low
+  experts:
+    - name: "Serious Squash (blog)"
+      type: coaching_blog
+      url: "http://www.serioussquash.com/"
+      relevance: high
+    - name: "Control the T (blog)"
+      type: coaching_blog
+      url: "https://blog.controlthet.com/"
+      relevance: high
+    - name: "BetterSquash / BossSquash"
+      type: coaching_blog
+      url: "https://bosssquash.com/"
+      relevance: medium
+    - name: "SquashSkills"
+      type: coaching_platform
+      url: "https://blog.squashskills.com/"
+      relevance: medium
+    - name: "Jumbo Squash"
+      type: coaching_blog
+      url: "https://jumbosquash.com/"
+      relevance: medium
+    - name: "XFactor College Admissions"
+      type: college_consultant
+      url: "https://xfactoradmissions.com/"
+      relevance: medium
+    - name: "Spark Admissions"
+      type: college_consultant
+      url: "https://www.sparkadmissions.com/"
+      relevance: medium
+  podcasts:
+    - name: "The SquashMind Podcast"
+      platform: apple_podcasts
+      relevance: medium
+    - name: "The Serious Squash Podcast"
+      platform: apple_podcasts
+      relevance: high
+    - name: "Cross Court"
+      platform: podcast
+      relevance: low
+  official_sources:
+    - name: "US Squash"
+      url: "https://ussquash.org/"
+      relevance: high
+      covers: ["player development pathway", "junior tournaments", "college prep", "coach certification"]
+    - name: "NorCal Squash"
+      url: "https://norcalsquash.org/"
+      relevance: high
+      covers: ["Bay Area lessons", "tournaments", "leagues"]
+    - name: "HAQ International Squash Academy"
+      url: "https://hisasquash.com/"
+      relevance: high
+      covers: ["junior programs", "college admissions", "tournaments"]
+    - name: "Bay Club"
+      url: "https://www.bayclubs.com/amenity/squash"
+      relevance: high
+      covers: ["courts", "instruction", "kids camps"]
+    - name: "Squash Zone"
+      url: "https://www.squash.zone/"
+      relevance: high
+      covers: ["Redwood City facility", "junior tournaments"]
+    - name: "College Squash Association"
+      url: "https://csasquash.com/"
+      relevance: medium
+      covers: ["recruiting FAQ", "college squash programs"]
+
+source_access_failures:
+  - domain: "reddit.com"
+    reason: "Blocked by Anthropic crawler"
+    impact: "Cannot access r/squash community discussions; limited community signal"
+  - domain: "berkeleyparentsnetwork.org"
+    reason: "Returns 403"
+    impact: "Cannot access Bay Area parent squash discussions"
+
+common_pain_points:
+  - "Where can my kid even play squash in the Bay Area? Courts are hard to find."
+  - "What age should my kid start squash?"
+  - "How much does junior squash cost (club membership + lessons + tournaments + equipment + travel)?"
+  - "Is squash a good sport for college admissions?"
+  - "How does the US Squash ranking system work for juniors?"
+  - "What is the realistic development timeline from beginner to competitive junior?"
+  - "How do I find a good squash coach in the Bay Area?"
+  - "Squash vs tennis — which racket sport should my kid do?"
+  - "How do parents avoid pushing too hard / creating burnout in junior squash?"
+  - "What does squash in the Olympics (LA 2028) mean for junior squash?"
+  - "How do junior squash tournaments work? How do I sign my kid up?"
+  - "What equipment does my kid need and when to upgrade?"
+  - "Is my kid good enough to play college squash? What ranking do they need?"
+  - "How to balance squash training with school and other activities?"
+  - "What is the NorCal Squash scene like — how big is the junior community?"
+
+preliminary_question_seeds:
+  - text: "Where can my kid play squash in the Bay Area? What clubs have courts and junior programs?"
+    source: "norcalsquash.org, bayclubs.com, squash.zone"
+    urgency: high
+  - text: "What age should a child start squash, and what does readiness look like?"
+    source: "jumbosquash.com, ussquash.org"
+    urgency: high
+  - text: "How much does junior squash cost in the Bay Area (all-in)?"
+    source: "multiple coaching sites pricing pages"
+    urgency: high
+  - text: "Can squash help with college admissions? How does recruiting work?"
+    source: "csasquash.com, sparkadmissions.com, xfactoradmissions.com"
+    urgency: high
+  - text: "What is the US Squash Player Development Pathway?"
+    source: "ussquash.org (launched March 2025)"
+    urgency: high
+  - text: "How does the junior tournament system work in NorCal?"
+    source: "norcalsquash.org, ussquash.org"
+    urgency: high
+  - text: "What does squash at the 2028 Olympics mean for junior players?"
+    source: "ussquash.org, olympics.com, teamusa.com"
+    urgency: medium
+  - text: "How do parents avoid burnout and over-pushing in junior squash?"
+    source: "serioussquash.com, controlthet.com, onyxsquash.org.uk"
+    urgency: high
+  - text: "Squash vs tennis vs other racket sports — comparison for kids"
+    source: "bosssquash.com, onyxsquash.org.uk, blog.playo.co"
+    urgency: medium
+  - text: "What is HISA and who is Waseem Haq? Key Bay Area squash coaching entity."
+    source: "hisasquash.com, norcalsquash.org"
+    urgency: medium

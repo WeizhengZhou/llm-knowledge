@@ -1,0 +1,81 @@
+topic: "How to Raise Kid to Be Good at Squash in Bay Area"
+slug: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+status: active
+created: '2026-04-24'
+user_context: "Bay Area parents wanting to develop their child's squash skills — from beginner introduction through competitive junior squash. Covers clubs, coaches, programs, costs, age guidelines, development pathways."
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.3
+    depth: 0.5
+    gap_fill: 0.15
+    verification: 0.05
+
+reader_personas:
+  - id: P1
+    label: "Curious beginner parent — child has never played squash, exploring whether to start"
+    needs: [RO1, RO2]
+  - id: P2
+    label: "Committed recreational parent — child plays squash casually, considering more serious training"
+    needs: [RO2, RO3, RO4]
+  - id: P3
+    label: "Competitive squash parent — child is already in tournaments, optimizing development pathway"
+    needs: [RO3, RO4, RO5]
+  - id: P4
+    label: "College-strategy parent — considering squash as a college admissions advantage"
+    needs: [RO5, RO6]
+
+reader_outcomes:
+  - id: RO1
+    job: "Decide whether squash is the right sport for my child"
+    must_answer:
+      - "What age should my child start squash?"
+      - "What are the benefits of squash vs tennis, badminton, or other racket sports for kids?"
+      - "What does a first squash lesson look like?"
+      - "Is squash accessible in the Bay Area or is it hard to find courts and programs?"
+      - "What does squash cost at the introductory level?"
+    personas: [P1]
+  - id: RO2
+    job: "Find the right club, coach, and program for my child's level and location"
+    must_answer:
+      - "What squash clubs and courts exist in each Bay Area sub-region?"
+      - "Which clubs have junior squash programs vs just adult play?"
+      - "How do I evaluate a squash coach for kids?"
+      - "What is the difference between club programs, private academies, and school teams?"
+    personas: [P1, P2]
+  - id: RO3
+    job: "Understand the full cost and time commitment of junior squash"
+    must_answer:
+      - "What does junior squash cost all-in (membership, lessons, tournaments, equipment, travel)?"
+      - "How many hours per week does competitive junior squash require at each level?"
+      - "What equipment does my child need and how often do they upgrade?"
+      - "How do families balance squash training with school and other activities?"
+    personas: [P2, P3]
+  - id: RO4
+    job: "Navigate the junior tournament and ranking system"
+    must_answer:
+      - "How does the US Squash junior ranking system work?"
+      - "What tournaments are available in NorCal and how do I sign up?"
+      - "What is the typical tournament schedule and how much travel is involved?"
+      - "What is the US Squash Player Development Pathway?"
+    personas: [P2, P3]
+  - id: RO5
+    job: "Develop my child from beginner to competitive junior player"
+    must_answer:
+      - "What does the development timeline look like from beginner to nationally competitive?"
+      - "How do parents recognize talent vs effort in junior squash?"
+      - "What are the signs of burnout and how do parents manage training intensity?"
+      - "What cross-training supports squash development?"
+      - "What role does mental game play in junior squash development?"
+    personas: [P3]
+  - id: RO6
+    job: "Leverage squash for college admissions"
+    must_answer:
+      - "Which colleges have varsity squash programs?"
+      - "What US Squash ranking is needed for college recruitment?"
+      - "How does the college squash recruiting timeline work?"
+      - "Is squash actually an admissions advantage at top universities?"
+      - "What have Bay Area junior squash players achieved in college placement?"
+    personas: [P4]

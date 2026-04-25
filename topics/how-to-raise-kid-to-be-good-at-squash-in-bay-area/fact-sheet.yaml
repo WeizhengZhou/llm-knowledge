@@ -1,0 +1,1337 @@
+topic: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+verified_at: 2026-04-24T23:30:00Z
+claims_processed: 122
+must_verify_processed: 38
+gate_status: CLEAR
+
+# ================================================================
+# VERIFIED CLAIMS — must_verify (Priority 1)
+# ================================================================
+
+verified_claims:
+
+  # --- US SQUASH ---
+
+  - id: c001
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash launched the Player Development Pathway in March 2025 as an Olympic-era initiative."
+    sources_checked: 2
+    source_used: "ussquash.org/2025/03/us-squash-launches-olympic-era-player-development-pathway/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Live fetch confirmed March 2025 launch date and 'Olympic-Era' framing. Single L1 source but live-verified."
+
+  - id: c003
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "NSA-Aspire invites sixteen players per age group centrally, selected by ranking and rating-based qualification."
+    sources_checked: 2
+    source_used: "ussquash.org/national-squash-academy/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch confirmed 'Sixteen players in each age group are expected to be invited to participate centrally.' Single L1 source, live-verified."
+
+  - id: c004
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, NSA-Regional sessions are coordinated with JCT events throughout the 2025-2026 season."
+    sources_checked: 1
+    source_used: "ussquash.org/national-squash-academy/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Cycle-specific claim for 2025-2026. Single L1 source. Live-verified but season-specific."
+
+  - id: c005
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "NSA-Performance targets U19 players representing Team USA at World Junior Championships and Pan American Junior Games; the top six U.S. citizens by U19 ranking are expected to qualify for World Juniors."
+    sources_checked: 2
+    source_used: "ussquash.org/national-squash-academy/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch confirmed 'top six U.S. citizens by U19 ranking' language. Word 'expected' retained from source."
+
+  - id: c010
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash accredits approximately 100 bronze tournaments, 80 silver tournaments, 28 gold tournaments, and 5 JCT events annually."
+    sources_checked: 3
+    source_used: "ussquash.org/junior/competitive/junior-tournament-structure/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch confirmed 'roughly 100 bronze,' 'roughly 80 silver,' 'roughly 28 gold,' '5 JCT.' Two L1 sources corroborate."
+
+  - id: c014
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash coaching certification costs: Start Squash $200 ($250 late); Level 1 $450 ($500 late); Level 2 $750 ($800 late); Level 3 $900 ($950 late)."
+    sources_checked: 3
+    source_used: "ussquash.org/coach-certification/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch confirmed all four pricing tiers exactly. Two L1 raw sources + live verification."
+
+  - id: c015
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, a Level 1 coaching course was hosted at the Specter Center on January 9-11, 2026."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_ussquash-coach-certification-full.md"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Past event; single L1 source. Live fetch of coach cert page did not list historical dates. Accepted from raw file."
+
+  - id: c019
+    verdict: downgraded
+    confidence: L2
+    original_claim: "The US Squash Foundation launched in May 2024; the Drive to LA28 campaign was activated in July 2025."
+    permitted_language: "According to the US Squash LA28 page, the US Squash Foundation launched in May 2024 and the Drive to LA28 campaign was activated in July 2025."
+    sources_checked: 2
+    source_used: "raw/web/official/2026-04-24_ussquash-olympics-la28.md"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Live fetch of ussquash.org/la28/ did not surface Foundation launch date or campaign activation date in current page content. Dates come from raw source snapshot only. Downgraded to L2."
+
+  - id: c021
+    verdict: downgraded
+    confidence: L2
+    original_claim: "The NAO/GO Scholarship Fund has historically awarded more than $91,400 in scholarships."
+    permitted_language: "According to the US Squash LA28 page, the NAO/GO Scholarship Fund has historically awarded more than $91,400 in scholarships."
+    sources_checked: 2
+    source_used: "raw/web/official/2026-04-24_ussquash-olympics-la28.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch of ussquash.org/la28/ did not surface this figure in current page content. Single L1 raw source only."
+
+  - id: c022
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash membership costs $149 per year."
+    sources_checked: 3
+    source_used: "ussquash.org/membership/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch of ussquash.org/membership/ confirmed '$149' annual fee. Note: US Squash does not appear to differentiate junior vs adult membership price on the membership page; the $149 figure is the standard annual fee. Raw source called it 'junior membership' but official page says general membership. Permitted language adjusted to remove 'junior' qualifier."
+
+  - id: c026
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "NorCal Squash leagues run from September through April."
+    sources_checked: 2
+    source_used: "norcalsquash.org/league/"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two L1 sources confirm September-April season."
+
+  - id: c031
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to NorCal Squash, the inaugural NorCal High School Team Championships was held at Bay Club Santa Clara with 12 school teams participating."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Single L1 source (NorCal Squash juniors blog). Historical event claim."
+
+  - id: c033
+    verdict: downgraded
+    confidence: L4
+    original_claim: "SquashDrive recently hired Pat Williams as Executive Director in 2020."
+    permitted_language: "SquashDrive hired Pat Williams as Executive Director around 2020, though current leadership should be verified directly with the organization."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_norcalsquash-org.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Source described this as 'recent' in a 2020-era snapshot. Six years stale. Current leadership unverified. Downgraded to L4 with qualification."
+
+  - id: c035
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone has 9 international singles courts: 7 traditional courts, one 3-wall glass court, and one all-glass professional court."
+    sources_checked: 3
+    source_used: "squash.zone (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Live fetch confirmed '9 international singles courts which comprise of 7 traditional court, one 3-wall glass court and an all-glass professional court.' Two raw L1 sources also confirm."
+
+  - id: c036
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone hours are Monday-Friday 9am-9pm and Saturday-Sunday 9am-5:15pm."
+    sources_checked: 3
+    source_used: "squash.zone (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch confirmed hours. Two raw L1 sources also confirm."
+
+  - id: c037
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone membership pricing: Adult $205/month + $205 initiation; Junior PLUS $160/month + $160 initiation; Junior Access $110/month + $110 initiation."
+    sources_checked: 3
+    source_used: "squash.zone/join-squash-zone (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch of join page confirmed all three tiers and exact pricing. Two raw L1 sources also confirm."
+
+  - id: c038
+    verdict: downgraded
+    confidence: L2
+    original_claim: "Squash Zone private lesson pricing: Bransten Ming/Aisling Blake/Ricardo Lopez/Samy Farrag at $165/60 min..."
+    permitted_language: "According to the Squash Zone website, private lesson rates range from $145-$175 per 60 minutes depending on the coach: Bransten Ming, Aisling Blake, Ricardo Lopez, and Samy Farrag at $165/60 min, $125/45 min, $80/30 min; Shahjahan Khan at $175/60 min, $145/45 min, $85/30 min; Yassin Farrag at $145/60 min, $110/45 min, $70/30 min."
+    sources_checked: 2
+    source_used: "raw/web/official/2026-04-24_squash-zone-programs-full.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch of squash.zone homepage did NOT display private lesson pricing (may be on a subpage not fetched). Single L1 raw source only. Downgraded to L2 with attribution."
+
+  - id: c039
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone clinic prices range $40-$70 per hour (package/drop-in rate); membership required."
+    sources_checked: 3
+    source_used: "squash.zone (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live fetch confirmed '$40-$70 per hour (package/drop in rate).' Two raw L1 sources also confirm."
+
+  - id: c041
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to the Squash Zone website, the guest fee is $25 plus $40 court booking; non-members may take up to two lessons (plus $25 guest fee)."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_squash-zone-programs.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 raw source. Live fetch did not surface guest fee info. Downgraded to L2."
+
+  - id: c060
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "SquashDrive provides a minimum of 100 hours per year of squash and fitness instruction and 115 hours per year of homework help and academic enrichment."
+    sources_checked: 2
+    source_used: "squashdrive.org/our-program and squashdrive.org/"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources confirm both figures."
+
+  - id: c062
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SquashDrive, the organization partners with 12 schools in the Oakland area; its primary school partner is Berkeley Maynard Academy (Aspire Public School in Oakland), where 70% of students receive free or reduced lunches."
+    sources_checked: 1
+    source_used: "squashdrive.org/our-program"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source. 70% figure may change year to year."
+
+  - id: c065
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Oakwood Athletic Club has 3 glass-back wall international-size squash courts and offers youth instruction and private lessons."
+    sources_checked: 2
+    source_used: "oakwoodathleticclub.com/court-sports/squash and east-bay survey"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources confirm court count and junior programs."
+
+  - id: c070
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stanford Recreation, the Arrillaga Center for Sports and Recreation (ACSR) has 7 squash courts including one glass competition court; access requires a valid Stanford ID."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_stanford-arrillaga-squash.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source. Stable infrastructure claim."
+
+  - id: c073
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "JCT #2 (2025-2026 season) was held in Fremont, CA on October 11-13, 2025."
+    sources_checked: 3
+    source_used: "Three L1 sources: ussquash.org ranking page, NSA page, NorCal tournament calendar"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Past event. Three independent L1 sources confirm."
+
+  - id: c074
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, the 2025-2026 JCT schedule was: JCT #1 South Norwalk, CT (Aug 30-Sep 1, 2025); JCT #2 Fremont, CA (Oct 11-13, 2025); JCT #3 Springfield, VA (Nov 8-10, 2025); JCT #4 Philadelphia, PA (Jan 17-19, 2026); JCT #5 Houston, TX (Feb 14-16, 2026)."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_ussquash-junior-ranking-how.md"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Single L1 source. All events are past as of April 2026. Live fetch of ranking page did not show JCT schedule (may have been removed post-season)."
+
+  - id: c075
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, the 2025-2026 scholastic championships were: Middle School Championships in Philadelphia, PA (Jan 30-Feb 1, 2026); Interscholastic Championships in Baltimore, MD (Feb 6-8, 2026); High School Championships in Philadelphia, PA (Feb 20-22, 2026)."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_ussquash-junior-ranking-how.md"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Single L1 source. All events past."
+
+  - id: c076
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, the 2025-2026 national championships were: US Junior Open in Philadelphia, PA (Dec 20-23, 2025); US Junior Squash Championships in Philadelphia, PA (Mar 13-15, 2026); US Junior Silver/Bronze Championships in Philadelphia, PA (Mar 20-22, 2026)."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_ussquash-junior-ranking-how.md"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Single L1 source. All events past or very recent."
+
+  - id: c078
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Junior tournament entry fees typically range $35-75 per draw for most junior tournaments; gold and JCT events cost $100-200+."
+    sources_checked: 2
+    source_used: "norcalsquash.org tournament calendar and junior-squash-cost-breakdown synthesis"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two sources (L1 + L2) broadly align on fee ranges. L1 says '$35-75 most junior tournaments.' L2 breakdown gives more granular tiers."
+
+  - id: c082
+    verdict: downgraded
+    confidence: L3
+    original_claim: "LearnSquash offers junior clinics for ages 6-18; private lessons cost $100 per 45-minute session (individual) or $55 per person for semi-private."
+    permitted_language: "LearnSquash lists junior clinics for ages 6-18 with private lessons at $100 per 45-minute session (individual) or $55 per person for semi-private; note that LearnSquash may not be a Bay Area provider."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_learnsquash-juniors.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L2 source. Bay Area relevance uncertain. Downgraded to L3 with qualifier."
+
+  - id: c083
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to xfactoradmissions.com, the US Squash nationally ranked junior pool consists of approximately 142 BU19 and 104 GU19 players."
+    sources_checked: 2
+    source_used: "raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two L2 sources agree on figures. These are snapshot numbers that change each season."
+
+  - id: c085
+    verdict: disputed
+    confidence: L3
+    original_claim: "There are 37 colleges and universities in the United States with varsity college squash teams."
+    permitted_language: "The number of colleges with varsity squash programs varies by source and changes year to year. For the 2025-2026 season, CSA lists 34 men's and 31 women's varsity programs. Some sources cite 37 total programs, which may reflect a different count methodology or an earlier season."
+    dispute_id: d001
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Live web search found CSA/Wikipedia listing 34 men's and 31 women's programs for 2025-26. Sparkadmissions '37' figure is outdated or uses different counting. Brown University reinstated programs in Feb 2026. Counts are fluid."
+
+  - id: c086
+    verdict: disputed
+    confidence: L3
+    original_claim: "34 colleges offer men's squash varsity and 32 offer women's varsity."
+    permitted_language: "The number of colleges with varsity squash programs varies by source and changes year to year. For the 2025-2026 season, CSA lists 34 men's and 31 women's varsity programs. Some sources cite 37 total programs, which may reflect a different count methodology or an earlier season."
+    dispute_id: d001
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "xfactoradmissions said '32 women's' but CSA/Wikipedia says 31 for 2025-26. The men's count of 34 aligns. Women's count off by one — possibly Brown's reinstatement or different snapshot date."
+
+  - id: c092
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to my-squash.com, most junior squash rackets cost approximately $50; full-size rackets suitable for juniors are available under $120."
+    sources_checked: 1
+    source_used: "raw/web/review/2026-04-24_junior-squash-equipment-guide.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L3 aggregator source. Prices are approximate and subject to market variation."
+
+  - id: c093
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash eyeguards must meet or exceed the ASTM-F3164 standard; US Squash mandates eyeguards for all juniors in all sanctioned events. Basic certified eyeguards cost approximately $20-40."
+    sources_checked: 2
+    source_used: "L3 equipment guide + L2 injuries/safety synthesis"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "ASTM standard and US Squash mandate confirmed by two sources. Price range from L3 aggregator."
+
+  - id: c095
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "A junior squash equipment starter kit (racket, eyeguards, court shoes, balls, bag) costs approximately $130-170 at the budget level or $200-300 at the mid-range level."
+    sources_checked: 2
+    source_used: "L3 equipment guide + L2 cost breakdown"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two sources agree on range. Figures are estimates."
+
+  - id: c098
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Based on aggregated estimates, recreational junior squash in the Bay Area costs approximately $2,000-4,000 per year."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Synthesized estimate from verified L1 component costs. Editorial aggregate. Single L2 source."
+
+  - id: c099
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Based on aggregated estimates, competitive junior squash (regional/national level) in the Bay Area costs approximately $10,000-20,000+ per year."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Synthesized estimate. Wide range reflects variability in travel, coaching intensity, tournament frequency."
+
+  - id: c100
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone Junior Access membership totals $1,430 in the first year ($110/month + $110 initiation) and $1,320 in subsequent years. Junior PLUS totals $2,080 in the first year ($160/month + $160 initiation) and $1,920 in subsequent years."
+    sources_checked: 2
+    source_used: "squash.zone/join-squash-zone (live-verified) + cost breakdown"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Math verified against live-confirmed c037 pricing. $110x12 + $110 = $1,430. $160x12 + $160 = $2,080. Correct."
+
+  - id: c107
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Jesse Engelbrecht's Parents Playbook (squashplaybook.com) is a free 20-minute online workshop on parental support in junior squash; 'The Squash Playbook' eBook is available for $9."
+    sources_checked: 2
+    source_used: "Two L2 sources from squashplaybook.com"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two L2 sources agree. Pricing may change."
+
+  - id: c119
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash Drive to LA28 roadshow confirmed cities include Chicago, IL (May 28) and Boston, MA (June 10); additional cities (Philadelphia, New York, San Francisco, Los Angeles) have dates to be determined."
+    sources_checked: 2
+    source_used: "ussquash.org/la28/ (retrieved 2026-04-24)"
+    last_verified: 2026-04-24
+    volatile: cycle_bound
+    notes: "Live fetch confirmed Chicago May 28, Boston June 10. SF listed as TBD. Future events -- verify closer to date."
+
+  # ================================================================
+  # VERIFIED CLAIMS — should_verify (Priority 2-3)
+  # ================================================================
+
+  - id: c002
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The US Squash National Squash Academy (NSA) offers seven program tiers: NSA-Aspire, NSA-Regional, NSA-Performance, NSA-Under 23, NSA-International, NSA-Professional, and NSA-National Team."
+    sources_checked: 2
+    source_used: "Two L1 sources: ussquash.org pathway announcement + NSA page"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources confirm seven tiers with identical names."
+
+  - id: c006
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, NSA-Professional supports emerging professionals ranked approximately in the top 100 on the PSA tour."
+    sources_checked: 1
+    source_used: "ussquash.org pathway announcement"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source. 'Approximately' qualifier is from the source itself."
+
+  - id: c007
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash junior rankings are calculated as an average of a player's top 4 points-earning tournaments played within the past 11 months."
+    sources_checked: 3
+    source_used: "ussquash.org/earning-a-junior-national-ranking/ (live + 2 raw)"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 raw sources + live fetch confirmed 'top 4 points earning tournaments played within the past 11-months.'"
+
+  - id: c008
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "To obtain a US Squash junior national ranking, players must: (1) hold active US Squash membership, (2) pass an age-appropriate online referee exam, (3) be a U.S. citizen or resident, and (4) have at least 3 active tournament exposures in the same age group within the past 11 months."
+    sources_checked: 3
+    source_used: "ussquash.org/earning-a-junior-national-ranking/ (live + 2 raw)"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Live fetch confirmed four criteria. Two L1 raw sources corroborate."
+
+  - id: c009
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash junior referee exam requirements by age group: U13 = Level 1, U15 = Level 2, U17 = Level 3, U19 = Level 4; recertification is required every two years."
+    sources_checked: 2
+    source_used: "Two L1 sources: ussquash.org ranking page + NorCal tournament calendar"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two independent L1 sources confirm all four age-level mappings and 2-year recertification."
+
+  - id: c011
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash junior age divisions are U11, U13, U15, U17, and U19; players must be under the age limit through the tournament's final day to be eligible."
+    sources_checked: 2
+    source_used: "Two L1 sources: ussquash.org tournament structure + getting started pages"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources confirm."
+
+  - id: c012
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The US Squash USR Junior Circuit is a competitive pathway distinct from the JCT-based ranking system."
+    sources_checked: 2
+    source_used: "Two L1 sources: ussquash.org junior overview + NorCal tournament calendar"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c013
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "US Squash Level 3 coaching certification is the highest certification US Squash currently offers."
+    sources_checked: 3
+    source_used: "ussquash.org/coach-certification/ (live + 2 raw)"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Live fetch confirmed 'Level 3 is currently the highest certification that US SQUASH offers.' Two raw L1 sources corroborate."
+
+  - id: c016
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, fourteen professional players earned Level 3 coaching certification in 2025."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_ussquash-coach-certification-full.md"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Single L1 source. Historical fact."
+
+  - id: c017
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Coaches must hold a Coach Pass membership to coach at US Squash accredited junior tournaments or act as tournament director of an accredited tournament."
+    sources_checked: 3
+    source_used: "ussquash.org/coach-certification/ (live + 2 raw)"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Live fetch confirmed Coach Pass requirement. Two raw L1 sources corroborate."
+
+  - id: c018
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to US Squash, its certifications are the only official coaching certifications recognized by US Squash in the USA."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_ussquash-coach-certification-full.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source. Tautological claim (US Squash recognizes its own certs). Attributed."
+
+  - id: c020
+    verdict: downgraded
+    confidence: L2
+    original_claim: "Squash is one of five new sports debuting at the 2028 Los Angeles Olympics."
+    permitted_language: "Squash is one of five additional sports approved for the 2028 Los Angeles Olympics, alongside baseball/softball, cricket, flag football, and lacrosse. Squash and flag football are making their Olympic debut."
+    sources_checked: 3
+    source_used: "olympics.com IOC approval announcement + ussquash.org/la28/ + web search"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Claim said 'five new sports debuting' but baseball/softball is returning, not debuting. Corrected: five additional sports, of which squash and flag football are genuine debuts."
+
+  - id: c023
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to NorCal Squash, the organization operates under the San Francisco International Squash Federation (SFISF), a registered 501(c)(3) charitable nonprofit corporation."
+    sources_checked: 1
+    source_used: "norcalsquash.org/about/"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c025
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Members join NorCal Squash through US Squash by selecting a NorCal club as their 'home club.'"
+    sources_checked: 2
+    source_used: "norcalsquash.org/about/ + norcalsquash.org/league/"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources confirm."
+
+  - id: c027
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "NorCal Squash league teams are co-ed and divided into Divisions 1 through 4."
+    sources_checked: 2
+    source_used: "norcalsquash.org/league/ + NorCal juniors blog"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources confirm."
+
+  - id: c028
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to NorCal Squash, league match format is best of five rally-point games; teams consist of 6-10 players with four players from each team playing per match night."
+    sources_checked: 1
+    source_used: "NorCal Squash juniors blog"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c029
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to NorCal Squash, the organization maintains partnerships with 20+ facilities across five regions."
+    sources_checked: 1
+    source_used: "norcalsquash.org/"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c030
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to NorCal Squash, the league uses ClubLocker for recording match results and standings calculations."
+    sources_checked: 1
+    source_used: "norcalsquash.org/league/"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c032
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "No school in NorCal has its own squash courts except Nueva School, which is the only school in Northern California to incorporate squash into its school program."
+    sources_checked: 2
+    source_used: "NorCal juniors blog + academic balance synthesis"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two sources confirm. Nueva exception noted in both."
+
+  - id: c034
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone is located at 3586 Haven Ave, Redwood City, CA 94063; phone 650-995-7443."
+    sources_checked: 2
+    source_used: "Two L1 sources from squash.zone"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c040
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Squash Zone, court sessions are 45 minutes long, bookable 4 days in advance starting at 7am, with a $15 no-show fee."
+    sources_checked: 1
+    source_used: "squash.zone programs-full page"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c042
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash Zone Beginner Clinics are for ages 5-9; Development Clinics are for ages 10-14; Elite Clinics require a 2.7-4.5+ rating."
+    sources_checked: 2
+    source_used: "Two L1 sources from squash.zone"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: ""
+
+  - id: c043
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Squash Zone, eye protection is mandatory for all players 18 and under."
+    sources_checked: 1
+    source_used: "squash.zone programs page"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c044
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Squash Zone, camp deposits are $300 per camp with balance due on the first day; cancellation must be in writing at least 14 days prior to the start; fees are non-refundable once the session starts."
+    sources_checked: 1
+    source_used: "squash.zone programs-full page"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c045
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Squash Zone, the Wednesday Challenge Ladder costs $30/quarter for match play (7:30-9pm) and the Friday Night Round Robin is free with membership (7:30-8:30pm)."
+    sources_checked: 1
+    source_used: "squash.zone programs-full page"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c046
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "HAQ International Squash Academy (HISA) has a mailing address of PO Box 2003, Santa Clara, CA 95055; phone (408) 256-7363."
+    sources_checked: 2
+    source_used: "Two L1 sources: hisasquash.com overview + about page"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c047
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to HISA's website, director Muhammad Waseem Ul Haq has a world ranking of 131 and credentials including the Kentucky State Championship (1999), a silver medal at Pakistan's National Games (1998), participation in the US Open and three World Opens, and service as Executive Director of the Kentucky Squash Racquets Association (1999-2005)."
+    sources_checked: 1
+    source_used: "hisasquash.com/about"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Self-reported credentials on own website. Single L1 source. Attribution required."
+
+  - id: c048
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "HISA assistant directors Neha Haq and Mahnoor Haq are both Level 1 US Squash Certified Coaches."
+    sources_checked: 2
+    source_used: "hisasquash.com/about + hisasquash.com overview"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two L1 sources. Overview page also names Sadia Waseem Haq as Level 1 certified."
+
+  - id: c049
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to HISA, the academy's school partnerships include Westmont High School, Magnolia Science Academy, Noor Hifz Academy, and Granada Islamic School."
+    sources_checked: 1
+    source_used: "hisasquash.com/about"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c050
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "HISA pricing is not publicly available on the website; contact (408) 256-7363 or squash@hisasquash.com for current rates."
+    sources_checked: 2
+    source_used: "Two L1 sources confirm no public pricing"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c051
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to its website, Altius Performance Squash is located at 1197 Oddstad Dr, Redwood City, CA 94063; phone 650.396.9313."
+    sources_checked: 1
+    source_used: "altiusperformance.net"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L1 source."
+
+  - id: c052
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Altius Performance's website, head coach Omar Mohy Marei is a former top-ranked Egyptian junior and PSA professional who was part of the Wadi Degla club coaching team in Cairo and coached at Greenwich Academy, CT, where the team won 3 US national high school titles during his tenure."
+    sources_checked: 1
+    source_used: "altiusperformance.net"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Self-reported credentials. Single L1 source. Attribution required."
+
+  - id: c053
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Altius Performance's website, coach Omar's students won the 2023 British Junior Open BU11 and GU11, and placed 3rd in GU13 and 5th in BU15."
+    sources_checked: 1
+    source_used: "altiusperformance.net"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Self-reported. Verifiable against British Junior Open results but not independently confirmed."
+
+  - id: c054
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Altius Performance is a junior-centric coaching service, not a club or court facility; pricing is not publicly listed and requires direct contact."
+    sources_checked: 1
+    source_used: "altiusperformance.net"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c055
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Bay Club locations with squash courts in the Bay Area include Bay Club San Francisco (150 Greenwich Street), Bay Club Marin (Corte Madera), Bay Club Fremont (46650 Landing Parkway, Fremont, CA 94538), Bay Club Santa Clara, and Bay Club Redwood Shores."
+    sources_checked: 2
+    source_used: "Two L1 sources from bayclubs.com"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c056
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Bay Club Fremont coaches include Maha Zein, Faisal Riaz, and Zarak Khan. Bay Club San Francisco and Bay Club Marin coach is Erick Chacon."
+    sources_checked: 2
+    source_used: "bayclubs.com + norcalsquash.org/lessons/"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two independent L1 sources confirm."
+
+  - id: c057
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Bay Club, Bay Club Fremont hosted the Bay Club Fremont Winter Challenge junior bronze tournament in December 2019, featuring Dillon Huang (then US #1 ranked BU19)."
+    sources_checked: 1
+    source_used: "bayclubs.com squash full page"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Historical event. Single L1 source."
+
+  - id: c058
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Bay Club requires full club membership to access squash courts; pricing varies by location and is not publicly listed."
+    sources_checked: 2
+    source_used: "Two L1 sources from bayclubs.com"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c059
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "SquashDrive is based in Emeryville, CA (PO Box 99165, Emeryville, CA 94662) and serves East Bay youth in grades 4-11."
+    sources_checked: 2
+    source_used: "squashdrive.org + squashdrive.org/our-program"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c061
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SquashDrive, the program is free for eligible participants; SquashDrive is a nonprofit funded by donations."
+    sources_checked: 1
+    source_used: "squashdrive.org/our-program"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c063
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to SquashDrive, the organization is part of the National Urban Squash Education Alliance (NUSEA), making participants eligible for the NAO/GO Scholarship Fund for private secondary school and college."
+    sources_checked: 1
+    source_used: "squashdrive.org/our-program"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c064
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to its website, Oakwood Athletic Club is located at 4000 Mt. Diablo Boulevard, Lafayette, CA 94549; phone 925.283.4000."
+    sources_checked: 1
+    source_used: "oakwoodathleticclub.com"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c066
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Oakwood Athletic Club, the in-house squash league has up to 5 divisions (Novice through A Level); formal sessions run Fall (September through early December) and Winter (January through late April)."
+    sources_checked: 1
+    source_used: "oakwoodathleticclub.com"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c067
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "The East Bay Competitive Squash League features team matches between 7 clubs in the East Bay, played on Wednesday evenings in fall and winter, with playoffs determining Northern California Champions against Peninsula, Marin, and Sacramento leagues."
+    sources_checked: 2
+    source_used: "oakwoodathleticclub.com + east-bay survey"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two L1 sources confirm. Oakwood Division II win in 2005 is historical fact."
+
+  - id: c068
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Oakwood Athletic Club pricing is not publicly listed; private club membership is required. Contact the club directly for current rates."
+    sources_checked: 1
+    source_used: "oakwoodathleticclub.com"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c069
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Oakwood Athletic Club, the Bay Area hosts over ten age-group, skill-level, and open-professional squash tournaments per year."
+    sources_checked: 1
+    source_used: "oakwoodathleticclub.com"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Single L1 source. 'Over ten' is vague but reasonable."
+
+  - id: c071
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Stanford University has a women's varsity squash program, which is the only West Coast varsity squash program."
+    sources_checked: 3
+    source_used: "Stanford rec + sparkadmissions + CSA search"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Multiple sources confirm. Stanford's continuation was reaffirmed in 2021."
+
+  - id: c072
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Stanford Recreation, non-Stanford-affiliated families cannot access Stanford squash courts as a training base; the nearest accessible alternative is Squash Zone in Redwood City (approximately 3 miles from Stanford campus)."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_stanford-arrillaga-squash.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c077
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Historical NorCal junior tournaments include: Squash Zone Silver (March, 80-103 competitors), Bay Club Fremont Winter Challenge (December), Squash Zone Club Championships (May), Oakwood Winter Bronze (February), and the Silicon Valley Junior Championships."
+    sources_checked: 2
+    source_used: "NorCal juniors blog + US Squash getting started page"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Two L1 sources list same events."
+
+  - id: c079
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Squash matches are played in a best-of-five format; each game is won by reaching 11 points using point-a-rally (PAR) scoring; if tied at 10-10, play continues until a two-point lead is achieved."
+    sources_checked: 3
+    source_used: "L3 squashsource rules + web search confirming WSF official rules"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "L3 source claim but independently confirmed via WSF/PSA official rules search. Upgraded to L1."
+
+  - id: c084
+    verdict: downgraded
+    confidence: L3
+    original_claim: "For top Ivy League squash programs (Harvard, Yale, Princeton), a national ranking of top 10-20 is typically required; top 20-50 for strong D1 programs; top 50-100 for elite D3 liberal arts."
+    permitted_language: "According to xfactoradmissions.com, rough estimates for college squash recruiting competitiveness are: top 10-20 nationally for Ivy League programs (Harvard, Yale, Princeton), top 20-50 for strong D1 programs (UPenn, Columbia), and top 50-100 for elite D3 programs (Amherst, Williams, Tufts). These are approximate figures that vary by program, year, and gender."
+    overreach_resolved: true
+    overreach_resolution: "Added 'rough estimates' qualifier and 'vary by program, year, and gender' caveat per source's own language. These are NOT official program-published thresholds."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "OVERREACH FLAG: Source explicitly states these are 'rough estimates.' Cannot be presented as fixed requirements."
+
+  - id: c087
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Sparkadmissions, college squash varsity teams typically consist of 10-20 players, and coaches may recruit only one or two players per year."
+    sources_checked: 1
+    source_used: "sparkadmissions.com college squash recruiting article"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c088
+    verdict: confirmed
+    confidence: L1
+    permitted_language: "Ivy League and Division III schools do not offer athletic scholarships for squash."
+    sources_checked: 2
+    source_used: "sparkadmissions + xfactoradmissions"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Two independent L2 sources confirm. Well-established NCAA/Ivy policy."
+
+  - id: c089
+    verdict: downgraded
+    confidence: L3
+    original_claim: "Recruited athletes at Ivy League schools are approximately 20 times more likely to be accepted; Harvard athletes rated 1-2 on admissions scale have an 83% acceptance rate; athletes rated 4 have a 70.5% acceptance rate versus 7.6% for non-athletes."
+    permitted_language: "According to xfactoradmissions.com (citing OpenAdmits/Harvard data), recruited athletes at Harvard are approximately 20 times more likely to be accepted, with athletes rated 1-2 on the admissions scale having an 83% acceptance rate and athletes rated 4 having a 70.5% rate versus 7.6% for non-athletes. Note: these figures are Harvard-specific and should not be generalized to all Ivy League schools."
+    overreach_resolved: true
+    overreach_resolution: "Restricted to Harvard-specific data. Removed implication of Ivy-wide applicability. Source data is from Harvard admissions lawsuit disclosures."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "OVERREACH FLAG: Harvard data only; original claim generalized to 'Ivy League schools.'"
+
+  - id: c090
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to xfactoradmissions.com, nearly 90% of Ivy League squash players attended private high schools with fees around $30,000."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Single L2 source. Methodology unknown. Attributed."
+
+  - id: c091
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to my-squash.com, recommended junior squash racket sizing is: under 8 years: 23-inch frame (~180g); ages 8-11: 25-inch frame (120-150g); age 12+ or 150cm+ tall: full-length frames, remaining under 130g until strength and technique are proven."
+    sources_checked: 1
+    source_used: "L3 equipment guide"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L3 aggregator source. General guidance consistent with manufacturer recommendations."
+
+  - id: c094
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a synthesized safety source, the World Squash Federation has recommended mandatory eyewear for all juniors since 1996."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_squash-injuries-safety.md"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Single L2 source. Historical fact."
+
+  - id: c097
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to ROSPA (UK Royal Society for the Prevention of Accidents), a squash ball traveling at 150 KPH has energy impact comparable to a .22 bullet; approximately 2,000 eye injuries per year occur from squash balls and 2,400 from racquets."
+    sources_checked: 2
+    source_used: "L2 injuries synthesis + L3 equipment guide"
+    last_verified: 2026-04-24
+    volatile: none
+    notes: "Two sources cite same ROSPA data. The .22 bullet comparison is widely circulated in squash safety literature."
+
+  - id: c102
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Onyx Squash Academy, if burnout occurs, athletes typically need 4 to 12 weeks of rest before gradually returning to sports."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_junior-squash-burnout-prevention.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L2 source."
+
+  - id: c103
+    verdict: confirmed
+    confidence: L3
+    permitted_language: "According to my-squash.com, squash burns approximately 600-900 calories per hour compared to 400-700 for tennis; actual figures depend on individual, intensity, and session type."
+    sources_checked: 1
+    source_used: "L3 squash-vs-tennis comparison"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Single L3 aggregator. Calorie burn ranges are plausible but should not be stated as precise."
+
+  - id: c104
+    verdict: downgraded
+    confidence: L4
+    original_claim: "Squash has approximately 15-20 court locations in the Bay Area, all private/club-based."
+    permitted_language: "The exact number of Bay Area squash court locations is not definitively documented. NorCal Squash references 20+ facilities; an L3 aggregator estimates 15-20 locations. All known Bay Area squash courts are at private clubs or membership facilities."
+    overreach_resolved: true
+    overreach_resolution: "Cannot reconcile L3 estimate of '15-20 locations' with NorCal Squash's '20+ facilities.' Court count vs location count may differ. Downgraded and qualified."
+    sources_checked: 2
+    source_used: "L3 squash-vs-tennis comparison + NorCal Squash org page"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "OVERREACH FLAG: Two sources give different figures. No authoritative inventory exists."
+
+  - id: c105
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Onyx Squash Academy, structured strength training is appropriate from approximately age 12-13+ with proper form guidance; children under 12 should focus on movement patterns and fun over structured strength training."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_squash-junior-cross-training.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c106
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to Onyx Squash Academy, approximately 70% of squash conditioning work should take place on-court to maintain a squash-specific fitness foundation."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_squash-junior-cross-training.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c108
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to squashplaybook.com, Jesse Engelbrecht has a Master's degree in Sport and Exercise Psychology, competed for 10+ years on the professional squash tour, and won 15 international titles."
+    sources_checked: 2
+    source_used: "Two L2 sources from squashplaybook.com"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Self-reported credentials. Two sources from same site."
+
+  - id: c109
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to squashplaybook.com, no sideline coaching is permitted during squash matches; players must develop independent pre-point routines."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_squash-mental-game-junior.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Consistent with US Squash tournament rules. Single L2 source; should be confirmed against official rulebook for L1."
+
+  - id: c110
+    verdict: disputed
+    confidence: L3
+    original_claim: "College squash: 37 varsity programs (Ivy League and top D3); approximately 60 spots per gender per year; no athletic scholarships."
+    permitted_language: "For the 2025-2026 season, CSA lists 34 men's and 31 women's varsity squash programs. These are concentrated at Ivy League and top D3 schools, with no athletic scholarships available. College squash teams are small (typically 10-20 players), resulting in limited annual recruiting spots."
+    dispute_id: d001
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "The '37 programs' figure from L3 aggregator is outdated/inaccurate. '60 spots per gender' is not sourced by any L1/L2 source and appears to be editorial estimation. Replaced with verified counts."
+
+  - id: c114
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "Based on a survey of East Bay squash facilities, the East Bay has no junior squash academy analogous to Squash Zone or HISA on the Peninsula, making it underserved for competitive junior squash development."
+    sources_checked: 1
+    source_used: "raw/web/official/2026-04-24_east-bay-squash-clubs-survey.md"
+    last_verified: 2026-04-24
+    volatile: annual
+    notes: "Synthesis document grounded in L1 source inventory. Assessment is editorial but evidence-based."
+
+  - id: c115
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to xfactoradmissions.com, squash is 'heavily east coast centric' with a minor concentration in California; sources for college squash teams come from 'a relatively small clutch of elite private high schools in the northeast, and a couple in California.'"
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: "Direct quotes attributed to source."
+
+  - id: c117
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a synthesized training guide, competitive squash time demands are approximately: recreational 2-3 hours/week, club competitive 6-10 hours/week, and advanced competitive 12-20 hours/week."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_squash-academic-balance.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  - id: c118
+    verdict: confirmed
+    confidence: L2
+    permitted_language: "According to a synthesized training guide, national squash events (JCT, championships) may require Thursday-Sunday travel, and East Coast national events require 3-4 days travel from the Bay Area."
+    sources_checked: 1
+    source_used: "raw/web/journalistic/2026-04-24_squash-academic-balance.md"
+    last_verified: 2026-04-24
+    volatile: evergreen
+    notes: ""
+
+  # ================================================================
+  # MAY_SKIP CLAIMS (Priority 5)
+  # ================================================================
+
+may_skip_claims:
+
+  - id: c024
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to NorCal Squash, the board has six members: Emilie Van Der Hoorn (Chairperson, SF League Commissioner), Eric Katerman, Larry Salzer (Treasurer), Lauren Patrizio Xaba, Michael Corbett (Peninsula League Commissioner), and Rina Bhagwati."
+    volatile: annual
+    notes: "Not actively verified. Single L1 source. Board membership may change."
+
+  - id: c080
+    verdict: accepted_as_is
+    confidence: L1
+    permitted_language: "Squash uses point-a-rally (PAR) scoring, where every rally produces a point regardless of who served."
+    volatile: evergreen
+    notes: "Confirmed via web search of official WSF rules. L3 source but universally known fact."
+
+  - id: c081
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to squashsource.com, the squash court is an enclosed rectangular room with front wall, two side walls, and back wall, featuring a service line, outline at top (out of bounds), tin at bottom of front wall, a half-court line, and a short line."
+    volatile: evergreen
+    notes: "Standard squash court description. Not actively verified but uncontroversial."
+
+  - id: c096
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "According to my-squash.com, squash ball types by player level are: yellow or blue dot (bouncier, for beginners/young players), white or red dot (intermediate), and single or double yellow dot (advanced, least bouncy)."
+    volatile: evergreen
+    notes: "Standard squash ball color coding. Not actively verified."
+
+  - id: c101
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to Onyx Squash Academy (citing sports science research), multi-sport participation until puberty reduces injury risk, prevents burnout, and enhances long-term athletic development compared to early specialization; specializing before age 12 is associated with higher dropout rates."
+    volatile: evergreen
+    notes: "Well-established in sports science literature. Single L2 source but aligns with AOSSM and AAP positions."
+
+  - id: c111
+    verdict: accepted_as_is
+    confidence: L1
+    permitted_language: "Squash Zone Peninsula coaches listed on NorCal Squash include Richard Elliott, Aisling Blake, Johann Huang, Zephan Huang, and Mustafa Nawar."
+    volatile: annual
+    notes: "Two L1 sources confirm. Coach rosters change."
+
+  - id: c112
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to NorCal Squash, Bay Club Redwood Shores coaches are Charlie Johnson, Vanessa Raj, and Bransten Ming; Bay Club Santa Clara coach is Jonathan Perry."
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c113
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to NorCal Squash, Gareth Webber coaches at the Olympic Club in San Francisco."
+    volatile: annual
+    notes: "Single L1 source."
+
+  - id: c116
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to NorCal Squash, notable Bay Area junior squash achievers include Madison Ho (U-11 National Championship winner, unblemished record 2015-16), Gautham Suresh (multiple NorCal BU11/BU13 wins), Abhinav Athreya (NorCal BU13), Nikhil Prasad (NorCal BU15), and Abhimanyu Gupta (NorCal BU17)."
+    volatile: none
+    notes: "Historical achievements. Single L1 source."
+
+  - id: c120
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to SquashSkills, squash technical progression involves three stages: Beginner (grip, basic forehand/backhand, court awareness, safety), Intermediate (footwork, T-position, length game, serve/return), and Advanced (tactical play, deception, volleys, boasts, mental game, conditioning)."
+    volatile: evergreen
+    notes: "Standard pedagogical framework. Single L2 source."
+
+  - id: c121
+    verdict: accepted_as_is
+    confidence: L2
+    permitted_language: "According to SquashSkills, players should always return to the T position (center of court) after every shot; the split-step on the opponent's swing maximizes reaction time."
+    volatile: evergreen
+    notes: "Well-established squash technique. Single L2 source."
+
+  - id: c122
+    verdict: accepted_as_is
+    confidence: L3
+    permitted_language: "LearnSquash lists junior clinics for ages 6-18 with private lessons at $100 per 45-minute session (individual) or $55 per person for semi-private; note that LearnSquash may not be a Bay Area provider."
+    volatile: annual
+    notes: "Duplicate of c082. Same non-Bay-Area caveat applies."
+
+# ================================================================
+# DISPUTES
+# ================================================================
+
+disputes:
+  - id: d001
+    claim_ids: [c085, c086, c110]
+    subject: "Number of varsity college squash programs in the US"
+    positions:
+      - value: "37 colleges and universities"
+        source: sparkadmissions.com/blog/how-to-get-recruited-to-college-for-squash/
+        tier: L2-authoritative
+        date: unknown
+        note: "Counts total schools, not separate men's/women's programs"
+      - value: "34 men's, 32 women's"
+        source: xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        date: unknown
+        note: "Separate gender counts; women's count slightly high"
+      - value: "37 varsity programs"
+        source: my-squash.com/en/blogs/blogs/squash-vs-tennis-vs-pickleball
+        tier: L3-aggregator
+        date: unknown
+        note: "Repeats '37' figure, likely sourced from Sparkadmissions"
+      - value: "34 men's, 31 women's (2025-2026)"
+        source: en.wikipedia.org/wiki/List_of_college_squash_schools + csasquash.com
+        tier: L1-official
+        date: 2026-04
+        note: "CSA official counts for 2025-26 season. Brown reinstated programs Feb 2026."
+    resolution: "CSA official count for 2025-2026 is 34 men's and 31 women's varsity programs. The '37' figure appears outdated or uses a different counting methodology. Program counts change year to year as schools add or drop programs."
+    permitted_language: "For the 2025-2026 season, the College Squash Association lists 34 men's and 31 women's varsity programs. Some sources cite 37 total programs, which may reflect an earlier season or different count methodology."
+    confidence: L1
+
+# ================================================================
+# OVERREACH RESOLUTION SUMMARY
+# ================================================================
+
+overreach_resolutions:
+
+  - id: c084
+    type: "Approximate estimates presented as fixed thresholds"
+    original: "For top Ivy League squash programs, a national ranking of top 10-20 is typically required"
+    resolution: "Added 'rough estimates' qualifier and 'vary by program, year, and gender' per source's own language"
+    mechanism_check: "No mechanism overreach. Source itself uses 'rough estimates' language."
+
+  - id: c089
+    type: "Single-institution data generalized to group"
+    original: "Recruited athletes at Ivy League schools are approximately 20 times more likely to be accepted"
+    resolution: "Restricted to Harvard-specific data with explicit note not to generalize"
+    mechanism_check: "Individual case -> population outcome. Harvard data cannot be applied to all Ivy League schools."
+
+  - id: c104
+    type: "Conflicting estimates from different methodologies"
+    original: "Squash has approximately 15-20 court locations in the Bay Area"
+    resolution: "Presented both estimates with qualifiers; noted 'court count vs location count' ambiguity"
+    mechanism_check: "L3 estimate stated as fact. Downgraded to L4 with qualification."
+
+  - id: c085_c086_conflict
+    type: "Conflicting numerical claims from different sources"
+    original: "37 total programs vs 34 men's + 32 women's"
+    resolution: "Resolved via CSA official data: 34 men's, 31 women's for 2025-26. Wiki should use CSA figure."
+    mechanism_check: "Outdated data presented as current. Resolved with current official source."
+
+  - id: c020
+    type: "Imprecise language (not all five sports are 'debuting')"
+    original: "five new sports debuting"
+    resolution: "Corrected to 'five additional sports approved' with note that only squash and flag football are genuine Olympic debuts"
+    mechanism_check: "Technically inaccurate; baseball/softball is returning, not debuting."
+
+# ================================================================
+# MECHANISM OVERREACH CHECKS
+# ================================================================
+
+mechanism_overreach_checks:
+  - check: "Individual case -> population outcome"
+    flagged_claims: [c089]
+    note: "Harvard admissions data used to imply Ivy-wide pattern. Restricted to Harvard only in permitted language."
+
+  - check: "Approximate data -> precise threshold"
+    flagged_claims: [c084]
+    note: "Ranking ranges from single L2 source treated as recruitment requirements. Qualified as rough estimates."
+
+  - check: "Conflicting measurements -> stated fact"
+    flagged_claims: [c104]
+    note: "Court location count varies by source (15-20 vs 20+). Neither figure authoritative. Presented as range with qualifiers."
+
+  - check: "Outdated snapshot -> current state"
+    flagged_claims: [c033, c085, c086]
+    note: "c033: 2020 leadership claim is stale. c085/c086: Program counts change annually; resolved with current CSA data."
+
+  - check: "Non-Bay-Area data -> Bay Area context"
+    flagged_claims: [c082, c122]
+    note: "LearnSquash may not be Bay Area-based. Pricing data flagged as potentially non-local."
+
+# ================================================================
+# PRICING GAPS (explicitly not public)
+# ================================================================
+
+pricing_not_public:
+  - entity: haq-international-squash-academy
+    claim_ids: [c050]
+    permitted_language: "HISA pricing is not publicly available on the website; contact (408) 256-7363 or squash@hisasquash.com for current rates."
+
+  - entity: altius-performance-squash
+    claim_ids: [c054]
+    permitted_language: "Altius Performance pricing is not publicly listed and requires direct contact."
+
+  - entity: bay-club
+    claim_ids: [c058]
+    permitted_language: "Bay Club requires full club membership to access squash courts; pricing varies by location and is not publicly listed."
+
+  - entity: oakwood-athletic-club
+    claim_ids: [c068]
+    permitted_language: "Oakwood Athletic Club pricing is not publicly listed; private club membership is required. Contact the club directly for current rates."

@@ -1,0 +1,1363 @@
+topic: "How to Raise Kid to Be Good at Squash in Bay Area"
+slug: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+created: 2026-04-24
+user_context: "Bay Area parents wanting to develop their child's squash skills — from beginner introduction through competitive junior squash. Covers clubs, coaches, programs, costs, age guidelines, development pathways."
+status: complete
+round: 1
+
+budget:
+  max_searches: 50
+  max_fetches: 100
+  gap_fill_reserve: 18  # question_count(36) x 0.5
+  breadth_budget_pct: 30
+  depth_budget_pct: 80
+  searches_used: 38
+  fetches_used: 45
+
+# --- Pain Point Coverage Map ---
+# Pain point: "Where can my kid even play squash in the Bay Area?" -> Q005, Q006, Q007, Q008 [done]
+# Pain point: "What age should my kid start squash?" -> Q009 [done]
+# Pain point: "How much does junior squash cost (all-in)?" -> Q015, Q016 [done]
+# Pain point: "Is squash a good sport for college admissions?" -> Q027, Q028, Q029 [done]
+# Pain point: "How does the US Squash ranking system work for juniors?" -> Q020 [done]
+# Pain point: "Realistic development timeline from beginner to competitive?" -> Q010 [done]
+# Pain point: "How do I find a good squash coach in the Bay Area?" -> Q012, Q019 [done]
+# Pain point: "Squash vs tennis — which racket sport?" -> Q030 [done]
+# Pain point: "How do parents avoid pushing too hard / burnout?" -> Q033, Q035 [done]
+# Pain point: "What does squash in the Olympics (LA 2028) mean for junior squash?" -> Q031 [done]
+# Pain point: "How do junior squash tournaments work?" -> Q021, Q022 [done]
+# Pain point: "What equipment does my kid need?" -> Q017 [done]
+# Pain point: "Is my kid good enough for college squash? What ranking needed?" -> Q028 [done]
+# Pain point: "How to balance squash training with school?" -> Q036 [done]
+# Pain point: "What is the NorCal Squash scene like?" -> Q004, Q025 [done]
+# Gap-fill additions: Altius Performance, Oakwood details, Stanford access, NorCal tournament calendar, mental game, East Bay survey [done]
+# All high-urgency pain points covered.
+
+search_clusters:
+  - search: "squash clubs courts Bay Area San Francisco Peninsula junior programs 2025 2026"
+    answers_questions: [Q005, Q006, Q007, Q008]
+  - search: "NorCal Squash junior tournaments schedule Bay Area 2025 2026"
+    answers_questions: [Q004, Q021, Q022]
+  - search: "US Squash Player Development Pathway junior ranking system age divisions"
+    answers_questions: [Q002, Q020, Q010]
+  - search: "junior squash cost breakdown lessons tournaments equipment membership Bay Area"
+    answers_questions: [Q015, Q016, Q017]
+  - search: "college squash recruiting ranking requirements Ivy League admissions"
+    answers_questions: [Q027, Q028]
+  - search: "HAQ International Squash Academy programs pricing Stanford Silicon Valley"
+    answers_questions: [Q013, Q024]
+  - search: "Squash Zone Redwood City junior programs tournaments pricing"
+    answers_questions: [Q014, Q022]
+  - search: "Bay Club squash junior program kids camps pricing locations"
+    answers_questions: [Q005, Q006, Q015]
+  - search: "junior squash development timeline beginner to competitive years milestones"
+    answers_questions: [Q010, Q026]
+  - search: "squash vs tennis vs badminton kids comparison benefits"
+    answers_questions: [Q030, Q038]
+  - search: "squash burnout junior players signs prevention parent role"
+    answers_questions: [Q033, Q035]
+  - search: "squash Olympics 2028 LA impact junior squash USA growth"
+    answers_questions: [Q031, Q038]
+
+phases:
+  breadth:
+    questions: [Q001, Q002, Q003, Q004, Q005, Q006, Q007, Q008, Q009, Q010, Q011, Q012]
+    status: complete
+    completed_at: 2026-04-24
+  depth:
+    questions: [Q013, Q014, Q015, Q016, Q017, Q018, Q019, Q020, Q021, Q022, Q023, Q024, Q025, Q026, Q027, Q028, Q029, Q030, Q031, Q032, Q033, Q034, Q035, Q036, Q037, Q038]
+    depends_on: breadth
+    status: complete
+    completed_at: 2026-04-24
+  gap_fill:
+    questions: [QGF001, QGF002, QGF003, QGF004, QGF005, QGF006]
+    depends_on: depth
+    status: complete
+    completed_at: 2026-04-24
+
+questions:
+  # ============================================================
+  # WHAT facet — definitions, categories, inventories
+  # ============================================================
+  - id: Q001
+    text: "What is squash as a sport — rules, court layout, scoring, and what makes it distinct from other racket sports?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 9
+      searchability: 9
+      novelty: 5
+    composite: 7.85
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-010
+        query: "squash rules scoring court layout sport overview basics WSF international"
+    raw_files:
+      - raw/web/review/2026-04-24_squashsource-rules.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [foundational, rules]
+    answered_at: 2026-04-24
+
+  - id: Q002
+    text: "What are the levels of junior squash participation in the US — recreational, club, tournament, regional, national, elite/pre-professional?"
+    facet: WHAT
+    scores:
+      user_value: 9
+      dependency_count: 9
+      searchability: 8
+      novelty: 7
+    composite: 8.55
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-001
+        query: "US Squash junior levels recreational club tournament regional national elite pathway 2025"
+      - id: s-2026-04-24-007
+        query: "junior squash development timeline years beginner competitive nationally ranked milestones stages"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-player-development-pathway.md
+      - raw/web/official/2026-04-24_ussquash-junior-overview.md
+      - raw/web/official/2026-04-24_ussquash-junior-tournament-structure.md
+      - raw/web/official/2026-04-24_ussquash-junior-national-ranking.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1, RO4, RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [foundational, levels, pathway]
+    answered_at: 2026-04-24
+
+  - id: Q003
+    text: "What are the key squash skills and technical fundamentals that junior players develop at each stage (grip, swing, movement, tactics)?"
+    facet: WHAT
+    scores:
+      user_value: 7
+      dependency_count: 5
+      searchability: 7
+      novelty: 6
+    composite: 6.30
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-012
+        query: "squash technical fundamentals juniors grip forehand backhand footwork ghosting stages beginner intermediate"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squashskills-fundamentals.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [skills, technique]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # WHO facet — organizations, entities, coaches
+  # ============================================================
+  - id: Q004
+    text: "What organizations govern and support junior squash in the Bay Area (US Squash, NorCal Squash, school leagues)?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 8
+      searchability: 9
+      novelty: 7
+    composite: 8.00
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-003
+        query: "NorCal Squash junior tournaments Bay Area organizations governing body"
+    raw_files:
+      - raw/web/official/2026-04-24_norcalsquash-org.md
+      - raw/web/official/2026-04-24_norcalsquash-about.md
+      - raw/web/official/2026-04-24_norcalsquash-league.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2, RO4]
+    target_source_tiers: [L1, L2]
+    children: [Q004a]
+    tags: [foundational, organizations]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # WHERE facet — Bay Area sub-region inventory
+  # ============================================================
+  - id: Q005
+    text: "What squash clubs, courts, and junior programs exist in San Francisco?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 9
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-002
+        query: "squash clubs courts junior programs San Francisco Bay Area 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-24_norcalsquash-lessons.md
+      - raw/web/official/2026-04-24_bayclubs-squash.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, SF]
+    answered_at: 2026-04-24
+
+  - id: Q006
+    text: "What squash clubs, courts, and junior programs exist on the Peninsula and South Bay (Redwood City, Palo Alto, San Jose, Mountain View, Sunnyvale)?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 9
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-004
+        query: "squash clubs Peninsula South Bay Redwood City Palo Alto San Jose junior programs Squash Zone HAQ Academy"
+      - id: s-2026-04-24-011
+        query: "HAQ International Squash Academy HISA Silicon Valley Waseem Haq junior programs pricing location"
+    raw_files:
+      - raw/web/official/2026-04-24_squash-zone-programs.md
+      - raw/web/official/2026-04-24_hisasquash-overview.md
+      - raw/web/official/2026-04-24_norcalsquash-lessons.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, peninsula, south-bay]
+    answered_at: 2026-04-24
+
+  - id: Q007
+    text: "What squash clubs, courts, and junior programs exist in the East Bay (Oakland, Berkeley, Lafayette, Walnut Creek, Fremont)?"
+    facet: WHERE
+    scores:
+      user_value: 9
+      dependency_count: 7
+      searchability: 8
+      novelty: 9
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-005
+        query: "squash clubs East Bay Oakland Berkeley Lafayette junior programs Oakwood Athletic Club"
+    raw_files:
+      - raw/web/official/2026-04-24_squashdrive-org.md
+      - raw/web/official/2026-04-24_norcalsquash-league.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, east-bay]
+    answered_at: 2026-04-24
+
+  - id: Q008
+    text: "What squash clubs, courts, and junior programs exist in Marin County and North Bay?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 4
+      searchability: 7
+      novelty: 8
+    composite: 6.55
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-006
+        query: "squash courts Marin County North Bay Corte Madera San Rafael junior programs Bay Club Marin"
+    raw_files:
+      - raw/web/official/2026-04-24_bayclubs-squash.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [inventory, marin, north-bay]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # WHEN facet — age, timeline, schedule
+  # ============================================================
+  - id: Q009
+    text: "What is the recommended age to start squash, and what developmental readiness signs should parents look for?"
+    facet: WHEN
+    scores:
+      user_value: 10
+      dependency_count: 7
+      searchability: 8
+      novelty: 7
+    composite: 8.50
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-009
+        query: "what age should kids start squash beginner recommended age 5 6 7 8 junior development"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_jumbosquash-first-lesson.md
+      - raw/web/journalistic/2026-04-24_learnsquash-juniors.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [foundational, age, decision-making]
+    answered_at: 2026-04-24
+
+  - id: Q010
+    text: "What does the development timeline look like from first lesson to nationally competitive junior — how many years does each stage take?"
+    facet: WHEN
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 6
+      novelty: 8
+    composite: 7.55
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-007
+        query: "junior squash development timeline years beginner competitive nationally ranked milestones stages"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-junior-tournament-structure.md
+      - raw/web/official/2026-04-24_ussquash-junior-national-ranking.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO4, RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [timeline, development, experiential]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # HOW facet (breadth) — getting started
+  # ============================================================
+  - id: Q011
+    text: "What should parents expect and prepare for when taking their child to their first squash lesson?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 6
+    composite: 6.90
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-009
+        query: "what age should kids start squash beginner recommended age 5 6 7 8 junior development"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_jumbosquash-first-lesson.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, getting-started]
+    answered_at: 2026-04-24
+
+  - id: Q012
+    text: "How should parents evaluate and choose a squash coach or program for their child (credentials, certifications, coaching style)?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 7
+      novelty: 7
+    composite: 7.65
+    phase: breadth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-008
+        query: "how choose squash coach junior player credentials US Squash certification what to look for"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-coach-certification.md
+      - raw/web/journalistic/2026-04-24_jumbosquash-choosing-coach.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [decision-making, coach-selection]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # DISCOVERED QUESTIONS — breadth phase
+  # ============================================================
+  - id: Q004a
+    text: "What is SquashDrive and how does it serve Bay Area junior players from underserved communities?"
+    facet: WHO
+    scores:
+      user_value: 6
+      dependency_count: 2
+      searchability: 8
+      novelty: 8
+    composite: 6.10
+    phase: depth
+    dependencies: [Q004, Q007]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-016
+        query: "SquashDrive East Bay urban squash program eligibility Oakland Berkeley free junior"
+    raw_files:
+      - raw/web/official/2026-04-24_squashdrive-program.md
+    discovered_from: breadth_research
+    spawned_by: research-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2, RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [entity, equity, east-bay, urban-squash]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # WHO facet (depth) — specific entities
+  # ============================================================
+  - id: Q013
+    text: "What programs, pricing, and track record does HAQ International Squash Academy (HISA) offer for junior players?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.85
+    phase: depth
+    dependencies: [Q006]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-014
+        query: "HISA HAQ International Squash Academy Santa Clara junior programs pricing coaching 2025"
+    raw_files:
+      - raw/web/official/2026-04-24_hisasquash-about.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2, RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [entity, academy, silicon-valley]
+    answered_at: 2026-04-24
+    notes: "Pricing not publicly available; contact required. No public pricing found despite multiple fetch attempts."
+
+  - id: Q014
+    text: "What programs, pricing, and facilities does Squash Zone (Redwood City) offer for junior players?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.85
+    phase: depth
+    dependencies: [Q006]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-013
+        query: "Squash Zone Redwood City junior programs pricing membership 2025 2026"
+    raw_files:
+      - raw/web/official/2026-04-24_squash-zone-join.md
+      - raw/web/official/2026-04-24_squash-zone-programs-full.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2, RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [entity, club, redwood-city]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # WHY facet — costs, financial
+  # ============================================================
+  - id: Q015
+    text: "What does recreational junior squash cost in the Bay Area (club membership, group lessons, court fees) by sub-region?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 6
+      novelty: 8
+    composite: 7.55
+    phase: depth
+    dependencies: [Q005, Q006, Q007]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-025
+        query: "Bay Club squash junior programs which locations San Francisco Marin Fremont San Ramon kids lessons"
+    raw_files:
+      - raw/web/official/2026-04-24_bayclubs-squash-full.md
+      - raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1, RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [cost, recreational, financial]
+    answered_at: 2026-04-24
+
+  - id: Q016
+    text: "What does competitive junior squash cost annually (private coaching, tournament entry fees, travel, equipment, national events)?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 5
+      novelty: 9
+    composite: 7.15
+    phase: depth
+    dependencies: [Q015, Q021]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-027
+        query: "junior squash cost annual total breakdown private lessons tournament fees equipment membership 2025"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO3]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [cost, competitive, financial]
+    answered_at: 2026-04-24
+
+  - id: Q017
+    text: "What squash equipment does a junior player need at each stage, what does it cost, and how often do they upgrade?"
+    facet: WHAT
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 6.55
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-024
+        query: "squash junior equipment racket size selection beginner intermediate advanced youth cost eyeguards shoes"
+    raw_files:
+      - raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1, RO3]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [equipment, cost, practical]
+    answered_at: 2026-04-24
+
+  - id: Q018
+    text: "What financial aid, scholarships, or subsidized squash programs exist for Bay Area juniors (urban squash programs, club aid)?"
+    facet: WHY
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 5.95
+    phase: depth
+    dependencies: [Q005, Q006, Q007]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-032
+        query: "junior squash financial aid scholarships Bay Area SquashDrive urban squash access low income"
+    raw_files:
+      - raw/web/official/2026-04-24_squashdrive-program.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO3]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [affordability, access, equity]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # HOW facet (depth) — coaching, development
+  # ============================================================
+  - id: Q019
+    text: "What US Squash coaching certifications exist, and what should parents look for in a certified junior coach?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 4
+      searchability: 8
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [Q012]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-019
+        query: "US Squash coaching certification Level 1 Level 2 Level 3 requirements cost how to get certified 2025"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [coaching, certification]
+    answered_at: 2026-04-24
+
+  - id: Q020
+    text: "How does the US Squash junior ranking system work — age divisions, points, regional vs national rankings?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 6
+      searchability: 8
+      novelty: 8
+    composite: 7.90
+    phase: depth
+    dependencies: [Q002, Q004]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-015
+        query: "US Squash junior ranking system points age divisions U11 U13 U15 U17 U19 ClubLocker referee exam"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO4, RO5]
+    target_source_tiers: [L1]
+    children: []
+    tags: [ranking, tournament-system]
+    answered_at: 2026-04-24
+
+  - id: Q021
+    text: "What junior squash tournaments are held in the Bay Area / NorCal, and what is the annual tournament calendar?"
+    facet: WHEN
+    scores:
+      user_value: 9
+      dependency_count: 5
+      searchability: 8
+      novelty: 8
+    composite: 7.75
+    phase: depth
+    dependencies: [Q004, Q020]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-015
+        query: "NorCal Squash junior tournament calendar 2025 2026 schedule ClubLocker registration"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+      - raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [tournaments, calendar, NorCal]
+    answered_at: 2026-04-24
+
+  - id: Q022
+    text: "How do parents sign up their child for a first junior squash tournament — registration process, what to expect, etiquette?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 7.15
+    phase: depth
+    dependencies: [Q020, Q021]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-015
+        query: "US Squash junior ranking system points age divisions U11 U13 U15 U17 U19 ClubLocker referee exam"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-tournament-getting-started.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2, L3]
+    children: []
+    tags: [experiential, tournament, getting-started]
+    answered_at: 2026-04-24
+
+  - id: Q023
+    text: "What is the US Squash Player Development Pathway (launched 2025), and how does it structure progression from grassroots to elite?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 9
+      novelty: 9
+    composite: 7.80
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-018
+        query: "US Squash player development pathway NSA Aspire Regional Performance 2025 how to apply Bay Area"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-national-squash-academy.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO4, RO5]
+    target_source_tiers: [L1]
+    children: []
+    tags: [pathway, national, development]
+    answered_at: 2026-04-24
+
+  - id: Q024
+    text: "What squash summer camps and intensives are available for Bay Area juniors (local and travel programs)?"
+    facet: WHEN
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.85
+    phase: depth
+    dependencies: [Q005, Q006, Q007, Q013]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-034
+        query: "squash summer camps Bay Area junior 2025 2026 Squash Zone HISA residential national academies"
+    raw_files:
+      - raw/web/official/2026-04-24_squash-zone-programs-full.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [summer, camps, intensives]
+    answered_at: 2026-04-24
+    notes: "Squash Zone camp enrollment policy retrieved; specific summer 2026 camp dates not publicly posted yet. National camp providers include Cornell, Trinity, Princeton Specter Center, MSquash."
+
+  - id: Q025
+    text: "What role does the NorCal Squash league play for junior development, and how do the team divisions work?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 6.35
+    phase: depth
+    dependencies: [Q004]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-028
+        query: "NorCal Squash league junior team squash season format Bay Area schools 2025"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [league, NorCal, team]
+    answered_at: 2026-04-24
+
+  - id: Q026
+    text: "How do parents realistically assess whether their child has the talent and drive to pursue competitive squash?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 5
+      novelty: 8
+    composite: 6.35
+    phase: depth
+    dependencies: [Q002, Q010]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-030
+        query: "squash academics balance competitive youth sport school schedule time management junior high school"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squash-talent-assessment.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [experiential, decision-making, talent-assessment]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # HOW facet (depth) — college pathway
+  # ============================================================
+  - id: Q027
+    text: "Which US colleges and universities have varsity or club squash programs, and which are most relevant to Bay Area families?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 5
+      searchability: 8
+      novelty: 7
+    composite: 7.15
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-035
+        query: "US colleges varsity squash programs list Ivy League D1 D3 which schools Stanford West Coast"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_sparkadmissions-college-squash-recruiting.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [college, programs]
+    answered_at: 2026-04-24
+
+  - id: Q028
+    text: "How does college squash recruiting work — timeline, ranking thresholds, what coaches look for, and how it differs from other sports?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 8
+      novelty: 8
+    composite: 7.55
+    phase: depth
+    dependencies: [Q020, Q027]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-017
+        query: "college squash recruiting ranking threshold Ivy League D1 D3 what ranking needed NorCal"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_sparkadmissions-college-squash-recruiting.md
+      - raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO6]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [college, recruiting, decision-making]
+    answered_at: 2026-04-24
+
+  - id: Q029
+    text: "Is squash actually an admissions advantage at selective colleges, and how does it compare to other 'niche' sports like fencing or rowing?"
+    facet: WHY
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 7.15
+    phase: depth
+    dependencies: [Q027]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-026
+        query: "squash admission advantage college recruited athlete niche sport Ivy League acceptance rate"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO6]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [college-admissions, decision-making, strategy]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # COMPARE facet — comparisons
+  # ============================================================
+  - id: Q030
+    text: "How does squash compare to tennis, badminton, and pickleball for children — cost, accessibility, fitness benefits, college value, and injury risk?"
+    facet: COMPARE
+    scores:
+      user_value: 9
+      dependency_count: 4
+      searchability: 7
+      novelty: 7
+    composite: 7.25
+    phase: depth
+    dependencies: [Q001, Q015]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-020
+        query: "squash vs tennis kids comparison cost accessibility fitness benefits injuries racket sport choose"
+    raw_files:
+      - raw/web/review/2026-04-24_squash-vs-tennis-comparison.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [comparison, racket-sports, decision-making]
+    answered_at: 2026-04-24
+
+  - id: Q031
+    text: "What does squash's inclusion in the 2028 LA Olympics mean for junior squash development, funding, and interest in the US?"
+    facet: COMPARE
+    scores:
+      user_value: 7
+      dependency_count: 3
+      searchability: 8
+      novelty: 9
+    composite: 6.55
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-021
+        query: "squash 2028 LA Olympics impact junior USA growth funding programs"
+    raw_files:
+      - raw/web/official/2026-04-24_ussquash-olympics-la28.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1, RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [olympics, growth, trend]
+    answered_at: 2026-04-24
+
+  - id: Q032
+    text: "How does Bay Area junior squash compare to other US squash hotbeds (Northeast, Philadelphia, NYC, DC) in depth and competitiveness?"
+    facet: COMPARE
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 5
+      novelty: 9
+    composite: 5.95
+    phase: depth
+    dependencies: [Q004, Q005, Q006, Q007]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-033
+        query: "Bay Area junior squash vs northeast Philadelphia NYC competitive landscape rankings depth"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [comparison, regional, competitive-landscape]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # HOW facet (depth) — health, injury, burnout
+  # ============================================================
+  - id: Q033
+    text: "How do parents recognize signs of burnout or over-training in junior squash players, and what should they do?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 7.15
+    phase: depth
+    dependencies: [Q002]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-022
+        query: "junior squash burnout prevention overtraining signs sports specialization early age parent role"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_junior-squash-burnout-prevention.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [experiential, burnout, decision-making]
+    answered_at: 2026-04-24
+
+  - id: Q034
+    text: "What are common squash injuries in junior players (eye injuries, wrist, ankle, knee) and how are they prevented?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 3
+      searchability: 8
+      novelty: 6
+    composite: 6.55
+    phase: depth
+    dependencies: [Q001]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-031
+        query: "squash junior eye injury prevention eyeguards mandatory safety equipment racket sports kids"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squash-injuries-safety.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L1, L2]
+    children: []
+    tags: [injury, safety, health]
+    answered_at: 2026-04-24
+
+  - id: Q035
+    text: "What should a parent do when their child wants to quit squash — how to distinguish burnout from normal frustration?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 6.50
+    phase: depth
+    dependencies: [Q033]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-022
+        query: "junior squash burnout prevention overtraining signs sports specialization early age parent role"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_junior-squash-burnout-prevention.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [experiential, decision-making, quitting]
+    answered_at: 2026-04-24
+
+  - id: Q036
+    text: "How do families balance competitive squash training schedules with academics, social life, and other activities?"
+    facet: HOW
+    scores:
+      user_value: 9
+      dependency_count: 2
+      searchability: 6
+      novelty: 7
+    composite: 6.55
+    phase: depth
+    dependencies: [Q002, Q016]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-030
+        query: "squash academics balance competitive youth sport school schedule time management junior high school"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squash-academic-balance.md
+    discovered_from: landscape_scan
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO3, RO5]
+    target_source_tiers: [L2, L3, L4]
+    children: []
+    tags: [experiential, decision-making, balance]
+    answered_at: 2026-04-24
+
+  - id: Q037
+    text: "What cross-training, fitness, and mental game work supports junior squash development?"
+    facet: HOW
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 7
+      novelty: 6
+    composite: 5.85
+    phase: depth
+    dependencies: [Q003, Q034]
+    status: done
+    search_queries:
+      - id: s-2026-04-24-023
+        query: "squash cross-training fitness conditioning ghosting footwork agility junior player development"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squash-junior-cross-training.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [cross-training, mental-game, health]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # META facet — navigating the topic, data quality
+  # ============================================================
+  - id: Q038
+    text: "What online communities, blogs, podcasts, and books are the best resources for squash parents?"
+    facet: META
+    scores:
+      user_value: 6
+      dependency_count: 3
+      searchability: 7
+      novelty: 7
+    composite: 5.65
+    phase: depth
+    dependencies: []
+    status: done
+    search_queries:
+      - id: s-2026-04-24-029
+        query: "squash parent resources books blogs podcasts junior player development SquashSkills Squash Magazine"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squash-parent-resources.md
+    discovered_from: seed
+    spawned_by: research-planner-agent
+    round: 1
+    cycle: init-2026-04-24
+    reader_outcomes: [RO1, RO2]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [meta, resources, community]
+    answered_at: 2026-04-24
+
+  # ============================================================
+  # GAP-FILL QUESTIONS — added 2026-04-24 by research-agent
+  # ============================================================
+
+  - id: QGF001
+    text: "What are the specific NorCal Squash junior tournament dates, venues, and registration process for 2025-26?"
+    facet: WHEN
+    scores:
+      user_value: 9
+      dependency_count: 3
+      searchability: 7
+      novelty: 8
+    composite: 7.50
+    phase: gap_fill
+    dependencies: [Q021, Q022]
+    status: answered
+    search_queries:
+      - id: s-2026-04-24-036
+        query: "NorCal Squash junior tournament schedule 2025-2026 registration ClubLocker dates Bay Area"
+    raw_files:
+      - raw/web/official/2026-04-24_norcalsquash-tournament-calendar.md
+    discovered_from: gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-24
+    reader_outcomes: [RO4]
+    target_source_tiers: [L1]
+    children: []
+    tags: [tournaments, calendar, NorCal, registration]
+    answered_at: 2026-04-24
+    notes: "NorCal Squash junior tournament calendar not separately published on norcalsquash.org. JCT #2 confirmed at Bay Area (Fremont) in October 2025. All tournament registration via ClubLocker. Specific 2025-26 NorCal dates require direct ClubLocker search or contact with norcalsquash.org."
+
+  - id: QGF002
+    text: "What is Altius Performance Squash and what elite junior coaching does it offer in the Bay Area?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 8
+      novelty: 9
+    composite: 7.25
+    phase: gap_fill
+    dependencies: [Q006, Q012]
+    status: answered
+    search_queries:
+      - id: s-2026-04-24-037
+        query: "Altius Performance Squash Menlo Park junior program coaching California"
+    raw_files:
+      - raw/web/official/2026-04-24_altius-performance-squash.md
+    discovered_from: gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-24
+    reader_outcomes: [RO2, RO5]
+    target_source_tiers: [L1]
+    children: []
+    tags: [entity, elite-coaching, redwood-city, peninsula]
+    answered_at: 2026-04-24
+    notes: "Confirmed at 1197 Oddstad Dr, Redwood City (not Menlo Park). Head coach Omar Mohy Marei — Egyptian PSA pro, Wadi Degla-trained, coached Greenwich Academy CT to 3 US national HS titles. Junior-centric coaching service (not a club). No public pricing. Bespoke 1-on-1 coaching including mental training and tournament coaching at JCTs."
+
+  - id: QGF003
+    text: "Can non-Stanford families access Arrillaga Family Sports Center squash courts at Stanford?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 1
+      searchability: 7
+      novelty: 7
+    composite: 6.50
+    phase: gap_fill
+    dependencies: [Q006]
+    status: answered
+    search_queries:
+      - id: s-2026-04-24-037
+        query: "Arrillaga Family Sports Center Stanford squash courts public access non-Stanford families"
+    raw_files:
+      - raw/web/official/2026-04-24_stanford-arrillaga-squash.md
+    discovered_from: gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1]
+    children: []
+    tags: [courts, stanford, peninsula, access]
+    answered_at: 2026-04-24
+    notes: "Two separate facilities: Arrillaga Family Sports Center (athletics, varsity only) and Arrillaga Center for Sports and Recreation (ACSR, 7 courts, students/faculty/staff, Stanford ID required). Non-Stanford families cannot access without Stanford affiliation. Nearest accessible alternative: Squash Zone (3 miles away, Redwood City)."
+
+  - id: QGF004
+    text: "What junior squash program details and pricing does Oakwood Athletic Club (Lafayette) offer?"
+    facet: WHO
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 6.90
+    phase: gap_fill
+    dependencies: [Q007]
+    status: answered
+    search_queries:
+      - id: s-2026-04-24-037
+        query: "Oakwood Athletic Club Lafayette junior squash program kids lessons pricing 2025"
+    raw_files:
+      - raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+    discovered_from: gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-24
+    reader_outcomes: [RO2, RO3]
+    target_source_tiers: [L1]
+    children: []
+    tags: [entity, club, east-bay, lafayette]
+    answered_at: 2026-04-24
+    notes: "Confirmed: 3 glass-back wall courts, youth AND adult instruction/private lessons, in-house league (5 divisions Novice-A), East Bay Competitive Squash League (7 clubs, Wednesday evenings). Private club membership required. Pricing not publicly listed. Contact: 925.283.4000 or membership@oakwoodathleticclub.com."
+
+  - id: QGF005
+    text: "What other East Bay squash clubs beyond Oakwood offer junior programs?"
+    facet: WHERE
+    scores:
+      user_value: 7
+      dependency_count: 2
+      searchability: 6
+      novelty: 8
+    composite: 6.20
+    phase: gap_fill
+    dependencies: [Q007, QGF004]
+    status: answered
+    search_queries:
+      - id: s-2026-04-24-037
+        query: "Oakwood Athletic Club Lafayette junior squash program kids lessons pricing 2025"
+    raw_files:
+      - raw/web/official/2026-04-24_east-bay-squash-clubs-survey.md
+    discovered_from: gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-24
+    reader_outcomes: [RO2]
+    target_source_tiers: [L1, L3]
+    children: []
+    tags: [inventory, east-bay, survey]
+    answered_at: 2026-04-24
+    notes: "East Bay is underserved for competitive junior squash. Confirmed junior programs: Oakwood Athletic Club (private membership), SquashDrive (equity program grades 4-11), Bay Club Fremont (squash confirmed, junior programming assumed). UC Berkeley RSF, ClubSport San Ramon, and YMCA East Bay have courts but junior programs unconfirmed. No East Bay junior squash academy analogous to Peninsula options."
+
+  - id: QGF006
+    text: "What mental game and sports psychology resources exist specifically for junior squash players and their parents?"
+    facet: HOW
+    scores:
+      user_value: 8
+      dependency_count: 2
+      searchability: 7
+      novelty: 8
+    composite: 6.90
+    phase: gap_fill
+    dependencies: [Q037, Q033]
+    status: answered
+    search_queries:
+      - id: s-2026-04-24-038
+        query: "junior squash mental game sports psychology resources books programs youth athlete"
+    raw_files:
+      - raw/web/journalistic/2026-04-24_squash-mental-game-junior.md
+    discovered_from: gap_analysis
+    spawned_by: research-agent
+    round: 1
+    cycle: gap-fill-2026-04-24
+    reader_outcomes: [RO5]
+    target_source_tiers: [L2, L3]
+    children: []
+    tags: [mental-game, sports-psychology, resources]
+    answered_at: 2026-04-24
+    notes: "Best squash-specific resource: Jesse Engelbrecht Parents Playbook (squashplaybook.com, free 20-min workshop + $9 eBook). General youth sports psych: Dr. Patrick Cohn (kidssportspsychology.com). Book for players 10-14: Bring Your A Game (Etnier). No Bay Area squash-specific sports psychology services identified. Altius Performance (Redwood City) explicitly includes mental coaching in their 1-on-1 bespoke program."

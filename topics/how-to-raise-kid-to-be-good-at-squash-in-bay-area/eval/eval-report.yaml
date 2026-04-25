@@ -1,0 +1,152 @@
+topic: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+run_id: "2026-04-24-full"
+evaluated_at: "2026-04-24T23:55:00Z"
+wiki_article_count: 16
+test_question_count: 30
+
+composite_score: 82
+composite_breakdown:
+  D1_reader_outcomes:
+    weight: 0.30
+    score: 2.7
+    weighted: 27.0
+    per_outcome:
+      - id: RO1
+        job: "Decide whether squash is the right sport for my child"
+        score: 3
+        uncovered_must_answer: []
+        notes: "All 5 must_answer items fully covered: age guidelines (getting-started), squash vs tennis (squash-vs-tennis), first lesson (getting-started), accessibility (choosing-club-coach geographic guide), introductory cost (costs-and-commitment). No external search needed."
+      - id: RO2
+        job: "Find the right club, coach, and program for my child's level and location"
+        score: 3
+        uncovered_must_answer: []
+        notes: "All 4 must_answer items fully covered: sub-regional club inventory (choosing-club-coach geographic guide + 7 entity articles), junior vs adult programs (entity articles differentiate), coach evaluation (choosing-club-coach green/red flags + certification tiers), program type differences (choosing-club-coach types table). East Bay underservice honestly documented."
+      - id: RO3
+        job: "Understand the full cost and time commitment of junior squash"
+        score: 3
+        uncovered_must_answer: []
+        notes: "All 4 must_answer items fully covered: all-in costs at recreational and competitive levels (costs-and-commitment detailed tables), hours/week by level (time commitment table), equipment lifecycle (equipment table + upgrade guidance), family balance (development-pathway school balance section)."
+      - id: RO4
+        job: "Navigate the junior tournament and ranking system"
+        score: 3
+        uncovered_must_answer: []
+        notes: "All 4 must_answer items fully covered: ranking system mechanics (tournament-rankings top-4 formula + 11-month window), NorCal tournaments (calendar with specific events), signup process (step-by-step ClubLocker guide), Player Development Pathway (national-squash-academy 7 tiers + Bay Area access path)."
+      - id: RO5
+        job: "Develop my child from beginner to competitive junior player"
+        score: 2
+        uncovered_must_answer:
+          - "How do parents recognize talent vs effort in junior squash?"
+        notes: "4 of 5 must_answer items well covered: development timeline (stage overview table), burnout signs and management (detailed section), cross-training (multi-sport + on-court/off-court split), mental game (mentioned but thin -- only references a $9 ebook and 20-min workshop). Talent recognition/assessment is not addressed with specific criteria; the wiki discusses burnout vs frustration but does not help parents distinguish talent from effort."
+      - id: RO6
+        job: "Leverage squash for college admissions"
+        score: 2
+        uncovered_must_answer:
+          - "What have Bay Area junior squash players achieved in college placement?"
+        notes: "4 of 5 must_answer items well covered: colleges with programs (34M/31W varsity), ranking thresholds (top 10-20 Ivy, etc.), recruiting timeline (table), admissions advantage (Harvard 20x stat + small pool analysis). However, no Bay Area-specific college placement outcomes documented. Notable juniors are listed (Madison Ho, Gautham Suresh) but their college outcomes are not tracked."
+
+  D2_coverage:
+    weight: 0.20
+    score: 2.7
+    weighted: 18.0
+    D2a_topic_coverage:
+      score: 3
+      notes: "All major decision categories covered. Category A (pre-decision): getting-started + squash-vs-tennis address 'should I even do this?' comprehensively. Category B (experiential): first lesson walkthrough, common mistakes sections throughout provide experiential content. Category C (lifecycle): development-pathway covers full lifecycle from beginner through pre-college; college-squash-recruiting covers the endgame. No standalone decision category is missing."
+    D2b_entity_completeness:
+      score: 2
+      entity_completeness_ratio: 0.86
+      notes: "7 entity articles exist. 6 of 7 have complete Quick Facts tables (no more than 2 '--' cells). HISA and Oakwood have pricing listed as 'not publicly listed' which is honest gap documentation rather than missing data. One entity mentioned without article (Nueva School) per lint report. Score: 6/7 = 86% -> score 2."
+    D2c_stub_ratio:
+      score: 3
+      stub_ratio: 0.0
+      notes: "0 stubs out of 16 articles. All articles exceed 650 words. Smallest article (national-squash-academy) is ~650 words with substantive content."
+    missing_categories: []
+
+  D3_accuracy:
+    weight: 0.20
+    score: 2.7
+    weighted: 18.0
+    D3a_attribution_compliance:
+      score: 3
+      sample_size: 20
+      compliant_count: 19
+      notes: "Sampled 20 claim sentences across 6 articles. 19/20 use proper attribution ('According to X'), inline source references, or epistemic hedging. One sentence in development-pathway about 'ghosting' types lacks explicit attribution but is descriptive rather than a contested factual claim. 95% compliance."
+    D3b_confidence_discipline:
+      score: 3
+      notes: "0 L5 claims in wiki (confirmed by lint report). L4 claims are handled appropriately: c033 (SquashDrive Executive Director) downgraded to L4 in fact-sheet and does NOT appear stated as fact in any wiki article. Community sources are synthesized with hedging language ('according to forums', 'some parents report') where used. All L4 content properly qualified."
+    D3c_conflict_documentation:
+      score: 2
+      notes: "Most conflicts documented. The CSA program count discrepancy (34M+31W vs '37 total') is explicitly flagged in college-squash-recruiting. Coach roster discrepancy between Squash Zone lesson page and NorCal directory is documented in squash-zone.md. Minor gap: the exact number of Bay Area squash facilities ('20+' vs '15-20') is noted as uncertain in squash-vs-tennis but not flagged as a formal conflict."
+
+  D4_actionability:
+    weight: 0.15
+    score: 2.7
+    weighted: 13.5
+    D4a_decision_framing:
+      score: 3
+      notes: "Articles consistently use imperative framing. Getting-started tells parents what to bring, what to watch for, when to buy equipment. Choosing-club-coach provides specific questions to ask coaches. Tournament-rankings has a step-by-step 'Getting Started with Tournaments' section. Cost tables show exactly what to budget. Readers know what to do next after each section."
+    D4b_common_mistakes:
+      score: 3
+      notes: "Every article has a Common Mistakes section with non-obvious, specific advice. Examples: 'SF Day deadline' equivalent specificity -- 'court sessions are 45 minutes not 60' (squash-zone), 'coach without a Coach Pass cannot provide court-side coaching at sanctioned events' (choosing-club-coach), 'Junior PLUS vs Junior Access upgrade timing' (squash-zone). These are genuinely useful warnings that prevent real errors."
+    D4c_entry_point_clarity:
+      score: 2
+      notes: "_index.md provides a clear table of contents with descriptions. Getting-started is clearly labeled as the entry point. However, if a reader lands on an entity article (e.g., oakwood-athletic-club), there is no explicit 'start here' pointer -- they would need to navigate to _index.md or follow See Also links. See Also sections provide navigation but do not prioritize the starting path."
+
+  D5_perspective_balance:
+    weight: 0.10
+    score: 2.0
+    weighted: 6.7
+    official_sources_present: true
+    aggregator_data_present: true
+    community_patterns_present: false
+    expert_synthesis_present: true
+    counterarguments_present: true
+    notes: "Official L1 sources (US Squash, club websites) are the backbone. Aggregator data present (Niche-equivalent squash comparisons via my-squash.com, NorCal Squash directory). Expert synthesis present (sports science research via Onyx Squash Academy, Jesse Engelbrecht mental game, xfactoradmissions college data). Counterarguments present (squash-vs-tennis 'when to choose tennis' section, geographic disadvantage for Bay Area players). However, community/parent experience patterns are almost entirely absent -- no forum synthesis, no 'parents report...' experiential data about actual family experiences with specific clubs, coaching quality, or tournament travel reality. This is the most significant perspective gap."
+
+  D6_navigability:
+    weight: 0.05
+    score: 3.0
+    weighted: 5.0
+    broken_wikilinks: 0
+    orphaned_articles: 0
+    backlinks_populated: true
+    see_also_present: true
+    notes: "Per lint report: 0 broken wikilinks (all 16 articles verified), 0 orphaned pages (all linked from _index.md and cross-linked), all articles have backlinks field in frontmatter, all articles have See Also sections. Perfect structural score."
+
+test_question_results:
+  pass_rate: 0.90
+  score_2_count: 27
+  score_1_count: 3
+  score_0_count: 0
+  failed_questions:
+    - id: TQ22
+      text: "How do I tell if my child has real talent in squash versus just being enthusiastic?"
+      score: 1
+      reason: "development-pathway.md discusses burnout vs frustration but does not provide specific criteria for talent identification (e.g., movement quality, anticipation, competitive temperament). The wiki tells parents how to develop a player but not how to assess whether investment in competitive track is warranted."
+    - id: TQ25
+      text: "How important is mental training in junior squash and where do I find resources for it?"
+      score: 1
+      reason: "development-pathway.md mentions no sideline coaching rule and references Jesse Engelbrecht's workshop ($9 ebook, 20-min free workshop) but does not provide structured guidance on mental training programs, sports psychology for juniors, or how to integrate mental training into development. The coverage is a pointer, not actionable guidance."
+    - id: TQ30
+      text: "Have any Bay Area junior squash players been recruited to college programs? What did their path look like?"
+      score: 1
+      reason: "norcal-squash.md lists notable Bay Area juniors (Madison Ho, Gautham Suresh) with tournament achievements but does not track college outcomes. No Bay Area player case studies showing the path from junior competition to college placement exist in the wiki."
+
+additional_metrics:
+  freshness_pct: 1.0
+  contradiction_count: 0
+  information_density_notes: "High density across entity and guide articles. Costs-and-commitment packs ~15 numerical claims per 650 words. Entity articles average 8-12 verifiable facts per article. No padding detected."
+
+quality_gate:
+  trusted: true
+  highest_impact_gap: "D5 -- community/parent experience patterns absent; no forum or parent interview synthesis across any article"
+
+top_3_improvements:
+  - dimension: D5
+    impact_points: 3
+    action: "Research and synthesize parent experience patterns from squash forums, Reddit r/squash, and Bay Area parent groups. Add L4-hedged experiential content to entity articles (e.g., 'Parents on forums report Squash Zone beginner clinics fill quickly in September') and to guides (e.g., actual tournament travel experiences from Bay Area families). This would raise D5 from 2.0 to 2.5-3.0."
+  - dimension: D1
+    impact_points: 2
+    action: "Add talent identification criteria to development-pathway.md: specific observable indicators (movement quality, court awareness, competitive temperament, coachability) that distinguish talent from enthusiasm, ideally sourced from coaching literature or expert interviews. This closes the RO5 must_answer gap and raises RO5 from 2 to 3."
+  - dimension: D1
+    impact_points: 2
+    action: "Research and document Bay Area junior squash college placement outcomes: track where notable NorCal juniors (Madison Ho, Gautham Suresh, etc.) ended up in college, what their ranking trajectory looked like, and what lessons apply. Add a 'Bay Area Player Profiles' section to college-squash-recruiting.md or create a dedicated article. This closes the RO6 must_answer gap."

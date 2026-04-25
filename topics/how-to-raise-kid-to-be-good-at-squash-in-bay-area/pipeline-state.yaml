@@ -1,0 +1,23 @@
+topic: how to raise kid to be good at Squash in Bay Area
+slug: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+searches_used: 0
+fetches_used: 0
+budget:
+  max_searches: 50
+  max_fetches: 100
+  max_tokens_reasoning: 500000
+  allocation:
+    breadth: 0.3
+    depth: 0.5
+    gap_fill: 0.15
+    verification: 0.05
+phase_status:
+  breadth: pending
+  depth: pending
+  gap_fill: pending
+  extraction: pending
+  fact_check: pending
+  compilation: pending
+  lint: pending
+last_run: null
+pipeline_context: {}

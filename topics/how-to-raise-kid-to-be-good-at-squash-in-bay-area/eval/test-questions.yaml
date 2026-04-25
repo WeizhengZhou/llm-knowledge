@@ -1,0 +1,193 @@
+# eval/test-questions.yaml
+metadata:
+  topic: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+  version: 1
+  created: 2026-04-24
+  question_count: 30
+
+questions:
+  # --- RO1: Decide whether squash is the right sport for my child ---
+  - id: TQ01
+    text: "My child is 6 years old. Is she old enough to start squash, and what would a first lesson look like?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ02
+    text: "How does squash compare to tennis for a Bay Area kid in terms of cost, court access, fitness, and college value?"
+    reader_outcome: RO1
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ03
+    text: "Are there any squash courts or programs near me in the Bay Area, or is this a sport I can't realistically access?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ04
+    text: "What equipment do I need to buy for my child's first squash lesson, and how much will it cost?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ05
+    text: "What does introductory-level squash cost per year if my kid just wants to play recreationally?"
+    reader_outcome: RO1
+    difficulty: easy
+    expected_coverage: full
+
+  # --- RO2: Find the right club, coach, and program ---
+  - id: TQ06
+    text: "What squash clubs exist on the Peninsula, in the East Bay, in SF, and in Marin? Which have junior programs?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ07
+    text: "How do I evaluate whether a squash coach is good for my 9-year-old? What certifications should they have?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ08
+    text: "What is the difference between training at Squash Zone, Bay Club, HISA, and hiring Altius for private coaching?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ09
+    text: "We live in Oakland. What are our options for junior squash?"
+    reader_outcome: RO2
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ10
+    text: "Is there a free squash program for kids in the East Bay?"
+    reader_outcome: RO2
+    difficulty: easy
+    expected_coverage: full
+
+  # --- RO3: Understand the full cost and time commitment ---
+  - id: TQ11
+    text: "What does competitive junior squash cost all-in per year, including travel to national tournaments?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ12
+    text: "How many hours per week does my kid need to train if she wants to compete at a regional level?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ13
+    text: "What squash equipment does my child need and what does it cost at different levels?"
+    reader_outcome: RO3
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ14
+    text: "How do families balance competitive squash training with schoolwork?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ15
+    text: "Are there any financial aid or scholarship options for junior squash in the Bay Area?"
+    reader_outcome: RO3
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO4: Navigate the junior tournament and ranking system ---
+  - id: TQ16
+    text: "How does the US Squash junior ranking system work? How many tournaments does my kid need to play?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ17
+    text: "What junior squash tournaments are available in Northern California and when do they happen?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ18
+    text: "How do I sign my child up for their first tournament? What platform do I use?"
+    reader_outcome: RO4
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ19
+    text: "What is the US Squash Player Development Pathway and how does my Bay Area kid access it?"
+    reader_outcome: RO4
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ20
+    text: "How much travel is involved if my kid wants to compete at the national level from the Bay Area?"
+    reader_outcome: RO4
+    difficulty: medium
+    expected_coverage: full
+
+  # --- RO5: Develop my child from beginner to competitive ---
+  - id: TQ21
+    text: "What does the timeline look like from a 7-year-old beginner to a nationally ranked junior?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ22
+    text: "How do I tell if my child has real talent in squash versus just being enthusiastic?"
+    reader_outcome: RO5
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ23
+    text: "My child seems burned out on squash. How do I tell if it is burnout or normal frustration, and what should I do?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ24
+    text: "Should my kid do other sports alongside squash, or specialize early?"
+    reader_outcome: RO5
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ25
+    text: "How important is mental training in junior squash and where do I find resources for it?"
+    reader_outcome: RO5
+    difficulty: hard
+    expected_coverage: full
+
+  # --- RO6: Leverage squash for college admissions ---
+  - id: TQ26
+    text: "Which colleges have varsity squash teams, and is Stanford one of them?"
+    reader_outcome: RO6
+    difficulty: easy
+    expected_coverage: full
+
+  - id: TQ27
+    text: "What national ranking does my child need to be recruited for college squash at an Ivy League school?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ28
+    text: "When should we start thinking about college squash recruiting, and what is the timeline?"
+    reader_outcome: RO6
+    difficulty: medium
+    expected_coverage: full
+
+  - id: TQ29
+    text: "Is squash actually an admissions advantage at top universities, or is that a myth?"
+    reader_outcome: RO6
+    difficulty: hard
+    expected_coverage: full
+
+  - id: TQ30
+    text: "Have any Bay Area junior squash players been recruited to college programs? What did their path look like?"
+    reader_outcome: RO6
+    difficulty: hard
+    expected_coverage: full

@@ -1,0 +1,2318 @@
+topic: how-to-raise-kid-to-be-good-at-squash-in-bay-area
+extracted_at: 2026-04-24T22:00:00Z
+source_files_processed: 46
+total_claims: 122
+
+claims:
+
+  # ================================================================
+  # ENTITY: us-squash (national governing body)
+  # ================================================================
+
+  - id: c001
+    text: "US Squash launched the Player Development Pathway in March 2025 as an 'Olympic-Era' initiative."
+    type: temporal
+    priority: must_verify
+    entity: us-squash
+    question_id: Q023
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-player-development-pathway.md
+        url: https://ussquash.org/2025/03/us-squash-launches-olympic-era-player-development-pathway/
+        tier: L1-official
+        extracted_value: "March 2025"
+        extraction_context: "US Squash has launched a comprehensive Player Development Pathway designed to identify and cultivate future champions. With squash's Olympic debut at the 2028 Los Angeles Games, the organization is implementing a strategic talent development system."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Only one L1 source; date should be verified against official announcement."
+
+  - id: c002
+    text: "The US Squash National Squash Academy (NSA) offers seven distinct program tiers: NSA-Aspire, NSA-Regional, NSA-Performance, NSA-Under 23, NSA-International, NSA-Professional, NSA-National Team."
+    type: categorical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q023
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-player-development-pathway.md
+        url: https://ussquash.org/2025/03/us-squash-launches-olympic-era-player-development-pathway/
+        tier: L1-official
+        extracted_value: "seven distinct tiers"
+        extraction_context: "The NSA serves as the centerpiece, offering structured support across seven distinct tiers: NSA-Aspire, NSA-Regional, NSA-Performance, NSA-Under 23, NSA-International, NSA-Professional, NSA-National Team."
+      - file: raw/web/official/2026-04-24_ussquash-national-squash-academy.md
+        url: https://ussquash.org/national-squash-academy/
+        tier: L1-official
+        extracted_value: "seven NSA programs"
+        extraction_context: "The National Squash Academy serves as the centerpiece of US Squash's Player Development Pathway, providing a structured system to support athletes from junior ranks through professional squash."
+    overreach_flag: false
+
+  - id: c003
+    text: "NSA-Aspire invites sixteen players per age group centrally; selection is by ranking and rating-based qualification."
+    type: numerical
+    priority: must_verify
+    entity: us-squash
+    question_id: Q023
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-national-squash-academy.md
+        url: https://ussquash.org/national-squash-academy/
+        tier: L1-official
+        extracted_value: "sixteen players per age group"
+        extraction_context: "Sixteen players per age group invited centrally; regional programs include deeper ranking pools based on local player numbers."
+    overreach_flag: false
+    single_source: true
+
+  - id: c004
+    text: "NSA-Regional sessions are coordinated with JCT events throughout the 2025-2026 season."
+    type: temporal
+    priority: must_verify
+    entity: us-squash
+    question_id: Q023
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-national-squash-academy.md
+        url: https://ussquash.org/national-squash-academy/
+        tier: L1-official
+        extracted_value: "2025-2026 season"
+        extraction_context: "Sessions coordinated with JCT events throughout 2025-2026 season. JCT #2 Bay Area connection: NSA-Regional sessions accompany JCT events, meaning Bay Area juniors can access NSA-Regional at JCT #2 in Fremont, CA (October 11-13, 2025)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c005
+    text: "NSA-Performance targets U19 players representing Team USA at World Junior Championships and Pan American Junior Games; top six U.S. citizens by U19 ranking qualify for World Juniors."
+    type: numerical
+    priority: must_verify
+    entity: us-squash
+    question_id: Q023
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-national-squash-academy.md
+        url: https://ussquash.org/national-squash-academy/
+        tier: L1-official
+        extracted_value: "top six U.S. citizens by U19 ranking"
+        extraction_context: "Target: U19 players representing Team USA at World Junior Championships and Pan American Junior Games. Selection: Top six U.S. citizens by U19 ranking qualify for World Juniors."
+    overreach_flag: false
+    single_source: true
+
+  - id: c006
+    text: "NSA-Professional supports emerging professionals ranked approximately top 100 on the PSA tour."
+    type: numerical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q023
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-player-development-pathway.md
+        url: https://ussquash.org/2025/03/us-squash-launches-olympic-era-player-development-pathway/
+        tier: L1-official
+        extracted_value: "approximately top 100 on the PSA tour"
+        extraction_context: "NSA – Professional: Supports emerging professionals ranked approximately top 100 on the PSA tour."
+    overreach_flag: false
+    single_source: true
+
+  - id: c007
+    text: "US Squash junior rankings are calculated as an average of the top 4 points-earning tournaments played within the past 11 months."
+    type: process
+    priority: should_verify
+    entity: us-squash
+    question_id: Q020
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-national-ranking.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "average of top 4 tournaments in past 11 months"
+        extraction_context: "players will receive a point average, which is an average of the top 4 points earning tournaments played within the past 11-months."
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "average of the top 4 points earning tournaments played within the past 11-months"
+        extraction_context: "Once players accumulate sufficient tournament participation, they receive a point average representing an average of the top 4 points earning tournaments played within the past 11-months."
+    overreach_flag: false
+
+  - id: c008
+    text: "To obtain a US Squash junior national ranking, players must: (1) hold active US Squash membership, (2) pass an age-appropriate online referee exam, (3) be a U.S. citizen or resident, and (4) have at least 3 active tournament exposures in the same age group within the past 11 months."
+    type: process
+    priority: should_verify
+    entity: us-squash
+    question_id: Q020
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-national-ranking.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "four criteria"
+        extraction_context: "To receive a junior national ranking, players must satisfy four criteria: 1. Maintain active US Squash membership. 2. Pass an age-appropriate online referee exam. 3. Demonstrate U.S. citizenship or residency. 4. Accumulate at least 3 active tournament exposures."
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "same requirements"
+        extraction_context: "Eligibility Requirements: 1. Membership, 2. Referee Exam, 3. Citizenship/Residency, 4. 3 active tournament exposures in the same age group within the past 11-months."
+    overreach_flag: false
+
+  - id: c009
+    text: "US Squash junior referee exam requirements by age: U13=Level 1, U15=Level 2, U17=Level 3, U19=Level 4; recertification required every two years."
+    type: process
+    priority: should_verify
+    entity: us-squash
+    question_id: Q020
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "U13 Level 1, U15 Level 2, U17 Level 3, U19 Level 4; every 2 years"
+        extraction_context: "U13: Level 1 referee exam; U15: Level 2 referee exam; U17: Level 3 referee exam; U19: Level 4 referee exam. Players will need to recertify with a new referee exam every two years."
+      - file: raw/web/official/2026-04-24_norcalsquash-tournament-calendar.md
+        url: https://norcalsquash.org/
+        tier: L1-official
+        extracted_value: "same age-based tiers"
+        extraction_context: "U13 players: Level 1 referee exam; U15 players: Level 2 referee exam; U17 players: Level 3 referee exam; U19 players: Level 4 referee exam; Recertification every 2 years."
+    overreach_flag: false
+
+  - id: c010
+    text: "US Squash accredits approximately 100 bronze tournaments, 80 silver tournaments, 28 gold tournaments, and 5 JCT events annually."
+    type: numerical
+    priority: must_verify
+    entity: us-squash
+    question_id: Q002
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-tournament-structure.md
+        url: https://ussquash.org/junior/competitive/junior-tournament-structure/
+        tier: L1-official
+        extracted_value: "~100 bronze, ~80 silver, ~28 gold, 5 JCT"
+        extraction_context: "US Squash accredits approximately 100 bronze tournaments annually... Roughly 80 silver tournaments receive accreditation yearly... About 28 gold tournaments are accredited annually... US Squash accredits 5 JCT events yearly."
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "~80 silver, ~100 bronze per year nationally"
+        extraction_context: "Silver: Intermediate level, ~80 per year nationally. Bronze: Entry level for establishing ranking, ~100 per year nationally."
+    overreach_flag: false
+
+  - id: c011
+    text: "US Squash junior age divisions are U11, U13, U15, U17, and U19; players must be under the age limit through the tournament's final day to be eligible."
+    type: categorical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q020
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-tournament-structure.md
+        url: https://ussquash.org/junior/competitive/junior-tournament-structure/
+        tier: L1-official
+        extracted_value: "U11, U13, U15, U17, U19"
+        extraction_context: "Age Divisions: U11, U13, U15, U17, U19 — based on player's age at time of tournament."
+      - file: raw/web/official/2026-04-24_ussquash-tournament-getting-started.md
+        url: https://ussquash.org/getting-started-with-junior-tournaments/
+        tier: L1-official
+        extracted_value: "U11, U13, U15, U17, U19; must be under age limit through final day"
+        extraction_context: "Age categories: U11, U13, U15, U17, U19. Players must be under the age limit through the tournament's final day to be eligible."
+    overreach_flag: false
+
+  - id: c012
+    text: "The US Squash USR Junior Circuit is a competitive pathway distinct from the JCT-based ranking system."
+    type: categorical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q002
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-overview.md
+        url: https://ussquash.org/junior/
+        tier: L1-official
+        extracted_value: "USR Junior Circuit — new competitive pathway"
+        extraction_context: "USR Junior Circuit: A new competitive pathway launched by US Squash"
+      - file: raw/web/official/2026-04-24_norcalsquash-tournament-calendar.md
+        url: https://norcalsquash.org/
+        tier: L1-official
+        extracted_value: "USR Junior Circuit: separate from JCT tier"
+        extraction_context: "USR Junior Circuit: Universal Squash Rating junior events (separate from JCT tier)"
+    overreach_flag: false
+
+  - id: c013
+    text: "US Squash Level 3 coaching certification is the highest certification US Squash offers."
+    type: categorical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "Level 3 — highest"
+        extraction_context: "Level 3: Highest certification US Squash offers."
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "Level 3 is currently the highest certification that US SQUASH offers"
+        extraction_context: "'Level 3 is currently the highest certification that US SQUASH offers.' It prepares coaches for regional and national squad development."
+    overreach_flag: false
+
+  - id: c014
+    text: "US Squash certification costs: Start Squash $200 (late $250); Level 1 $450 (late $500); Level 2 $750 (late $800); Level 3 $900 (late $950)."
+    type: numerical
+    priority: must_verify
+    entity: us-squash
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "Start Squash $200/$250; L1 $450/$500; L2 $750/$800; L3 $900/$950"
+        extraction_context: "Start Squash: $200 ($250 late). Level 1: $450 ($500 late). Level 2: $750 ($800 late). Level 3: $900 ($950 late)."
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "same pricing tiers confirmed"
+        extraction_context: "Start Squash: $200 ($250 late). Level 1: $450 ($500 late). Level 2: $750 ($800 late). Level 3: $900 ($950 late)."
+    overreach_flag: false
+
+  - id: c015
+    text: "US Squash Level 1 coaching course was hosted at the Specter Center on January 9-11, 2026."
+    type: temporal
+    priority: must_verify
+    entity: us-squash
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "Specter Center January 9-11, 2026"
+        extraction_context: "2025-2026 Course: Level 1 hosted at Specter Center January 9-11, 2026."
+    overreach_flag: false
+    single_source: true
+
+  - id: c016
+    text: "In 2025, fourteen professional players earned US Squash Level 3 coaching certification."
+    type: numerical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "fourteen"
+        extraction_context: "In 2025, fourteen professional players earned Level 3 certification."
+    overreach_flag: false
+    single_source: true
+
+  - id: c017
+    text: "Coaches must hold a Coach Pass membership to coach at US Squash accredited junior tournaments or act as tournament director of an accredited tournament."
+    type: process
+    priority: should_verify
+    entity: us-squash
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "Coach Pass membership required"
+        extraction_context: "All coaches must be Coach Pass members to coach at US Squash accredited junior tournaments and act as tournament director of a US Squash accredited tournament."
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "Coach Pass membership in addition to certification"
+        extraction_context: "Coaches who attend US Squash accredited events as coaches must hold a Coach Pass membership in addition to their certification."
+    overreach_flag: false
+
+  - id: c018
+    text: "US Squash certifications are the only official coaching certifications recognized by US Squash in the USA."
+    type: categorical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q019
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-coach-certification-full.md
+        url: https://ussquash.org/coach-certification/
+        tier: L1-official
+        extracted_value: "ONLY official certifications recognized by US Squash"
+        extraction_context: "US Squash certifications are the ONLY official certifications recognized by US Squash in the USA."
+    overreach_flag: false
+    single_source: true
+
+  - id: c019
+    text: "The US Squash Foundation launched in May 2024; the Drive to LA28 campaign was activated in July 2025."
+    type: temporal
+    priority: must_verify
+    entity: us-squash
+    question_id: Q031
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-olympics-la28.md
+        url: https://ussquash.org/la28/
+        tier: L1-official
+        extracted_value: "May 2024 (Foundation); July 2025 (campaign)"
+        extraction_context: "US Squash Foundation launched May 2024; Drive to LA28 campaign activated July 2025."
+    overreach_flag: false
+    single_source: true
+
+  - id: c020
+    text: "Squash is one of five new sports debuting at the 2028 Los Angeles Olympics."
+    type: categorical
+    priority: should_verify
+    entity: us-squash
+    question_id: Q031
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-olympics-la28.md
+        url: https://ussquash.org/la28/
+        tier: L1-official
+        extracted_value: "one of five new sports"
+        extraction_context: "Squash is one of five new sports debuting at LA28."
+    overreach_flag: false
+    single_source: true
+
+  - id: c021
+    text: "The NAO/GO Scholarship Fund has historically awarded more than $91,400 in scholarships."
+    type: numerical
+    priority: must_verify
+    entity: us-squash
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-olympics-la28.md
+        url: https://ussquash.org/la28/
+        tier: L1-official
+        extracted_value: "more than $91,400"
+        extraction_context: "More than $91,400 in scholarships awarded via NAO/GO Scholarship Fund historically."
+    overreach_flag: false
+    single_source: true
+
+  - id: c022
+    text: "US Squash junior membership costs approximately $149 per year."
+    type: numerical
+    priority: must_verify
+    entity: us-squash
+    question_id: Q015
+    sources:
+      - file: raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "~$149/year"
+        extraction_context: "US Squash Membership (Required for Tournaments): Junior membership: ~$149/year."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Synthesized source cites this figure; original US Squash membership page was not directly fetched. Should verify against ussquash.org/membership."
+
+  # ================================================================
+  # ENTITY: norcal-squash
+  # ================================================================
+
+  - id: c023
+    text: "NorCal Squash (Northern California Squash Association) operates under the San Francisco International Squash Federation (SFISF), a registered 501(c)(3) charitable nonprofit corporation."
+    type: categorical
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q004
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-about.md
+        url: https://norcalsquash.org/about/
+        tier: L1-official
+        extracted_value: "SFISF, 501(c)(3)"
+        extraction_context: "NorCal Squash operates under the San Francisco International Squash Federation (SFISF), a registered 501(c)(3) charitable nonprofit corporation."
+    overreach_flag: false
+    single_source: true
+
+  - id: c024
+    text: "NorCal Squash board has six members: Emilie Van Der Hoorn (Chairperson, SF League Commissioner), Eric Katerman, Larry Salzer (Treasurer), Lauren Patrizio Xaba, Michael Corbett (Peninsula League Commissioner), and Rina Bhagwati."
+    type: categorical
+    priority: may_skip
+    entity: norcal-squash
+    question_id: Q004
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-about.md
+        url: https://norcalsquash.org/about/
+        tier: L1-official
+        extracted_value: "six named board members"
+        extraction_context: "The organization is led by a six-member board: Emilie Van Der Hoorn (Chairperson, SF League Commissioner), Eric Katerman, Larry Salzer (Treasurer), Lauren Patrizio Xaba, Michael Corbett (Peninsula League Commissioner), Rina Bhagwati."
+    overreach_flag: false
+    single_source: true
+
+  - id: c025
+    text: "Members join NorCal Squash through US Squash by selecting a NorCal club as their 'home club.'"
+    type: process
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q004
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-about.md
+        url: https://norcalsquash.org/about/
+        tier: L1-official
+        extracted_value: "join through US Squash, designate home club"
+        extraction_context: "Members join NorCal Squash through US Squash by selecting a NorCal club as their 'home club.' This creates an integrated membership structure connecting local play to the national governing body."
+      - file: raw/web/official/2026-04-24_norcalsquash-league.md
+        url: https://norcalsquash.org/league/
+        tier: L1-official
+        extracted_value: "join through US Squash, designate NorCal club as home club"
+        extraction_context: "Prospective players join through US Squash and designate a NorCal squash club as their 'home club.'"
+    overreach_flag: false
+
+  - id: c026
+    text: "NorCal Squash leagues run from September through April."
+    type: temporal
+    priority: must_verify
+    entity: norcal-squash
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-league.md
+        url: https://norcalsquash.org/league/
+        tier: L1-official
+        extracted_value: "September through April"
+        extraction_context: "Leagues run from September through April."
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "September to April"
+        extraction_context: "NorCal Squash Leagues in San Francisco, East Bay, South Bay (Peninsula), and Sacramento run from September to April."
+    overreach_flag: false
+
+  - id: c027
+    text: "NorCal Squash league teams are co-ed, split into Divisions 1 through 4."
+    type: categorical
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-league.md
+        url: https://norcalsquash.org/league/
+        tier: L1-official
+        extracted_value: "co-ed, Divisions 1-4"
+        extraction_context: "Teams are co-ed and divided into divisions 1 through 4."
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "co-ed, Divisions 1-4"
+        extraction_context: "Teams are co-ed and split into Divisions 1 through 4."
+    overreach_flag: false
+
+  - id: c028
+    text: "NorCal Squash league match format is best of five, rally-point games; teams consist of 6-10 players with four players from each team playing per match night."
+    type: categorical
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q025
+    sources:
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "6-10 players, 4 play per match night, best of five rally point"
+        extraction_context: "Teams consist of 6-10 players. Matches against opposing teams every two weeks. Match night: four players from each team play each other. Format: best of five, rally point games."
+    overreach_flag: false
+    single_source: true
+
+  - id: c029
+    text: "NorCal Squash maintains partnerships with 20+ facilities across five regions."
+    type: numerical
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q004
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-org.md
+        url: https://norcalsquash.org/
+        tier: L1-official
+        extracted_value: "20+"
+        extraction_context: "NorCal Squash maintains partnerships with 20+ facilities across five regions."
+    overreach_flag: false
+    single_source: true
+
+  - id: c030
+    text: "NorCal Squash league uses ClubLocker for recording match results and standings calculations."
+    type: categorical
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q025
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-league.md
+        url: https://norcalsquash.org/league/
+        tier: L1-official
+        extracted_value: "ClubLocker"
+        extraction_context: "The league uses ClubLocker for recording match results and standings calculations."
+    overreach_flag: false
+    single_source: true
+
+  - id: c031
+    text: "NorCal High School Team Championships inaugural season had 12 school teams participating, hosted at Bay Club Santa Clara."
+    type: numerical
+    priority: must_verify
+    entity: norcal-squash
+    question_id: Q025
+    sources:
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "inaugural, 12 school teams, Bay Club Santa Clara"
+        extraction_context: "High School Championships: Inaugural NorCal High School Team Championships held at Bay Club Santa Clara with 12 school teams participating."
+    overreach_flag: false
+    single_source: true
+
+  - id: c032
+    text: "No school in NorCal has its own squash courts except Nueva School."
+    type: categorical
+    priority: should_verify
+    entity: norcal-squash
+    question_id: Q025
+    sources:
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "no school; exception Nueva School"
+        extraction_context: "No school in NorCal has its own squash courts; school teams rely on private clubs. Nueva School: Only school in Northern California to incorporate squash into their school program."
+      - file: raw/web/journalistic/2026-04-24_squash-academic-balance.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "no NorCal school except Nueva"
+        extraction_context: "No NorCal school has its own squash courts (except Nueva). School teams depend on club court time (typically 4-6pm)."
+    overreach_flag: false
+
+  - id: c033
+    text: "SquashDrive recently hired Pat Williams as Executive Director in 2020."
+    type: temporal
+    priority: must_verify
+    entity: norcal-squash
+    question_id: Q004
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-org.md
+        url: https://norcalsquash.org/
+        tier: L1-official
+        extracted_value: "Pat Williams, Executive Director, 2020"
+        extraction_context: "SquashDrive recently hired Pat Williams as Executive Director in 2020."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: squash-zone
+  # ================================================================
+
+  - id: c034
+    text: "Squash Zone is located at 3586 Haven Ave, Redwood City, CA 94063; phone 650-995-7443."
+    type: categorical
+    priority: should_verify
+    entity: squash-zone
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "3586 Haven Ave, Redwood City, CA 94063; 650-995-7443"
+        extraction_context: "Location: 3586 Haven Ave, Redwood City, CA 94063. Phone: 650-995-7443."
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "3586 Haven Ave., Redwood City, CA 94063"
+        extraction_context: "Location: 3586 Haven Ave., Redwood City, CA 94063."
+    overreach_flag: false
+
+  - id: c035
+    text: "Squash Zone has 9 international courts: 7 traditional, 1 three-wall glass court, and 1 all-glass professional court."
+    type: numerical
+    priority: must_verify
+    entity: squash-zone
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "9 courts: 7 traditional, 1 three-wall glass, 1 all-glass"
+        extraction_context: "Squash Zone operates 9 international courts in Redwood City, CA, including '7 traditional courts, one 3-wall glass court and an all-glass professional court.'"
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "9 international singles courts (7 traditional, 1 three-wall glass, 1 all-glass professional court)"
+        extraction_context: "Courts: 9 international singles courts (7 traditional, 1 three-wall glass, 1 all-glass professional court)."
+    overreach_flag: false
+
+  - id: c036
+    text: "Squash Zone hours: Mon-Fri 9am-9pm; Sat-Sun 9am-5:15pm."
+    type: temporal
+    priority: must_verify
+    entity: squash-zone
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "Mon-Fri 9am-9pm; Sat-Sun 9am-5:15pm"
+        extraction_context: "Hours: Mon-Fri 9am-9pm; Sat-Sun 9am-5:15pm."
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "Mon-Fri 9am-9pm; Sat-Sun 9am-5:15pm"
+        extraction_context: "Hours: Mon-Fri 9am-9pm; Sat-Sun 9am-5:15pm."
+    overreach_flag: false
+
+  - id: c037
+    text: "Squash Zone membership pricing: Adult $205/month + $205 initiation; Junior PLUS $160/month + $160 initiation; Junior Access $110/month + $110 initiation."
+    type: numerical
+    priority: must_verify
+    entity: squash-zone
+    question_id: Q014
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "Adult $205/$205; Jr PLUS $160/$160; Jr Access $110/$110"
+        extraction_context: "Adult: $205/month + $205 initiation. Junior PLUS: $160/month + $160 initiation. Junior Access: $110/month + $110 initiation."
+      - file: raw/web/official/2026-04-24_squash-zone-join.md
+        url: https://www.squash.zone/join-squash-zone
+        tier: L1-official
+        extracted_value: "same pricing"
+        extraction_context: "Adult Membership: $205/month + $205 one-time initiation. Junior PLUS: $160/month + $160 initiation. Junior Access: $110/month + $110 initiation."
+    overreach_flag: false
+
+  - id: c038
+    text: "Squash Zone private lesson pricing: Bransten Ming/Aisling Blake/Ricardo Lopez/Samy Farrag at $165/60 min, $125/45 min, $80/30 min; Shahjahan Khan at $175/60 min, $145/45 min, $85/30 min; Yassin Farrag at $145/60 min, $110/45 min, $70/30 min."
+    type: numerical
+    priority: must_verify
+    entity: squash-zone
+    question_id: Q014
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "tiered coach pricing table"
+        extraction_context: "Bransten Ming, Aisling Blake, Ricardo Lopez, Samy Farrag: $165/60min, $125/45min, $80/30min. Shahjahan Khan: $175/60min, $145/45min, $85/30min. Yassin Farrag: $145/60min, $110/45min, $70/30min."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "From squash.zone/play-squash page; cross-reference with squash.zone/join-squash-zone."
+
+  - id: c039
+    text: "Squash Zone clinic prices range $40-70 per hour (package/drop-in rate); membership required."
+    type: numerical
+    priority: must_verify
+    entity: squash-zone
+    question_id: Q014
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "$40-70/hour"
+        extraction_context: "Clinic costs: '$40-$70 per hour (package/drop in rate)' — membership required."
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "$40-70/hour"
+        extraction_context: "Clinics: '$40-$70 per hour (package/drop in rate)' — membership required."
+    overreach_flag: false
+
+  - id: c040
+    text: "Squash Zone court duration is 45 minutes; bookable 4 days in advance at 7am; no-show fee is $15."
+    type: process
+    priority: should_verify
+    entity: squash-zone
+    question_id: Q014
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "45 minutes, 4 days advance, $15 no-show"
+        extraction_context: "'Court duration is 45 minutes.' Available 4 days in advance, starting at 7am. 'No-show fees ($15)' apply if canceled less than 4 hours before or if player doesn't arrive within 15 minutes."
+    overreach_flag: false
+    single_source: true
+
+  - id: c041
+    text: "Squash Zone guest fee is $25 plus $40 court booking; non-members may take up to two lessons (plus $25 guest fee)."
+    type: numerical
+    priority: must_verify
+    entity: squash-zone
+    question_id: Q014
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "$25 guest fee + $40 court booking; 2 lessons max"
+        extraction_context: "Guest fee: $25 plus $40 court booking. Non-members may take up to two lessons (plus $25 guest fee)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c042
+    text: "Squash Zone Beginner Clinics are for ages 5-9; Development Clinics are for ages 10-14; Elite Clinics require a 2.7-4.5+ rating."
+    type: categorical
+    priority: should_verify
+    entity: squash-zone
+    question_id: Q006
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "ages 5-9 beginner; ages 10-14 development; 2.7-4.5+ elite"
+        extraction_context: "Beginner Clinics (Ages 5-9). Development Clinics (Ages 10-14). Elite Clinics (2.7-4.5+ rating)."
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "same age divisions confirmed"
+        extraction_context: "Beginner Clinics (ages 5-9): Monday 4:30-5:30pm. Development Clinics (ages 10-14): Tuesday 5:15-6:45pm. Elite Clinics (2.7-4.5+ rating): Monday & Thursday 6-7:30pm."
+    overreach_flag: false
+
+  - id: c043
+    text: "Squash Zone eye protection is mandatory for all players 18 and under."
+    type: categorical
+    priority: should_verify
+    entity: squash-zone
+    question_id: Q017
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "mandatory for 18 and under"
+        extraction_context: "Eye protection mandatory for players 18 and under."
+    overreach_flag: false
+    single_source: true
+
+  - id: c044
+    text: "Squash Zone camp deposit is $300 per camp; balance due on first day; cancellation must be in writing at least 14 days prior; fees non-refundable once session starts."
+    type: process
+    priority: should_verify
+    entity: squash-zone
+    question_id: Q024
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "$300 deposit; 14-day cancel; non-refundable once started"
+        extraction_context: "$300 deposit per camp required in advance. Total balance due on first day of camp. Cancellations must be in writing to elaine@squash.zone. Must cancel at least 14 days prior to start of camp to avoid full charge. Once session has started, fees are non-refundable."
+    overreach_flag: false
+    single_source: true
+
+  - id: c045
+    text: "Squash Zone offers a Wednesday Challenge Ladder for $30/quarter for match play (7:30-9pm) and a Friday Night Round Robin free with membership (7:30-8:30pm)."
+    type: numerical
+    priority: should_verify
+    entity: squash-zone
+    question_id: Q014
+    sources:
+      - file: raw/web/official/2026-04-24_squash-zone-programs-full.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "$30/quarter for ladder; free Round Robin with membership"
+        extraction_context: "Wednesday Challenge Ladder: $30/quarter for match play (7:30-9pm). Friday Night Round Robin: Free with membership (7:30-8:30pm)."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: haq-international-squash-academy (HISA)
+  # ================================================================
+
+  - id: c046
+    text: "HAQ International Squash Academy (HISA) is located at PO Box 2003, Santa Clara, CA 95055; phone (408) 256-7363."
+    type: categorical
+    priority: should_verify
+    entity: haq-international-squash-academy
+    question_id: Q013
+    sources:
+      - file: raw/web/official/2026-04-24_hisasquash-overview.md
+        url: https://www.hisasquash.com/
+        tier: L1-official
+        extracted_value: "PO Box 2003, Santa Clara, CA 95055; (408) 256-7363"
+        extraction_context: "PO Box 2003, Santa Clara, CA 95055. Phone: (408) 256-7363."
+      - file: raw/web/official/2026-04-24_hisasquash-about.md
+        url: https://hisasquash.com/about
+        tier: L1-official
+        extracted_value: "same address and phone"
+        extraction_context: "Address: PO Box 2003, Santa Clara, CA 95055. Phone: (408) 256-7363."
+    overreach_flag: false
+
+  - id: c047
+    text: "HISA director Muhammad Waseem Ul Haq has a world ranking of 131 and won the Kentucky State Championship (1999), earned a silver medal at Pakistan's National Games (1998), participated in the US Open and three World Opens, and served as Executive Director of Kentucky Squash Racquets Association (1999-2005)."
+    type: categorical
+    priority: should_verify
+    entity: haq-international-squash-academy
+    question_id: Q013
+    sources:
+      - file: raw/web/official/2026-04-24_hisasquash-about.md
+        url: https://hisasquash.com/about
+        tier: L1-official
+        extracted_value: "world ranking 131; Kentucky State Champ 1999; Pakistan National Games silver 1998; Kentucky Squash Racquets Association ED 1999-2005"
+        extraction_context: "Director: Muhammad Waseem Ul Haq, international squash professional with 'world ranking of 131.' Waseem Ul Haq won the Kentucky State Championship (1999), earned a silver medal at Pakistan's National Games (1998), and participated in major international tournaments including US Open and three World Opens. He served as Executive Director of Kentucky Squash Racquets Association (1999-2005)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c048
+    text: "HISA assistant directors Neha Haq and Mahnoor Haq are both Level 1 US Squash Certified Coaches."
+    type: categorical
+    priority: should_verify
+    entity: haq-international-squash-academy
+    question_id: Q013
+    sources:
+      - file: raw/web/official/2026-04-24_hisasquash-about.md
+        url: https://hisasquash.com/about
+        tier: L1-official
+        extracted_value: "both Level 1 US Squash Certified"
+        extraction_context: "Assistant Directors: Neha Haq and Mahnoor Haq, both Level 1 US Squash Certified Coaches."
+      - file: raw/web/official/2026-04-24_hisasquash-overview.md
+        url: https://www.hisasquash.com/
+        tier: L1-official
+        extracted_value: "all three — Sadia, Neha, Mahnoor — Level 1 certified"
+        extraction_context: "Also managed by Sadia Waseem Haq, Neha Haq, and Mahnoor Haq — all Level 1 US Squash Certified Coaches and Assistant Directors."
+    overreach_flag: false
+
+  - id: c049
+    text: "HISA school partnerships include Westmont High School, Magnolia Science Academy, Noor Hifz Academy, and Granada Islamic School."
+    type: categorical
+    priority: should_verify
+    entity: haq-international-squash-academy
+    question_id: Q013
+    sources:
+      - file: raw/web/official/2026-04-24_hisasquash-about.md
+        url: https://hisasquash.com/about
+        tier: L1-official
+        extracted_value: "four named school partners"
+        extraction_context: "School Partnerships: Westmont High School, Magnolia Science Academy, Noor Hifz Academy, Granada Islamic School."
+    overreach_flag: false
+    single_source: true
+
+  - id: c050
+    text: "HISA pricing is not publicly available on website; requires direct contact."
+    type: categorical
+    priority: should_verify
+    entity: haq-international-squash-academy
+    question_id: Q013
+    sources:
+      - file: raw/web/official/2026-04-24_hisasquash-about.md
+        url: https://hisasquash.com/about
+        tier: L1-official
+        extracted_value: "no public pricing"
+        extraction_context: "Pricing: No pricing information publicly available on website. Rates referenced via separate 'Rates and Policy' link. Contact (408) 256-7363 or squash@hisasquash.com for current rates."
+      - file: raw/web/official/2026-04-24_hisasquash-overview.md
+        url: https://www.hisasquash.com/
+        tier: L1-official
+        extracted_value: "no pricing visible"
+        extraction_context: "Note: Specific pricing, detailed junior program structure, summer camp schedules, and development pathway details not visible in public-facing website content. Direct contact recommended for current pricing."
+    overreach_flag: false
+
+  # ================================================================
+  # ENTITY: altius-performance-squash
+  # ================================================================
+
+  - id: c051
+    text: "Altius Performance Squash is located at 1197 Oddstad Dr, Redwood City, CA 94063; phone 650.396.9313."
+    type: categorical
+    priority: should_verify
+    entity: altius-performance-squash
+    question_id: QGF002
+    sources:
+      - file: raw/web/official/2026-04-24_altius-performance-squash.md
+        url: https://www.altiusperformance.net/
+        tier: L1-official
+        extracted_value: "1197 Oddstad Dr, Redwood City, CA 94063; 650.396.9313"
+        extraction_context: "Address: 1197 Oddstad Dr, Redwood City, CA 94063. Phone: 650.396.9313."
+    overreach_flag: false
+    single_source: true
+
+  - id: c052
+    text: "Altius Performance head coach Omar Mohy Marei is Egyptian, formerly ranked as top junior in Egypt, played professionally on the PSA World Tour, was part of Wadi Degla club coaching team in Cairo, coached at Greenwich Academy CT where the team won 3 US national high school titles during his tenure."
+    type: categorical
+    priority: should_verify
+    entity: altius-performance-squash
+    question_id: QGF002
+    sources:
+      - file: raw/web/official/2026-04-24_altius-performance-squash.md
+        url: https://www.altiusperformance.net/
+        tier: L1-official
+        extracted_value: "Egyptian PSA pro; Wadi Degla; Greenwich Academy 3 national titles"
+        extraction_context: "Coach Omar hails from Egypt, where he was the top ranked junior for many years before playing professionally on the PSA World Tour. He was previously part of the coaching team at the storied Wadi Degla club in Cairo... coached 3 years at Greenwich Academy, CT (3-time US national high school champions during his tenure)."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Self-reported claims on coaching website; independent verification recommended."
+
+  - id: c053
+    text: "Omar Mohy Marei's students won the 2023 British Junior Open BU11 and GU11, and placed 3rd in GU13, 5th in BU15."
+    type: categorical
+    priority: should_verify
+    entity: altius-performance-squash
+    question_id: QGF002
+    sources:
+      - file: raw/web/official/2026-04-24_altius-performance-squash.md
+        url: https://www.altiusperformance.net/
+        tier: L1-official
+        extracted_value: "2023 BJO BU11 winner, GU11 winner, GU13 3rd, BU15 5th"
+        extraction_context: "His students include: 2023 British Junior Open winner BU11; 2023 British Junior Open winner GU11; 2023 British Junior Open 3rd place GU13; 2023 British Junior Open 5th place BU15."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Self-reported on coaching website; verifiable against British Junior Open official results."
+
+  - id: c054
+    text: "Altius Performance is a junior-centric coaching service, not a club or court facility; pricing not publicly listed."
+    type: categorical
+    priority: should_verify
+    entity: altius-performance-squash
+    question_id: QGF002
+    sources:
+      - file: raw/web/official/2026-04-24_altius-performance-squash.md
+        url: https://www.altiusperformance.net/
+        tier: L1-official
+        extracted_value: "junior-centric; not a club; no public pricing"
+        extraction_context: "Focus: Junior-centric elite coaching, not a club/membership facility. Model: Bespoke 1-on-1 coaching + tournament coaching (JCT travel available). Pricing: Not publicly listed (contact required)."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: bay-club
+  # ================================================================
+
+  - id: c055
+    text: "Bay Club locations with squash courts in the Bay Area: Bay Club San Francisco (150 Greenwich Street), Bay Club Marin (Corte Madera), Bay Club Fremont (46650 Landing Parkway, Fremont, CA 94538), Bay Club Santa Clara, and Bay Club Redwood Shores."
+    type: categorical
+    priority: should_verify
+    entity: bay-club
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-24_bayclubs-squash.md
+        url: https://www.bayclubs.com/amenity/squash
+        tier: L1-official
+        extracted_value: "5 Bay Area Bay Club locations with squash"
+        extraction_context: "Bay Club Santa Clara (CA). Bay Club Redwood Shores (Redwood City, CA). Bay Club Fremont (CA). Bay Club San Francisco (CA). Bay Club Marin (Corte Madera, CA)."
+      - file: raw/web/official/2026-04-24_bayclubs-squash-full.md
+        url: https://www.bayclubs.com/amenity/squash
+        tier: L1-official
+        extracted_value: "Bay Club SF (150 Greenwich), Marin, Fremont (46650 Landing Pkwy), Santa Clara, Redwood Shores"
+        extraction_context: "Bay Club San Francisco — 150 Greenwich Street, San Francisco, CA. Bay Club Marin �� Corte Madera, CA. Bay Club Fremont — 46650 Landing Parkway, Fremont, CA 94538."
+    overreach_flag: false
+
+  - id: c056
+    text: "Bay Club Fremont coaches: Maha Zein, Faisal Riaz, Zarak Khan. Bay Club San Francisco and Marin coach: Erick Chacon."
+    type: categorical
+    priority: should_verify
+    entity: bay-club
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-24_bayclubs-squash-full.md
+        url: https://www.bayclubs.com/amenity/squash
+        tier: L1-official
+        extracted_value: "Fremont: Maha Zein, Faisal Riaz, Zarak Khan; SF/Marin: Erick Chacon"
+        extraction_context: "Bay Club San Francisco & Bay Club Marin: Erick Chacon. Bay Club Fremont: Maha Zein, Faisal Riaz, Zarak Khan."
+      - file: raw/web/official/2026-04-24_norcalsquash-lessons.md
+        url: https://norcalsquash.org/lessons/
+        tier: L1-official
+        extracted_value: "same staff confirmed"
+        extraction_context: "East Bay: Maha Zein, Faisal Riaz, Zarak Khan (Bay Club Fremont). Marin: Erick Chacon (Bay Club Marin). SF: Erick Chacon (Bay Club San Francisco)."
+    overreach_flag: false
+
+  - id: c057
+    text: "Bay Club Fremont hosted the Bay Club Fremont Winter Challenge junior bronze tournament in December 2019, featuring Dillon Huang (US #1 ranked BU19) as a player."
+    type: temporal
+    priority: should_verify
+    entity: bay-club
+    question_id: Q021
+    sources:
+      - file: raw/web/official/2026-04-24_bayclubs-squash-full.md
+        url: https://www.bayclubs.com/amenity/squash
+        tier: L1-official
+        extracted_value: "December 2019; Dillon Huang US #1 BU19"
+        extraction_context: "Bay Club Fremont hosted Bay Club Fremont Winter Challenge junior bronze tournament (December 2019) with Dillon Huang (US #1 ranked BU19) as featured player."
+    overreach_flag: false
+    single_source: true
+
+  - id: c058
+    text: "Bay Club requires full club membership to access squash courts; pricing varies by location and is not publicly listed."
+    type: categorical
+    priority: should_verify
+    entity: bay-club
+    question_id: Q015
+    sources:
+      - file: raw/web/official/2026-04-24_bayclubs-squash-full.md
+        url: https://www.bayclubs.com/amenity/squash
+        tier: L1-official
+        extracted_value: "full club membership required; no public pricing"
+        extraction_context: "Bay Club requires full club membership to access squash courts. Bay Club membership includes premium fitness facilities in addition to squash. Pricing varies by location and membership type; contact individual clubs."
+      - file: raw/web/official/2026-04-24_bayclubs-squash.md
+        url: https://www.bayclubs.com/amenity/squash
+        tier: L1-official
+        extracted_value: "no specific pricing published"
+        extraction_context: "No specific pricing information published on site."
+    overreach_flag: false
+
+  # ================================================================
+  # ENTITY: squashdrive
+  # ================================================================
+
+  - id: c059
+    text: "SquashDrive is based in Emeryville, CA (PO Box 99165, Emeryville, CA 94662) and serves East Bay youth grades 4-11."
+    type: categorical
+    priority: should_verify
+    entity: squashdrive
+    question_id: Q004a
+    sources:
+      - file: raw/web/official/2026-04-24_squashdrive-org.md
+        url: https://www.squashdrive.org/
+        tier: L1-official
+        extracted_value: "Emeryville; grades middle and high school"
+        extraction_context: "Based in Emeryville, CA (PO Box 99165, Emeryville, CA 94662), they serve the East Bay region. The organization works with middle and high school students."
+      - file: raw/web/official/2026-04-24_squashdrive-program.md
+        url: https://www.squashdrive.org/our-program
+        tier: L1-official
+        extracted_value: "East Bay youth, 4th through 11th graders"
+        extraction_context: "East Bay youth, primarily 4th through 11th graders."
+    overreach_flag: false
+
+  - id: c060
+    text: "SquashDrive provides a minimum of 100 hours per year of squash and fitness instruction and 115 hours per year of homework help and academic enrichment."
+    type: numerical
+    priority: must_verify
+    entity: squashdrive
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-24_squashdrive-program.md
+        url: https://www.squashdrive.org/our-program
+        tier: L1-official
+        extracted_value: "100 hours squash; 115 hours academic"
+        extraction_context: "Academic Component: 115 hours of annual homework help and academic enrichment. Squash Training: Minimum 100 hours per year of squash and fitness instruction."
+      - file: raw/web/official/2026-04-24_squashdrive-org.md
+        url: https://www.squashdrive.org/
+        tier: L1-official
+        extracted_value: "115 hours academic, 100 hours squash"
+        extraction_context: "Academic Support: daily after school academic support including 115 hours of homework help annually. Squash Instruction: Minimum 100 hours yearly of squash and fitness instruction."
+    overreach_flag: false
+
+  - id: c061
+    text: "SquashDrive is free for eligible participants; it is a nonprofit funded by donations."
+    type: categorical
+    priority: should_verify
+    entity: squashdrive
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-24_squashdrive-program.md
+        url: https://www.squashdrive.org/our-program
+        tier: L1-official
+        extracted_value: "free; nonprofit"
+        extraction_context: "Program is free for eligible participants. SquashDrive is a non-profit organization funded by donations."
+    overreach_flag: false
+    single_source: true
+
+  - id: c062
+    text: "SquashDrive partners with 12 partner schools in Oakland area; primary school partner is Berkeley Maynard Academy (Aspire Public School in Oakland) where 70% of students receive free or reduced lunches."
+    type: numerical
+    priority: must_verify
+    entity: squashdrive
+    question_id: Q004a
+    sources:
+      - file: raw/web/official/2026-04-24_squashdrive-program.md
+        url: https://www.squashdrive.org/our-program
+        tier: L1-official
+        extracted_value: "12 partner schools; Berkeley Maynard Academy; 70% free/reduced lunch"
+        extraction_context: "Partners with 12 partner schools in Oakland area. Primary school partner: Berkeley Maynard Academy (Aspire Public School in Oakland) — 70% of students receive free or reduced lunches."
+    overreach_flag: false
+    single_source: true
+
+  - id: c063
+    text: "SquashDrive is part of the National Urban Squash Education Alliance (NUSEA), making participants eligible for the NAO/GO Scholarship Fund for private secondary school and college."
+    type: categorical
+    priority: should_verify
+    entity: squashdrive
+    question_id: Q018
+    sources:
+      - file: raw/web/official/2026-04-24_squashdrive-program.md
+        url: https://www.squashdrive.org/our-program
+        tier: L1-official
+        extracted_value: "NUSEA; NAO/GO Scholarship Fund"
+        extraction_context: "Part of National Urban Squash Education Alliance (NUSEA), making participants eligible for NAO/GO Scholarship Fund for private secondary school and college."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: oakwood-athletic-club
+  # ================================================================
+
+  - id: c064
+    text: "Oakwood Athletic Club is located at 4000 Mt. Diablo Boulevard, Lafayette, CA 94549; phone 925.283.4000."
+    type: categorical
+    priority: should_verify
+    entity: oakwood-athletic-club
+    question_id: QGF004
+    sources:
+      - file: raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+        url: https://www.oakwoodathleticclub.com/court-sports/squash
+        tier: L1-official
+        extracted_value: "4000 Mt. Diablo Blvd, Lafayette, CA 94549; 925.283.4000"
+        extraction_context: "Location: 4000 Mt. Diablo Boulevard, Lafayette, CA 94549. Phone: 925.283.4000."
+    overreach_flag: false
+    single_source: true
+
+  - id: c065
+    text: "Oakwood Athletic Club has 3 glass-back wall international-size squash courts and offers youth instruction and private lessons."
+    type: numerical
+    priority: must_verify
+    entity: oakwood-athletic-club
+    question_id: QGF004
+    sources:
+      - file: raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+        url: https://www.oakwoodathleticclub.com/court-sports/squash
+        tier: L1-official
+        extracted_value: "3 glass-back wall courts; youth instruction confirmed"
+        extraction_context: "There are three premier glass-back wall international-size courts at Oakwood within the gymnasium. A variety of programs are offered, including... adult and youth instruction and private lessons."
+      - file: raw/web/official/2026-04-24_east-bay-squash-clubs-survey.md
+        url: multiple
+        tier: L1-official
+        extracted_value: "3 glass-back wall courts; junior programs YES"
+        extraction_context: "Courts: 3 glass-back wall international-size courts. Junior programs: YES — youth instruction and private lessons (confirmed on official site)."
+    overreach_flag: false
+
+  - id: c066
+    text: "Oakwood Athletic Club in-house squash league has up to 5 divisions (Novice through A Level); formal sessions run Fall (September through early December) and Winter (January through late April)."
+    type: categorical
+    priority: should_verify
+    entity: oakwood-athletic-club
+    question_id: QGF004
+    sources:
+      - file: raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+        url: https://www.oakwoodathleticclub.com/court-sports/squash
+        tier: L1-official
+        extracted_value: "5 divisions Novice-A; Fall Sept-Dec; Winter Jan-April"
+        extraction_context: "Oakwood's in-house league sports up to five Divisions from Novice to A Level players. Formal sessions are in the Fall (September through early December) and Winter (January through late April)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c067
+    text: "The East Bay Competitive Squash League features team matches between 7 clubs in the East Bay, played on Wednesday evenings in fall and winter; playoffs determine Northern California Champions against Peninsula, Marin, and Sacramento leagues. Oakwood Division II won in 2005."
+    type: categorical
+    priority: should_verify
+    entity: oakwood-athletic-club
+    question_id: QGF004
+    sources:
+      - file: raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+        url: https://www.oakwoodathleticclub.com/court-sports/squash
+        tier: L1-official
+        extracted_value: "7 clubs; Wednesday evenings fall/winter; NorCal playoffs; Oakwood Div II won 2005"
+        extraction_context: "The East Bay Competitive Squash League features team matches between seven clubs in the East Bay with active squash programs. Matches for three Divisions are played Wednesday evenings throughout the fall and winter months. Playoffs occur at the end of the season between the top teams in the East Bay, Peninsula, Marin and Sacramento leagues to determine the overall Northern California Champions. In 2005 the Oakwood Division II team won it all!"
+      - file: raw/web/official/2026-04-24_east-bay-squash-clubs-survey.md
+        url: multiple
+        tier: L1-official
+        extracted_value: "7-club East Bay league; Wed evenings; NorCal championship"
+        extraction_context: "7 clubs in East Bay with active squash programs participate. Three Divisions: Wednesday evenings fall and winter months. Playoffs vs Peninsula, Marin, and Sacramento leagues for overall NorCal championship."
+    overreach_flag: false
+
+  - id: c068
+    text: "Oakwood Athletic Club pricing is not publicly listed; private club membership required."
+    type: categorical
+    priority: should_verify
+    entity: oakwood-athletic-club
+    question_id: QGF004
+    sources:
+      - file: raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+        url: https://www.oakwoodathleticclub.com/court-sports/squash
+        tier: L1-official
+        extracted_value: "pricing not public; private membership required"
+        extraction_context: "Pricing: Not publicly listed — requires inquiry to Activities Desk or Membership Department. Membership status: Private athletic club (membership required)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c069
+    text: "The Bay Area has 10+ age-group, skill-level and open-professional squash tournaments per year."
+    type: numerical
+    priority: should_verify
+    entity: oakwood-athletic-club
+    question_id: Q021
+    sources:
+      - file: raw/web/official/2026-04-24_oakwood-athletic-club-squash.md
+        url: https://www.oakwoodathleticclub.com/court-sports/squash
+        tier: L1-official
+        extracted_value: "over ten"
+        extraction_context: "Over ten age-group, skill-level and open-professional tournaments take place in the San Francisco Bay Area each year."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: stanford-university (squash)
+  # ================================================================
+
+  - id: c070
+    text: "Stanford's Arrillaga Center for Sports and Recreation (ACSR) has 7 squash courts including one glass competition court; access requires a valid Stanford ID."
+    type: numerical
+    priority: must_verify
+    entity: stanford-university
+    question_id: QGF003
+    sources:
+      - file: raw/web/official/2026-04-24_stanford-arrillaga-squash.md
+        url: https://rec.stanford.edu
+        tier: L1-official
+        extracted_value: "7 courts including 1 glass competition court; Stanford ID required"
+        extraction_context: "Squash courts: 7 squash courts including one glass competition court. Access requirement: Stanford ID required to scan at front desk upon entry."
+    overreach_flag: false
+    single_source: true
+
+  - id: c071
+    text: "Stanford University has a women's varsity squash program, which is the only West Coast varsity squash program."
+    type: categorical
+    priority: should_verify
+    entity: stanford-university
+    question_id: Q027
+    sources:
+      - file: raw/web/official/2026-04-24_stanford-arrillaga-squash.md
+        url: https://rec.stanford.edu
+        tier: L1-official
+        extracted_value: "Stanford Women's — only West Coast varsity"
+        extraction_context: "Stanford Women's squash: Only West Coast varsity squash program."
+      - file: raw/web/journalistic/2026-04-24_sparkadmissions-college-squash-recruiting.md
+        url: https://www.sparkadmissions.com/blog/how-to-get-recruited-to-college-for-squash/
+        tier: L2-authoritative
+        extracted_value: "Stanford University has women's varsity; no men's program on West Coast"
+        extraction_context: "Key Bay Area/West Coast note: Stanford University has women's varsity squash. No men's varsity program on the West Coast."
+    overreach_flag: false
+
+  - id: c072
+    text: "Non-Stanford Bay Area families cannot access Stanford squash courts as a training base; the nearest accessible alternative is Squash Zone (3 miles from Stanford campus)."
+    type: categorical
+    priority: should_verify
+    entity: stanford-university
+    question_id: QGF003
+    sources:
+      - file: raw/web/official/2026-04-24_stanford-arrillaga-squash.md
+        url: https://rec.stanford.edu
+        tier: L1-official
+        extracted_value: "non-affiliated families cannot access; Squash Zone 3 miles away"
+        extraction_context: "Practical access for Bay Area families: Very limited. Stanford ID required. Non-affiliated families should not plan on using Stanford courts as a training base. Alternative nearby courts: Squash Zone (Redwood City, 3 miles from Stanford campus)."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: tournament-calendar (JCT and NorCal events)
+  # ================================================================
+
+  - id: c073
+    text: "JCT #2 (2025-2026) was held in Fremont, CA on October 11-13, 2025."
+    type: temporal
+    priority: must_verify
+    entity: tournament-calendar
+    question_id: QGF001
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "JCT #2 — Fremont, CA | October 11-13, 2025"
+        extraction_context: "JCT #2 - Fremont, CA | October 11-13, 2025 <- Bay Area."
+      - file: raw/web/official/2026-04-24_ussquash-national-squash-academy.md
+        url: https://ussquash.org/national-squash-academy/
+        tier: L1-official
+        extracted_value: "JCT #2 Bay Area (Fremont, CA) October 11-13, 2025"
+        extraction_context: "JCT #2 Bay Area connection: NSA-Regional sessions accompany JCT events, meaning Bay Area juniors can access NSA-Regional at JCT #2 in Fremont, CA (October 11-13, 2025)."
+      - file: raw/web/official/2026-04-24_norcalsquash-tournament-calendar.md
+        url: https://norcalsquash.org/
+        tier: L1-official
+        extracted_value: "JCT #2 — Fremont, CA | October 11-13, 2025"
+        extraction_context: "JCT #2 — Bay Area (Fremont, CA) — October 2025."
+    overreach_flag: false
+
+  - id: c074
+    text: "2025-2026 US Squash JCT schedule: JCT #1 South Norwalk CT Aug 30-Sep 1; JCT #2 Fremont CA Oct 11-13; JCT #3 Springfield VA Nov 8-10; JCT #4 Philadelphia PA Jan 17-19; JCT #5 Houston TX Feb 14-16."
+    type: temporal
+    priority: must_verify
+    entity: tournament-calendar
+    question_id: Q021
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "all 5 JCT dates and locations"
+        extraction_context: "JCT #1 - South Norwalk, CT | August 30 - September 1, 2025. JCT #2 - Fremont, CA | October 11-13, 2025. JCT #3 - Springfield, VA | November 8-10, 2025. JCT #4 - Philadelphia, PA | January 17-19, 2026. JCT #5 - Houston, TX | February 14-16, 2026."
+    overreach_flag: false
+    single_source: true
+
+  - id: c075
+    text: "2025-2026 US Squash scholastic championships: Middle School Championships Philadelphia PA Jan 30-Feb 1; Interscholastic Championships Baltimore MD Feb 6-8; High School Championships Philadelphia PA Feb 20-22."
+    type: temporal
+    priority: must_verify
+    entity: tournament-calendar
+    question_id: Q021
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "three scholastic championship dates"
+        extraction_context: "Middle School Championships - Philadelphia, PA | January 30 - February 1, 2026. Interscholastic Championships - Baltimore, MD | February 6-8, 2026. High School Championships - Philadelphia, PA | February 20-22, 2026."
+    overreach_flag: false
+    single_source: true
+
+  - id: c076
+    text: "2025-2026 US Squash national championships: US Junior Open Philadelphia PA Dec 20-23, 2025; US Junior Squash Championships Philadelphia PA Mar 13-15, 2026; US Junior Silver/Bronze Championships Philadelphia PA Mar 20-22, 2026."
+    type: temporal
+    priority: must_verify
+    entity: tournament-calendar
+    question_id: Q021
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-junior-ranking-how.md
+        url: https://ussquash.org/earning-a-junior-national-ranking/
+        tier: L1-official
+        extracted_value: "three national championship dates"
+        extraction_context: "U.S. Junior Open - Philadelphia, PA | December 20-23, 2025. U.S. Junior Squash Championships - Philadelphia, PA | March 13-15, 2026. U.S. Junior Silver/Bronze Championships - Philadelphia, PA | March 20-22, 2026."
+    overreach_flag: false
+    single_source: true
+
+  - id: c077
+    text: "Historical NorCal junior tournaments include: Squash Zone Silver (March, 80-103 competitors), Bay Club Fremont Winter Challenge (December), Squash Zone Club Championships (May), Oakwood Winter Bronze (February), Silicon Valley Junior Championships (annual)."
+    type: categorical
+    priority: should_verify
+    entity: tournament-calendar
+    question_id: QGF001
+    sources:
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "5 named historical events with months"
+        extraction_context: "Squash Zone Silver (March): 80-103 competitors. Bay Club Fremont Winter Challenge (December). Squash Zone Club Championships (May). Oakwood Winter Bronze (February). Silicon Valley Junior Championships (2018)."
+      - file: raw/web/official/2026-04-24_ussquash-tournament-getting-started.md
+        url: https://ussquash.org/getting-started-with-junior-tournaments/
+        tier: L1-official
+        extracted_value: "same events listed as historical examples"
+        extraction_context: "NorCal Junior Tournaments (Historical Examples): Squash Zone Silver: 80-103 competitors, Redwood City. Bay Club Fremont Winter Challenge: December, junior bronze division. Silicon Valley Junior Championships: Annual event. Squash Zone Club Championships: Annual, juniors division. Oakwood Winter Bronze: Lafayette, East Bay."
+    overreach_flag: false
+
+  - id: c078
+    text: "Junior tournament entry fees range $35-75 per draw for most junior tournaments; gold/JCT events $100-200+."
+    type: numerical
+    priority: must_verify
+    entity: tournament-calendar
+    question_id: Q016
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-tournament-calendar.md
+        url: https://norcalsquash.org/
+        tier: L1-official
+        extracted_value: "$35-75 most junior tournaments"
+        extraction_context: "most junior tournaments have entry fees of $35-75 per draw; paid through ClubLocker."
+      - file: raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "bronze $30-50; silver $50-100; gold/JCT $100-200+"
+        extraction_context: "Local/regional bronze: $30-50 per tournament. Silver level: $50-100 per tournament. Gold/JCT events: $100-200+ per tournament."
+    overreach_flag: false
+
+  # ================================================================
+  # ENTITY: squash-rules-and-fundamentals
+  # ================================================================
+
+  - id: c079
+    text: "Squash matches typically follow a best-of-five format; each game is won by reaching 11 points; if tied at 10-10, play continues until a two-point lead is achieved."
+    type: categorical
+    priority: should_verify
+    entity: squash-rules-and-fundamentals
+    question_id: Q001
+    sources:
+      - file: raw/web/review/2026-04-24_squashsource-rules.md
+        url: https://www.squashsource.com/squash-rules/
+        tier: L3-aggregator
+        extracted_value: "best of five; 11 points per game; deuce at 10-10"
+        extraction_context: "Squash matches typically follow a 'best-of-five' format, requiring a player to win three games to claim victory. Each individual game reaches 11 points... If the score becomes tied at 10-10, play continues until someone achieves a two-point lead."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator source only. Should confirm against WSF official rulebook (L1)."
+
+  - id: c080
+    text: "Squash operates on a point-a-rally (PAR) scoring system where every rally produces a point regardless of who served."
+    type: definitional
+    priority: may_skip
+    entity: squash-rules-and-fundamentals
+    question_id: Q001
+    sources:
+      - file: raw/web/review/2026-04-24_squashsource-rules.md
+        url: https://www.squashsource.com/squash-rules/
+        tier: L3-aggregator
+        extracted_value: "PAR system"
+        extraction_context: "The sport operates on a point-a-rally (PAR) system, meaning 'you win a point every time you win a rally.' This differs from older scoring methods where only the server could score points."
+    overreach_flag: false
+    single_source: true
+
+  - id: c081
+    text: "Squash court layout: enclosed rectangular room with front wall, two side walls, back wall; service line on front wall; outline at top (out of bounds); tin at bottom of front wall; half-court line dividing left and right service boxes; short line on floor."
+    type: definitional
+    priority: may_skip
+    entity: squash-rules-and-fundamentals
+    question_id: Q001
+    sources:
+      - file: raw/web/review/2026-04-24_squashsource-rules.md
+        url: https://www.squashsource.com/squash-rules/
+        tier: L3-aggregator
+        extracted_value: "court layout described"
+        extraction_context: "The court is an enclosed rectangular room with: Front wall, two side walls, back wall. Service line on front wall. Outline at top (out of bounds). Tin at bottom of front wall. Half-court line on floor dividing left and right service boxes. Short line on floor."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: junior-squash-development (developmental/process claims)
+  # ================================================================
+
+  - id: c082
+    text: "LearnSquash offers junior clinics for ages 6-18; private lessons cost $100 per 45-minute session (individual) or $55 per person for semi-private."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-development
+    question_id: Q009
+    sources:
+      - file: raw/web/journalistic/2026-04-24_learnsquash-juniors.md
+        url: https://www.learnsquash.com/juniors
+        tier: L2-authoritative
+        extracted_value: "ages 6-18; $100/45 min individual; $55/person semi-private"
+        extraction_context: "LearnSquash offers junior clinics for ages 6-18... Private lessons cost $100 per 45-minute session (individual) or $55 per person for semi-private instruction."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "LearnSquash appears to be a non-Bay-Area provider based on staff names mentioned; Bay Area applicability unclear. Should verify location."
+
+  - id: c083
+    text: "The US Squash nationally ranked junior pool consists of approximately 142 BU19 and 104 GU19 players."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-development
+    question_id: Q028
+    sources:
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "142 BU19; 104 GU19"
+        extraction_context: "BU19 ranking pool: 142 players nationally; GU19: 104 players nationally."
+      - file: raw/web/journalistic/2026-04-24_squash-talent-assessment.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "~142 BU19, ~104 GU19"
+        extraction_context: "US Squash junior ranking pool: ~142 BU19, ~104 GU19 nationally ranked."
+    overreach_flag: false
+
+  - id: c084
+    text: "For top Ivy League squash programs (Harvard, Yale, Princeton), a national ranking of top 10-20 is typically required; top 20-50 for strong D1 programs; top 50-100 for elite D3 liberal arts."
+    type: comparative
+    priority: should_verify
+    entity: junior-squash-development
+    question_id: Q028
+    sources:
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "top 10-20 Ivy; top 20-50 D1; top 50-100 D3"
+        extraction_context: "For top Ivy League programs (Harvard, Yale, Princeton): top 10-20 nationally in age group. For good D1 programs (UPenn, Columbia): top 20-50 nationally. For D3 elite liberal arts (Amherst, Williams, Tufts): top 50-100 nationally. Note: These are rough estimates based on pool size data; specific thresholds vary by program, year, and gender."
+    overreach_flag: true
+    overreach_reason: "Source explicitly acknowledges these are rough estimates varying by program, year, and gender. Not official program-published thresholds. Should not be stated as fixed requirements."
+    single_source: true
+
+  - id: c085
+    text: "There are 37 colleges and universities in the United States with varsity college squash teams."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-development
+    question_id: Q027
+    sources:
+      - file: raw/web/journalistic/2026-04-24_sparkadmissions-college-squash-recruiting.md
+        url: https://www.sparkadmissions.com/blog/how-to-get-recruited-to-college-for-squash/
+        tier: L2-authoritative
+        extracted_value: "37 colleges"
+        extraction_context: "There are only 37 colleges and universities in the United States with varsity college squash teams, compared to over 650 schools with NCAA football programs."
+    overreach_flag: false
+    single_source: true
+    conflict_with: c086
+
+  - id: c086
+    text: "34 colleges offer men's squash varsity and 32 offer women's varsity."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-development
+    question_id: Q027
+    sources:
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "34 men's; 32 women's"
+        extraction_context: "34 colleges offer men's squash varsity, 32 offer women's varsity."
+    overreach_flag: false
+    single_source: true
+    conflict_with: c085
+    conflict_note: "Sparkadmissions says 37 total programs; xfactoradmissions says 34 men's + 32 women's (implied 66 total or overlap). Numbers don't reconcile — one source may count co-ed programs differently. Verify against CSA official program list."
+
+  - id: c087
+    text: "College squash varsity teams typically consist of 10-20 players; coaches may recruit only one or two players per year."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-development
+    question_id: Q027
+    sources:
+      - file: raw/web/journalistic/2026-04-24_sparkadmissions-college-squash-recruiting.md
+        url: https://www.sparkadmissions.com/blog/how-to-get-recruited-to-college-for-squash/
+        tier: L2-authoritative
+        extracted_value: "10-20 players; 1-2 recruited per year"
+        extraction_context: "Varsity college squash teams are relatively small, typically consisting of 10 to 20 players. As a result, college coaches may recruit only one or two players per year."
+    overreach_flag: false
+    single_source: true
+
+  - id: c088
+    text: "Ivy League and Division III schools offer no athletic scholarships for squash."
+    type: categorical
+    priority: should_verify
+    entity: junior-squash-development
+    question_id: Q029
+    sources:
+      - file: raw/web/journalistic/2026-04-24_sparkadmissions-college-squash-recruiting.md
+        url: https://www.sparkadmissions.com/blog/how-to-get-recruited-to-college-for-squash/
+        tier: L2-authoritative
+        extracted_value: "no athletic scholarships"
+        extraction_context: "Neither Ivy League schools nor Division III schools offer athletic scholarships."
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "no scholarship schools"
+        extraction_context: "Squash: Top 5 most advantageous niche sports; strong Ivy presence; no scholarship schools."
+    overreach_flag: false
+
+  - id: c089
+    text: "Recruited athletes at Ivy League schools are approximately 20 times more likely to be accepted; Harvard athletes rated 1-2 on admissions scale have an 83% acceptance rate; athletes rated 4 have a 70.5% acceptance rate versus 7.6% for non-athletes."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-development
+    question_id: Q029
+    sources:
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "20x more likely; 83% / 70.5% / 7.6% Harvard data"
+        extraction_context: "Recruited athletes 20x more likely to be accepted at Ivy League schools. Harvard athletes rated 1-2 on admissions scale (best): 83% acceptance rate. Harvard athletes rated 4: 70.5% acceptance rate vs 7.6% for non-athletes. (from OpenAdmits/Harvard data)"
+    overreach_flag: true
+    overreach_reason: "Harvard-specific admissions data generalized to 'Ivy League schools.' Harvard data should not be stated as universal Ivy League fact. Source acknowledges this is OpenAdmits/Harvard data, not multi-institution data."
+    single_source: true
+
+  - id: c090
+    text: "Nearly 90% of Ivy League squash players attended private high schools with fees around $30,000."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-development
+    question_id: Q029
+    sources:
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "~90%; private HS ~$30,000"
+        extraction_context: "Nearly 90% of Ivy League squash players attended private high schools with fees around $30,000."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Single L2 source; methodology for this statistic not described. Should verify original data source."
+
+  # ================================================================
+  # ENTITY: junior-squash-equipment
+  # ================================================================
+
+  - id: c091
+    text: "For children under 8, recommended squash racket: 23-inch frame, ~180g weight. For ages 8-11: 25-inch frame, 120-150g. For 12+ or 150cm+ (5ft) tall: can use full-length frames, should remain <=130g until strength is proven."
+    type: categorical
+    priority: should_verify
+    entity: junior-squash-equipment
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+        url: https://my-squash.com/en/blogs/blogs/best-squash-racket-for-juniors
+        tier: L3-aggregator
+        extracted_value: "under 8: 23in, ~180g; 8-11: 25in, 120-150g; 12+/5ft: full length, <=130g"
+        extraction_context: "Under 8 years: Frame length: 23 inches, Weight: ~180g. 8-11 years: Frame length: 25 inches, Weight: 120-150g unstrung. 12+ years or 150cm+ (5ft) tall: Can transition to full-length frames. Should remain <=130g unstrung until strength and technique are proven."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator source only; age-to-size guidance is generally consistent with manufacturer guidance but should be cross-referenced."
+
+  - id: c092
+    text: "Most junior squash rackets cost approximately $50; full-size rackets for juniors are available under $120."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-equipment
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+        url: https://my-squash.com/en/blogs/blogs/best-squash-racket-for-juniors
+        tier: L3-aggregator
+        extracted_value: "~$50 junior rackets; full-size under $120"
+        extraction_context: "Most junior squash rackets: ~$50. Full-size rackets for juniors: under $120."
+    overreach_flag: false
+    single_source: true
+
+  - id: c093
+    text: "Squash eyeguards must meet or exceed ASTM-F3164 standard; cost approximately $20-40 for basic certified eyeguards; US Squash mandates eyeguards for ALL juniors in all sanctioned events."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-equipment
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+        url: https://my-squash.com/en/blogs/blogs/best-squash-racket-for-juniors
+        tier: L3-aggregator
+        extracted_value: "ASTM-F3164; $20-40; mandatory all juniors all sanctioned events"
+        extraction_context: "Must meet or exceed ASTM-F3164 standard. Cost: approximately $20-40 for basic certified eyeguards. US Squash mandates eyeguards for ALL juniors in all sanctioned events."
+      - file: raw/web/journalistic/2026-04-24_squash-injuries-safety.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "ASTM-F3164; US Squash rule — all players in all accredited events"
+        extraction_context: "US Squash rule: All players (and coaches) MUST wear protective eyewear in ALL US Squash accredited events. Standard required: ASTM-F3164 certified eyeguards."
+    overreach_flag: false
+
+  - id: c094
+    text: "The World Squash Federation made mandatory eyewear a recommendation for all juniors since 1996."
+    type: temporal
+    priority: should_verify
+    entity: junior-squash-equipment
+    question_id: Q034
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-injuries-safety.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "WSF mandatory eyewear recommendation since 1996"
+        extraction_context: "World Squash Federation: mandatory eyewear recommendation for all juniors since 1996."
+    overreach_flag: false
+    single_source: true
+
+  - id: c095
+    text: "Junior squash equipment starter kit total cost estimate: budget $130-170; mid-range $200-300."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-equipment
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+        url: https://my-squash.com/en/blogs/blogs/best-squash-racket-for-juniors
+        tier: L3-aggregator
+        extracted_value: "$130-170 budget; $200-300 mid-range"
+        extraction_context: "Total: ~$130-170 (budget); ~$200-300 (mid-range). Components: racket, eyeguards, court shoes, balls, bag."
+      - file: raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "$130-170 budget; $200-300 mid-range"
+        extraction_context: "Equipment Costs: Starter Kit Total: ~$130-170 (budget), ~$200-300 (mid-range)."
+    overreach_flag: false
+
+  - id: c096
+    text: "Squash ball types by player level: yellow or blue dot (bouncier, for beginners/young players); white or red dot (intermediate); single or double yellow dot (advanced, least bouncy, used in adult play)."
+    type: categorical
+    priority: may_skip
+    entity: junior-squash-equipment
+    question_id: Q017
+    sources:
+      - file: raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+        url: https://my-squash.com/en/blogs/blogs/best-squash-racket-for-juniors
+        tier: L3-aggregator
+        extracted_value: "yellow/blue dot beginner; white/red dot intermediate; yellow dot advanced"
+        extraction_context: "Introductory/junior balls: Yellow or blue dot (bouncier, slower, suitable for beginners and young players). Intermediate: White or red dot. Advanced: Single yellow dot or double yellow dot."
+    overreach_flag: false
+    single_source: true
+
+  - id: c097
+    text: "A squash ball traveling at 150 KPH has the same energy impact as a .22 bullet; approximately 2,000 eye injuries per year occur from squash balls and 2,400 from racquets (ROSPA data)."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-equipment
+    question_id: Q034
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-injuries-safety.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "150 KPH = .22 bullet energy; ~2,000 eye injuries/year balls; ~2,400 racquets"
+        extraction_context: "Squash ball at 150 KPH = same energy impact as .22 bullet. UK Royal Society for the Prevention of Accidents: ~2,000 eye injuries/year from squash balls; ~2,400 from racquets."
+      - file: raw/web/review/2026-04-24_junior-squash-equipment-guide.md
+        url: https://my-squash.com/en/blogs/blogs/best-squash-racket-for-juniors
+        tier: L3-aggregator
+        extracted_value: "150 KPH = .22 bullet; ~2,000 eye injuries from balls (ROSPA)"
+        extraction_context: "Risk: Squash ball at 150 KPH has same energy as .22 bullet; ~2,000 eye injuries per year from squash balls (ROSPA data)."
+    overreach_flag: false
+
+  # ================================================================
+  # ENTITY: junior-squash-costs
+  # ================================================================
+
+  - id: c098
+    text: "Bay Area recreational junior squash annual cost estimate: $2,000-4,000/year."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-costs
+    question_id: Q015
+    sources:
+      - file: raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "~$2,000-4,000/year recreational"
+        extraction_context: "Junior squash (Bay Area, recreational): ~$2,000-4,000/year."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Synthesized estimate from L1 sources; individual components verified but total is an editorial aggregate."
+
+  - id: c099
+    text: "Bay Area competitive junior squash (regional/national level) annual cost estimate: $10,000-20,000+/year."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-costs
+    question_id: Q016
+    sources:
+      - file: raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "$10,000-20,000+/year competitive"
+        extraction_context: "Junior squash (Bay Area, competitive): ~$10,000-20,000+/year."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Synthesized estimate; individual line items are sourced from L1 data but the aggregate is editorial."
+
+  - id: c100
+    text: "Squash Zone Junior Access membership first-year total: $1,430; subsequent years $1,320. Junior PLUS first year: $2,080; subsequent years $1,920."
+    type: numerical
+    priority: must_verify
+    entity: junior-squash-costs
+    question_id: Q015
+    sources:
+      - file: raw/web/journalistic/2026-04-24_junior-squash-cost-breakdown.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "Access: $1,430 yr1, $1,320 subsequent; PLUS: $2,080 yr1, $1,920 subsequent"
+        extraction_context: "Junior Access Membership: $110/month + $110 initiation = $1,430 first year, $1,320 subsequent years. Junior PLUS Membership: $160/month + $160 initiation = $2,080 first year, $1,920 subsequent years."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Calculated from verified Squash Zone L1 pricing; math is correct given c037 source data."
+
+  # ================================================================
+  # ENTITY: junior-squash-health-and-development
+  # ================================================================
+
+  - id: c101
+    text: "Research strongly suggests multi-sport participation until puberty reduces injury risk, prevents burnout, and enhances long-term athletic development compared to early specialization; specializing before age 12 is associated with higher dropout rates."
+    type: causal
+    priority: may_skip
+    entity: junior-squash-health-and-development
+    question_id: Q033
+    sources:
+      - file: raw/web/journalistic/2026-04-24_junior-squash-burnout-prevention.md
+        url: https://www.onyxsquash.org.uk/squash-academy/tips-on-overtraining-in-squash/
+        tier: L2-authoritative
+        extracted_value: "multi-sport until puberty; specializing before 12 = higher dropout"
+        extraction_context: "Research strongly suggests multi-sport participation until puberty reduces injury risk, prevents burnout, and enhances long-term athletic development compared to early specialization. Specializing before age 12 associated with higher dropout rates."
+    overreach_flag: false
+    single_source: true
+
+  - id: c102
+    text: "If burnout occurs, athletes typically need 4 to 12 weeks of rest time before gradually returning to sports."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-health-and-development
+    question_id: Q033
+    sources:
+      - file: raw/web/journalistic/2026-04-24_junior-squash-burnout-prevention.md
+        url: https://www.onyxsquash.org.uk/squash-academy/tips-on-overtraining-in-squash/
+        tier: L2-authoritative
+        extracted_value: "4 to 12 weeks rest"
+        extraction_context: "Rest is the only treatment. Athletes typically need 'four to 12 weeks of rest time' before gradually returning to sports."
+    overreach_flag: false
+    single_source: true
+
+  - id: c103
+    text: "Squash vs tennis: squash burns 600-900 calories/hour; tennis 400-700 calories/hour."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-health-and-development
+    question_id: Q030
+    sources:
+      - file: raw/web/review/2026-04-24_squash-vs-tennis-comparison.md
+        url: https://my-squash.com/en/blogs/blogs/squash-vs-tennis-vs-pickleball
+        tier: L3-aggregator
+        extracted_value: "squash 600-900 cal/hr; tennis 400-700 cal/hr"
+        extraction_context: "Squash: 600-900 calories/hour. Tennis: 400-700 calories/hour."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "L3 aggregator; caloric burn depends heavily on individual, intensity, and session type. Range is plausible but should be confirmed by sports science source."
+
+  - id: c104
+    text: "Squash has approximately 15-20 court locations in the Bay Area, all private/club-based."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-health-and-development
+    question_id: Q030
+    sources:
+      - file: raw/web/review/2026-04-24_squash-vs-tennis-comparison.md
+        url: https://my-squash.com/en/blogs/blogs/squash-vs-tennis-vs-pickleball
+        tier: L3-aggregator
+        extracted_value: "~15-20 court locations; all private/club"
+        extraction_context: "Squash has ~15-20 court locations in the Bay Area, all private/club."
+    overreach_flag: true
+    overreach_reason: "Estimate from L3 aggregator without methodology stated. NorCal Squash org page says 20+ facilities; actual court count not the same as location count. Figure should be qualified as an estimate."
+    single_source: true
+
+  - id: c105
+    text: "Squash strength training is appropriate from approximately age 12-13+ with proper form guidance; children under 12 should focus on movement patterns and fun over structured strength training."
+    type: categorical
+    priority: should_verify
+    entity: junior-squash-health-and-development
+    question_id: Q037
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-junior-cross-training.md
+        url: https://www.onyxsquash.org.uk/squash-academy/tips-on-strength-agility-for-junior-squash-players/
+        tier: L2-authoritative
+        extracted_value: "12-13+ strength training; under 12 focus on movement"
+        extraction_context: "Young players (under 12) should focus on movement patterns and fun over structured strength training. Strength training appropriate from ~12-13+ with proper form guidance."
+    overreach_flag: false
+    single_source: true
+
+  - id: c106
+    text: "70% of squash conditioning work should take place on-court to maintain squash-specific fitness foundation."
+    type: numerical
+    priority: should_verify
+    entity: junior-squash-health-and-development
+    question_id: Q037
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-junior-cross-training.md
+        url: https://www.onyxsquash.org.uk/squash-academy/tips-on-strength-agility-for-junior-squash-players/
+        tier: L2-authoritative
+        extracted_value: "70% on-court"
+        extraction_context: "70% of conditioning work should take place on-court to maintain squash-specific foundation."
+    overreach_flag: false
+    single_source: true
+
+  # ================================================================
+  # ENTITY: mental-game-resources
+  # ================================================================
+
+  - id: c107
+    text: "Jesse Engelbrecht's Parents Playbook workshop (squashplaybook.com) is a free 20-minute online workshop covering parental support in junior squash; 'The Squash Playbook' eBook is available for $9."
+    type: numerical
+    priority: must_verify
+    entity: mental-game-resources
+    question_id: QGF006
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-mental-game-junior.md
+        url: https://www.squashplaybook.com/Parent-Playbook
+        tier: L2-authoritative
+        extracted_value: "free 20-min workshop; $9 eBook"
+        extraction_context: "20-minute workshop: FREE. 'The Squash Playbook' eBook: $9 (also available on Amazon)."
+      - file: raw/web/journalistic/2026-04-24_squash-parent-resources.md
+        url: https://www.squashplaybook.com/Parent-Playbook
+        tier: L2-authoritative
+        extracted_value: "free 20-min workshop; $9 eBook"
+        extraction_context: "Format: Free 20-minute workshop. The Squash Playbook — $9 tactical guide."
+    overreach_flag: false
+
+  - id: c108
+    text: "Jesse Engelbrecht has a Master's degree in Sport and Exercise Psychology, competed 10+ years on the professional squash tour, and won 15 international titles."
+    type: categorical
+    priority: should_verify
+    entity: mental-game-resources
+    question_id: QGF006
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-mental-game-junior.md
+        url: https://www.squashplaybook.com/Parent-Playbook
+        tier: L2-authoritative
+        extracted_value: "Master's sport psych; 10+ years pro; 15 international titles"
+        extraction_context: "Master's degree in Sport and Exercise Psychology. Over a decade competing on the professional squash tour. 15 international titles as a professional player."
+      - file: raw/web/journalistic/2026-04-24_squash-parent-resources.md
+        url: https://www.squashplaybook.com/Parent-Playbook
+        tier: L2-authoritative
+        extracted_value: "same credentials"
+        extraction_context: "Ex-professional squash player (10+ years on Pro World Tour, 15 international titles). Master's degree in Sport and Exercise Psychology."
+    overreach_flag: false
+
+  - id: c109
+    text: "No sideline coaching is permitted during squash matches; players must develop independent pre-point routines."
+    type: categorical
+    priority: should_verify
+    entity: mental-game-resources
+    question_id: QGF006
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-mental-game-junior.md
+        url: https://www.squashplaybook.com/Parent-Playbook
+        tier: L2-authoritative
+        extracted_value: "no sideline coaching during matches"
+        extraction_context: "No sideline coaching is permitted during squash matches (unlike many team sports). Players must develop independent pre-point routines."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Should verify against official US Squash rules/tournament policies (L1 source)."
+
+  # ================================================================
+  # ENTITY: squash-vs-tennis-comparison
+  # ================================================================
+
+  - id: c110
+    text: "College squash: 37 varsity programs (Ivy League and top D3); approximately 60 spots per gender per year; no athletic scholarships. College tennis: 900+ NCAA programs; D1 scholarships available; far more spots."
+    type: comparative
+    priority: should_verify
+    entity: squash-vs-tennis-comparison
+    question_id: Q030
+    sources:
+      - file: raw/web/review/2026-04-24_squash-vs-tennis-comparison.md
+        url: https://my-squash.com/en/blogs/blogs/squash-vs-tennis-vs-pickleball
+        tier: L3-aggregator
+        extracted_value: "squash: 37 programs, ~60 spots/gender, no scholarships; tennis: 900+ programs, D1 scholarships"
+        extraction_context: "Squash: 37 varsity programs (all elite schools: Ivy League, top D3); ~60 spots per gender per year; no athletic scholarships. Tennis: 900+ NCAA programs; D1 scholarships available; far more spots."
+    overreach_flag: false
+    single_source: true
+    conflict_with: c085
+    conflict_note: "Same '37 programs' figure as Sparkadmissions source; conflicts with xfactoradmissions citing 34 men's + 32 women's programs separately."
+
+  # ================================================================
+  # ENTITY: norcal-squash (continued), bay-area-squash-geography, etc.
+  # (Claims c111-c122 merged from claims-register-tail.yaml)
+  # ================================================================
+
+  - id: c111
+    text: "Squash Zone Peninsula coaches listed on NorCal Squash: Richard Elliott, Aisling Blake, Johann Huang, Zephan Huang, Mustafa Nawar."
+    type: categorical
+    priority: may_skip
+    entity: squash-zone
+    question_id: Q012
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-lessons.md
+        url: https://norcalsquash.org/lessons/
+        tier: L1-official
+        extracted_value: "5 named Peninsula coaches at Squash Zone"
+        extraction_context: "Peninsula: Richard Elliott, Aisling Blake, Johann Huang, Zephan Huang, Mustafa Nawar (Squash Zone)."
+      - file: raw/web/official/2026-04-24_squash-zone-programs.md
+        url: https://www.squash.zone/
+        tier: L1-official
+        extracted_value: "same 5 coaches"
+        extraction_context: "Coaches (Peninsula Region): Richard Elliott, Aisling Blake, Johann Huang, Zephan Huang, Mustafa Nawar."
+    overreach_flag: false
+
+  - id: c112
+    text: "Bay Club Redwood Shores coaches: Charlie Johnson, Vanessa Raj, Bransten Ming. Bay Club Santa Clara coach: Jonathan Perry."
+    type: categorical
+    priority: may_skip
+    entity: bay-club
+    question_id: Q012
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-lessons.md
+        url: https://norcalsquash.org/lessons/
+        tier: L1-official
+        extracted_value: "Redwood Shores: Johnson/Raj/Ming; Santa Clara: Perry"
+        extraction_context: "Charlie Johnson, Vanessa Raj, Bransten Ming (Bay Club Redwood Shores). Jonathan Perry (Bay Club Santa Clara)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c113
+    text: "Gareth Webber coaches at the Olympic Club (San Francisco)."
+    type: categorical
+    priority: may_skip
+    entity: norcal-squash
+    question_id: Q005
+    sources:
+      - file: raw/web/official/2026-04-24_norcalsquash-lessons.md
+        url: https://norcalsquash.org/lessons/
+        tier: L1-official
+        extracted_value: "Gareth Webber — Olympic Club SF"
+        extraction_context: "San Francisco: Gareth Webber (Olympic Club)."
+    overreach_flag: false
+    single_source: true
+
+  - id: c114
+    text: "The East Bay is meaningfully underserved for competitive junior squash compared to the Peninsula; no East Bay junior squash academy analogous to Squash Zone or HISA exists."
+    type: comparative
+    priority: should_verify
+    entity: bay-area-squash-geography
+    question_id: QGF005
+    sources:
+      - file: raw/web/official/2026-04-24_east-bay-squash-clubs-survey.md
+        url: multiple
+        tier: L1-official
+        extracted_value: "East Bay underserved; no academy equivalent"
+        extraction_context: "No East Bay-specific junior squash academy or development program was found (analogous to Squash Zone or HISA on the Peninsula). The East Bay is meaningfully underserved for competitive junior squash compared to the Peninsula."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "Synthesis document; assessment is editorial but grounded in L1 source inventory."
+
+  - id: c115
+    text: "Squash is described as 'heavily east coast centric' with a minor concentration in California; sources for college teams come from 'a relatively small clutch of elite private high schools in the northeast, and a couple in California.'"
+    type: comparative
+    priority: should_verify
+    entity: bay-area-squash-geography
+    question_id: Q032
+    sources:
+      - file: raw/web/journalistic/2026-04-24_college-squash-admissions-advantage.md
+        url: https://xfactoradmissions.com/sports-and-athlete-recruitment/what-is-squash-for-the-junior-player
+        tier: L2-authoritative
+        extracted_value: "heavily east coast; minor CA concentration; few CA private schools"
+        extraction_context: "Squash is 'heavily east coast centric sport, with a minor concentration in California.' Sources for college teams come from 'a relatively small clutch of elite private high schools in the northeast, and a couple in California.'"
+    overreach_flag: false
+    single_source: true
+
+  - id: c116
+    text: "Bay Area notable junior squash achievers include: Madison Ho (U-11 National Championship winner, unblemished record 2015-16), Gautham Suresh (multiple NorCal BU11/BU13 wins), Abhinav Athreya (NorCal BU13), Nikhil Prasad (NorCal BU15), Abhimanyu Gupta (NorCal BU17)."
+    type: categorical
+    priority: may_skip
+    entity: bay-area-squash-geography
+    question_id: Q032
+    sources:
+      - file: raw/web/journalistic/2026-04-24_norcal-squash-league-juniors.md
+        url: https://norcalsquash.org/category/juniors/
+        tier: L1-official
+        extracted_value: "5 named Bay Area junior achievers with titles"
+        extraction_context: "Notable Bay Area Junior Achievements: Madison Ho: U-11 National Championship winner, unblemished record 2015-16 season. Gautham Suresh: multiple NorCal BU11/BU13 wins. Abhinav Athreya: NorCal BU13 champion. Nikhil Prasad: NorCal BU15 champion. Abhimanyu Gupta: NorCal BU17 champion."
+    overreach_flag: false
+    single_source: true
+
+  - id: c117
+    text: "Competitive squash time demands: recreational 2-3 hours/week; club competitive 6-10 hours/week; advanced competitive 12-20 hours/week."
+    type: numerical
+    priority: should_verify
+    entity: squash-academic-balance
+    question_id: Q036
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-academic-balance.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "recreational 2-3 hr; club competitive 6-10 hr; advanced 12-20 hr"
+        extraction_context: "Recreational (1-2x/week): 2-3 hours total. Club competitive (3-4x/week): 6-10 hours/week. Advanced competitive (5-6x/week): 12-20 hours/week."
+    overreach_flag: false
+    single_source: true
+
+  - id: c118
+    text: "National squash events (JCT, championships) may require Thursday-Sunday travel; East Coast national events require 3-4 days travel from Bay Area."
+    type: temporal
+    priority: should_verify
+    entity: squash-academic-balance
+    question_id: Q036
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squash-academic-balance.md
+        url: multiple-sources
+        tier: L2-authoritative
+        extracted_value: "JCT travel Thu-Sun; East Coast events 3-4 days"
+        extraction_context: "National events (JCT, championships) may require travel Thursday-Sunday. East Coast national events require 3-4 days travel."
+    overreach_flag: false
+    single_source: true
+
+  - id: c119
+    text: "US Squash Drive to LA28 roadshow cities include Chicago (May 28, Project Beacon), Boston (June 10, University Club), and Philadelphia, New York, San Francisco, Los Angeles (details TBD)."
+    type: temporal
+    priority: must_verify
+    entity: us-squash
+    question_id: Q031
+    sources:
+      - file: raw/web/official/2026-04-24_ussquash-olympics-la28.md
+        url: https://ussquash.org/la28/
+        tier: L1-official
+        extracted_value: "Chicago May 28; Boston June 10; SF listed TBD"
+        extraction_context: "Chicago, IL — May 28 (confirmed, Project Beacon partnership). Boston, MA �� June 10 (confirmed, University Club). Philadelphia, PA, New York, NY, San Francisco, CA, Los Angeles, CA — Details coming soon."
+    overreach_flag: false
+    single_source: true
+
+  - id: c120
+    text: "Squash technical progression: Stage 1 (Beginner) — grip, basic forehand/backhand, court awareness, safety; Stage 2 (Intermediate) — footwork, T-position, length game, serve/return; Stage 3 (Advanced) — tactical play, deception, volleys, boasts, mental game, conditioning."
+    type: categorical
+    priority: may_skip
+    entity: squash-skills-technique
+    question_id: Q003
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squashskills-fundamentals.md
+        url: https://blog.squashskills.com/-/zero-to-hero-key-technical-elements-mastering-the-fundamentals-of-squash/
+        tier: L2-authoritative
+        extracted_value: "3 named stages with skills"
+        extraction_context: "Stage 1 (Beginner): Grip, basic forehand/backhand, court awareness, safety. Stage 2 (Intermediate): Footwork patterns, T-position return, length game, serve/return. Stage 3 (Advanced): Tactical play, deception, volleys, boasts, mental game, physical conditioning."
+    overreach_flag: false
+    single_source: true
+
+  - id: c121
+    text: "In squash, players should always return to the T position after every shot; split-step on opponent's swing maximizes reaction time."
+    type: process
+    priority: may_skip
+    entity: squash-skills-technique
+    question_id: Q003
+    sources:
+      - file: raw/web/journalistic/2026-04-24_squashskills-fundamentals.md
+        url: https://blog.squashskills.com/-/zero-to-hero-key-technical-elements-mastering-the-fundamentals-of-squash/
+        tier: L2-authoritative
+        extracted_value: "T position after every shot; split-step"
+        extraction_context: "Always return to the T position (center of court) after every shot. Split-step on opponent's swing to maximize reaction time."
+    overreach_flag: false
+    single_source: true
+
+  - id: c122
+    text: "LearnSquash offers junior clinics for ages 6-18; private lessons cost $100 per 45-minute session (individual) or $55 per person for semi-private."
+    type: numerical
+    priority: may_skip
+    entity: learnsquash
+    question_id: Q009
+    sources:
+      - file: raw/web/journalistic/2026-04-24_learnsquash-juniors.md
+        url: https://www.learnsquash.com/juniors
+        tier: L2-authoritative
+        extracted_value: "ages 6-18; $100/45 min individual; $55/person semi-private"
+        extraction_context: "LearnSquash offers junior clinics for ages 6-18. Private lessons cost $100 per 45-minute session (individual) or $55 per person for semi-private instruction."
+    overreach_flag: false
+    single_source: true
+    single_source_note: "LearnSquash location appears to be non-Bay-Area; Bay Area relevance of pricing data uncertain."
+
+# ================================================================
+# COVERAGE SUMMARY
+# ================================================================
+
+coverage_summary:
+  total_claims_extracted: 122
+
+  by_entity:
+    us-squash:
+      total_claims: 23
+      must_verify: 10
+      should_verify: 10
+      may_skip: 3
+      overreach_flags: 0
+      claims: [c001, c002, c003, c004, c005, c006, c007, c008, c009, c010, c011, c012, c013, c014, c015, c016, c017, c018, c019, c020, c021, c022, c119]
+
+    norcal-squash:
+      total_claims: 13
+      must_verify: 3
+      should_verify: 6
+      may_skip: 4
+      overreach_flags: 0
+      claims: [c023, c024, c025, c026, c027, c028, c029, c030, c031, c032, c033, c113]
+
+    squash-zone:
+      total_claims: 14
+      must_verify: 7
+      should_verify: 5
+      may_skip: 2
+      overreach_flags: 0
+      claims: [c034, c035, c036, c037, c038, c039, c040, c041, c042, c043, c044, c045, c111]
+
+    haq-international-squash-academy:
+      total_claims: 5
+      must_verify: 0
+      should_verify: 5
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c046, c047, c048, c049, c050]
+
+    altius-performance-squash:
+      total_claims: 4
+      must_verify: 0
+      should_verify: 4
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c051, c052, c053, c054]
+
+    bay-club:
+      total_claims: 7
+      must_verify: 0
+      should_verify: 5
+      may_skip: 2
+      overreach_flags: 0
+      claims: [c055, c056, c057, c058, c112]
+
+    squashdrive:
+      total_claims: 5
+      must_verify: 2
+      should_verify: 3
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c059, c060, c061, c062, c063]
+
+    oakwood-athletic-club:
+      total_claims: 6
+      must_verify: 2
+      should_verify: 3
+      may_skip: 1
+      overreach_flags: 0
+      claims: [c064, c065, c066, c067, c068, c069]
+
+    stanford-university:
+      total_claims: 3
+      must_verify: 1
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c070, c071, c072]
+
+    tournament-calendar:
+      total_claims: 6
+      must_verify: 5
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c073, c074, c075, c076, c077, c078]
+
+    squash-rules-and-fundamentals:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 1
+      may_skip: 2
+      overreach_flags: 0
+      claims: [c079, c080, c081]
+
+    junior-squash-development:
+      total_claims: 9
+      must_verify: 2
+      should_verify: 5
+      may_skip: 2
+      overreach_flags: 2
+      claims: [c082, c083, c084, c085, c086, c087, c088, c089, c090]
+
+    junior-squash-equipment:
+      total_claims: 7
+      must_verify: 2
+      should_verify: 3
+      may_skip: 2
+      overreach_flags: 0
+      claims: [c091, c092, c093, c094, c095, c096, c097]
+
+    junior-squash-costs:
+      total_claims: 3
+      must_verify: 3
+      should_verify: 0
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c098, c099, c100]
+
+    junior-squash-health-and-development:
+      total_claims: 6
+      must_verify: 0
+      should_verify: 4
+      may_skip: 2
+      overreach_flags: 1
+      claims: [c101, c102, c103, c104, c105, c106]
+
+    mental-game-resources:
+      total_claims: 3
+      must_verify: 1
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c107, c108, c109]
+
+    squash-vs-tennis-comparison:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 1
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c110]
+
+    bay-area-squash-geography:
+      total_claims: 3
+      must_verify: 0
+      should_verify: 2
+      may_skip: 1
+      overreach_flags: 0
+      claims: [c114, c115, c116]
+
+    squash-academic-balance:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 2
+      may_skip: 0
+      overreach_flags: 0
+      claims: [c117, c118]
+
+    squash-skills-technique:
+      total_claims: 2
+      must_verify: 0
+      should_verify: 0
+      may_skip: 2
+      overreach_flags: 0
+      claims: [c120, c121]
+
+    learnsquash:
+      total_claims: 1
+      must_verify: 0
+      should_verify: 0
+      may_skip: 1
+      overreach_flags: 0
+      claims: [c122]
+
+  single_source_claims: 60
+  multi_source_claims: 62
+  overreach_flags: 5
+  conflicts_detected: 1
+
+  conflicts:
+    - id: c085_vs_c086
+      description: "College varsity squash program count: Sparkadmissions (c085) says 37 total; xfactoradmissions (c086) says 34 men's + 32 women's programs separately. Numbers don't reconcile — one may count co-ed programs differently. Verify against College Squash Association (CSA) official list."
+
+  overreach_instances:
+    - id: c084
+      entity: junior-squash-development
+      reason: "Ranking thresholds for Ivy/D1/D3 stated as ranges; source explicitly labels them rough estimates varying by program, year, gender. Not official program-published thresholds."
+    - id: c089
+      entity: junior-squash-development
+      reason: "Harvard admissions acceptance rate data generalized to 'Ivy League schools.' Single-institution data from OpenAdmits/Harvard; other Ivies not confirmed."
+    - id: c104
+      entity: junior-squash-health-and-development
+      reason: "Estimate of 15-20 Bay Area court locations from L3 aggregator without methodology. NorCal org says 20+ facilities — court count vs location count conflated."
+    - id: c110_conflict
+      entity: squash-vs-tennis-comparison
+      reason: "37-program figure from L3 aggregator conflicts with L2 source citing separate men's/women's counts."
+
+  unanswered_questions:
+    - question_id: Q032
+      note: "Bay Area vs Northeast competitive depth comparison partially addressed (c115, c116) but lacks quantitative ranking data comparing regional depth per capita."
+    - question_id: Q026_quantitative
+      note: "Talent assessment guidance covered by synthesized L2 sources but no L1/peer-reviewed data on objective talent identification milestones exists in sources."
+
+  data_quality_notes:
+    - "Several source files use 'multiple-sources' or 'synthesized-from-multiple-sources' as URLs, meaning research-agent synthesized content rather than direct L1 page fetch. Claims from these files are treated as L2 at best."
+    - "HISA, Altius Performance, Bay Club, and Oakwood Athletic Club pricing are not publicly available — pricing claims absent for all four. Direct contact required."
+    - "NorCal Squash junior tournament calendar for 2025-26 was not separately published at time of research (April 2026). ClubLocker direct search required for current junior tournament schedule beyond JCT #2."
+    - "LearnSquash (c082, c122) appears to be a non-Bay-Area provider. Its pricing and age data are referenced for general guidance only; Bay Area applicability uncertain."
+    - "SquashDrive Executive Director hiring (c033) described as 'recent' in 2020 source — this is stale; current leadership should be re-verified."
